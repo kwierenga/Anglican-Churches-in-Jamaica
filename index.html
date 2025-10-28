@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anglican Churches of Jamaica</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Anglican Churches of Jamaica</h1>
+            <p>Exploring historical churches across the island</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search churches by name, location, or parish...">
+            <select id="parish-filter">
+                <option value="">All Parishes</option>
+                <option value="kingston">Kingston</option>
+                <option value="st andrew">St. Andrew</option>
+                <option value="st catherine">St. Catherine</option>
+                <option value="clarendon">Clarendon</option>
+                <option value="manchester">Manchester</option>
+                <option value="st elizabeth">St. Elizabeth</option>
+                <option value="westmoreland">Westmoreland</option>
+                <option value="hanover">Hanover</option>
+                <option value="st james">St. James</option>
+                <option value="trelawny">Trelawny</option>
+                <option value="st ann">St. Ann</option>
+                <option value="st mary">St. Mary</option>
+                <option value="portland">Portland</option>
+                <option value="st thomas">St. Thomas</option>
+            </select>
+        </div>
+
+        <div class="layout">
+            <div class="sidebar">
+                <div class="church-count">
+                    <span id="church-count">10</span> Churches Displayed
+                </div>
+                <div id="church-list" class="church-list">
+                    <!-- Church cards will be loaded here -->
+                </div>
+            </div>
+
+            <div class="map-container">
+                <div id="map"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/churches.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
