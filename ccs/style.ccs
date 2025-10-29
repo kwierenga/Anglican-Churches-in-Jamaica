@@ -1,0 +1,669 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #2C2C2C;
+    background: linear-gradient(135deg, #f8f6f0 0%, #f0ede5 100%);
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header - Using Anglican Red (Scarlet) */
+header {
+    background: linear-gradient(135deg, #8B0000 0%, #A52A2A 100%);
+    color: #FFFFFF;
+    padding: 1rem 0;
+    box-shadow: 0 2px 10px rgba(139, 0, 0, 0.3);
+    border-bottom: 4px solid #FFD700;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.back-link {
+    color: #FFD700;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.back-link:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+/* Search and Filters */
+.search-bar {
+    display: flex;
+    gap: 1rem;
+    margin: 1.5rem 0;
+    flex-wrap: wrap;
+}
+
+#search, #parish-filter {
+    padding: 0.75rem;
+    border: 2px solid #8B0000;
+    border-radius: 5px;
+    font-size: 1rem;
+    flex: 1;
+    min-width: 200px;
+    background: #FFFFFF;
+    color: #2C2C2C;
+}
+
+#search:focus, #parish-filter:focus {
+    outline: none;
+    border-color: #FFD700;
+    box-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+}
+
+/* Layout */
+.layout {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 2rem;
+    height: calc(100vh - 200px);
+}
+
+/* Sidebar */
+.sidebar {
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(139, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #8B0000;
+}
+
+.church-count {
+    background: linear-gradient(135deg, #8B0000 0%, #A52A2A 100%);
+    color: #FFFFFF;
+    padding: 1rem;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid #FFD700;
+}
+
+.church-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+    background: #faf9f7;
+}
+
+.church-card {
+    background: linear-gradient(135deg, #FFFFFF 0%, #f8f6f0 100%);
+    border: 2px solid #8B0000;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(139, 0, 0, 0.1);
+}
+
+.church-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(139, 0, 0, 0.2);
+    border-color: #FFD700;
+    background: linear-gradient(135deg, #FFFFFF 0%, #fffefc 100%);
+}
+
+.church-card h3 {
+    color: #8B0000;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.church-card .location {
+    color: #5D5D5D;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.church-card .status {
+    color: #8B0000;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.no-results {
+    text-align: center;
+    color: #666;
+    padding: 2rem;
+    font-style: italic;
+}
+
+/* Map Container */
+.map-container {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(139, 0, 0, 0.15);
+    border: 2px solid #8B0000;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+/* Church Detail Page */
+.church-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin: 2rem 0;
+}
+
+.church-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.main-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(139, 0, 0, 0.15);
+    border: 2px solid #8B0000;
+}
+
+.image-thumbnails {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.thumbnail {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.thumbnail:hover, .thumbnail.active {
+    opacity: 1;
+    border-color: #8B0000;
+    transform: scale(1.05);
+}
+
+.church-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.introduction {
+    background: linear-gradient(135deg, #FFFFFF 0%, #f8f6f0 100%);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(139, 0, 0, 0.1);
+    border: 2px solid #8B0000;
+}
+
+.introduction h2 {
+    color: #8B0000;
+    border-bottom: 2px solid #FFD700;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.info-section {
+    background: linear-gradient(135deg, #FFFFFF 0%, #f8f6f0 100%);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(139, 0, 0, 0.1);
+    border: 2px solid #8B0000;
+    transition: all 0.3s ease;
+}
+
+.info-section:hover {
+    box-shadow: 0 6px 20px rgba(139, 0, 0, 0.15);
+}
+
+.info-section h3 {
+    color: #8B0000;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+}
+
+.info-section h3:hover {
+    color: #A52A2A;
+}
+
+.section-content {
+    line-height: 1.8;
+    color: #2C2C2C;
+}
+
+.read-more {
+    background: linear-gradient(135deg, #8B0000 0%, #A52A2A 100%);
+    color: #FFFFFF;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    border: 2px solid transparent;
+}
+
+.read-more:hover {
+    background: linear-gradient(135deg, #A52A2A 0%, #8B0000 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(139, 0, 0, 0.3);
+    border-color: #FFD700;
+}
+
+.church-mini-map {
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(139, 0, 0, 0.1);
+    border: 2px solid #8B0000;
+}
+
+#mini-map {
+    height: 100%;
+    width: 100%;
+}
+
+/* Research Status Indicators */
+.research-banner {
+    background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+    border: 2px solid #ffc107;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    position: relative;
+}
+
+.research-banner::before {
+    content: "🔍 RESEARCH NEEDED";
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    background: #ffc107;
+    color: #000;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.content-status {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.content-status span {
+    font-size: 1.5rem;
+}
+
+.status-needed {
+    background: #fff3cd;
+    border-left: 4px solid #ffc107;
+}
+
+.status-in-progress {
+    background: #d1ecf1;
+    border-left: 4px solid #0dcaf0;
+}
+
+.status-completed {
+    background: #d4edda;
+    border-left: 4px solid #198754;
+}
+
+.help-research {
+    background: linear-gradient(135deg, #8B0000 0%, #A52A2A 100%);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.help-research:hover {
+    background: linear-gradient(135deg, #A52A2A 0%, #8B0000 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(139, 0, 0, 0.3);
+}
+
+.research-progress {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.priority-badge {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.priority-high {
+    background: #dc3545;
+    color: white;
+}
+
+.priority-medium {
+    background: #ffc107;
+    color: black;
+}
+
+.priority-low {
+    background: #0dcaf0;
+    color: black;
+}
+
+.last-updated {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Research Form Styles */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #8B0000;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #8B0000;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: white;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #FFD700;
+    box-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+}
+
+/* Research Dashboard Styles */
+.research-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.stat-card {
+    background: linear-gradient(135deg, #FFFFFF 0%, #f8f6f0 100%);
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #8B0000;
+    box-shadow: 0 4px 15px rgba(139, 0, 0, 0.1);
+}
+
+.stat-card h3 {
+    color: #8B0000;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.stat-card span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #8B0000;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(139, 0, 0, 0.7);
+}
+
+.modal-content {
+    background: linear-gradient(135deg, #FFFFFF 0%, #f8f6f0 100%);
+    margin: 5% auto;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+    border: 3px solid #8B0000;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+    color: #8B0000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    transition: color 0.3s ease;
+}
+
+.close:hover {
+    color: #FFD700;
+}
+
+#modal-title {
+    color: #8B0000;
+    border-bottom: 2px solid #FFD700;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Map Popup Styling */
+.map-popup {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.map-popup h3 {
+    color: #8B0000;
+    margin-bottom: 0.5rem;
+}
+
+.map-popup p {
+    margin-bottom: 0.5rem;
+    color: #2C2C2C;
+}
+
+.popup-link {
+    display: inline-block;
+    background: #8B0000;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    transition: background 0.3s ease;
+}
+
+.popup-link:hover {
+    background: #A52A2A;
+}
+
+/* Leaflet Control Styling */
+.leaflet-control-zoom a {
+    background: #8B0000 !important;
+    color: white !important;
+    border: none !important;
+}
+
+.leaflet-control-zoom a:hover {
+    background: #A52A2A !important;
+}
+
+.leaflet-control-layers {
+    border: 2px solid #8B0000 !important;
+}
+
+.leaflet-control-layers-toggle {
+    background: #8B0000 !important;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .layout {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    
+    .sidebar {
+        height: 400px;
+    }
+    
+    .church-detail {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .search-bar {
+        flex-direction: column;
+    }
+    
+    .container {
+        padding: 0 15px;
+    }
+    
+    header h1 {
+        font-size: 1.5rem;
+    }
+    
+    .church-card {
+        padding: 0.75rem;
+    }
+    
+    .info-section, .introduction {
+        padding: 1rem;
+    }
+    
+    .research-banner {
+        padding: 1rem;
+    }
+    
+    .content-status {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .research-progress {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .research-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .main-image img {
+        height: 300px;
+    }
+    
+    .modal-content {
+        width: 95%;
+        margin: 10% auto;
+        padding: 1.5rem;
+    }
+}
+
+/* Additional Jamaican Anglican Elements */
+.anglican-cross {
+    color: #8B0000;
+}
+
+.gold-accent {
+    color: #FFD700;
+}
+
+/* Loading Animation */
+.loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #f8f6f0;
+    border-radius: 50%;
+    border-top-color: #8B0000;
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Print Styles */
+@media print {
+    .search-bar,
+    .help-research,
+    .read-more {
+        display: none;
+    }
+    
+    .church-detail {
+        grid-template-columns: 1fr;
+    }
+    
+    .church-mini-map {
+        height: 200px;
+    }
+}
