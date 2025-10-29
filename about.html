@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Anglican Churches of Jamaica</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1a5276 0%, #2c3e50 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .navigation {
+            background: #34495e;
+            padding: 20px 0;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 10px 20px;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+
+        .nav-links a:hover {
+            background: rgba(255,255,255,0.1);
+        }
+
+        .nav-links a.active {
+            background: #3498db;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .content-section {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .content-section h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        .content-section h3 {
+            color: #2c3e50;
+            margin: 25px 0 15px 0;
+            font-size: 1.3em;
+        }
+
+        .content-section p {
+            margin-bottom: 15px;
+            font-size: 1.05em;
+        }
+
+        .content-section ul {
+            margin: 15px 0 15px 30px;
+        }
+
+        .content-section li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: #e3f2fd;
+            padding: 20px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+
+        .team-member {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .member-avatar {
+            width: 80px;
+            height: 80px;
+            background: #3498db;
+            border-radius: 50%;
+            margin: 0 auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2em;
+        }
+
+        .contact-info {
+            background: #2c3e50;
+            color: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .contact-info h3 {
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 50px;
+        }
+
+        .footer p {
+            opacity: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                gap: 10px;
+            }
+            
+            .nav-links a {
+                padding: 8px 15px;
+                font-size: 0.9em;
+            }
+            
+            .content-section {
+                padding: 25px;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .feature-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 25px 0;
+        }
+
+        .feature-item {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 6px;
+            border-left: 4px solid #3498db;
+        }
+
+        .feature-item h4 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>About This Project</h1>
+        <p>Preserving Jamaica's Anglican Heritage for Future Generations</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navigation">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="churches.html">Churches Directory</a></li>
+            <li><a href="map.html">Interactive Map</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Project Overview -->
+        <div class="content-section">
+            <h2>Project Overview</h2>
+            <p>Welcome to the Anglican Churches of Jamaica digital archive, a comprehensive initiative dedicated to documenting, preserving, and sharing the rich history of over 350 Anglican churches across the island.</p>
+            
+            <div class="highlight">
+                <p>This project serves as a vital resource for historians, researchers, students, and anyone interested in Jamaica's religious heritage and architectural history.</p>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">350+</div>
+                    <div class="stat-label">Historical Churches</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">14</div>
+                    <div class="stat-label">Parishes Covered</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">300+</div>
+                    <div class="stat-label">Years of History</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Digital Access</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mission & Vision -->
+        <div class="content-section">
+            <h2>Our Mission & Vision</h2>
+            
+            <h3>Mission</h3>
+            <p>To create a comprehensive digital archive that preserves the history, architecture, and cultural significance of Jamaica's Anglican churches, making this valuable heritage accessible to people worldwide.</p>
+            
+            <h3>Vision</h3>
+            <p>To become the definitive resource for Anglican church history in Jamaica, supporting preservation efforts, academic research, and public education about this important aspect of Jamaican culture.</p>
+        </div>
+
+        <!-- Features -->
+        <div class="content-section">
+            <h2>Project Features</h2>
+            
+            <div class="feature-list">
+                <div class="feature-item">
+                    <h4>📚 Comprehensive Directory</h4>
+                    <p>Detailed information on hundreds of churches including history, architecture, and historical significance.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>🗺️ Interactive Mapping</h4>
+                    <p>Satellite and street views showing church locations across all 14 parishes of Jamaica.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>🔍 Advanced Search</h4>
+                    <p>Powerful search and filtering tools to find churches by name, location, or historical period.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>📱 Mobile Friendly</h4>
+                    <p>Fully responsive design that works perfectly on desktop, tablet, and mobile devices.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>🌐 Open Access</h4>
+                    <p>Free access for researchers, students, and the general public worldwide.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>📈 Growing Archive</h4>
+                    <p>Regular updates with new churches, photos, and historical information.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Historical Significance -->
+        <div class="content-section">
+            <h2>Historical Significance</h2>
+            <p>Anglican churches in Jamaica represent more than just places of worship—they are living monuments to the island's complex history, from the colonial era through emancipation and into modern times.</p>
+            
+            <h3>Architectural Heritage</h3>
+            <p>These churches showcase a range of architectural styles including Georgian, Gothic Revival, and Victorian, reflecting the different periods of Jamaican history and the influences that shaped the island.</p>
+            
+            <h3>Cultural Importance</h3>
+            <p>Many of these churches served as community centers, educational institutions, and landmarks that have witnessed key moments in Jamaica's development as a nation.</p>
+        </div>
+
+        <!-- Get Involved -->
+        <div class="content-section">
+            <h2>Get Involved</h2>
+            <p>This is a community-driven project, and we welcome contributions from researchers, historians, photographers, and local communities.</p>
+            
+            <h3>How You Can Help</h3>
+            <ul>
+                <li><strong>Share Information:</strong> Contribute historical documents, photos, or stories about Anglican churches</li>
+                <li><strong>Volunteer Research:</strong> Help research churches marked as "Research Needed"</li>
+                <li><strong>Spread the Word:</strong> Share this resource with educational institutions and historical societies</li>
+                <li><strong>Technical Skills:</strong> Assist with data entry, photography, or web development</li>
+            </ul>
+            
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p>For more information, to report errors, or to contribute to this project:</p>
+                <p>📧 Email: research@anglicanchurchesjm.org</p>
+                <p>Note: This is a demonstration project. For actual contributions, please establish proper contact channels.</p>
+            </div>
+        </div>
+
+        <!-- Technology -->
+        <div class="content-section">
+            <h2>Technology & Accessibility</h2>
+            <p>This project is built using modern web technologies to ensure broad accessibility and ease of use:</p>
+            
+            <ul>
+                <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript</li>
+                <li><strong>Mapping:</strong> Google Maps API with satellite imagery</li>
+                <li><strong>Hosting:</strong> Netlify for reliable, global access</li>
+                <li><strong>Design:</strong> Responsive design for all devices</li>
+                <li><strong>Accessibility:</strong> WCAG guidelines compliance</li>
+            </ul>
+            
+            <p>The project is designed to be maintainable and scalable, allowing for continuous addition of new churches and historical data.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 Anglican Churches of Jamaica Digital Archive. Preserving our historical heritage for future generations.</p>
+        <p>This project is dedicated to the people of Jamaica and all who value historical preservation.</p>
+    </div>
+</body>
+</html>
