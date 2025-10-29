@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Church Name - Anglican Churches of Jamaica</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="back-link">← Back to Map</a>
+            <h1 id="church-name">Church Name</h1>
+            <p id="church-location">Location, Parish</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="church-detail">
+            <div class="church-gallery">
+                <div class="main-image">
+                    <img id="main-church-image" src="" alt="Main church image">
+                </div>
+                <div class="image-thumbnails" id="image-thumbnails">
+                    <!-- Thumbnails will be loaded here -->
+                </div>
+            </div>
+
+            <div class="church-info">
+                <section class="introduction">
+                    <h2>Introduction</h2>
+                    <p id="church-intro">Three sentence introduction will appear here...</p>
+                </section>
+
+                <!-- Research Status Banner -->
+                <div id="research-banner" class="research-banner" style="display: none;">
+                    <div class="content-status status-needed">
+                        <span>🔍</span>
+                        <div>
+                            <strong>Historical Research Needed</strong>
+                            <p>This church's historical information is being researched and verified. Help us improve this content with accurate, sourced information.</p>
+                        </div>
+                    </div>
+                    <div class="research-progress">
+                        <span class="priority-badge priority-high" id="research-priority">High Priority</span>
+                        <span class="last-updated">Last updated: <span id="last-updated-date">2024-01-01</span></span>
+                    </div>
+                    <button class="help-research" onclick="showResearchForm()">
+                        📝 Help Research This Church
+                    </button>
+                </div>
+
+                <section class="info-section">
+                    <h3 onclick="toggleSection('history')">📜 Historical Background</h3>
+                    <div id="history-content" class="section-content">
+                        <p id="history-brief">Brief history content...</p>
+                        <button class="read-more" onclick="showExpanded('history')">Read more...</button>
+                    </div>
+                </section>
+
+                <section class="info-section">
+                    <h3 onclick="toggleSection('architecture')">🏛️ Architectural Details</h3>
+                    <div id="architecture-content" class="section-content">
+                        <p id="architecture-brief">Architectural description...</p>
+                        <button class="read-more" onclick="showExpanded('architecture')">Read more...</button>
+                    </div>
+                </section>
+
+                <section class="info-section">
+                    <h3 onclick="toggleSection('clergy')">👨‍💼 Clergy Through the Years</h3>
+                    <div id="clergy-content" class="section-content">
+                        <p id="clergy-brief">Notable clergy...</p>
+                        <button class="read-more" onclick="showExpanded('clergy')">Read more...</button>
+                    </div>
+                </section>
+
+                <section class="info-section">
+                    <h3 onclick="toggleSection('events')">⚡ Notable Events & Factoids</h3>
+                    <div id="events-content" class="section-content">
+                        <p id="events-brief">Interesting events...</p>
+                        <button class="read-more" onclick="showExpanded('events')">Read more...</button>
+                    </div>
+                </section>
+
+                <div class="church-mini-map">
+                    <div id="mini-map"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Expanded Content Modal -->
+    <div id="expanded-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+
+    <!-- Research Contribution Modal -->
+    <div id="research-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeResearchModal()">&times;</span>
+            <h2>Help Research This Church</h2>
+            <form id="research-form">
+                <input type="hidden" id="research-church-id">
+                
+                <div class="form-group">
+                    <label>Your Name (optional)</label>
+                    <input type="text" id="researcher-name" placeholder="Enter your name">
+                </div>
+                
+                <div class="form-group">
+                    <label>Your Email (optional)</label>
+                    <input type="email" id="researcher-email" placeholder="Enter your email">
+                </div>
+                
+                <div class="form-group">
+                    <label>Information Category</label>
+                    <select id="research-category">
+                        <option value="history">Historical Background</option>
+                        <option value="architecture">Architectural Details</option>
+                        <option value="clergy">Clergy History</option>
+                        <option value="events">Notable Events</option>
+                        <option value="other">Other Information</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label>Your Contribution</label>
+                    <textarea id="research-contribution" placeholder="Please share any historical information, sources, or corrections..." rows="6"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label>Sources/References (optional)</label>
+                    <input type="text" id="research-sources" placeholder="Books, documents, websites, etc.">
+                </div>
+                
+                <button type="submit" class="read-more">Submit Research Contribution</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/churches.js"></script>
+    <script src="js/church-detail.js"></script>
+</body>
+</html>
