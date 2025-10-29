@@ -123,3 +123,11 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }, 1000);
 });
+
+// Temporary debug code - add to main.js
+console.log('Total churches:', getAllChurches().length);
+console.log('First church coordinates:', {
+    name: getAllChurches()[0].name,
+    lat: getAllChurches()[0].location.latitude,
+    lng: getAllChurches()[0].location.longitude
+});
