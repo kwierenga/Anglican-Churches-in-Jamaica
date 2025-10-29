@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anglican Churches of Jamaica - Interactive Map</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+
+        /* Sidebar Styles */
+        .sidebar {
+            width: 350px;
+            background: white;
+            border-right: 1px solid #ddd;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            padding: 20px;
+            background: linear-gradient(135deg, #1a5276 0%, #2c3e50 100%);
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 1.5em;
+            margin-bottom: 5px;
+        }
+
+        .header p {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        .controls {
+            padding: 15px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 0.95em;
+        }
+
+        .filter-select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background: white;
+            font-size: 0.95em;
+        }
+
+        .view-controls {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .view-btn {
+            flex: 1;
+            padding: 8px;
+            border: 1px solid #ddd;
+            background: white;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .view-btn:hover {
+            background: #e9ecef;
+        }
+
+        .view-btn.active {
+            background: #3498db;
+            color: white;
+            border-color: #3498db;
+        }
+
+        .church-list {
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        .church-item {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .church-item:hover {
+            background: #f8f9fa;
+        }
+
+        .church-item.active {
+            background: #e3f2fd;
+            border-left: 4px solid #3498db;
+        }
+
+        .church-name {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+            font-size: 1.1em;
+        }
+
+        .church-address {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+
+        .church-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.85em;
+            color: #888;
+        }
+
+        .research-flag {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+
+        /* Map Styles */
+        .map-container {
+            flex: 1;
+            position: relative;
+        }
+
+        #map {
+            height: 100%;
+            width: 100%;
+        }
+
+        .map-type-controls {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: white;
+            padding: 10px;
+            border-radius: 4px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            z-index: 1000;
+            display: flex;
+            gap: 5px;
+        }
+
+        .map-type-btn {
+            padding: 5px 10px;
+            border: 1px solid #ddd;
+            background: white;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 0.8em;
+            transition: all 0.3s;
+        }
+
+        .map-type-btn:hover {
+            background: #f1f1f1;
+        }
+
+        .map-type-btn.active {
+            background: #3498db;
+            color: white;
+            border-color: #3498db;
+        }
+
+        .loading {
+            padding: 20px;
+            text-align: center;
+            color: #666;
+        }
+
+        .stats {
+            padding: 10px 15px;
+            background: #f8f9fa;
+            border-top: 1px solid #ddd;
+            font-size: 0.85em;
+            color: #666;
+        }
+
+        /* Church Info Window Styles */
+        .church-info {
+            max-width: 250px;
+        }
+
+        .church-info h3 {
+            margin-bottom: 8px;
+            color: #2c3e50;
+        }
+
+        .church-info p {
+            margin-bottom: 5px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .sidebar {
+                width: 100%;
+                height: 40vh;
+            }
+            .map-container {
+                height: 60vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar with Church List -->
+        <div class="sidebar">
+            <div class="header">
+                <h1>Anglican Churches of Jamaica</h1>
+                <p>Exploring 350+ historical churches across the island</p>
+            </div>
+            
+            <div class="controls">
+                <input type="text" class="search-box" placeholder="Search churches by name..." id="searchInput">
+                <select class="filter-select" id="parishFilter">
+                    <option value="all">All Parishes</option>
+                    <option value="kingston">Kingston</option>
+                    <option value="st-andrew">St. Andrew</option>
+                    <option value="st-catherine">St. Catherine</option>
+                    <option value="clarendon">Clarendon</option>
+                    <option value="manchester">Manchester</option>
+                    <option value="st-ann">St. Ann</option>
+                    <option value="trelawny">Trelawny</option>
+                    <option value="st-james">St. James</option>
+                    <option value="hanover">Hanover</option>
+                    <option value="westmoreland">Westmoreland</option>
+                    <option value="st-elizabeth">St. Elizabeth</option>
+                    <option value="st-mary">St. Mary</option>
+                    <option value="st-thomas">St. Thomas</option>
+                    <option value="portland">Portland</option>
+                </select>
+                <div class="view-controls">
+                    <button class="view-btn active" id="listView">List View</button>
+                    <button class="view-btn" id="mapView">Map View</button>
+                </div>
+            </div>
+            
+            <div class="church-list" id="churchList">
+                <div class="loading">Loading churches...</div>
+            </div>
+            
+            <div class="stats" id="stats">
+                Showing 0 of 0 churches
+            </div>
+        </div>
+
+        <!-- Map Container -->
+        <div class="map-container">
+            <div id="map"></div>
+            <div class="map-type-controls">
+                <button class="map-type-btn active" data-type="hybrid">Satellite</button>
+                <button class="map-type-btn" data-type="roadmap">Street</button>
+                <button class="map-type-btn" data-type="terrain">Terrain</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Google Maps API - REPLACE YOUR_API_KEY_HERE WITH YOUR ACTUAL KEY -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDP4lZ04MBr2VNH8m37UyMFYSV52D9fo1g&callback=initMap" async defer></script>
+    
+    <script>
+        // Church data with coordinates for major Jamaican churches
+        const churches = [
+            {
+                id: 1,
+                name: "Holy Trinity Cathedral",
+                address: "North Street, Kingston, Kingston",
+                type: "Cathedral",
+                year: 1911,
+                parish: "kingston",
+                research: true,
+                description: "The Holy Trinity Cathedral is a significant Anglican church in Kingston, known for its beautiful architecture and historical importance.",
+                lat: 17.9770,
+                lng: -76.7907
+            },
+            {
+                id: 2,
+                name: "St. George's Church",
+                address: "1 West Street, Kingston, Kingston",
+                type: "Parish Church",
+                year: 1885,
+                parish: "kingston",
+                research: false,
+                description: "St. George's Church is one of the oldest Anglican churches in Kingston, serving the community for over a century.",
+                lat: 17.9715,
+                lng: -76.7932
+            },
+            {
+                id: 3,
+                name: "St. Andrew Parish Church",
+                address: "Half Way Tree, St. Andrew",
+                type: "Parish Church",
+                year: 1837,
+                parish: "st-andrew",
+                research: false,
+                description: "Located in Half Way Tree, this historic church has been a center of Anglican worship in St. Andrew for generations.",
+                lat: 18.0100,
+                lng: -76.7900
+            },
+            {
+                id: 4,
+                name: "St. Catherine Parish Church",
+                address: "Spanish Town, St. Catherine",
+                type: "Parish Church",
+                year: 1714,
+                parish: "st-catherine",
+                research: true,
+                description: "One of the oldest Anglican churches in Jamaica, located in the former capital Spanish Town.",
+                lat: 17.9950,
+                lng: -76.9550
+            },
+            {
+                id: 5,
+                name: "St. James Parish Church",
+                address: "Montpelier, St. James",
+                type: "Parish Church",
+                year: 1775,
+                parish: "st-james",
+                research: false,
+                description: "A historic Anglican church in the beautiful parish of St. James, known for its traditional architecture.",
+                lat: 18.4760,
+                lng: -77.8930
+            },
+            {
+                id: 6,
+                name: "St. Ann's Bay Parish Church",
+                address: "St. Ann's Bay, St. Ann",
+                type: "Parish Church",
+                year: 1871,
+                parish: "st-ann",
+                research: false,
+                description: "Serving the St. Ann community, this church is an important part of the island's religious heritage.",
+                lat: 18.4350,
+                lng: -77.2010
+            },
+            {
+                id: 7,
+                name: "Falmouth Parish Church",
+                address: "Falmouth, Trelawny",
+                type: "Parish Church",
+                year: 1796,
+                parish: "trelawny",
+                research: true,
+                description: "Located in the historic town of Falmouth, this church showcases Georgian architecture.",
+                lat: 18.4920,
+                lng: -77.6560
+            }
+        ];
+
+        let map;
+        let markers = [];
+        let selectedChurch = null;
+
+        function initMap() {
+            // Initialize map centered on Jamaica
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: 18.1096, lng: -77.2975 },
+                zoom: 9,
+                mapTypeId: 'hybrid',
+                mapTypeControl: false,
+                streetViewControl: false,
+                fullscreenControl: true
+            });
+
+            // Load churches
+            loadChurches();
+            setupEventListeners();
+            updateStats();
+        }
+
+        function loadChurches() {
+            const churchList = document.getElementById('churchList');
+            churchList.innerHTML = '';
+
+            churches.forEach(church => {
+                const churchElement = createChurchListItem(church);
+                churchList.appendChild(churchElement);
+                addChurchToMap(church);
+            });
+        }
+
+        function createChurchListItem(church) {
+            const div = document.createElement('div');
+            div.className = 'church-item';
+            div.setAttribute('data-church-id', church.id);
+            div.innerHTML = `
+                <div class="church-name">${church.name}</div>
+                <div class="church-address">${church.address}</div>
+                <div class="church-meta">
+                    <span>${church.type} • ${church.year}</span>
+                    ${church.research ? '<span class="research-flag">Research Needed</span>' : ''}
+                </div>
+            `;
+
+            div.addEventListener('click', () => {
+                selectChurch(church);
+            });
+
+            return div;
+        }
+
+        function addChurchToMap(church) {
+            const marker = new google.maps.Marker({
+                position: { lat: church.lat, lng: church.lng },
+                map: map,
+                title: church.name,
+                icon: {
+                    path: google.maps.SymbolPath.CIRCLE,
+                    fillColor: church.research ? '#FF6B6B' : (church.type === 'Cathedral' ? '#8B4513' : '#2E8B57'),
+                    fillOpacity: 0.9,
+                    strokeWeight: 2,
+                    strokeColor: '#FFFFFF',
+                    scale: 8
+                }
+            });
+
+            const infoWindow = new google.maps.InfoWindow({
+                content: `
+                    <div class="church-info">
+                        <h3>${church.name}</h3>
+                        <p><strong>Address:</strong> ${church.address}</p>
+                        <p><strong>Built:</strong> ${church.year}</p>
+                        <p><strong>Type:</strong> ${church.type}</p>
+                        <p>${church.description}</p>
+                        ${church.research ? '<p class="research-flag">🔍 Research Needed</p>' : ''}
+                    </div>
+                `
+            });
+
+            marker.addListener('click', () => {
+                // Close any previously open info window
+                markers.forEach(({infoWindow: iw}) => iw.close());
+                
+                infoWindow.open(map, marker);
+                selectChurch(church);
+            });
+
+            markers.push({ marker, church, infoWindow });
+        }
+
+        function selectChurch(church) {
+            // Update UI in list
+            document.querySelectorAll('.church-item').forEach(item => {
+                item.classList.remove('active');
+                if (parseInt(item.getAttribute('data-church-id')) === church.id) {
+                    item.classList.add('active');
+                    item.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }
+            });
+
+            // Center map on church
+            map.panTo({ lat: church.lat, lng: church.lng });
+            map.setZoom(15);
+
+            selectedChurch = church;
+        }
+
+        function setupEventListeners() {
+            // Search functionality
+            document.getElementById('searchInput').addEventListener('input', (e) => {
+                const searchTerm = e.target.value.toLowerCase();
+                filterChurches();
+            });
+
+            // Parish filter
+            document.getElementById('parishFilter').addEventListener('change', filterChurches);
+
+            // Map type controls
+            document.querySelectorAll('.map-type-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    document.querySelectorAll('.map-type-btn').forEach(b => b.classList.remove('active'));
+                    e.target.classList.add('active');
+                    map.setMapTypeId(e.target.dataset.type);
+                });
+            });
+
+            // View controls
+            document.getElementById('listView').addEventListener('click', () => {
+                document.querySelector('.sidebar').style.display = 'flex';
+                document.querySelector('.map-container').style.flex = '1';
+                document.getElementById('listView').classList.add('active');
+                document.getElementById('mapView').classList.remove('active');
+            });
+
+            document.getElementById('mapView').addEventListener('click', () => {
+                document.querySelector('.sidebar').style.display = 'none';
+                document.querySelector('.map-container').style.flex = '1';
+                document.getElementById('mapView').classList.add('active');
+                document.getElementById('listView').classList.remove('active');
+            });
+        }
+
+        function filterChurches() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const parishFilter = document.getElementById('parishFilter').value;
+
+            const filteredChurches = churches.filter(church => {
+                const matchesSearch = church.name.toLowerCase().includes(searchTerm) || 
+                                    church.address.toLowerCase().includes(searchTerm);
+                const matchesParish = parishFilter === 'all' || church.parish === parishFilter;
+                
+                return matchesSearch && matchesParish;
+            });
+
+            // Update list
+            const churchList = document.getElementById('churchList');
+            churchList.innerHTML = '';
+            
+            if (filteredChurches.length === 0) {
+                churchList.innerHTML = '<div class="loading">No churches found matching your criteria</div>';
+            } else {
+                filteredChurches.forEach(church => {
+                    churchList.appendChild(createChurchListItem(church));
+                });
+            }
+
+            // Update map markers
+            updateMapMarkers(filteredChurches);
+            updateStats(filteredChurches.length);
+        }
+
+        function updateMapMarkers(filteredChurches) {
+            // Hide all markers first
+            markers.forEach(({ marker }) => {
+                marker.setMap(null);
+            });
+
+            // Show only filtered markers
+            markers.forEach(({ marker, church }) => {
+                if (filteredChurches.some(fc => fc.id === church.id)) {
+                    marker.setMap(map);
+                }
+            });
+        }
+
+        function updateStats(visibleCount) {
+            const total = churches.length;
+            const count = visibleCount !== undefined ? visibleCount : total;
+            document.getElementById('stats').textContent = `Showing ${count} of ${total} churches`;
+        }
+
+        // Fallback if Google Maps fails to load
+        window.initMap = initMap;
+        
+        // Show error message if Google Maps fails to load
+        setTimeout(() => {
+            if (!window.google) {
+                document.getElementById('churchList').innerHTML = 
+                    '<div class="loading">Error loading Google Maps. Please check your API key and internet connection.</div>';
+            }
+        }, 5000);
+    </script>
+</body>
+</html>
