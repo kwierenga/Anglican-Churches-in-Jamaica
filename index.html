@@ -1,0 +1,93 @@
+<<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Anglican Churches in Jamaica</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+
+  <!-- Your site styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Sidebar -->
+    <aside id="sidebar">
+      <header class="panel">
+        <h1>Anglican Churches in Jamaica</h1>
+        <div class="row">
+          <label for="search">Search</label>
+          <input id="search" type="text" placeholder="Name, town, parish…" />
+        </div>
+        <div class="row">
+          <label for="parish-filter">Parish</label>
+          <select id="parish-filter">
+            <option value="all">All Parishes</option>
+          </select>
+        </div>
+        <div class="row">
+          <label for="classification-filter">Classification</label>
+          <select id="classification-filter">
+            <option value="all">All Classifications</option>
+          </select>
+        </div>
+        <div class="row">
+          <label for="status-filter">Status</label>
+          <select id="status-filter">
+            <option value="all">All Statuses</option>
+          </select>
+        </div>
+        <div class="row">
+          <label for="map-type">Map Type</label>
+          <select id="map-type" title="Requires Google basemaps if enabled">
+            <option value="roadmap">Roadmap</option>
+            <option value="satellite">Satellite</option>
+            <option value="hybrid">Hybrid</option>
+            <option value="terrain">Terrain</option>
+          </select>
+        </div>
+      </header>
+
+      <section id="stats" class="panel small">
+        <!-- Populated by script.js -->
+      </section>
+
+      <section id="church-list" class="panel list">
+        <!-- Populated by script.js -->
+      </section>
+    </aside>
+
+    <!-- Map -->
+    <main id="map"></main>
+  </div>
+
+  <!-- Optional: put your Google Maps API key here to enable Google basemaps
+       <script>
+         window.GOOGLE_MAPS_API_KEY = "YOUR_KEY_HERE";
+       </script>
+  -->
+
+  <!-- Data FIRST so window.churches exists before script.js -->
+  <script src="data.js"></script>
+
+  <!-- Leaflet JS -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+
+  <!-- OPTIONAL: Leaflet.GoogleMutant (only needed for Google basemaps) -->
+  <script src="https://unpkg.com/leaflet.gridlayer.googlemutant@0.14.0/Leaflet.GoogleMutant.js"></script>
+
+  <!-- Your app logic -->
+  <script src="script.js"></script>
+</body>
+</html>
