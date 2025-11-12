@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anglican Churches of Jamaica</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    html, body { height: 100%; margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+    #app { display: grid; grid-template-columns: 320px 1fr 420px; grid-template-areas: 'sidebar map panel'; height: 100%; }
+    #sidebar { grid-area: sidebar; border-right: 1px solid #e5e7eb; padding: 12px; overflow: auto; }
+    #map { grid-area: map; }
+    #panel { grid-area: panel; border-left: 1px solid #e5e7eb; padding: 16px; overflow: auto; }
+    .church-item { padding: 8px; border-radius: 8px; cursor: pointer; }
+    .church-item:hover { background:#f3f4f6; }
+    .badge { display:inline-block; padding:2px 6px; font-size:12px; background:#eef2ff; border-radius:999px; margin-left:6px; }
+    .imggrid { display:grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap:8px; }
+    .imggrid img { width:100%; height:160px; object-fit:cover; border-radius:8px; }
+    h2 { margin: 8px 0 4px; font-size: 20px; }
+    h3 { margin: 16px 0 6px; font-size: 16px; }
+    .muted { color:#6b7280; font-size:13px; }
+    .controls input, .controls select { width:100%; padding:8px; margin:6px 0 10px; border:1px solid #e5e7eb; border-radius:8px; }
+  </style>
+</head>
+<body>
+<div id="app">
+  <aside id="sidebar">
+    <h2>ACJ Map</h2>
+    <div class="controls">
+      <input id="q" type="search" placeholder="Search name, text, sources…" />
+      <select id="parishFilter"><option value="">All parishes</option></select>
+      <select id="statusFilter"><option value="">All status</option><option>active</option><option>ruin</option><option>destroyed</option><option>rebuilt</option><option>site only</option></select>
+    </div>
+    <div id="list" class="list"></div>
+  </aside>
+  <div id="map"></div>
+  <section id="panel">
+    <h2>Details</h2>
+    <p class="muted">Select a church on the map or from the list.</p>
+    <div id="detail"></div>
+  </section>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/esri-leaflet@3.0.12/dist/esri-leaflet.js"></script>
+<script src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
+<script>
+  const map = L.map('map', { center: [18.1, -77.3], zoom: 8, zoomControl: true });
+  const esriImagery = L.esri.basemapLayer('Imagery');
+  const esriLabels = L.esri.basemapLayer('ImageryLabels');
+  const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; OSM' });
+  esriImagery.addTo(map); esriLabels.addTo(map);
+  L.control.layers({ 'Esri Imagery': L.layerGroup([esriImagery, esriLabels]), 'OSM Roads': osm }).addTo(map);
+
+  let allChurches = [];
+  const markers = L.layerGroup().addTo(map);
+  const listEl = document.getElementById('list');
+  const detailEl = document.getElementById('detail');
+  const qEl = document.getElementById('q');
+  const parishEl = document.getElementById('parishFilter');
+  const statusEl = document.getElementById('statusFilter');
+
+  
+  // Resolve a field from a row using a list of candidate keys (case-insensitive)
+  function pick(r, keys, fallback='') {
+    if (!r) return fallback;
+    const map = {};
+    for (const k in r) { map[k.toLowerCase()] = r[k]; }
+    for (const k of keys) {
+      const v = map[(k||'').toLowerCase()];
+      if (v !== undefined && v !== null && String(v).trim() !== '') return String(v);
+    }
+    return fallback;
+  }
+  // Parse float with safety
+  function pickFloat(r, keys) {
+    const s = pick(r, keys, '').replace(',', '.'); // guard comma decimals
+    const n = parseFloat(s);
+    return Number.isFinite(n) ? n : NaN;
+  }
+
+
+  Papa.parse('data/churches.csv', {
+    download: true,
+    header: true,
+    skipEmptyLines: true,
+    complete: (res) => {
+      allChurches = res.data.map((r) => ({ 
+        raw: r,
+        id:   pick(r, ['id','ID','acj_id','code']),
+        name: pick(r, ['name','church','title','site_name']),
+        parish: pick(r, ['parish','parish_name','county_parish']),
+        lat:  pickFloat(r, ['latitude','lat','y','lat_dd']),
+        lon:  pickFloat(r, ['longitude','lon','lng','x','long','long_dd']),
+        year_built: pick(r, ['year_built','built','year','date_built','circa']),
+        status: pick(r, ['status','condition']),
+        background: pick(r, ['background','history','background_history']),
+        architecture: pick(r, ['architecture','structure','architectural_notes']),
+        clergy: pick(r, ['clergy','clergy_history','rectors','priests']),
+        events: pick(r, ['events','notable_events','hurricanes_earthquakes_fires']),
+        sources: pick(r, ['sources','citations','references']),
+        images: (pick(r, ['images','image_urls'], '') || '').split('|').filter(Boolean).map(item => {
+          const parts = item.split('||');
+          return { url: (parts[0]||'').trim(), caption: (parts[1]||'').trim() };
+        })
+      })).filter(c => Number.isFinite(c.lat) && Number.isFinite(c.lon) && c.name);
+
+      buildFilters(allChurches);
+      render(allChurches);
+      fitToData(allChurches);
+
+      const params = new URLSearchParams(location.search);
+      const pid = params.get('id');
+      if (pid) {
+        const c = allChurches.find(x => x.id === pid);
+        if (c) openDetail(c, true);
+      }
+    }
+  });
+
+  function buildFilters(rows){
+    const parishes = Array.from(new Set(rows.map(r=>r.parish).filter(Boolean))).sort();
+    parishEl.innerHTML = '<option value="">All parishes</option>' + parishes.map(p=>`<option>${p}</option>`).join('');
+  }
+
+  function render(rows){
+    markers.clearLayers();
+    listEl.innerHTML = '';
+
+    rows.forEach(c => {
+      const m = L.marker([c.lat, c.lon]).addTo(markers);
+      m.on('click', () => openDetail(c, true));
+
+      const item = document.createElement('div');
+      item.className = 'church-item';
+      item.innerHTML = `<strong>${escapeHtml(c.name)}</strong> <span class="badge">${escapeHtml(c.parish||'')}</span><br/><span class="muted">${escapeHtml(c.status||'')}${c.year_built? ' • '+escapeHtml(c.year_built): ''}</span>`;
+      item.onclick = () => { map.setView([c.lat, c.lon], 14); openDetail(c, false); };
+      listEl.appendChild(item);
+    });
+  }
+
+  function openDetail(c, pan){
+    if (pan) map.setView([c.lat, c.lon], 15);
+    const sourceList = (c.sources||'').split(';').filter(Boolean).map(s=>`<li>${escapeHtml(s.trim())}</li>`).join('');
+    const imgs = c.images && c.images.length
+      ? `<div class="imggrid">${c.images.map(img=>`<figure><img src="${img.url}" alt="${escapeHtml(img.caption||c.name)}"/><figcaption class="muted">${escapeHtml(img.caption||'')}</figcaption></figure>`).join('')}</div>`
+      : '<p class="muted">No images yet.</p>';
+
+    detailEl.innerHTML = `
+      <h2>${escapeHtml(c.name)}</h2>
+      <p class="muted">${escapeHtml(c.parish||'')} ${c.year_built? ' • built ' + escapeHtml(c.year_built): ''} ${c.status? ' • ' + escapeHtml(c.status): ''}</p>
+      <h3>1) Background & history</h3><p>${nl2p(c.background)}</p>
+      <h3>2) Architecture & structure</h3><p>${nl2p(c.architecture)}</p>
+      <h3>3) Clergy history</h3><p>${nl2p(c.clergy)}</p>
+      <h3>4) Notable events</h3><p>${nl2p(c.events)}</p>
+      <h3>Sources</h3><ul>${sourceList || '<li class="muted">Add sources</li>'}</ul>
+      <h3>Images</h3>${imgs}
+      <p class="muted">ID: ${escapeHtml(c.id||'')}</p>
+    `;
+    if (c.id) history.replaceState({}, '', `?id=${encodeURIComponent(c.id)}`);
+  }
+
+  function fitToData(rows){
+    if (!rows.length) return;
+    const bounds = L.latLngBounds(rows.map(r=>[r.lat, r.lon]));
+    map.fitBounds(bounds.pad(0.2));
+  }
+
+  function applyFilters(){
+    const q = (qEl.value||'').toLowerCase();
+    const parish = parishEl.value;
+    const status = statusEl.value;
+    const filtered = allChurches.filter(c => {
+      const hay = [c.name, c.parish, c.status, c.background, c.architecture, c.clergy, c.events, c.sources].join(' ').toLowerCase();
+      const okQ = !q || hay.includes(q);
+      const okParish = !parish || c.parish === parish;
+      const okStatus = !status || c.status === status;
+      return okQ && okParish && okStatus;
+    });
+    render(filtered);
+  }
+  qEl.addEventListener('input', applyFilters);
+  parishEl.addEventListener('change', applyFilters);
+  statusEl.addEventListener('change', applyFilters);
+
+  function escapeHtml(str=''){ return String(str).replace(/[&<>"']/g, s=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[s])); }
+  function nl2p(str=''){ return escapeHtml(str).split(/\n\n+/).map(p=>`<p>${p.replace(/\n/g,'<br/>')}</p>`).join(''); }
+</script>
+</body>
+</html>
