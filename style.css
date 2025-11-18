@@ -1,0 +1,325 @@
+/* =========================
+   Typography & color system
+   ========================= */
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap");
+
+:root {
+  /* Liturgical / Anglican colors */
+  --anglican-navy:   #1d2a4d;  /* deep blue – often used in Anglican branding */
+  --anglican-gold:   #d4af37;  /* gold */
+  --anglican-purple: #5b3b7a;  /* purple (Advent / Lent) */
+  --anglican-red:    #8b1a1a;  /* deep red (martyrs / feasts) */
+  --anglican-green:  #2f6b3f;  /* ordinary time green */
+
+  --bg-parchment: #f7f2e8;
+  --bg-panel:     #f3ecdf;
+  --border-soft:  #d1c3a3;
+  --border-strong:#b79d6f;
+
+  --text-main:    #2b2118;
+  --text-muted:   #746b60;
+}
+
+/* =========================
+   Global reset & base
+   ========================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  font-family: "EB Garamond", "Georgia", "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-main);
+  background-color: var(--bg-parchment);
+}
+
+/* Slightly modern but still “bookish” for small UI text */
+.sidebar,
+.details-panel,
+.form-label select,
+.form-label input[type="text"],
+.church-meta {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+/* =========================
+   Page header
+   ========================= */
+
+.site-header {
+  padding: 0.75rem 1.25rem 0.5rem;
+  border-bottom: 1px solid var(--border-soft);
+  border-top: 5px solid var(--anglican-navy);
+  background: linear-gradient(
+    to bottom,
+    #fdf9f1 0%,
+    #f6efe1 50%,
+    #f3ecdf 100%
+  );
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.75rem;
+}
+
+.site-title {
+  margin: 0;
+  font-family: "EB Garamond", "Georgia", "Times New Roman", serif;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 1.05rem;
+  color: var(--anglican-navy);
+}
+
+.site-subtitle {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* =========================
+   Layout
+   ========================= */
+
+.layout {
+  display: flex;
+  flex: 1 1 auto;
+  min-height: 0; /* allow children to manage scroll */
+}
+
+/* map-wide layout: sidebar + main */
+.layout--map-wide .sidebar {
+  flex: 0 0 260px;
+}
+
+.layout--map-wide .main-panel {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+/* Map container: MUST have an explicit height */
+#map {
+  flex: 1 1 auto;
+  min-height: 60vh;
+  border-top: 1px solid var(--border-soft);
+}
+
+/* When details panel is open, keep map from shrinking too small */
+.layout--details-open #map {
+  max-height: 55vh;
+}
+
+.layout--details-open .details-panel {
+  max-height: 60vh;
+}
+
+/* =========================
+   Sidebar
+   ========================= */
+
+.sidebar {
+  border-right: 1px solid var(--border-soft);
+  padding: 0.75rem 0.75rem 1rem;
+  background: var(--bg-panel);
+  overflow-y: auto;
+}
+
+.sidebar-section + .sidebar-section {
+  margin-top: 1rem;
+}
+
+.sidebar-section h2 {
+  margin: 0 0 0.45rem;
+  font-family: "EB Garamond", "Georgia", "Times New Roman", serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--anglican-navy);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding-bottom: 0.2rem;
+}
+
+/* =========================
+   Filters
+   ========================= */
+
+.filters {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.form-label {
+  display: block;
+  font-size: 0.86rem;
+  color: var(--text-main);
+}
+
+.form-label select,
+.form-label input[type="text"] {
+  width: 100%;
+  margin-top: 0.25rem;
+  padding: 0.3rem 0.4rem;
+  border-radius: 4px;
+  border: 1px solid var(--border-soft);
+  background-color: #fffdf7;
+  font-size: 0.86rem;
+  color: var(--text-main);
+}
+
+.form-label select:focus,
+.form-label input[type="text"]:focus {
+  outline: none;
+  border-color: var(--anglican-gold);
+  box-shadow: 0 0 0 1px rgba(212, 175, 55, 0.4);
+}
+
+/* =========================
+   Church list
+   ========================= */
+
+.church-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.church-list-item {
+  padding: 0.5rem 0.4rem;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background 0.12s ease, border-color 0.12s ease,
+    transform 0.08s ease, box-shadow 0.08s ease;
+}
+
+.church-list-item + .church-list-item {
+  margin-top: 0.25rem;
+}
+
+.church-list-item:hover {
+  background: rgba(255, 255, 255, 0.95);
+  border-color: var(--border-soft);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.church-list-item.is-selected {
+  background: #fffdf5;
+  border-color: var(--anglican-gold);
+  box-shadow: 0 0 0 1px rgba(212, 175, 55, 0.3);
+}
+
+.church-name {
+  margin: 0;
+  font-family: "EB Garamond", "Georgia", "Times New Roman", serif;
+  font-size: 0.96rem;
+  font-weight: 600;
+  color: var(--anglican-navy);
+}
+
+.church-meta {
+  margin: 0.2rem 0 0;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* =========================
+   Details panel
+   ========================= */
+
+.details-panel {
+  border-top: 1px solid var(--border-soft);
+  background: rgba(255, 252, 244, 0.98);
+  padding: 0.9rem 1.25rem 1.25rem;
+  overflow-y: auto;
+}
+
+.details-panel article {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#details-title {
+  margin: 0 0 0.4rem;
+  font-family: "EB Garamond", "Georgia", "Times New Roman", serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--anglican-navy);
+}
+
+.details-intro {
+  margin: 0 0 0.8rem;
+  font-size: 0.9rem;
+  color: var(--text-main);
+}
+
+/* Sections grid (4 standard headings) */
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem 1.5rem;
+}
+
+.details-grid section h3 {
+  margin: 0 0 0.3rem;
+  font-family: "EB Garamond", "Georgia", "Times New Roman", serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--anglican-purple);
+}
+
+.details-grid section p {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--text-main);
+}
+
+/* =========================
+   Responsive tweaks
+   ========================= */
+
+@media (max-width: 800px) {
+  .layout--map-wide {
+    flex-direction: column;
+  }
+
+  .layout--map-wide .sidebar {
+    flex: 0 0 auto;
+    border-right: none;
+    border-bottom: 1px solid var(--border-soft);
+  }
+
+  .layout--map-wide .main-panel {
+    min-height: 50vh;
+  }
+
+  .details-grid {
+    grid-template-columns: 1fr;
+  }
+}
