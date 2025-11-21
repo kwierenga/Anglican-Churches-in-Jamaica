@@ -1,0 +1,349 @@
+
+/* --------------------------------------------------
+   Anglican Churches of Jamaica - Styles
+   Parchment background + Anglican colour palette
+   Layout matched to index.html (body.layout, .sidebar, .main-panel)
+-------------------------------------------------- */
+
+/* Fonts (graceful fallbacks if Google Fonts not available) */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Source+Sans+3:wght@300;400;600&display=swap');
+
+:root {
+  --acj-bg-parchment: #f6f1e7;
+  --acj-bg-parchment-deep: #ecdfc6;
+  --acj-bg-panel: #fcf8f0;
+  --acj-border-parchment: #d3c4aa;
+
+  --acj-text-main: #26221a;
+  --acj-text-muted: #5b5245;
+
+  --acj-blue: #16345b;
+  --acj-red: #b22222;
+  --acj-gold: #d4af37;
+}
+
+/* --------------------
+   Base layout & body
+--------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body: parchment background, vertical layout */
+body.layout {
+  font-family: "Source Sans 3", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  color: var(--acj-text-main);
+  background:
+    radial-gradient(circle at 10% 0%, #fdfaf3 0, var(--acj-bg-parchment) 42%, var(--acj-bg-parchment-deep) 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* --------------------
+   Header
+--------------------- */
+
+.site-header {
+  padding: 0.9rem 1.25rem 0.5rem;
+}
+
+.site-title {
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-size: 1.9rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--acj-blue);
+  margin: 0;
+  border-bottom: 2px solid rgba(22, 52, 91, 0.18);
+  padding-bottom: 0.25rem;
+}
+
+.site-subtitle {
+  margin: 0.35rem 0 0;
+  font-size: 0.95rem;
+  color: var(--acj-text-muted);
+}
+
+/* --------------------
+   Main layout: sidebar + main-panel
+--------------------- */
+
+main.layout.layout--map-wide {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  min-height: 0; /* allow children to control height */
+  gap: 0;
+}
+
+/* Sidebar on the left */
+.sidebar {
+  width: 360px;
+  max-width: 100%;
+  flex: 0 0 360px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  background:
+    radial-gradient(circle at top, #fffdf7 0, var(--acj-bg-panel) 45%, var(--acj-bg-parchment) 100%);
+  border-right: 1px solid var(--acj-border-parchment);
+  box-shadow: 4px 0 18px rgba(0, 0, 0, 0.06);
+  min-height: 0;
+}
+
+/* Map + details column */
+.main-panel {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem 1rem 1rem;
+  gap: 0.75rem;
+  min-width: 0;
+  min-height: 0;
+}
+
+/* Map fills remaining vertical space */
+#map {
+  flex: 1 1 auto;
+  min-height: 60vh;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4),
+              0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* -----------------------------
+   Filters & sidebar sections
+------------------------------ */
+
+.sidebar-section + .sidebar-section {
+  margin-top: 0.9rem;
+}
+
+.sidebar-section h2 {
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-size: 1.15rem;
+  margin: 0 0 0.35rem;
+  color: var(--acj-blue);
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.form-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--acj-text-muted);
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+#parishFilter,
+#textFilter {
+  width: 100%;
+  padding: 0.35rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid var(--acj-border-parchment);
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 0.9rem;
+  color: var(--acj-text-main);
+}
+
+#textFilter::placeholder {
+  color: rgba(91, 82, 69, 0.6);
+}
+
+#parishFilter:focus,
+#textFilter:focus {
+  outline: none;
+  border-color: var(--acj-blue);
+  box-shadow: 0 0 0 2px rgba(22, 52, 91, 0.18);
+}
+
+/* Church list */
+
+.church-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  flex: 1 1 auto;
+  border-top: 1px solid rgba(211, 196, 170, 0.8);
+  margin-top: 0.5rem;
+}
+
+.church-list-item {
+  padding: 0.5rem 0.25rem 0.55rem;
+  border-bottom: 1px solid rgba(211, 196, 170, 0.5);
+  cursor: pointer;
+  transition:
+    background-color 0.15s ease,
+    border-left 0.15s ease;
+  border-left: 3px solid transparent;
+}
+
+.church-list-item:hover {
+  background-color: rgba(225, 233, 245, 0.6);
+  border-left-color: rgba(178, 34, 34, 0.7);
+}
+
+.church-list-item.is-selected {
+  background-color: rgba(225, 233, 245, 0.9);
+  border-left-color: var(--acj-red);
+}
+
+.church-name {
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-size: 1.05rem;
+  margin: 0 0 0.1rem;
+  color: var(--acj-blue);
+}
+
+.church-meta {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--acj-text-muted);
+}
+
+/* -----------------------------
+   Details panel (text sections)
+------------------------------ */
+
+.details-panel {
+  background:
+    radial-gradient(circle at top, #fffdf8 0, var(--acj-bg-panel) 40%, var(--acj-bg-parchment-deep) 100%);
+  border-radius: 12px;
+  border: 1px solid var(--acj-border-parchment);
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.4),
+    0 10px 24px rgba(0, 0, 0, 0.08);
+  padding: 0.75rem 0.9rem 0.9rem;
+}
+
+.details-panel article {
+  max-height: 40vh;
+  overflow-y: auto;
+}
+
+/* Overall details title */
+#details-title {
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--acj-blue);
+  margin: 0 0 0.35rem;
+}
+
+/* Intro text at top */
+.details-intro {
+  font-size: 0.95rem;
+  color: var(--acj-text-main);
+}
+
+/* Grid layout for the 4 sections */
+.details-grid {
+  margin-top: 0.55rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.6rem 0.75rem;
+}
+
+/* Section headings inside details */
+.details-grid h3 {
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-size: 0.92rem;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  margin: 0 0 0.25rem;
+  color: var(--acj-blue);
+}
+
+/* Parchment cards applied to the <p> elements by ID */
+
+#details-intro,
+#details-history,
+#details-architecture,
+#details-clergy,
+#details-facts {
+  position: relative;
+  margin-top: 0.2rem;
+  padding: 0.55rem 0.7rem;
+  border-radius: 10px;
+  background:
+    radial-gradient(circle at 20% 0%, #fffdf7 0, #f8f2e4 45%, #efe0c8 100%);
+  border: 1px solid rgba(211, 196, 170, 0.9);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.5),
+    0 1px 3px rgba(0, 0, 0, 0.08);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--acj-text-main);
+}
+
+/* Slight "aged" frame */
+#details-intro::before,
+#details-history::before,
+#details-architecture::before,
+#details-clergy::before,
+#details-facts::before {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  pointer-events: none;
+}
+
+/* --------------------
+   Small-screen tweaks
+--------------------- */
+
+@media (max-width: 900px) {
+  main.layout.layout--map-wide {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-right: none;
+    border-bottom: 1px solid var(--acj-border-parchment);
+  }
+
+  .main-panel {
+    padding-top: 0.75rem;
+  }
+
+  #map {
+    min-height: 50vh;
+  }
+
+  .details-panel article {
+    max-height: none;
+  }
+
+  .details-grid {
+    grid-template-columns: 1fr;
+  }
+}
