@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Anglican Churches in Jamaica — Map</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lora:ital,wght@0,400;0,500;1,400&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
     --gold: #C9962A;
@@ -27,11 +27,12 @@
 
     --sidebar-w: 320px;
     --details-w: 380px;
+    --details-w-expanded: 52%;
     --nav-h: 56px;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  html, body { height: 100%; overflow: hidden; font-family: 'EB Garamond', Georgia, serif; }
+  html, body { height: 100%; overflow: hidden; font-family: 'Lora', Georgia, serif; }
 
   /* ── NAV ── */
   .top-nav {
@@ -55,7 +56,7 @@
   .filter-group select {
     width: 100%; background: rgba(255,255,255,0.09);
     border: 1px solid rgba(201,150,42,0.35); color: var(--ivory);
-    font-family: 'EB Garamond', serif; font-size: 0.95rem;
+    font-family: 'Lora', serif; font-size: 0.95rem;
     padding: 0.45rem 0.75rem 0.45rem 2rem; outline: none;
     transition: border-color 0.2s; appearance: none; -webkit-appearance: none;
   }
@@ -117,7 +118,7 @@
   .church-list-item.is-selected .church-tag { border-color: rgba(240,200,74,0.4); color: var(--gold-light); }
 
   .church-name {
-    font-family: 'Playfair Display', serif; font-size: 0.9rem;
+    font-family: 'Cormorant Garamond', serif; font-size: 0.9rem;
     font-weight: 700; color: var(--sb-text); line-height: 1.2;
   }
   .church-meta {
@@ -137,7 +138,7 @@
     text-transform: uppercase;
   }
   .no-results {
-    padding: 2.5rem 1rem; font-family: 'Playfair Display', serif;
+    padding: 2.5rem 1rem; font-family: 'Cormorant Garamond', serif;
     font-style: italic; color: var(--sb-meta); font-size: 0.95rem; text-align: center;
   }
 
@@ -150,9 +151,10 @@
     display: flex; flex-direction: column;
     border-left: 2px solid var(--gold);
     flex-shrink: 0; z-index: 10; overflow: hidden;
-    transition: width 0.3s ease;
+    transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   }
   .details-panel.hidden { width: 0; border-left: none; }
+  .details-panel.expanded { width: var(--details-w-expanded); }
 
   .details-header {
     background: var(--crimson-deep);
@@ -175,8 +177,8 @@
   }
   .details-parish-badge::before { content: '✝'; font-size: 0.65rem; }
   #details-title {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.2rem; font-weight: 700; color: #FFFFFF; line-height: 1.2; margin-bottom: 0.3rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem; font-weight: 700; color: #FFFFFF; line-height: 1.2; margin-bottom: 0.3rem;
   }
   .details-classification {
     font-family: 'Cinzel', serif; font-size: 0.56rem;
@@ -195,7 +197,7 @@
     color: var(--crimson); margin-bottom: 0.4rem;
     padding-bottom: 0.3rem; border-bottom: 1px solid #E8EAED;
   }
-  .details-text { font-size: 0.93rem; line-height: 1.75; color: #374151; }
+  .details-text { font-size: 0.97rem; line-height: 1.82; color: #374151; }
   .details-empty { padding: 1.5rem 1.25rem; font-style: italic; color: #9CA3AF; font-size: 0.88rem; }
 
   .details-location-box {
@@ -220,9 +222,9 @@
   .details-map-link:hover { color: var(--crimson-deep); border-color: var(--crimson); }
 
   /* ── GOOGLE MAPS INFO WINDOW ── */
-  .gm-popup { font-family: 'EB Garamond', serif; min-width: 190px; }
+  .gm-popup { font-family: 'Lora', serif; min-width: 190px; }
   .gm-popup-name {
-    font-family: 'Playfair Display', serif; font-size: 1rem;
+    font-family: 'Cormorant Garamond', serif; font-size: 1rem;
     font-weight: 700; color: var(--crimson-deep); margin-bottom: 0.2rem;
   }
   .gm-popup-meta {
@@ -443,9 +445,10 @@ function initMap() {
   document.getElementById("parishFilter").addEventListener("change", onParishChange);
   document.getElementById("textFilter").addEventListener("input", debounce(applyFilters, 250));
   document.getElementById("resetBtn").addEventListener("click", resetFilters);
-  document.getElementById("details-close").addEventListener("click", () => {
-    document.getElementById("details-panel").classList.add("hidden");
-  });
+  document.getElementById("details-close").addEventListener("click", deselect);
+
+  // Click on map background to deselect
+  map.addListener("click", deselect);
 
   applyFilters();
 }
@@ -530,7 +533,9 @@ function createMarker(church) {
     icon: markerIcon(color, false)
   });
 
-  gmMarker.addListener("click", () => {
+  gmMarker.addListener("click", (e) => {
+    // Stop click bubbling to map (which would trigger deselect)
+    if (e && e.stop) e.stop();
     selectChurch(church, gmMarker, false);
     infoWindow.setContent(`
       <div class="gm-popup">
@@ -583,7 +588,24 @@ function renderListAndMarkers(data) {
   selectChurch(first, markers.find(m => m.id === first.id)?.gmMarker, false);
 }
 
-// ── Selection ──────────────────────────────────────────────────────────────
+// ── Deselect ───────────────────────────────────────────────────────────────
+function deselect() {
+  // Reset all markers to normal size
+  markers.forEach(({ gmMarker: m, church: c }) => {
+    m.setIcon(markerIcon(parishColors[c.parish] || FALLBACK_COLOR, false));
+    m.setZIndex(1);
+  });
+  // Deselect list
+  const listEl = document.getElementById("church-list");
+  Array.from(listEl.children).forEach(li => li.classList.remove("is-selected"));
+  // Collapse & hide details panel
+  const panel = document.getElementById("details-panel");
+  panel.classList.remove("expanded");
+  panel.classList.add("hidden");
+  infoWindow && infoWindow.close();
+}
+
+
 function selectChurch(church, gmMarker, panMap) {
   // Reset all markers
   markers.forEach(({ gmMarker: m, church: c }) => {
@@ -609,15 +631,18 @@ function selectChurch(church, gmMarker, panMap) {
   }
 
   updateDetails(church);
-  document.getElementById("details-panel").classList.remove("hidden");
+  // Expand the details panel
+  const panel = document.getElementById("details-panel");
+  panel.classList.remove("hidden");
+  panel.classList.add("expanded");
 }
 
 window.selectChurchById = function(id) {
   const church = churchesData.find(c => c.id === id);
   if (!church) return;
   const m = markers.find(x => x.id === id);
-  selectChurch(church, m?.gmMarker, false);
   infoWindow.close();
+  selectChurch(church, m?.gmMarker, false);
 };
 
 // ── Details ────────────────────────────────────────────────────────────────
