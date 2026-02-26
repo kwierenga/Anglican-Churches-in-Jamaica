@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anglican Churches in Jamaica</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --gold: #C9962A;
+    --gold-light: #F0C84A;
+    --gold-pale: #F8F5EE;
+    --crimson: #8B1A2B;
+    --crimson-deep: #5C0F1A;
+    --purple: #2E1A5C;
+    --purple-mid: #5B3FA0;
+    --purple-light: #EAE4F5;
+    --forest: #163A28;
+    --forest-mid: #2D7A4F;
+    --ivory: #F7F8FA;
+    --dark: #0F1923;
+    --text: #1E2A38;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'EB Garamond', Georgia, serif;
+    background: var(--ivory);
+    color: var(--text);
+    overflow-x: hidden;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: var(--crimson-deep);
+    border-bottom: 3px solid var(--gold);
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 2.5rem;
+    height: 64px;
+  }
+  .nav-logo {
+    font-family: 'Cinzel', serif;
+    color: var(--gold-light);
+    font-size: 1rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .nav-links {
+    display: flex; gap: 2rem; list-style: none;
+  }
+  .nav-links a {
+    font-family: 'Cinzel', serif;
+    color: var(--gold-pale);
+    text-decoration: none;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.85;
+    transition: opacity 0.2s, color 0.2s;
+  }
+  .nav-links a:hover { opacity: 1; color: var(--gold-light); }
+  .nav-cross {
+    color: var(--gold);
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+
+  /* ── HERO ── */
+  .hero {
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    padding-top: 64px;
+  }
+
+  .hero-left {
+    background: var(--crimson-deep);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem 4rem 5rem 4rem;
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero-left::after {
+    content: '';
+    position: absolute;
+    right: -60px; top: 0; bottom: 0;
+    width: 120px;
+    background: var(--crimson-deep);
+    clip-path: polygon(0 0, 50% 0, 100% 50%, 50% 100%, 0 100%);
+    z-index: 3;
+  }
+
+  .hero-eyebrow {
+    font-family: 'Cinzel', serif;
+    color: var(--gold);
+    font-size: 0.7rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .hero-eyebrow::before, .hero-eyebrow::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.5;
+  }
+  .hero-eyebrow::before { max-width: 30px; }
+  .hero-eyebrow::after { max-width: 0; }
+
+  .hero-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: var(--ivory);
+    font-size: clamp(2.8rem, 5vw, 4.5rem);
+    font-weight: 900;
+    line-height: 1.05;
+    margin-bottom: 0.5rem;
+  }
+  .hero-title em {
+    color: var(--gold-light);
+    font-style: italic;
+  }
+  .hero-subtitle {
+    font-family: 'Playfair Display', serif;
+    color: var(--gold);
+    font-size: clamp(1rem, 2vw, 1.4rem);
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+  }
+  .hero-desc {
+    color: #cdd8e8;
+    font-size: 1.1rem;
+    line-height: 1.75;
+    max-width: 420px;
+    margin-bottom: 2.5rem;
+  }
+  .btn-primary {
+    display: inline-block;
+    background: var(--gold);
+    color: var(--crimson-deep);
+    font-family: 'Cinzel', serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.9rem 2.2rem;
+    border: 2px solid var(--gold);
+    transition: all 0.25s;
+  }
+  .btn-primary:hover {
+    background: transparent;
+    color: var(--gold);
+  }
+  .btn-ghost {
+    display: inline-block;
+    background: transparent;
+    color: var(--gold-pale);
+    font-family: 'Cinzel', serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.9rem 2.2rem;
+    border: 1px solid rgba(240,200,74,0.35);
+    margin-left: 1rem;
+    transition: all 0.25s;
+  }
+  .btn-ghost:hover { border-color: var(--gold); color: var(--gold-light); }
+
+  .hero-right {
+    position: relative;
+    background: var(--purple);
+    overflow: hidden;
+  }
+
+  /* Stained glass effect */
+  .glass-panel {
+    position: absolute; inset: 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    opacity: 0.55;
+  }
+  .glass-panel div {
+    border: 1px solid rgba(255,255,255,0.1);
+  }
+  .glass-panel div:nth-child(6n+1) { background: var(--crimson); }
+  .glass-panel div:nth-child(6n+2) { background: var(--gold); }
+  .glass-panel div:nth-child(6n+3) { background: var(--purple-mid); }
+  .glass-panel div:nth-child(6n+4) { background: var(--forest); }
+  .glass-panel div:nth-child(6n+5) { background: var(--crimson-deep); }
+  .glass-panel div:nth-child(6n) { background: var(--forest-mid); }
+
+  .hero-right-content {
+    position: relative; z-index: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 3rem;
+  }
+
+  .cross-symbol {
+    position: relative;
+    width: 180px; height: 220px;
+    margin-bottom: 2rem;
+  }
+  .cross-v {
+    position: absolute;
+    left: 50%; transform: translateX(-50%);
+    width: 36px; height: 100%;
+    background: linear-gradient(180deg, var(--gold-light), var(--gold));
+    box-shadow: 0 0 40px rgba(201,150,42,0.6);
+  }
+  .cross-h {
+    position: absolute;
+    top: 30%; left: 0; right: 0;
+    height: 36px;
+    background: linear-gradient(90deg, var(--gold-light), var(--gold));
+    box-shadow: 0 0 40px rgba(201,150,42,0.6);
+  }
+  .cross-gem {
+    position: absolute;
+    width: 20px; height: 20px;
+    background: var(--crimson);
+    border: 3px solid var(--gold-light);
+    border-radius: 50%;
+    box-shadow: 0 0 12px rgba(201,150,42,0.8);
+  }
+  .cross-gem.top { top: -4px; left: 50%; transform: translateX(-50%); }
+  .cross-gem.bottom { bottom: -4px; left: 50%; transform: translateX(-50%); }
+  .cross-gem.left { top: 30%; left: -4px; transform: translateY(50%); }
+  .cross-gem.right { top: 30%; right: -4px; transform: translateY(50%); }
+  .cross-gem.center { top: 30%; left: 50%; transform: translate(-50%, 50%); background: var(--gold-light); width: 24px; height: 24px; }
+
+  .hero-scripture {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: var(--gold-pale);
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.6;
+    max-width: 320px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  }
+  .hero-scripture cite {
+    display: block;
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    color: var(--gold);
+    margin-top: 1rem;
+  }
+
+  /* ── MARQUEE BANNER ── */
+  .marquee-banner {
+    background: var(--gold);
+    color: var(--crimson-deep);
+    overflow: hidden;
+    padding: 0.7rem 0;
+    white-space: nowrap;
+  }
+  .marquee-track {
+    display: inline-block;
+    animation: marquee 28s linear infinite;
+  }
+  .marquee-track span {
+    font-family: 'Cinzel', serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 0 2rem;
+  }
+  .marquee-track .dot { color: var(--crimson); }
+  @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+  /* ── PILLARS ── */
+  .pillars {
+    padding: 6rem 3rem;
+    background: var(--ivory);
+  }
+  .section-label {
+    font-family: 'Cinzel', serif;
+    font-size: 0.65rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--crimson);
+    text-align: center;
+    margin-bottom: 0.75rem;
+  }
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.8rem, 3vw, 2.8rem);
+    font-weight: 700;
+    text-align: center;
+    color: var(--dark);
+    margin-bottom: 3.5rem;
+    line-height: 1.2;
+  }
+  .section-title em { color: var(--crimson); font-style: italic; }
+
+  .pillars-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid var(--gold);
+  }
+  .pillar {
+    padding: 2.5rem 2rem;
+    border-right: 1px solid var(--gold);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  .pillar:last-child { border-right: none; }
+  .pillar::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 5px;
+  }
+  .pillar:nth-child(1)::before { background: var(--crimson); }
+  .pillar:nth-child(2)::before { background: var(--gold); }
+  .pillar:nth-child(3)::before { background: var(--purple-mid); }
+  .pillar:nth-child(4)::before { background: var(--forest-mid); }
+
+  .pillar:hover { transform: translateY(-4px); }
+
+  .pillar-icon {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    display: block;
+  }
+  .pillar-name {
+    font-family: 'Cinzel', serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--dark);
+    margin-bottom: 0.75rem;
+  }
+  .pillar-desc {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #3d4f63;
+  }
+
+  /* ── DIOCESE STRIP ── */
+  .diocese-strip {
+    background: var(--forest);
+    padding: 4rem 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+  }
+  .diocese-card {
+    background: rgba(255,255,255,0.05);
+    padding: 2.5rem 2rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  .diocese-card:hover { background: rgba(255,255,255,0.1); }
+  .diocese-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--gold);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s;
+  }
+  .diocese-card:hover::after { transform: scaleX(1); }
+  .diocese-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 0.25rem;
+  }
+  .diocese-label {
+    font-family: 'Cinzel', serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold-pale);
+    margin-bottom: 1rem;
+  }
+  .diocese-desc {
+    font-size: 0.9rem;
+    color: rgba(250,246,238,0.6);
+    line-height: 1.6;
+  }
+
+  /* ── NEWS ── */
+  .news {
+    padding: 6rem 3rem;
+    background: #EEF1F6;
+  }
+  .news-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .news-card {
+    background: white;
+    overflow: hidden;
+    position: relative;
+    transition: box-shadow 0.3s;
+    cursor: pointer;
+  }
+  .news-card:hover { box-shadow: 0 8px 40px rgba(0,0,0,0.12); }
+  .news-card-img {
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+  }
+  .news-card.featured .news-card-img { height: 280px; }
+  .news-img-bg {
+    width: 100%; height: 100%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 4rem;
+  }
+  .bg-crimson { background: linear-gradient(135deg, var(--crimson-deep), var(--crimson)); }
+  .bg-purple { background: linear-gradient(135deg, var(--purple), var(--purple-mid)); }
+  .bg-forest { background: linear-gradient(135deg, var(--forest), var(--forest-mid)); }
+
+  .news-tag {
+    position: absolute;
+    top: 1rem; left: 1rem;
+    font-family: 'Cinzel', serif;
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: white;
+    background: var(--crimson);
+    padding: 0.3rem 0.75rem;
+  }
+  .news-body { padding: 1.5rem; }
+  .news-date {
+    font-family: 'Cinzel', serif;
+    font-size: 0.6rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.5rem;
+  }
+  .news-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--dark);
+    margin-bottom: 0.75rem;
+  }
+  .news-card.featured .news-headline { font-size: 1.5rem; }
+  .news-excerpt {
+    font-size: 0.9rem;
+    line-height: 1.65;
+    color: #3d4f63;
+  }
+
+  /* ── RESOURCES ── */
+  .resources {
+    padding: 6rem 3rem;
+    background: var(--purple);
+    position: relative;
+    overflow: hidden;
+  }
+  .resources::before {
+    content: '✝';
+    position: absolute;
+    right: -2rem; top: 50%;
+    transform: translateY(-50%);
+    font-size: 30rem;
+    color: rgba(255,255,255,0.03);
+    line-height: 1;
+  }
+  .resources .section-label { color: var(--gold-light); }
+  .resources .section-title { color: var(--ivory); }
+
+  .resources-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .resource-item {
+    border: 1px solid rgba(201,150,42,0.3);
+    padding: 2rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+    cursor: pointer;
+    transition: border-color 0.3s, background 0.3s;
+  }
+  .resource-item:hover {
+    border-color: var(--gold);
+    background: rgba(201,150,42,0.08);
+  }
+  .resource-icon {
+    font-size: 1.8rem;
+    flex-shrink: 0;
+  }
+  .resource-name {
+    font-family: 'Cinzel', serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--gold-light);
+    margin-bottom: 0.4rem;
+  }
+  .resource-desc {
+    font-size: 0.88rem;
+    color: rgba(250,246,238,0.6);
+    line-height: 1.6;
+  }
+
+  /* ── EVENTS ── */
+  .events {
+    padding: 6rem 3rem;
+    background: var(--ivory);
+  }
+  .events-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .event-row {
+    display: grid;
+    grid-template-columns: 80px 1fr auto;
+    gap: 2rem;
+    align-items: center;
+    padding: 1.75rem 0;
+    border-bottom: 1px solid rgba(201,150,42,0.25);
+    transition: background 0.2s;
+    cursor: pointer;
+  }
+  .event-row:hover { background: rgba(201,150,42,0.04); }
+  .event-date-box {
+    text-align: center;
+    background: var(--crimson);
+    padding: 0.6rem;
+    color: white;
+  }
+  .event-date-day {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1;
+  }
+  .event-date-month {
+    font-family: 'Cinzel', serif;
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+  .event-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 0.3rem;
+  }
+  .event-meta {
+    font-family: 'Cinzel', serif;
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    color: var(--forest-mid);
+  }
+  .event-type {
+    font-family: 'Cinzel', serif;
+    font-size: 0.6rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 0.35rem 0.8rem;
+    border: 1px solid;
+  }
+  .event-type.diocesan { color: var(--purple-mid); border-color: var(--purple-mid); }
+  .event-type.worship { color: var(--crimson); border-color: var(--crimson); }
+  .event-type.youth { color: var(--forest-mid); border-color: var(--forest-mid); }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--dark);
+    border-top: 3px solid var(--gold);
+    padding: 4rem 3rem 2rem;
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto 3rem;
+  }
+  .footer-brand-name {
+    font-family: 'Cinzel', serif;
+    color: var(--gold);
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5rem;
+  }
+  .footer-tagline {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: rgba(250,243,220,0.5);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  .footer-col-title {
+    font-family: 'Cinzel', serif;
+    font-size: 0.65rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(201,150,42,0.3);
+  }
+  .footer-links { list-style: none; }
+  .footer-links li { margin-bottom: 0.6rem; }
+  .footer-links a {
+    color: rgba(250,246,238,0.55);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+  }
+  .footer-links a:hover { color: var(--gold-light); }
+  .footer-bottom {
+    border-top: 1px solid rgba(201,150,42,0.2);
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .footer-copy {
+    font-family: 'Cinzel', serif;
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    color: rgba(250,246,238,0.3);
+  }
+  .diocese-coa {
+    color: var(--gold);
+    font-size: 1.5rem;
+  }
+
+  /* ── ANIMATIONS ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .hero-left > * {
+    animation: fadeUp 0.8s ease forwards;
+    opacity: 0;
+  }
+  .hero-eyebrow { animation-delay: 0.1s; }
+  .hero-title { animation-delay: 0.25s; }
+  .hero-subtitle { animation-delay: 0.4s; }
+  .hero-desc { animation-delay: 0.55s; }
+  .hero-btns { animation-delay: 0.7s; }
+
+  @keyframes glowPulse {
+    0%, 100% { box-shadow: 0 0 40px rgba(201,150,42,0.6); }
+    50% { box-shadow: 0 0 80px rgba(201,150,42,0.9), 0 0 120px rgba(201,150,42,0.3); }
+  }
+  .cross-v, .cross-h { animation: glowPulse 3s ease-in-out infinite; }
+
+  @media (max-width: 900px) {
+    .hero { grid-template-columns: 1fr; }
+    .hero-left::after { display: none; }
+    .hero-right { min-height: 40vh; }
+    .pillars-grid { grid-template-columns: 1fr 1fr; }
+    .diocese-strip { grid-template-columns: 1fr; }
+    .news-grid { grid-template-columns: 1fr; }
+    .resources-list { grid-template-columns: 1fr 1fr; }
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+    nav { padding: 0 1.5rem; }
+    .nav-links { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo"><span class="nav-cross">✝</span> Anglican Jamaica</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="church-map.html">Churches</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#events">Events</a></li>
+    <li><a href="#resources">Resources</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-left">
+    <div class="hero-eyebrow">Diocese of Jamaica &amp; The Cayman Islands</div>
+    <h1 class="hero-title">One Faith,<br><em>Many Voices,</em><br>One Island</h1>
+    <p class="hero-subtitle">Rooted in Tradition. Alive in Spirit.</p>
+    <p class="hero-desc">A community hub connecting Anglican congregations across Jamaica — sharing news, resources, worship, and fellowship in service to God and nation.</p>
+    <div class="hero-btns">
+      <a href="church-map.html" class="btn-primary">Find a Church</a>
+      <a href="#news" class="btn-ghost">Latest News</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="glass-panel">
+      <div></div><div></div><div></div><div></div><div></div><div></div>
+      <div></div><div></div><div></div><div></div><div></div><div></div>
+      <div></div><div></div><div></div><div></div><div></div><div></div>
+      <div></div><div></div><div></div><div></div><div></div><div></div>
+      <div></div><div></div><div></div><div></div><div></div><div></div>
+      <div></div><div></div><div></div><div></div><div></div><div></div>
+      <div></div><div></div><div></div><div></div><div></div><div></div>
+      <div></div><div></div><div></div><div></div><div></div><div></div>
+    </div>
+    <div class="hero-right-content">
+      <div class="cross-symbol">
+        <div class="cross-v"></div>
+        <div class="cross-h"></div>
+        <div class="cross-gem top"></div>
+        <div class="cross-gem bottom"></div>
+        <div class="cross-gem left"></div>
+        <div class="cross-gem right"></div>
+        <div class="cross-gem center"></div>
+      </div>
+      <p class="hero-scripture">
+        "I can do all things through Christ who strengthens me."
+        <cite>Philippians 4:13</cite>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-banner">
+  <div class="marquee-track">
+    <span>Sunday Services</span><span class="dot">✦</span>
+    <span>Community Outreach</span><span class="dot">✦</span>
+    <span>Youth Ministry</span><span class="dot">✦</span>
+    <span>Diocesan Events</span><span class="dot">✦</span>
+    <span>Scripture & Prayer</span><span class="dot">✦</span>
+    <span>Church Directory</span><span class="dot">✦</span>
+    <span>Missions & Ministry</span><span class="dot">✦</span>
+    <span>Sunday Services</span><span class="dot">✦</span>
+    <span>Community Outreach</span><span class="dot">✦</span>
+    <span>Youth Ministry</span><span class="dot">✦</span>
+    <span>Diocesan Events</span><span class="dot">✦</span>
+    <span>Scripture & Prayer</span><span class="dot">✦</span>
+    <span>Church Directory</span><span class="dot">✦</span>
+    <span>Missions & Ministry</span><span class="dot">✦</span>
+  </div>
+</div>
+
+<!-- PILLARS -->
+<section class="pillars" id="about">
+  <p class="section-label">Our Foundation</p>
+  <h2 class="section-title">Pillars of <em>Anglican Life</em> in Jamaica</h2>
+  <div class="pillars-grid">
+    <div class="pillar">
+      <span class="pillar-icon">🙏</span>
+      <div class="pillar-name">Worship</div>
+      <p class="pillar-desc">Liturgical worship rooted in scripture, tradition, and the Book of Common Prayer, bringing communities together in praise.</p>
+    </div>
+    <div class="pillar">
+      <span class="pillar-icon">📖</span>
+      <div class="pillar-name">Scripture</div>
+      <p class="pillar-desc">The living Word of God guides our faith, study, and practice across every congregation throughout the island.</p>
+    </div>
+    <div class="pillar">
+      <span class="pillar-icon">🤝</span>
+      <div class="pillar-name">Service</div>
+      <p class="pillar-desc">Serving Jamaica's communities through education, healthcare, social outreach, and advocacy for justice and dignity.</p>
+    </div>
+    <div class="pillar">
+      <span class="pillar-icon">🌱</span>
+      <div class="pillar-name">Stewardship</div>
+      <p class="pillar-desc">Caring for God's creation, our heritage, our resources, and one another as faithful stewards of all we've been given.</p>
+    </div>
+  </div>
+</section>
+
+<!-- DIOCESE STATS -->
+<section class="diocese-strip" id="churches">
+  <div class="diocese-card">
+    <div class="diocese-number">200+</div>
+    <div class="diocese-label">Congregations</div>
+    <p class="diocese-desc">Anglican churches spanning every parish across Jamaica, from Kingston to Westmoreland.</p>
+  </div>
+  <div class="diocese-card">
+    <div class="diocese-number">6</div>
+    <div class="diocese-label">Archdeaconries</div>
+    <p class="diocese-desc">Regional groupings of churches led by archdeacons, fostering local fellowship and administration.</p>
+  </div>
+  <div class="diocese-card">
+    <div class="diocese-number">180+</div>
+    <div class="diocese-label">Years of Faith</div>
+    <p class="diocese-desc">A rich history of Anglican witness in Jamaica since the Diocese was established in 1824.</p>
+  </div>
+</section>
+
+<!-- NEWS -->
+<section class="news" id="news">
+  <p class="section-label">From the Diocese</p>
+  <h2 class="section-title">News &amp; <em>Announcements</em></h2>
+  <div class="news-grid">
+    <div class="news-card featured">
+      <div class="news-card-img">
+        <div class="news-img-bg bg-crimson">⛪</div>
+        <div class="news-tag">Featured</div>
+      </div>
+      <div class="news-body">
+        <div class="news-date">February 2025</div>
+        <div class="news-headline">Diocese Launches New Community Outreach Initiative Across All Parishes</div>
+        <p class="news-excerpt">The Diocese of Jamaica and the Cayman Islands has announced a landmark community development programme connecting churches with local needs across all 14 parishes.</p>
+      </div>
+    </div>
+    <div class="news-card">
+      <div class="news-card-img">
+        <div class="news-img-bg bg-purple">📿</div>
+        <div class="news-tag">Worship</div>
+      </div>
+      <div class="news-body">
+        <div class="news-date">January 2025</div>
+        <div class="news-headline">Lenten Season Resources Now Available</div>
+        <p class="news-excerpt">Devotional guides and reflection resources for the Lenten journey are available for all congregations.</p>
+      </div>
+    </div>
+    <div class="news-card">
+      <div class="news-card-img">
+        <div class="news-img-bg bg-forest">🎶</div>
+        <div class="news-tag">Youth</div>
+      </div>
+      <div class="news-body">
+        <div class="news-date">January 2025</div>
+        <div class="news-headline">Youth Choir Festival Returns This Easter</div>
+        <p class="news-excerpt">The annual Youth Choir Festival will bring together young voices from across the diocese for a celebration of song.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESOURCES -->
+<section class="resources" id="resources">
+  <p class="section-label">For the Faithful</p>
+  <h2 class="section-title">Resources &amp; <em>Ministries</em></h2>
+  <div class="resources-list">
+    <div class="resource-item">
+      <span class="resource-icon">📜</span>
+      <div>
+        <div class="resource-name">Book of Common Prayer</div>
+        <p class="resource-desc">Access liturgical texts, prayers, and rites for all occasions.</p>
+      </div>
+    </div>
+    <div class="resource-item">
+      <span class="resource-icon">🎵</span>
+      <div>
+        <div class="resource-name">Hymns &amp; Music</div>
+        <p class="resource-desc">Hymnals, sheet music, and worship resources for choirs and congregations.</p>
+      </div>
+    </div>
+    <div class="resource-item">
+      <span class="resource-icon">📚</span>
+      <div>
+        <div class="resource-name">Bible Study</div>
+        <p class="resource-desc">Weekly lectionary readings, study guides, and devotional materials.</p>
+      </div>
+    </div>
+    <div class="resource-item">
+      <span class="resource-icon">👨‍👩‍👧</span>
+      <div>
+        <div class="resource-name">Family Ministry</div>
+        <p class="resource-desc">Resources for families, children's church, and intergenerational worship.</p>
+      </div>
+    </div>
+    <div class="resource-item">
+      <span class="resource-icon">🌍</span>
+      <div>
+        <div class="resource-name">Missions</div>
+        <p class="resource-desc">Outreach programmes, social justice initiatives, and global partnerships.</p>
+      </div>
+    </div>
+    <div class="resource-item">
+      <span class="resource-icon">🎓</span>
+      <div>
+        <div class="resource-name">Education</div>
+        <p class="resource-desc">Theological training, church schools, and lifelong learning opportunities.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EVENTS -->
+<section class="events" id="events">
+  <p class="section-label">Coming Up</p>
+  <h2 class="section-title">Upcoming <em>Events</em></h2>
+  <div class="events-container">
+    <div class="event-row">
+      <div class="event-date-box">
+        <div class="event-date-day">05</div>
+        <div class="event-date-month">Mar</div>
+      </div>
+      <div>
+        <div class="event-name">Ash Wednesday Services</div>
+        <div class="event-meta">📍 All Congregations Island-Wide &nbsp;|&nbsp; 🕖 6:00 AM & 7:00 PM</div>
+      </div>
+      <div class="event-type worship">Worship</div>
+    </div>
+    <div class="event-row">
+      <div class="event-date-box">
+        <div class="event-date-day">15</div>
+        <div class="event-date-month">Mar</div>
+      </div>
+      <div>
+        <div class="event-name">Diocesan Standing Committee Meeting</div>
+        <div class="event-meta">📍 Kingston — Church House &nbsp;|&nbsp; 🕙 10:00 AM</div>
+      </div>
+      <div class="event-type diocesan">Diocesan</div>
+    </div>
+    <div class="event-row">
+      <div class="event-date-box">
+        <div class="event-date-day">22</div>
+        <div class="event-date-month">Mar</div>
+      </div>
+      <div>
+        <div class="event-name">Youth Ministry Leadership Workshop</div>
+        <div class="event-meta">📍 Spanish Town Cathedral &nbsp;|&nbsp; 🕙 9:00 AM – 3:00 PM</div>
+      </div>
+      <div class="event-type youth">Youth</div>
+    </div>
+    <div class="event-row">
+      <div class="event-date-box">
+        <div class="event-date-day">18</div>
+        <div class="event-date-month">Apr</div>
+      </div>
+      <div>
+        <div class="event-name">Good Friday Liturgy &amp; Procession</div>
+        <div class="event-meta">📍 Kingston Parish Church &nbsp;|&nbsp; 🕑 2:00 PM</div>
+      </div>
+      <div class="event-type worship">Worship</div>
+    </div>
+    <div class="event-row">
+      <div class="event-date-box">
+        <div class="event-date-day">20</div>
+        <div class="event-date-month">Apr</div>
+      </div>
+      <div>
+        <div class="event-name">Easter Sunday — Great Vigil &amp; Festival Eucharist</div>
+        <div class="event-meta">📍 All Congregations &nbsp;|&nbsp; 🕔 Dawn &amp; 10:00 AM</div>
+      </div>
+      <div class="event-type worship">Worship</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contact">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand-name">✝ Anglican Churches in Jamaica</div>
+      <p class="footer-tagline">"Serving God, Serving Jamaica" — a fellowship of faith, rooted in tradition and alive in mission across the island.</p>
+    </div>
+    <div>
+      <div class="footer-col-title">Navigation</div>
+      <ul class="footer-links">
+        <li><a href="#about">About the Diocese</a></li>
+        <li><a href="#churches">Find a Church</a></li>
+        <li><a href="#news">News & Notices</a></li>
+        <li><a href="#events">Events Calendar</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Resources</div>
+      <ul class="footer-links">
+        <li><a href="#">Book of Common Prayer</a></li>
+        <li><a href="#">Lectionary</a></li>
+        <li><a href="#">Sermons</a></li>
+        <li><a href="#">Youth Ministry</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Contact</div>
+      <ul class="footer-links">
+        <li><a href="#">Church House, Kingston</a></li>
+        <li><a href="#">Diocese of Jamaica</a></li>
+        <li><a href="#">Cayman Islands</a></li>
+        <li><a href="#">Media Enquiries</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2025 Diocese of Jamaica & The Cayman Islands — Anglican Communion</span>
+    <span class="diocese-coa">✝</span>
+  </div>
+</footer>
+
+</body>
+</html>

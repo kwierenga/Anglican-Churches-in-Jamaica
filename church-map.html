@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anglican Churches in Jamaica — Map</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lora:ital,wght@0,400;0,500;1,400&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --gold: #C9962A;
+    --gold-light: #F0C84A;
+    --gold-pale: #FFFDF5;
+    --crimson: #8B1A2B;
+    --crimson-deep: #5C0F1A;
+    --ivory: #FAF6EE;
+
+    /* Grey-white sidebar palette — no brown */
+    --sb-bg: #F5F6F7;
+    --sb-border: #E2E4E8;
+    --sb-header: #FFFFFF;
+    --sb-text: #1A1D23;
+    --sb-meta: #6B7280;
+    --sb-selected: #1A1D23;
+    --sb-hover: #ECEEF1;
+    --sb-tag-border: #D1D5DB;
+    --sb-tag-text: #4B5563;
+
+    --sidebar-w: 320px;
+    --details-w: 380px;
+    --details-w-expanded: 52%;
+    --nav-h: 56px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; overflow: hidden; font-family: 'Lora', Georgia, serif; }
+
+  /* ── NAV ── */
+  .top-nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+    height: var(--nav-h);
+    background: var(--crimson-deep);
+    border-bottom: 2px solid var(--gold);
+    display: flex; align-items: center;
+    padding: 0 1.25rem; gap: 1rem;
+  }
+  .nav-brand {
+    font-family: 'Cinzel', serif; color: var(--gold-light);
+    font-size: 0.85rem; letter-spacing: 0.1em; white-space: nowrap;
+    text-decoration: none; display: flex; align-items: center; gap: 0.5rem;
+  }
+  .nav-divider { width: 1px; height: 28px; background: rgba(201,150,42,0.3); flex-shrink: 0; }
+
+  .filters { display: flex; align-items: center; gap: 0.6rem; flex: 1; }
+  .filter-group { position: relative; flex: 1; max-width: 260px; }
+  .filter-group input,
+  .filter-group select {
+    width: 100%; background: rgba(255,255,255,0.09);
+    border: 1px solid rgba(201,150,42,0.35); color: var(--ivory);
+    font-family: 'Lora', serif; font-size: 0.95rem;
+    padding: 0.45rem 0.75rem 0.45rem 2rem; outline: none;
+    transition: border-color 0.2s; appearance: none; -webkit-appearance: none;
+  }
+  .filter-group input::placeholder { color: rgba(250,246,238,0.4); }
+  .filter-group input:focus,
+  .filter-group select:focus { border-color: var(--gold); background: rgba(255,255,255,0.13); }
+  .filter-group select option { background: #3a0d15; color: var(--ivory); }
+  .filter-icon {
+    position: absolute; left: 0.6rem; top: 50%; transform: translateY(-50%);
+    color: var(--gold); font-size: 0.8rem; pointer-events: none;
+  }
+  .filter-count {
+    font-family: 'Cinzel', serif; font-size: 0.62rem;
+    letter-spacing: 0.1em; color: rgba(240,200,74,0.65); white-space: nowrap;
+  }
+  .btn-reset {
+    background: none; border: 1px solid rgba(201,150,42,0.4);
+    color: var(--gold-pale); font-family: 'Cinzel', serif;
+    font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase;
+    padding: 0.4rem 0.85rem; cursor: pointer; transition: all 0.2s; white-space: nowrap;
+  }
+  .btn-reset:hover { border-color: var(--gold); color: var(--gold-light); }
+
+  /* ── LAYOUT ── */
+  .layout {
+    position: fixed; top: var(--nav-h); left: 0; right: 0; bottom: 0;
+    display: flex;
+  }
+
+  /* ── SIDEBAR ── */
+  .sidebar {
+    width: var(--sidebar-w); background: var(--sb-bg);
+    display: flex; flex-direction: column;
+    border-right: 1px solid var(--sb-border);
+    flex-shrink: 0; z-index: 10;
+  }
+  .sidebar-header {
+    padding: 0.7rem 1rem; background: var(--sb-header);
+    border-bottom: 1px solid var(--sb-border);
+    font-family: 'Cinzel', serif; font-size: 0.58rem;
+    letter-spacing: 0.2em; text-transform: uppercase; color: var(--crimson);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+  #church-list { list-style: none; overflow-y: auto; flex: 1; }
+  #church-list::-webkit-scrollbar { width: 4px; }
+  #church-list::-webkit-scrollbar-track { background: var(--sb-bg); }
+  #church-list::-webkit-scrollbar-thumb { background: #CBD0D8; border-radius: 2px; }
+
+  .church-list-item {
+    padding: 0.8rem 1rem; cursor: pointer;
+    border-bottom: 1px solid var(--sb-border);
+    transition: background 0.12s;
+    display: flex; flex-direction: column; gap: 0.15rem;
+  }
+  .church-list-item:hover { background: var(--sb-hover); }
+  .church-list-item.is-selected { background: var(--sb-selected); }
+  .church-list-item.is-selected .church-name { color: #FFFFFF; }
+  .church-list-item.is-selected .church-meta { color: rgba(255,255,255,0.5); }
+  .church-list-item.is-selected .church-tag { border-color: rgba(240,200,74,0.4); color: var(--gold-light); }
+
+  .church-name {
+    font-family: 'Cormorant Garamond', serif; font-size: 0.9rem;
+    font-weight: 700; color: var(--sb-text); line-height: 1.2;
+  }
+  .church-meta {
+    font-family: 'Cinzel', serif; font-size: 0.57rem;
+    letter-spacing: 0.06em; color: var(--sb-meta);
+    display: flex; align-items: center; gap: 0.4rem;
+  }
+  .parish-dot-sm {
+    width: 6px; height: 6px; border-radius: 50%;
+    flex-shrink: 0; display: inline-block;
+  }
+  .church-tag {
+    display: inline-block; margin-top: 0.15rem;
+    font-family: 'Cinzel', serif; font-size: 0.52rem;
+    letter-spacing: 0.08em; padding: 0.12rem 0.4rem;
+    border: 1px solid var(--sb-tag-border); color: var(--sb-tag-text);
+    text-transform: uppercase;
+  }
+  .no-results {
+    padding: 2.5rem 1rem; font-family: 'Cormorant Garamond', serif;
+    font-style: italic; color: var(--sb-meta); font-size: 0.95rem; text-align: center;
+  }
+
+  /* ── MAP ── */
+  #map { flex: 1; z-index: 1; }
+
+  /* ── DETAILS PANEL ── */
+  .details-panel {
+    width: var(--details-w); background: #FFFFFF;
+    display: flex; flex-direction: column;
+    border-left: 2px solid var(--gold);
+    flex-shrink: 0; z-index: 10; overflow: hidden;
+    transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .details-panel.hidden { width: 0; border-left: none; }
+  .details-panel.expanded { width: var(--details-w-expanded); }
+
+  .details-header {
+    background: var(--crimson-deep);
+    border-bottom: 2px solid var(--gold);
+    padding: 1.1rem 1.25rem 1rem;
+    flex-shrink: 0; position: relative;
+  }
+  .details-close {
+    position: absolute; top: 0.75rem; right: 0.9rem;
+    background: none; border: none;
+    color: rgba(240,200,74,0.5); font-size: 1rem;
+    cursor: pointer; padding: 0.2rem; transition: color 0.2s;
+  }
+  .details-close:hover { color: var(--gold-light); }
+  .details-parish-badge {
+    font-family: 'Cinzel', serif; font-size: 0.57rem;
+    letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--gold); margin-bottom: 0.35rem;
+    display: flex; align-items: center; gap: 0.4rem;
+  }
+  .details-parish-badge::before { content: '✝'; font-size: 0.65rem; }
+  #details-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem; font-weight: 700; color: #FFFFFF; line-height: 1.2; margin-bottom: 0.3rem;
+  }
+  .details-classification {
+    font-family: 'Cinzel', serif; font-size: 0.56rem;
+    letter-spacing: 0.14em; color: rgba(240,200,74,0.65); text-transform: uppercase;
+  }
+
+  .details-body { flex: 1; overflow-y: auto; background: #FFFFFF; }
+  .details-body::-webkit-scrollbar { width: 4px; }
+  .details-body::-webkit-scrollbar-track { background: #F5F6F7; }
+  .details-body::-webkit-scrollbar-thumb { background: #CBD0D8; border-radius: 2px; }
+
+  .details-section { padding: 1rem 1.25rem 0; }
+  .details-section-label {
+    font-family: 'Cinzel', serif; font-size: 0.57rem;
+    letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--crimson); margin-bottom: 0.4rem;
+    padding-bottom: 0.3rem; border-bottom: 1px solid #E8EAED;
+  }
+  .details-text { font-size: 0.97rem; line-height: 1.82; color: #374151; }
+  .details-empty { padding: 1.5rem 1.25rem; font-style: italic; color: #9CA3AF; font-size: 0.88rem; }
+
+  .details-location-box {
+    margin: 1rem 1.25rem 1.25rem;
+    padding: 0.85rem 1rem;
+    background: #F5F6F7;
+    border-left: 3px solid var(--gold);
+  }
+  .details-location-label {
+    font-family: 'Cinzel', serif; font-size: 0.55rem;
+    letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--sb-meta); margin-bottom: 0.3rem;
+  }
+  .details-location-text { font-size: 0.9rem; color: var(--sb-text); margin-bottom: 0.6rem; }
+  .details-map-link {
+    display: inline-flex; align-items: center; gap: 0.35rem;
+    font-family: 'Cinzel', serif; font-size: 0.6rem;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--crimson); text-decoration: none;
+    border-bottom: 1px solid rgba(139,26,43,0.3); padding-bottom: 0.1rem; transition: all 0.2s;
+  }
+  .details-map-link:hover { color: var(--crimson-deep); border-color: var(--crimson); }
+
+  /* ── GOOGLE MAPS INFO WINDOW ── */
+  .gm-popup { font-family: 'Lora', serif; min-width: 190px; }
+  .gm-popup-name {
+    font-family: 'Cormorant Garamond', serif; font-size: 1rem;
+    font-weight: 700; color: var(--crimson-deep); margin-bottom: 0.2rem;
+  }
+  .gm-popup-meta {
+    font-family: 'Cinzel', serif; font-size: 0.58rem;
+    letter-spacing: 0.06em; color: var(--sb-meta); margin-bottom: 0.65rem;
+  }
+  .gm-popup-btn {
+    display: inline-block; font-family: 'Cinzel', serif;
+    font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase;
+    background: var(--crimson-deep); color: white; border: none;
+    padding: 0.35rem 0.85rem; cursor: pointer; font-weight: 600; transition: background 0.2s;
+  }
+  .gm-popup-btn:hover { background: var(--crimson); }
+
+  /* ── LEGEND (sidebar) ── */
+  .sidebar-legend {
+    background: var(--sb-header);
+    border-bottom: 1px solid var(--sb-border);
+    padding: 0.65rem 1rem 0.55rem;
+    flex-shrink: 0;
+  }
+  .legend-title {
+    font-family: 'Cinzel', serif;
+    font-size: 0.57rem; letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--crimson); margin-bottom: 0.45rem; font-weight: 600;
+    padding-bottom: 0.3rem; border-bottom: 1px solid #E8EAED;
+  }
+  .legend-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 0.05rem 0.25rem;
+  }
+  .legend-item {
+    display: flex; align-items: center; gap: 0.4rem;
+    cursor: pointer; padding: 0.18rem 0.25rem;
+    transition: background 0.12s; border-radius: 2px;
+  }
+  .legend-item:hover { background: #F3F4F6; }
+  .legend-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; border: 1.5px solid rgba(0,0,0,0.12); }
+  .legend-label { font-family: 'Cinzel', serif; font-size: 0.54rem; letter-spacing: 0.03em; color: #374151; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .legend-count { font-family: 'Cinzel', serif; font-size: 0.5rem; color: #9CA3AF; }
+
+  @media (max-width: 1100px) { :root { --details-w: 320px; } }
+  @media (max-width: 900px) {
+    .details-panel { display: none; }
+    :root { --sidebar-w: 280px; }
+  }
+  @media (max-width: 640px) {
+    :root { --sidebar-w: 100%; }
+    .layout { flex-direction: column; }
+    .sidebar { height: 40%; width: 100%; }
+    #map { height: 60%; }
+    .details-panel { display: none; }
+    .top-nav .filter-group:last-of-type { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="top-nav">
+  <a href="anglican-jamaica.html" class="nav-brand">✝ Anglican Jamaica</a>
+  <div class="nav-divider"></div>
+  <div class="filters">
+    <div class="filter-group">
+      <span class="filter-icon">⌕</span>
+      <input type="text" id="textFilter" placeholder="Search churches…" autocomplete="off" spellcheck="false">
+    </div>
+    <div class="filter-group" style="max-width:190px;">
+      <span class="filter-icon">◉</span>
+      <select id="parishFilter">
+        <option value="">All Parishes</option>
+      </select>
+    </div>
+    <span class="filter-count" id="filterCount"></span>
+    <button class="btn-reset" id="resetBtn">Reset</button>
+  </div>
+</nav>
+
+<!-- LAYOUT -->
+<div class="layout">
+  <aside class="sidebar">
+    <div class="sidebar-header" id="sidebar-header">Anglican Churches Directory</div>
+    <div class="sidebar-legend" id="sidebar-legend">
+      <div class="legend-title">Parishes</div>
+      <div class="legend-grid" id="legend-grid"></div>
+    </div>
+    <ul id="church-list"></ul>
+  </aside>
+
+  <div id="map"></div>
+
+  <aside class="details-panel" id="details-panel">
+    <div class="details-header">
+      <button class="details-close" id="details-close">✕</button>
+      <div class="details-parish-badge" id="details-parish-badge"></div>
+      <div id="details-title">Select a church</div>
+      <div class="details-classification" id="details-classification"></div>
+    </div>
+    <div class="details-body">
+      <div class="details-section" id="sect-intro" style="display:none">
+        <div class="details-section-label">Overview</div>
+        <p class="details-text" id="details-intro"></p>
+      </div>
+      <div class="details-section" id="sect-history" style="display:none">
+        <div class="details-section-label">History</div>
+        <p class="details-text" id="details-history"></p>
+      </div>
+      <div class="details-section" id="sect-architecture" style="display:none">
+        <div class="details-section-label">Architecture</div>
+        <p class="details-text" id="details-architecture"></p>
+      </div>
+      <div class="details-section" id="sect-clergy" style="display:none">
+        <div class="details-section-label">Clergy &amp; Ministry</div>
+        <p class="details-text" id="details-clergy"></p>
+      </div>
+      <div class="details-section" id="sect-facts" style="display:none">
+        <div class="details-section-label">Interesting Facts</div>
+        <p class="details-text" id="details-facts"></p>
+      </div>
+      <div id="details-empty" style="display:none" class="details-empty">
+        No detailed information available for this church yet.
+      </div>
+      <div class="details-location-box">
+        <div class="details-location-label">Location</div>
+        <div class="details-location-text" id="details-location"></div>
+        <a id="details-map-link" class="details-map-link" href="#" target="_blank" rel="noopener">⊕ Open in Google Maps</a>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<!-- DATA -->
+<script src="churches-data.js"></script>
+
+<script>
+// ── Parish colours ──────────────────────────────────────────────────────────
+const parishColors = {
+  "Clarendon":     "#E6890A",
+  "Hanover":       "#7B3FBF",
+  "Kingston":      "#C0192B",
+  "Manchester":    "#1E8A4C",
+  "Portland":      "#1A6FBB",
+  "St. Andrew":    "#D45A1A",
+  "St. Ann":       "#6B8B10",
+  "St. Catherine": "#B84A10",
+  "St. Elizabeth": "#0E7A6A",
+  "St. James":     "#9B1A78",
+  "St. Mary":      "#1A7AAA",
+  "St. Thomas":    "#5A7020",
+  "Trelawny":      "#1A4FAA",
+  "Westmoreland":  "#3A7020"
+};
+const FALLBACK_COLOR = "#6B7280";
+
+const JAMAICA_CENTER = { lat: 18.154, lng: -77.379 };
+const DEFAULT_ZOOM = 9;
+
+const parishCenters = {
+  "Clarendon":     { lat: 18.0,  lng: -77.27 },
+  "Hanover":       { lat: 18.4,  lng: -78.17 },
+  "Kingston":      { lat: 17.97, lng: -76.79 },
+  "Manchester":    { lat: 18.05, lng: -77.51 },
+  "Portland":      { lat: 18.12, lng: -76.49 },
+  "St. Andrew":    { lat: 18.06, lng: -76.76 },
+  "St. Ann":       { lat: 18.33, lng: -77.24 },
+  "St. Catherine": { lat: 18.03, lng: -76.99 },
+  "St. Elizabeth": { lat: 18.05, lng: -77.75 },
+  "St. James":     { lat: 18.38, lng: -77.9  },
+  "St. Mary":      { lat: 18.28, lng: -76.88 },
+  "St. Thomas":    { lat: 17.95, lng: -76.42 },
+  "Trelawny":      { lat: 18.35, lng: -77.55 },
+  "Westmoreland":  { lat: 18.25, lng: -78.05 }
+};
+
+const parishZooms = {
+  "Kingston": 12, "St. Andrew": 11, "St. Catherine": 10.5, "St. Thomas": 11,
+  "Portland": 11, "St. Mary": 11,  "St. Ann": 11,       "Trelawny": 11,
+  "St. James": 11, "Hanover": 11,  "Westmoreland": 11,  "St. Elizabeth": 10,
+  "Manchester": 10.5, "Clarendon": 10.5
+};
+
+// Subtle map style — clean, muted tones
+const mapStyle = [
+  { featureType: "all",          elementType: "geometry",            stylers: [{ saturation: -15 }] },
+  { featureType: "water",        elementType: "geometry",            stylers: [{ color: "#a8c8e8" }] },
+  { featureType: "landscape",    elementType: "geometry",            stylers: [{ color: "#eaede6" }] },
+  { featureType: "road",         elementType: "geometry",            stylers: [{ color: "#ffffff" }] },
+  { featureType: "road.arterial",elementType: "geometry",            stylers: [{ color: "#f5f2ec" }] },
+  { featureType: "poi",          elementType: "labels",              stylers: [{ visibility: "off" }] },
+  { featureType: "poi.park",     elementType: "geometry",            stylers: [{ color: "#d4e8c8" }] },
+  { featureType: "administrative",elementType: "geometry.stroke",    stylers: [{ color: "#a09070" }, { weight: 1.5 }] },
+  { featureType: "administrative.locality", elementType: "labels.text.fill", stylers: [{ color: "#444" }] },
+  { featureType: "transit",      stylers: [{ visibility: "off" }] }
+];
+
+// ── State ──────────────────────────────────────────────────────────────────
+let map, infoWindow;
+let markers = [];
+
+// ── initMap ────────────────────────────────────────────────────────────────
+function initMap() {
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: JAMAICA_CENTER,
+    zoom: DEFAULT_ZOOM,
+    mapTypeId: "roadmap",
+    styles: mapStyle,
+    mapTypeControl: true,
+    mapTypeControlOptions: {
+      style: google.maps.MapTypeControlStyle.DEFAULT,
+      position: google.maps.ControlPosition.TOP_RIGHT,
+      mapTypeIds: ["roadmap", "satellite", "hybrid", "terrain"]
+    },
+    streetViewControl: false,
+    fullscreenControl: true,
+    fullscreenControlOptions: { position: google.maps.ControlPosition.RIGHT_BOTTOM },
+    zoomControlOptions: { position: google.maps.ControlPosition.RIGHT_CENTER }
+  });
+
+  infoWindow = new google.maps.InfoWindow();
+
+  // Legend (added after map idles so controls are ready)
+  google.maps.event.addListenerOnce(map, "idle", addLegend);
+
+  buildParishFilter();
+
+  document.getElementById("parishFilter").addEventListener("change", onParishChange);
+  document.getElementById("textFilter").addEventListener("input", debounce(applyFilters, 250));
+  document.getElementById("resetBtn").addEventListener("click", resetFilters);
+  document.getElementById("details-close").addEventListener("click", deselect);
+
+  // Click on map background to deselect
+  map.addListener("click", deselect);
+
+  applyFilters();
+}
+window.initMap = initMap;
+
+// ── Parish filter ──────────────────────────────────────────────────────────
+function buildParishFilter() {
+  const sel = document.getElementById("parishFilter");
+  [...new Set(churchesData.map(c => c.parish).filter(Boolean))].sort().forEach(p => {
+    const opt = document.createElement("option");
+    opt.value = p; opt.textContent = p;
+    sel.appendChild(opt);
+  });
+}
+
+function onParishChange() {
+  applyFilters();
+  const parish = document.getElementById("parishFilter").value.trim();
+  if (!parish) {
+    map.panTo(JAMAICA_CENTER); map.setZoom(DEFAULT_ZOOM);
+  } else if (parishCenters[parish]) {
+    map.panTo(parishCenters[parish]);
+    map.setZoom(parishZooms[parish] || 11);
+  }
+}
+
+function resetFilters() {
+  document.getElementById("textFilter").value = "";
+  document.getElementById("parishFilter").value = "";
+  map.panTo(JAMAICA_CENTER); map.setZoom(DEFAULT_ZOOM);
+  applyFilters();
+}
+
+// ── Filtering ──────────────────────────────────────────────────────────────
+function getFiltered() {
+  const parish = document.getElementById("parishFilter").value.trim();
+  const text   = document.getElementById("textFilter").value.trim().toLowerCase();
+  return churchesData.filter(c => {
+    if (parish && c.parish !== parish) return false;
+    if (text) {
+      const hay = [c.name, c.parish, c.town, c.intro, c.history,
+                   c.architecture, c.clergy, c.interestingFacts]
+        .filter(Boolean).join(" ").toLowerCase();
+      if (!hay.includes(text)) return false;
+    }
+    return true;
+  });
+}
+
+function applyFilters() {
+  const panel = document.getElementById("details-panel");
+  if (panel) { panel.classList.remove("expanded"); panel.classList.add("hidden"); }
+  infoWindow && infoWindow.close();
+  const filtered = getFiltered();
+  renderListAndMarkers(filtered);
+  const parish = document.getElementById("parishFilter").value;
+  document.getElementById("filterCount").textContent =
+    parish ? `${filtered.length} in ${parish}` : `${filtered.length} churches`;
+  document.getElementById("sidebar-header").textContent =
+    parish ? `${parish} — ${filtered.length} church${filtered.length !== 1 ? "es" : ""}`
+           : `All Parishes — ${filtered.length} churches`;
+}
+
+// ── Markers & list ─────────────────────────────────────────────────────────
+function clearMarkers() {
+  markers.forEach(({ gmMarker }) => gmMarker.setMap(null));
+  markers = [];
+}
+
+function markerIcon(color, selected = false) {
+  return {
+    path: google.maps.SymbolPath.CIRCLE,
+    scale: selected ? 10 : 7,
+    fillColor: color, fillOpacity: selected ? 1 : 0.92,
+    strokeColor: selected ? "#F0C84A" : "#FFFFFF",
+    strokeWeight: selected ? 2.5 : 1.5
+  };
+}
+
+function createMarker(church) {
+  const color = parishColors[church.parish] || FALLBACK_COLOR;
+  const gmMarker = new google.maps.Marker({
+    position: { lat: church.lat, lng: church.lng },
+    map, title: church.name,
+    icon: markerIcon(color, false)
+  });
+
+  gmMarker.addListener("click", (e) => {
+    // Stop click bubbling to map (which would trigger deselect)
+    if (e && e.stop) e.stop();
+    selectChurch(church, gmMarker, false);
+    infoWindow.setContent(`
+      <div class="gm-popup">
+        <div class="gm-popup-name">${church.name}</div>
+        <div class="gm-popup-meta">${[church.classification, church.parish, church.town].filter(Boolean).join(" · ")}</div>
+        <button class="gm-popup-btn" onclick="selectChurchById('${church.id}')">View Details</button>
+      </div>
+    `);
+    infoWindow.open(map, gmMarker);
+  });
+
+  markers.push({ id: church.id, gmMarker, church });
+  return gmMarker;
+}
+
+function renderListAndMarkers(data) {
+  clearMarkers();
+  infoWindow && infoWindow.close();
+  const listEl = document.getElementById("church-list");
+  listEl.innerHTML = "";
+
+  if (data.length === 0) {
+    listEl.innerHTML = '<li class="no-results">No churches match your search.</li>';
+    clearDetails(); return;
+  }
+
+  data.forEach(church => {
+    createMarker(church);
+    const color = parishColors[church.parish] || FALLBACK_COLOR;
+    const li = document.createElement("li");
+    li.className = "church-list-item";
+    li.dataset.churchId = church.id;
+    li.innerHTML = `
+      <span class="church-name">${church.name}</span>
+      <span class="church-meta">
+        <span class="parish-dot-sm" style="background:${color}"></span>
+        ${[church.parish, church.town].filter(Boolean).join(" — ")}
+      </span>
+      ${normalizeClass(church.classification) ? `<span class="church-tag">${normalizeClass(church.classification)}</span>` : ""}
+    `;
+    li.addEventListener("click", () => {
+      const m = markers.find(x => x.id === church.id);
+      selectChurch(church, m?.gmMarker, true);
+    });
+    listEl.appendChild(li);
+  });
+
+
+}
+
+// ── Deselect ───────────────────────────────────────────────────────────────
+function deselect() {
+  markers.forEach(({ gmMarker: m, church: c }) => {
+    m.setIcon(markerIcon(parishColors[c.parish] || FALLBACK_COLOR, false));
+    m.setZIndex(1);
+  });
+  const listEl = document.getElementById("church-list");
+  Array.from(listEl.children).forEach(li => li.classList.remove("is-selected"));
+  const panel = document.getElementById("details-panel");
+  panel.classList.remove("expanded");
+  panel.classList.add("hidden");
+  infoWindow && infoWindow.close();
+  clearDetails();
+  map.panTo(JAMAICA_CENTER);
+  map.setZoom(DEFAULT_ZOOM);
+}
+
+
+function selectChurch(church, gmMarker, panMap) {
+  // Reset all markers
+  markers.forEach(({ gmMarker: m, church: c }) => {
+    m.setIcon(markerIcon(parishColors[c.parish] || FALLBACK_COLOR, false));
+    m.setZIndex(1);
+  });
+  // Elevate selected
+  if (gmMarker) {
+    gmMarker.setIcon(markerIcon(parishColors[church.parish] || FALLBACK_COLOR, true));
+    gmMarker.setZIndex(999);
+  }
+
+  // List highlight
+  const listEl = document.getElementById("church-list");
+  Array.from(listEl.children).forEach(li => {
+    li.classList.toggle("is-selected", li.dataset.churchId === church.id);
+  });
+  listEl.querySelector(`[data-church-id="${church.id}"]`)?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+
+  if (panMap) {
+    map.panTo({ lat: church.lat, lng: church.lng });
+    if (map.getZoom() < 12) map.setZoom(12);
+  }
+
+  updateDetails(church);
+  // Expand the details panel
+  const panel = document.getElementById("details-panel");
+  panel.classList.remove("hidden");
+  panel.classList.add("expanded");
+}
+
+window.selectChurchById = function(id) {
+  const church = churchesData.find(c => c.id === id);
+  if (!church) return;
+  const m = markers.find(x => x.id === id);
+  infoWindow.close();
+  selectChurch(church, m?.gmMarker, false);
+};
+
+// ── Details ────────────────────────────────────────────────────────────────
+function updateDetails(church) {
+  document.getElementById("details-parish-badge").textContent = church.parish || "";
+  document.getElementById("details-title").textContent = church.name;
+  document.getElementById("details-classification").textContent = normalizeClass(church.classification) || "";
+
+  const fields = [
+    { sect: "sect-intro",        el: "details-intro",        val: church.intro },
+    { sect: "sect-history",      el: "details-history",      val: church.history },
+    { sect: "sect-architecture", el: "details-architecture", val: church.architecture },
+    { sect: "sect-clergy",       el: "details-clergy",       val: church.clergy },
+    { sect: "sect-facts",        el: "details-facts",        val: church.interestingFacts },
+  ];
+
+  let hasContent = false;
+  fields.forEach(({ sect, el, val }) => {
+    const show = !!(val && val.trim());
+    document.getElementById(sect).style.display = show ? "block" : "none";
+    if (show) { document.getElementById(el).textContent = val; hasContent = true; }
+  });
+
+  document.getElementById("details-empty").style.display = hasContent ? "none" : "block";
+  document.getElementById("details-location").textContent =
+    [church.town, church.parish, "Jamaica"].filter(Boolean).join(", ");
+  document.getElementById("details-map-link").href =
+    `https://www.google.com/maps/search/?api=1&query=${church.lat},${church.lng}`;
+}
+
+function clearDetails() {
+  document.getElementById("details-title").textContent = "No results";
+  ["sect-intro","sect-history","sect-architecture","sect-clergy","sect-facts"]
+    .forEach(id => document.getElementById(id).style.display = "none");
+  document.getElementById("details-empty").style.display = "none";
+}
+
+// ── Legend ─────────────────────────────────────────────────────────────────
+function addLegend() {
+  const counts = {};
+  churchesData.forEach(c => { counts[c.parish] = (counts[c.parish] || 0) + 1; });
+
+  const grid = document.getElementById("legend-grid");
+  grid.innerHTML = Object.entries(parishColors).map(([p, c]) => `
+    <div class="legend-item" onclick="filterByParish('${p}')">
+      <span class="legend-dot" style="background:${c}"></span>
+      <span class="legend-label">${p}</span>
+      <span class="legend-count">${counts[p] || 0}</span>
+    </div>
+  `).join("");
+}
+
+window.filterByParish = function(parish) {
+  document.getElementById("parishFilter").value = parish;
+  onParishChange();
+};
+
+// ── Helpers ────────────────────────────────────────────────────────────────
+function normalizeClass(c) {
+  return c || "";
+}
+
+function debounce(fn, ms) {
+  let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); };
+}
+</script>
+
+<!-- Google Maps -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDP4lZ04MBr2VNH8m37UyMFYSV52D9fo1g&callback=initMap" async defer></script>
+</body>
+</html>
