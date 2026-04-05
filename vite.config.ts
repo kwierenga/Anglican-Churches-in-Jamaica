@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/AnglicanChurches/',
+  base: '/Anglican-Churches-in-Jamaica/',
   plugins: [react()],
   server: {
     host: true,       // bind to all interfaces (fixes localhost/VPN quirks on Windows)
