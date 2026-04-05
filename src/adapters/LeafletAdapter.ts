@@ -70,6 +70,21 @@ function markerStyle(props: ChurchFeature['properties']): L.CircleMarkerOptions 
   }
 }
 
+const TOPO = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+  maxZoom: 18,
+  attribution: 'Tiles &copy; Esri',
+})
+
+const SATELLITE = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+  maxZoom: 18,
+  attribution: 'Tiles &copy; Esri',
+})
+
+const SAT_LABELS = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', {
+  maxZoom: 18,
+  opacity: 0.9,
+})
+
 export default class LeafletAdapter implements MapAdapter {
   private map!: L.Map
   private layer!: L.GeoJSON
@@ -80,11 +95,15 @@ export default class LeafletAdapter implements MapAdapter {
     this.onSelect = opts?.onSelectChurch
     this.map = L.map(el, { attributionControl: true }).setView([18.1,-77.3], 8)
 
-    // Esri World Topo Map — modern terrain with shaded relief
-    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
-      maxZoom: 18,
-      attribution: 'Tiles &copy; Esri',
-    }).addTo(this.map)
+    // Default to topo
+    TOPO.addTo(this.map)
+
+    // Layer toggle control
+    L.control.layers(
+      { 'Terrain': TOPO, 'Satellite': SATELLITE },
+      { 'Labels': SAT_LABELS },
+      { position: 'topright', collapsed: false }
+    ).addTo(this.map)
   }
 
   plot(fc: FeatureCollection<Point, ChurchFeature['properties']>) {

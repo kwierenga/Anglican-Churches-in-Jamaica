@@ -1,5 +1,7 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { marked } from 'marked'
+import L from 'leaflet'
+import 'leaflet/dist/leaflet.css'
 import { useRoute } from '../lib/router'
 import type { MediaRow } from '../lib/schemas'
 
@@ -12,12 +14,41 @@ async function getMediaIndex(): Promise<MediaIndex> {
   return _mediaIndex!
 }
 
+interface ChurchGeo {
+  lat: number
+  lng: number
+  name: string
+  parish: string
+}
+
+let _geoCache: Record<string, ChurchGeo> | null = null
+async function getChurchGeo(id: string): Promise<ChurchGeo | null> {
+  if (!_geoCache) {
+    const res = await fetch(`${import.meta.env.BASE_URL}data/build/churches.geo.json`)
+    if (!res.ok) return null
+    const fc = await res.json()
+    _geoCache = {}
+    for (const f of fc.features) {
+      _geoCache[f.properties.id] = {
+        lat: f.geometry.coordinates[1],
+        lng: f.geometry.coordinates[0],
+        name: f.properties.name,
+        parish: f.properties.parish,
+      }
+    }
+  }
+  return _geoCache[id] ?? null
+}
+
 export default function ChurchDetailPage() {
   const route = useRoute()
   const slug = route.replace('#/church/', '')
   const [html, setHtml] = useState('')
   const [media, setMedia] = useState<MediaRow[]>([])
   const [loading, setLoading] = useState(true)
+  const [geo, setGeo] = useState<ChurchGeo | null>(null)
+  const mapRef = useRef<HTMLDivElement>(null)
+  const mapInstance = useRef<L.Map | null>(null)
 
   useEffect(() => {
     if (!slug) return
@@ -25,12 +56,49 @@ export default function ChurchDetailPage() {
     Promise.all([
       fetch(`${import.meta.env.BASE_URL}content/churches/${slug}.md`).then(r => r.ok ? r.text() : ''),
       getMediaIndex(),
-    ]).then(([md, idx]) => {
+      getChurchGeo(slug),
+    ]).then(([md, idx, churchGeo]) => {
       setHtml(md ? (marked.parse(md) as string) : '<p>Church not found.</p>')
       setMedia(idx[slug]?.filter(m => m.type === 'image') ?? [])
+      setGeo(churchGeo)
       setLoading(false)
     })
   }, [slug])
+
+  // Mini map
+  useEffect(() => {
+    if (!geo || !mapRef.current) return
+    // Clean up previous map
+    if (mapInstance.current) {
+      mapInstance.current.remove()
+      mapInstance.current = null
+    }
+
+    const map = L.map(mapRef.current, {
+      attributionControl: false,
+      zoomControl: true,
+      scrollWheelZoom: false,
+    }).setView([geo.lat, geo.lng], 14)
+
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+      maxZoom: 18,
+    }).addTo(map)
+
+    L.circleMarker([geo.lat, geo.lng], {
+      radius: 10,
+      fillColor: '#D4A017',
+      color: '#8B0000',
+      weight: 3,
+      fillOpacity: 1,
+    }).addTo(map).bindTooltip(geo.name, { permanent: true, direction: 'top', offset: [0, -12] })
+
+    mapInstance.current = map
+
+    return () => {
+      map.remove()
+      mapInstance.current = null
+    }
+  }, [geo])
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-10">
@@ -56,6 +124,7 @@ export default function ChurchDetailPage() {
               ))}
             </div>
           )}
+
           <article
             className="prose md:prose-lg max-w-none
                        prose-headings:font-heading prose-headings:text-crimson
@@ -63,6 +132,17 @@ export default function ChurchDetailPage() {
                        prose-a:text-crimson"
             dangerouslySetInnerHTML={{ __html: html }}
           />
+
+          {/* Mini map */}
+          {geo && (
+            <div className="mt-8">
+              <h3 className="font-heading text-xl font-semibold text-crimson mb-3">Location</h3>
+              <div ref={mapRef} className="h-[280px] rounded-lg border border-gray-200 overflow-hidden" />
+              <p className="text-xs text-gray-500 mt-2 font-body">
+                {geo.parish} &middot; {geo.lat.toFixed(4)}, {geo.lng.toFixed(4)}
+              </p>
+            </div>
+          )}
         </>
       )}
     </main>
