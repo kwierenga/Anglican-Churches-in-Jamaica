@@ -88,6 +88,7 @@ const SAT_LABELS = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/serv
 export default class LeafletAdapter implements MapAdapter {
   private map!: L.Map
   private layer!: L.GeoJSON
+  private fullData!: FeatureCollection<Point, ChurchFeature['properties']>
   private data!: FeatureCollection<Point, ChurchFeature['properties']>
   private onSelect?: (id: string)=>void
 
@@ -107,6 +108,7 @@ export default class LeafletAdapter implements MapAdapter {
   }
 
   plot(fc: FeatureCollection<Point, ChurchFeature['properties']>) {
+    if (!this.fullData) this.fullData = fc
     this.data = fc
     if(this.layer) this.layer.remove()
     this.layer = L.geoJSON(fc, {
@@ -125,7 +127,7 @@ export default class LeafletAdapter implements MapAdapter {
 
   fitToParish(parish: string){
     const pts: L.LatLngExpression[] = []
-    this.data.features.forEach(f => {
+    this.fullData.features.forEach(f => {
       if(f.properties!.parish.toLowerCase()===parish.toLowerCase())
         pts.push([f.geometry.coordinates[1], f.geometry.coordinates[0]])
     })
@@ -133,14 +135,25 @@ export default class LeafletAdapter implements MapAdapter {
   }
 
   flyToChurch(id: string){
-    const f = this.data.features.find(x=>x.properties!.id===id)
+    const f = this.fullData.features.find(x=>x.properties!.id===id)
     if(!f) return
     this.map.flyTo([f.geometry.coordinates[1], f.geometry.coordinates[0]], 16)
   }
 
   setFilter(fn: (p: ChurchFeature['properties']) => boolean){
-    const filtered = { ...this.data, features: this.data.features.filter(f=>fn(f.properties!)) }
-    this.plot(filtered as FeatureCollection<Point, ChurchFeature['properties']>)
+    const filtered = { ...this.fullData, features: this.fullData.features.filter(f=>fn(f.properties!)) }
+    this.data = filtered
+    if(this.layer) this.layer.remove()
+    this.layer = L.geoJSON(filtered, {
+      pointToLayer: (f, latlng) => L.circleMarker(latlng, markerStyle(f.properties!)),
+      onEachFeature: (f, layer) => {
+        const p = f.properties!
+        const label = p.name + (p.classification === 'ruin' ? ' (ruin)' : '')
+        layer.on('click', () => this.onSelect?.(p.id))
+        layer.bindTooltip(label)
+      }
+    }).addTo(this.map)
+    this.fitToAll()
   }
 
   destroy(){ this.map?.remove() }
