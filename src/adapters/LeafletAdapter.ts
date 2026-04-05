@@ -22,22 +22,22 @@ const PARISH_COLORS: Record<string, string> = {
   'st. thomas':    '#D4AC0D',
 }
 
-/** Predefined parish centers and zoom levels from the original site */
+/** Predefined parish centers and zoom levels (tuned for Leaflet) */
 const PARISH_CENTERS: Record<string, { lat: number; lng: number; zoom: number }> = {
-  'kingston':      { lat: 17.9714, lng: -76.7931, zoom: 12 },
-  'st. andrew':    { lat: 18.0500, lng: -76.7600, zoom: 11 },
-  'st. catherine': { lat: 17.9000, lng: -77.1500, zoom: 10 },
-  'clarendon':     { lat: 17.9800, lng: -77.3200, zoom: 10 },
-  'manchester':    { lat: 18.0500, lng: -77.5200, zoom: 10 },
-  'st. elizabeth': { lat: 18.0300, lng: -77.8200, zoom: 10 },
-  'westmoreland':  { lat: 18.2800, lng: -78.1500, zoom: 10 },
-  'hanover':       { lat: 18.4000, lng: -78.1300, zoom: 11 },
-  'st. james':     { lat: 18.4500, lng: -77.9200, zoom: 11 },
-  'trelawny':      { lat: 18.3500, lng: -77.6500, zoom: 10 },
-  'st. ann':       { lat: 18.3800, lng: -77.2000, zoom: 10 },
-  'st. mary':      { lat: 18.3200, lng: -76.9200, zoom: 11 },
-  'portland':      { lat: 18.1200, lng: -76.5000, zoom: 10 },
-  'st. thomas':    { lat: 17.9200, lng: -76.4200, zoom: 10 },
+  'kingston':      { lat: 17.9714, lng: -76.7931, zoom: 13 },
+  'st. andrew':    { lat: 18.0300, lng: -76.7500, zoom: 11 },
+  'st. catherine': { lat: 18.0200, lng: -77.0800, zoom: 10 },
+  'clarendon':     { lat: 18.0000, lng: -77.3000, zoom: 10 },
+  'manchester':    { lat: 18.0600, lng: -77.5000, zoom: 11 },
+  'st. elizabeth': { lat: 18.0500, lng: -77.7800, zoom: 10 },
+  'westmoreland':  { lat: 18.2500, lng: -78.1000, zoom: 11 },
+  'hanover':       { lat: 18.4200, lng: -78.1500, zoom: 11 },
+  'st. james':     { lat: 18.4700, lng: -77.9200, zoom: 11 },
+  'trelawny':      { lat: 18.3500, lng: -77.6200, zoom: 10 },
+  'st. ann':       { lat: 18.3500, lng: -77.2000, zoom: 10 },
+  'st. mary':      { lat: 18.3000, lng: -76.9000, zoom: 11 },
+  'portland':      { lat: 18.1500, lng: -76.4500, zoom: 10 },
+  'st. thomas':    { lat: 17.9500, lng: -76.3500, zoom: 11 },
 }
 
 /** Marker style based on classification */
