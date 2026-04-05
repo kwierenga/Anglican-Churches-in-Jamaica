@@ -126,7 +126,7 @@ export default function MapPanel(){
 
       {/* Coordinate editor panel */}
       {selectedChurch && (
-        <div className="absolute z-10 bottom-4 right-4 bg-white/95 backdrop-blur rounded-lg shadow-lg border border-gray-200 p-3 max-w-[320px] text-sm font-body">
+        <div className="absolute z-[1000] bottom-4 right-4 bg-white/95 backdrop-blur rounded-lg shadow-lg border border-gray-200 p-3 max-w-[320px] text-sm font-body">
           <div className="font-heading font-semibold text-gray-900 text-sm mb-1">{selectedChurch.name}</div>
           <div className="text-xs text-gray-500 mb-2">
             Current: {selectedChurch.lat.toFixed(5)}, {selectedChurch.lng.toFixed(5)}
