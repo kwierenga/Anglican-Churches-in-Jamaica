@@ -124,9 +124,17 @@ export default class LeafletAdapter implements MapAdapter {
     this.fitToAll()
   }
 
-  fitToAll(){ if(!this.layer) return; this.map.fitBounds(this.layer.getBounds(), { padding:[20,20] }) }
+  private clearHighlight() {
+    if (this.highlight) { this.highlight.remove(); this.highlight = undefined }
+  }
+
+  fitToAll(){
+    this.clearHighlight()
+    if(!this.layer) return; this.map.fitBounds(this.layer.getBounds(), { padding:[20,20] })
+  }
 
   fitToParish(parish: string){
+    this.clearHighlight()
     const pts: L.LatLngExpression[] = []
     this.fullData.features.forEach(f => {
       if(f.properties!.parish.toLowerCase()===parish.toLowerCase())
@@ -141,7 +149,7 @@ export default class LeafletAdapter implements MapAdapter {
     const latlng: L.LatLngExpression = [f.geometry.coordinates[1], f.geometry.coordinates[0]]
 
     // Remove previous highlight
-    if (this.highlight) { this.highlight.remove(); this.highlight = undefined }
+    this.clearHighlight()
 
     // Add pulsing highlight ring
     this.highlight = L.circleMarker(latlng, {
@@ -157,6 +165,7 @@ export default class LeafletAdapter implements MapAdapter {
   }
 
   setFilter(fn: (p: ChurchFeature['properties']) => boolean){
+    this.clearHighlight()
     const filtered = { ...this.fullData, features: this.fullData.features.filter(f=>fn(f.properties!)) }
     this.data = filtered
     if(this.layer) this.layer.remove()
