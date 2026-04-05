@@ -5,10 +5,12 @@
 @layer base {
   a { text-decoration: none; }
 
-  /* Prevent Tailwind's img reset from breaking Leaflet tile positioning */
+  /* Prevent Tailwind's preflight from breaking Leaflet tile positioning */
   .leaflet-container img {
     max-width: none !important;
     max-height: none !important;
+    height: unset !important;
+    display: inline !important;
   }
 }
 
