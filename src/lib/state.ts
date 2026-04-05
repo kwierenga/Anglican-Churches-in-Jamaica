@@ -18,7 +18,10 @@ export function useQueryState(key: string, initial: string){
   const setValue = useCallback((v: string)=>{
     const p = new URLSearchParams(location.search)
     if(v===''||v==null) p.delete(key); else p.set(key, v)
-    history.pushState({},'',`?${p.toString()}`)
+    const qs = p.toString()
+    // Preserve the hash when updating query params
+    const hash = location.hash || ''
+    history.pushState({},'', (qs ? `?${qs}` : location.pathname) + hash)
     _search = location.search
     window.dispatchEvent(new PopStateEvent('popstate'))
   },[key])

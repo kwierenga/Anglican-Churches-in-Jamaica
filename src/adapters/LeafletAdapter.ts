@@ -90,6 +90,7 @@ export default class LeafletAdapter implements MapAdapter {
   private layer!: L.GeoJSON
   private fullData!: FeatureCollection<Point, ChurchFeature['properties']>
   private data!: FeatureCollection<Point, ChurchFeature['properties']>
+  private highlight?: L.CircleMarker
   private onSelect?: (id: string)=>void
 
   init(el: HTMLElement, opts?: { onSelectChurch?: (id: string)=>void }) {
@@ -137,7 +138,22 @@ export default class LeafletAdapter implements MapAdapter {
   flyToChurch(id: string){
     const f = this.fullData.features.find(x=>x.properties!.id===id)
     if(!f) return
-    this.map.flyTo([f.geometry.coordinates[1], f.geometry.coordinates[0]], 16)
+    const latlng: L.LatLngExpression = [f.geometry.coordinates[1], f.geometry.coordinates[0]]
+
+    // Remove previous highlight
+    if (this.highlight) { this.highlight.remove(); this.highlight = undefined }
+
+    // Add pulsing highlight ring
+    this.highlight = L.circleMarker(latlng, {
+      radius: 14,
+      fillColor: '#D4A017',
+      color: '#8B0000',
+      weight: 3,
+      fillOpacity: 0.4,
+    }).addTo(this.map)
+    this.highlight.bindTooltip(f.properties!.name, { permanent: true, direction: 'top', offset: [0, -16] })
+
+    this.map.flyTo(latlng, 16)
   }
 
   setFilter(fn: (p: ChurchFeature['properties']) => boolean){

@@ -34,7 +34,8 @@ export default function MapPanel(){
       setAdapter(a)
       a.init(ref.current!, { onSelectChurch: (cid)=> {
         const p = new URLSearchParams(location.search); p.set('id', cid)
-        history.pushState({},'',`?${p.toString()}`); window.dispatchEvent(new PopStateEvent('popstate'))
+        const hash = location.hash || ''
+        history.pushState({},'',`?${p.toString()}${hash}`); window.dispatchEvent(new PopStateEvent('popstate'))
       }})
       fetch(`${import.meta.env.BASE_URL}data/build/churches.geo.json`).then(r=>r.json()).then(fc=>{
         if (!destroyed) { setData(fc); a.plot(fc) }
