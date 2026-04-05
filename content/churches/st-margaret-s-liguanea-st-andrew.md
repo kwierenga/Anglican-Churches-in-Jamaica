@@ -1,0 +1,16 @@
+# St. Margaret's, Liguanea
+**St. Andrew** · Church · active
+
+St Margaret’s Anglican Church in Liguanea is a busy suburban parish on Old Hope Road, serving a wide cross-section of Kingston 6 near the US Embassy and Jamaica College. Over more than eight decades, it has grown from a local neighbourhood church into a regional hub that hosts diocesan events and welcomes visitors from across Jamaica and the diaspora. Regular Eucharists, streamed services, and a strong parish organisation keep worship at the centre of its life, while its facilities support education, youth, and outreach ministries. For many families at home and abroad, St Margaret’s remains the spiritual home they associate with baptisms, weddings, funerals, and key moments of faith.
+
+## History
+St Margaret’s was established during the inter-war suburban growth of eastern St Andrew in the 1920s-30s, with a 2014 celebration marking 87 years of ministry at its Old Hope Road location. The church developed alongside Liguanea's transformation from estates into a district of schools, embassies, and commercial plazas. Over time, the congregation has reflected the area’s changing profile—from early middle-class suburbs to a mixed urban zone—while maintaining a strong parish identity. It is now listed in the Eastern Jamaica Region of the diocese alongside churches serving Mona, August Town, and the Hope corridor.
+
+## Architecture
+St Margaret’s is a substantial, buff-coloured church with a red-roofed nave, a gabled west end, and pointed-arch windows, set back from Old Hope Road behind a parking forecourt and palm trees. The building blends traditional Gothic elements, like lancet windows, with mid-twentieth-century materials and proportions, giving it a solid but welcoming presence in a busy urban landscape. Parish halls and ancillary rooms extend from the main worship space, allowing the site to host everything from youth groups to diocesan conferences. A columbarium and landscaped areas provide a permanent memorial space for parishioners.
+
+## Clergy
+Recent diocesan and media references identify The Rev. Franklyn Jackson as the Rector of St Margaret’s, who has been featured in diocesan reflections and on Radio Jamaica. The parish also benefits from supplementary clergy such as The Rev. Melrose Wiggan, who has contributed to diocesan devotional series. The church has a history of nurturing vocations, with a 2009 report listing Basil Eccleston McLeod as an ordinand from the parish. Lay leadership is also prominent, with figures such as a Jamaican Chief Justice being noted as an ardent member, underlining the parish's influence in national life.
+
+## Notable Facts
+St Margaret’s maintains an active online presence, livestreaming Sunday services and posting regular devotional content, which keeps diaspora members closely connected to parish life. The church frequently hosts regional and diocesan gatherings, including international Anglican delegate meetings and conferences. It also serves as a civic venue, hosting events such as the Peace Corps Jamaica’s 60th-anniversary celebration. Furthermore, the church's columbarium is a designated resting place for ashes, making it a spiritual home for Jamaicans scattered around the world.

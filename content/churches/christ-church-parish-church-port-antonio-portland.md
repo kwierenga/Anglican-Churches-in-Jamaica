@@ -1,0 +1,16 @@
+# Christ Church (Parish Church), Port Antonio
+**Portland** · Parish Church · active
+
+Christ Church is the Anglican parish church of Port Antonio, the capital town of Portland parish, situated on Harbour Street in the town centre with a commanding view over Port Antonio's famous twin harbours. Dedicated on 3 September 1836 by the Bishop of Jamaica, it is the principal Anglican church of Portland and one of the most architecturally distinctive churches on Jamaica's north coast. Reviewers describe it as perched atop a hill with a view over the charming town of Portland, built of stone and wood with an atmosphere of colonial heritage.
+
+## History
+Christ Church was formally dedicated in 1836, making it a product of the post-Emancipation era in Jamaica — built just two years before Emancipation took full effect. The church was established to serve as the parish church of Portland, providing the Diocese's principal presence in the parish capital. Port Antonio developed as one of the premier ports of the Portland north coast, and the parish church grew in importance alongside the town's commercial and administrative functions. The banana trade of the late 19th and early 20th centuries brought considerable prosperity to Port Antonio, and Christ Church served the growing community of merchants, planters, and families who made the town their centre.
+
+## Architecture
+Christ Church is built of stone with a design that reviewers consistently describe as reflecting its colonial heritage. The church sits on elevated ground in Port Antonio, giving it views over the twin harbours — East Harbour and West Harbour — that define the town's geography. One reviewer notes: 'Really beautiful church on small hill made from stones and wood. There is a nice sea-side view.' Another describes it as 'a true gem in the town of Port Antonio... its culture and its history takes you back to a time when everything was much slower and treasured.' The coastal hilltop position creates both storm surge exposure from the harbours and significant wind exposure on the elevated site.
+
+## Clergy
+As the parish church of Portland, Christ Church has been the seat of the archdeacon or senior clergy of the Portland deanery within the Anglican Diocese. A long succession of rectors have served both the parish church congregation and provided oversight of the mission network across the wider parish, from the banana-estate communities of the coastal plain to the remote hill settlements of the interior.
+
+## Notable Facts
+The dedication date of 3 September 1836 is recorded in a reviewer's comment, making it one of the few Jamaican Anglican churches whose dedication day is confirmed in public record. The church was completed just before the end of the Apprenticeship period following Emancipation, placing its foundation at one of the most significant transitional moments in Jamaican history. Port Antonio's twin harbours made it famous — Errol Flynn, the Hollywood actor, fell in love with the area in the 1940s and made it his home. Hurricane Gilbert (1988) caused severe damage to Port Antonio. Hurricane Melissa (October 2025) struck the Portland north coast directly; Port Antonio was among the most affected towns in Jamaica, and Christ Church and its congregation were in the heart of the impact zone.

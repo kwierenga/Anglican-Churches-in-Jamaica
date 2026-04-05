@@ -1,0 +1,16 @@
+# St. Barnabas', Duncan
+**Trelawny** · Church · active
+
+St. Barnabas’ Anglican Church serves the community of Duncans, a small north-coast town in Trelawny situated on the main road corridor between Falmouth and Runaway Bay. Duncans lies at the eastern edge of Trelawny, close to the border with St. Ann, and has served for generations as a service and market point for the surrounding farming communities of central-eastern Trelawny. St. Barnabas’ has provided Anglican worship and pastoral care to the town and its district for well over a century, functioning as the established Church presence in a community whose character is shaped by the north coast road, the agricultural interior, and the sugar and banana history of the region.
+
+## History
+Duncans developed as a roadside town on the main north-coast route through Trelawny, growing in importance as a local service centre for the farming communities of the interior. The town takes its name from a colonial estate or landholder, following the common Jamaican pattern of settlement names derived from plantation-era proprietors. The Anglican Diocese established St. Barnabas’ as the local Church of England presence, dedicated to the apostle celebrated for his generosity and encouragement, a fitting patron for a church serving a modest rural community. The church has served successive generations of Duncans residents across the post-Emancipation era, through the decline of sugar and the rise of the banana trade, and into the present day.
+
+## Architecture
+St. Barnabas’ is a masonry church of modest proportions characteristic of Anglican churches in the smaller Trelawny towns. Duncans sits on the coastal plain close to the sea, giving it direct exposure to north-coast weather systems and making it vulnerable to storm surge from major hurricanes. The building’s construction is functional and durable, suited to a coastal community that must weather the Atlantic hurricane season. The surrounding churchyard provides burial space for the families of Duncans and the surrounding district.
+
+## Clergy
+St. Barnabas’ has been served within the Falmouth deanery of the Anglican Diocese of Jamaica, grouped with St. Peter’s Parish Church Falmouth and other Trelawny congregations under shared clergy arrangements. As a smaller church in a modest-sized town, its week-to-week ministry has depended heavily on dedicated lay leaders — wardens, Mothers’ Union members, and lay readers — who sustain regular worship and community pastoral care. The church is confirmed active in diocesan records.
+
+## Notable Facts
+Duncans’ position on the main north-coast road places it in a storm-exposed location on one of Jamaica’s most hurricane-vulnerable coastlines. The town sits between the more prominent communities of Falmouth to the west and Runaway Bay to the east, and has been affected by every major storm to strike Trelawny’s north coast. Hurricane Gilbert (1988) caused severe damage along this entire coastal corridor. Hurricane Ivan (2004) brought destructive conditions to the north coast of Trelawny. Hurricane Melissa (October 2025) struck western Jamaica and the north-coast corridor through Trelawny was directly in the storm’s path; Duncans and St. Barnabas’ congregation were affected and the church’s pastoral role in the aftermath was central to community life.

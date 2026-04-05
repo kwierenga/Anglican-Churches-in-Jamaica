@@ -1,0 +1,112 @@
+[
+  {
+    "id": "synod-2026-delegates",
+    "date": "2026-05-20",
+    "title": "Diocesan Synod 2026",
+    "summary": "The annual Diocesan Synod will be held in Spanish Town in May 2026. Parish vestries are invited to nominate lay delegates no later than 15 April.",
+    "report": "",
+    "category": "diocese",
+    "parish": null,
+    "source": "Anglican Diocese of Jamaica",
+    "url": ""
+  },
+  {
+    "id": "holy-week-2026",
+    "date": "2026-04-13",
+    "title": "Holy Week & Easter Services Across the Diocese",
+    "summary": "Palm Sunday through Easter Day services will be held at parishes across the island. The Bishop will preside at the Cathedral of St. Jago de la Vega for the Chrism Mass on Maundy Thursday and the Easter Vigil.",
+    "report": "",
+    "category": "diocese",
+    "parish": null,
+    "source": "Anglican Diocese of Jamaica",
+    "url": ""
+  },
+  {
+    "id": "lambeth-followup-2026",
+    "date": "2026-06-10",
+    "title": "Provincial Follow-Up to Lambeth Conference Resolutions",
+    "summary": "The Church in the Province of the West Indies will host a regional consultation in Barbados to discuss implementation of Lambeth Conference resolutions on climate resilience and mission in the Caribbean context.",
+    "report": "",
+    "category": "diocese",
+    "parish": null,
+    "source": "Anglican Communion News Service",
+    "url": ""
+  },
+  {
+    "id": "youth-camp-portland-2026",
+    "date": "2026-07-15",
+    "title": "Diocesan Youth Camp — Portland",
+    "summary": "The annual Anglican Youth Camp will be held in Portland. Registration is open to young people aged 13–18 from parishes across the diocese.",
+    "report": "",
+    "category": "parish",
+    "parish": "Portland",
+    "source": "Anglican Diocese of Jamaica",
+    "url": ""
+  },
+  {
+    "id": "melissa-recovery-update",
+    "date": "2026-02-20",
+    "title": "Hurricane Melissa Recovery �� St. John's Parish Church, Black River",
+    "summary": "Restoration work on St. John's Parish Church continues following the devastation caused by Hurricane Melissa in October 2025. An emergency appeal has raised $4.2 million JMD toward the rebuilding fund.",
+    "report": "Temporary Sunday services continue at the Black River Community Centre. The rebuilding committee reports that structural assessment is complete and contractors have been engaged for phase one restoration of the roof and nave.",
+    "category": "parish",
+    "parish": "St. Elizabeth",
+    "source": "Anglican Diocese of Jamaica",
+    "url": ""
+  },
+  {
+    "id": "rector-appointment-st-andrew",
+    "date": "2026-02-14",
+    "title": "New Appointment: Rector of St. Andrew Parish Church",
+    "summary": "The Bishop has announced the appointment of the Rev. Marcus Thompson as Rector of St. Andrew Parish Church, effective 1 March 2026.",
+    "report": "",
+    "category": "clergy",
+    "parish": "St. Andrew",
+    "source": "Anglican Diocese of Jamaica",
+    "url": ""
+  },
+  {
+    "id": "canon-williams-memoriam",
+    "date": "2026-01-28",
+    "title": "In Memoriam: Canon Hyacinth Williams",
+    "summary": "The Diocese mourns the passing of Canon Hyacinth Williams, who served the Church of the Resurrection, Kingston, for thirty-two years.",
+    "report": "A service of thanksgiving for her life was held at the Cathedral Church of St. Jago de la Vega on 15 February 2026, attended by clergy and laity from across the diocese.",
+    "category": "obituary",
+    "parish": "Kingston",
+    "source": "Anglican Diocese of Jamaica",
+    "url": ""
+  },
+  {
+    "id": "bell-tower-st-anns-bay",
+    "date": "2026-01-15",
+    "title": "Bell Tower Restoration Complete — St. Ann's Bay Parish Church",
+    "summary": "The 200-year-old bell tower of St. Ann's Bay Parish Church has been fully restored. The original cast-iron bell has been returned to service after two years of specialist conservation work funded by the Jamaica National Heritage Trust.",
+    "report": "",
+    "category": "parish",
+    "parish": "St. Ann",
+    "source": "Jamaica National Heritage Trust",
+    "url": ""
+  },
+  {
+    "id": "ordinations-advent-2025",
+    "date": "2025-12-01",
+    "title": "Ordinations to the Priesthood — Advent 2025",
+    "summary": "The Bishop ordained three new priests at the Cathedral Church of St. Jago de la Vega on the First Sunday of Advent 2025. The new priests will serve congregations in the parishes of Kingston, St. James, and Portland.",
+    "report": "",
+    "category": "clergy",
+    "parish": null,
+    "source": "Anglican Diocese of Jamaica",
+    "url": ""
+  },
+  {
+    "id": "hurricane-melissa-damage",
+    "date": "2025-10-18",
+    "title": "Hurricane Melissa — Damage Assessment Across the Diocese",
+    "summary": "Category 5 Hurricane Melissa made direct landfall near Black River on 18 October 2025, causing widespread destruction across St. Elizabeth and significant damage in St. Mary. Several churches sustained severe structural damage.",
+    "report": "The Diocese coordinated relief efforts with parish vestries. Emergency funding was secured from the Anglican Alliance and Church of England. Full damage assessment identified 23 churches requiring major repair.",
+    "category": "parish",
+    "parish": "St. Elizabeth",
+    "source": "Anglican Diocese of Jamaica",
+    "url": ""
+  }
+]

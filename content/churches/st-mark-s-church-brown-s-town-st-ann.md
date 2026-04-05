@@ -1,0 +1,16 @@
+# St. Mark's Church, Brown's Town
+**St. Ann** · Church · active
+
+St. Mark's Anglican Church is the historic Anglican parish church of Brown's Town, St. Ann. Founded in 1805 by the prominent Irish planter and slave-owner Hamilton Brown, the church's origins are inextricably linked to the history of slavery. Its churchyard, containing Brown's grave and other 19th-century tombs, serves as a permanent physical record of this past. Today, St. Mark's continues its role as an active parish church and a central institution in the civic and spiritual life of the bustling market town.
+
+## History
+St. Mark's was built in 1805 and funded by Hamilton Brown, the founder of Brown's Town and a major sugar planter who enslaved over a thousand people. The church was established as the official Church of England presence in the new settlement. Brown's legacy is marked by violent religious conflict; during the 1831-32 Baptist War, he led a mob from the Colonial Church Union that destroyed the local Baptist chapel, which ministered to enslaved and free Black congregants. Following Emancipation, St. Mark's gradually evolved from a planter's chapel to a town parish, serving the community of freed people who remained in the area as small farmers and traders, a role it has maintained into the modern era.
+
+## Architecture
+The original St. Mark's was a small stone building with a shingled roof, completed in 1805. The present church, as shown in the National Library of Jamaica's digital collection, is a modest Georgian-influenced structure with solid masonry walls and a simple bell-cote. The churchyard remains a key feature, containing the grave of Hamilton Brown and other historic tombs. Despite the town's expansion, placing the church near schools and shops, the grounds retain a quiet, historic atmosphere with mature trees, creating a reflective space at the heart of the busy community.
+
+## Clergy
+St. Mark's is listed as the main Anglican church for Brown's Town and surrounding districts. It remains an active parish over two centuries after its founding, with regular Sunday worship and special services. The church hosts funerals and civic events, including services linked to local institutions like Brown's Town Community College, reflecting its deep integration into the town's social fabric. The clergy and lay leaders minister in a context where the church's history—literally embodied by Hamilton Brown's grave in the churchyard—prompts ongoing dialogue about slavery, legacy, and local identity.
+
+## Notable Facts
+The church's founder, Hamilton Brown, was a recruiter of Irish migrants and is a documented ancestor of some branches of the Harris family, a connection that has drawn international genealogical interest. The 1832 destruction of the Brown's Town Baptist chapel by a mob led by Brown highlights the violent religious conflicts of the era, pitting planter-aligned Anglicans against nonconformist churches sympathetic to the freedom movement. In recent years, St. Mark's and Brown's Town have been used as a case study in Jamaican newspapers and commentaries, sparking conversation on how communities can acknowledge a history of slavery while continuing to use a historic church as a living place of worship.

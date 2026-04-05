@@ -1,21 +1,47 @@
-import Home from './pages/Home'
+import { useRoute } from './lib/router'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import HomePage from './pages/HomePage'
+import DirectoryPage from './pages/DirectoryPage'
+import ChurchDetailPage from './pages/ChurchDetailPage'
+import About from './pages/About'
+import News from './pages/News'
+import Sources from './pages/Sources'
+import Glossary from './pages/Glossary'
+import History from './pages/History'
 
-export default function App(){
+export default function App() {
+  const route = useRoute()
+
+  let page: JSX.Element
+  if (route === '#/' || route === '') {
+    page = <HomePage />
+  } else if (route === '#/churches' || route === '#/map') {
+    page = <DirectoryPage />
+  } else if (route.startsWith('#/church/')) {
+    page = <ChurchDetailPage />
+  } else if (route === '#/history') {
+    page = <History />
+  } else if (route === '#/about') {
+    page = <About />
+  } else if (route === '#/news') {
+    page = <News />
+  } else if (route === '#/sources') {
+    page = <Sources />
+  } else if (route === '#/glossary') {
+    page = <Glossary />
+  } else {
+    page = <HomePage />
+  }
+
+  // Directory page has its own full-screen layout, no footer
+  const isDirectory = route === '#/churches' || route === '#/map'
+
   return (
-    <div className="min-h-screen">
-      <header className="border-b px-4 py-3 flex items-center gap-4">
-        <h1 className="text-xl font-semibold">Anglican Churches in Jamaica</h1>
-        <nav className="ml-auto text-sm flex gap-4">
-          <a href="#/about">About</a>
-          <a href="#/news">News</a>
-          <a href="#/sources">Sources</a>
-          <a href="#/glossary">Glossary</a>
-        </nav>
-      </header>
-      <Home />
-      <footer className="border-t px-4 py-4 text-sm text-gray-600">
-        © Anglican Church in Jamaica — Acknowledgments • Sources • Contact
-      </footer>
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <div className="flex-1">{page}</div>
+      {!isDirectory && <Footer />}
     </div>
   )
 }

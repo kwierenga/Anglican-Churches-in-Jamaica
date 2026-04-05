@@ -1,0 +1,16 @@
+# St. Peter's Church (Old), Port Royal
+**Kingston** · Church · ruin
+
+St. Peter’s Anglican Church in Port Royal is one of the oldest surviving Anglican churches in Jamaica. Rebuilt in 1725–1726 after a devastating earthquake and fire, it was designed to withstand disasters in a town that was a central hub of the British slave trade. The church's thick, squat brick walls and separate bell tower are testaments to its builders' ingenuity. Today, it remains an active parish and a protected national monument, connecting modern Jamaica to its complex colonial and maritime past.
+
+## History
+The first Anglican church in Port Royal was destroyed when much of the town sank into the sea during the catastrophic 1692 earthquake. A successor building was lost to a great fire in 1703. The present St. Peter’s Church was constructed between 1725 and 1726 and has been repaired repeatedly over the centuries. In the 18th century, the church served a bustling port city that was a key node in the transatlantic slave trade, placing it at the heart of a brutal colonial economy. After Emancipation in 1834, its congregation began to slowly include more people of African descent, and it has continued its ministry through the Independence era, serving the residents of the historic fishing town.
+
+## Architecture
+St. Peter’s is a masterclass in pragmatic, disaster-resistant architecture. It is a low, sturdy brick building with walls approximately four feet thick, designed to endure earthquakes and hurricanes. Notably, its bells are hung in a separate frame in the churchyard to prevent structural damage during storms. The interior features a historic organ loft from around 1745, supported by carved wooden pillars. A modern conservation challenge is the cement render covering the original brickwork, which traps moisture; heritage experts now recommend traditional lime-based materials to preserve the structure and its historic wall memorials.
+
+## Clergy
+Initially, St. Peter's served as the official church for the British colonial authorities, catering to governors, soldiers, and merchants in a town known for its vice as much as its piety. While enslaved Africans were part of the community, they often found more spiritual refuge in Nonconformist churches like the Baptists. After Emancipation, the Anglican Church gradually became more inclusive. Today, the clergy and congregation of St. Peter’s focus on regular worship, Bible study, and serving the local community, while also welcoming tourists and students eager to learn about Jamaica's profound history.
+
+## Notable Facts
+St. Peter’s churchyard holds the grave of a churchwarden famous for his 'miraculous escape' from the 1692 earthquake. Inside, a significant 18th-century marble monument by sculptor Louis-François Roubiliac commemorates Lieutenant William Stapleton, who was killed by an exploding cannon. The church is now a focus for heritage conservation, seen as vital for understanding the intertwined histories of slavery, empire, and faith in the Caribbean. While Hurricane Melissa (2025) caused widespread damage in Jamaica, there are no specific public reports of major structural damage to St. Peter’s Church, underscoring the resilience of its nearly 300-year-old design.

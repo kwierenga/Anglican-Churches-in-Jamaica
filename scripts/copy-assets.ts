@@ -12,6 +12,7 @@ const dist = join(root, 'dist')
 
 const copies: [string, string][] = [
   [join(root, 'data', 'build'), join(dist, 'data', 'build')],
+  [join(root, 'data', 'feed.json'), join(dist, 'data', 'feed.json')],
   [join(root, 'content'), join(dist, 'content')],
 ]
 

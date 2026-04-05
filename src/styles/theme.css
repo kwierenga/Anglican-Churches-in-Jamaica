@@ -1,7 +1,21 @@
 :root{
-  --acj-primary: #0A4C8A;   /* Anglican blue (placeholder) */
-  --acj-accent:  #C6A54B;   /* Gold accent (placeholder) */
-  --acj-bg:      #ffffff;
-  --acj-ink:     #1f2937;
-  --acj-muted:   #6b7280;
+  --crimson:       #8B0000;
+  --crimson-dark:  #6B0000;
+  --crimson-mid:   #A52828;
+  --gold:          #B8860B;
+  --gold-bright:   #D4A017;
+  --navy:          #1E2D4E;
+  --navy-light:    #2C3F6B;
+  --ivory:         #F8F4E8;
+  --parchment:     #F0EAD6;
+}
+
+body {
+  font-family: 'Crimson Text', Georgia, serif;
+  color: #1f2937;
+  background: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'EB Garamond', Georgia, serif;
 }

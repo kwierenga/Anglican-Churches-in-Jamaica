@@ -4,6 +4,72 @@ import 'leaflet/dist/leaflet.css'
 import { MapAdapter, ChurchFeature } from './MapAdapter'
 import type { FeatureCollection, Point } from 'geojson'
 
+/** Parish color palette from the original site's map.js */
+const PARISH_COLORS: Record<string, string> = {
+  'kingston':      '#C0392B',
+  'st. andrew':    '#2471A3',
+  'st. catherine': '#1E8449',
+  'clarendon':     '#7D3C98',
+  'manchester':    '#D35400',
+  'st. elizabeth': '#1ABC9C',
+  'westmoreland':  '#E74C3C',
+  'hanover':       '#3498DB',
+  'st. james':     '#27AE60',
+  'trelawny':      '#8E44AD',
+  'st. ann':       '#F39C12',
+  'st. mary':      '#16A085',
+  'portland':      '#2C3E50',
+  'st. thomas':    '#D4AC0D',
+}
+
+/** Marker style based on classification */
+function markerStyle(props: ChurchFeature['properties']): L.CircleMarkerOptions {
+  const color = PARISH_COLORS[props.parish.toLowerCase()] ?? '#888'
+  const isParishChurch = props.name.toLowerCase().includes('parish church')
+  const isRuin = props.classification === 'ruin' || props.status === 'ruin'
+  const isCathedral = props.classification === 'cathedral'
+
+  if (isCathedral) {
+    return {
+      radius: 10,
+      fillColor: '#D4A017',
+      color: '#8B0000',
+      weight: 3,
+      fillOpacity: 1,
+    }
+  }
+
+  if (isParishChurch) {
+    return {
+      radius: 8,
+      fillColor: color,
+      color: '#fff',
+      weight: 2.5,
+      fillOpacity: 0.95,
+    }
+  }
+
+  if (isRuin) {
+    return {
+      radius: 5,
+      fillColor: color,
+      color: '#fff',
+      weight: 1,
+      fillOpacity: 0.4,
+      dashArray: '3 3',
+    }
+  }
+
+  // Default: church, chapel, mission
+  return {
+    radius: 5,
+    fillColor: color,
+    color: '#fff',
+    weight: 1.5,
+    fillOpacity: 0.85,
+  }
+}
+
 export default class LeafletAdapter implements MapAdapter {
   private map!: L.Map
   private layer!: L.GeoJSON
@@ -14,16 +80,10 @@ export default class LeafletAdapter implements MapAdapter {
     this.onSelect = opts?.onSelectChurch
     this.map = L.map(el, { attributionControl: true }).setView([18.1,-77.3], 8)
 
-    // ---- Dev tiles: NO esri-leaflet-vector, NO maplibre ----
-    // Esri World Imagery (no API key)
-    // @ts-ignore
-    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-      maxZoom: 19
-    }).addTo(this.map)
-    // Reference labels (no API key)
-    // @ts-ignore
-    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}',{
-      maxZoom: 19, opacity: 0.9
+    // Terrain map with limited detail (OpenTopoMap)
+    L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+      maxZoom: 17,
+      attribution: 'Map: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)',
     }).addTo(this.map)
   }
 
@@ -31,10 +91,12 @@ export default class LeafletAdapter implements MapAdapter {
     this.data = fc
     if(this.layer) this.layer.remove()
     this.layer = L.geoJSON(fc, {
-      pointToLayer: (_f, latlng) => L.circleMarker(latlng, { radius: 5 }),
+      pointToLayer: (f, latlng) => L.circleMarker(latlng, markerStyle(f.properties!)),
       onEachFeature: (f, layer) => {
-        layer.on('click', () => this.onSelect?.(f.properties!.id))
-        layer.bindTooltip(f.properties!.name)
+        const p = f.properties!
+        const label = p.name + (p.classification === 'ruin' ? ' (ruin)' : '')
+        layer.on('click', () => this.onSelect?.(p.id))
+        layer.bindTooltip(label)
       }
     }).addTo(this.map)
     this.fitToAll()

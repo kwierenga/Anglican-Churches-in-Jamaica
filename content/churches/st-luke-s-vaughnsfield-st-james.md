@@ -1,0 +1,16 @@
+# St. Luke's, Vaughnsfield
+**St. James** · Church · active
+
+St. Luke’s Anglican Church serves Vaughnsfield, a rural community in the hills of southern St. James, in the agricultural interior between Montego Bay and the border with St. Elizabeth. Vaughnsfield is a small farming district whose name preserves the memory of a colonial estate, and the community that grew here after Emancipation was composed largely of small-holding families working the land their ancestors had been enslaved to cultivate. St. Luke’s has served as the Anglican presence in Vaughnsfield for several generations, providing worship, pastoral care, and a centre for community life in a quiet corner of St. James.
+
+## History
+Vaughnsfield lies in the southern hill country of St. James, in the upland zone where the parish transitions from the coastal plain and the tourist corridor around Montego Bay into the quieter agricultural interior. The estate that gave the district its name was part of the plantation landscape of St. James, a parish that was one of the most intensively enslaved in Jamaica. After Emancipation, freed families settled the interior hills, and the Anglican Diocese extended its network of mission chapels into communities like Vaughnsfield to provide pastoral care to the post-Emancipation farming population. St. Luke’s grew from this mission outreach and has served the community since.
+
+## Architecture
+St. Luke’s is a small masonry chapel characteristic of Anglican mission buildings erected in the rural interior of St. James in the late 19th and early 20th centuries. The building is set in a modest churchyard in the Vaughnsfield community. Its hill-country position gives it some elevation above the coastal plain, reducing surge risk, but the steep terrain of the southern St. James hills creates landslide and road-closure risk during heavy rainfall. The church’s construction is functional rather than ornate, suited to a small rural farming congregation.
+
+## Clergy
+Vaughnsfield has been served within the southern St. James clergy cluster of the Montego Bay Region, grouped with other interior congregations under shared ministry arrangements. As a small mission chapel, its week-to-week pastoral life has depended on dedicated lay leaders — wardens, Mothers’ Union members, and lay readers — who sustain worship and community activities between clerical visits. The church is confirmed active through its use for funerals and community gatherings.
+
+## Notable Facts
+The southern hills of St. James form part of the highland zone that connects the great sugar parishes of the western coastal plain to the drier interior of the island. Communities like Vaughnsfield sit in a landscape shaped entirely by the post-Emancipation smallholder economy, largely invisible to the tourist industry that dominates the north coast. Hurricane Gilbert (1988) caused severe wind damage and landslides across the St. James interior. Hurricane Ivan (2004) brought further destruction to southern St. James hill communities. Hurricane Melissa (October 2025) made landfall in Westmoreland and tracked toward St. James; the interior hill communities of southern St. James, including Vaughnsfield, experienced damaging winds and the congregation required pastoral support in the aftermath.

@@ -1,0 +1,16 @@
+# St. Michael's, Kew Park
+**Westmoreland** · Church · active
+
+St. Michael's Anglican Church serves Kew Park, a community in the central interior of Westmoreland, in the farming country between Savanna-la-Mar and the hill districts to the north and east. The name 'Kew Park' reflects the English estate-naming traditions of Jamaica's plantation era, echoing the famous royal gardens at Kew near London. St. Michael's provides Anglican worship and pastoral care to the farming families of this district, maintaining a steady presence in a quiet rural community.
+
+## History
+Kew Park developed as one of the interior farming communities of Westmoreland in the post-Emancipation period. The Anglican Church's presence here grew from its mission outreach into the rural interior, serving freed families and their descendants who had settled away from the coastal sugar estates. St. Michael's — dedicated to the Archangel Michael, a figure of protection and strength — has served as the local church for Kew Park across several generations, providing continuity in a community shaped by the long transition from plantation to smallholder agriculture.
+
+## Architecture
+St. Michael's is a modest masonry chapel typical of Anglican mission buildings in the Westmoreland interior. The church is set in a small churchyard in the Kew Park community. Its construction is functional and unpretentious, suited to a small farming congregation. The interior plain setting makes the church less exposed to coastal storm surge than the churches near Savanna-la-Mar, but it is not immune to the inland flooding and wind damage caused by major hurricanes.
+
+## Clergy
+Kew Park has been served within the central Westmoreland clergy circuit, grouped with other interior churches under shared ministry from the Savanna-la-Mar deanery. Lay leaders — wardens, readers, and Mothers' Union members — sustain weekly worship and community life in the intervals between clerical visits. The church is confirmed active in diocesan records.
+
+## Notable Facts
+The central interior of Westmoreland is a landscape shaped by generations of small-scale farming after the decline of the plantation system. Communities like Kew Park are relatively self-contained, with modest economies based on provision farming and livestock. This interior district has experienced flooding during major hurricanes when sustained rainfall overwhelms the flat plain's drainage. Hurricane Charlie (1951), Hurricane Gilbert (1988), and Hurricane Ivan (2004) all affected the interior of Westmoreland with flooding and wind damage. Hurricane Melissa (October 28, 2025) effectively destroyed the church. Peter Espeut, writing in the Jamaica Gleaner (November 7, 2025), described passing through Westmoreland on a relief mission shortly after the storm and seeing that 'only a few stones remain of the Anglican Church of St Michael and All Angels at Rat Trap (Kew Park).' This is among the most severe single-church losses reported in any Gleaner account. Kew Park lies in the interior of Westmoreland, within Melissa's direct track from landfall near New Hope through to the north coast exit. As of late 2025, the church was effectively destroyed and would require complete rebuilding.

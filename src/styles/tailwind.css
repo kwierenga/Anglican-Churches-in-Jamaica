@@ -2,7 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  body { color: var(--acj-ink); background: var(--acj-bg); }
-  a { color: var(--acj-primary); }
+@layer base {
+  a { text-decoration: none; }
+}
+
+@layer utilities {
+  .animate-marquee {
+    display: inline-block;
+    animation: marquee 25s linear infinite;
+  }
+}
+
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }

@@ -1,0 +1,16 @@
+# Church of Ascension, Mona
+**St. Andrew** · Church · active
+
+The Church of the Ascension at Mona Heights is a mid-twentieth century Anglican parish church serving the suburban communities around Mona, close to the University of the West Indies. It began as a small worshipping community meeting on an empty lot under a mango tree before funds were raised to build the present church for the new housing scheme. Over time, it developed a strong reputation for lively worship, including a steel orchestra that integrates Caribbean music into the Anglican liturgy. Today, it is a busy urban parish with regular services, online broadcasts, and outreach programmes that connect Mona, the university, and the wider St Andrew deanery.
+
+## History
+Mona Heights was laid out in the post-war and independence eras as a planned suburb beside the UWI Mona campus. Anglicans in the new neighbourhood initially gathered for worship on an open lot, meeting under a mango tree until enough funds were collected to construct a permanent church. The founding rector was Canon John McNab, who combined his work at Ascension with chaplaincy to the University and St Peter’s Theological College, tying the new parish closely to academic life from the outset. Canon Peter Mullings led the congregation from 1974 to 2011, a tenure that spanned the major growth of the Mona community. The parish now forms part of the Anglican Togetherness Group in St Andrew.
+
+## Architecture
+The church is a modernist concrete building with clean angular lines, flat and gently sloping roof forms, and large areas of glass, contrasting with older stone parish churches. One long exterior wall is a patterned screen of breeze blocks, providing texture and ventilation, while the main entrance features a high glazed facade that floods the interior with light. The church sits on a residential street, framed by small gardens and trees, and includes a columbarium for ashes. The interior is arranged to accommodate microphones, musical groups, and projection technology, reflecting its adaptation for contemporary worship and online streaming.
+
+## Clergy
+Canon John McNab served as the founding rector, establishing the parish's strong ties with the university. He was succeeded by Canon Peter Mullings, who served as rector for 37 years (1974-2011) and also held the post of rural dean of St Andrew for nearly three decades. Since 2011, the parish has been led by Canon Michael Allen, a canon of the cathedral who is active in discussions about Anglican engagement with education. Under these rectors, the church has maintained strong ties with nearby schools and the UWI community, making it a key clergy training and mentoring environment.
+
+## Notable Facts
+The church is widely known for its steel orchestra, which accompanies services with rhythmic pan music as a distinctive expression of Caribbean Anglican worship. It hosts regular health and wellness clinics and fifth Wednesday health talks, using its facilities for medical outreach to the community. The parish also serves as a deanery and diocesan event venue for regional gatherings. In recent years, Ascension has established a strong online presence through livestreamed services, allowing former parishioners overseas to remain connected to its worshipping life.

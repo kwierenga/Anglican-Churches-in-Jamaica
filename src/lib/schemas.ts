@@ -24,6 +24,7 @@ export const ChurchRowSchema = z.object({
   classification: z.enum(['cathedral','church','chapel','mission','ruin']),
   status: z.enum(['active','inactive','ruin']),
   lat: z.coerce.number().min(17, 'lat must be within Jamaica').max(19, 'lat must be within Jamaica'),
-  lng: z.coerce.number().min(-79, 'lng must be within Jamaica').max(-75, 'lng must be within Jamaica')
+  lng: z.coerce.number().min(-79, 'lng must be within Jamaica').max(-75, 'lng must be within Jamaica'),
+  town: z.string().default('')
 })
 export type ChurchRow = z.infer<typeof ChurchRowSchema>

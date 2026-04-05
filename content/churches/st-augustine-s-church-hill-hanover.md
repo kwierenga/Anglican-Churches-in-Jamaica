@@ -1,0 +1,16 @@
+# St. Augustine’s, Church Hill
+**Hanover** · Church · active
+
+St. Augustine’s Anglican Church serves Church Hill, a community on the western coast of Hanover, close to the boundary with Westmoreland, in an area where the hills of the Hanover interior descend toward the sea. The settlement’s name — Church Hill — speaks directly to the Anglican church’s role as the landmark institution defining the place, a common pattern in Jamaican rural geography where the church gave its identity to the surrounding community. St. Augustine’s has served this coastal-fringe community for well over a century, providing worship and pastoral care to families in the western extremity of Hanover.
+
+## History
+Church Hill lies on the south-western edge of Hanover, where the parish meets the sea and the boundary with Westmoreland. The area was part of the sugar-estate landscape of western Hanover during the plantation era. After Emancipation, freed families settled along the coast and in the adjacent hills, and the Anglican Diocese established a mission presence here. St. Augustine’s — dedicated to the great theologian and bishop of Hippo, a saint associated with intellectual faith and pastoral conversion — became the local church for Church Hill, and the settlement’s very name records the central place the church came to occupy in the community’s identity.
+
+## Architecture
+St. Augustine’s is a small masonry chapel characteristic of Anglican coastal-fringe churches in western Hanover. The Church Hill setting, on the hilly western coast where the terrain drops toward the Caribbean, gives the church both an elevated position relative to the immediate shoreline and exposure to winds sweeping in from the open sea. The building’s construction reflects the need for durability in an environment of salt air and periodic hurricane exposure. The surrounding churchyard serves as the burial ground for the local community.
+
+## Clergy
+St. Augustine’s has been served within the western Hanover circuit of the Montego Bay Region, grouped with other churches in this part of the parish under shared clergy arrangements. Given its position on the western fringe of Hanover, the church has historically been connected to the clergy networks of both Hanover and adjacent Westmoreland. Lay leaders — wardens, readers, and Mothers’ Union members — have been central to sustaining regular worship and community ministry.
+
+## Notable Facts
+The place name ‘Church Hill’ is itself one of the more direct testimonies in the Jamaican landscape to the formative role of the Anglican church in defining community identity. Across Jamaica there are several settlements whose names incorporate ‘Church’ or a saint’s name, each recording the moment when the church became the defining landmark of that place. Church Hill’s coastal-fringe position makes it vulnerable to both storm surge from the sea and strong winds off the water during hurricanes. Hurricane Charlie (1951) affected this coast. Hurricane Gilbert (1988) brought serious damage to the western Hanover shore. Hurricane Melissa (October 2025) struck western Jamaica and the coastal communities of western Hanover, including Church Hill, were directly in the storm’s path.

@@ -1,0 +1,16 @@
+# St. Margaret's Church, Liguanea
+**St. Andrew** · Church · active
+
+St. Margaret’s Anglican Church is a vibrant parish located on Old Hope Road in the Liguanea area of Kingston. Unlike Jamaica's historic plantation-era churches, St. Margaret's grew in the 20th century to serve the modern, expanding suburbs of the city. It ministers to a diverse congregation of students, professionals, and long-time residents. The church is known for its active worship, community programs, and strong crisis response, as demonstrated during Hurricane Melissa in 2025.
+
+## History
+St. Margaret’s was established as the Liguanea area transformed from sugar estates into a bustling commercial and residential district in the post-Emancipation era. Its development reflects the 20th-century expansion of 'uptown' Kingston, serving middle-class and working-class families, many of whom were descendants of those who had left rural estates for life in the city. As part of the Kingston Region of the Anglican Diocese, it networks with other modern parishes like the Church of the Ascension in Mona. This places St. Margaret's firmly within the story of modern Jamaica, a contrast to the older parish churches that carry the direct physical legacy of the slavery era.
+
+## Architecture
+St. Margaret’s is situated at 167 Old Hope Road, forming a small Anglican campus in a busy urban area near Jamaica College and the U.S. Embassy. The main church building is a functional, modern structure, typical of 20th-century suburban Anglican architecture, likely built from concrete or masonry with a rectangular nave and wide windows for light and ventilation. The property also includes a well-used church hall, which serves as a vital community hub for concerts, classes, and meetings. Together, the church and hall provide a flexible space for both worship and extensive community outreach.
+
+## Clergy
+The parish has been led by active clergy such as The Rev. Franklyn Jackson, who has represented the church in diocesan-wide media and teaching ministries. St. Margaret's has also been a home for notable lay leaders and clergy, including the celebrated cultural figure Easton Lee, who brought his talents in drama and poetry to his ministry there. The church's life extends beyond Sunday worship to include a strong focus on practical community support, hosting adult literacy classes, parenting seminars, and serving as a venue for cultural groups like the Jamaica Youth Chorale. This reflects a mission that seamlessly integrates spiritual formation with social engagement and the arts.
+
+## Notable Facts
+St. Margaret’s plays a significant role as a community anchor, regularly hosting concerts, civic events, and workshops. The church’s most notable recent action was its robust response to Hurricane Melissa (2025). The parish quickly organized a 'arvest Sunday – Hurricane Relief Donation Drive,' collecting essential supplies like flashlights, batteries, and mosquito repellent for storm victims. While the church itself did not report major structural damage, it served as a critical hub for prayer, pastoral support, and coordinating aid, demonstrating its vital role as a center of care and resilience for the Liguanea community during a national crisis.

@@ -1,0 +1,16 @@
+# St. Jude's, Slipe
+**St. Elizabeth** · Mission · active
+
+St. Jude’s Anglican Church serves the small rural community of Slipe in St. Elizabeth, situated between Lacovia and Black River near the ecologically significant Lower Black River Morass. The church operates as a mission station under the pastoral oversight of St. Thomas' Anglican Church in Lacovia, with its status formally recorded as 'Mission' during the 2015 Diocesan Synod. Historical evidence from the National Library of Jamaica's 1931 diocesan photographic collection suggests an Anglican presence at the site since at least the early 20th century. Today, it remains part of the Montego Bay Region's network of rural churches serving agricultural communities in St. Elizabeth.
+
+## History
+The settlement of Slipe appears in gazetteers and maps as a distinct locality southwest of Lacovia and northeast of Black River, consistent with the pattern of Anglican mission points established to serve farming communities near the morass. Diocesan records consistently list 'St. Jude's, Slipe' among St. Elizabeth churches, with its official mission status confirmed in 2015 Synod documents. The church maintained active community functions into the 21st century, evidenced by diocesan training sessions held there in March 2013, indicating its role as both worship site and community hub in recent decades.
+
+## Architecture
+While no detailed architectural drawings are publicly available, the National Library of Jamaica's 1931 diocesan photograph series includes an entry tentatively identified as 'Slipe?' that depicts a structure consistent with early 20th-century Anglican mission architecture. Based on this evidence and regional patterns, St. Jude's likely features the characteristic modest masonry construction, timber roof, and simple lancet windows typical of small rural chapels built in St. Elizabeth during this period. A comprehensive architectural assessment would require consultation of the Jamaica National Heritage Trust's St. Elizabeth parish files for definitive documentation of building materials and any structural modifications.
+
+## Clergy
+Within the current diocesan structure, St. Jude's operates under the direct administration of St. Thomas' Anglican Church in Lacovia, forming part of the St. Thomas' Cure within the Montego Bay Region. The Clerical Directory explicitly lists Slipe among the churches attached to this cure, with all scheduling and administrative matters coordinated through the Lacovia rectory. This arrangement reflects the traditional pattern of smaller missions being pastorally linked to larger parish churches in rural Jamaican Anglican administration.
+
+## Notable Facts
+The church served as a venue for diocesan training initiatives, hosting Church Army evangelism training sessions in March 2013 that demonstrate its ongoing role in lay and pastoral formation. More recently, Hurricane Melissa in October 2025 caused severe damage to its mother church, St. Thomas' in Lacovia, which was widely reported in local media. While direct damage reports for St. Jude's specifically are limited, the hurricane undoubtedly caused significant disruption to worship schedules and pastoral care across the entire cure, affecting this small mission community along with other churches in the region.

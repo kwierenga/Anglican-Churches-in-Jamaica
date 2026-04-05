@@ -67,12 +67,12 @@ export default function MapPanel(){
     <>
       <div className="absolute z-10 m-2 flex flex-wrap gap-1.5">
         <button onClick={()=>{ setParish(''); adapter?.fitToAll() }}
-                className={`px-2 py-0.5 rounded-full text-xs border ${!parish ? 'bg-[#0A4C8A] text-white border-[#0A4C8A]' : 'bg-white/90 border-gray-300 hover:bg-gray-100'}`}>
+                className={`px-2 py-0.5 rounded-full text-xs border font-body ${!parish ? 'bg-crimson text-white border-crimson' : 'bg-white/90 border-gray-300 hover:bg-gray-100'}`}>
           All
         </button>
         {parishes.map(p=>(
           <button key={p} onClick={()=> setParish(parish===p ? '' : p)}
-                  className={`px-2 py-0.5 rounded-full text-xs border ${parish===p ? 'bg-[#0A4C8A] text-white border-[#0A4C8A]' : 'bg-white/90 border-gray-300 hover:bg-gray-100'}`}>
+                  className={`px-2 py-0.5 rounded-full text-xs border font-body ${parish===p ? 'bg-crimson text-white border-crimson' : 'bg-white/90 border-gray-300 hover:bg-gray-100'}`}>
             {p}
           </button>
         ))}

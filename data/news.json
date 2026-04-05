@@ -1,0 +1,58 @@
+[
+  {
+    "id": 7,
+    "date": "2026-03-01",
+    "category": "diocese",
+    "parish": null,
+    "title": "Diocesan Synod 2026 — Call for Delegates",
+    "summary": "The annual Diocesan Synod will be held in Spanish Town in May 2026. Parish vestries are invited to nominate lay delegates no later than 15 April. Agenda papers and registration details will be circulated by the Diocesan Office in due course."
+  },
+  {
+    "id": 6,
+    "date": "2026-02-20",
+    "category": "parish",
+    "parish": "St. Elizabeth",
+    "title": "Hurricane Melissa Recovery — St. John's Parish Church, Black River",
+    "summary": "Restoration work on St. John's Parish Church continues following the devastation caused by Hurricane Melissa in October 2025. An emergency appeal has raised $4.2 million JMD toward the rebuilding fund. Temporary Sunday services are held at the Black River Community Centre until further notice."
+  },
+  {
+    "id": 5,
+    "date": "2026-02-14",
+    "category": "clergy",
+    "parish": null,
+    "title": "New Appointment: Rector of St. Andrew Parish Church",
+    "summary": "The Bishop has announced the appointment of the Rev. Marcus Thompson as Rector of St. Andrew Parish Church, effective 1 March 2026. The Rev. Thompson previously served as priest-in-charge at St. Peter's Church, St. James."
+  },
+  {
+    "id": 4,
+    "date": "2026-01-28",
+    "category": "obituary",
+    "parish": "Kingston",
+    "title": "In Memoriam: Canon Hyacinth Williams",
+    "summary": "The Diocese mourns the passing of Canon Hyacinth Williams, who served the Church of the Resurrection, Kingston, for thirty-two years. A service of thanksgiving for her life was held at the Cathedral Church of St. Jago de la Vega on 15 February 2026."
+  },
+  {
+    "id": 3,
+    "date": "2026-01-15",
+    "category": "parish",
+    "parish": "St. Ann",
+    "title": "Bell Tower Restoration Complete — St. Ann's Bay Parish Church",
+    "summary": "The 200-year-old bell tower of St. Ann's Bay Parish Church has been fully restored. The original cast-iron bell has been returned to service after two years of specialist conservation work funded by the Jamaica National Heritage Trust."
+  },
+  {
+    "id": 2,
+    "date": "2025-12-01",
+    "category": "clergy",
+    "parish": null,
+    "title": "Ordinations to the Priesthood — Advent 2025",
+    "summary": "The Bishop ordained three new priests at the Cathedral Church of St. Jago de la Vega on the First Sunday of Advent 2025. The new priests will serve congregations in the parishes of Kingston, St. James, and Portland."
+  },
+  {
+    "id": 1,
+    "date": "2025-10-18",
+    "category": "parish",
+    "parish": "St. Elizabeth",
+    "title": "Hurricane Melissa — Damage Assessment Across the Diocese",
+    "summary": "Category 5 Hurricane Melissa made direct landfall near Black River on 18 October 2025, causing widespread destruction across St. Elizabeth and significant damage in St. Mary. Several churches sustained severe structural damage. The Diocese is coordinating relief efforts with parish vestries."
+  }
+]

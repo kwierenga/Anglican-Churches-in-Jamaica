@@ -53,7 +53,7 @@ const fc = {
     type: 'Feature',
     geometry: { type: 'Point', coordinates: [v.lng, v.lat] },
     properties: {
-      id: v.id, name: v.name,
+      id: v.id, name: v.name, town: v.town,
       parish: v.parish, classification: v.classification, status: v.status
     }
   }))
@@ -62,7 +62,7 @@ fs.writeFileSync(path.join(OUT,'churches.geo.json'), JSON.stringify(fc, null, 2)
 
 // Emit search index (compact)
 const searchIndex = valid.map(v=>({
-  id: v.id, name: v.name,
+  id: v.id, name: v.name, town: v.town,
   parish: v.parish, classification: v.classification, status: v.status
 }))
 fs.writeFileSync(path.join(OUT,'search-index.json'), JSON.stringify(searchIndex, null, 2))
