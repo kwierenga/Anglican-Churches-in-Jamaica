@@ -63,7 +63,8 @@ fs.writeFileSync(path.join(OUT,'churches.geo.json'), JSON.stringify(fc, null, 2)
 // Emit search index (compact)
 const searchIndex = valid.map(v=>({
   id: v.id, name: v.name, town: v.town,
-  parish: v.parish, classification: v.classification, status: v.status
+  parish: v.parish, classification: v.classification, status: v.status,
+  lat: v.lat, lng: v.lng
 }))
 fs.writeFileSync(path.join(OUT,'search-index.json'), JSON.stringify(searchIndex, null, 2))
 
