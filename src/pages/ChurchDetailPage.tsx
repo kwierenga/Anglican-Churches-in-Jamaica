@@ -78,7 +78,7 @@ export default function ChurchDetailPage() {
       attributionControl: false,
       zoomControl: true,
       scrollWheelZoom: false,
-    }).setView([geo.lat - 0.003, geo.lng], 15)
+    }).setView([geo.lat - 0.006, geo.lng], 15)
 
     L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
       maxZoom: 18,
