@@ -52,11 +52,11 @@ export default function HomePage() {
   return (
     <main>
       {/* ── Hero ─────────────────────────────────────────────────── */}
-      <section className="relative min-h-[90vh] flex items-center justify-center text-center"
-               style={{ background: 'linear-gradient(140deg, #6B0000 0%, #3a1a2e 45%, #1E2D4E 100%)' }}>
-        {/* Subtle texture overlay */}
-        <div className="absolute inset-0 opacity-[0.04]"
-             style={{ backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 2px, rgba(255,255,255,0.1) 2px, rgba(255,255,255,0.1) 4px)' }} />
+      <section className="relative min-h-[90vh] flex items-center justify-center text-center bg-cover bg-center"
+               style={{ backgroundImage: `url('https://res.cloudinary.com/kwierenga/image/upload/w_1400,q_80/falmouth-1_f1ngmy.jpg')` }}>
+        {/* Gradient overlay */}
+        <div className="absolute inset-0"
+             style={{ background: 'linear-gradient(140deg, rgba(107,0,0,0.85) 0%, rgba(58,26,46,0.8) 45%, rgba(30,45,78,0.85) 100%)' }} />
         <div className="relative z-10 px-4 max-w-3xl">
           <div className="text-gold-bright text-5xl mb-4">&#10013;</div>
           <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-4">
@@ -121,6 +121,40 @@ export default function HomePage() {
                         font-heading font-semibold px-6 py-2.5 rounded transition-colors">
             View All Churches &rarr;
           </a>
+        </div>
+      </section>
+
+      {/* ── Featured Churches ────────────────────────────────────── */}
+      <section className="py-16">
+        <div className="max-w-site mx-auto px-4">
+          <p className="text-xs font-semibold tracking-widest text-crimson-mid uppercase mb-2">Discover</p>
+          <h2 className="font-heading text-3xl font-bold text-crimson mb-2">
+            Featured Churches
+            <span className="block w-16 h-[3px] bg-gold mt-3" />
+          </h2>
+          <p className="text-gray-600 mb-8 font-body">A selection of Jamaica's most significant Anglican churches</p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
+            {[
+              { img: 'falmouth-1_f1ngmy', name: "St. Peter's Parish Church", loc: 'Falmouth, Trelawny', id: 'st-peter-s-parish-church-falmouth-trelawny' },
+              { img: 'spanish-town-1_fdfjqi', name: 'Cathedral of St. Jago de la Vega', loc: 'Spanish Town, St. Catherine', id: 'st-jago-de-la-vega-the-cathedral-spanish-town-st-catherine' },
+              { img: 'black-river-1_mtzfuc', name: 'St. John the Evangelist (Ruins)', loc: 'Black River, St. Elizabeth', id: 'st-john-s-parish-church-black-river-st-elizabeth' },
+              { img: 'lucea-1_ylkphu', name: 'Hanover Parish Church', loc: 'Lucea, Hanover', id: 'hanover-parish-church-lucea-hanover' },
+              { img: 'montego-bay-1_j6tuwf', name: 'St. James Parish Church', loc: 'Montego Bay, St. James', id: 'st-james-parish-church-sam-sharpe-square-st-james' },
+            ].map(c => (
+              <a key={c.id} href={`#/church/${c.id}`}
+                 className="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all hover:-translate-y-1">
+                <img
+                  src={`https://res.cloudinary.com/kwierenga/image/upload/w_500,h_360,c_fill,q_80/${c.img}.jpg`}
+                  alt={c.name}
+                  className="w-full h-[180px] object-cover"
+                />
+                <div className="p-3">
+                  <div className="font-heading text-sm font-semibold text-gray-900 group-hover:text-crimson transition-colors">{c.name}</div>
+                  <div className="text-xs text-crimson-mid mt-1">{c.loc}</div>
+                </div>
+              </a>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -237,6 +271,27 @@ export default function HomePage() {
           <p className="text-sm text-gray-500 mt-4">
             The Diocese is served by archdeacons, rectors, priests-in-charge, and lay readers across fourteen parishes.
           </p>
+        </div>
+      </section>
+
+      {/* ── Gallery Strip ────────────────────────────────────────── */}
+      <section className="py-8 bg-navy overflow-hidden">
+        <p className="text-center text-gold-bright font-heading text-xs tracking-[0.15em] uppercase mb-4">Across the Island</p>
+        <div className="flex gap-3 overflow-x-auto px-6 pb-3 snap-x snap-mandatory
+                        [&::-webkit-scrollbar]:h-1 [&::-webkit-scrollbar-thumb]:bg-gold [&::-webkit-scrollbar-thumb]:rounded">
+          {[
+            'mandeville-1_iil8jb', 'port-antonio-1_axr4uq', 'morant-bay-1_iipt39',
+            'st-andrew-1_souv07', 'savannah-la-mar-1_lljfrb', 'port-maria-1_vbewjz',
+            'georges-1_bhcoqz', 'lacovia-1_h8jutk', 'may-pen-1_qnspzn',
+            'st-anns-bay-1_vflxsr', 'lucea-2_hj6tgl', 'black-river-2_jjvifi',
+          ].map(img => (
+            <img
+              key={img}
+              src={`https://res.cloudinary.com/kwierenga/image/upload/w_400,h_400,c_fill,q_80/${img}.jpg`}
+              alt=""
+              className="h-[200px] w-auto rounded-md object-cover shrink-0 snap-start"
+            />
+          ))}
         </div>
       </section>
 
