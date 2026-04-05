@@ -80,10 +80,10 @@ export default class LeafletAdapter implements MapAdapter {
     this.onSelect = opts?.onSelectChurch
     this.map = L.map(el, { attributionControl: true }).setView([18.1,-77.3], 8)
 
-    // Terrain map with limited detail (OpenTopoMap)
-    L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
-      maxZoom: 17,
-      attribution: 'Map: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)',
+    // Esri World Topo Map — modern terrain with shaded relief
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+      maxZoom: 18,
+      attribution: 'Tiles &copy; Esri',
     }).addTo(this.map)
   }
 
