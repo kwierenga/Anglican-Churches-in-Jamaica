@@ -121,7 +121,7 @@ export default class LeafletAdapter implements MapAdapter {
 
   setFilter(fn: (p: ChurchFeature['properties']) => boolean){
     const filtered = { ...this.data, features: this.data.features.filter(f=>fn(f.properties!)) }
-    this.plot(filtered as any)
+    this.plot(filtered as FeatureCollection<Point, ChurchFeature['properties']>)
   }
 
   destroy(){ this.map?.remove() }

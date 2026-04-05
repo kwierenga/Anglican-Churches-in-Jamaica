@@ -1,9 +1,5 @@
 import { useEffect, useState } from 'react'
-
-interface FeedItem {
-  id: string; date: string; title: string; summary: string; report: string
-  category: string; parish: string | null; source: string; url: string
-}
+import type { FeedItem } from '../lib/schemas'
 
 const today = new Date().toISOString().slice(0, 10)
 

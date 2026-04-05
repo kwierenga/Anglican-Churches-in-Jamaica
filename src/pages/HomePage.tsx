@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { navigate } from '../lib/router'
+import type { FeedItem } from '../lib/schemas'
 
 const parishes = [
   'Kingston', 'St. Andrew', 'St. Thomas', 'Portland', 'St. Mary', 'St. Ann',
@@ -30,11 +31,6 @@ const timelineEvents = [
   { year: '1870s', title: 'Disestablishment', body: 'The Church of England is disestablished in Jamaica. The Anglican church must now sustain itself through its own congregations.' },
   { year: '1962', title: 'Independence', body: 'Jamaica becomes independent. The Anglican Church becomes part of the self-governing Church in the Province of the West Indies.' },
 ]
-
-interface FeedItem {
-  id: string; date: string; title: string; summary: string; report: string
-  category: string; parish: string | null; source: string; url: string
-}
 
 const today = new Date().toISOString().slice(0, 10)
 

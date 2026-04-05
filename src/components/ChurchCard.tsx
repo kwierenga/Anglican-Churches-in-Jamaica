@@ -14,21 +14,19 @@ async function getMediaIndex(): Promise<MediaIndex> {
 
 export default function ChurchCard(){
   const [id] = useQueryState('id','')
-  const [slug] = useQueryState('slug','')
   const [html, setHtml] = useState<string>('Select a church to see its details. Use the search box or click the map.')
   const [media, setMedia] = useState<MediaRow[]>([])
 
   useEffect(()=>{
-    const s = slug || id
-    if(!s){ setHtml('Select a church to see its details.'); setMedia([]); return }
+    if(!id){ setHtml('Select a church to see its details.'); setMedia([]); return }
     Promise.all([
-      fetch(`${import.meta.env.BASE_URL}content/churches/${s}.md`).then(r=> r.ok ? r.text() : ''),
+      fetch(`${import.meta.env.BASE_URL}content/churches/${id}.md`).then(r=> r.ok ? r.text() : ''),
       getMediaIndex()
     ]).then(([md, idx])=>{
       setHtml(md ? (marked.parse(md) as string) : 'No page yet.')
-      setMedia(idx[s]?.filter(m=>m.type==='image') ?? [])
+      setMedia(idx[id]?.filter(m=>m.type==='image') ?? [])
     })
-  },[id, slug])
+  },[id])
 
   const images = media
   return (

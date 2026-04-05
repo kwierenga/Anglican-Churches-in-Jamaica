@@ -27,7 +27,7 @@ export default function DirectoryPage() {
           <MapPanel />
         </div>
         {id && (
-          <div ref={cardRef} className="border-t overflow-auto p-5" style={{ maxHeight: '55%' }}>
+          <div ref={cardRef} className="border-t overflow-auto p-5 max-h-[40vh] md:max-h-[55%]">
             <ChurchCard />
           </div>
         )}

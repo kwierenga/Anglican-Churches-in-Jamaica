@@ -1,7 +1,8 @@
 import Fuse from 'fuse.js'
+import type { ChurchRow } from './schemas'
 
-let _data: any[] = []
-let _fuse: Fuse<any> | null = null
+let _data: ChurchRow[] = []
+let _fuse: Fuse<ChurchRow> | null = null
 
 export async function loadSearchIndex(){
   if(_fuse) return _fuse

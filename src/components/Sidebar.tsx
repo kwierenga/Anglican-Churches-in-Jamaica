@@ -11,7 +11,6 @@ export default function Sidebar() {
   const [klass, setKlass] = useQueryState('class', '')
   const [status, setStatus] = useQueryState('status', '')
   const [, setId] = useQueryState('id', '')
-  const [, setSlug] = useQueryState('slug', '')
 
   const [catalog, setCatalog] = useState<ChurchRow[]>([])
   const [fuse, setFuse] = useState<Fuse<ChurchRow> | null>(null)
@@ -58,8 +57,7 @@ export default function Sidebar() {
                 <button
                   key={item.id}
                   onClick={() => {
-                    setId(item.id); setSlug(item.id)
-                    setQ('')
+                    setId(item.id);                     setQ('')
                   }}
                   className="block w-full text-left px-3 py-2 hover:bg-ivory text-sm font-body"
                 >
@@ -89,7 +87,7 @@ export default function Sidebar() {
         </select>
 
         <div className="flex gap-2">
-          <button onClick={() => { setQ(''); setParish(''); setKlass(''); setStatus(''); setId(''); setSlug('') }}
+          <button onClick={() => { setQ(''); setParish(''); setKlass(''); setStatus(''); setId(''); }}
                   className="border border-crimson/30 text-crimson px-3 py-1.5 rounded text-sm font-body
                              hover:bg-crimson hover:text-white transition-colors">
             Reset

@@ -57,7 +57,7 @@ export default function ChurchDetailPage() {
             </div>
           )}
           <article
-            className="prose prose-lg max-w-none
+            className="prose md:prose-lg max-w-none
                        prose-headings:font-heading prose-headings:text-crimson
                        prose-p:font-body prose-p:text-gray-700
                        prose-a:text-crimson"

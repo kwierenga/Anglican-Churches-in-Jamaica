@@ -28,3 +28,15 @@ export const ChurchRowSchema = z.object({
   town: z.string().default('')
 })
 export type ChurchRow = z.infer<typeof ChurchRowSchema>
+
+export interface FeedItem {
+  id: string
+  date: string
+  title: string
+  summary: string
+  report: string
+  category: string
+  parish: string | null
+  source: string
+  url: string
+}
