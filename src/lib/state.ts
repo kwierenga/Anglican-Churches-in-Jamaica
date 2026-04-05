@@ -1,17 +1,25 @@
 import { useCallback, useSyncExternalStore } from 'react'
 
+let _search = location.search
+
 const store = {
-  subscribe: (cb: ()=>void) => { window.addEventListener('popstate', cb); return ()=>window.removeEventListener('popstate', cb) },
-  getSnapshot: () => new URLSearchParams(location.search)
+  subscribe: (cb: ()=>void) => {
+    const handler = () => { _search = location.search; cb() }
+    window.addEventListener('popstate', handler)
+    return () => window.removeEventListener('popstate', handler)
+  },
+  getSnapshot: () => _search
 }
 
 export function useQueryState(key: string, initial: string){
-  const params = useSyncExternalStore(store.subscribe, store.getSnapshot)
+  const search = useSyncExternalStore(store.subscribe, store.getSnapshot)
+  const params = new URLSearchParams(search)
   const value = params.get(key) ?? initial
   const setValue = useCallback((v: string)=>{
     const p = new URLSearchParams(location.search)
     if(v===''||v==null) p.delete(key); else p.set(key, v)
     history.pushState({},'',`?${p.toString()}`)
+    _search = location.search
     window.dispatchEvent(new PopStateEvent('popstate'))
   },[key])
   return [value, setValue, params] as const
