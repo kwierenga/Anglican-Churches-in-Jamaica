@@ -21,13 +21,13 @@ export default function DirectoryPage() {
         <Sidebar />
       </aside>
 
-      {/* Main content: map + detail */}
-      <main className="flex flex-col overflow-hidden">
-        <div className="relative flex-1 min-h-[40%]">
+      {/* Main content: map is FIXED height, card scrolls below */}
+      <main className="overflow-auto">
+        <div className="relative" style={{ height: '55vh' }}>
           <MapPanel />
         </div>
         {id && (
-          <div ref={cardRef} className="border-t overflow-auto p-5 max-h-[40vh] md:max-h-[55%]">
+          <div ref={cardRef} className="border-t p-5">
             <ChurchCard />
           </div>
         )}

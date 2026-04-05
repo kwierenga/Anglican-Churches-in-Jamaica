@@ -110,11 +110,16 @@ export default class LeafletAdapter implements MapAdapter {
   private data!: FeatureCollection<Point, ChurchFeature['properties']>
   private highlight?: L.CircleMarker
   private editHandler?: (e: L.LeafletMouseEvent) => void
+  private resizeObserver?: ResizeObserver
   private onSelect?: (id: string)=>void
 
   init(el: HTMLElement, opts?: { onSelectChurch?: (id: string)=>void }) {
     this.onSelect = opts?.onSelectChurch
     this.map = L.map(el, { attributionControl: true }).setView([18.1,-77.3], 8)
+
+    // Keep Leaflet in sync if the container resizes (e.g. ChurchCard appearing)
+    this.resizeObserver = new ResizeObserver(() => this.map.invalidateSize())
+    this.resizeObserver.observe(el)
 
     // Default to topo
     TOPO.addTo(this.map)
@@ -239,5 +244,8 @@ export default class LeafletAdapter implements MapAdapter {
     this.map.on('click', this.editHandler)
   }
 
-  destroy(){ this.map?.remove() }
+  destroy(){
+    this.resizeObserver?.disconnect()
+    this.map?.remove()
+  }
 }
