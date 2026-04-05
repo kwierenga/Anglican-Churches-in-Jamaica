@@ -12,5 +12,6 @@ export interface MapAdapter {
   fitToParish(parish: string): void
   flyToChurch(id: string): void
   setFilter(fn: (p: ChurchFeature['properties']) => boolean): void
+  setEditMode(enabled: boolean, onMove?: (lat: number, lng: number) => void): void
   destroy(): void
 }

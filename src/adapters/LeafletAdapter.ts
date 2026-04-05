@@ -91,6 +91,7 @@ export default class LeafletAdapter implements MapAdapter {
   private fullData!: FeatureCollection<Point, ChurchFeature['properties']>
   private data!: FeatureCollection<Point, ChurchFeature['properties']>
   private highlight?: L.CircleMarker
+  private editHandler?: (e: L.LeafletMouseEvent) => void
   private onSelect?: (id: string)=>void
 
   init(el: HTMLElement, opts?: { onSelectChurch?: (id: string)=>void }) {
@@ -180,6 +181,37 @@ export default class LeafletAdapter implements MapAdapter {
     }).addTo(this.map)
     // Fit bounds without clearing highlight
     if(this.layer) this.map.fitBounds(this.layer.getBounds(), { padding:[20,20] })
+  }
+
+  setEditMode(enabled: boolean, onMove?: (lat: number, lng: number) => void) {
+    // Remove previous handler
+    if (this.editHandler) {
+      this.map.off('click', this.editHandler)
+      this.editHandler = undefined
+    }
+    if (this.map.getContainer()) {
+      this.map.getContainer().style.cursor = enabled ? 'crosshair' : ''
+    }
+    if (!enabled || !onMove) return
+
+    this.editHandler = (e: L.LeafletMouseEvent) => {
+      const { lat, lng } = e.latlng
+      // Move highlight to clicked location
+      this.clearHighlight()
+      this.highlight = L.circleMarker([lat, lng], {
+        radius: 14,
+        fillColor: '#D4A017',
+        color: '#8B0000',
+        weight: 3,
+        fillOpacity: 0.4,
+      }).addTo(this.map)
+      this.highlight.bindTooltip(
+        `${lat.toFixed(5)}, ${lng.toFixed(5)}`,
+        { permanent: true, direction: 'top', offset: [0, -16] }
+      )
+      onMove(lat, lng)
+    }
+    this.map.on('click', this.editHandler)
   }
 
   destroy(){ this.map?.remove() }
