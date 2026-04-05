@@ -1,6 +1,6 @@
 // src/adapters/LeafletAdapter.ts
 import L from 'leaflet'
-import 'leaflet/dist/leaflet.css'
+// leaflet.css is imported in main.tsx AFTER tailwind.css to ensure correct cascade
 import { MapAdapter, ChurchFeature } from './MapAdapter'
 import type { FeatureCollection, Point } from 'geojson'
 
