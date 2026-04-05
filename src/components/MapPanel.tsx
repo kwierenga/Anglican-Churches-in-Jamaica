@@ -2,10 +2,15 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import type { FeatureCollection, Point } from 'geojson'
 import type { MapAdapter, ChurchFeature } from '../adapters/MapAdapter'
 import LeafletAdapter from '../adapters/LeafletAdapter'
-import ArcGISAdapter from '../adapters/ArcGISAdapter'
 import { useQueryState } from '../lib/state'
 
-const AdapterClass = import.meta.env.VITE_MAP_ADAPTER === 'arcgis' ? ArcGISAdapter : LeafletAdapter
+async function createAdapter(): Promise<MapAdapter> {
+  if (import.meta.env.VITE_MAP_ADAPTER === 'arcgis') {
+    const { default: ArcGISAdapter } = await import('../adapters/ArcGISAdapter')
+    return new ArcGISAdapter()
+  }
+  return new LeafletAdapter()
+}
 
 export default function MapPanel(){
   const ref = useRef<HTMLDivElement>(null)
@@ -23,16 +28,19 @@ export default function MapPanel(){
   },[data])
 
   useEffect(()=>{
-    const a = new AdapterClass()
-    setAdapter(a)
-    a.init(ref.current!, { onSelectChurch: (cid)=> {
-      const p = new URLSearchParams(location.search); p.set('id', cid)
-      history.pushState({},'',`?${p.toString()}`); window.dispatchEvent(new PopStateEvent('popstate'))
-    }})
-    fetch(`${import.meta.env.BASE_URL}data/build/churches.geo.json`).then(r=>r.json()).then(fc=>{
-      setData(fc); a.plot(fc)
+    let destroyed = false
+    createAdapter().then(a => {
+      if (destroyed) { a.destroy(); return }
+      setAdapter(a)
+      a.init(ref.current!, { onSelectChurch: (cid)=> {
+        const p = new URLSearchParams(location.search); p.set('id', cid)
+        history.pushState({},'',`?${p.toString()}`); window.dispatchEvent(new PopStateEvent('popstate'))
+      }})
+      fetch(`${import.meta.env.BASE_URL}data/build/churches.geo.json`).then(r=>r.json()).then(fc=>{
+        if (!destroyed) { setData(fc); a.plot(fc) }
+      })
     })
-    return ()=>a.destroy()
+    return ()=>{ destroyed = true; adapter?.destroy() }
   },[])
 
   useEffect(()=>{
