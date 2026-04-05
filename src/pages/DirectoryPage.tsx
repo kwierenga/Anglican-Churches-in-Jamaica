@@ -3,13 +3,21 @@ import Sidebar from '../components/Sidebar'
 import MapPanel from '../components/MapPanel'
 import ChurchCard from '../components/ChurchCard'
 import { useQueryState } from '../lib/state'
-import { getCatalog } from '../lib/search'
+import { getCatalog, loadSearchIndex } from '../lib/search'
+import type { ChurchRow } from '../lib/schemas'
 
 export default function DirectoryPage() {
   const [id] = useQueryState('id', '')
 
-  // Get selected church from the already-loaded search catalog
-  const catalog = getCatalog()
+  // Track catalog in local state so the component re-renders when data loads.
+  // Without this, getCatalog() may return [] on the first render (before the
+  // async fetch completes), and nothing triggers a re-render when it finishes.
+  // This matters for deep-linked URLs and map clicks that arrive before the
+  // Sidebar's loadSearchIndex() call resolves.
+  const [catalog, setCatalog] = useState<ChurchRow[]>(getCatalog())
+  useEffect(() => {
+    loadSearchIndex().then(() => setCatalog(getCatalog()))
+  }, [])
   const selected = id ? catalog.find(c => c.id === id) : null
 
   // Fix Location state
