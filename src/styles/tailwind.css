@@ -4,14 +4,17 @@
 
 @layer base {
   a { text-decoration: none; }
+}
 
-  /* Prevent Tailwind's preflight from breaking Leaflet tile positioning */
-  .leaflet-container img {
-    max-width: none !important;
-    max-height: none !important;
-    height: unset !important;
-    display: inline !important;
-  }
+/* Must be OUTSIDE @layer to beat Tailwind's preflight specificity */
+.leaflet-container img {
+  max-width: none !important;
+  max-height: none !important;
+  height: unset !important;
+  display: inline !important;
+}
+.leaflet-container .leaflet-tile-pane img {
+  height: 100% !important;
 }
 
 @layer utilities {
