@@ -6,11 +6,17 @@
   a { text-decoration: none; }
 }
 
-/* Must be OUTSIDE @layer to beat Tailwind's preflight specificity */
-.leaflet-container img,
-.leaflet-container .leaflet-tile {
+/* Must be OUTSIDE @layer to beat Tailwind's preflight specificity.
+   Tailwind preflight sets: img { max-width:100%; height:auto; display:block }
+   Leaflet needs pixel-precise positioning for tiles and marker icons.
+   See: https://github.com/Leaflet/Leaflet/issues/5775
+        https://github.com/Leaflet/Leaflet/pull/6843 */
+.leaflet-container img {
   max-width: none !important;
   max-height: none !important;
+  width: auto;
+  height: unset;
+  padding: 0;
 }
 
 @layer utilities {
