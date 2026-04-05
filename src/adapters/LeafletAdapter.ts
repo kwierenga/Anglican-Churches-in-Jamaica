@@ -192,7 +192,7 @@ export default class LeafletAdapter implements MapAdapter {
     }).addTo(this.map)
     this.highlight.bindTooltip(f.properties!.name, { permanent: true, direction: 'top', offset: [0, -16] })
 
-    this.map.flyTo(latlng, 16)
+    this.map.flyTo(latlng, 18)
   }
 
   setFilter(fn: (p: ChurchFeature['properties']) => boolean){
