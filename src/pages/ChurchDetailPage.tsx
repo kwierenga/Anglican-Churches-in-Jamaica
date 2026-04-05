@@ -78,7 +78,7 @@ export default function ChurchDetailPage() {
       attributionControl: false,
       zoomControl: true,
       scrollWheelZoom: false,
-    }).setView([geo.lat - 0.010, geo.lng], 15)
+    })
 
     L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
       maxZoom: 18,
@@ -94,8 +94,11 @@ export default function ChurchDetailPage() {
 
     mapInstance.current = map
 
-    // Ensure tiles render after container layout settles
-    setTimeout(() => map.invalidateSize(), 100)
+    // Set view AFTER invalidateSize so the center sticks
+    setTimeout(() => {
+      map.invalidateSize()
+      map.setView([geo.lat, geo.lng], 15)
+    }, 150)
 
     return () => {
       map.remove()
