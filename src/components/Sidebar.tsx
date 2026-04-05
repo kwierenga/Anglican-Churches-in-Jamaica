@@ -99,7 +99,7 @@ export default function Sidebar() {
           {filtered.slice(0, 50).map(c => (
             <button
               key={c.id}
-              onClick={() => { setId(c.id); setSlug(c.id) }}
+              onClick={() => { setId(c.id) }}
               className="block w-full text-left px-3 py-2 rounded text-sm font-body
                          border-l-3 border-transparent hover:border-l-crimson hover:bg-ivory transition-colors"
             >
