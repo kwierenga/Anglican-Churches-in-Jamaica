@@ -97,10 +97,17 @@ export default function ChurchDetailPage() {
 
     mapInstance.current = map
 
-    // Use ResizeObserver to re-center once the container has its actual size
+    // Use ResizeObserver to fix size, then pan so the pin sits in the
+    // upper third of the container (pixel offset, not coordinate offset)
+    let settled = false
     const observer = new ResizeObserver(() => {
       map.invalidateSize()
-      map.setView([geo.lat, geo.lng], 15)
+      if (!settled) {
+        settled = true
+        map.setView([geo.lat, geo.lng], 15, { animate: false })
+        // Shift the map down so the pin moves up in the viewport
+        map.panBy([0, -80], { animate: false })
+      }
     })
     observer.observe(container)
 
