@@ -74,7 +74,10 @@ export default function ChurchDetailPage() {
       mapInstance.current = null
     }
 
+    // Force explicit pixel height on the container before creating the map
     const container = mapRef.current
+    container.style.height = '400px'
+
     const map = L.map(container, {
       attributionControl: false,
       zoomControl: true,
@@ -97,22 +100,13 @@ export default function ChurchDetailPage() {
 
     mapInstance.current = map
 
-    // Use ResizeObserver to fix size, then pan so the pin sits in the
-    // upper third of the container (pixel offset, not coordinate offset)
-    let settled = false
-    const observer = new ResizeObserver(() => {
+    // Belt and suspenders: re-center after a frame
+    requestAnimationFrame(() => {
       map.invalidateSize()
-      if (!settled) {
-        settled = true
-        map.setView([geo.lat, geo.lng], 15, { animate: false })
-        // Shift the map down so the pin moves up in the viewport
-        map.panBy([0, -200], { animate: false })
-      }
+      map.setView([geo.lat, geo.lng], 15, { animate: false })
     })
-    observer.observe(container)
 
     return () => {
-      observer.disconnect()
       map.remove()
       mapInstance.current = null
     }
@@ -155,7 +149,7 @@ export default function ChurchDetailPage() {
           {geo && (
             <div className="mt-8">
               <h3 className="font-heading text-xl font-semibold text-crimson mb-3">Location</h3>
-              <div ref={mapRef} className="h-[280px] rounded-lg border border-gray-200 overflow-hidden" />
+              <div ref={mapRef} className="rounded-lg border border-gray-200" style={{ height: '400px' }} />
               <p className="text-xs text-gray-500 mt-2 font-body">
                 {geo.parish} &middot; {geo.lat.toFixed(4)}, {geo.lng.toFixed(4)}
               </p>
