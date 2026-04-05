@@ -74,10 +74,13 @@ export default function ChurchDetailPage() {
       mapInstance.current = null
     }
 
-    const map = L.map(mapRef.current, {
+    const container = mapRef.current
+    const map = L.map(container, {
       attributionControl: false,
       zoomControl: true,
       scrollWheelZoom: false,
+      center: [geo.lat, geo.lng],
+      zoom: 15,
     })
 
     L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
@@ -94,13 +97,15 @@ export default function ChurchDetailPage() {
 
     mapInstance.current = map
 
-    // Set view AFTER invalidateSize so the center sticks
-    setTimeout(() => {
+    // Use ResizeObserver to re-center once the container has its actual size
+    const observer = new ResizeObserver(() => {
       map.invalidateSize()
-      map.setView([geo.lat - 0.015, geo.lng], 15)
-    }, 150)
+      map.setView([geo.lat, geo.lng], 15)
+    })
+    observer.observe(container)
 
     return () => {
+      observer.disconnect()
       map.remove()
       mapInstance.current = null
     }
