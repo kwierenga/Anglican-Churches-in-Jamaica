@@ -106,7 +106,7 @@ export default function ChurchDetailPage() {
         settled = true
         map.setView([geo.lat, geo.lng], 15, { animate: false })
         // Shift the map down so the pin moves up in the viewport
-        map.panBy([0, -80], { animate: false })
+        map.panBy([0, -120], { animate: false })
       }
     })
     observer.observe(container)
