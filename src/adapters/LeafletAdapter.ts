@@ -22,6 +22,24 @@ const PARISH_COLORS: Record<string, string> = {
   'st. thomas':    '#D4AC0D',
 }
 
+/** Predefined parish centers and zoom levels from the original site */
+const PARISH_CENTERS: Record<string, { lat: number; lng: number; zoom: number }> = {
+  'kingston':      { lat: 17.9714, lng: -76.7931, zoom: 12 },
+  'st. andrew':    { lat: 18.0500, lng: -76.7600, zoom: 11 },
+  'st. catherine': { lat: 17.9000, lng: -77.1500, zoom: 10 },
+  'clarendon':     { lat: 17.9800, lng: -77.3200, zoom: 10 },
+  'manchester':    { lat: 18.0500, lng: -77.5200, zoom: 10 },
+  'st. elizabeth': { lat: 18.0300, lng: -77.8200, zoom: 10 },
+  'westmoreland':  { lat: 18.2800, lng: -78.1500, zoom: 10 },
+  'hanover':       { lat: 18.4000, lng: -78.1300, zoom: 11 },
+  'st. james':     { lat: 18.4500, lng: -77.9200, zoom: 11 },
+  'trelawny':      { lat: 18.3500, lng: -77.6500, zoom: 10 },
+  'st. ann':       { lat: 18.3800, lng: -77.2000, zoom: 10 },
+  'st. mary':      { lat: 18.3200, lng: -76.9200, zoom: 11 },
+  'portland':      { lat: 18.1200, lng: -76.5000, zoom: 10 },
+  'st. thomas':    { lat: 17.9200, lng: -76.4200, zoom: 10 },
+}
+
 /** Marker style based on classification */
 function markerStyle(props: ChurchFeature['properties']): L.CircleMarkerOptions {
   const color = PARISH_COLORS[props.parish.toLowerCase()] ?? '#888'
@@ -136,12 +154,19 @@ export default class LeafletAdapter implements MapAdapter {
 
   fitToParish(parish: string){
     this.clearHighlight()
-    const pts: L.LatLngExpression[] = []
-    this.fullData.features.forEach(f => {
-      if(f.properties!.parish.toLowerCase()===parish.toLowerCase())
-        pts.push([f.geometry.coordinates[1], f.geometry.coordinates[0]])
-    })
-    if(pts.length) this.map.fitBounds(L.latLngBounds(pts), { padding:[20,20] })
+    const key = parish.toLowerCase()
+    const center = PARISH_CENTERS[key]
+    if (center) {
+      this.map.setView([center.lat, center.lng], center.zoom)
+    } else {
+      // Fallback: fit to church bounds
+      const pts: L.LatLngExpression[] = []
+      this.fullData.features.forEach(f => {
+        if(f.properties!.parish.toLowerCase() === key)
+          pts.push([f.geometry.coordinates[1], f.geometry.coordinates[0]])
+      })
+      if(pts.length) this.map.fitBounds(L.latLngBounds(pts), { padding:[20,20] })
+    }
   }
 
   flyToChurch(id: string){
