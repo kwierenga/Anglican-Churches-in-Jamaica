@@ -4,24 +4,44 @@ import { useSyncExternalStore, useCallback } from 'react'
 
 let _hash = location.hash || '#/'
 
+const listeners = new Set<() => void>()
+
+function notify() {
+  _hash = location.hash || '#/'
+  listeners.forEach(cb => cb())
+}
+
+window.addEventListener('hashchange', notify)
+window.addEventListener('popstate', notify)
+
 const store = {
   subscribe: (cb: () => void) => {
-    const handler = () => { _hash = location.hash || '#/'; cb() }
-    window.addEventListener('hashchange', handler)
-    return () => window.removeEventListener('hashchange', handler)
+    listeners.add(cb)
+    return () => listeners.delete(cb)
   },
   getSnapshot: () => _hash,
 }
 
 export function useRoute() {
-  const hash = useSyncExternalStore(store.subscribe, store.getSnapshot)
-  return hash
+  return useSyncExternalStore(store.subscribe, store.getSnapshot)
 }
 
 export function navigate(path: string) {
-  location.hash = path
+  // Support paths like '#/churches?parish=Kingston' by splitting hash and query
+  const qIdx = path.indexOf('?')
+  if (qIdx >= 0) {
+    const hash = path.slice(0, qIdx)
+    const query = path.slice(qIdx)
+    // Set query params in location.search, route in location.hash
+    history.pushState({}, '', query + hash)
+    // Manually fire events since pushState doesn't trigger hashchange/popstate
+    _hash = hash || '#/'
+    window.dispatchEvent(new PopStateEvent('popstate'))
+  } else {
+    location.hash = path
+  }
 }
 
 export function useNavigate() {
-  return useCallback((path: string) => { location.hash = path }, [])
+  return useCallback((path: string) => navigate(path), [])
 }
