@@ -165,7 +165,7 @@ export default class LeafletAdapter implements MapAdapter {
   }
 
   setFilter(fn: (p: ChurchFeature['properties']) => boolean){
-    this.clearHighlight()
+    // Don't clear highlight — filter changes shouldn't deselect a church
     const filtered = { ...this.fullData, features: this.fullData.features.filter(f=>fn(f.properties!)) }
     this.data = filtered
     if(this.layer) this.layer.remove()
@@ -178,7 +178,8 @@ export default class LeafletAdapter implements MapAdapter {
         layer.bindTooltip(label)
       }
     }).addTo(this.map)
-    this.fitToAll()
+    // Fit bounds without clearing highlight
+    if(this.layer) this.map.fitBounds(this.layer.getBounds(), { padding:[20,20] })
   }
 
   destroy(){ this.map?.remove() }

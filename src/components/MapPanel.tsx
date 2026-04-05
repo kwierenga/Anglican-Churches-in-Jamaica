@@ -50,11 +50,6 @@ export default function MapPanel(){
   },[parish, adapter, data])
 
   useEffect(()=>{
-    if(!adapter || !data || !id) return
-    adapter.flyToChurch(id)
-  },[id, adapter, data])
-
-  useEffect(()=>{
     if(!adapter || !data) return
     adapter.setFilter(p=>{
       const okParish = parish ? p.parish===parish : true
@@ -63,6 +58,12 @@ export default function MapPanel(){
       return okParish && okClass && okStatus
     })
   },[parish, klass, status, adapter, data])
+
+  // Must be LAST so highlight survives setFilter replot
+  useEffect(()=>{
+    if(!adapter || !data || !id) return
+    adapter.flyToChurch(id)
+  },[id, adapter, data])
 
   return (
     <>
