@@ -92,6 +92,16 @@ export default function Sidebar() {
                              hover:bg-crimson hover:text-white transition-colors">
             Reset
           </button>
+          <button onClick={() => {
+                    const pool = filtered.length > 0 ? filtered : catalog
+                    if (pool.length === 0) return
+                    const pick = pool[Math.floor(Math.random() * pool.length)]
+                    setId(pick.id)
+                  }}
+                  className="border border-gold text-gold px-3 py-1.5 rounded text-sm font-body
+                             hover:bg-gold hover:text-white transition-colors">
+            Surprise Me
+          </button>
         </div>
 
         {/* Church list */}
