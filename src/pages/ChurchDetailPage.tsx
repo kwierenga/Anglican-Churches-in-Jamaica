@@ -40,7 +40,7 @@ async function getChurchGeo(id: string): Promise<ChurchGeo | null> {
 
 function miniMapUrl(lat: number, lng: number): string {
   // OpenStreetMap embed with a marker
-  const delta = 0.008
+  const delta = 0.02
   const bbox = `${lng - delta},${lat - delta},${lng + delta},${lat + delta}`
   return `https://www.openstreetmap.org/export/embed.html?bbox=${bbox}&layer=mapnik&marker=${lat},${lng}`
 }
