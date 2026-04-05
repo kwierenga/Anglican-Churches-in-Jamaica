@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useRef } from 'react'
 import Sidebar from '../components/Sidebar'
 import MapPanel from '../components/MapPanel'
 import ChurchCard from '../components/ChurchCard'
@@ -8,11 +8,7 @@ export default function DirectoryPage() {
   const cardRef = useRef<HTMLDivElement>(null)
   const [id] = useQueryState('id', '')
 
-  useEffect(() => {
-    if (id && cardRef.current) {
-      cardRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    }
-  }, [id])
+  // Don't auto-scroll to card — keep the map and Fix Location panel visible
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-[320px_1fr] h-[calc(100vh-62px)]">
