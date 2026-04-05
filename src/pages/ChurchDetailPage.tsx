@@ -97,7 +97,7 @@ export default function ChurchDetailPage() {
     // Set view AFTER invalidateSize so the center sticks
     setTimeout(() => {
       map.invalidateSize()
-      map.setView([geo.lat - 0.008, geo.lng], 15)
+      map.setView([geo.lat - 0.015, geo.lng], 15)
     }, 150)
 
     return () => {
