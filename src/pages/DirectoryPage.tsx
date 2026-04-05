@@ -3,29 +3,14 @@ import Sidebar from '../components/Sidebar'
 import MapPanel from '../components/MapPanel'
 import ChurchCard from '../components/ChurchCard'
 import { useQueryState } from '../lib/state'
+import { getCatalog } from '../lib/search'
 
 export default function DirectoryPage() {
   const [id] = useQueryState('id', '')
 
-  // Load GeoJSON for coordinate display
-  const [geo, setGeo] = useState<Record<string, { lat: number; lng: number; name: string }>>({})
-  useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}data/build/churches.geo.json`)
-      .then(r => r.json())
-      .then(fc => {
-        const map: typeof geo = {}
-        for (const f of fc.features) {
-          map[f.properties.id] = {
-            lat: f.geometry.coordinates[1],
-            lng: f.geometry.coordinates[0],
-            name: f.properties.name,
-          }
-        }
-        setGeo(map)
-      })
-  }, [])
-
-  const selected = id ? geo[id] : null
+  // Get selected church from the already-loaded search catalog
+  const catalog = getCatalog()
+  const selected = id ? catalog.find(c => c.id === id) : null
 
   // Fix Location state
   const [editing, setEditing] = useState(false)
