@@ -74,11 +74,7 @@ export default function ChurchDetailPage() {
       mapInstance.current = null
     }
 
-    // Force explicit pixel height on the container before creating the map
-    const container = mapRef.current
-    container.style.height = '400px'
-
-    const map = L.map(container, {
+    const map = L.map(mapRef.current, {
       attributionControl: false,
       zoomControl: true,
       scrollWheelZoom: false,
@@ -149,7 +145,7 @@ export default function ChurchDetailPage() {
           {geo && (
             <div className="mt-8">
               <h3 className="font-heading text-xl font-semibold text-crimson mb-3">Location</h3>
-              <div ref={mapRef} className="rounded-lg border border-gray-200" style={{ height: '400px' }} />
+              <div ref={mapRef} className="h-[300px] rounded-lg border border-gray-200" />
               <p className="text-xs text-gray-500 mt-2 font-body">
                 {geo.parish} &middot; {geo.lat.toFixed(4)}, {geo.lng.toFixed(4)}
               </p>
