@@ -94,6 +94,9 @@ export default function ChurchDetailPage() {
 
     mapInstance.current = map
 
+    // Ensure tiles render after container layout settles
+    setTimeout(() => map.invalidateSize(), 100)
+
     return () => {
       map.remove()
       mapInstance.current = null
