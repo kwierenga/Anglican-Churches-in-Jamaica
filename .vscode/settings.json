@@ -7,5 +7,15 @@
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "tailwindCSS.includeLanguages": { "typescriptreact": "html" },
   "files.associations": { "*.csv": "csv" },
-  "editor.quickSuggestions": { "strings": true }
+  "editor.quickSuggestions": { "strings": true },
+  "claudeCode.preferredLocation": "panel",
+  "chat.viewSessions.orientation": "stacked",
+  "workbench.startupEditor": "none",
+  "window.menuBarVisibility": "compact",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.vercel": true,
+    "**/node_modules": true,
+    "**/dist": true
+  }
 }
