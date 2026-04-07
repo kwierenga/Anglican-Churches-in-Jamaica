@@ -64,5 +64,8 @@ export default class ArcGISAdapter implements MapAdapter {
     const filtered = { ...this.data, features: this.data.features.filter(f=>fn(f.properties!)) }
     this.plot(filtered as any)
   }
+  setEditMode(_enabled: boolean, _onMove?: (lat: number, lng: number) => void) {
+    // Edit mode not supported in ArcGIS adapter
+  }
   destroy(){ this.view?.destroy() }
 }
