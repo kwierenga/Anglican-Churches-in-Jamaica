@@ -48,6 +48,7 @@ export default function Sidebar() {
             value={q}
             onChange={e => setQ(e.target.value)}
             placeholder="Search church name..."
+            aria-label="Search churches"
             className="w-full border border-gray-300 rounded px-3 py-2 text-sm font-body
                        focus:border-gold focus:ring-2 focus:ring-gold/20 outline-none"
           />
@@ -71,16 +72,19 @@ export default function Sidebar() {
 
         {/* Filters */}
         <select value={parish} onChange={e => setParish(e.target.value)}
+                aria-label="Filter by parish"
                 className="w-full border border-gray-300 rounded px-3 py-2 text-sm font-body focus:border-gold outline-none">
           <option value="">All Parishes</option>
           {parishes.map(p => <option key={p} value={p}>{p}</option>)}
         </select>
         <select value={klass} onChange={e => setKlass(e.target.value)}
+                aria-label="Filter by classification"
                 className="w-full border border-gray-300 rounded px-3 py-2 text-sm font-body focus:border-gold outline-none">
           <option value="">All Classifications</option>
           {classes.map(c => <option key={c} value={c}>{c}</option>)}
         </select>
         <select value={status} onChange={e => setStatus(e.target.value)}
+                aria-label="Filter by status"
                 className="w-full border border-gray-300 rounded px-3 py-2 text-sm font-body focus:border-gold outline-none">
           <option value="">All Statuses</option>
           {statuses.map(s => <option key={s} value={s}>{s}</option>)}
@@ -111,7 +115,7 @@ export default function Sidebar() {
               key={c.id}
               onClick={() => { setId(c.id) }}
               className="block w-full text-left px-3 py-2 rounded text-sm font-body
-                         border-l-3 border-transparent hover:border-l-crimson hover:bg-ivory transition-colors"
+                         border-l-4 border-transparent hover:border-l-crimson hover:bg-ivory transition-colors"
             >
               <span className="font-semibold text-gray-900">{c.name}</span>
               <div className="flex items-center gap-2 mt-0.5">

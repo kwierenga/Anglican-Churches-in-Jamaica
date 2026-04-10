@@ -25,6 +25,8 @@ export default function ChurchCard(){
     ]).then(([md, idx])=>{
       setHtml(md ? (marked.parse(md) as string) : 'No page yet.')
       setMedia(idx[id]?.filter(m=>m.type==='image') ?? [])
+    }).catch(()=>{
+      setHtml('Failed to load church details.')
     })
   },[id])
 

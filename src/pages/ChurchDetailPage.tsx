@@ -64,6 +64,9 @@ export default function ChurchDetailPage() {
       setHtml(md ? (marked.parse(md) as string) : '<p>Church not found.</p>')
       setMedia(idx[slug]?.filter(m => m.type === 'image') ?? [])
       setGeo(churchGeo)
+    }).catch(() => {
+      setHtml('<p>Failed to load church details.</p>')
+    }).finally(() => {
       setLoading(false)
     })
   }, [slug])

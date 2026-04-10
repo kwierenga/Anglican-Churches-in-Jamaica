@@ -1,3 +1,4 @@
+import type { ReactElement } from 'react'
 import { useRoute } from './lib/router'
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -13,7 +14,7 @@ import History from './pages/History'
 export default function App() {
   const route = useRoute()
 
-  let page: JSX.Element
+  let page: ReactElement
   if (route === '#/' || route === '') {
     page = <HomePage />
   } else if (route === '#/churches' || route === '#/map') {

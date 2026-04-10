@@ -23,7 +23,7 @@ export default function Header() {
         </a>
 
         {/* Nav links */}
-        <nav className="ml-auto flex items-center gap-1">
+        <nav aria-label="Main navigation" className="ml-auto flex items-center gap-1">
           {links.map(l => {
             const active = route === l.href || (l.href !== '#/' && route.startsWith(l.href))
             return (

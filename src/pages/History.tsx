@@ -31,7 +31,7 @@ export default function History() {
       </section>
 
       {/* Sticky section nav */}
-      <nav className="sticky top-[62px] z-40 bg-white/95 backdrop-blur border-b border-gray-200">
+      <nav aria-label="Page sections" className="sticky top-[62px] z-40 bg-white/95 backdrop-blur border-b border-gray-200">
         <div className="max-w-site mx-auto px-4 flex gap-1 overflow-x-auto py-2 text-sm">
           {[
             { id: 'origins', label: 'Origins' },
@@ -42,10 +42,11 @@ export default function History() {
             { id: 'independence', label: 'Independence' },
             { id: 'today', label: 'Today' },
           ].map(s => (
-            <a key={s.id} href={`#${s.id}`}
+            <button key={s.id}
+               onClick={() => document.getElementById(s.id)?.scrollIntoView({ behavior: 'smooth' })}
                className="px-3 py-1 rounded-full whitespace-nowrap text-gray-600 hover:bg-crimson/10 hover:text-crimson font-body transition-colors">
               {s.label}
-            </a>
+            </button>
           ))}
         </div>
       </nav>

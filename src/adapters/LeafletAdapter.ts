@@ -88,21 +88,6 @@ function markerStyle(props: ChurchFeature['properties']): L.CircleMarkerOptions 
   }
 }
 
-const TOPO = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
-  maxZoom: 18,
-  attribution: 'Tiles &copy; Esri',
-})
-
-const SATELLITE = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-  maxZoom: 18,
-  attribution: 'Tiles &copy; Esri',
-})
-
-const SAT_LABELS = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', {
-  maxZoom: 18,
-  opacity: 0.9,
-})
-
 export default class LeafletAdapter implements MapAdapter {
   private map!: L.Map
   private layer!: L.GeoJSON
@@ -121,13 +106,26 @@ export default class LeafletAdapter implements MapAdapter {
     this.resizeObserver = new ResizeObserver(() => this.map.invalidateSize())
     this.resizeObserver.observe(el)
 
-    // Default to topo
-    TOPO.addTo(this.map)
+    // Create tile layers per instance (not module-level singletons)
+    const topo = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+      maxZoom: 18,
+      attribution: 'Tiles &copy; Esri',
+    })
+    const satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+      maxZoom: 18,
+      attribution: 'Tiles &copy; Esri',
+    })
+    const satLabels = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', {
+      maxZoom: 18,
+      opacity: 0.9,
+    })
+
+    topo.addTo(this.map)
 
     // Layer toggle control
     L.control.layers(
-      { 'Terrain': TOPO, 'Satellite': SATELLITE },
-      { 'Labels': SAT_LABELS },
+      { 'Terrain': topo, 'Satellite': satellite },
+      { 'Labels': satLabels },
       { position: 'topright', collapsed: false }
     ).addTo(this.map)
   }
