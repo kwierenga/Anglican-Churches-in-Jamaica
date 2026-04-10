@@ -11,6 +11,7 @@ St. George's was built shortly after the formation of Manchester parish in 1814,
 ## Architecture
 
 The building is a simple rectangular stone nave, now roofless and open to the sky. The thick walls remain largely intact, and a few memorial monuments survive on the interior walls. The surrounding churchyard contains old graves. The structure sits on the B6 road in the district of Weir, several kilometres northwest of Mile Gully town.
+cat content/churches/st-george-s-mile-gully-manchester.md
 
 ## Notable Facts
 

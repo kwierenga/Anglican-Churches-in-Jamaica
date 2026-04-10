@@ -1,16 +1,4 @@
 # St. Agnes’, Grange
-**Hanover** · Church · active
+**Hanover** · Church · Active
 
-St. Agnes’ Anglican Church serves the community of Grange in the interior of Hanover, a small farming district in the hill country between the south coast and the north coast corridor. The Grange name — like several other ‘Grange’ communities across Jamaica — derives from the estate terminology of the plantation era, denoting a farmstead or agricultural holding. St. Agnes’ has provided Anglican ministry to this quiet inland community for several generations, offering worship, pastoral care, and a place for the marking of life’s milestones in a rural setting far from the larger coastal towns.
-
-## History
-The Grange district of Hanover developed from the estate landscape of the parish interior in the post-Emancipation era. Freed families settled in the hills and valleys of interior Hanover, establishing small farms and communities away from the coastal sugar estates. The Anglican Diocese extended its mission network across these interior settlements, and St. Agnes’ was established at Grange as part of this outreach. Dedicated to St. Agnes, the young Roman martyr associated with purity and courage, the church has served successive generations of farming families in this part of the parish. The community’s history is one of agricultural persistence in the face of economic marginalisation that has affected rural interior Jamaica across the 20th century.
-
-## Architecture
-St. Agnes’ is a small masonry chapel typical of Anglican mission buildings in Hanover’s rural interior. The building is set in a modest churchyard in the Grange community. The inland hill-country setting provides some natural drainage and shelter from direct coastal surge, but the rolling terrain of interior Hanover concentrates wind during major storm passages and can produce localised flooding in the valleys. The church’s construction is functional rather than ornate, suited to a small rural congregation of modest means.
-
-## Clergy
-Grange has been served within the Hanover Anglican circuit under shared clergy arrangements, grouped with other interior congregations in the southern Hanover area. The church is confirmed active in diocesan records. As with most small interior Anglican congregations, dedicated lay leaders — wardens, Mothers’ Union members, and readers — have been the backbone of its day-to-day community and pastoral life, sustaining regular worship and the marking of family occasions.
-
-## Notable Facts
-Interior Hanover is one of Jamaica’s less-documented rural landscapes, lying in the shadow of the better-known coastal towns of Lucea, Green Island, and Hopewell. The inland farming communities like Grange have faced significant economic pressures across the 20th and 21st centuries, with outmigration reducing congregation sizes, a pattern common to rural churches across the island. Hurricane Gilbert (1988) caused serious wind damage to interior Hanover communities. Hurricane Ivan (2004) brought further damage. Hurricane Melissa (October 2025) struck western Jamaica and the interior of Hanover experienced damaging winds and heavy rain as the storm passed; the Grange community was affected and the church’s pastoral role in supporting families in the aftermath was central to its ministry.
+Listed in the Diocese of Jamaica & The Cayman Islands directory. No verified historical information is currently available for this church.
