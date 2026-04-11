@@ -1,5 +1,5 @@
 # St. Catherine's, Claverty Cottage
-**Portland** · Mission · unknown
+**Portland** · Mission · inactive
 
 St. Catherine's Anglican Church provides a second worship point in the Claverty Cottage area of Portland, alongside St. Paul's also recorded at this location. The two Anglican entries at Claverty Cottage suggest the community is geographically dispersed across different elevation bands or districts within the broader Claverty Cottage area of south-eastern Portland. St. Catherine's serves part of this interior community.
 

@@ -1,5 +1,5 @@
 # St. Andrew's, Hope Bay
-**Portland** · Church · unknown
+**Portland** · Church · inactive
 
 St. Andrew's Anglican Church serves Hope Bay, a community on the north coast of Portland parish between St. Margaret's Bay and Buff Bay. Hope Bay is a small coastal community in western Portland with a fishing tradition, and St. Andrew's — named for the patron saint of Scotland and the fisherman apostle — serves its congregation along this stretch of the Portland north coast.
 

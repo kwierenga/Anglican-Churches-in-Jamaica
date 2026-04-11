@@ -16,7 +16,7 @@ export default function About() {
         <h2 className="font-heading text-2xl font-bold text-crimson pt-4">What You'll Find Here</h2>
         <ul className="list-disc pl-6 space-y-2">
           <li><strong>Interactive map</strong> &mdash; Browse churches on a map. Click a marker to see details. Use the parish chips to filter by location.</li>
-          <li><strong>Search &amp; filters</strong> &mdash; Search by name, or filter by parish, classification (cathedral, church, chapel, ruin), and status.</li>
+          <li><strong>Search &amp; filters</strong> &mdash; Search by name, or filter by parish, classification (cathedral, parish church, church, chapel, mission, ruin), and status.</li>
           <li><strong>Church pages</strong> &mdash; Each church has a summary, history, architecture notes, clergy information, and notable facts.</li>
           <li><strong>Photographs</strong> &mdash; Images are sourced from field visits and archives, hosted on Cloudinary.</li>
         </ul>

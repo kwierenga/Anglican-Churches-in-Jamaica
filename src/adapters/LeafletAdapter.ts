@@ -43,7 +43,7 @@ const PARISH_CENTERS: Record<string, { lat: number; lng: number; zoom: number }>
 /** Marker style based on classification */
 function markerStyle(props: ChurchFeature['properties']): L.CircleMarkerOptions {
   const color = PARISH_COLORS[props.parish.toLowerCase()] ?? '#888'
-  const isParishChurch = props.name.toLowerCase().includes('parish church')
+  const isParishChurch = props.classification === 'parish_church'
   const isRuin = props.classification === 'ruin' || props.status === 'ruin'
   const isCathedral = props.classification === 'cathedral'
 

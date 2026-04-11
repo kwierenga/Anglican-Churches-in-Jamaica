@@ -1,5 +1,5 @@
 # St. Bartholomew's, Cooper's Hill
-**Portland** · Mission · unknown
+**Portland** · Mission · inactive
 
 St. Bartholomew's Anglican Church serves the Cooper's Hill area of Portland, a community in the western interior of the parish. Note that a separate St. John's Anglican Church is also recorded at Cooper's Hill in Portland — the two entries are approximately 12 km apart, indicating these are genuinely distinct communities sharing a name in different parts of the parish. St. Bartholomew's serves its part of this western interior community.
 

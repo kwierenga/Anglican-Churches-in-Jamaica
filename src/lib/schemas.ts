@@ -21,7 +21,7 @@ export const ChurchRowSchema = z.object({
   id: z.string().min(1, 'id required'),
   name: z.string().min(1, 'name required'),
   parish: z.string().min(1, 'parish required'),
-  classification: z.enum(['cathedral','church','chapel','mission','ruin']),
+  classification: z.enum(['cathedral','parish_church','church','chapel','mission','ruin']),
   status: z.enum(['active','inactive','ruin']),
   lat: z.coerce.number().min(17, 'lat must be within Jamaica').max(19, 'lat must be within Jamaica'),
   lng: z.coerce.number().min(-79, 'lng must be within Jamaica').max(-75, 'lng must be within Jamaica'),

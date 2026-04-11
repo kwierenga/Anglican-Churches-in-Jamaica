@@ -7,7 +7,7 @@ All Saints' Anglican Church serves The Abbey, a community in the interior of St.
 The Abbey community sits in the interior of St. Thomas, in the hill country away from the south coast. The Anglican Diocese established All Saints' as a mission chapel to serve this interior community. The name 'The Abbey' is unusual for a Jamaican rural community and may derive from an estate name, a landscape feature, or a particular local tradition now lost to record.
 
 ## Architecture
-All Saints' is a modest masonry chapel of the kind erected by the Anglican Diocese across rural St. Thomas in the late 19th and early 20th centuries. The structure is functional rather than ornate — a simple rectangular nave, a modest entrance, and a small churchyard — suited to a rural congregation of modest means. Set in the coastal landscape of St. Thomas. Its coastal setting brings exposure to salt air and periodic storm surge, demanding robust masonry construction.
+All Saints' is a modest masonry chapel set in the interior hill country of St. Thomas, away from the south coast. The elevated terrain means the church faces rainfall and landslide risk rather than coastal surge during major storm events.
 
 ## Clergy
 The Abbey has been served within the St. Thomas deanery under shared clergy arrangements. Lay leaders sustain the church's pastoral life between clerical visits.

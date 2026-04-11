@@ -1,4 +1,4 @@
-# Church of the Ephipany, Richmond
+# Church of the Epiphany, Richmond
 **St. Mary** · Church · active
 
 The Church of the Epiphany is an Anglican church serving the Richmond community in St. Mary parish, one of two Anglican worship points associated with Richmond in the dataset. The Epiphany dedication — marking the manifestation of Christ to the Gentiles at the visit of the Magi — is a relatively unusual church name in the Jamaican Anglican network. The church serves the Richmond farming community in the interior hills of St. Mary.

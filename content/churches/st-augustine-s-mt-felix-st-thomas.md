@@ -7,7 +7,7 @@ St. Augustine's Anglican Church serves Mount Felix, a community in St. Thomas pa
 Mount Felix sits in the interior of St. Thomas, in the hilly terrain between the coastal towns of the south-east coast and the higher ground of the Blue Mountain foothills. The Anglican Diocese established St. Augustine's as a mission chapel to serve this interior farming community. The dedication to St. Augustine may reflect a particular clerical preference or a connection to the Augustinian tradition at the time of the church's founding.
 
 ## Architecture
-St. Augustine's is a modest masonry chapel of the kind erected by the Anglican Diocese across rural St. Thomas in the late 19th and early 20th centuries. The structure is functional rather than ornate — a simple rectangular nave, a modest entrance, and a small churchyard — suited to a rural congregation of modest means. Set in the coastal landscape of St. Thomas. Its coastal setting brings exposure to salt air and periodic storm surge, demanding robust masonry construction.
+St. Augustine's is a modest masonry chapel set in the interior hill country of St. Thomas, between the south-coast towns and the Blue Mountain foothills. The hilly terrain creates landslide and road-closure risk during heavy rainfall events rather than the coastal surge exposure of the parish's seaside churches.
 
 ## Clergy
 Mount Felix has been served within the St. Thomas deanery under shared clergy arrangements. Lay leaders sustain the church's pastoral life between clerical visits.

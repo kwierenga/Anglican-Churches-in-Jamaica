@@ -1,5 +1,5 @@
 # St. Martin's Mission, Bull Bay
-**St. Thomas** · Mission · unknown
+**St. Thomas** · Mission · inactive
 
 St. Martin's Mission is the Anglican church serving Bull Bay, a community on the coast of St. Thomas parish at the westernmost edge of the parish near the St. Andrew boundary. Reviewers describe it as 'Bull Bay's first Anglican Church' with a warm and welcoming congregation and a non-traditional worship style.
 

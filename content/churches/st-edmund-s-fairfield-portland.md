@@ -1,5 +1,5 @@
 # St. Edmund's, Fairfield
-**Portland** · Mission · unknown
+**Portland** · Mission · inactive
 
 St. Edmund's Anglican Church serves Fairfield, a community in the interior of Portland parish. Fairfield is a small farming district in the hill country of Portland, and St. Edmund's has provided Anglican ministry to the local community for several generations. The dedication to St. Edmund, the martyred Anglo-Saxon King of East Anglia, is unusual in Jamaica and gives this chapel a distinctive character within the Portland deanery network.
 

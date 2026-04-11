@@ -1,5 +1,5 @@
 # Holy Trinity, Bybrook
-**Portland** · Mission · unknown
+**Portland** · Mission · inactive
 
 Holy Trinity Anglican Church serves Bybrook, a community in the interior of Portland parish. Bybrook is a small farming district in the hill country of Portland, and Holy Trinity has provided Anglican ministry to the local community for several generations. The dedication to the Holy Trinity — Father, Son, and Holy Spirit — is one of the most traditional Anglican church names and is found across Jamaica's diocese.
 

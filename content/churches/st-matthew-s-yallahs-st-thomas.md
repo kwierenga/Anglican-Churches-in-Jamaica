@@ -1,5 +1,5 @@
 # St. Matthew's, Yallahs
-**St. Thomas** · Church · unknown
+**St. Thomas** · Church · inactive
 
 St. Matthew's Anglican Church provides a second Anglican worship point in the Yallahs area of St. Thomas, alongside St. David's also recorded in this community. Yallahs is one of the larger coastal communities in western St. Thomas at the mouth of the Yallahs River, and the presence of two Anglican entries in the area reflects either a geographically dispersed community served by separate chapels, or two worship points that served different parts of the Yallahs district.
 

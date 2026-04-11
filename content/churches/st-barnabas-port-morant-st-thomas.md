@@ -7,7 +7,7 @@ St. Barnabas' Anglican Church serves Port Morant, a coastal community at the eas
 Port Morant developed as the principal port of eastern St. Thomas, shipping the sugar and later bananas produced in the Plantain Garden River valley. The Anglican Diocese established St. Barnabas' to serve the Port Morant community — dedicated to the apostle celebrated for his encouragement of others and his generosity to the early church. The church has served the port community and its surrounding districts through the transitions from plantation agriculture to the post-colonial economy.
 
 ## Architecture
-St. Barnabas' is The coastal position on the south-east corner of Jamaica makes Port Morant one of the most exposed communities to hurricanes approaching from the east — Hurricane Ivan (2004) made landfall near this part of the coast and caused catastrophic damage in the area.
+St. Barnabas' is a coastal church on the south-east corner of Jamaica. Port Morant's position makes it one of the most exposed communities to hurricanes approaching from the east — Hurricane Ivan (2004) made landfall near this part of the coast and caused catastrophic damage in the area.
 
 ## Clergy
 Port Morant has been served within the St. Thomas deanery. As a coastal port community with a longer settlement history than many interior villages, it has maintained an active Anglican congregation through the fishing and farming community.

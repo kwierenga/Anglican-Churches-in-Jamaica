@@ -1,5 +1,5 @@
 # St. Barnabas', John's Hall
-**Portland** · Mission · unknown
+**Portland** · Mission · inactive
 
 St. Barnabas' Anglican Church serves John's Hall, a community in the western interior of Portland parish near the Buff Bay area. John's Hall is a small farming community in the hill country of western Portland, and St. Barnabas' has provided Anglican ministry here for several generations. The dedication to St. Barnabas, the 'son of encouragement' celebrated for his generosity and support of early Christian mission, is shared with several other Jamaican Anglican churches.
 

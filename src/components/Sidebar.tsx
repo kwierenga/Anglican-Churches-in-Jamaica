@@ -81,7 +81,7 @@ export default function Sidebar() {
                 aria-label="Filter by classification"
                 className="w-full border border-gray-300 rounded px-3 py-2 text-sm font-body focus:border-gold outline-none">
           <option value="">All Classifications</option>
-          {classes.map(c => <option key={c} value={c}>{c}</option>)}
+          {classes.map(c => <option key={c} value={c}>{c.replace('_', ' ')}</option>)}
         </select>
         <select value={status} onChange={e => setStatus(e.target.value)}
                 aria-label="Filter by status"

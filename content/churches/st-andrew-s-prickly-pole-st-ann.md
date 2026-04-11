@@ -1,4 +1,4 @@
-# St. Ann's, Prickly Pole
+# St. Andrew's, Prickly Pole
 **St. Ann** · Church · active
 
 St. Andrew’s Anglican Church is a small mission church serving the rural community of Prickly Pole in the hills of St. Ann. As part of the St. Ann Deanery, it provides a local spiritual centre for a district that faces socioeconomic challenges, allowing residents to worship without traveling to larger towns like Brown's Town or Claremont. The church, alongside the well-known Prickly Pole All-Age/Primary School, forms a crucial institutional pillar for the village, offering worship, community support, and a sense of stability in a remote and often vulnerable landscape.

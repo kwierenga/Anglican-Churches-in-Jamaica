@@ -1,7 +1,7 @@
 # St. Andrew's, Golden Grove
 **St. Thomas** · Church · active
 
-St. Andrew's Anglican Church serves Golden Grove, a community in the eastern coastal plain of St. Thomas parish near the Plantain Garden River. Golden Grove is a significant community in the sugar-producing district of eastern St. Thomas, and the church — The dedication to St. Andrew, patron of Scotland and apostle to the fishing communities of Galilee, is a common Anglican dedication across Jamaica.
+St. Andrew's Anglican Church serves Golden Grove, a community in the eastern coastal plain of St. Thomas parish near the Plantain Garden River. Golden Grove is a significant community in the sugar-producing district of eastern St. Thomas, and St. Andrew's has served its congregation for several generations.
 
 ## History
 Golden Grove sits in the eastern coastal plain of St. Thomas, in one of the most historically productive sugar-growing districts of the island. The Plantain Garden River valley was intensively cultivated for sugar from the 17th century onwards, and the community of Golden Grove developed within this plantation landscape. The Anglican Diocese established St. Andrew's to serve the estate community and later the post-Emancipation farming families of the district.

@@ -1,5 +1,5 @@
 # St. Peter's, Blue Mountain Valley
-**St. Thomas** · Church · unknown
+**St. Thomas** · Church · inactive
 
 St. Peter's Anglican Church serves Blue Mountain Valley, a community in the interior of St. Thomas parish, in the hill country on the southern flanks of the Blue Mountains. Blue Mountain Valley is a farming community in the elevated terrain of northern St. Thomas, and the church provides Anglican ministry to a congregation in one of the more remote and scenically dramatic parts of the parish — the approach country to Jamaica's highest mountain range.
 
