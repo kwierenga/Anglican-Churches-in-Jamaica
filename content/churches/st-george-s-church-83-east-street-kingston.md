@@ -1,5 +1,5 @@
 # St. George's Church, 83 East Street
-**Kingston** · Parish Church · active
+**Kingston** · Church · active
 
 St. George's Anglican Church at 83 East Street is a historic parish in the heart of downtown Kingston, known as the 'Oasis in Kingston' for its community outreach in a dense urban area. Originally established in 1830 as a Chapel-of-Ease to Kingston Parish Church, it became an independent parish and has served the surrounding community for nearly two centuries. The current Georgian building, rebuilt after the 1907 earthquake and consecrated in 1911, remains an active centre of worship, education, and social support.
 
