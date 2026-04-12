@@ -52,6 +52,14 @@ export default function ChurchDetailPage() {
   const [media, setMedia] = useState<MediaRow[]>([])
   const [loading, setLoading] = useState(true)
   const [geo, setGeo] = useState<ChurchGeo | null>(null)
+  const [lightbox, setLightbox] = useState<MediaRow | null>(null)
+
+  useEffect(() => {
+    if (!lightbox) return
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setLightbox(null) }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [lightbox])
 
   useEffect(() => {
     if (!slug) return
@@ -85,7 +93,12 @@ export default function ChurchDetailPage() {
             <div className="flex gap-3 overflow-x-auto pb-3 mb-6">
               {media.map((m, i) => (
                 <figure key={i} className="shrink-0 m-0">
-                  <img src={m.url} alt={m.caption} className="h-48 w-auto rounded-lg object-cover" />
+                  <img
+                    src={m.url}
+                    alt={m.caption}
+                    className="h-48 w-auto rounded-lg object-cover cursor-zoom-in"
+                    onClick={() => setLightbox(m)}
+                  />
                   {m.caption && (
                     <figcaption className="text-xs text-gray-500 mt-1 max-w-[14rem]">
                       {m.caption}{m.credit ? ` \u2014 ${m.credit}` : ''}
@@ -123,6 +136,26 @@ export default function ChurchDetailPage() {
             </div>
           )}
         </>
+      )}
+
+      {lightbox && (
+        <div
+          className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4 cursor-zoom-out"
+          onClick={() => setLightbox(null)}
+        >
+          <figure className="max-w-full max-h-full flex flex-col items-center">
+            <img
+              src={lightbox.url}
+              alt={lightbox.caption}
+              className="max-w-full max-h-[90vh] object-contain rounded"
+            />
+            {lightbox.caption && (
+              <figcaption className="text-sm text-gray-200 mt-3 text-center font-body">
+                {lightbox.caption}{lightbox.credit ? ` \u2014 ${lightbox.credit}` : ''}
+              </figcaption>
+            )}
+          </figure>
+        </div>
       )}
     </main>
   )
