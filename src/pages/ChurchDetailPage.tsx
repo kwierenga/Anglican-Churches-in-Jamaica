@@ -140,7 +140,7 @@ export default function ChurchDetailPage() {
 
       {lightbox && (
         <div
-          className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4 cursor-zoom-out"
+          className="fixed inset-0 z-[9999] bg-black/80 flex items-center justify-center p-4 cursor-zoom-out"
           onClick={() => setLightbox(null)}
         >
           <figure className="max-w-full max-h-full flex flex-col items-center">
