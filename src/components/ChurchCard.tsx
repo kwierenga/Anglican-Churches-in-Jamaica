@@ -16,6 +16,7 @@ export default function ChurchCard(){
   const [id] = useQueryState('id','')
   const [html, setHtml] = useState<string>('Select a church to see its details. Use the search box or click the map.')
   const [media, setMedia] = useState<MediaRow[]>([])
+  const [lightbox, setLightbox] = useState<MediaRow | null>(null)
 
   useEffect(()=>{
     if(!id){ setHtml('Select a church to see its details.'); setMedia([]); return }
@@ -30,6 +31,13 @@ export default function ChurchCard(){
     })
   },[id])
 
+  useEffect(() => {
+    if (!lightbox) return
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setLightbox(null) }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [lightbox])
+
   const images = media
   return (
     <article className="prose max-w-none">
@@ -37,7 +45,12 @@ export default function ChurchCard(){
         <div className="not-prose flex gap-3 overflow-x-auto pb-2 mb-4">
           {images.map((m, i) => (
             <figure key={i} className="shrink-0 m-0">
-              <img src={m.url} alt={m.caption} className="h-40 w-auto rounded object-cover" />
+              <img
+                src={m.url}
+                alt={m.caption}
+                className="h-40 w-auto rounded object-cover cursor-zoom-in"
+                onClick={() => setLightbox(m)}
+              />
               {m.caption && <figcaption className="text-xs text-gray-500 mt-1 max-w-[12rem]">{m.caption}{m.credit ? ` — ${m.credit}` : ''}</figcaption>}
             </figure>
           ))}
@@ -45,6 +58,26 @@ export default function ChurchCard(){
       )}
       {/* eslint-disable-next-line react/no-danger */}
       <div dangerouslySetInnerHTML={{__html: html}} />
+
+      {lightbox && (
+        <div
+          className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4 cursor-zoom-out"
+          onClick={() => setLightbox(null)}
+        >
+          <figure className="max-w-full max-h-full flex flex-col items-center">
+            <img
+              src={lightbox.url}
+              alt={lightbox.caption}
+              className="max-w-full max-h-[90vh] object-contain rounded"
+            />
+            {lightbox.caption && (
+              <figcaption className="text-sm text-gray-200 mt-3 text-center font-body">
+                {lightbox.caption}{lightbox.credit ? ` — ${lightbox.credit}` : ''}
+              </figcaption>
+            )}
+          </figure>
+        </div>
+      )}
     </article>
   )
 }
