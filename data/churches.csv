@@ -82,24 +82,24 @@ st-james-birnamwood-portland,St. James',Portland,church,active,18.13288,-76.7168
 st-mark-s-boston-portland,St. Mark's,Portland,church,active,18.15278,-76.35583,Boston
 boundbrook-chapel-of-ease-boundbrook-portland,Boundbrook Chapel-of-Ease,Portland,chapel,active,18.18105,-76.46337,Boundbrook
 st-jude-s-bourbon-portland,St. Jude's,Portland,church,active,18.1823,-76.6023,Bourbon
-st-george-s-buff-bay-portland,St. George's,Portland,church,active,18.23289,-76.66062,Buff Bay
+st-george-s-buff-bay-portland,St. George's,Portland,church,active,18.23432,-76.65808,Buff Bay
 st-john-s-bybrook-portland,St. John's,Portland,church,active,18.1412,-76.5712,Bybrook
 st-paul-s-claverty-cottage-portland,St. Paul's,Portland,church,active,18.14876,-76.63923,Claverty Cottage
-st-luke-s-comfort-castle-portland,St. Luke's,Portland,church,active,18.04830,-76.41610,Comfort Castle
+st-luke-s-comfort-castle-portland,St. Luke's,Portland,church,active,18.05210,-76.41412,Comfort Castle
 st-john-s-cooper-s-hill-portland,St. John's,Portland,church,active,18.13755,-76.48742,Cooper's Hill
 all-saints-fellowship-portland,All Saints',Portland,church,active,18.12783,-76.47202,Fellowship
 st-michael-s-fruitful-vale-portland,St. Michael's,Portland,church,active,18.14195,-76.54997,Fruitful Vale
 st-peter-s-hope-bay-portland,St. Peter's,Portland,church,active,18.20064,-76.56736,Hope Bay
 st-michael-s-john-s-hall-portland,St. Michael's,Portland,church,active,18.09200,-76.46300,John's Hall
 st-thomas-manchioneal-portland,St. Thomas',Portland,church,active,18.03624,-76.27999,Manchioneal
-st-paul-s-moore-town-portland,St. Paul's,Portland,church,active,18.06667,-76.43333,Moore Town
+st-paul-s-moore-town-portland,St. Paul's,Portland,church,active,18.07781,-76.42801,Moore Town
 st-peter-s-chapel-ruin-nonsuch-portland,St. Peter's Chapel (Ruin),Portland,chapel,ruin,18.14692,-76.37788,Nonsuch
 st-paul-s-nonsuch-portland,St. Paul's,Portland,church,active,18.15336,-76.41910,Nonsuch
 st-dunstan-s-orange-bay-portland,St. Dunstan's,Portland,church,active,18.22670,-76.61114,Orange Bay
-christ-church-parish-church-port-antonio-portland,Christ Church (Parish Church),Portland,parish_church,active,18.17570,-76.45030,Port Antonio
+christ-church-parish-church-port-antonio-portland,Christ Church (Parish Church),Portland,parish_church,active,18.17700,-76.44979,Port Antonio
 st-mary-s-rural-hill-portland,St. Mary's,Portland,church,active,18.06340,-76.32340,Rural Hill
 st-christopher-s-sherwood-forest-portland,St. Christopher's,Portland,church,active,18.14542,-76.37665,Sherwood Forest
-st-stephen-s-church-st-margaret-s-bay-portland,St. Stephen's Church,Portland,church,active,18.19560,-76.51910,St. Margaret's Bay
+st-stephen-s-church-st-margaret-s-bay-portland,St. Stephen's Church,Portland,church,active,18.19542,-76.51917,St. Margaret's Bay
 st-mary-s-rose-hill-portland,St. Mary's,Portland,church,active,18.19063,-76.67338,Rose Hill
 maidstone-chapel-portland,Maidstone Chapel,Portland,chapel,active,18.15583,-76.51028,Maidstone
 st-john-s-windsor-forrest-portland,St. John's,Portland,church,active,18.11249,-76.33872,Windsor Forrest
@@ -259,22 +259,22 @@ church-of-the-epiphany-richmond-st-mary,Church of the Epiphany,St. Mary,church,a
 st-mary-s-church-old-rio-nuevo-st-mary,St. Mary's Church (Old),St. Mary,church,ruin,18.40980,-76.89340,Rio Nuevo
 st-mark-s-scott-s-hall-st-mary,St. Mark's,St. Mary,church,active,18.19080,-76.83940,Scott's Hall
 st-gabriel-s-woodside-st-mary,St. Gabriel's,St. Mary,church,active,18.25505,-76.93391,Woodside
-st-thomas-bath-st-thomas,St. Thomas',St. Thomas,church,active,17.94776,-76.34832,Bath
-st-peter-s-blue-mountain-valley-st-thomas,St. Peter's,St. Thomas,church,inactive,18.0212,-76.5823,Blue Mountain Valley
-st-martin-s-mission-bull-bay-st-thomas,St. Martin's Mission,St. Thomas,mission,inactive,17.9428,-76.6574,Bull Bay
-st-paul-s-danvers-pen-st-thomas,St. Paul's,St. Thomas,church,active,17.9212,-76.4212,Danvers Pen
+st-thomas-bath-st-thomas,St. Thomas',St. Thomas,church,active,17.94777,-76.34837,Bath
+st-martin-s-mission-bull-bay-st-thomas,St. Martin's Mission,St. Thomas,mission,active,17.94258,-76.65743,Bull Bay
+st-paul-s-danvers-pen-st-thomas,St. Paul's,St. Thomas,church,active,17.93093,-76.47511,Danvers Pen
 st-andrew-s-golden-grove-st-thomas,St. Andrew's,St. Thomas,church,active,17.92379,-76.26882,Golden Grove
-st-john-s-church-old-leith-hall-st-thomas,St. John's Church (Old),St. Thomas,church,ruin,17.8919,-76.3246,Leith Hall
-st-thomas-parish-church-morant-bay-st-thomas,St. Thomas Parish Church,St. Thomas,parish_church,active,17.8843,-76.4087,Morant Bay
-st-augustine-s-mt-felix-st-thomas,St. Augustine's,St. Thomas,church,active,17.9623,-76.3823,Mt. Felix
-st-barnabas-port-morant-st-thomas,St. Barnabas',St. Thomas,church,active,17.8913,-76.3245,Port Morant
-st-boniface-stony-gut-vicinity-st-thomas,St. Boniface,St. Thomas,mission,inactive,17.9123,-76.3623,Stony Gut / vicinity
-all-saints-the-abbey-st-thomas,All Saints',St. Thomas,church,active,17.9712,-76.4712,The Abbey
-st-stephen-s-thornton-st-thomas,St. Stephen's,St. Thomas,church,active,18.0312,-76.3712,Thornton
-st-john-s-woburn-lawn-st-thomas,St. John's,St. Thomas,church,active,17.9312,-76.4712,Woburn Lawn
-st-mary-s-woburn-lawn-st-thomas,St. Mary's,St. Thomas,church,inactive,17.9123,-76.3312,Woburn Lawn
-st-david-s-yallahs-st-thomas,St. David's,St. Thomas,church,active,17.8923,-76.5823,Yallahs
-st-matthew-s-yallahs-st-thomas,St. Matthew's,St. Thomas,church,inactive,17.8823,-76.5623,Yallahs
+st-john-s-church-old-leith-hall-st-thomas,St. John's Church (Old),St. Thomas,church,ruin,17.87464,-76.33937,Leith Hall
+christ-church-morant-bay-st-thomas,Christ Church,St. Thomas,parish_church,active,17.88114,-76.40884,Morant Bay
+st-augustine-s-mt-felix-st-thomas,St. Augustine's,St. Thomas,church,active,17.95726,-76.39963,Mt. Felix
+st-barnabas-port-morant-st-thomas,St. Barnabas',St. Thomas,church,active,17.89950,-76.34290,Port Morant
+all-saints-the-abbey-st-thomas,All Saints',St. Thomas,church,active,17.97120,-76.47120,The Abbey
+st-stephen-s-thornton-st-thomas,St. Stephen's,St. Thomas,church,active,17.95102,-76.40178,Thornton
+holy-trinity-trinityville-st-thomas,Church of the Holy Trinity,St. Thomas,church,active,17.96022,-76.52082,Trinityville
+st-matthias-middleton-st-thomas,St. Matthias',St. Thomas,church,active,17.93970,-76.43560,Middleton
+st-john-s-woburn-lawn-st-thomas,St. John's,St. Thomas,church,active,17.93120,-76.47120,Woburn Lawn
+st-matthew-s-wilmington-st-thomas,St. Matthew's,St. Thomas,church,active,17.92556,-76.39722,Wilmington
+st-boniface-whitehall-st-thomas,St. Boniface's,St. Thomas,church,active,17.95424,-76.44856,Whitehall
+st-david-s-yallahs-st-thomas,St. David's,St. Thomas,church,inactive,17.87727,-76.56833,Yallahs
 st-andrew-s-albert-town-trelawny,St. Andrew's,Trelawny,church,active,18.2712,-77.6123,Albert Town
 st-michael-s-clarks-town-trelawny,St. Michael's,Trelawny,church,active,18.4212,-77.5212,Clarks Town
 st-barnabas-duncan-trelawny,St. Barnabas',Trelawny,church,active,18.4623,-77.5312,Duncan
