@@ -16,9 +16,10 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/Kingston/St Boniface/St_Boniface_Harbour_View.jpg",
-    church_id: "st-boniface-harbour-view-kingston",
-    caption: "St. Boniface Anglican Church, Harbour View",
+    file: "data/new-images/Kingston/St Matthew's/St_Matthew's.jpg",
+    church_id: "st-matthew-s-allman-town-kingston",
+    caption: "St. Matthew's Anglican Church, Allman Town, Kingston",
+    order: "1",
   },
 ];
 
@@ -29,7 +30,7 @@ async function main() {
       console.log(`SKIP (missing): ${entry.file}`);
       continue;
     }
-    const publicId = `churches/${entry.church_id}-1`;
+    const publicId = `churches/${entry.church_id}-${entry.order}`;
     console.log(`Uploading ${entry.file}...`);
     const result = await cloudinary.uploader.upload(filePath, {
       public_id: publicId,
@@ -43,7 +44,7 @@ async function main() {
       caption: entry.caption,
       credit: "",
       license: "Fair use",
-      order: "1",
+      order: entry.order,
     };
     fs.appendFileSync(MEDIA_CSV, stringify([row], { header: false }));
     console.log(`✓ Uploaded → ${result.secure_url}`);
