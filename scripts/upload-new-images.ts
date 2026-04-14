@@ -16,9 +16,9 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/Mile Gully/s0rn1i18dx671.webp",
-    church_id: "st-george-s-mile-gully-manchester",
-    caption: "Ruins of St. George's Anglican Church (Duppy Church), Mile Gully",
+    file: "data/new-images/Kingston/St Boniface/St_Boniface_Harbour_View.jpg",
+    church_id: "st-boniface-harbour-view-kingston",
+    caption: "St. Boniface Anglican Church, Harbour View",
   },
 ];
 

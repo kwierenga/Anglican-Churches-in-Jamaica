@@ -1,5 +1,5 @@
-# St. Peter's Church (Old), Port Royal
-**Kingston** · Church · ruin
+# St. Peter's, Port Royal
+**Kingston** · Church · active
 
 St. Peter’s Anglican Church in Port Royal is one of the oldest surviving Anglican churches in Jamaica. Rebuilt in 1725–1726 after a devastating earthquake and fire, it was designed to withstand disasters in a town that was a central hub of the British slave trade. The church's thick, squat brick walls and separate bell tower are testaments to its builders' ingenuity. Today, it remains an active parish and a protected national monument, connecting modern Jamaica to its complex colonial and maritime past.
 

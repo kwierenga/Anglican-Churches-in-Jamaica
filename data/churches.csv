@@ -35,14 +35,14 @@ st-mark-s-hopewell-westmoreland,St. Mark's,Westmoreland,church,active,18.25,-78.
 hanover-parish-church-lucea-hanover,Hanover Parish Church,Hanover,parish_church,active,18.44964,-78.17051,Lucea
 st-george-s-church-83-east-street-kingston,St. George's Church,Kingston,church,active,17.973,-76.7897,83 East Street
 st-matthew-s-allman-town-kingston,St. Matthew's,Kingston,church,inactive,17.9823,-76.7823,Allman Town
-st-michael-s-church-hannah-town-kingston,St. Michael's Church,Kingston,church,active,17.9709,-76.7801,Hannah Town
-st-boniface-harbour-view-kingston,St. Boniface,Kingston,church,inactive,17.9474,-76.7171,Harbour View
+st-michael-s-church-hannah-town-kingston,St. Michael & All Angels,Kingston,church,active,17.97090,-76.78032,Victoria Ave
+st-boniface-harbour-view-kingston,St. Boniface,Kingston,church,active,17.94754,-76.71709,Harbour View
 st-alban-s-kingston-kingston,St. Alban's,Kingston,mission,inactive,17.9734,-76.7912,Kingston
 kingston-parish-church-st-thomas-the-apostle-kingston-parade-king-st-kingston,Kingston Parish Church (St. Thomas the Apostle),Kingston,parish_church,active,17.9701,-76.7926,Kingston (Parade/King St)
 all-saints-west-branch-kingston,All Saints' (West Branch),Kingston,mission,inactive,17.9685,-76.8020,Kingston (West Branch)
-st-peter-s-church-old-port-royal-kingston,St. Peter's Church (Old),Kingston,church,ruin,17.9353,-76.8412,Port Royal
+st-peter-s-port-royal-kingston,St. Peter's,Kingston,church,active,17.93710,-76.84132,Port Royal
 christ-church-vineyard-town-kingston,Christ Church,Kingston,church,inactive,17.9923,-76.7823,Vineyard Town
-st-patrick-s-windward-road-kingston,St. Patrick's,Kingston,church,inactive,17.9912,-76.7612,Windward Road
+st-patrick-s-windward-road-kingston,St. Patrick's,Kingston,church,active,17.97438,-76.75621,Windward Road
 st-andrew-s-albert-town-manchester,St. Andrew's,Manchester,church,inactive,18.2412,-77.5512,Albert Town
 st-john-the-divine-alston-manchester,St. John the Divine,Manchester,church,active,18.1830,-77.4360,Alston
 st-john-s-auchtembeddie-manchester,St. John's,Manchester,church,active,18.21323,-77.62421,Auchtembeddie
@@ -260,7 +260,7 @@ st-mary-s-church-old-rio-nuevo-st-mary,St. Mary's Church (Old),St. Mary,church,r
 st-mark-s-scott-s-hall-st-mary,St. Mark's,St. Mary,church,active,18.19080,-76.83940,Scott's Hall
 st-gabriel-s-woodside-st-mary,St. Gabriel's,St. Mary,church,active,18.25505,-76.93391,Woodside
 st-thomas-bath-st-thomas,St. Thomas',St. Thomas,church,active,17.94777,-76.34837,Bath
-st-martin-s-mission-bull-bay-st-thomas,St. Martin's Mission,St. Thomas,mission,active,17.94258,-76.65743,Bull Bay
+st-martin-s-mission-bull-bay-st-thomas,St. Martin's Mission,St. Thomas,mission,active,17.94272,-76.65744,Bull Bay
 st-paul-s-danvers-pen-st-thomas,St. Paul's,St. Thomas,church,active,17.93093,-76.47511,Danvers Pen
 st-andrew-s-golden-grove-st-thomas,St. Andrew's,St. Thomas,church,active,17.92379,-76.26882,Golden Grove
 st-john-s-church-old-leith-hall-st-thomas,St. John's Church (Old),St. Thomas,church,ruin,17.87464,-76.33937,Leith Hall
