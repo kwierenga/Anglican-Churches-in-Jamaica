@@ -16,10 +16,16 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/Kingston/St Matthew's/St_Matthew's.jpg",
-    church_id: "st-matthew-s-allman-town-kingston",
-    caption: "St. Matthew's Anglican Church, Allman Town, Kingston",
+    file: "data/new-images/Kingston/Kingston Parish Church/Kingston_Parish.jpg",
+    church_id: "kingston-parish-church-st-thomas-the-apostle-kingston-parade-king-st-kingston",
+    caption: "Kingston Parish Church (St. Thomas the Apostle), Parade, Kingston",
     order: "1",
+  },
+  {
+    file: "data/new-images/Kingston/Kingston Parish Church/Kingston_Parish_Google_Street.jpg",
+    church_id: "kingston-parish-church-st-thomas-the-apostle-kingston-parade-king-st-kingston",
+    caption: "Kingston Parish Church, street view",
+    order: "2",
   },
 ];
 
