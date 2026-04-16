@@ -16,16 +16,28 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/Kingston/Kingston Parish Church/Kingston_Parish.jpg",
-    church_id: "kingston-parish-church-st-thomas-the-apostle-kingston-parade-king-st-kingston",
-    caption: "Kingston Parish Church (St. Thomas the Apostle), Parade, Kingston",
+    file: "data/new-images/Moneague/Moneague_1.png",
+    church_id: "christ-church-moneague-st-ann",
+    caption: "Christ Church, Moneague",
     order: "1",
   },
   {
-    file: "data/new-images/Kingston/Kingston Parish Church/Kingston_Parish_Google_Street.jpg",
-    church_id: "kingston-parish-church-st-thomas-the-apostle-kingston-parade-king-st-kingston",
-    caption: "Kingston Parish Church, street view",
+    file: "data/new-images/Moneague/Moneague_2.png",
+    church_id: "christ-church-moneague-st-ann",
+    caption: "Christ Church, Moneague",
     order: "2",
+  },
+  {
+    file: "data/new-images/Moneague/Moneague_3.png",
+    church_id: "christ-church-moneague-st-ann",
+    caption: "Christ Church, Moneague",
+    order: "3",
+  },
+  {
+    file: "data/new-images/Moneague/Moneague_4.png",
+    church_id: "christ-church-moneague-st-ann",
+    caption: "Christ Church, Moneague",
+    order: "4",
   },
 ];
 
