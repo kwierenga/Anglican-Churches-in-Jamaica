@@ -60,9 +60,19 @@ export default function ChurchDetailPage() {
     }
     if (!el || !geo) return
     const map = L.map(el, { zoomControl: true }).setView([geo.lat, geo.lng], 17)
-    L.tileLayer(
+    const satellite = L.tileLayer(
       'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
       { maxZoom: 19, attribution: 'Tiles &copy; Esri, Maxar, Earthstar Geographics' }
+    )
+    const terrain = L.tileLayer(
+      'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',
+      { maxZoom: 18, attribution: 'Tiles &copy; Esri' }
+    )
+    satellite.addTo(map)
+    L.control.layers(
+      { 'Satellite': satellite, 'Terrain': terrain },
+      {},
+      { position: 'topright', collapsed: false }
     ).addTo(map)
     L.circleMarker([geo.lat, geo.lng], {
       radius: 8, color: '#fff', weight: 2, fillColor: '#8B0000', fillOpacity: 1,
