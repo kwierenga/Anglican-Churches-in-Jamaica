@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { marked } from 'marked'
+import L from 'leaflet'
 import { useRoute } from '../lib/router'
 import type { MediaRow } from '../lib/schemas'
 
@@ -50,26 +51,22 @@ export default function ChurchDetailPage() {
   const mapRef = useRef<HTMLDivElement | null>(null)
 
   useEffect(() => {
-    if (!geo || !mapRef.current) return
-    let cancelled = false
-    let mapInstance: { remove: () => void } | null = null
-    ;(async () => {
-      const L = (await import('leaflet')).default
-      await import('leaflet/dist/leaflet.css')
-      if (cancelled || !mapRef.current) return
-      const map = L.map(mapRef.current, { zoomControl: true }).setView([geo.lat, geo.lng], 17)
-      L.tileLayer(
-        'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-        { maxZoom: 19, attribution: 'Tiles &copy; Esri' }
-      ).addTo(map)
-      L.marker([geo.lat, geo.lng]).addTo(map)
-      mapInstance = map
-    })()
-    return () => {
-      cancelled = true
-      mapInstance?.remove()
-    }
-  }, [geo])
+    if (!geo || loading || !mapRef.current) return
+    const map = L.map(mapRef.current, { zoomControl: true }).setView([geo.lat, geo.lng], 17)
+    L.tileLayer(
+      'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+      { maxZoom: 19, attribution: 'Tiles &copy; Esri, Maxar, Earthstar Geographics' }
+    ).addTo(map)
+    L.circleMarker([geo.lat, geo.lng], {
+      radius: 8,
+      color: '#fff',
+      weight: 2,
+      fillColor: '#8B0000',
+      fillOpacity: 1,
+    }).addTo(map)
+    setTimeout(() => map.invalidateSize(), 0)
+    return () => { map.remove() }
+  }, [geo, loading])
 
   useEffect(() => {
     if (!lightbox) return
