@@ -16,10 +16,22 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/AugustTown/St_Cyprian_s_1.jpg",
-    church_id: "st-cyprians-august-town-st-andrew",
-    caption: "St Cyprian's, August Town",
+    file: "data/new-images/GoodShepherd/Good_Shepherd_1.jpg",
+    church_id: "church-of-the-good-shepherd-constant-spring-st-andrew",
+    caption: "Church of the Good Shepherd, Constant Spring",
     order: "1",
+  },
+  {
+    file: "data/new-images/GoodShepherd/Good_Shepherd_2.jpg",
+    church_id: "church-of-the-good-shepherd-constant-spring-st-andrew",
+    caption: "Church of the Good Shepherd, Constant Spring",
+    order: "2",
+  },
+  {
+    file: "data/new-images/GoodShepherd/Good_Shepherd_3.jpg",
+    church_id: "church-of-the-good-shepherd-constant-spring-st-andrew",
+    caption: "Church of the Good Shepherd, Constant Spring",
+    order: "3",
   },
 ];
 
