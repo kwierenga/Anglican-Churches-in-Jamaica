@@ -16,10 +16,46 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/HarbourView/Harbour-View_1.jpg",
+    file: "data/new-images/HarbourView/St_Boniface_Harbour_View.jpg",
     church_id: "st-boniface-harbour-view-kingston",
     caption: "St. Boniface, Harbour View",
     order: "1",
+  },
+  {
+    file: "data/new-images/PortRoyal/Screenshot 2026-04-16 000732.jpg",
+    church_id: "st-peter-s-port-royal-kingston",
+    caption: "St. Peter's, Port Royal",
+    order: "1",
+  },
+  {
+    file: "data/new-images/PortRoyal/Screenshot 2026-04-16 000908.jpg",
+    church_id: "st-peter-s-port-royal-kingston",
+    caption: "St. Peter's, Port Royal",
+    order: "2",
+  },
+  {
+    file: "data/new-images/PortRoyal/Screenshot 2026-04-16 001004.jpg",
+    church_id: "st-peter-s-port-royal-kingston",
+    caption: "St. Peter's, Port Royal",
+    order: "3",
+  },
+  {
+    file: "data/new-images/PortRoyal/Screenshot 2026-04-16 001101.jpg",
+    church_id: "st-peter-s-port-royal-kingston",
+    caption: "St. Peter's, Port Royal",
+    order: "4",
+  },
+  {
+    file: "data/new-images/PortRoyal/Screenshot 2026-04-16 001124.jpg",
+    church_id: "st-peter-s-port-royal-kingston",
+    caption: "St. Peter's, Port Royal",
+    order: "5",
+  },
+  {
+    file: "data/new-images/PortRoyal/Screenshot 2026-04-16 001155.jpg",
+    church_id: "st-peter-s-port-royal-kingston",
+    caption: "St. Peter's, Port Royal",
+    order: "6",
   },
 ];
 
