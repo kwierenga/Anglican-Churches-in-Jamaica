@@ -16,22 +16,16 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/Kingston/Kingston Parish Church/Screenshot 2026-04-16 111722.jpg",
-    church_id: "kingston-parish-church-st-thomas-the-apostle-kingston-parade-king-st-kingston",
-    caption: "Kingston Parish Church (St. Thomas the Apostle)",
-    order: "3",
+    file: "data/new-images/Kingston/All Saints/Screenshot 2026-04-16 130539 all saints.jpg",
+    church_id: "all-saints-west-branch-kingston",
+    caption: "All Saints', West Street, Kingston",
+    order: "1",
   },
   {
-    file: "data/new-images/Kingston/Kingston Parish Church/Screenshot 2026-04-16 111859.jpg",
-    church_id: "kingston-parish-church-st-thomas-the-apostle-kingston-parade-king-st-kingston",
-    caption: "Kingston Parish Church (St. Thomas the Apostle)",
-    order: "4",
-  },
-  {
-    file: "data/new-images/Kingston/Kingston Parish Church/Screenshot 2026-04-16 111931.jpg",
-    church_id: "kingston-parish-church-st-thomas-the-apostle-kingston-parade-king-st-kingston",
-    caption: "Kingston Parish Church (St. Thomas the Apostle)",
-    order: "5",
+    file: "data/new-images/Kingston/All Saints/Screenshot 2026-04-16 130656 all saints.jpg",
+    church_id: "all-saints-west-branch-kingston",
+    caption: "All Saints', West Street, Kingston",
+    order: "2",
   },
 ];
 
