@@ -1,16 +1,34 @@
 # St. Patrick's, Windward Road
-**Kingston** · Church · unknown
+**Kingston** · Church · active
 
-St. Patrick's Anglican Church serves the Windward Road area of Kingston and is listed as a co-cure with St. Michael's Victoria Avenue in the Kingston deanery. Windward Road runs along the eastern edge of Kingston, connecting the city centre to Harbour View. St. Patrick's represents the Anglican presence on this main eastern artery of the capital.
+St. Patrick's Anglican Church stands at 153 Windward Road, Kingston 2, serving the communities of Rae Town, Bournemouth Gardens, and the Rockfort area along Kingston's eastern seaboard. Founded in the 1890s as a mission chapel under Archbishop Enos Nuttall's programme of church expansion, St. Patrick's has ministered to the working-class and fishing communities of east Kingston for over a century. It is grouped as a co-cure with St. Michael & All Angels on Victoria Avenue.
 
 ## History
-Windward Road is the main east-west arterial road along Kingston's southern and eastern edge, running from the city centre toward Bull Bay and the coast. The church at Windward Road is grouped with St. Michael's Victoria Avenue (3 Victoria Avenue, Kingston, tel: 928-9937) as a single cure.
+St. Patrick's was established during the 1890s as part of the Kingston Church and School Extension Fund, launched by Bishop Nuttall in 1892 in response to Kingston's rapidly growing population — increasing at nearly a thousand persons a year since 1881 — and the expansion of suburbs made accessible by the new tram-car lines. The Fund initially produced two churches and three mission chapels across Kingston. St. Patrick's appears to have been one of the mission chapels rather than an independent parish church; the 1900 Handbook of Jamaica does not list it separately but records "Allman Town and 6 Mission Stations" with three clergy assigned, suggesting St. Patrick's was among the dependent stations served from a mother church.
+
+The 1907 Kingston earthquake — magnitude 6.5, on 14 January — devastated the city. J. B. Ellis recorded that out of some dozen churches in Kingston, none remained usable for services immediately afterward, and thirty churches across the diocese were "entirely or almost entirely wrecked." The total number of church-owned buildings destroyed or damaged reached 130. Even a modest mission chapel on Windward Road would not have escaped an earthquake that levelled eighty-five per cent of Kingston's buildings. The current structure dates from the post-earthquake rebuilding programme of 1908–1911, though St. Patrick's was not among the ten churches formally consecrated on 18 January 1911, consistent with its status as a dependent chapel rather than a parish church in its own right.
+
+Windward Road itself is a major east-west arterial running along Kingston's southern and eastern edge, from the city centre toward Harbour View and Bull Bay. The communities it passes through have deep roots. Rae Town, immediately to the south, was founded in 1807–1810 when a Scotsman named William Rae subdivided his harbour-front property and sold lots to thirteen buyers — eleven of them free Black individuals and two people of colour. It became an "elite seaside enclave" attracting Haitian refugees and British merchants, though by the late twentieth century it had declined into one of Kingston's inner-city communities. To the east stands Rockfort, a seventeenth-century moated fortress first erected in 1694 to defend against French invasion, now surrounded by the residential neighbourhoods that grew up in the twentieth century.
+
+Through decades of change along Windward Road, St. Patrick's has remained a place of worship for the communities on Kingston's eastern coast.
 
 ## Architecture
-St. Patrick's is a modest masonry chapel of the kind erected by the Anglican Diocese across rural Kingston in the late 19th and early 20th centuries. The structure is functional rather than ornate — a simple rectangular nave, a modest entrance, and a small churchyard — suited to a rural congregation of modest means. Set in the coastal landscape of Kingston. Its coastal setting brings exposure to salt air and periodic storm surge, demanding robust masonry construction.
+St. Patrick's is a modest masonry chapel characteristic of the mission stations erected under Nuttall's Extension Fund in the 1890s and rebuilt after the 1907 earthquake. Post-earthquake reconstruction across Kingston employed reinforced masonry designed to resist future seismic events. As a mission chapel rather than a consecrated parish church, St. Patrick's is smaller and plainer than its companion church St. Michael & All Angels, reflecting its origins as a neighbourhood station of worship rather than a major parochial centre.
 
-## Clergy
-The cure covering St. Michael's Victoria Avenue and St. Patrick's Windward Road has been listed as Vacant in recent diocesan records.
+The church's position on the low-lying Windward Road coastline brings exposure to salt air and periodic storm surge, a vulnerability shared by buildings along Kingston's southern and eastern edges.
+
+## The Co-Cure with St. Michael & All Angels
+St. Patrick's is grouped with St. Michael & All Angels, Victoria Avenue, as a single cure in the Kingston Deanery. This arrangement places the smaller Windward Road chapel under the pastoral care of whoever serves St. Michael's — a common pattern in the Diocese of Jamaica for mission chapels that did not develop into independent parishes. The educational mission of the co-cure is centred on St. Michael's, which operates St. Michael's Primary School and St. Michael's Infant School, both listed in the diocesan school directory.
+
+The rectorship of the co-cure is currently vacant.
 
 ## Notable Facts
-St. Patrick, the patron saint of Ireland, has a notably small number of dedications in Jamaica's Anglican network — the island's strong Irish historical connection (many plantation owners and indentured labourers were Irish) is more often reflected in place names than in church dedications.
+The dedication to St. Patrick is unusual in Jamaica's Anglican network. The island has a substantial Irish heritage — Irish indentured servants arrived from the 1650s onward under Cromwell's Western Design, and by the eighteenth century the governor was complaining that "native Irish papists" were "pouring in upon us in such shoals." An estimated quarter of Jamaicans claim some Irish ancestry, and the island's map is dotted with Irish place names: Sligoville, Clonmel, Dublin Castle, Belfast, Kildare, and Irish Town. However, the Irish in Jamaica were overwhelmingly Roman Catholic, making a St. Patrick dedication in an Anglican chapel distinctive. The choice likely reflects the Anglo-Catholic influence on saintly dedications in the late Victorian period, when multiple new chapels were being founded simultaneously and patron names were in demand.
+
+## References
+- J. B. Ellis, *The Diocese of Jamaica* (1913), Chapters 14 and 17 — Kingston Church Extension Fund, 1907 earthquake damage and reconstruction (anglicanhistory.org)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region directory and history (anglicandioceseja.org)
+- *Handbook of Jamaica* (1900) — clergy listings for Kingston (jamaicanfamilysearch.com)
+- National Library of Jamaica Digital Collection — 1907 earthquake photographs (nljdigital.nlj.gov.jm)
+- *Jamaica Gleaner* — Rae Town history, community profiles
+- Jamaica National Heritage Trust — Rockfort history (jnht.com)
