@@ -16,21 +16,21 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/GoodShepherd/Good_Shepherd_1.jpg",
-    church_id: "church-of-the-good-shepherd-constant-spring-st-andrew",
-    caption: "Church of the Good Shepherd, Constant Spring",
+    file: "data/new-images/StMargaret/St_Margaret_1.jpg",
+    church_id: "st-margaret-s-liguanea-st-andrew",
+    caption: "St. Margaret's, Liguanea",
     order: "1",
   },
   {
-    file: "data/new-images/GoodShepherd/Good_Shepherd_2.jpg",
-    church_id: "church-of-the-good-shepherd-constant-spring-st-andrew",
-    caption: "Church of the Good Shepherd, Constant Spring",
+    file: "data/new-images/StMargaret/St_Margaret_2.jpg",
+    church_id: "st-margaret-s-liguanea-st-andrew",
+    caption: "St. Margaret's, Liguanea",
     order: "2",
   },
   {
-    file: "data/new-images/GoodShepherd/Good_Shepherd_3.jpg",
-    church_id: "church-of-the-good-shepherd-constant-spring-st-andrew",
-    caption: "Church of the Good Shepherd, Constant Spring",
+    file: "data/new-images/StMargaret/St_Margaret_3.jpg",
+    church_id: "st-margaret-s-liguanea-st-andrew",
+    caption: "St. Margaret's, Liguanea",
     order: "3",
   },
 ];
