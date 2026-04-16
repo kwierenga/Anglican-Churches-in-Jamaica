@@ -16,10 +16,40 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/Moneague/dji_fly_20260415_154602_510_1776285995792_photo_optimized.jpg",
+    file: "data/new-images/Moneague/dji_fly_20260415_154624_511_1776285992321_photo_optimized.jpg",
     church_id: "christ-church-moneague-st-ann",
     caption: "Christ Church, Moneague — aerial view",
-    order: "1",
+    order: "2",
+  },
+  {
+    file: "data/new-images/Moneague/dji_fly_20260415_154744_515_1776286076379_photo_optimized.jpg",
+    church_id: "christ-church-moneague-st-ann",
+    caption: "Christ Church, Moneague — aerial view",
+    order: "3",
+  },
+  {
+    file: "data/new-images/Moneague/dji_fly_20260415_154746_516_1776286073444_photo_optimized.jpg",
+    church_id: "christ-church-moneague-st-ann",
+    caption: "Christ Church, Moneague — aerial view",
+    order: "4",
+  },
+  {
+    file: "data/new-images/Moneague/dji_fly_20260415_154808_517_1776286138319_photo_optimized.jpg",
+    church_id: "christ-church-moneague-st-ann",
+    caption: "Christ Church, Moneague — aerial view",
+    order: "5",
+  },
+  {
+    file: "data/new-images/Moneague/dji_fly_20260415_154848_518_1776286134732_photo_optimized.jpg",
+    church_id: "christ-church-moneague-st-ann",
+    caption: "Christ Church, Moneague — aerial view",
+    order: "6",
+  },
+  {
+    file: "data/new-images/Moneague/dji_fly_20260415_154950_519_1776286197367_photo_optimized.jpg",
+    church_id: "christ-church-moneague-st-ann",
+    caption: "Christ Church, Moneague — aerial view",
+    order: "7",
   },
 ];
 

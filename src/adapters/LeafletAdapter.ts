@@ -120,11 +120,11 @@ export default class LeafletAdapter implements MapAdapter {
       opacity: 0.9,
     })
 
-    satellite.addTo(this.map)
+    topo.addTo(this.map)
 
     // Layer toggle control
     L.control.layers(
-      { 'Satellite': satellite, 'Terrain': topo },
+      { 'Terrain': topo, 'Satellite': satellite },
       { 'Labels': satLabels },
       { position: 'topright', collapsed: false }
     ).addTo(this.map)

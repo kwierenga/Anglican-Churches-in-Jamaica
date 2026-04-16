@@ -1,5 +1,6 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { marked } from 'marked'
+import L from 'leaflet'
 import { useRoute } from '../lib/router'
 import type { MediaRow } from '../lib/schemas'
 
@@ -42,13 +43,6 @@ function cloudinaryOptimized(url: string, transform = 'q_auto,f_auto,w_1200'): s
   return url.replace('/upload/', `/upload/${transform}/`)
 }
 
-function miniMapUrl(lat: number, lng: number): string {
-  // OpenStreetMap embed with a marker
-  const delta = 0.02
-  const bbox = `${lng - delta},${lat - delta},${lng + delta},${lat + delta}`
-  return `https://www.openstreetmap.org/export/embed.html?bbox=${bbox}&layer=mapnik&marker=${lat},${lng}`
-}
-
 export default function ChurchDetailPage() {
   const route = useRoute()
   const slug = route.replace('#/church/', '')
@@ -57,6 +51,25 @@ export default function ChurchDetailPage() {
   const [loading, setLoading] = useState(true)
   const [geo, setGeo] = useState<ChurchGeo | null>(null)
   const [lightbox, setLightbox] = useState<MediaRow | null>(null)
+  const mapInstanceRef = useRef<L.Map | null>(null)
+
+  const satelliteMapRef = useCallback((el: HTMLDivElement | null) => {
+    if (mapInstanceRef.current) {
+      mapInstanceRef.current.remove()
+      mapInstanceRef.current = null
+    }
+    if (!el || !geo) return
+    const map = L.map(el, { zoomControl: true }).setView([geo.lat, geo.lng], 17)
+    L.tileLayer(
+      'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+      { maxZoom: 19, attribution: 'Tiles &copy; Esri, Maxar, Earthstar Geographics' }
+    ).addTo(map)
+    L.circleMarker([geo.lat, geo.lng], {
+      radius: 8, color: '#fff', weight: 2, fillColor: '#8B0000', fillOpacity: 1,
+    }).addTo(map)
+    requestAnimationFrame(() => map.invalidateSize())
+    mapInstanceRef.current = map
+  }, [geo])
 
   useEffect(() => {
     if (!lightbox) return
@@ -121,18 +134,13 @@ export default function ChurchDetailPage() {
             dangerouslySetInnerHTML={{ __html: html }}
           />
 
-          {/* Mini map — simple OSM embed, always centers correctly */}
           {geo && (
             <div className="mt-8">
               <h3 className="font-heading text-xl font-semibold text-crimson mb-3">Location</h3>
-              <iframe
-                src={miniMapUrl(geo.lat, geo.lng)}
-                width="100%"
-                height="350"
+              <div
+                ref={satelliteMapRef}
                 className="rounded-lg border border-gray-200"
-                style={{ border: 0 }}
-                loading="lazy"
-                title={`Map showing ${geo.name}`}
+                style={{ height: 350, width: '100%' }}
               />
               <p className="text-xs text-gray-500 mt-2 font-body">
                 {geo.parish} &middot; {geo.lat.toFixed(4)}, {geo.lng.toFixed(4)}
