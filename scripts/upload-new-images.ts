@@ -16,40 +16,10 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/Craighton/St_Mark_s_1.jpg",
-    church_id: "st-mark-s-craighton-st-andrew",
-    caption: "St. Mark's, Craighton",
+    file: "data/new-images/AugustTown/St_Cyprian_s_1.jpg",
+    church_id: "st-cyprians-august-town-st-andrew",
+    caption: "St Cyprian's, August Town",
     order: "1",
-  },
-  {
-    file: "data/new-images/Craighton/St_Mark_s_2.jpg",
-    church_id: "st-mark-s-craighton-st-andrew",
-    caption: "St. Mark's, Craighton",
-    order: "2",
-  },
-  {
-    file: "data/new-images/Craighton/St_Mark_s_3.jpg",
-    church_id: "st-mark-s-craighton-st-andrew",
-    caption: "St. Mark's, Craighton",
-    order: "3",
-  },
-  {
-    file: "data/new-images/Craighton/St_Mark_s_4.jpg",
-    church_id: "st-mark-s-craighton-st-andrew",
-    caption: "St. Mark's, Craighton",
-    order: "4",
-  },
-  {
-    file: "data/new-images/Woodford/St_Mary_s_1.jpg",
-    church_id: "st-mary-s-church-woodford-st-andrew",
-    caption: "St. Mary's Church, Woodford",
-    order: "1",
-  },
-  {
-    file: "data/new-images/Woodford/St_Mary_s_2.jpg",
-    church_id: "st-mary-s-church-woodford-st-andrew",
-    caption: "St. Mary's Church, Woodford",
-    order: "2",
   },
 ];
 
