@@ -38,6 +38,10 @@ async function getChurchGeo(id: string): Promise<ChurchGeo | null> {
   return _geoCache[id] ?? null
 }
 
+function cloudinaryOptimized(url: string, transform = 'q_auto,f_auto,w_1200'): string {
+  return url.replace('/upload/', `/upload/${transform}/`)
+}
+
 function miniMapUrl(lat: number, lng: number): string {
   // OpenStreetMap embed with a marker
   const delta = 0.02
@@ -94,7 +98,7 @@ export default function ChurchDetailPage() {
               {media.map((m, i) => (
                 <figure key={i} className="shrink-0 m-0">
                   <img
-                    src={m.url}
+                    src={cloudinaryOptimized(m.url)}
                     alt={m.caption}
                     className="h-48 w-auto rounded-lg object-cover cursor-zoom-in"
                     onClick={() => setLightbox(m)}
@@ -145,7 +149,7 @@ export default function ChurchDetailPage() {
         >
           <figure className="max-w-full max-h-full flex flex-col items-center">
             <img
-              src={lightbox.url}
+              src={cloudinaryOptimized(lightbox.url, 'q_auto,f_auto,w_2000')}
               alt={lightbox.caption}
               className="max-w-full max-h-[90vh] object-contain rounded"
             />
