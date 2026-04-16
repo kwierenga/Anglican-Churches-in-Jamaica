@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { marked } from 'marked'
 import L from 'leaflet'
 import { useRoute } from '../lib/router'
@@ -48,11 +48,15 @@ export default function ChurchDetailPage() {
   const [loading, setLoading] = useState(true)
   const [geo, setGeo] = useState<ChurchGeo | null>(null)
   const [lightbox, setLightbox] = useState<MediaRow | null>(null)
-  const mapRef = useRef<HTMLDivElement | null>(null)
+  const mapInstanceRef = useRef<L.Map | null>(null)
 
-  useEffect(() => {
-    if (!geo || loading || !mapRef.current) return
-    const map = L.map(mapRef.current, { zoomControl: true }).setView([geo.lat, geo.lng], 17)
+  const mapRef = useCallback((el: HTMLDivElement | null) => {
+    if (mapInstanceRef.current) {
+      mapInstanceRef.current.remove()
+      mapInstanceRef.current = null
+    }
+    if (!el || !geo) return
+    const map = L.map(el, { zoomControl: true }).setView([geo.lat, geo.lng], 17)
     L.tileLayer(
       'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
       { maxZoom: 19, attribution: 'Tiles &copy; Esri, Maxar, Earthstar Geographics' }
@@ -64,9 +68,9 @@ export default function ChurchDetailPage() {
       fillColor: '#8B0000',
       fillOpacity: 1,
     }).addTo(map)
-    setTimeout(() => map.invalidateSize(), 0)
-    return () => { map.remove() }
-  }, [geo, loading])
+    requestAnimationFrame(() => map.invalidateSize())
+    mapInstanceRef.current = map
+  }, [geo])
 
   useEffect(() => {
     if (!lightbox) return
