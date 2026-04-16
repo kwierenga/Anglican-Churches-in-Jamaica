@@ -1,6 +1,5 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { marked } from 'marked'
-import L from 'leaflet'
 import { useRoute } from '../lib/router'
 import type { MediaRow } from '../lib/schemas'
 
@@ -39,6 +38,12 @@ async function getChurchGeo(id: string): Promise<ChurchGeo | null> {
   return _geoCache[id] ?? null
 }
 
+function miniMapUrl(lat: number, lng: number): string {
+  // OpenStreetMap embed with a marker
+  const delta = 0.02
+  const bbox = `${lng - delta},${lat - delta},${lng + delta},${lat + delta}`
+  return `https://www.openstreetmap.org/export/embed.html?bbox=${bbox}&layer=mapnik&marker=${lat},${lng}`
+}
 
 export default function ChurchDetailPage() {
   const route = useRoute()
@@ -48,29 +53,6 @@ export default function ChurchDetailPage() {
   const [loading, setLoading] = useState(true)
   const [geo, setGeo] = useState<ChurchGeo | null>(null)
   const [lightbox, setLightbox] = useState<MediaRow | null>(null)
-  const mapInstanceRef = useRef<L.Map | null>(null)
-
-  const mapRef = useCallback((el: HTMLDivElement | null) => {
-    if (mapInstanceRef.current) {
-      mapInstanceRef.current.remove()
-      mapInstanceRef.current = null
-    }
-    if (!el || !geo) return
-    const map = L.map(el, { zoomControl: true }).setView([geo.lat, geo.lng], 17)
-    L.tileLayer(
-      'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-      { maxZoom: 19, attribution: 'Tiles &copy; Esri, Maxar, Earthstar Geographics' }
-    ).addTo(map)
-    L.circleMarker([geo.lat, geo.lng], {
-      radius: 8,
-      color: '#fff',
-      weight: 2,
-      fillColor: '#8B0000',
-      fillOpacity: 1,
-    }).addTo(map)
-    requestAnimationFrame(() => map.invalidateSize())
-    mapInstanceRef.current = map
-  }, [geo])
 
   useEffect(() => {
     if (!lightbox) return
@@ -139,10 +121,14 @@ export default function ChurchDetailPage() {
           {geo && (
             <div className="mt-8">
               <h3 className="font-heading text-xl font-semibold text-crimson mb-3">Location</h3>
-              <div
-                ref={mapRef}
+              <iframe
+                src={miniMapUrl(geo.lat, geo.lng)}
+                width="100%"
+                height="350"
                 className="rounded-lg border border-gray-200"
-                style={{ height: 350, width: '100%' }}
+                style={{ border: 0 }}
+                loading="lazy"
+                title={`Map showing ${geo.name}`}
               />
               <p className="text-xs text-gray-500 mt-2 font-body">
                 {geo.parish} &middot; {geo.lat.toFixed(4)}, {geo.lng.toFixed(4)}
