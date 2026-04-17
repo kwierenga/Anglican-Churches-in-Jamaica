@@ -16,10 +16,16 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/SantaCruz/Santa_Cruz_1.jpg",
-    church_id: "st-matthew-s-santa-cruz-st-elizabeth",
-    caption: "St. Matthew's, Santa Cruz",
+    file: "data/new-images/BarbaryHall/Barbary_Hall_1.jpg",
+    church_id: "st-paul-s-barbary-hall-st-elizabeth",
+    caption: "St. Paul's, Barbary Hall",
     order: "1",
+  },
+  {
+    file: "data/new-images/BarbaryHall/Barbary_Hall_2.jpg",
+    church_id: "st-paul-s-barbary-hall-st-elizabeth",
+    caption: "St. Paul's, Barbary Hall",
+    order: "2",
   },
 ];
 
