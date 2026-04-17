@@ -16,28 +16,10 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/Southfield/southfield-1.jpg",
-    church_id: "st-mark-s-southfield-st-elizabeth",
-    caption: "St. Mark's, Southfield",
+    file: "data/new-images/SantaCruz/Santa_Cruz_1.jpg",
+    church_id: "st-matthew-s-santa-cruz-st-elizabeth",
+    caption: "St. Matthew's, Santa Cruz",
     order: "1",
-  },
-  {
-    file: "data/new-images/Southfield/southfield-2.jpg",
-    church_id: "st-mark-s-southfield-st-elizabeth",
-    caption: "St. Mark's, Southfield",
-    order: "2",
-  },
-  {
-    file: "data/new-images/Southfield/southfield-3.jpg",
-    church_id: "st-mark-s-southfield-st-elizabeth",
-    caption: "St. Mark's, Southfield",
-    order: "3",
-  },
-  {
-    file: "data/new-images/Southfield/southfield-4.jpg",
-    church_id: "st-mark-s-southfield-st-elizabeth",
-    caption: "St. Mark's, Southfield",
-    order: "4",
   },
 ];
 
