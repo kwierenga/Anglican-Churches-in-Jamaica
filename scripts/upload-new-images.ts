@@ -16,28 +16,10 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/Gilnock/gilnock-1.jpg",
-    church_id: "st-andrew-s-gilnock-st-elizabeth",
-    caption: "St. Andrew's, Gilnock",
-    order: "2",
-  },
-  {
-    file: "data/new-images/Gilnock/gilnock-2.jpg",
-    church_id: "st-andrew-s-gilnock-st-elizabeth",
-    caption: "St. Andrew's, Gilnock",
-    order: "3",
-  },
-  {
-    file: "data/new-images/Gilnock/gilnock-3.webp",
-    church_id: "st-andrew-s-gilnock-st-elizabeth",
-    caption: "St. Andrew's, Gilnock",
-    order: "4",
-  },
-  {
-    file: "data/new-images/Gilnock/gilnock-4.jpg",
-    church_id: "st-andrew-s-gilnock-st-elizabeth",
-    caption: "St. Andrew's, Gilnock",
-    order: "5",
+    file: "data/new-images/Accompong/accompong-1.jpg",
+    church_id: "st-martin-s-accompong-st-elizabeth",
+    caption: "St. Martin's, Accompong",
+    order: "1",
   },
 ];
 
