@@ -16,10 +16,22 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/Accompong/accompong-1.jpg",
-    church_id: "st-martin-s-accompong-st-elizabeth",
-    caption: "St. Martin's, Accompong",
+    file: "data/new-images/Siloah/siloah-1.webp",
+    church_id: "st-barnabas-siloah-st-elizabeth",
+    caption: "St. Barnabas', Siloah",
     order: "1",
+  },
+  {
+    file: "data/new-images/Siloah/siloah-2.jpg",
+    church_id: "st-barnabas-siloah-st-elizabeth",
+    caption: "St. Barnabas', Siloah",
+    order: "2",
+  },
+  {
+    file: "data/new-images/Siloah/siloah-3.jpg",
+    church_id: "st-barnabas-siloah-st-elizabeth",
+    caption: "St. Barnabas', Siloah",
+    order: "3",
   },
 ];
 
