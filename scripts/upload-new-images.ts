@@ -16,15 +16,33 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/MountHermon/Mount_Hermon_1.jpg",
-    church_id: "st-james-mount-hermon-st-elizabeth",
-    caption: "St. James', Mount Hermon (ruin)",
+    file: "data/new-images/Malvern/St_Mary_s_1.jpg",
+    church_id: "st-mary-s-malvern-st-elizabeth",
+    caption: "St. Mary's, Malvern",
     order: "1",
   },
   {
-    file: "data/new-images/MountHermon/Mount_Hermon_2.jpg",
-    church_id: "st-james-mount-hermon-st-elizabeth",
-    caption: "St. James', Mount Hermon (ruin)",
+    file: "data/new-images/Malvern/St_Mary_s_2.jpg",
+    church_id: "st-mary-s-malvern-st-elizabeth",
+    caption: "St. Mary's, Malvern",
+    order: "2",
+  },
+  {
+    file: "data/new-images/Malvern/St_Mary_s_3.jpg",
+    church_id: "st-mary-s-malvern-st-elizabeth",
+    caption: "St. Mary's, Malvern",
+    order: "3",
+  },
+  {
+    file: "data/new-images/Morningside/St_David_s_1.jpg",
+    church_id: "st-david-s-morningside-st-elizabeth",
+    caption: "St. David's, Morningside",
+    order: "1",
+  },
+  {
+    file: "data/new-images/St Davids/St_David_s_1.jpg",
+    church_id: "st-david-s-morningside-st-elizabeth",
+    caption: "St. David's, Morningside",
     order: "2",
   },
 ];
