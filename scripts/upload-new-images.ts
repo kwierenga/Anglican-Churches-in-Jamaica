@@ -16,15 +16,15 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/BarbaryHall/Barbary_Hall_1.jpg",
-    church_id: "st-paul-s-barbary-hall-st-elizabeth",
-    caption: "St. Paul's, Barbary Hall",
+    file: "data/new-images/MountHermon/Mount_Hermon_1.jpg",
+    church_id: "st-james-mount-hermon-st-elizabeth",
+    caption: "St. James', Mount Hermon (ruin)",
     order: "1",
   },
   {
-    file: "data/new-images/BarbaryHall/Barbary_Hall_2.jpg",
-    church_id: "st-paul-s-barbary-hall-st-elizabeth",
-    caption: "St. Paul's, Barbary Hall",
+    file: "data/new-images/MountHermon/Mount_Hermon_2.jpg",
+    church_id: "st-james-mount-hermon-st-elizabeth",
+    caption: "St. James', Mount Hermon (ruin)",
     order: "2",
   },
 ];
