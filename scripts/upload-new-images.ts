@@ -16,34 +16,22 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/Malvern/St_Mary_s_1.jpg",
-    church_id: "st-mary-s-malvern-st-elizabeth",
-    caption: "St. Mary's, Malvern",
+    file: "data/new-images/Nain/St_Stephen_s_1.jpg",
+    church_id: "st-stephen-s-nain-st-elizabeth",
+    caption: "St. Stephen's, Nain",
     order: "1",
   },
   {
-    file: "data/new-images/Malvern/St_Mary_s_2.jpg",
-    church_id: "st-mary-s-malvern-st-elizabeth",
-    caption: "St. Mary's, Malvern",
+    file: "data/new-images/Nain/St_Stephen_s_2.jpg",
+    church_id: "st-stephen-s-nain-st-elizabeth",
+    caption: "St. Stephen's, Nain",
     order: "2",
   },
   {
-    file: "data/new-images/Malvern/St_Mary_s_3.jpg",
-    church_id: "st-mary-s-malvern-st-elizabeth",
-    caption: "St. Mary's, Malvern",
+    file: "data/new-images/Nain/St_Stephen_s_3.jpg",
+    church_id: "st-stephen-s-nain-st-elizabeth",
+    caption: "St. Stephen's, Nain",
     order: "3",
-  },
-  {
-    file: "data/new-images/Morningside/St_David_s_1.jpg",
-    church_id: "st-david-s-morningside-st-elizabeth",
-    caption: "St. David's, Morningside",
-    order: "1",
-  },
-  {
-    file: "data/new-images/St Davids/St_David_s_1.jpg",
-    church_id: "st-david-s-morningside-st-elizabeth",
-    caption: "St. David's, Morningside",
-    order: "2",
   },
 ];
 
