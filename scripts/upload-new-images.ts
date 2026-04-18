@@ -16,52 +16,16 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/Lacovia/lacovia-1.jpg",
-    church_id: "st-thomas-lacovia-st-elizabeth",
-    caption: "St. Thomas', Lacovia",
-    order: "3",
-  },
-  {
-    file: "data/new-images/Lacovia/dji_fly_20241221_172958_200_1734823758932_aeb.jpg",
-    church_id: "st-thomas-lacovia-st-elizabeth",
-    caption: "St. Thomas', Lacovia — aerial view",
-    order: "4",
-  },
-  {
-    file: "data/new-images/Lacovia/dji_fly_20241221_173330_218_1734823716435_aeb.jpg",
-    church_id: "st-thomas-lacovia-st-elizabeth",
-    caption: "St. Thomas', Lacovia — aerial view",
-    order: "5",
-  },
-  {
-    file: "data/new-images/Lacovia/dji_fly_20241221_173426_224_1734823706646_aeb.jpg",
-    church_id: "st-thomas-lacovia-st-elizabeth",
-    caption: "St. Thomas', Lacovia — aerial view",
+    file: "data/new-images/Gilnock/gilnock-4.jpg",
+    church_id: "st-andrew-s-gilnock-st-elizabeth",
+    caption: "St. Andrew's, Gilnock",
     order: "6",
   },
   {
-    file: "data/new-images/Lacovia/dji_fly_20241221_173710_240_1734823661553_aeb.jpg",
-    church_id: "st-thomas-lacovia-st-elizabeth",
-    caption: "St. Thomas', Lacovia — aerial view",
+    file: "data/new-images/Gilnock/gilnock-5.jpg",
+    church_id: "st-andrew-s-gilnock-st-elizabeth",
+    caption: "St. Andrew's, Gilnock",
     order: "7",
-  },
-  {
-    file: "data/new-images/Balaclava/balaclava-1.png",
-    church_id: "st-luke-s-balaclava-st-elizabeth",
-    caption: "St. Luke's, Balaclava",
-    order: "2",
-  },
-  {
-    file: "data/new-images/Balaclava/balaclava-2.jpg",
-    church_id: "st-luke-s-balaclava-st-elizabeth",
-    caption: "St. Luke's, Balaclava",
-    order: "3",
-  },
-  {
-    file: "data/new-images/Balaclava/balaclava-3.jpg",
-    church_id: "st-luke-s-balaclava-st-elizabeth",
-    caption: "St. Luke's, Balaclava",
-    order: "4",
   },
 ];
 
