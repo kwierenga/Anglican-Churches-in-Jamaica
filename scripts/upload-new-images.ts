@@ -16,16 +16,22 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/Gilnock/gilnock-4.jpg",
-    church_id: "st-andrew-s-gilnock-st-elizabeth",
-    caption: "St. Andrew's, Gilnock",
-    order: "6",
+    file: "data/new-images/RioBueno/drone_4.png",
+    church_id: "st-mark-s-rio-bueno-trelawny",
+    caption: "St. Mark's, Rio Bueno — aerial view",
+    order: "4",
   },
   {
-    file: "data/new-images/Gilnock/gilnock-5.jpg",
-    church_id: "st-andrew-s-gilnock-st-elizabeth",
-    caption: "St. Andrew's, Gilnock",
-    order: "7",
+    file: "data/new-images/RioBueno/drone_5.png",
+    church_id: "st-mark-s-rio-bueno-trelawny",
+    caption: "St. Mark's, Rio Bueno — aerial view",
+    order: "5",
+  },
+  {
+    file: "data/new-images/RioBueno/drone_6.png",
+    church_id: "st-mark-s-rio-bueno-trelawny",
+    caption: "St. Mark's, Rio Bueno — aerial view",
+    order: "6",
   },
 ];
 
