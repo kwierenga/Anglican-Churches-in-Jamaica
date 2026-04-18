@@ -1,7 +1,7 @@
 # St. Barnabas', Crawford
-**St. Elizabeth** · Church · inactive
+**St. Elizabeth** · Church · active
 
-St. Barnabas' Anglican Church stands in Crawford, a small village in southwestern St. Elizabeth about seven kilometres west of Black River, near the Font Hill Wildlife Sanctuary. Listed as inactive, the church remains on the diocesan rolls as part of the Black River cure. Crawford takes its name from Crawford's Pen, a livestock property that held 29 enslaved people under the French-origin owner Bertrand Bayet through the 1820s and 1830s — a reminder that even small pens in St. Elizabeth depended on enslaved labour.
+St. Barnabas' Anglican Church stands in Crawford, a small village in southwestern St. Elizabeth about seven kilometres west of Black River, near the Font Hill Wildlife Sanctuary. The church is part of the Black River cure. Crawford takes its name from Crawford's Pen, a livestock property that held 29 enslaved people under the French-origin owner Bertrand Bayet through the 1820s and 1830s — a reminder that even small pens in St. Elizabeth depended on enslaved labour.
 
 ## History
 Crawford's Pen appears in the Jamaica Almanacs from 1822 through 1833, consistently listed under the deceased Bertrand Bayet — a French-origin name reflecting the Huguenot and refugee presence in southwestern Jamaica. The property held 29 enslaved people and 186 to 252 head of livestock. "Pen" denotes a cattle-rearing property rather than a sugar plantation — pens in St. Elizabeth raised cattle and horses for use on sugar estates and for export. The broader Black River area was the economic heart of the slave trade in St. Elizabeth: enslaved Africans were sold at auction at Farquharson Wharf, and the Zong massacre of 1781 — in which 132 enslaved people were thrown overboard at sea — ended at Black River, where the survivors were sold.
