@@ -16,22 +16,16 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/Nain/St_Stephen_s_1.jpg",
-    church_id: "st-stephen-s-nain-st-elizabeth",
-    caption: "St. Stephen's, Nain",
+    file: "data/new-images/Crawford/St_Barnabas_1.jpg",
+    church_id: "st-barnabas-s-crawford-st-elizabeth",
+    caption: "St. Barnabas', Crawford",
     order: "1",
   },
   {
-    file: "data/new-images/Nain/St_Stephen_s_2.jpg",
-    church_id: "st-stephen-s-nain-st-elizabeth",
-    caption: "St. Stephen's, Nain",
+    file: "data/new-images/Crawford/St_Barnabas_2.jpg",
+    church_id: "st-barnabas-s-crawford-st-elizabeth",
+    caption: "St. Barnabas', Crawford",
     order: "2",
-  },
-  {
-    file: "data/new-images/Nain/St_Stephen_s_3.jpg",
-    church_id: "st-stephen-s-nain-st-elizabeth",
-    caption: "St. Stephen's, Nain",
-    order: "3",
   },
 ];
 
