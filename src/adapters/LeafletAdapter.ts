@@ -97,6 +97,8 @@ export default class LeafletAdapter implements MapAdapter {
   private editHandler?: (e: L.LeafletMouseEvent) => void
   private resizeObserver?: ResizeObserver
   private onSelect?: (id: string)=>void
+  private topo!: L.TileLayer
+  private satellite!: L.TileLayer
 
   init(el: HTMLElement, opts?: { onSelectChurch?: (id: string)=>void }) {
     this.onSelect = opts?.onSelectChurch
@@ -107,11 +109,11 @@ export default class LeafletAdapter implements MapAdapter {
     this.resizeObserver.observe(el)
 
     // Create tile layers per instance (not module-level singletons)
-    const topo = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+    this.topo = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
       maxZoom: 18,
       attribution: 'Tiles &copy; Esri',
     })
-    const satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    this.satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
       maxZoom: 18,
       attribution: 'Tiles &copy; Esri',
     })
@@ -120,11 +122,11 @@ export default class LeafletAdapter implements MapAdapter {
       opacity: 0.9,
     })
 
-    topo.addTo(this.map)
+    this.topo.addTo(this.map)
 
     // Layer toggle control
     L.control.layers(
-      { 'Terrain': topo, 'Satellite': satellite },
+      { 'Terrain': this.topo, 'Satellite': this.satellite },
       { 'Labels': satLabels },
       { position: 'topright', collapsed: false }
     ).addTo(this.map)
@@ -150,13 +152,22 @@ export default class LeafletAdapter implements MapAdapter {
     if (this.highlight) { this.highlight.remove(); this.highlight = undefined }
   }
 
+  private switchToTerrain() {
+    if (this.satellite && this.map.hasLayer(this.satellite)) {
+      this.map.removeLayer(this.satellite)
+      this.topo.addTo(this.map)
+    }
+  }
+
   fitToAll(){
     this.clearHighlight()
+    this.switchToTerrain()
     if(!this.layer) return; this.map.fitBounds(this.layer.getBounds(), { padding:[20,20] })
   }
 
   fitToParish(parish: string){
     this.clearHighlight()
+    this.switchToTerrain()
     const key = parish.toLowerCase()
     const center = PARISH_CENTERS[key]
     if (center) {
@@ -191,6 +202,10 @@ export default class LeafletAdapter implements MapAdapter {
     this.highlight.bindTooltip(f.properties!.name, { permanent: true, direction: 'top', offset: [0, -16] })
 
     this.map.flyTo(latlng, 18)
+    if (this.topo && this.satellite) {
+      this.map.removeLayer(this.topo)
+      this.satellite.addTo(this.map)
+    }
   }
 
   setFilter(fn: (p: ChurchFeature['properties']) => boolean){
