@@ -16,22 +16,34 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/RioBueno/drone_4.png",
-    church_id: "st-mark-s-rio-bueno-trelawny",
-    caption: "St. Mark's, Rio Bueno — aerial view",
+    file: "data/new-images/Mocho/St_Paul_s_1.jpg",
+    church_id: "st-paul-s-mocho-clarendon",
+    caption: "St. Paul's, Mocho",
+    order: "1",
+  },
+  {
+    file: "data/new-images/Mocho/St_Paul_s_2.jpg",
+    church_id: "st-paul-s-mocho-clarendon",
+    caption: "St. Paul's, Mocho",
+    order: "2",
+  },
+  {
+    file: "data/new-images/Mocho/St_Paul_s_3.jpg",
+    church_id: "st-paul-s-mocho-clarendon",
+    caption: "St. Paul's, Mocho",
+    order: "3",
+  },
+  {
+    file: "data/new-images/Mocho/St_Paul_s_4.jpg",
+    church_id: "st-paul-s-mocho-clarendon",
+    caption: "St. Paul's, Mocho",
     order: "4",
   },
   {
-    file: "data/new-images/RioBueno/drone_5.png",
-    church_id: "st-mark-s-rio-bueno-trelawny",
-    caption: "St. Mark's, Rio Bueno — aerial view",
+    file: "data/new-images/Mocho/St_Paul_s_5.jpg",
+    church_id: "st-paul-s-mocho-clarendon",
+    caption: "St. Paul's, Mocho",
     order: "5",
-  },
-  {
-    file: "data/new-images/RioBueno/drone_6.png",
-    church_id: "st-mark-s-rio-bueno-trelawny",
-    caption: "St. Mark's, Rio Bueno — aerial view",
-    order: "6",
   },
 ];
 
