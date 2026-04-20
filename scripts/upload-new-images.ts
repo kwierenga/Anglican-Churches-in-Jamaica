@@ -16,28 +16,10 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/Chapelton/St_Paul_s_1.jpg",
-    church_id: "st-paul-s-chapelton-clarendon",
-    caption: "St. Paul's, Chapelton",
+    file: "data/new-images/AenonTown/St_Matthew_s_1.jpg",
+    church_id: "st-matthew-s-aenon-town-clarendon",
+    caption: "St. Matthew's, Aenon Town",
     order: "1",
-  },
-  {
-    file: "data/new-images/Chapelton/St_Paul_s_2.jpg",
-    church_id: "st-paul-s-chapelton-clarendon",
-    caption: "St. Paul's, Chapelton — stained glass",
-    order: "2",
-  },
-  {
-    file: "data/new-images/Chapelton/St_Paul_s_3.jpg",
-    church_id: "st-paul-s-chapelton-clarendon",
-    caption: "St. Paul's, Chapelton",
-    order: "3",
-  },
-  {
-    file: "data/new-images/Chapelton/St_Paul_s_4.jpg",
-    church_id: "st-paul-s-chapelton-clarendon",
-    caption: "St. Paul's, Chapelton",
-    order: "4",
   },
 ];
 
