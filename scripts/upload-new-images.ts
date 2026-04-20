@@ -16,34 +16,28 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/Mocho/St_Paul_s_1.jpg",
-    church_id: "st-paul-s-mocho-clarendon",
-    caption: "St. Paul's, Mocho",
+    file: "data/new-images/Chapelton/St_Paul_s_1.jpg",
+    church_id: "st-paul-s-chapelton-clarendon",
+    caption: "St. Paul's, Chapelton",
     order: "1",
   },
   {
-    file: "data/new-images/Mocho/St_Paul_s_2.jpg",
-    church_id: "st-paul-s-mocho-clarendon",
-    caption: "St. Paul's, Mocho",
+    file: "data/new-images/Chapelton/St_Paul_s_2.jpg",
+    church_id: "st-paul-s-chapelton-clarendon",
+    caption: "St. Paul's, Chapelton — stained glass",
     order: "2",
   },
   {
-    file: "data/new-images/Mocho/St_Paul_s_3.jpg",
-    church_id: "st-paul-s-mocho-clarendon",
-    caption: "St. Paul's, Mocho",
+    file: "data/new-images/Chapelton/St_Paul_s_3.jpg",
+    church_id: "st-paul-s-chapelton-clarendon",
+    caption: "St. Paul's, Chapelton",
     order: "3",
   },
   {
-    file: "data/new-images/Mocho/St_Paul_s_4.jpg",
-    church_id: "st-paul-s-mocho-clarendon",
-    caption: "St. Paul's, Mocho",
+    file: "data/new-images/Chapelton/St_Paul_s_4.jpg",
+    church_id: "st-paul-s-chapelton-clarendon",
+    caption: "St. Paul's, Chapelton",
     order: "4",
-  },
-  {
-    file: "data/new-images/Mocho/St_Paul_s_5.jpg",
-    church_id: "st-paul-s-mocho-clarendon",
-    caption: "St. Paul's, Mocho",
-    order: "5",
   },
 ];
 
