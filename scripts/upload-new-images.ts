@@ -16,10 +16,16 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/GrangeHill/Holy_Trinity_1.jpg",
-    church_id: "holy-trinity-grange-hill-westmoreland",
-    caption: "Holy Trinity, Grange Hill",
-    order: "3",
+    file: "data/new-images/Catadupa/St_Matthew_s_1.jpg",
+    church_id: "st-matthew-s-catadupa-st-james",
+    caption: "St. Matthew's, Catadupa",
+    order: "1",
+  },
+  {
+    file: "data/new-images/Catadupa/St_Matthew_s_2.jpg",
+    church_id: "st-matthew-s-catadupa-st-james",
+    caption: "St. Matthew's, Catadupa",
+    order: "2",
   },
 ];
 
