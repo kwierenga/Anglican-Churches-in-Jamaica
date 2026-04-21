@@ -16,58 +16,10 @@ const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
   {
-    file: "data/new-images/Chichester/Chichester_1.jpg",
-    church_id: "st-saviour-s-chichester-st-james",
-    caption: "St. Saviour's, Chichester",
-    order: "1",
-  },
-  {
-    file: "data/new-images/Chichester/Chichester_2.jpg",
-    church_id: "st-saviour-s-chichester-st-james",
-    caption: "St. Saviour's, Chichester",
-    order: "2",
-  },
-  {
-    file: "data/new-images/ChesterCastle/Chester_Castle_1.jpg",
-    church_id: "all-saints-chester-castle-st-james",
-    caption: "All Saints', Chester Castle",
-    order: "1",
-  },
-  {
-    file: "data/new-images/ChesterCastle/Chester_Castle_2.jpg",
-    church_id: "all-saints-chester-castle-st-james",
-    caption: "All Saints', Chester Castle",
-    order: "2",
-  },
-  {
-    file: "data/new-images/Montpelier/St_Mary_s_1.jpg",
-    church_id: "st-mary-s-montpelier-st-james",
-    caption: "St. Mary's, Montpelier",
-    order: "1",
-  },
-  {
-    file: "data/new-images/Montpelier/St_Mary_s_2.jpg",
-    church_id: "st-mary-s-montpelier-st-james",
-    caption: "St. Mary's, Montpelier",
-    order: "2",
-  },
-  {
-    file: "data/new-images/Montpelier/St_Mary_s_3.jpg",
-    church_id: "st-mary-s-montpelier-st-james",
-    caption: "St. Mary's, Montpelier",
+    file: "data/new-images/GrangeHill/Holy_Trinity_1.jpg",
+    church_id: "holy-trinity-grange-hill-westmoreland",
+    caption: "Holy Trinity, Grange Hill",
     order: "3",
-  },
-  {
-    file: "data/new-images/Montpelier/St_Mary_s_4.jpg",
-    church_id: "st-mary-s-montpelier-st-james",
-    caption: "St. Mary's, Montpelier",
-    order: "4",
-  },
-  {
-    file: "data/new-images/Montpelier/St_Mary_s_5.jpg",
-    church_id: "st-mary-s-montpelier-st-james",
-    caption: "St. Mary's, Montpelier",
-    order: "5",
   },
 ];
 
