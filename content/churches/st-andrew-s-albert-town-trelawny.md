@@ -1,16 +1,29 @@
 # St. Andrew's, Albert Town
 **Trelawny** · Church · active
 
-St. Andrew’s Anglican Church serves the community of Albert Town, located in the cool, hilly interior of Trelawny. It was established in the 1800s to serve families who formed new settlements after Emancipation in 1838. Despite facing storms and social changes over the years, the church has faithfully served the community. Today, it remains a vital place of worship and a cornerstone of community life for Albert Town and the surrounding districts.
+St. Andrew's Anglican Church stands on a hilltop overlooking Albert Town, a cool upland community at about 600 metres (2,000 feet) elevation on the south-eastern edge of Cockpit Country. The church was built in 1868 — the last Anglican church to be consecrated in Jamaica before the 1870 disestablishment of the Church of England on the island. By 1891, Albert Town was a mission station with 208 registered members.
 
 ## History
-St. Andrew’s Anglican Church was founded in the 19th century to serve the growing population of freed people and small farmers in the Albert Town area. Before 1838, the region's economy and society were dominated by the plantation system. After Emancipation, as families established independent homes and farms in the Cockpit Country foothills, the Anglican Diocese sent clergy to provide worship and education. By the late 1800s, a permanent stone church was completed and dedicated to St. Andrew. It quickly became a central institution, offering moral support, education, and a sense of community for families building a new life after slavery.
+Albert Town was carved out of the Freemans Hall property and originally called Santa Hill (colloquially "SanSan") after the Santa Maria trees that grew in the district. In the mid-nineteenth century, the town's worthies renamed it Albert Town after Prince Albert, the Consort of Queen Victoria.
+
+Trelawny was created as a parish in 1770 out of St. James. Its economy was built on slavery, and the Cockpit Country interior was a place of refuge for the Leeward Maroons — Cudjoe's Town (Trelawny Town) was the principal Maroon settlement until the Second Maroon War of 1795–96, which ended with the deportation of some 568 Trelawny Town Maroons first to Nova Scotia, and then in 1800 to Sierra Leone.
+
+Until 1870 the Church of England in Jamaica was the established state church, supported by colonial government funds. St. Andrew's Albert Town was built in 1868, only two years before Law 30 of 1870 disestablished the Church and ended its state funding — making it the last Anglican church consecrated in Jamaica under the establishment. After Emancipation (1834) and full freedom (1 August 1838), the Cockpit Country foothills had attracted substantial settlement by freed families, and Albert Town grew into a hilltop market and service community. The 1891 Handbook of Jamaica records Albert Town as a mission station (not a separate cure) with 208 registered members, 34 baptisms, and 2 marriages in the year.
 
 ## Architecture
-St. Andrew’s is a classic example of a rural Trelawny Anglican church, constructed primarily from local limestone. It features a rectangular nave, a small chancel, and pointed-arch windows with colored glass and wooden shutters. The steep roof, now covered with metal, was likely originally shingled, a design suited to the rainy hill climate. Inside, the church is furnished with wooden pews, a simple pulpit, and an open-timber roof that adds to the sense of space. The historic churchyard, with graves of the community's founding families, gives the site a peaceful and timeless atmosphere.
+St. Andrew's is a rural limestone church in the simple Gothic Revival style, set on elevated ground above the town. The hilltop site gives it both visibility and good natural drainage, though it also exposes the building to strong winds. The churchyard contains the graves of the town's founding families.
 
 ## Clergy
-St. Andrew’s has always been part of a Trelawny parish cluster, sharing clergy with nearby towns such as Wait-A-Bit, Ulster Spring, and Warsop. Early priests traveled difficult Cockpit Country roads to lead services, perform baptisms, and support local schooling. The church was pivotal in providing basic literacy and religious education at a time when formal schools were scarce in rural Jamaica. After Independence in 1962, the congregation remained active through youth groups and the Mothers’ Union. Lay readers have been essential to the church's survival, leading services when ordained clergy were shared across multiple congregations.
+Albert Town is served within the Trelawny Deanery and has historically been grouped with nearby inland missions under shared clergy arrangements.
+
+## Hurricane Melissa (October 2025)
+Hurricane Melissa made Category 5 landfall near New Hope in Westmoreland on 28 October 2025. Trelawny was among the five most affected parishes. The specific status of St. Andrew's Albert Town after Melissa has not been separately reported in public sources reviewed.
 
 ## Notable Facts
-St. Andrew’s has weathered many severe storms, including Hurricane Charlie (1951) and Hurricane Gilbert (1988), which damaged the roof and windows. Each time, the congregation repaired the building with determination and local support. Further restoration work in the 2000s has helped maintain the structure. There are no reports of damage from Hurricane Melissa (2025). Today, St. Andrew’s Anglican Church continues to hold regular worship, weddings, funerals, and harvest celebrations, standing as a enduring symbol of faith and community strength in Albert Town.
+St. Andrew's was built in 1868, making it the last Anglican church consecrated in Jamaica under the establishment — two years before the 1870 disestablishment of the Church of England on the island. Albert Town's elevation (approximately 600 m) gives it one of the cooler climates in Trelawny, on the edge of a Cockpit Country landscape whose Maroon history is central to the parish's identity.
+
+## References
+- Cockpit Country — Albert Town (Freemans Hall origin, "Santa Hill" renaming, 1868 church, disestablishment context): [cockpitcountry.com](https://cockpitcountry.com/AlbertTown.html)
+- 1891 Handbook of Jamaica — Anglican clergy (Albert Town mission, 208 members): [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/hclergy1.htm)
+- Jamaican Ancestral Records — St Andrew's Anglican, Albert Town: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/trelawny-2/st-andrews-anglican-albert-town-trelawny/)
+- Wikipedia — Second Maroon War (1795–96 Trelawny Maroon deportations): [en.wikipedia.org/wiki/Second_Maroon_War](https://en.wikipedia.org/wiki/Second_Maroon_War)

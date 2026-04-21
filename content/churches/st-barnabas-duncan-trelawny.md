@@ -1,16 +1,29 @@
-# St. Barnabas', Duncan
+# St. Barnabas', Duncans
 **Trelawny** · Church · active
 
-St. Barnabas’ Anglican Church serves the community of Duncans, a small north-coast town in Trelawny situated on the main road corridor between Falmouth and Runaway Bay. Duncans lies at the eastern edge of Trelawny, close to the border with St. Ann, and has served for generations as a service and market point for the surrounding farming communities of central-eastern Trelawny. St. Barnabas’ has provided Anglican worship and pastoral care to the town and its district for well over a century, functioning as the established Church presence in a community whose character is shaped by the north coast road, the agricultural interior, and the sugar and banana history of the region.
+St. Barnabas' Anglican Church serves the town of Duncans on Trelawny's north-coast road between Falmouth and the St. Ann border. Duncans is the second-largest town in Trelawny after Falmouth. The church is listed in the Diocese of Jamaica and the Cayman Islands directory within the Trelawny Deanery; it does not appear in the 1891 Handbook of Jamaica, indicating a post-1891 foundation.
 
 ## History
-Duncans developed as a roadside town on the main north-coast route through Trelawny, growing in importance as a local service centre for the farming communities of the interior. The town takes its name from a colonial estate or landholder, following the common Jamaican pattern of settlement names derived from plantation-era proprietors. The Anglican Diocese established St. Barnabas’ as the local Church of England presence, dedicated to the apostle celebrated for his generosity and encouragement, a fitting patron for a church serving a modest rural community. The church has served successive generations of Duncans residents across the post-Emancipation era, through the decline of sugar and the rise of the banana trade, and into the present day.
+Trelawny was created as a parish in 1770 out of St. James. Its economy was built on slavery. Until 1870 the Church of England in Jamaica was the established state church. After Emancipation (1834) and full freedom on 1 August 1838, Duncans grew as a roadside service town along the north-coast corridor. Kettering — a district of Duncans — was named after the English birthplace of William Knibb, the Baptist abolitionist whose Falmouth ministry helped secure the accelerated end of the apprenticeship scheme in 1838.
+
+The 1891 Handbook of Jamaica records the principal Trelawny Anglican churches as Falmouth, Swanswick (Clark's Town), Rio Bueno, Stewart Town, Gibraltar, and St. Silas — with Albert Town and Wait-a-bit as missions. Duncans is not recorded in the 1891 returns, placing its foundation in the period after 1891. This is consistent with the wider pattern of rural Anglican expansion under Bishop Enos Nuttall (1880–1916), whose diocese grew from 26 mission stations in 1880 to 122 by 1911.
+
+The dedication is to Barnabas the apostle (feast day 11 June), the companion of Paul known in the Acts of the Apostles as the "Son of Encouragement."
 
 ## Architecture
-St. Barnabas’ is a masonry church of modest proportions characteristic of Anglican churches in the smaller Trelawny towns. Duncans sits on the coastal plain close to the sea, giving it direct exposure to north-coast weather systems and making it vulnerable to storm surge from major hurricanes. The building’s construction is functional and durable, suited to a coastal community that must weather the Atlantic hurricane season. The surrounding churchyard provides burial space for the families of Duncans and the surrounding district.
+St. Barnabas' is a masonry church on the Duncans coastal plain. No detailed architectural record has been identified in the public heritage sources reviewed.
 
 ## Clergy
-St. Barnabas’ has been served within the Falmouth deanery of the Anglican Diocese of Jamaica, grouped with St. Peter’s Parish Church Falmouth and other Trelawny congregations under shared clergy arrangements. As a smaller church in a modest-sized town, its week-to-week ministry has depended heavily on dedicated lay leaders — wardens, Mothers’ Union members, and lay readers — who sustain regular worship and community pastoral care. The church is confirmed active in diocesan records.
+St. Barnabas' is served within the Trelawny Deanery under shared clergy arrangements.
+
+## Hurricane Melissa (October 2025)
+Hurricane Melissa made Category 5 landfall near New Hope in Westmoreland on 28 October 2025. Trelawny was among the five most affected parishes, with particularly severe damage reported in Falmouth and the north-coast corridor. The specific status of St. Barnabas' Duncans after Melissa has not been separately reported in public sources reviewed.
 
 ## Notable Facts
-Duncans’ position on the main north-coast road places it in a storm-exposed location on one of Jamaica’s most hurricane-vulnerable coastlines. The town sits between the more prominent communities of Falmouth to the west and Runaway Bay to the east, and has been affected by every major storm to strike Trelawny’s north coast. Hurricane Gilbert (1988) caused severe damage along this entire coastal corridor. Hurricane Ivan (2004) brought destructive conditions to the north coast of Trelawny. Hurricane Melissa (October 2025) struck western Jamaica and the north-coast corridor through Trelawny was directly in the storm’s path; Duncans and St. Barnabas’ congregation were affected and the church’s pastoral role in the aftermath was central to community life.
+Kettering in Duncans is named after the English birthplace of the Baptist abolitionist William Knibb — a reminder that Duncans, like much of Trelawny, was shaped by the nonconformist emancipation movement even though the parish church of the town itself is Anglican.
+
+## References
+- Diocese of Jamaica and the Cayman Islands — Montego Bay Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)
+- 1891 Handbook of Jamaica — Anglican clergy (no record of Duncans): [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/hclergy1.htm)
+- Wikipedia — William Knibb (Kettering origin): [en.wikipedia.org/wiki/William_Knibb](https://en.wikipedia.org/wiki/William_Knibb)
+- Jamaica Information Service — Trelawny Heritage Sites: [jis.gov.jm](https://jis.gov.jm/information/jamaica-heritage-sites/trelawny-heritage-sites/)
