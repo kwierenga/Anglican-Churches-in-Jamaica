@@ -16,7 +16,7 @@ Mandeville's elevation and climate attracted a British and later North American 
 St. Mark's is built from local stone with pointed-arch doors and windows in the Gothic Revival tradition. The churchyard contains graves spanning the colonial and post-colonial periods — one of the more historically layered burial grounds in Manchester. The interior includes memorial tablets accumulated over two centuries of parish life.
 
 ## Education
-The Anglican mission to educate was central to Manchester's post-emancipation development. Church schools were established alongside chapels across the parish, providing literacy and education to communities of freed people. Bishop Lipscomb's initiative founded over 80 elementary schools in the 1830s.
+The Anglican mission to educate was central to Manchester's post-emancipation development. Church schools were established alongside chapels across the parish, providing literacy and education to communities of freed people. Bishop Lipscomb's initiative established over 50 national schools across Jamaica (by 1835 he reported 142 schools with 8,500 scholars).
 
 ## Clergy
 St. Mark's has been the seat of the Manchester deanery and one of the most important Anglican churches in central Jamaica. Its clergy have served as leaders of the Manchester circuit.

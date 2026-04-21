@@ -14,7 +14,7 @@ St. Peter's Rhoden Hall does not appear in the 1891 or 1900 Handbooks of Jamaica
 No detailed architectural records or photographs of St. Peter's Rhoden Hall are currently available.
 
 ## Education
-No school specifically associated with St. Peter's has been confirmed. The Anglican mission to educate was a major driver of school establishment across rural Clarendon — Bishop Lipscomb founded over 80 elementary schools in the 1830s, and by 1900 the Diocese operated 263 schools island-wide.
+No school specifically associated with St. Peter's has been confirmed. The Anglican mission to educate was a major driver of school establishment across rural Clarendon — Bishop Lipscomb established over 50 national schools (by 1835 he reported 142 schools with 8,500 scholars), and by 1900 the Diocese operated 263 elementary schools island-wide.
 
 ## Clergy
 St. Peter's is part of the Good Hope cure circuit, administered from the Crofts Hill rectory. The cure has been listed as vacant in recent diocesan records. The chapel's status as a Chapel of Ease (C/E) means it has always depended on clergy from the circuit rather than having its own resident priest.

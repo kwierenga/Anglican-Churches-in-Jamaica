@@ -18,7 +18,7 @@ The railway closed in 1992, and Catadupa lost much of its economic base. Many re
 St. Matthew's is a modest chapel characteristic of the rural Anglican mission stations established across St. James's interior in the nineteenth century. The church is described as "serene" in its mountain setting and is included as a stop on the Catadupa Heritage and Eco Tours walking route.
 
 ## Education
-The Anglican mission to educate was central to the Montpelier Cure's purpose after Emancipation. Schools were established alongside churches across the interior to serve communities of freed people. Bishop Lipscomb founded over 80 elementary schools in the 1830s, and by 1900 the Diocese operated 263 schools island-wide. Catadupa today is served by Catadupa Primary and Junior High (formerly Catadupa All Age School), continuing the tradition of community education in the mountains.
+The Anglican mission to educate was central to the Montpelier Cure's purpose after Emancipation. Schools were established alongside churches across the interior to serve communities of freed people. Bishop Lipscomb established over 50 national schools (by 1835 he reported 142 schools with 8,500 scholars), and by 1900 the Diocese operated 263 elementary schools island-wide. Catadupa today is served by Catadupa Primary and Junior High (formerly Catadupa All Age School), continuing the tradition of community education in the mountains.
 
 ## Clergy
 St. Matthew's is part of the St. Mary's Montpelier Cure, served by Rev. Don T. Lewis (retired rector), assisted by Melvin Newsome and Cleve Llewellyn. The 1891 Handbook records C. G. McGregor at Montpelier; the 1900 Handbook lists C. G. McGregory with five mission stations.
