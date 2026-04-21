@@ -25,8 +25,9 @@ St. James' is part of the Holy Trinity Cure, Grange Hill, which also includes Tr
 The *Knight v. Wedderburn* case (1778) — arising from an enslaved boy purchased at Glen Islay, just two kilometres from St. James' — is one of the most significant legal challenges to slavery in British history. The Scottish court's ruling that slavery was incompatible with Scots law predated the Abolition of the Slave Trade Act (1807) by nearly thirty years and full Emancipation (1838) by sixty. That a church now stands in the landscape where Knight was enslaved embodies the transformation from bondage to freedom that defines Jamaica's history.
 
 ## References
-- UCL Legacies of British Slavery — Glen Islay estate, John Wedderburn, Benjamin Capon (ucl.ac.uk/lbs)
-- Diocese of Jamaica and the Cayman Islands — Montego Bay Region, Holy Trinity Cure (anglicandioceseja.org)
-- Jamaica Information Service — "Grange Hill Primary School Celebrates 100 Years" (jis.gov.jm)
-- *Handbook of Jamaica* (1900) — R. E. Bennett at Grange Hill (jamaicanfamilysearch.com)
-- Church of England Clergy in Jamaica — Rev. Henry Clarke, Grange Hill rector from 1869 (jamaicanfamilysearch.com)
+- UCL Legacies of British Slavery — Glen Islay estate, John Wedderburn, Benjamin Capon: [ucl.ac.uk/lbs](https://www.ucl.ac.uk/lbs/)
+- Wikipedia — Knight v. Wedderburn (1778): [en.wikipedia.org/wiki/Knight_v_Wedderburn](https://en.wikipedia.org/wiki/Knight_v_Wedderburn)
+- Diocese of Jamaica and the Cayman Islands — Montego Bay Region, Holy Trinity Cure: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)
+- Jamaica Information Service — "Grange Hill Primary School Celebrates 100 Years": [jis.gov.jm](https://jis.gov.jm/)
+- 1900 Handbook of Jamaica — Clergy and Church (R. E. Bennett at Grange Hill): [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Samples/handbk9.htm)
+- Church of England Clergy in Jamaica: [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/bclergy.htm)

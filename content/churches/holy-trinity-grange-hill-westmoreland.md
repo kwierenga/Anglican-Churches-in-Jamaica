@@ -23,8 +23,8 @@ Rev. Michael Solomon serves as rector, assisted by Rev. Ula Ruddock and Rev. Car
 The Trinity dedication — Father, Son, and Holy Spirit — is one of the most traditional Anglican church names. Grange Hill's position as the market town and administrative centre of northern Westmoreland made it the natural site for the mother church of the cure. Jamaica's independence on 6 August 1962 was marked by the installation of Sir Clifford Campbell — educated at the school that began in the Anglican church hall — as the nation's first Jamaican-born Governor-General.
 
 ## References
-- *Handbook of Jamaica* (1900) — R. E. Bennett at Grange Hill (jamaicanfamilysearch.com)
-- Church of England Clergy in Jamaica — Rev. Henry Clarke, rector from 1869 (jamaicanfamilysearch.com)
-- Jamaica Information Service — "Grange Hill Primary School Celebrates 100 Years" (jis.gov.jm)
-- Diocese of Jamaica and the Cayman Islands — Montego Bay Region (anglicandioceseja.org)
-- Diocese of Jamaica — Hurricane Melissa damage images (anglicandioceseja.org)
+- 1900 Handbook of Jamaica — Clergy and Church (R. E. Bennett at Grange Hill): [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Samples/handbk9.htm)
+- Church of England Clergy in Jamaica (Rev. Henry Clarke, rector from 1869): [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/bclergy.htm)
+- Jamaica Information Service — "Grange Hill Primary School Celebrates 100 Years": [jis.gov.jm](https://jis.gov.jm/)
+- Diocese of Jamaica and the Cayman Islands — Montego Bay Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)
+- UCL Legacies of British Slavery — Glen Islay (Knight v Wedderburn): [ucl.ac.uk/lbs](https://www.ucl.ac.uk/lbs/)

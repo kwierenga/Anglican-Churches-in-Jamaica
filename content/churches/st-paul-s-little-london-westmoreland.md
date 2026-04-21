@@ -25,9 +25,9 @@ Rev. Opal Beharie (Supplementary Minister) is currently assigned to St. Paul's. 
 The dedication to St. Paul — the Apostle to the Gentiles — is consistent with the Anglican tradition of dedicating mission churches to apostolic figures. Paul's identity as one who crossed boundaries to build new communities mirrors the church's own founding purpose. His feast day is 29 June. St. Paul's proximity to the Masemure estate — where Apongo's 1760 rebellion erupted — and to the Frome factory — where the 1938 labour riots catalysed Jamaica's independence movement — places the church at two of the most significant sites of resistance in Jamaican history.
 
 ## References
-- *Handbook of Jamaica* (1891) — Rev. B. A. S. MacCalla, 450 members, 152 baptisms (jamaicanfamilysearch.com)
-- *Handbook of Jamaica* (1900) — Rev. R. L. Reid, "St. Paul's and Negril" (jamaicanfamilysearch.com)
-- Jamaican Ancestral Records — St. Paul's Little London, 147 burials from 1880s (jamaicanancestralrecords.com)
-- UCL Legacies of British Slavery — Masemure estate (ucl.ac.uk/lbs)
-- Jamaica Information Service — Hurricane Melissa landfall at New Hope (jis.gov.jm)
-- Ralph Ottey, *Little London, Jamaica and Me 1924–1944* — community history
+- 1891 Handbook of Jamaica — Anglican clergy (Rev. B. A. S. MacCalla, 450 members): [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/hclergy1.htm)
+- 1900 Handbook of Jamaica — Clergy and Church (Rev. R. L. Reid, "St. Paul's and Negril"): [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Samples/handbk9.htm)
+- UCL Legacies of British Slavery — Masemure estate (Tacky's Revolt western arm): [ucl.ac.uk/lbs](https://www.ucl.ac.uk/lbs/)
+- Wikipedia — Tacky's Revolt: [en.wikipedia.org/wiki/Tacky's_Revolt](https://en.wikipedia.org/wiki/Tacky's_Revolt)
+- Jamaica Information Service — Parish Profile: Westmoreland: [jis.gov.jm](https://jis.gov.jm/information/parish-profiles/parish-profile-westmoreland/)
+- Ralph Ottey, *Little London, Jamaica and Me 1924–1944* (community history, no online edition identified)
