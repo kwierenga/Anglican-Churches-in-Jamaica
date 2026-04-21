@@ -1,16 +1,30 @@
 # St. John's, Darliston
 **Westmoreland** · Church · active
 
-St. John's Anglican Church serves Darliston, a rural community in the eastern interior of Westmoreland where the plains begin to give way to the foothills bordering St. Elizabeth. The district is primarily agricultural, with small-scale farming of provisions and livestock. St. John's provides Anglican worship and community ministry to the families of Darliston and its surrounding settlements, functioning as a stable institutional presence in a quiet rural corner of the parish.
+St. John's Anglican Church serves Darliston, a rural town in the interior of Westmoreland, 16 kilometres east-northeast of Savanna-la-Mar. Together with St. Peter's Petersfield, it has formed the Petersfield–Darliston Cure for well over a century — a single Anglican charge covering interior Westmoreland, and since 1979 under the Rev. Canon Hartley Perrin, who also serves as Custos of Westmoreland. Burial records at St. John's churchyard begin in the 1860s.
 
 ## History
-Darliston sits in a transitional zone between the sugar plain of western Westmoreland and the drier hill country to the east. The community grew in the post-Emancipation period as freed families established independent smallholdings in the interior, moving away from the coastal estates. The Anglican Church extended its network into districts like Darliston through mission chapels, reflecting the Diocese's commitment to maintaining a presence across the full breadth of the parish rather than concentrating solely in the larger coastal towns. St. John's has served as the community's church for well over a century.
+Westmoreland was one of the largest and most productive sugar parishes of the British Caribbean, its plain cultivated by an enslaved labour force. Until 1870 the Church of England in Jamaica was the established state church. Darliston grew in the post-Emancipation period as freed people moved into the interior to establish independent smallholdings; the town lies on the transitional ground between the sugar plain to the west and the drier hill country toward St. Elizabeth.
+
+The churchyard of St. John's contains 126 documented tombstones, the earliest dating to the 1860s, confirming that the church was an established burial ground for Darliston's Anglican families by the mid-nineteenth century. By the 1890s the parish was formally paired with Petersfield as the Petersfield–Darliston Cure: the 1900 Handbook of Jamaica records a single rector serving both from 1887 to 1897. The Rev. Canon Hartley Perrin has been rector of the cure since 1979.
+
+Darliston is also the birthplace of Samuel U. Hastings, who became the first Jamaican consecrated as a bishop in the Moravian Church.
 
 ## Architecture
-St. John's is a small rural chapel constructed from masonry in the simple style common to Anglican mission churches across Westmoreland's interior. The building is set within a churchyard that includes a burial ground serving the local community. The church's interior is plain and functional, with wooden pews and simple furnishings suited to a modest rural congregation. Its inland position, away from the immediate coast, gives it somewhat more shelter from storm surge than the coastal churches, though the district is not immune to wind damage.
+St. John's is a small masonry church in the centre of Darliston, with an adjoining churchyard whose burials span from the 1860s to the present.
 
 ## Clergy
-Darliston has been served within the eastern Westmoreland clergy cluster, grouped with other interior churches under shared ministry arrangements. Lay leadership has been particularly important in sustaining the church between clerical visits, with wardens, readers, and Mothers' Union members playing a central role. The church is confirmed active in diocesan records and through its documented use for funerals and community events.
+St. John's is part of the Petersfield–Darliston Cure under the Rev. Canon Hartley Perrin (rector since 1979). A single incumbent is recorded as having served both Petersfield and Darliston from 1887 to 1897 per the 1900 Handbook of Jamaica, and the cure has continued as a single charge ever since.
+
+## Hurricane Melissa (October 2025)
+Hurricane Melissa made landfall near New Hope in Westmoreland on 28 October 2025 as a Category 5 storm. Darliston and the interior of Westmoreland sustained destructive winds. The specific status of St. John's after Melissa has not been separately reported, although Canon Perrin's cure as a whole was among the most severely affected in the Diocese (see St. Peter's Petersfield).
 
 ## Notable Facts
-Darliston's inland location makes it less exposed to storm surge but places it in the path of the intense inland wind and rain associated with major hurricanes passing over or near Westmoreland. Hurricane Charlie (1951) tracked over this part of Jamaica and caused widespread tree fall and structural damage inland. Hurricane Gilbert (1988) again produced severe inland wind damage across Westmoreland's interior. During Hurricane Melissa (October 2025), which made landfall in western Westmoreland, the Darliston district experienced destructive winds; the congregation was affected and pastoral support from the Diocese was extended to the community in the storm's aftermath.
+Darliston is the birthplace of Samuel U. Hastings, the first Jamaican consecrated a bishop in the Moravian Church — a distinction that speaks to the town's nineteenth-century religious culture beyond the Anglican establishment. The principal economy of the area is the production of breadfruit and livestock, an unusual pairing rooted in the botanical introductions of the 1790s and the post-Emancipation smallholder economy.
+
+## References
+- 1900 Handbook of Jamaica — Clergy and Church: [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Samples/handbk9.htm)
+- Jamaican Ancestral Records — St. John's Anglican, Darliston (126 tombstones, 1860s–2000s): [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/westmoreland/st-johns-anglican-darliston-westmoreland/)
+- Wikipedia — Darliston: [en.wikipedia.org/wiki/Darliston](https://en.wikipedia.org/wiki/Darliston)
+- Caribbean National Weekly — Custos Rev. Hartley Perrin on Melissa: [caribbeannationalweekly.com](https://www.caribbeannationalweekly.com/news/westmoreland-in-ruins-custos-rev-hartley-perrin-shares-harrowing-scenes-after-hurricane-melissa/)
+- Diocese of Jamaica and the Cayman Islands — Montego Bay Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)
