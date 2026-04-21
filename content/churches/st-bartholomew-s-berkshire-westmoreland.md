@@ -14,3 +14,7 @@ Within the diocesan structure, St. Bartholomew’s belongs to the Montego Bay Re
 
 ## Notable Facts
 The Berkshire district is recognized in census data as a small, economically vulnerable community, contrasting sharply with Jamaica's coastal resort towns. St. Bartholomew’s exists within a landscape steeped in history, near Bethel Town—a documented former slave village that became a free village after Emancipation. Modern media reports highlight the socioeconomic challenges facing the area, including poverty and disasters like house fires. The community's vulnerability was starkly exposed when Hurricane Melissa made landfall in nearby New Hope, Westmoreland, in October 2025, causing severe damage across the region. While specific damage to the church building is not detailed in public reports, its location placed it and its congregation directly within a major disaster zone, underscoring its critical role as a pastoral and communal anchor in times of crisis.
+
+## References
+- Diocese of Jamaica and the Cayman Islands — Montego Bay Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)
+- 1891 Handbook of Jamaica — Anglican clergy: [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/hclergy1.htm)
