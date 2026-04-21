@@ -1,5 +1,5 @@
 # St. James', Craighead
-**Manchester** · Church · unknown
+**Manchester** · Church · inactive
 
 St. James' Anglican Church serves Craighead in northern Manchester, part of the Albert Town cure circuit. Craighead is a community in the hills near Albert Town, in the farming landscape on the edge of the Cockpit Country. The church extends the Albert Town cure's reach into the surrounding rural communities.
 

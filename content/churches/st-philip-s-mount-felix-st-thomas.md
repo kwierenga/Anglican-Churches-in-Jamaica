@@ -1,5 +1,5 @@
 # St. Philip's, Mount Felix
-**St. Thomas** · Mission · unknown
+**St. Thomas** · Mission · active
 
 St. Philip's Anglican Church provides a second worship point in the Mount Felix area of St. Thomas, alongside St. Augustine's also recorded at this community. Mount Felix is a small farming district in the interior of St. Thomas, and the presence of two Anglican entries in the area reflects either a dispersed community served by separate chapels in different parts of the Mount Felix district, or historical uncertainty about the precise location of worship points in this part of the parish.
 

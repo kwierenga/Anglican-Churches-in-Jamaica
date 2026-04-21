@@ -1,5 +1,5 @@
 # St. Cuthbert's, Hunt's Bay
-**St. Andrew** · Mission · unknown
+**St. Andrew** · Mission · inactive
 
 St. Cuthbert's Anglican Church serves Hunt's Bay, a community in southern St. Andrew on the coast of Kingston Harbour. Hunt's Bay is a low-lying coastal and industrial community at the western end of the Kingston waterfront, and St. Cuthbert's provides Anglican ministry to this harbour-side community. The dedication to St. Cuthbert of Lindisfarne — the hermit-monk and bishop who became one of the most beloved saints of the early English church — is rare in Jamaica.
 

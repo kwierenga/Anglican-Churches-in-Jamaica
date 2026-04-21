@@ -7,3 +7,4 @@ data/build/
 .vite/
 data/hurricane-melissa-2025/
 data/new-images/
+.claude/settings.local.json

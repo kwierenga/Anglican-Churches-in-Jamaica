@@ -1,5 +1,5 @@
 # St. Peter's, Wait-a-Bit
-**Manchester** · Church · unknown
+**Manchester** · Church · inactive
 
 St. Peter's Anglican Church serves Wait-a-Bit in northern Manchester, part of the Albert Town cure. Wait-a-Bit is one of Jamaica's most characteristically named communities — the name is believed to derive from the wait-a-bit thorn (Acacia nilotica or similar thorny shrub), which grows prolifically in the Jamaican interior and catches travellers on their clothing, compelling them to stop and disentangle. The name perfectly captures the rugged, thorny landscape of the Cockpit Country edge.
 

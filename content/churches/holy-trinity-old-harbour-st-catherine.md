@@ -1,5 +1,5 @@
 # Holy Trinity, Old Harbour
-**St. Catherine** · Church · unknown
+**St. Catherine** · Church · inactive
 
 Holy Trinity Anglican Church provides a second Anglican worship point in the Old Harbour area of St. Catherine, alongside St. Dorothy's which is the historic principal Anglican church of Old Harbour. Confirmed at 2 Darlington Drive, Old Harbour, the church is described by reviewers as warm and welcoming with a feeling of family. Holy Trinity serves its part of the Old Harbour community.
 

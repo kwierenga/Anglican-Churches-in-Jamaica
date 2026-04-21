@@ -1,5 +1,5 @@
 # Holy Trinity, Spanish Town
-**St. Catherine** · Church · unknown
+**St. Catherine** · Church · inactive
 
 Holy Trinity Anglican Church serves the Spanish Town community of St. Catherine, providing a second Anglican worship point in the former capital distinct from the Cathedral of St. Jago de la Vega. Spanish Town is a substantial city with a population large enough to support multiple Anglican churches, and Holy Trinity serves the congregation in its part of the town.
 

@@ -1,5 +1,5 @@
 # St. John's, Portland Cottage
-**Clarendon** · Church · unknown
+**Clarendon** · Church · inactive
 
 St. John's Anglican Church serves Portland Cottage on the south coast of Clarendon, in the same cure circuit as St. Peter's Alley, St. Saviour's Milk River, and St. Thomas' Race Course. Portland Cottage is a fishing village on the south coast plain at the western edge of Clarendon's coastal zone, near the border with St. Elizabeth. The church is served from the Lionel Town rectory.
 

@@ -1,5 +1,5 @@
 # St. Andrew's, Albert Town
-**Manchester** · Church · unknown
+**Manchester** · Church · inactive
 
 St. Andrew's Anglican Church at Albert Town is the principal church of a cure covering the far northern part of Manchester, close to the Trelawny border. The Albert Town cure also includes St. James' Craighead, St. Silas' Troy, St. Peter's Wait-a-Bit, and St. Barnabas' Warsop. Albert Town is a market town in the upper reaches of the Martha Brae watershed, at the northern edge of the Cockpit Country.
 

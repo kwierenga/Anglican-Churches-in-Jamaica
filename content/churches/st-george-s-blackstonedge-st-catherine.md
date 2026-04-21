@@ -1,5 +1,5 @@
 # St. George's, Blackstonedge
-**St. Catherine** · Church · unknown
+**St. Catherine** · Church · inactive
 
 St. George's Anglican Church serves Blackstonedge in St. Catherine, with missions at St. Paul's Clapham and All Saints' Guys Hill. Blackstonedge is a community in the hills of northern St. Catherine, in the farming landscape east of the parish. St. George's is the main cure church for this part of the parish and has maintained an Anglican presence in this elevated interior district.
 

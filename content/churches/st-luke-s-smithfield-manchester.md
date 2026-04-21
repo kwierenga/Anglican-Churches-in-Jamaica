@@ -1,5 +1,5 @@
 # St. Luke's, Smithfield
-**Manchester** · Church · unknown
+**Manchester** · Church · inactive
 
 St. Luke's Anglican Church serves Smithfield in Manchester, listed as a co-cure with St. David's Snowdon, St. Jude's Pratville, and St. Patrick's Providence under the Newport/Snowdon rectory. Smithfield is a community in the western interior of Manchester. The church extends Anglican ministry into this part of the parish.
 

@@ -1,5 +1,5 @@
 # St. Bartholomew's, Good Hope
-**Clarendon** · Church · unknown
+**Clarendon** · Church · inactive
 
 St. Bartholomew's Anglican Church serves Good Hope in Clarendon, the principal cure of a circuit that includes missions at St. Peter's Rhoden Hall and St. Michael's Arthur's Seat. Good Hope is a community in the interior of Clarendon. St. Bartholomew's is distinct from St. Bartholomew's Frankfield — there are two Bartholomew dedications in Clarendon, reflecting the parish's large size and the need for multiple cure circuits across the interior.
 

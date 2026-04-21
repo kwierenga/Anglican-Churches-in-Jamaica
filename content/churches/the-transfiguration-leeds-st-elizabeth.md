@@ -1,5 +1,5 @@
 # The Transfiguration, Leeds
-**St. Elizabeth** · Church · unknown
+**St. Elizabeth** · Church · inactive
 
 The Church of the Transfiguration serves Leeds in St. Elizabeth, listed as a cure in the Santa Cruz circuit. Leeds is a community in the interior of St. Elizabeth, and the church's Transfiguration dedication commemorates the moment on Mount Tabor when Jesus' appearance was transformed before Peter, James, and John — one of the most visually dramatic events in the Gospels. The feast of the Transfiguration (6 August) falls in the heart of hurricane season.
 

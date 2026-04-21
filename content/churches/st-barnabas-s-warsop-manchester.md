@@ -1,5 +1,5 @@
 # St. Barnabas', Warsop
-**Manchester** · Church · unknown
+**Manchester** · Church · inactive
 
 St. Barnabas' Anglican Church serves Warsop in northern Manchester, the fifth church in the Albert Town cure circuit. Warsop is a community in the northern interior of Manchester, in the hill country near the Albert Town area. The name Warsop derives from a town in Nottinghamshire, England — Warsop in the Sherwood Forest area — reflecting the practice of English estate owners naming their Jamaican properties after English towns.
 

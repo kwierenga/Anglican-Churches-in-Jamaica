@@ -1,5 +1,5 @@
 # St. Silas', Troy
-**Manchester** · Church · unknown
+**Manchester** · Church · inactive
 
 St. Silas' Anglican Church serves Troy in Manchester, part of the Albert Town cure. Troy is a community in the Cockpit Country-adjacent landscape of northern Manchester/St. Elizabeth border area. St. Silas' dedication is one of the rarer in Jamaica's Anglican network — Silas was Paul's companion on his second missionary journey, whose most famous moment was singing hymns in a Philippian jail at midnight.
 

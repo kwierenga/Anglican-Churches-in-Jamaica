@@ -1,5 +1,5 @@
 # St. Gabriel's, Brandon Hill
-**St. Andrew** · Church · unknown
+**St. Andrew** · Church · inactive
 
 St. Gabriel's Anglican Church serves Brandon Hill, a community in southern St. Andrew in the residential zone adjoining the Kingston metropolitan area. Brandon Hill is a neighbourhood in the urban fringe of southern St. Andrew, and St. Gabriel's has provided Anglican ministry here for several generations. The dedication to the archangel Gabriel — the divine messenger of the Annunciation — gives this church a celestial patron shared with few other Jamaican Anglican churches.
 

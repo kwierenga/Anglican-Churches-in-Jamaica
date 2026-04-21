@@ -1,5 +1,5 @@
 # St. Philip's, St. Margaret's Bay
-**Portland** · Church · unknown
+**Portland** · Church · active
 
 St. Philip's Anglican Church provides a second Anglican worship point in the St. Margaret's Bay area of Portland, in addition to St. Stephen's also recorded in this coastal community. St. Margaret's Bay is a small north-coast community between Port Antonio and Hope Bay, and the presence of two Anglican churches in the area may reflect either a geographically dispersed community served by distinct chapels, or worship points at slightly different locations within the bay area.
 

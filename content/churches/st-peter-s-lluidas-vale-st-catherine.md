@@ -1,5 +1,5 @@
 # St. Peter's, Lluidas Vale
-**St. Catherine** · Church · unknown
+**St. Catherine** · Church · inactive
 
 St. Mary's Anglican Church serves Lluidas Vale, a community in the interior of St. Catherine parish in the hill country of the western part of the parish near the border with Clarendon and Manchester. Lluidas Vale is a notable agricultural community in a high-altitude valley surrounded by the hills of central Jamaica, known for its sugar production and cool climate.
 

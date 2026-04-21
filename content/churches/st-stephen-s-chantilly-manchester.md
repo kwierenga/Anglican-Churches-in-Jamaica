@@ -1,5 +1,5 @@
 # St. Stephen's, Chantilly
-**Manchester** · Church · unknown
+**Manchester** · Church · inactive
 
 St. Stephen's Anglican Church serves Chantilly in Manchester, listed as a co-cure with St. Augustine's Porus and St. James' Toll Gate under the Porus rectory. Chantilly is a community in the interior of Manchester. St. Stephen's extends Anglican ministry into this part of the parish alongside the main Porus cure.
 

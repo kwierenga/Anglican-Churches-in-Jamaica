@@ -1,5 +1,5 @@
 # St. Paul's, Goffe / Goba (district)
-**St. Catherine** · Mission · unknown
+**St. Catherine** · Mission · inactive
 
 St. Paul's Anglican Church serves the Goba/Goffe district of St. Catherine, a community in the interior hill country of the parish. The Goba/Goffe area is a small farming district, and the church has provided Anglican ministry here for several generations.
 

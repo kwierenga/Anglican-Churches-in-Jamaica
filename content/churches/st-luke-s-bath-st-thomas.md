@@ -1,5 +1,5 @@
 # St. Luke's, Bath
-**St. Thomas** · Church · unknown
+**St. Thomas** · Church · active
 
 St. Luke's Anglican Church provides a second Anglican worship point in the Bath area of St. Thomas, alongside St. Thomas' Anglican Church which is the historic principal church of the spa town. St. Luke's serves a part of the Bath community or its surrounding district, in the historic spa town famous for its mineral hot springs in the eastern interior of the parish.
 
