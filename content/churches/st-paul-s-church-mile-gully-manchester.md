@@ -14,4 +14,6 @@ Mile Gully has been served within the Manchester deanery. St. Paul's serves the 
 
 ## Notable Facts
 Mile Gully is defined in local memory by the ruined St. George's Church — 'Duppy Church' — which stands roofless and full of old graves and has accumulated legends about ghostly church services heard by passers-by at night. The legend that music and congregational sounds are heard from the ruins late at night reflects a wider Jamaican tradition of duppy (ghost) stories attached to abandoned religious buildings. St. Paul's active congregation represents the continuation of Anglican life in a community shaped by this haunted landmark.
+
+## References
 - National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

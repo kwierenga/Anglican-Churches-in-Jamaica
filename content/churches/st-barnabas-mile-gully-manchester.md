@@ -14,4 +14,6 @@ Mile Gully has been served within the Manchester deanery. St. Barnabas' provides
 
 ## Notable Facts
 St. Barnabas' feast day (11 June) is associated with long days — Barnabas Day was the longest day in the Julian calendar before the Gregorian reform. An old English proverb ran 'Barnaby bright, Barnaby bright, the longest day and the shortest night.' The lively worship described by reviewers at St. Barnabas' Mile Gully contrasts sharply with the eerie silence of the nearby Duppy Church ruins, giving Mile Gully a vivid dual character.
+
+## References
 - National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

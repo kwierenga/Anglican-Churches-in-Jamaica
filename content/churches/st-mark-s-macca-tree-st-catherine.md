@@ -14,5 +14,7 @@ Macca Tree has been served within the St. Catherine deanery under shared clergy 
 
 ## Notable Facts
 The name Macca Tree is one of many Jamaican community names that describe the local natural environment — 'macca' refers to thorny plants including the prickly pear cactus and various native shrubs with spines. Such botanical community names are found across Jamaica's interior parishes, preserving a vernacular naming tradition rooted in the direct observation of the landscape.
+
+## References
 - National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

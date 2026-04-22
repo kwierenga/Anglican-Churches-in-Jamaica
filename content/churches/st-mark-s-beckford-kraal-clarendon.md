@@ -14,4 +14,6 @@ Beckford Kraal has been served within the Clarendon deanery under shared clergy 
 
 ## Notable Facts
 The Beckford family were one of the most prominent and wealthy plantation families in 18th-century Jamaica. William Beckford the Elder was Lord Mayor of London twice and among the richest men in England, his wealth derived from Jamaican sugar estates. The Beckford name appears in several Jamaican place names reflecting the family's once-vast landholdings. The 'Kraal' designation is one of the most unusual elements in Jamaican place naming — a Dutch livestock enclosure term embedded in an interior Clarendon community name.
+
+## References
 - National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

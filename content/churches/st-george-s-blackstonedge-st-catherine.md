@@ -14,5 +14,7 @@ The cure has been listed as Vacant in recent diocesan records with Richard Ander
 
 ## Notable Facts
 St. George is England's patron saint, and St. George's dedications are found throughout Jamaica's Anglican network — from the parish church in Spanish Town to mission churches in the hills. The feast of St. George (23 April) was a significant date in the calendar of English colonialism, and the dedication was a common way of marking a place as part of the English Anglican settlement of the island.
+
+## References
 - National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

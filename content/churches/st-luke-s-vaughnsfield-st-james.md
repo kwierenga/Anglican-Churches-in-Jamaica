@@ -14,5 +14,7 @@ Vaughnsfield has been served within the southern St. James clergy cluster of the
 
 ## Notable Facts
 The southern hills of St. James form part of the highland zone that connects the great sugar parishes of the western coastal plain to the drier interior of the island. Communities like Vaughnsfield sit in a landscape shaped entirely by the post-Emancipation smallholder economy, largely invisible to the tourist industry that dominates the north coast. Hurricane Gilbert (1988) caused severe wind damage and landslides across the St. James interior. Hurricane Ivan (2004) brought further destruction to southern St. James hill communities. Hurricane Melissa (October 2025) made landfall in Westmoreland and tracked toward St. James; the interior hill communities of southern St. James, including Vaughnsfield, experienced damaging winds and the congregation required pastoral support in the aftermath.
+
+## References
 - National Library of Jamaica — The History of St. James: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20James.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. James: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

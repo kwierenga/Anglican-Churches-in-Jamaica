@@ -14,4 +14,6 @@ Crofts Hill has been served within the Clarendon deanery under shared clergy arr
 
 ## Notable Facts
 The reviewers' testimonies for All Saints' Crofts Hill — 'my first childhood church' and 'lots of childhood memories' — capture the essential role of small Anglican churches in rural Jamaican communities. These buildings are not simply places of worship but the sites of the formative sacramental moments of life: baptism, confirmation, marriage, and burial. All Saints' Day (1 November) encompasses the full company of recognised and unrecognised saints.
+
+## References
 - National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

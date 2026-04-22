@@ -14,4 +14,6 @@ Auchtembeddie has been served within the Manchester deanery under shared clergy 
 
 ## Notable Facts
 Auchtembeddie is one of the most distinctively Scottish place names in Jamaica. Scotland was disproportionately represented among Jamaica's colonial proprietors, overseers, and professional class relative to its population — a fact that has left a permanent mark on Jamaican place names, surnames, and cultural practices. The name Auchtembeddie in the remote hills of Manchester connects this small community to the Highlands and Lowlands of Scotland across three centuries of history.
+
+## References
 - National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

@@ -14,4 +14,6 @@ Pratville has been served within the Manchester deanery under shared clergy arra
 
 ## Notable Facts
 St. Jude's status as patron of hopeless causes derives from a practical medieval observation: because his name was so similar to Judas Iscariot's, people avoided invoking him, so he had very few petitioners. As a result, he was available and eager to help — becoming the saint of last resort. Small rural churches dedicated to St. Jude across Jamaica carry this patron's identity as the helper of the overlooked and the forgotten.
+
+## References
 - National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

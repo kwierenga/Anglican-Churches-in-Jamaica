@@ -14,4 +14,6 @@ Porous has been served within the Clarendon deanery under shared clergy arrangem
 
 ## Notable Facts
 Porus is one of the larger interior market towns of central Jamaica, serving as a hub for the hill farming communities of northern Clarendon and southern Manchester. The town sits near the boundary of the two parishes and has connections to both.
+
+## References
 - National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

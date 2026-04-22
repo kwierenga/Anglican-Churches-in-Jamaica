@@ -14,5 +14,7 @@ Mary Magdalene is part of the Montego Bay Region of the Anglican Diocese and has
 
 ## Notable Facts
 Granville’s proximity to the coast and to Montego Bay’s urban infrastructure means the community sits in a complex risk environment: neither as exposed to direct storm surge as the beachfront properties, nor as sheltered as the deep interior. The western corridor of Montego Bay has been affected by multiple major storms, with Hurricane Gilbert (1988) causing widespread damage across the greater Montego Bay area and Hurricane Ivan (2004) bringing destructive conditions to the north-west coast. Hurricane Melissa (October 2025) made landfall in Westmoreland and its effects extended across St. James; Granville, as a western suburb close to the storm’s landfall zone, was among the communities experiencing damaging wind conditions, and Mary Magdalene’s congregation was directly affected.
+
+## References
 - National Library of Jamaica — The History of St. James: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20James.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. James: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

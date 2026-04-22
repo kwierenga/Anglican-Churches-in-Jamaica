@@ -14,4 +14,6 @@ Milk River has been served within the Clarendon deanery. St. Saviour's and St. B
 
 ## Notable Facts
 The 'Saviour' dedication is a directly Christological name, unique in its explicit reference to the redemptive role of Jesus rather than invoking a saint. St. Saviour's at Milk River thus carries a spiritually charged name in a community already defined by unusual natural powers — the mineral waters said to cure ailments of the body, and the church offering salvation for the soul.
+
+## References
 - National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

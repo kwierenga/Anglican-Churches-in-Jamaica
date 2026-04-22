@@ -14,5 +14,7 @@ The Santa Cruz cure covering Leeds is served by Hilda Vaughan from the Santa Cru
 
 ## Notable Facts
 The Transfiguration (6 August) is one of the Principal Feasts of the Anglican calendar, celebrated with particular solemnity. The event — recorded in Matthew 17, Mark 9, and Luke 9 — is understood as a moment of divine disclosure, when Christ's full nature was briefly revealed to his inner circle of disciples. Churches dedicated to the Transfiguration are found across the Anglican world, and this St. Elizabeth example connects a rural Jamaican community to one of the Church's central theological moments.
+
+## References
 - National Library of Jamaica — The History of St. Elizabeth: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Elizabeth.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. Elizabeth: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

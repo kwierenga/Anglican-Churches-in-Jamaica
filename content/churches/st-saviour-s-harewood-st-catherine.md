@@ -14,5 +14,7 @@ Harewood has been served within the St. Catherine deanery under shared clergy ar
 
 ## Notable Facts
 The Saviour dedication is among the most direct Christological church names in Anglican tradition, explicitly naming Jesus in his redemptive role rather than invoking a saint or a theological concept. Churches with this dedication — like Saviour's in various communities — carry a particularly evangelical character in their naming.
+
+## References
 - National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

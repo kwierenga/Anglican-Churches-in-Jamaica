@@ -14,4 +14,6 @@ Frankfield has been served within the Clarendon deanery. St. Bartholomew's and S
 
 ## Notable Facts
 St. Bartholomew's feast day (24 August) falls in the height of hurricane season. Frankfield's position in the upper Rio Minho valley makes it central to the agricultural economy of interior Clarendon, and the town has historically served as the market hub for the surrounding hill communities.
+
+## References
 - National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

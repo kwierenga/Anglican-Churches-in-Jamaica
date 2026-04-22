@@ -14,5 +14,7 @@ Historically, All Souls has been served by clergy from the wider Anglican networ
 
 ## Notable Facts
 Parish histories recognize All Souls as one of the significant Anglican outposts that extended church life into St. Elizabeth's interior districts beyond the coastal town. The churchyard contains headstones spanning from the late 19th through the 20th centuries, featuring names associated with Brompton, Luana, and nearby estates, making it a valuable resource for genealogical research. Recent news coverage highlights how this church, like others named All Souls in the parish, has served as an emergency shelter during crises, illustrating its continued role as both place of worship and community refuge in times of need.
+
+## References
 - National Library of Jamaica — The History of St. Elizabeth: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Elizabeth.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. Elizabeth: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

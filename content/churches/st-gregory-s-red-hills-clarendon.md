@@ -14,4 +14,6 @@ Red Hills Clarendon has been served within the Clarendon deanery under shared cl
 
 ## Notable Facts
 St. Gregory's significance to the Anglican church is foundational — it was his decision to send Augustine of Canterbury with 40 monks to evangelise the Anglo-Saxons in 597 AD that created the English church. Gregory famously punned on the English people's name upon seeing Anglo-Saxon slaves in Rome: 'Non Angli, sed Angeli' ('Not Angles, but Angels'). A dedication to Gregory in a Jamaican Anglican church thus connects to the very origins of the English Christian tradition.
+
+## References
 - National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

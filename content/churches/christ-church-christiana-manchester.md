@@ -14,4 +14,6 @@ Christiana has been served within the Manchester deanery. Christ Church and St. 
 
 ## Notable Facts
 The 'Christ Church' dedication — naming a church after Jesus Christ himself rather than a saint or theological concept — is one of the most direct forms of Anglican church naming. The pipe organ at Christ Church Christiana is a reminder that many Jamaican Anglican churches once had or aspired to have serious musical instruments as part of their worship tradition. The restoration of such organs has been a recurring project in several Jamaican churches.
+
+## References
 - National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

@@ -14,4 +14,6 @@ Providence has been served within the Manchester deanery under shared clergy arr
 
 ## Notable Facts
 St. Patrick (17 March) is the patron saint of Ireland, though he was actually born in Roman Britain and taken to Ireland as a slave before escaping, returning as a bishop, and converting the Irish to Christianity in the 5th century. His dedication in a Jamaican interior community named Providence creates a resonance — both Patrick's life and the community name speak of survival, escape, and divine care. Irish involvement in the Jamaican colonial enterprise, though less prominent than Scottish or English, is reflected in several Jamaican church and place names.
+
+## References
 - National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

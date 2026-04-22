@@ -14,5 +14,7 @@ St. Francis is listed under the Montego Bay Region as a mission of St. James Par
 
 ## Notable Facts
 A Hub for Community Uplift: The church is directly involved in socio-economic development. A 2011 Gleaner report quoted its priest championing training programs for young men and mothers, and supporting childcare to enable adult education, demonstrating a commitment to holistic community transformation. The Cradle of a Bishop: St. Francis is internationally recognized as the childhood church of The Rt. Rev. Rose Hudson-Wilkin. Her journey from Sunday school at the mission to serving as a Queen’s Chaplain and participating in the coronation of King Charles III highlights the global impact of this local congregation. Stability in a Challenged Environment: While social surveys note Glendevon's struggles with violence and crime, they also acknowledge the presence of strong institutions like St. Francis. The church, with its hall and school, provides a crucial pillar of stability and hope for families amidst these significant pressures.
+
+## References
 - National Library of Jamaica — The History of St. James: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20James.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. James: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

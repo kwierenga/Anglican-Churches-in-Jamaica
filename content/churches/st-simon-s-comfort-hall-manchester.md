@@ -14,4 +14,6 @@ Comfort Hall has been served within the Manchester deanery under shared clergy a
 
 ## Notable Facts
 Comfort Hall's name is one of the more aspirationally named communities in Jamaica — expressing the hope of ease and peace after the hardships of plantation life or post-Emancipation settlement. The cool, quiet character of the community described by reviewers suggests the name has been borne out in the community's character. Simon the Zealot, to whom the church is dedicated, is one of the most obscure apostles — distinguished from Simon Peter only by his political designation.
+
+## References
 - National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

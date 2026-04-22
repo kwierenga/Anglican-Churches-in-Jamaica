@@ -14,5 +14,7 @@ Old Works has been served within the St. Catherine deanery under shared clergy a
 
 ## Notable Facts
 The 'Works' designation in Jamaican place names consistently refers to the machinery and processing facilities of sugar estates, distinguishing the industrial heart of a plantation from its cultivation areas. 'Old Works' suggests a location associated with a now-defunct or long-transformed estate processing site, preserving an industrial memory in the community name.
+
+## References
 - National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

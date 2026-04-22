@@ -14,5 +14,7 @@ Cornwall Mountain has been served within the southern St. James clergy cluster o
 
 ## Notable Facts
 The southern highlands of St. James form a largely invisible landscape in relation to the tourist economy of Montego Bay, yet they contain communities with deep roots in the post-Emancipation history of the parish. Cornwall Mountain and similar upland districts were among the areas most affected by the landslides and road damage caused by Hurricane Gilbert (1988), which struck western Jamaica with enormous force and left interior hill communities isolated for days. Hurricane Ivan (2004) again caused serious damage to the interior hills. A note on the dataset: two entries for St. Stephen’s Cornwall Mountain appear in this record with slightly different coordinates, suggesting either two distinct Anglican worship points in the district or a data duplication requiring local verification. Hurricane Melissa (October 2025) made landfall in Westmoreland and its effects extended across the St. James interior highlands; Cornwall Mountain and the surrounding hill communities experienced damaging winds, heavy rain, and potential road disruption.
+
+## References
 - National Library of Jamaica — The History of St. James: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20James.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. James: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

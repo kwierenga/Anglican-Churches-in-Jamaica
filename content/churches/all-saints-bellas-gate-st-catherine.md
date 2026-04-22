@@ -14,5 +14,7 @@ Bellas Gate has been served within the St. Catherine deanery under shared clergy
 
 ## Notable Facts
 The Bellas Gate area of interior St. Catherine has a significant place in Jamaican popular culture. The community is associated with several prominent figures in Jamaican dancehall music and entertainment. The All Saints' dedication — commemorating the full company of saints on 1 November — gives this community church a universal spiritual character.
+
+## References
 - National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

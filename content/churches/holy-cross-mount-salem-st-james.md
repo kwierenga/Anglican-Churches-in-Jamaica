@@ -14,5 +14,7 @@ Holy Cross has been served within the Montego Bay Region, grouped with other wes
 
 ## Notable Facts
 Mount Salem’s appearance in national security discourse as a community of concern in St. James reflects the broader challenges facing urban communities in western Jamaica, where economic marginalisation and organised crime have created serious social pressures. The Anglican Church’s presence in Mount Salem through Holy Cross represents a commitment to ministry in difficult community contexts, consistent with the Diocese’s history of urban mission from St. Francis Glendevon to the inner-city congregations of Kingston. The hillside setting of Mount Salem, while reducing storm-surge exposure, means the community experiences significant landslide and access risks during major hurricanes. Hurricane Melissa (October 2025), which made landfall in Westmoreland and affected the wider St. James area, brought heavy rainfall to the hillside communities of Montego Bay; Holy Cross and its congregation were in the affected zone.
+
+## References
 - National Library of Jamaica — The History of St. James: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20James.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. James: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

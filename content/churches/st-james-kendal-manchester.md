@@ -14,4 +14,6 @@ Kendal has been served within the Manchester deanery under shared clergy arrange
 
 ## Notable Facts
 The Kendal in England — now in Cumbria — was a significant wool-trading town in the Lake District, known for 'Kendal Green' cloth. The Jamaican Kendal's name preserves this connection across three centuries. Jamaica has multiple Kendals — there is also a Kendal in St. Ann and the Kendal train crash of 1957, which occurred in St. Ann and remains the deadliest rail accident in Jamaican history.
+
+## References
 - National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

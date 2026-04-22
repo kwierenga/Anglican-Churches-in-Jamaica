@@ -14,5 +14,7 @@ Holy Trinity Westgate has been served within the Montego Bay Region clergy clust
 
 ## Notable Facts
 Westgate’s position on the western approach to Montego Bay places it at the interface between the city’s urban core and the communities stretching westward toward Hanover. The north-west coast of Jamaica, of which Montego Bay is the focal point, has experienced multiple major hurricane impacts. Hurricane Gilbert (1988) struck the north-west coast with extreme severity, causing extensive damage across Montego Bay and the surrounding area. Hurricane Ivan (2004) again affected the region. Hurricane Melissa (October 2025) made direct landfall in western Jamaica; the western corridor of Montego Bay, including Westgate, experienced damaging winds and coastal conditions, and Holy Trinity’s congregation was in the storm’s impact zone.
+
+## References
 - National Library of Jamaica — The History of St. James: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20James.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. James: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

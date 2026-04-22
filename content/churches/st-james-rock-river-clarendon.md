@@ -14,4 +14,6 @@ This Rock River community has been served within the Clarendon deanery under sha
 
 ## Notable Facts
 The significant distance between the two Rock River entries in the dataset suggests that the Rock River name may apply to a broad valley or watershed district rather than a single compact community, with multiple settlements along the river's course each maintaining their own Anglican worship point.
+
+## References
 - National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

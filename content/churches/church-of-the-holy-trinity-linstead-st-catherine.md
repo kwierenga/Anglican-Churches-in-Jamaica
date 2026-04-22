@@ -14,5 +14,7 @@ Linstead's two Anglican churches have been served within the St. Catherine deane
 
 ## Notable Facts
 The existence of two Anglican churches in Linstead reflects the town's importance as the commercial and administrative hub of interior St. Catherine. The interior market towns of Jamaica typically supported denser church networks than their population alone would suggest, reflecting the role of churches as community institutions in the weekly market-day gatherings of surrounding communities.
+
+## References
 - National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

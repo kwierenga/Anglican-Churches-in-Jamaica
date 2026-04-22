@@ -14,5 +14,7 @@ Faith's has been served within the St. Catherine deanery under shared clergy arr
 
 ## Notable Facts
 Faith's community name and the church's dedication creating a single identity — 'Faith's' — is a particularly evocative example of how Anglican churches shaped the naming of Jamaican communities. Many Jamaican villages take their name from a church, a spring, an estate, or a natural feature. Faith's belongs to the tradition of spiritually named communities that are common across Jamaica's interior.
+
+## References
 - National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

@@ -14,5 +14,7 @@ Crescent has been served within the St. Catherine deanery under shared clergy ar
 
 ## Notable Facts
 Barnabas' feast day (11 June) falls in the mid-year, and his association with encouragement and practical generosity has made him a popular patron for community mission churches across Jamaica. St. Barnabas is one of the more frequently occurring church dedications in the island's Anglican network.
+
+## References
 - National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

@@ -14,5 +14,7 @@ Watermount has been served within the St. Catherine deanery under shared clergy 
 
 ## Notable Facts
 Augustine of Hippo's Confessions and City of God are among the most read theological texts in Christian history. The dedication to him in a small Jamaican interior chapel connects this farming community to one of the most intellectually influential figures in the history of Western Christianity. Watermount's name may derive from a local spring or stream feature that gave the community a reliable water source.
+
+## References
 - National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
