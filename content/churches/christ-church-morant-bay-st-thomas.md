@@ -33,5 +33,6 @@ The parish was originally "St. Thomas in the East" (to distinguish it from St. T
 - J. B. Ellis, *The Diocese of Jamaica* (1913) — anglicanhistory.org
 - Clinton V. Black, *The Story of Jamaica* — standard history of the Morant Bay Rebellion
 - Diana Paton, *No Bond but the Law: Punishment, Race, and Gender in Jamaican State Formation, 1780–1870*
+- UK National Archives, Kew — Colonial Office correspondence for Jamaica (CO 137), including **CO 137/395, Governor Edward John Eyre to Edward Cardwell (Secretary of State for the Colonies), 20 November 1865**, the official despatch reporting the suppression of the Morant Bay Rebellion: [discovery.nationalarchives.gov.uk — CO 137](https://discovery.nationalarchives.gov.uk/details/r/C4328)
 - National Library of Jamaica — The History of St. Thomas (Stokes settlers, Krus lighthouse, 1965 National Hero ceremony): [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.Thomas%20Final.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. Thomas: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

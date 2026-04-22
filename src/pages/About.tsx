@@ -54,8 +54,45 @@ export default function About() {
           <li>
             <em>Synod Journals</em> of the Diocese of Jamaica and the Cayman Islands (2015, 2017) and the Nuttall papers.
           </li>
+        </ul>
+
+        <h3 className="font-heading text-xl font-semibold text-crimson pt-4">UK Anglican and imperial archives</h3>
+        <ul className="list-disc pl-6 space-y-2 text-base">
           <li>
-            Church of England clergy index and parish registers (where available online).
+            <a href="http://anglicanhistory.org/wi/jm/" target="_blank" rel="noopener noreferrer" className="text-crimson hover:underline">
+              Project Canterbury &mdash; Jamaica page
+            </a> &mdash; full text of A. M. Campbell&rsquo;s sermon at the consecration of Bishop Lipscombe (Lambeth Chapel, 25 July 1824);
+            Lipscomb&rsquo;s <em>Charge to Candidates for Holy Orders</em> in Spanish Town Cathedral (1825); and other
+            nineteenth-century Jamaica pamphlets.
+          </li>
+          <li>
+            <a href="https://www.lambethpalacelibrary.info/collections/manuscripts/" target="_blank" rel="noopener noreferrer" className="text-crimson hover:underline">
+              Lambeth Palace Library &mdash; Fulham Papers, vol. 18 (Jamaica, 1740&ndash;1821)
+            </a> &mdash; correspondence to the Bishop of London from Jamaican clergy (William May, John Barton, Colin Donaldson,
+            James White). Calendar at the&nbsp;
+            <a href="https://loyalist.lib.unb.ca/record/fulham-papers-lambeth-palace-library-1626-1822" target="_blank" rel="noopener noreferrer" className="text-crimson hover:underline">
+              UNB Loyalist Collection
+            </a>.
+          </li>
+          <li>
+            <a href="https://discovery.nationalarchives.gov.uk/details/r/C4328" target="_blank" rel="noopener noreferrer" className="text-crimson hover:underline">
+              UK National Archives, Kew &mdash; Colonial Office, CO 137 (Jamaica Original Correspondence)
+            </a> &mdash; includes CO 137/395, Governor Eyre to Cardwell, 20 November 1865 (Morant Bay Rebellion); and companion series
+            CO 140 (Jamaica sessional papers) and CO 441 (out-letters).
+          </li>
+          <li>
+            <a href="https://archives.bodleian.ox.ac.uk/repositories/2/resources/1576" target="_blank" rel="noopener noreferrer" className="text-crimson hover:underline">
+              Bodleian Library, Oxford &mdash; USPG / SPG archive (GB 0162 SPG)
+            </a> &mdash; papers of the Society for the Propagation of the Gospel, 1701&ndash;1980s. Early Jamaica letters (c.1701&ndash;1720)
+            are indexed free in&nbsp;
+            <a href="http://emlo-portal.bodleian.ox.ac.uk/collections/?catalogue=society-for-the-propagation-of-the-gospel" target="_blank" rel="noopener noreferrer" className="text-crimson hover:underline">
+              EMLO &mdash; SPG Correspondence
+            </a>.
+          </li>
+          <li>
+            <a href="https://www.familysearch.org/en/search/collection/1827268" target="_blank" rel="noopener noreferrer" className="text-crimson hover:underline">
+              FamilySearch &mdash; Jamaica, Church of England Parish Register Transcripts, 1664&ndash;1880
+            </a> &mdash; indexed baptism, marriage, and burial entries arranged by parish, naming officiating clergy.
           </li>
         </ul>
 
