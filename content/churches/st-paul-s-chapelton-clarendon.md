@@ -61,3 +61,4 @@ The dedication to St. Paul -- the Apostle to the Gentiles, who carried the Gospe
 - Wikipedia -- Raphael Morgan; May Pen to Frankfield railway; Chapelton, Jamaica
 - Diocese of Jamaica and the Cayman Islands -- Clarendon deanery, Synod Journal 2015 (anglicandioceseja.org)
 - Cundall, Frank -- *Historic Jamaica* (1915) -- Chapelton as chapel of ease
+- National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

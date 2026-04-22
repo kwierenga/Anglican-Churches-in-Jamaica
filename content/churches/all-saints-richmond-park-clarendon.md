@@ -14,3 +14,4 @@ Richmond Park has been served within the Clarendon deanery under shared clergy a
 
 ## Notable Facts
 The All Saints' dedication — commemorating the full company of saints on 1 November — gives this community church a universal spiritual character. Richmond Park's name preserves the memory of a colonial estate with an English place-name, following the common pattern of Jamaican communities named after their originating estates.
+- National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

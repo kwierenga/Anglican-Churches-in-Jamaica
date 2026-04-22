@@ -14,3 +14,4 @@ Snowdon has been served within the Manchester deanery under shared clergy arrang
 
 ## Notable Facts
 Snowdon is Wales' highest mountain and one of the most iconic landscape names in the British Isles. The Jamaican Snowdon's naming connects this interior Manchester community to the Welsh highlands. St. David (1 March) is the only one of the four patron saints of the British Isles whose feast day falls in the first quarter of the year. Welsh connections to Jamaica include several colonial-era families, and Welsh surnames appear in Jamaican records.
+- National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

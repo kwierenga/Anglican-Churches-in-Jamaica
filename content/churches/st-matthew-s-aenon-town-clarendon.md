@@ -30,3 +30,4 @@ The dedication to St. Matthew — the tax collector at Capernaum whom Jesus call
 - Jamaica Social Investment Fund — J$10.2 million school project (jsif.org)
 - Jamaican Ancestral Records — St. Matthew's Aenon Town, 27 documented burials (jamaicanancestralrecords.com)
 - Diocese of Jamaica and the Cayman Islands — Clarendon deanery (anglicandioceseja.org)
+- National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

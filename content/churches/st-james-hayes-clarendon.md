@@ -14,3 +14,4 @@ Hayes has been served within the Clarendon deanery under shared clergy arrangeme
 
 ## Notable Facts
 Hayes is one of the communities closest to the Jamalco alumina processing facility on the south coast of Clarendon. The bauxite and alumina industry has been a defining feature of the Clarendon south coast landscape for several decades, and the communities here reflect the mix of agricultural and industrial employment that characterises this part of Jamaica.
+- National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

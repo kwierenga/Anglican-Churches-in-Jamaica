@@ -27,3 +27,4 @@ The dedication to St. Peter — the fisherman whom Jesus called to be "the rock"
 - *Jamaica Almanac* (1823, 1831) — Rodon family holdings in Clarendon (jamaicanfamilysearch.com)
 - UCL Legacies of British Slavery — George Rodon (ucl.ac.uk/lbs)
 - *Handbook of Jamaica* (1900) — Clarendon clergy with "10 Mission Stations" (jamaicanfamilysearch.com)
+- National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

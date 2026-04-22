@@ -14,3 +14,4 @@ The cure has been listed as Vacant in recent diocesan records. William Willis (S
 
 ## Notable Facts
 St. Bartholomew the Apostle is said to have been martyred by being flayed alive — making him the patron of tanners, leatherworkers, and butchers. Two churches bearing his name in the same Jamaican parish (Good Hope and Frankfield) are an unusual distinction. The feast of St. Bartholomew (24 August) falls during the heart of the Atlantic hurricane season.
+- National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

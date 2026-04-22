@@ -14,3 +14,4 @@ Devon has been served within the Manchester deanery under shared clergy arrangem
 
 ## Notable Facts
 St. Lawrence was a 3rd-century Roman deacon martyred in 258 AD by being roasted alive on a gridiron. The tradition holds that he said to his executioners: 'Turn me over, I'm done on this side' — a display of courage and dark humour that has made him a beloved figure. He is patron of cooks and comedians. His feast day (10 August) falls in the height of hurricane season in Jamaica.
+- National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

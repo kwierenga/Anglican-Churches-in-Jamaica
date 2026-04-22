@@ -14,3 +14,4 @@ The Snowdon/Pratville/Providence/Smithfield cure has Owen Lambert and Doreen Hal
 
 ## Notable Facts
 Smithfield is a common English place name derived from 'smooth field' — Smithfield in London was the famous livestock market and execution site. In Jamaica it most likely names an estate after the English original. St. Luke's feast day (18 October) falls in the quieter period after hurricane season, and Luke — traditionally the physician among the evangelists — has a particular relevance to communities that have experienced storm damage and recovery.
+- National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

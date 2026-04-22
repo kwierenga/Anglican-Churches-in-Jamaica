@@ -14,3 +14,4 @@ The Alley/Milk River/Race Course/Portland Cottage cure is served by Ulric Wilson
 
 ## Notable Facts
 Portland Cottage is one of the most remote coastal communities in Clarendon, sitting on the flat, mangrove-fringed shoreline west of the main coastal road. The area is directly vulnerable to storm surge from the Caribbean Sea. Hurricane Melissa (October 2025) would have posed a direct threat to this south-coast community and the other coastal cures in this circuit.
+- National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

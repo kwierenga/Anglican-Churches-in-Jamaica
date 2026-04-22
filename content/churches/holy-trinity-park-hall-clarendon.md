@@ -14,3 +14,4 @@ Park Hall has been served within the Clarendon deanery under shared clergy arran
 
 ## Notable Facts
 Park Hall's name preserves the memory of a colonial estate, the 'hall' designation being common in Jamaican estate naming (e.g. Harewood Hall, Somerset Hall). The estate would have had its 'park' — an enclosed area for cattle or horses — giving the community a name that combines two common colonial estate landscape features.
+- National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

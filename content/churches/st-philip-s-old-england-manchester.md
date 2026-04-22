@@ -14,3 +14,4 @@ Old England has been served within the Manchester deanery under shared clergy ar
 
 ## Notable Facts
 Old England is one of several Jamaican community names that express the colonial settlers' longing for their homeland — alongside communities named New England, Old Harbour, and similar. These names are living monuments to the psychology of displacement that shaped the colonial landscape. St. Philip's feast day (1 May, shared with James the Less) opens the month of May in the Anglican calendar.
+- National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

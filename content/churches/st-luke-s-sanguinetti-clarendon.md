@@ -14,3 +14,4 @@ Sanguinetti has been served within the Clarendon deanery under shared clergy arr
 
 ## Notable Facts
 Sanguinetti's Italian-origin name is one of the more unusual community names in Jamaica. Jamaica has several communities with Italian or Sephardic Jewish names reflecting the diverse origins of colonial-era proprietors — communities like Enfield, Friendship, and others named after their owners' homelands or surnames. Sanguinetti stands out as one of the most distinctively non-English names in the interior parish landscape.
+- National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

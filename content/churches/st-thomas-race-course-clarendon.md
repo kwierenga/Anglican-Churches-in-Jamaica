@@ -14,3 +14,4 @@ Race Course has been served within the Clarendon deanery under shared clergy arr
 
 ## Notable Facts
 Horse racing was one of the most popular leisure activities in colonial Jamaica, and several communities across the island bear 'Race Course' names — reminders of the turf culture that was central to the social life of the planter class. St. Thomas' feast day (21 December) falls at the winter solstice, the shortest day of the year in the northern hemisphere — an ancient astronomical significance that gives Thomas churches a particular character in the liturgical calendar.
+- National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

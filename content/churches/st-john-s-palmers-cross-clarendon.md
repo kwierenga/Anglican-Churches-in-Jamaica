@@ -14,3 +14,4 @@ Palmers Cross has been served within the Clarendon deanery under shared clergy a
 
 ## Notable Facts
 Palmers Cross is one of the south coast communities of Clarendon on the Caribbean Sea, in an area of coastal wetlands and farming that has historically supported both agriculture and fishing.
+- National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

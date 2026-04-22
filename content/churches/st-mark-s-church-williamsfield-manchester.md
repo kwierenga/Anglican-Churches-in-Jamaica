@@ -14,3 +14,4 @@ Williamsfield has been served within the Manchester deanery under shared clergy 
 
 ## Notable Facts
 The Manchester landscape has been significantly shaped by bauxite mining, the red-soil ore that Jamaica exports for alumina and aluminium production. Manchester is one of the key bauxite parishes, and the industry's presence in the landscape around Williamsfield has defined the economic character of this part of the parish for several decades.
+- National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

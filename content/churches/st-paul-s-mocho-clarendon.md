@@ -33,3 +33,4 @@ The dedication to St. Paul — the Apostle to the Gentiles who carried the Gospe
 - Dudley C. McLean — "150 Years of Disestablishment of the Anglican Church" — complicity, compensation, educational transformation
 - Diocese of Jamaica and the Cayman Islands — clerical directory (anglicandioceseja.org)
 - Jamaica 55 — Clarendon history, Suttons Rebellion (jamaica55.gov.jm)
+- National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)
