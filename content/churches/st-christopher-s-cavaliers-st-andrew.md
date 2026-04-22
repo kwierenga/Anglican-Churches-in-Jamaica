@@ -14,3 +14,8 @@ Cavaliers has been served within the northern St. Andrew deanery circuit under s
 
 ## Notable Facts
 St. Christopher's Cavaliers sits in the northern hill country of St. Andrew, in the residential zone that attracts families seeking the cooler temperatures and larger properties of the hills above Kingston. The church has developed a strong community identity, with reviewers expressing a deep personal connection to the congregation. The dedication to Christopher — whose name means 'Christ-bearer' — connects the church to the tradition of the patron saint who carries others safely across difficult terrain, resonant for a hillside community.
+
+## References
+- National Library of Jamaica — The History of Kingston and St. Andrew (Liguanea origin, 1664 parish founding, 1923 KSA amalgamation, Half Way Tree Parish Church): [nlj.gov.jm](https://nlj.gov.jm/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Andrew Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+- Jamaica National Heritage Trust — St. Andrew heritage sites: [jnht.com/st_andrew.php](http://www.jnht.com/st_andrew.php)

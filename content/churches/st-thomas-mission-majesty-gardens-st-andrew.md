@@ -14,3 +14,8 @@ Majesty Gardens has been served within the St. Andrew urban deanery circuit. The
 
 ## Notable Facts
 Urban mission churches like St. Thomas Mission play a vital role in communities that face persistent social and economic challenges. The Anglican Diocese's presence in inner-city communities across Kingston and St. Andrew represents a tradition of urban ministry that has continued through the post-independence era. The church's dedication to St. Thomas the Apostle — known for his questioning faith — carries a resonance in a community where faith is tested by daily circumstances.
+
+## References
+- National Library of Jamaica — The History of Kingston and St. Andrew (Liguanea origin, 1664 parish founding, 1923 KSA amalgamation, Half Way Tree Parish Church): [nlj.gov.jm](https://nlj.gov.jm/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Andrew Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+- Jamaica National Heritage Trust — St. Andrew heritage sites: [jnht.com/st_andrew.php](http://www.jnht.com/st_andrew.php)

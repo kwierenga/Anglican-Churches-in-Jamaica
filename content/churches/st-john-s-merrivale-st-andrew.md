@@ -14,3 +14,8 @@ Merrivale has been served within the St. Andrew deanery under shared clergy arra
 
 ## Notable Facts
 The northern suburban hills of St. Andrew — communities like Merrivale, Stony Hill, and their surroundings — represent the upwardly mobile residential expansion of Kingston through the 20th century. These hillside communities developed as families sought cooler conditions and larger properties away from the urban centre, creating a distinct suburban character in the northern parish.
+
+## References
+- National Library of Jamaica — The History of Kingston and St. Andrew (Liguanea origin, 1664 parish founding, 1923 KSA amalgamation, Half Way Tree Parish Church): [nlj.gov.jm](https://nlj.gov.jm/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Andrew Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+- Jamaica National Heritage Trust — St. Andrew heritage sites: [jnht.com/st_andrew.php](http://www.jnht.com/st_andrew.php)

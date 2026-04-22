@@ -14,3 +14,8 @@ Padmore has been served within the northern St. Andrew deanery circuit under sha
 
 ## Notable Facts
 St. Martin's Day (11 November) is one of the traditional markers of the European agricultural calendar, the feast day on which farm animals were slaughtered before winter. In Jamaica, the dedication to Martin of Tours carries a different cultural resonance, associated with his act of dividing his cloak with a freezing beggar — a story of practical generosity that resonates with the pastoral character of rural mission churches.
+
+## References
+- National Library of Jamaica — The History of Kingston and St. Andrew (Liguanea origin, 1664 parish founding, 1923 KSA amalgamation, Half Way Tree Parish Church): [nlj.gov.jm](https://nlj.gov.jm/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Andrew Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+- Jamaica National Heritage Trust — St. Andrew heritage sites: [jnht.com/st_andrew.php](http://www.jnht.com/st_andrew.php)

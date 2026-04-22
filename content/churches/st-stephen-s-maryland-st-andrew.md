@@ -14,3 +14,8 @@ Maryland has been served within the northern St. Andrew deanery circuit under sh
 
 ## Notable Facts
 The name Maryland in this St. Andrew context is one of several North American colonial place names found in Jamaica, reflecting the cultural connections between the British colonies in the Caribbean and mainland North America. Maryland state and Maryland Jamaica share a colonial-era naming tradition that testifies to the interconnected world of the 18th-century British Empire.
+
+## References
+- National Library of Jamaica — The History of Kingston and St. Andrew (Liguanea origin, 1664 parish founding, 1923 KSA amalgamation, Half Way Tree Parish Church): [nlj.gov.jm](https://nlj.gov.jm/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Andrew Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+- Jamaica National Heritage Trust — St. Andrew heritage sites: [jnht.com/st_andrew.php](http://www.jnht.com/st_andrew.php)

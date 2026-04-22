@@ -14,3 +14,8 @@ St. Jude's serves as the hub church of the Stony Hill circuit of the St. Andrew 
 
 ## Notable Facts
 St. Jude is the patron saint of lost causes and desperate situations, and churches dedicated to him are found throughout the Anglican and Catholic world. The Stony Hill church's active social media presence and its integration of technology into worship reflects the contemporary character of a congregation that has evolved significantly from its mid-20th-century origins. Stony Hill is a key waypoint on the road to Jamaica's mountain communities and is exposed to the extreme orographic rainfall that the Blue Mountains generate.
+
+## References
+- National Library of Jamaica — The History of Kingston and St. Andrew (Liguanea origin, 1664 parish founding, 1923 KSA amalgamation, Half Way Tree Parish Church): [nlj.gov.jm](https://nlj.gov.jm/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Andrew Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+- Jamaica National Heritage Trust — St. Andrew heritage sites: [jnht.com/st_andrew.php](http://www.jnht.com/st_andrew.php)

@@ -14,3 +14,8 @@ Clifton has been served within the eastern St. Andrew deanery circuit under shar
 
 ## Notable Facts
 The eastern hill country of St. Andrew forms the transition zone between the urban metropolitan area and the rural Blue Mountain communities. Communities like Clifton occupy this in-between landscape, with residents who may commute to the city while maintaining ties to the agricultural character of the hills.
+
+## References
+- National Library of Jamaica — The History of Kingston and St. Andrew (Liguanea origin, 1664 parish founding, 1923 KSA amalgamation, Half Way Tree Parish Church): [nlj.gov.jm](https://nlj.gov.jm/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Andrew Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+- Jamaica National Heritage Trust — St. Andrew heritage sites: [jnht.com/st_andrew.php](http://www.jnht.com/st_andrew.php)

@@ -14,3 +14,8 @@ For many years, the parish was closely associated with The Reverend Franklyn Jac
 
 ## Notable Facts
 The parish has a strong music and arts ministry, with a steel orchestra and dancers featuring prominently in concerts, Christmas services, and patriotic celebrations. Its compound also serves civic purposes, listed as a polling station for the St Andrew North Western constituency. The church is a frequent site for thanksgiving services and funerals, underlining its role in the community's significant life events. Additionally, it has built an online presence through livestreamed worship, allowing overseas members to stay connected.
+
+## References
+- National Library of Jamaica — The History of Kingston and St. Andrew (Liguanea origin, 1664 parish founding, 1923 KSA amalgamation, Half Way Tree Parish Church): [nlj.gov.jm](https://nlj.gov.jm/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Andrew Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+- Jamaica National Heritage Trust — St. Andrew heritage sites: [jnht.com/st_andrew.php](http://www.jnht.com/st_andrew.php)

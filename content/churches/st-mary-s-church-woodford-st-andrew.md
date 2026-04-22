@@ -14,3 +14,8 @@ St. Christopher's has been served by clergy of the Diocese of Jamaica, often sha
 
 ## Notable Facts
 Woodford is part of the rural interior of St. Andrew that produced coffee, provisions, and livestock — a very different world from the commercial suburbs closer to Kingston. The Anglican presence there is part of the Diocese's wider effort to reach Jamaica's hills through mission stations, many of which have endured for over a century. The church's dedication to Saint Christopher, patron saint of travellers, is a fitting choice for a hilltop community connected to the wider world by winding country roads.
+
+## References
+- National Library of Jamaica — The History of Kingston and St. Andrew (Liguanea origin, 1664 parish founding, 1923 KSA amalgamation, Half Way Tree Parish Church): [nlj.gov.jm](https://nlj.gov.jm/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Andrew Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+- Jamaica National Heritage Trust — St. Andrew heritage sites: [jnht.com/st_andrew.php](http://www.jnht.com/st_andrew.php)

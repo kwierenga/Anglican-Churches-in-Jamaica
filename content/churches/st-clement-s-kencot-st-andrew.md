@@ -14,3 +14,8 @@ Kencot has been served within the St. Andrew deanery. The urban density of the a
 
 ## Notable Facts
 Kencot is notable in Jamaican cultural history as one of the communities associated with the development of Kingston's urban popular culture. The neighbourhood is within the broader west Kingston zone that has produced significant contributions to Jamaican music, street culture, and community life. The church's presence in this neighbourhood reflects the Anglican Diocese's commitment to urban ministry alongside its rural mission network.
+
+## References
+- National Library of Jamaica — The History of Kingston and St. Andrew (Liguanea origin, 1664 parish founding, 1923 KSA amalgamation, Half Way Tree Parish Church): [nlj.gov.jm](https://nlj.gov.jm/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Andrew Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+- Jamaica National Heritage Trust — St. Andrew heritage sites: [jnht.com/st_andrew.php](http://www.jnht.com/st_andrew.php)

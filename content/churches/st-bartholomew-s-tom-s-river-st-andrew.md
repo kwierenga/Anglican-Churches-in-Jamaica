@@ -14,3 +14,8 @@ Tom's River has been served within the northern St. Andrew deanery circuit under
 
 ## Notable Facts
 Bartholomew's feast day (24 August) falls in the height of the Atlantic hurricane season, and St. Bartholomew's churches across the Caribbean have historically faced their patron's feast day under the shadow of storm season. Tom's River's hill position means direct surge is not a primary risk, but the heavy orographic rainfall of the Blue Mountain approaches creates significant flood and landslide risk during major hurricane events.
+
+## References
+- National Library of Jamaica — The History of Kingston and St. Andrew (Liguanea origin, 1664 parish founding, 1923 KSA amalgamation, Half Way Tree Parish Church): [nlj.gov.jm](https://nlj.gov.jm/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Andrew Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+- Jamaica National Heritage Trust — St. Andrew heritage sites: [jnht.com/st_andrew.php](http://www.jnht.com/st_andrew.php)

@@ -14,3 +14,8 @@ St. Luke's has been shaped by a succession of dedicated clergy, from its first r
 
 ## Notable Facts
 A key part of St. Luke's identity is its history of overcoming disaster, notably the 1907 earthquake that destroyed its earlier building. More recently, during Hurricane Melissa (2025), the church served as a critical hub for relief efforts, collecting donations and providing spiritual support through pastoral messages from its rector. While the church building did not report major structural damage, its role in the community was amplified. From its humble beginnings worshiping under a tree to its 150th anniversary in 2025, St. Luke’s stands as a powerful witness to faith, service, and resilience at the crossroads of Kingston.
+
+## References
+- National Library of Jamaica — The History of Kingston and St. Andrew (Liguanea origin, 1664 parish founding, 1923 KSA amalgamation, Half Way Tree Parish Church): [nlj.gov.jm](https://nlj.gov.jm/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Andrew Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+- Jamaica National Heritage Trust — St. Andrew heritage sites: [jnht.com/st_andrew.php](http://www.jnht.com/st_andrew.php)

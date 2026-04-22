@@ -14,3 +14,8 @@ Mount James has been served within the northern St. Andrew deanery circuit under
 
 ## Notable Facts
 The name Mount James — potentially derived from the church's patron — exemplifies a common Jamaican naming pattern in which communities take their identity from the local church, particularly in hill country where the church was often the first substantial institution in a newly settled area. St. James' Day (25 July) is one of the major feasts in the Anglican calendar.
+
+## References
+- National Library of Jamaica — The History of Kingston and St. Andrew (Liguanea origin, 1664 parish founding, 1923 KSA amalgamation, Half Way Tree Parish Church): [nlj.gov.jm](https://nlj.gov.jm/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Andrew Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+- Jamaica National Heritage Trust — St. Andrew heritage sites: [jnht.com/st_andrew.php](http://www.jnht.com/st_andrew.php)

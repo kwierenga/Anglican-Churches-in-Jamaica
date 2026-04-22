@@ -14,3 +14,8 @@ The upper Mavis Bank area has been served within the eastern St. Andrew deanery 
 
 ## Notable Facts
 The Mavis Bank valley community is known for its connection to Jamaica Blue Mountain coffee, produced on the surrounding mountainsides. The JABLUM factory at Mavis Bank has been processing and exporting Blue Mountain coffee for decades, making the community famous among coffee enthusiasts worldwide. The Anglican churches here serve a farming community with a proud agricultural tradition.
+
+## References
+- National Library of Jamaica — The History of Kingston and St. Andrew (Liguanea origin, 1664 parish founding, 1923 KSA amalgamation, Half Way Tree Parish Church): [nlj.gov.jm](https://nlj.gov.jm/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Andrew Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+- Jamaica National Heritage Trust — St. Andrew heritage sites: [jnht.com/st_andrew.php](http://www.jnht.com/st_andrew.php)

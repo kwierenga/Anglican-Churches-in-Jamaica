@@ -14,3 +14,8 @@ St. Michael’s has been guided by dedicated clergy throughout its history. In t
 
 ## Notable Facts
 The defining event in St. Michael’s history was the 1907 earthquake, which required a complete rebuild of the church from the ground up. This story of destruction and perseverance is central to its identity. The subsequent opening of Ormsby Hall transformed the parish into a noted center for Kingston’s cultural and artistic life for much of the 20th century. While the church has endured other challenges, including hurricanes, there are no specific public reports of major structural damage from Hurricane Melissa (2025). The full journey of St. Michael’s—from its early roots in a slave society, through catastrophic destruction, to its rebirth as a community and cultural pillar—stands as a powerful testament to the enduring faith and resilience of its congregation.
+
+## References
+- National Library of Jamaica — The History of Kingston and St. Andrew (Port Royal 1692 earthquake, Kingston founded from Colonel Barry's Hog Crawle, John Goffe's 1692 town plan, 1872 capital, 1907 earthquake, 1923 KSA amalgamation): [nlj.gov.jm](https://nlj.gov.jm/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+- Jamaica National Heritage Trust — Kingston heritage sites: [jnht.com](http://www.jnht.com/)

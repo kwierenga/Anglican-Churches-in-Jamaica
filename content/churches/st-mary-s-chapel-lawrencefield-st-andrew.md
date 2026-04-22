@@ -14,3 +14,8 @@ As a chapel-of-ease, St. Mary's has historically not maintained a full-time rect
 
 ## Notable Facts
 St. Mary's Chapel occupies land with deep roots in the colonial estate system of St. Andrew, and its history as a community church stretches from the era of slavery through Emancipation to the present. Its longevity is a testament to the enduring faith of successive generations of local families. During Hurricane Melissa (October 2025), which made landfall in western Jamaica, Lawrencefield in eastern St. Andrew was well away from the worst of the storm's impact; no specific structural damage to the chapel has been reported.
+
+## References
+- National Library of Jamaica — The History of Kingston and St. Andrew (Liguanea origin, 1664 parish founding, 1923 KSA amalgamation, Half Way Tree Parish Church): [nlj.gov.jm](https://nlj.gov.jm/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Andrew Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+- Jamaica National Heritage Trust — St. Andrew heritage sites: [jnht.com/st_andrew.php](http://www.jnht.com/st_andrew.php)

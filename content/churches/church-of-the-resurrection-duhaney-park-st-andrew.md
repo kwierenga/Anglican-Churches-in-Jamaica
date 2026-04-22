@@ -14,3 +14,8 @@ Duhaney Park has been served within the southern St. Andrew deanery circuit, con
 
 ## Notable Facts
 Duhaney Park is one of several large residential communities in southern St. Andrew developed from the 1950s onward as the Kingston metropolitan area expanded to accommodate population growth. The housing scheme communities of southern St. Andrew and Kingston represent a distinctive chapter in Jamaica's post-independence urban history, with the Anglican Diocese following population movements to establish churches in new communities as they developed.
+
+## References
+- National Library of Jamaica — The History of Kingston and St. Andrew (Liguanea origin, 1664 parish founding, 1923 KSA amalgamation, Half Way Tree Parish Church): [nlj.gov.jm](https://nlj.gov.jm/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Andrew Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+- Jamaica National Heritage Trust — St. Andrew heritage sites: [jnht.com/st_andrew.php](http://www.jnht.com/st_andrew.php)

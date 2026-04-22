@@ -14,3 +14,8 @@ Brandon Hill has been served within the southern St. Andrew deanery circuit unde
 
 ## Notable Facts
 Gabriel the Archangel is celebrated in the Anglican calendar (along with Michael and Raphael) on 29 September — Michaelmas. The Annunciation — Gabriel's message to Mary — is commemorated on 25 March. Churches dedicated to Gabriel are relatively rare in Jamaica, giving St. Gabriel's Brandon Hill a distinctive celestial patron in the local Anglican network.
+
+## References
+- National Library of Jamaica — The History of Kingston and St. Andrew (Liguanea origin, 1664 parish founding, 1923 KSA amalgamation, Half Way Tree Parish Church): [nlj.gov.jm](https://nlj.gov.jm/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Andrew Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+- Jamaica National Heritage Trust — St. Andrew heritage sites: [jnht.com/st_andrew.php](http://www.jnht.com/st_andrew.php)
