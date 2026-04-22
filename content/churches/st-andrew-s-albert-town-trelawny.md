@@ -27,3 +27,4 @@ St. Andrew's was built in 1868, making it the last Anglican church consecrated i
 - 1891 Handbook of Jamaica — Anglican clergy (Albert Town mission, 208 members): [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/hclergy1.htm)
 - Jamaican Ancestral Records — St Andrew's Anglican, Albert Town: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/trelawny-2/st-andrews-anglican-albert-town-trelawny/)
 - Wikipedia — Second Maroon War (1795–96 Trelawny Maroon deportations): [en.wikipedia.org/wiki/Second_Maroon_War](https://en.wikipedia.org/wiki/Second_Maroon_War)
+- National Library of Jamaica — The History of Trelawny: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Trelawny%20Final.pdf)

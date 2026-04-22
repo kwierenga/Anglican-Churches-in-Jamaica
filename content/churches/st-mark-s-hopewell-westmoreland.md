@@ -22,3 +22,4 @@ There are three separate Hopewells in western Jamaica with Anglican associations
 - Wikipedia — Hopewell, Westmoreland: [en.wikipedia.org/wiki/Hopewell,_Westmoreland](https://en.wikipedia.org/wiki/Hopewell,_Westmoreland)
 - Diocese of Jamaica and the Cayman Islands — Montego Bay Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)
 - 1891 Handbook of Jamaica — Anglican clergy: [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/hclergy1.htm)
+- National Library of Jamaica — The History of Westmoreland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Westmoreland.pdf)

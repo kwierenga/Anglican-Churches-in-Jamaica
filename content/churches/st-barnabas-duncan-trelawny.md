@@ -27,3 +27,4 @@ Kettering in Duncans is named after the English birthplace of the Baptist abolit
 - 1891 Handbook of Jamaica — Anglican clergy (no record of Duncans): [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/hclergy1.htm)
 - Wikipedia — William Knibb (Kettering origin): [en.wikipedia.org/wiki/William_Knibb](https://en.wikipedia.org/wiki/William_Knibb)
 - Jamaica Information Service — Trelawny Heritage Sites: [jis.gov.jm](https://jis.gov.jm/information/jamaica-heritage-sites/trelawny-heritage-sites/)
+- National Library of Jamaica — The History of Trelawny: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Trelawny%20Final.pdf)

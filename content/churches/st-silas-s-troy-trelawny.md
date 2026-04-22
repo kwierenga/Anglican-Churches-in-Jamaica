@@ -24,3 +24,4 @@ Troy is a classical naming choice — the ancient city of Troy from Homer's *Ili
 - 1891 Handbook of Jamaica — Anglican clergy (Rev. E. B. Key, St. Silas, 56 members): [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/hclergy1.htm)
 - Diocese of Jamaica and the Cayman Islands — Montego Bay Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)
 - Cockpit Country — Trelawny interior: [cockpitcountry.com](https://cockpitcountry.com/)
+- National Library of Jamaica — The History of Trelawny: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Trelawny%20Final.pdf)

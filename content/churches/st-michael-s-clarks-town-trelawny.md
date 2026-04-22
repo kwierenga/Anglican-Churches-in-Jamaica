@@ -26,3 +26,4 @@ The stone church of 1838 and the free village of 1843 together form an unusually
 - Jamaica Gleaner — "The past in ruins" (16 Nov 2025, Melissa damage to St Michael's): [jamaica-gleaner.com](https://jamaica-gleaner.com/article/news/20251116/past-ruins)
 - 1891 Handbook of Jamaica — Anglican clergy (Rev. C. Melville, Swanswick, 210 members): [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/hclergy1.htm)
 - Diocese of Jamaica and the Cayman Islands — St. Michael's Church, Swanswick, Clarks Town: [anglicandioceseja.org](https://www.anglicandioceseja.org/?attachment_id=870)
+- National Library of Jamaica — The History of Trelawny: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Trelawny%20Final.pdf)

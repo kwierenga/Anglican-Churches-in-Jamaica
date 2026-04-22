@@ -12,3 +12,4 @@ Hurricane Melissa made Category 5 landfall near New Hope in Westmoreland on 28 O
 - Diocese of Jamaica and the Cayman Islands — Montego Bay Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)
 - 1891 Handbook of Jamaica — Anglican clergy (no record of Kentucky): [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/hclergy1.htm)
 - Jamaica Gleaner — Historic landmarks out west among Melissa's many victims: [jamaica-gleaner.com](https://jamaica-gleaner.com/article/lead-stories/20251107/historic-landmarks-out-west-among-melissas-many-victims)
+- National Library of Jamaica — The History of Westmoreland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Westmoreland.pdf)

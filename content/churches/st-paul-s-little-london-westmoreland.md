@@ -31,3 +31,4 @@ The dedication to St. Paul — the Apostle to the Gentiles — is consistent wit
 - Wikipedia — Tacky's Revolt: [en.wikipedia.org/wiki/Tacky's_Revolt](https://en.wikipedia.org/wiki/Tacky's_Revolt)
 - Jamaica Information Service — Parish Profile: Westmoreland: [jis.gov.jm](https://jis.gov.jm/information/parish-profiles/parish-profile-westmoreland/)
 - Ralph Ottey, *Little London, Jamaica and Me 1924–1944* (community history, no online edition identified)
+- National Library of Jamaica — The History of Westmoreland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Westmoreland.pdf)

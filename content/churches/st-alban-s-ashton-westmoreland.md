@@ -19,3 +19,4 @@ Ashton is listed in electoral and civil records as a distinct district of Westmo
 - Diocese of Jamaica and the Cayman Islands — Montego Bay Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)
 - 1891 Handbook of Jamaica — Anglican clergy: [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/hclergy1.htm)
 - Jamaica Gleaner — "Bell tolls for traditional churches?" (feature referenced above): [jamaica-gleaner.com](https://jamaica-gleaner.com/)
+- National Library of Jamaica — The History of Westmoreland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Westmoreland.pdf)

@@ -31,3 +31,4 @@ The *Knight v. Wedderburn* case (1778) — arising from an enslaved boy purchase
 - Jamaica Information Service — "Grange Hill Primary School Celebrates 100 Years": [jis.gov.jm](https://jis.gov.jm/)
 - 1900 Handbook of Jamaica — Clergy and Church (R. E. Bennett at Grange Hill): [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Samples/handbk9.htm)
 - Church of England Clergy in Jamaica: [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/bclergy.htm)
+- National Library of Jamaica — The History of Westmoreland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Westmoreland.pdf)

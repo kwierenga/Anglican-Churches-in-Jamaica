@@ -27,3 +27,4 @@ Warsop's elevation of about 696 m makes it one of the highest Anglican sites in 
 - 1891 Handbook of Jamaica — Anglican clergy (no record of Warsop): [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/hclergy1.htm)
 - Wikipedia — Cockpit Country (Maroon context): [en.wikipedia.org/wiki/Cockpit_Country](https://en.wikipedia.org/wiki/Cockpit_Country)
 - Mapcarta — Warsop, Trelawny (elevation data): [mapcarta.com](https://mapcarta.com/19321916)
+- National Library of Jamaica — The History of Trelawny: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Trelawny%20Final.pdf)

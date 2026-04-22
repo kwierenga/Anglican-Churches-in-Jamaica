@@ -19,3 +19,4 @@ The Dolphin Head area of northern Westmoreland is one of Jamaica's recognised bi
 - Diocese of Jamaica and the Cayman Islands — Montego Bay Region (Holy Trinity Cure): [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)
 - 1891 Handbook of Jamaica — Anglican clergy: [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/hclergy1.htm)
 - Wikipedia — Dolphin Head Mountains (biodiversity hotspot context): [en.wikipedia.org/wiki/Dolphin_Head_Mountains](https://en.wikipedia.org/wiki/Dolphin_Head_Mountains)
+- National Library of Jamaica — The History of Westmoreland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Westmoreland.pdf)

@@ -6,7 +6,7 @@ Holy Trinity Anglican Church is the mother church of the Grange Hill Cure in nor
 ## History
 Grange Hill sits in the foothills of the Dolphin Head range in northern Westmoreland, surrounded by a landscape shaped by the sugar plantation economy. Westmoreland was one of Jamaica's premier sugar parishes, and the estates in this area — including the nearby Glen Islay, owned in the mid-eighteenth century by John Wedderburn of Ballindean, described as the largest landowner in Jamaica — were worked by enslaved Africans throughout the colonial period. Glen Islay is notable for the *Knight v. Wedderburn* case (1778), in which the Scottish Court of Session ruled that slavery was incompatible with Scots law — a landmark judgement arising from an enslaved boy purchased at the estate.
 
-The Anglican rectory at Grange Hill is documented from at least 1869, when Rev. Henry Clarke was appointed rector. By the 1900 Handbook of Jamaica, R. E. Bennett served at Grange Hill. The church served as the administrative centre for Anglican ministry across northern Westmoreland, with mission stations at surrounding communities including Grange, Mount Grace, and Cessnock.
+The Anglican rectory at Grange Hill is documented from at least 1869, when Rev. Henry Clarke was appointed rector. Clarke's ministry extended well beyond the pulpit: in 1874 he founded the Westmoreland Building Society — the first building society in Jamaica — to give ordinary Jamaicans across socio-economic backgrounds access to savings and loan services. By the 1900 Handbook of Jamaica, R. E. Bennett served at Grange Hill. The church served as the administrative centre for Anglican ministry across northern Westmoreland, with mission stations at surrounding communities including Grange, Mount Grace, and Cessnock.
 
 After Emancipation in 1834 and full freedom on 1 August 1838, freed people settled across the interior hills. The Anglican Church expanded to serve these communities, and by the late nineteenth century Grange Hill was established as the hub of a multi-church cure covering the northern part of the parish.
 
@@ -20,7 +20,7 @@ Holy Trinity is a masonry church in the market town of Grange Hill. Hurricane Me
 Rev. Michael Solomon serves as rector, assisted by Rev. Ula Ruddock and Rev. Carol Haughton. The rectory is at Grange Hill P.O. (tel. 918-8060). Rev. Henry Clarke served from 1869; R. E. Bennett served by 1900.
 
 ## Notable Facts
-The Trinity dedication — Father, Son, and Holy Spirit — is one of the most traditional Anglican church names. Grange Hill's position as the market town and administrative centre of northern Westmoreland made it the natural site for the mother church of the cure. Jamaica's independence on 6 August 1962 was marked by the installation of Sir Clifford Campbell — educated at the school that began in the Anglican church hall — as the nation's first Jamaican-born Governor-General.
+Rev. Henry Clarke, rector from 1869, founded the Westmoreland Building Society in 1874 — the first building society in Jamaica and an instrument of socio-economic uplift for ordinary Jamaicans in the post-Emancipation period. The Trinity dedication — Father, Son, and Holy Spirit — is one of the most traditional Anglican church names. Grange Hill's position as the market town and administrative centre of northern Westmoreland made it the natural site for the mother church of the cure. Jamaica's independence on 6 August 1962 was marked by the installation of Sir Clifford Campbell — educated at the school that began in the Anglican church hall — as the nation's first Jamaican-born Governor-General.
 
 ## References
 - 1900 Handbook of Jamaica — Clergy and Church (R. E. Bennett at Grange Hill): [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Samples/handbk9.htm)
@@ -28,3 +28,4 @@ The Trinity dedication — Father, Son, and Holy Spirit — is one of the most t
 - Jamaica Information Service — "Grange Hill Primary School Celebrates 100 Years": [jis.gov.jm](https://jis.gov.jm/)
 - Diocese of Jamaica and the Cayman Islands — Montego Bay Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)
 - UCL Legacies of British Slavery — Glen Islay (Knight v Wedderburn): [ucl.ac.uk/lbs](https://www.ucl.ac.uk/lbs/)
+- National Library of Jamaica — The History of Westmoreland (Rev. Henry Clarke founded Westmoreland Building Society 1874): [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Westmoreland.pdf)

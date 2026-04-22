@@ -30,3 +30,4 @@ Bluefields holds a doubly unusual place in British colonial and scientific histo
 - Smithsonian Magazine — Captain Bligh's Cursed Breadfruit: [smithsonianmag.com](https://www.smithsonianmag.com/travel/captain-blighs-cursed-breadfruit-41433018/)
 - The Living Church — Hurricane Melissa Flattens Jamaican Churches: [livingchurch.org](https://livingchurch.org/news/news-anglican-communion/hurricane-melissa-flattens-jamaican-churches/)
 - Diocese of Jamaica and the Cayman Islands — Montego Bay Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)
+- National Library of Jamaica — The History of Westmoreland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Westmoreland.pdf)

@@ -28,3 +28,4 @@ The church is officially signed "St. Thomas' Church, Kings Whitehouse" — an un
 - In Jamaica — Whitehouse (Westmoreland, Jamaica): [injamaica.com](https://www.injamaica.com/blogs/view/6/whitehouse-westmoreland-jamaica)
 - 1891 Handbook of Jamaica — Anglican clergy (no record of Kings/Whitehouse, placing foundation post-1891): [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/hclergy1.htm)
 - Church sign photograph (user-supplied, 2026) confirming formal name "St. Thomas' Church, Kings Whitehouse" and service times.
+- National Library of Jamaica — The History of Westmoreland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Westmoreland.pdf)

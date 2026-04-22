@@ -28,3 +28,4 @@ Darliston is the birthplace of Samuel U. Hastings, the first Jamaican consecrate
 - Wikipedia — Darliston: [en.wikipedia.org/wiki/Darliston](https://en.wikipedia.org/wiki/Darliston)
 - Caribbean National Weekly — Custos Rev. Hartley Perrin on Melissa: [caribbeannationalweekly.com](https://www.caribbeannationalweekly.com/news/westmoreland-in-ruins-custos-rev-hartley-perrin-shares-harrowing-scenes-after-hurricane-melissa/)
 - Diocese of Jamaica and the Cayman Islands — Montego Bay Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)
+- National Library of Jamaica — The History of Westmoreland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Westmoreland.pdf)

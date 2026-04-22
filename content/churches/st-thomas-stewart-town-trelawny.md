@@ -28,3 +28,4 @@ Stewart Town was founded in 1815 — making it the second-oldest incorporated to
 - Jamaica Gleaner — "Historic Stewart Town caught up in time warp": [jamaica-gleaner.com](https://jamaica-gleaner.com/gleaner/20140724/news/news2.html)
 - National Library of Jamaica Digital Collection — Stewart Town Chapel: [nljdigital.nlj.gov.jm](https://nljdigital.nlj.gov.jm/items/show/2925)
 - Cockpit Country — Stewart Town: [cockpitcountry.com](https://cockpitcountry.com/stewarttown.html)
+- National Library of Jamaica — The History of Trelawny: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Trelawny%20Final.pdf)

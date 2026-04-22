@@ -22,3 +22,4 @@ Hurricane Melissa made Category 5 landfall near New Hope in Westmoreland on 28 O
 - National Library of Jamaica Digital Collection — views of churches and Diocesan buildings (March 1931): [nljdigital.nlj.gov.jm](https://nljdigital.nlj.gov.jm/items/browse)
 - 1891 Handbook of Jamaica — Anglican clergy (no record of Jackson Town): [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/hclergy1.htm)
 - Jamaican Ancestral Records — Jackson Town Public Cemetery: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/trelawny-2/jackson-town-public-cemetery-jackson-town-trelawny/)
+- National Library of Jamaica — The History of Trelawny: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Trelawny%20Final.pdf)

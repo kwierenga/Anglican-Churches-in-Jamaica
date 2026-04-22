@@ -25,3 +25,4 @@ Negril's 1959 road is the key date in the village's modern history: before it, N
 - Diocese of Jamaica and the Cayman Islands — Montego Bay Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)
 - Connecting Jamaica — History of Negril (Great Morass, 1959 road, tourism development): [connectingjamaica.com](https://connectingjamaica.com/history-of-negril/)
 - Jamaica Gleaner — Negril: history, beauty, and the road to recovery (7 Dec 2025): [jamaica-gleaner.com](https://jamaica-gleaner.com/article/art-leisure/20251207/negril-history-beauty-and-road-recovery)
+- National Library of Jamaica — The History of Westmoreland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Westmoreland.pdf)
