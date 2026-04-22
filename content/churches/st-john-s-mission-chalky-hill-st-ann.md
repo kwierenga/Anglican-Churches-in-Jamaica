@@ -14,3 +14,8 @@ As a mission chapel, St. John’s Chalky Hill has been served within the St. Ann
 
 ## Notable Facts
 The Chalky Hill area of St. Ann is part of the interior ridge landscape that lies between the tourist-facing north coast and the quieter agricultural south of the parish. Communities like Chalky Hill represent a St. Ann largely invisible to visitors who come for the beaches and attractions of Ocho Rios, yet these interior hill communities have deep roots in the post-Emancipation history of the parish and a long-standing connection to the Anglican Diocese’s mission network. Hurricane activity has periodically disrupted interior St. Ann, with landslides and road damage isolating hill communities. Hurricane Gilbert (1988) caused serious damage across the parish interior. Hurricane Melissa (October 2025) brought heavy rain and wind to interior St. Ann; Chalky Hill and the mission congregation were in the affected zone.
+
+## References
+- National Library of Jamaica — The History of St. Ann: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Ann.pdf)
+- Jamaica National Heritage Trust — St. Ann heritage sites: [jnht.com/st_ann.php](http://www.jnht.com/st_ann.php)
+- Diocese of Jamaica and the Cayman Islands — Montego Bay Region, St. Ann Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)

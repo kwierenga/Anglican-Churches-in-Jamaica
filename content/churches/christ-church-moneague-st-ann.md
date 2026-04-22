@@ -14,3 +14,8 @@ Christ Church has always been part of the St. Ann Deanery, sharing clergy with n
 
 ## Notable Facts
 Christ Church has weathered many storms, including Hurricane Charlie (1951) and Hurricane Gilbert (1988), which required repairs to the roof and windows. Its location has also made it susceptible to flooding from the nearby Moneague Lake, though the building itself is situated on relatively high ground. There are no reports of damage from Hurricane Melissa (2025). Today, Christ Church Anglican remains a vibrant parish, hosting weekly services, weddings, funerals, and community events, serving as a living connection between Moneague's storied past and its present.
+
+## References
+- National Library of Jamaica — The History of St. Ann: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Ann.pdf)
+- Jamaica National Heritage Trust — St. Ann heritage sites: [jnht.com/st_ann.php](http://www.jnht.com/st_ann.php)
+- Diocese of Jamaica and the Cayman Islands — Montego Bay Region, St. Ann Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)

@@ -14,3 +14,8 @@ St. Saviour’s has always been part of the St. Ann Deanery, sharing clergy with
 
 ## Notable Facts
 St. Saviour’s has endured several major hurricanes, including Charlie (1951) and Gilbert (1988), which necessitated repairs to the roof and windows. Each time, the congregation, supported by the Diocese, successfully restored the building. The structure has also required ongoing maintenance to withstand the heavy rains common in the hills of Lime Hall. Today, St. Saviour’s Anglican Church remains an active parish, hosting regular services, weddings, and community festivities, standing as a proud symbol of the strength and enduring legacy of the Lime Hall community.
+
+## References
+- National Library of Jamaica — The History of St. Ann: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Ann.pdf)
+- Jamaica National Heritage Trust — St. Ann heritage sites: [jnht.com/st_ann.php](http://www.jnht.com/st_ann.php)
+- Diocese of Jamaica and the Cayman Islands — Montego Bay Region, St. Ann Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)

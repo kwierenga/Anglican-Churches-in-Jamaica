@@ -14,3 +14,8 @@ Within the diocesan structure, St. Andrew’s is part of the St. Ann Deanery in 
 
 ## Notable Facts
 Prickly Pole is named for the local prickly pole palm, linking the community's identity to a distinctive native plant. The village has been described in media reports as one of the poorer districts in St. Ann, with St. Andrew’s and the local school serving as vital institutions for residents. The community has also faced national scrutiny, such as in 2015 when a tragic incident involving a school pupil sparked a national debate about child safety. More recently, in September 2024, a fatal roadway collapse highlighted the fragility of the area's infrastructure, underscoring the vulnerability of this hill community and the critical role its local institutions play in times of crisis.
+
+## References
+- National Library of Jamaica — The History of St. Ann: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Ann.pdf)
+- Jamaica National Heritage Trust — St. Ann heritage sites: [jnht.com/st_ann.php](http://www.jnht.com/st_ann.php)
+- Diocese of Jamaica and the Cayman Islands — Montego Bay Region, St. Ann Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)

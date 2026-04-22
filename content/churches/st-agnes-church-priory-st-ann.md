@@ -14,3 +14,8 @@ As a mission within the St. Ann's Bay Cure, St. Agnes is served by the same rect
 
 ## Notable Facts
 St. Agnes occupies a uniquely historic landscape. It is located near the Seville Heritage Park, which encompasses the ruins of the first Spanish settlement and later British sugar works. The church itself serves the community established on part of this estate after Emancipation. This places St. Agnes at the confluence of Jamaica's layered history, connecting the era of enslavement at Drax Hall and Seville with the post-Emancipation free villages and modern residential developments. The church's role as a respected local institution is underscored by its use for high-profile funerals of notable figures from the north coast's business and tourism sectors.
+
+## References
+- National Library of Jamaica — The History of St. Ann: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Ann.pdf)
+- Jamaica National Heritage Trust — St. Ann heritage sites: [jnht.com/st_ann.php](http://www.jnht.com/st_ann.php)
+- Diocese of Jamaica and the Cayman Islands — Montego Bay Region, St. Ann Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)

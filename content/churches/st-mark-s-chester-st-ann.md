@@ -14,3 +14,8 @@ St. Mark’s has always been part of the St. Ann Deanery, sharing clergy with ne
 
 ## Notable Facts
 St. Mark’s has endured several major hurricanes, including Charlie (1951) and Gilbert (1988), which caused damage to the roof and windows. Each time, the community, with support from the Diocese, carried out the necessary repairs. The structure has also withstood the challenges of heavy hillside rains. Today, St. Mark’s Anglican Church remains an active parish, holding weekly services, weddings, and community gatherings, serving as an enduring symbol of faith and heritage in Chester
+
+## References
+- National Library of Jamaica — The History of St. Ann: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Ann.pdf)
+- Jamaica National Heritage Trust — St. Ann heritage sites: [jnht.com/st_ann.php](http://www.jnht.com/st_ann.php)
+- Diocese of Jamaica and the Cayman Islands — Montego Bay Region, St. Ann Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)

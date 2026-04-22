@@ -14,3 +14,8 @@ St. Francis is part of the St. Ann Deanery and is served by the same priest in c
 
 ## Notable Facts
 The Hiattsfield Estate is a documented example of a classic St. Ann sugar plantation, directly linking the hamlet to the history of slavery through its owner, the prominent official and slaveholder John Hiatt. The estate also appears in records from the apprenticeship period, underscoring the difficult transition to full freedom after Emancipation. Today, Hiattsfield is known as a quiet, hillside community near Breadnut Hill and Orange Hill, with views toward the north coast. In this setting, St. Francis Church continues to serve as a spiritual and historical anchor for the local community.
+
+## References
+- National Library of Jamaica — The History of St. Ann: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Ann.pdf)
+- Jamaica National Heritage Trust — St. Ann heritage sites: [jnht.com/st_ann.php](http://www.jnht.com/st_ann.php)
+- Diocese of Jamaica and the Cayman Islands — Montego Bay Region, St. Ann Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)

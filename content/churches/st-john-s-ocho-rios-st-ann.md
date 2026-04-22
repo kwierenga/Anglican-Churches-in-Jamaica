@@ -14,3 +14,8 @@ St. John’s belongs to the Anglican Diocese and is part of the St. Ann Deanery 
 
 ## Notable Facts
 Over the years St. John’s has faced challenges from storms, population changes and tourism growth. It has been maintained, and regular services still take place. Today the church remains a focal point for worship, heritage tours, and community events in Ocho Rios, linking Jamaica’s history of slavery, emancipation and independence with its modern life.
+
+## References
+- National Library of Jamaica — The History of St. Ann: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Ann.pdf)
+- Jamaica National Heritage Trust — St. Ann heritage sites: [jnht.com/st_ann.php](http://www.jnht.com/st_ann.php)
+- Diocese of Jamaica and the Cayman Islands — Montego Bay Region, St. Ann Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)

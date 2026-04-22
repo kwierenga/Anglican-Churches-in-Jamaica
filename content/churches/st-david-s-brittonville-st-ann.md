@@ -14,3 +14,8 @@ St. David’s has long been part of the St. Ann Anglican Deanery, sharing clergy
 
 ## Notable Facts
 St. David’s has faced challenges from storms over the years. Hurricane Charlie (1951) and Hurricane Gilbert (1988) caused roof damage that the community later repaired. Occasional flooding and landslides in the Brittonville area have also affected access to the church, though the building itself sits on slightly raised ground. Today, St. David’s Anglican Church continues to hold weekly services, weddings, funerals, and harvest events, serving as a symbol of history, faith, and resilience in Brittonville.
+
+## References
+- National Library of Jamaica — The History of St. Ann: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Ann.pdf)
+- Jamaica National Heritage Trust — St. Ann heritage sites: [jnht.com/st_ann.php](http://www.jnht.com/st_ann.php)
+- Diocese of Jamaica and the Cayman Islands — Montego Bay Region, St. Ann Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)

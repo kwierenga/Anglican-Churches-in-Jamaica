@@ -14,3 +14,8 @@ St. Luke’s has always been part of the St. Ann Deanery, sharing clergy with ne
 
 ## Notable Facts
 St. Luke’s has endured several major hurricanes, including Charlie (1951) and Gilbert (1988), which caused damage to the roof and windows. Each time, the community, with support from the Diocese, carried out the necessary repairs. The sturdy stone structure has also withstood occasional flooding from heavy hillside rains. There are no reports of damage from Hurricane Melissa (2025). Today, St. Luke’s Anglican Church remains an active parish, holding weekly services, weddings, and funerals, standing as a living reminder of Aboukir’s deep community heritage and enduring faith.
+
+## References
+- National Library of Jamaica — The History of St. Ann: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Ann.pdf)
+- Jamaica National Heritage Trust — St. Ann heritage sites: [jnht.com/st_ann.php](http://www.jnht.com/st_ann.php)
+- Diocese of Jamaica and the Cayman Islands — Montego Bay Region, St. Ann Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)

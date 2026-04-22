@@ -14,3 +14,8 @@ Within the current diocesan structure, St. Agnes, Salisbury is part of the St. A
 
 ## Notable Facts
 Hinds Town and Salisbury are classic St. Ann hill communities, known for Irish potato fields and active farmers' groups; St. Agnes is integral to this agricultural landscape, sharing its concerns about climate and rural livelihoods. The church is also part of a network of local institutions, including the Hinds Town Basic School, shaping early childhood experiences of community and faith. For nearly a century, St. Agnes has marked the key milestones of its congregation—baptisms, weddings, and funerals—offering a window into how a small rural Anglican church has accompanied its community from the colonial era, through Emancipation and Independence, into the present-day economy of the Ocho Rios uplands.
+
+## References
+- National Library of Jamaica — The History of St. Ann: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Ann.pdf)
+- Jamaica National Heritage Trust — St. Ann heritage sites: [jnht.com/st_ann.php](http://www.jnht.com/st_ann.php)
+- Diocese of Jamaica and the Cayman Islands — Montego Bay Region, St. Ann Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)
