@@ -29,3 +29,5 @@ The dedication to St. David (Dewi Sant), the sixth-century Welsh bishop canonise
 - *Handbook of Jamaica* (1900) — C. T. Rickard, "Plains, Mayfield, and 8 mission stations" (jamaicanfamilysearch.com)
 - J. B. Ellis, *The Diocese of Jamaica* (1913) — mission station expansion (anglicanhistory.org)
 - Jamaica National Heritage Trust — Lovers' Leap (jnht.com)
+- National Library of Jamaica — The History of St. Elizabeth: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Elizabeth.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Elizabeth: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

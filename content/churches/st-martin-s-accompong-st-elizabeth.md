@@ -35,3 +35,5 @@ The dedication to St. Martin of Tours (316–397 AD) — a Roman cavalry soldier
 - UNESCO — Accompong Maroon Festival recognition (2025)
 - Thomas Thistlewood diaries — descriptions of Cudjoe and Captain Accompong (1750–1751)
 - Dave St. Aubyn Gosse — Maroon community research (UWI Press)
+- National Library of Jamaica — The History of St. Elizabeth: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Elizabeth.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Elizabeth: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

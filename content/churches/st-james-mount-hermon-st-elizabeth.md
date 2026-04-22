@@ -29,3 +29,5 @@ The contrast between Mount Hermon's 1891 vitality — 428 members, nearly 100 ba
 - *Handbook of Jamaica* (1900) — Rev. A. E. Lewis serving Mount Hermon and Nain (jamaicanfamilysearch.com)
 - Diocese of Jamaica and the Cayman Islands — St. James' Mount Hermon still listed, St. Elizabeth deanery (anglicandioceseja.org)
 - J. B. Ellis, *The Diocese of Jamaica* (1913) — mission station expansion (anglicanhistory.org)
+- National Library of Jamaica — The History of St. Elizabeth: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Elizabeth.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Elizabeth: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

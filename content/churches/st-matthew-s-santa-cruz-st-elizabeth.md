@@ -29,3 +29,5 @@ The dedication to St. Matthew — born Levi, a tax collector working for the Rom
 - Jamaica National Heritage Trust — St. Elizabeth parish history (jnht.com)
 - Jamaica Information Service — parish profile: St. Elizabeth (jis.gov.jm)
 - *Handbook of Jamaica* (1900) — clergy listings for St. Elizabeth (jamaicanfamilysearch.com)
+- National Library of Jamaica — The History of St. Elizabeth: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Elizabeth.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Elizabeth: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

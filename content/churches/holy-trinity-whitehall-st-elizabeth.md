@@ -33,3 +33,5 @@ The Black River Great Morass — the largest wetland wildlife habitat in the Car
 - *The Living Church*, *Church Times* — Hurricane Melissa coverage (2025)
 - Ramsar Wetland Sites — Lower Black River Morass factsheet
 - UCL Legacies of British Slavery — St. Elizabeth estates (ucl.ac.uk/lbs)
+- National Library of Jamaica — The History of St. Elizabeth: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Elizabeth.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Elizabeth: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

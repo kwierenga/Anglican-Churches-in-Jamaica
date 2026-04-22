@@ -31,3 +31,5 @@ The dedication to St. Barnabas — born Joseph, renamed "Son of Encouragement" b
 - Jamaican Ancestral Records — St. Barnabas Anglican, Crawford (jamaicanancestralrecords.com)
 - *Jamaica Gleaner* — "Bell Tolls for Traditional Churches" (February 2025)
 - *The Living Church* — "Hurricane Melissa Flattens Jamaican Churches" (2025)
+- National Library of Jamaica — The History of St. Elizabeth: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Elizabeth.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Elizabeth: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

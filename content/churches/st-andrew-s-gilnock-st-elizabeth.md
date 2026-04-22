@@ -33,3 +33,5 @@ The dedication to St. Andrew — patron saint of Scotland, whose feast day is 30
 - *Handbook of Jamaica* (1900) — clergy listings (jamaicanfamilysearch.com)
 - Jamaica National Heritage Trust — St. Elizabeth Parish Church (jnht.com)
 - *Church Times*, *Living Church*, Anglican Alliance — Hurricane Melissa coverage
+- National Library of Jamaica — The History of St. Elizabeth: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Elizabeth.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Elizabeth: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

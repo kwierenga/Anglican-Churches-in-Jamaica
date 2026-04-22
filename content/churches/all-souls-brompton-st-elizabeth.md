@@ -33,3 +33,5 @@ The dedication to All Souls — the Commemoration of All the Faithful Departed o
 - *Jamaica Gleaner* — Newton D. Duncan, "A Brompton Childhood" (December 2025)
 - Diocese of Jamaica and the Cayman Islands — churches by deanery (anglicandioceseja.org)
 - IFRC — Hurricane Melissa damage reports, Brompton survivor account (2025)
+- National Library of Jamaica — The History of St. Elizabeth: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Elizabeth.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Elizabeth: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

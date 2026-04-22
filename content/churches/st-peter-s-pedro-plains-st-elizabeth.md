@@ -31,3 +31,5 @@ The dedication to St. Peter — the Jewish fisherman from Bethsaida whom Jesus c
 - St. Elizabeth Municipal Corporation — parish history, Hato Pereda origins (stelizabethmc.gov.jm)
 - Diocese of Jamaica and the Cayman Islands — clerical directory (anglicandioceseja.org)
 - Jamaica Information Service — Pedro Plains irrigation feasibility study
+- National Library of Jamaica — The History of St. Elizabeth: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Elizabeth.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Elizabeth: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

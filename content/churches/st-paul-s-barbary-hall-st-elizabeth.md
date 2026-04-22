@@ -34,3 +34,5 @@ The dedication to St. Paul — born Saul of Tarsus, a persecutor of Christians w
 - Dudley C. McLean — "150 Years of Disestablishment," disestablishment and education data
 - Jamaica Social Investment Fund — Hurricane Ivan repairs to Barbary Hall schools (jsif.org)
 - *Jamaica Gleaner*, *Church Times* — Hurricane Melissa coverage (2025)
+- National Library of Jamaica — The History of St. Elizabeth: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Elizabeth.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Elizabeth: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

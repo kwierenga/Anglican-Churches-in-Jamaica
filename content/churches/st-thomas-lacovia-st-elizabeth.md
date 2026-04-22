@@ -19,6 +19,9 @@ St. Thomas' is a limestone church in the simple Gothic Revival tradition of nine
 St. Thomas' has historically operated community schools as part of the Anglican post-Emancipation educational network. Across St. Elizabeth the Anglican educational legacy is anchored by Munro College (1856) and Hampton School (1858) in the Malvern hills — both funded from the 1797 will of Robert Hugh Munro, a free "gentleman of colour," bequeathed to his nephew Caleb Dickenson and the Churchwardens of St. Elizabeth to endow education for poor children.
 
 ## Clergy
+- Early eighteenth century: Rev. John Kelly alternated between Black River and Lacovia on successive Sundays — the parish was thinly served in its first decades (Jemmott, *Parish History of St. Elizabeth*)
+- Until c.1870: Rev. Michael H. Smith
+- 1878: Rev. M. M. Deuwarder (Curate in charge)
 - 1891: Rev. J. S. Fraser (643 members)
 - 1900: Rev. B. A. S. MacCalla (Lacovia and Siloah)
 - Current: Rev. David "Tony" Reid (Rural Dean of St. Elizabeth)
@@ -38,3 +41,4 @@ The Lacovia Tombstones, a short distance from the church, are a designated Natio
 - Diocese of Jamaica and the Cayman Islands — St. Elizabeth Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=2731)
 - Jamaica Gleaner — Bishop Christopher Lipscomb's enduring legacy (1835 schools data): [jamaica-gleaner.com](https://jamaica-gleaner.com/article/art-leisure/20240721/christopher-lipscombs-enduring-legacy)
 - The Living Church — Hurricane Melissa Flattens Jamaican Churches: [livingchurch.org](https://livingchurch.org/news/news-anglican-communion/hurricane-melissa-flattens-jamaican-churches/)
+- National Library of Jamaica — The History of St. Elizabeth: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Elizabeth.pdf)

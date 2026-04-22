@@ -14,3 +14,5 @@ St. Margaret's operates within the well-established diocesan framework that link
 
 ## Notable Facts
 The church exists within a uniquely Jamaican cultural landscape, with Middle Quarters famed nationwide as the 'Peppa Shrimp' capital where roadside vendors create an iconic culinary experience for travelers. Immediately adjacent to the community lies the breathtaking Holland Bamboo Avenue, the historic canopy road between Lacovia and Middle Quarters that forms part of the church's immediate travel corridor and visual environment. Hurricane Melissa's catastrophic impact in 2025 caused severe regional disruption, including the prolonged blockage of Holland Bamboo Avenue and catastrophic flooding in Black River - events that undoubtedly affected St. Margaret's operations, access, and congregation while highlighting the climate vulnerability of this low-lying coastal region.
+- National Library of Jamaica — The History of St. Elizabeth: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Elizabeth.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Elizabeth: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

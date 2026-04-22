@@ -19,16 +19,16 @@ St. Barnabas' is a modest masonry church built from local limestone in the rural
 The Anglican mission to educate is central to St. Barnabas' story. The Siloah Primary School, founded in 1825 and standing adjacent to the church, is one of the oldest schools in St. Elizabeth. The proximity of school and church was no accident: the two were conceived as complementary — the school providing practical knowledge and literacy, the church providing moral formation and community cohesion. For families emerging from slavery, access to education was a revolutionary act, and the Anglican Church's provision of schooling in places like Siloah helped lay the foundations for social mobility and self-determination.
 
 ## Clergy
-St. Barnabas' has been served within the St. Elizabeth deanery, sharing clergy with other churches in the region. The 1900 Handbook records Rev. B. A. S. MacCalla serving "Lacovia and Siloah." The Church of Scotland also maintained a presence — Rev. W. S. Lea served "Thornton, Retirement, Accompong, and Glen Stuart" from a Siloah address. Lay readers have been essential to St. Barnabas' continuity, maintaining worship and pastoral care when ordained clergy were stretched across multiple stations.
+St. Barnabas' has been served within the St. Elizabeth deanery, sharing clergy with other churches in the region. By 1867 the Rev. E. B. Key — who later moved to St. Silas, Troy (Trelawny), where he is recorded in the 1891 Handbook — was in charge of Siloah (Jemmott, *Parish History of St. Elizabeth*). The 1900 Handbook records Rev. B. A. S. MacCalla serving "Lacovia and Siloah." The Church of Scotland also maintained a presence — Rev. W. S. Lea served "Thornton, Retirement, Accompong, and Glen Stuart" from a Siloah address. Lay readers have been essential to St. Barnabas' continuity, maintaining worship and pastoral care when ordained clergy were stretched across multiple stations.
 
 ## Notable Facts
 The dedication to St. Barnabas — born Joseph, a Levite from Cyprus, renamed "Son of Encouragement" by the apostles — carries particular resonance for a community born in the aftermath of slavery. He was not one of the original twelve but earned the honorary title through his ministry of building up the early church. His feast day is 11 June. For freed families settling into independent life after generations of enslavement, the figure of the encourager and community-builder was an apt patron. The community sits at the edge of the Cockpit Country, near the autonomous Accompong Maroon territory established by treaty in 1739. West Indies cricketer Chadwick Walton hails from Siloah.
 
 ## References
-- *Jamaica Gleaner* — "Siloah — St. Bess' Sugar Town" (14 August 2017)
-- *Handbook of Jamaica* (1900) — clergy listings for Siloah (jamaicanfamilysearch.com)
-- Jamaican Ancestral Records — St. Barnabas Anglican, Siloah churchyard (jamaicanancestralrecords.com)
-- UCL Legacies of British Slavery — Appleton Estate (ucl.ac.uk/lbs)
-- Diocese of Jamaica and the Cayman Islands — St. Elizabeth deanery and Schools Directory (anglicandioceseja.org)
-- *Caribbean Today* — J. Wray & Nephew "Lest We Forget" monument at Appleton Estate (2023)
-- BillionGraves — Siloah Saint Barnabas Churchyard, 105+ documented burials
+- JN Foundation / Jenny Jemmott — Parish History of St. Elizabeth (St. Barnabas' built 1820s; Rev. E. B. Key at Siloah by 1867): [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- National Library of Jamaica — The History of St. Elizabeth: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Elizabeth.pdf)
+- 1900 Handbook of Jamaica — Clergy and Church (Rev. B. A. S. MacCalla, Lacovia and Siloah): [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Samples/handbk9.htm)
+- 1891 Handbook of Jamaica — Anglican clergy (Rev. E. B. Key, St. Silas, Troy, 56 members): [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/hclergy1.htm)
+- Jamaican Ancestral Records — St. Barnabas Anglican, Siloah: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/st-elizabeth-2/)
+- UCL Legacies of British Slavery — Appleton Estate: [ucl.ac.uk/lbs](https://www.ucl.ac.uk/lbs/)
+- Diocese of Jamaica and the Cayman Islands — St. Elizabeth Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=2731)

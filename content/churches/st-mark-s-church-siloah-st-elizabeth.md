@@ -14,3 +14,5 @@ Siloah has been served within the St. Elizabeth deanery. St. Mark's and St. Barn
 
 ## Notable Facts
 The Pool of Siloam in Jerusalem was the site of one of Jesus' most detailed healing miracles — he mixed mud with saliva, applied it to a blind man's eyes, and instructed him to wash in the Pool of Siloam, restoring his sight. The community of Siloah in St. Elizabeth carries this association with healing and transformation. The name is spelled variously as Siloah, Siloam, and Siloa across different sources.
+- National Library of Jamaica — The History of St. Elizabeth: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Elizabeth.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Elizabeth: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

@@ -14,3 +14,5 @@ St. Augustine has always been part of the Black River Deanery, served by clergy 
 
 ## Notable Facts
 St. Augustine has weathered many hurricanes, including Hurricane Charlie (1951) and Hurricane Gilbert (1988), which caused damage to the roof and windows. Each time, the community came together to repair and rebuild. More recent repairs have further strengthened the structure. There is no reported damage from Hurricane Melissa (2025). Today, St. Augustine Anglican Church remains active, holding weekly services, harvest celebrations, weddings, and funerals, continuing its role as a enduring symbol of faith and community in Mountainside.
+- National Library of Jamaica — The History of St. Elizabeth: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Elizabeth.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Elizabeth: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

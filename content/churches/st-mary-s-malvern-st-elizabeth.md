@@ -34,3 +34,5 @@ The dedication to St. Mary — the mother of Jesus, venerated across the Christi
 - Munro College Old Boys Association — Robert Hugh Munro biography (mcobajm.org)
 - Hampton School Legacy — school history (hamptonschoollegacy.org)
 - Diocese of Jamaica and the Cayman Islands — clerical directory (anglicandioceseja.org)
+- National Library of Jamaica — The History of St. Elizabeth: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Elizabeth.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Elizabeth: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
