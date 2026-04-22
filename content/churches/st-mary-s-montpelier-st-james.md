@@ -29,3 +29,5 @@ The site of St. Mary's — overlooking the very estate where the Christmas Rebel
 - *Handbook of Jamaica* (1891, 1900) — Montpelier clergy (jamaicanfamilysearch.com)
 - UCL Legacies of British Slavery — Lord Seaford, Montpelier estates: Old Montpelier 373, New Montpelier 276, Shettlewood 146 enslaved (ucl.ac.uk/lbs)
 - Diocese of Jamaica and the Cayman Islands — Montego Bay Region (anglicandioceseja.org)
+- National Library of Jamaica — The History of St. James: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20James.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. James: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

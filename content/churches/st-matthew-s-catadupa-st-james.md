@@ -40,3 +40,5 @@ Catadupa's connection to Samuel Sharpe — the man whose rebellion ended slavery
 - Diocese of Jamaica and the Cayman Islands — Montego Bay Region (anglicandioceseja.org)
 - Croydon Estate — Samuel Sharpe birthplace (croydon-estate.com)
 - Merriam-Webster — "catadupe" definition (merriam-webster.com)
+- National Library of Jamaica — The History of St. James: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20James.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. James: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

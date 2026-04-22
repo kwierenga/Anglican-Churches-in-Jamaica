@@ -27,3 +27,5 @@ The All Saints' dedication — commemorating all the saints of the Church, known
 - Diocese of Jamaica and the Cayman Islands — Montego Bay Region (anglicandioceseja.org)
 - Jamaica National Heritage Trust — St. Mary's Anglican, Montpelier (jnht.com)
 - UCL Legacies of British Slavery — Lord Seaford, Montpelier estates (ucl.ac.uk/lbs)
+- National Library of Jamaica — The History of St. James: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20James.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. James: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

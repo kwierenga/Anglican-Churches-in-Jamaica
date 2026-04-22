@@ -14,3 +14,5 @@ St. John's is part of the Montego Bay Region of the Diocese of Jamaica and share
 
 ## Notable Facts
 St. John's serves a district with deep connections to the interior plantation economy of St. James. The Johns Hall and Montpelier areas were the site of significant sugar and livestock estates in the 18th and 19th centuries, and the congregation descends largely from those who remained in the area as small farmers after Emancipation. A 1931 National Library of Jamaica photograph confirms the church's modest rural character in the early 20th century. The church continues to serve as a community gathering point, with funeral and burial notices regularly citing St. John's as the venue for thanksgiving services.
+- National Library of Jamaica — The History of St. James: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20James.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. James: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
