@@ -27,4 +27,6 @@ St. Mary is the site of Tacky's Revolt (7 April 1760), the most significant slav
 ## References
 - Jamaica Travel and Culture — Port Maria and St. Mary Parish Church: [jamaicatravelandculture.com](https://jamaicatravelandculture.com/destinations/st_mary/port_maria/st_mary_parish_church.htm)
 - Jamaican Ancestral Records — St. Mary's Parish Church, Port Maria: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/st-mary-2/st-marys-parish-church-port-maria-st-mary/)
+- JN Foundation / Veront M. Satchell — *Parish History of St. Mary* (Rev. Colin Donaldson rector of St. Mary 1801–1821, earlier rectors from 1715): [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Lambeth Palace Library — **Fulham Papers, Volume 18 (Jamaica, 1740–1752, 1762, 1769, 1787–1809, 1819, 1821)** — correspondence to the Bishop of London from Jamaican clergy including **Colin Donaldson** (rector of St. Mary 1801–1821), William May, John Barton, and James White. Calendar via UNB Loyalist Collection: [loyalist.lib.unb.ca](https://loyalist.lib.unb.ca/record/fulham-papers-lambeth-palace-library-1626-1822)
 - Wikipedia — Tacky's Revolt: [en.wikipedia.org/wiki/Tacky's_Revolt](https://en.wikipedia.org/wiki/Tacky's_Revolt)
