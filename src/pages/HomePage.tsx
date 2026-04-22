@@ -25,11 +25,18 @@ const architectureCards = [
 ]
 
 const timelineEvents = [
-  { year: '1655', title: 'English Capture', body: 'England seizes Jamaica from Spain. The Church of England becomes the established church of the colony.' },
-  { year: '1664', title: 'First Parish Churches', body: 'The island is divided into parishes, each with an Anglican church serving as the centre of civic and religious life.' },
-  { year: '1834', title: 'Emancipation Begins', body: 'The Slavery Abolition Act takes effect. Formerly enslaved people join congregations, transforming the character of parish churches.' },
-  { year: '1870s', title: 'Disestablishment', body: 'The Church of England is disestablished in Jamaica. The Anglican church must now sustain itself through its own congregations.' },
-  { year: '1962', title: 'Independence', body: 'Jamaica becomes independent. The Anglican Church becomes part of the self-governing Church in the Province of the West Indies.' },
+  { year: '1655', title: 'English Capture', body: 'England seizes Jamaica from Spain. The Church of England becomes the established church of the colony, with its clergy, vestries, and parish boundaries woven into colonial government.' },
+  { year: '1664', title: 'First Parish Churches', body: 'The island is divided into parishes — St. Catherine, St. Andrew, Clarendon, Vere, St. John, St. David, St. Thomas in the East and St. Thomas in the Vale — each with an Anglican parish church as its civic and spiritual centre.' },
+  { year: '1692', title: 'Port Royal Earthquake', body: 'The 7 June earthquake destroys Port Royal and the Parish Churches of St. Paul and Christ Church; the refounding of Kingston on Colonel Barry\u2019s Hog Crawle reshapes the ecclesiastical map of the south-east.' },
+  { year: '1739', title: 'Maroon Treaties', body: 'The Leeward (March) and Windward (June) treaties recognise free Maroon territories; a later 1740 supplement and a 1746 grant to Nanny at New Nanny Town (Moore Town) establish a parallel society alongside the Anglican parish structure.' },
+  { year: '1824', title: 'Diocese of Jamaica', body: 'Jamaica is made a see of its own under Bishop Christopher Lipscomb, first Bishop of Jamaica, who launches an extensive school-building programme \u2014 142 schools and 8,500 scholars reported by 1835.' },
+  { year: '1831\u20131832', title: 'Baptist War & Colonial Church Union', body: 'Sam Sharpe\u2019s Christmas Rebellion is followed by reprisals from the planter-led Colonial Church Union, which destroys Baptist chapels across the island and forces moral reckoning within the established church.' },
+  { year: '1834\u20131838', title: 'Emancipation', body: 'Slavery Abolition Act takes effect (1834); full freedom on 1 August 1838. Anglican congregations admit formerly enslaved worshippers; rural chapels of ease and mission stations multiply across the interior.' },
+  { year: '1865', title: 'Morant Bay Rebellion', body: 'Paul Bogle\u2019s 11 October uprising and Governor Eyre\u2019s savage response \u2014 over 430 executed \u2014 expose the Anglican establishment\u2019s entanglement with the vestry and magistracy, and lead to Crown Colony government.' },
+  { year: '1870', title: 'Disestablishment', body: 'The Church of England is disestablished in Jamaica. State funding ends, vestries are reformed, and the Diocese begins the long transition from planter-class institution to a self-supporting church of the Black majority.' },
+  { year: '1907', title: 'Kingston Earthquake', body: 'The 14 January earthquake levels Kingston\u2019s churches. Archbishop Enos Nuttall leads the rebuilding; in January 1911 alone ten churches are consecrated in a single month.' },
+  { year: '1962', title: 'Independence', body: 'Jamaica becomes independent on 6 August 1962. The Anglican Church becomes part of the self-governing Church in the Province of the West Indies, within the worldwide Anglican Communion.' },
+  { year: '2025', title: 'Hurricane Melissa', body: 'On 28 October 2025 Hurricane Melissa tracks across south-western and interior Jamaica. Historic church fabric in Westmoreland, St. Elizabeth, Manchester, Clarendon and Portland is damaged; Diocese coordinates recovery across the parishes and Cayman Islands.' },
 ]
 
 const today = new Date().toISOString().slice(0, 10)
@@ -170,18 +177,42 @@ export default function HomePage() {
             <div className="font-body text-lg leading-relaxed text-gray-700 space-y-4">
               <p>
                 The Anglican Church has been present in Jamaica since the English captured the island from
-                Spain in 1655. Parish churches were established across the island as centres of worship,
-                civic life, and colonial administration.
+                Spain in 1655. Under the English civil administration, the island was divided into parishes
+                and a Church of England parish church was established in each as centre of worship, vestry
+                government, poor relief, and colonial record-keeping. The oldest surviving congregations
+                &mdash; the Cathedral of St. Jago de la Vega (Spanish Town, 1666), St. Andrew Parish Church
+                (Half-Way-Tree, 1664), and St. Peter&rsquo;s at Alley in Vere (1671) &mdash; date from this
+                first generation.
               </p>
               <p>
-                <strong>Emancipation (1834&ndash;1838)</strong> transformed the church's role. As formerly
-                enslaved people gained freedom, congregations changed, schools were founded, and mission work
-                expanded beyond the planter class.
+                For its first two centuries the established church was deeply entangled with the slave
+                economy. Vestries were composed of the planter class, clergy were paid by the colonial
+                government, and churchyards across the island still contain the graves of major
+                slave-owning families. The 1831&ndash;32 <strong>Baptist War</strong> and the reprisals of
+                the planter-aligned Colonial Church Union, and the 1865 <strong>Morant Bay Rebellion</strong>
+                led by National Hero Paul Bogle, exposed this entanglement and reshaped Jamaica&rsquo;s
+                political future.
+              </p>
+              <p>
+                <strong>Emancipation (1834&ndash;1838)</strong> transformed the church&rsquo;s role. Bishop
+                Christopher Lipscomb, first Bishop of Jamaica (1824), had begun an ambitious school-building
+                programme that by 1835 counted 142 schools with 8,500 scholars; by 1900 the Diocese operated
+                263 elementary schools. Chapels of ease multiplied across the interior as freed families
+                established free villages, smallholdings, and provision grounds.
+              </p>
+              <p>
+                <strong>Disestablishment in 1870</strong> ended state funding, and the Anglican Church began
+                its long transition from planter-class institution to a self-supporting church of the Black
+                majority. The <strong>1907 Kingston earthquake</strong> destroyed the great churches of the
+                capital; Archbishop Enos Nuttall led the rebuilding, consecrating ten churches in a single
+                month in January 1911.
               </p>
               <p>
                 Following <strong>Independence in 1962</strong>, the Anglican Church in Jamaica became part
                 of the self-governing Church in the Province of the West Indies, within the worldwide
-                Anglican Communion.
+                Anglican Communion. In October 2025 Hurricane Melissa damaged historic church fabric across
+                south-western and interior parishes, and the Diocese coordinated recovery across Jamaica
+                and the Cayman Islands.
               </p>
             </div>
             <aside>
