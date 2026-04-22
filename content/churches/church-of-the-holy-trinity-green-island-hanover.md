@@ -4,7 +4,7 @@
 The Church of the Holy Trinity serves the community of Green Island on Hanover's western coast, the parish's second Anglican parish seat alongside Lucea. Green Island Harbour was a shipping point for the sugar estates of western Hanover during the plantation era, and the Anglican community here was already established by the mid-nineteenth century. By 1865 Green Island had its own rector on the same salary as the Island Curate (£340), and by 1891 the congregation numbered over 300 registered members.
 
 ## History
-Hanover parish was carved out of St. James in 1723. Until 1870, the Church of England in Jamaica was the established state church, supported by colonial government funds. The Anglican presence at Green Island developed alongside the sugar economy of the western coast: the harbour served as a loading point for estates whose enslaved workforce produced the wealth that flowed through Hanover to Lucea and out to the Atlantic.
+Hanover was established on 12 November 1723 from parts of Westmoreland and St. James, named for the ruling House of Hanover. Until 1870, the Church of England in Jamaica was the established state church, supported by colonial government funds. The Anglican presence at Green Island developed alongside the sugar economy of the western coast: the harbour served as a loading point for estates whose enslaved workforce produced the wealth that flowed through Hanover to Lucea and out to the Atlantic.
 
 Emancipation came in 1834, with full freedom on 1 August 1838. By the 1860s the Anglican presence at Green Island had grown into a full parochial cure. The 1865 Jamaica Almanac records Rev. Henry Gibbes Lawson as Rector at Green Island on a salary of £340 — equal to that of the Island Curate — placing Green Island on a footing with the larger parish centres of western Jamaica. Lawson was still rector in 1870.
 
@@ -27,3 +27,4 @@ By 1891, Green Island's 306 registered Anglicans made it the second-largest Angl
 - 1891 Handbook of Jamaica — Anglican clergy: [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/hclergy1.htm)
 - 1900 Handbook of Jamaica — Clergy and Church: [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Samples/handbk9.htm)
 - Jamaica Gleaner — Historic landmarks out west among Melissa's many victims (7 Nov 2025): [jamaica-gleaner.com](https://jamaica-gleaner.com/article/lead-stories/20251107/historic-landmarks-out-west-among-melissas-many-victims)
+- National Library of Jamaica — The History of Hanover: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Hanover.pdf)
