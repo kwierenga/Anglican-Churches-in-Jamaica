@@ -14,3 +14,7 @@ Clifton Lodge has been served within the St. Mary deanery under shared clergy ar
 
 ## Notable Facts
 The two St. Margaret’s churches in St. Mary — at Long Road and Clifton Lodge — reflect the Diocese’s use of repeated dedications across a parish network. Both serve small interior farming communities in different parts of the parish hill country. Hurricane Melissa (October 2025) brought heavy rain and wind to interior St. Mary; the Clifton Lodge community and congregation were in the affected zone.
+
+## References
+- JN Foundation / Veront M. Satchell — *Parish History of St. Mary* (covers Port Maria, Annotto Bay, Metcalfe parish 1841–1867, Scott's Hall Maroons, Rio Nuevo battle, and the four principal Anglican churches of the parish): [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Mary Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

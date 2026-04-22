@@ -14,3 +14,7 @@ As part of a shared pastoral group, St. Matthew's is served by rotating clergy w
 
 ## Notable Facts
 The church-school campus hosts musical fundraisers for building maintenance. During Hurricane Melissa, Boscobel Primary served as a storm shelter and sustained damage, with the wider community experiencing prolonged outages. While specific church damage wasn't documented, the storm continued St. Matthew's historical role through climate challenges.
+
+## References
+- JN Foundation / Veront M. Satchell — *Parish History of St. Mary* (covers Port Maria, Annotto Bay, Metcalfe parish 1841–1867, Scott's Hall Maroons, Rio Nuevo battle, and the four principal Anglican churches of the parish): [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Mary Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

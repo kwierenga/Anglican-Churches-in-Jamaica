@@ -14,3 +14,7 @@ Rio Nuevo has been served within the coastal St. Mary circuit of the Diocese. It
 
 ## Notable Facts
 The Battle of Rio Nuevo (1658) is one of the decisive moments in Jamaican colonial history. The site is marked by a monument, and the battlefield is recorded in heritage documentation. The presence of an Anglican church at this location adds an ecclesiastical layer to a site already significant in military and colonial history. Hurricane activity along the north coast has periodically threatened coastal heritage sites in this area. Hurricane Melissa (October 2025) tracked along the north coast and the Rio Nuevo area was in the storm’s path.
+
+## References
+- JN Foundation / Veront M. Satchell — *Parish History of St. Mary* (covers Port Maria, Annotto Bay, Metcalfe parish 1841–1867, Scott's Hall Maroons, Rio Nuevo battle, and the four principal Anglican churches of the parish): [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Mary Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

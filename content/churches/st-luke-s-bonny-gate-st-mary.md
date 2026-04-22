@@ -14,3 +14,7 @@ Bonny Gate has been served within the Port Maria circuit of the St. Mary deanery
 
 ## Notable Facts
 Bonny Gate’s interior position reflects the Anglican Diocese’s historically thorough coverage of St. Mary’s dispersed hill communities. The church’s pastoral role in connecting the farming families of the central parish interior to the wider Diocese has been consistent across its history. Hurricane Melissa (October 2025) brought heavy rain and wind to interior St. Mary; the Bonny Gate community was in the affected zone.
+
+## References
+- JN Foundation / Veront M. Satchell — *Parish History of St. Mary* (covers Port Maria, Annotto Bay, Metcalfe parish 1841–1867, Scott's Hall Maroons, Rio Nuevo battle, and the four principal Anglican churches of the parish): [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Mary Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

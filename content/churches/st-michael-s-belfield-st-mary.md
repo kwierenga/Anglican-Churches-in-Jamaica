@@ -14,3 +14,7 @@ Belfield has been served within the St. Mary deanery under shared clergy arrange
 
 ## Notable Facts
 Belfield is one of many small interior communities of St. Mary whose history and character are shaped by the post-Emancipation agricultural landscape. The area’s heavy rainfall and hilly terrain mean road access can be disrupted during major storm events. Hurricane Melissa (October 2025) brought rain and wind impacts to interior St. Mary; the Belfield community and congregation were in the affected zone.
+
+## References
+- JN Foundation / Veront M. Satchell — *Parish History of St. Mary* (covers Port Maria, Annotto Bay, Metcalfe parish 1841–1867, Scott's Hall Maroons, Rio Nuevo battle, and the four principal Anglican churches of the parish): [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Mary Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

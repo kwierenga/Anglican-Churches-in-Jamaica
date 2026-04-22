@@ -14,3 +14,7 @@ Gayle has been served within the St. Mary deanery, grouped with other interior a
 
 ## Notable Facts
 Gayle's interior position gives it some protection from direct coastal storm surge but exposes it to the heavy orographic rainfall that the Blue Mountain ridge system generates in interior St. Mary. The parish is among Jamaica's most rainfall-intensive, and Gayle and the surrounding hill communities regularly experience road closures and landslide damage during major hurricane events. Hurricane Melissa (October 2025) brought serious rain and wind impacts to interior St. Mary; the Gayle community and congregation were affected.
+
+## References
+- JN Foundation / Veront M. Satchell — *Parish History of St. Mary* (covers Port Maria, Annotto Bay, Metcalfe parish 1841–1867, Scott's Hall Maroons, Rio Nuevo battle, and the four principal Anglican churches of the parish): [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Mary Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

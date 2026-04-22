@@ -14,3 +14,7 @@ Mason Hall has been served within the St. Mary deanery under shared clergy arran
 
 ## Notable Facts
 St. Elizabeth’s unusual dedication — one of very few churches of this name in the Jamaican Anglican network — marks it out among the many small mission chapels of St. Mary. Its position near Galina on the north coast places it in one of the more scenically striking parts of the parish. Hurricane Melissa (October 2025) brought serious wind and coastal impacts to this part of St. Mary.
+
+## References
+- JN Foundation / Veront M. Satchell — *Parish History of St. Mary* (covers Port Maria, Annotto Bay, Metcalfe parish 1841–1867, Scott's Hall Maroons, Rio Nuevo battle, and the four principal Anglican churches of the parish): [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Mary Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

@@ -14,3 +14,7 @@ St. Andrew's shares clergy with Holy Trinity Retreat and other daughter churches
 
 ## Notable Facts
 As one of Holy Trinity's four daughter churches, St. Andrew's ministers in a district famous for the Old Spanish Bridge swimming spot. The area has historical storm vulnerability, with Labyrinth Primary losing its roof in 1988's Hurricane Gilbert. Hurricane Melissa (2025) caused catastrophic damage across western St. Mary, likely affecting the historic church and continuing its story through climate challenges.
+
+## References
+- JN Foundation / Veront M. Satchell — *Parish History of St. Mary* (covers Port Maria, Annotto Bay, Metcalfe parish 1841–1867, Scott's Hall Maroons, Rio Nuevo battle, and the four principal Anglican churches of the parish): [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Mary Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

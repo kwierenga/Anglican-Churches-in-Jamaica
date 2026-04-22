@@ -14,3 +14,7 @@ Clarksonville has been served within the St. Mary deanery under shared clergy ar
 
 ## Notable Facts
 Clarksonville is one of the many small interior communities of St. Mary whose history and name are rooted in the plantation era. The area’s inland position means storm surge is not a primary risk, but the heavy orographic rainfall of interior St. Mary creates significant landslide and road-closure risk during hurricane passages. Hurricane Melissa (October 2025) brought serious rain impacts to interior St. Mary; the Clarksonville community was in the affected zone.
+
+## References
+- JN Foundation / Veront M. Satchell — *Parish History of St. Mary* (covers Port Maria, Annotto Bay, Metcalfe parish 1841–1867, Scott's Hall Maroons, Rio Nuevo battle, and the four principal Anglican churches of the parish): [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Mary Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
