@@ -14,3 +14,8 @@ Golden Grove has been served within the St. Thomas deanery under shared clergy a
 
 ## Notable Facts
 The Plantain Garden River valley of eastern St. Thomas was devastated by Hurricane Ivan (2004), which caused catastrophic flooding across the river's lower course. The valley's low-lying coastal plain, intensively farmed for centuries, is highly vulnerable to flood damage. Hurricane Melissa (October 2025) brought heavy rain to south-eastern Jamaica; the Golden Grove area and congregation were in the affected zone.
+
+## References
+- National Library of Jamaica — The History of St. Thomas: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.Thomas%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Thomas: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

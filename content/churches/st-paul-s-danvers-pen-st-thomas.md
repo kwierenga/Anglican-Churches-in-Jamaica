@@ -14,3 +14,8 @@ Danvers Pen has been served within the St. Thomas deanery under shared clergy ar
 
 ## Notable Facts
 The word 'pen' in Jamaican place names — Danvers Pen, Devon Pen, and many others — derives from the livestock-raising estates that operated alongside sugar plantations across colonial Jamaica. Pens supplied working animals, beef, and dairy products to the plantation system and have left their mark on the human geography of every Jamaican parish. Hurricane Ivan (2004) caused widespread damage across St. Thomas. Hurricane Melissa (October 2025) brought wind and rain impacts to the interior.
+
+## References
+- National Library of Jamaica — The History of St. Thomas: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.Thomas%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Thomas: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

@@ -14,3 +14,8 @@ As a ruined chapel, St. Peter's Nonsuch is no longer served by active clergy. In
 
 ## Notable Facts
 The Nonsuch area of Portland is known for the Nonsuch Caves, a limestone cave system that has been developed as a heritage attraction. The chapel ruin and the caves exist in proximity in this karst landscape. Ruins of Anglican mission chapels in Jamaica's interior represent the Diocese's ambitious 19th-century expansion into every community across the island, many of which subsequently declined as population moved to coastal and urban centres.
+
+## References
+- National Library of Jamaica — The History of Portland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of Portland: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

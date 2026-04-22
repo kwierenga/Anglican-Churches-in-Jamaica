@@ -14,3 +14,8 @@ Fellowship has been served within the Portland deanery under shared clergy arran
 
 ## Notable Facts
 Community names like Fellowship are found throughout Jamaica's interior, particularly in communities founded by freed people after Emancipation who expressed their aspirations for their new communities in the names they chose. Portland's interior communities south of Port Antonio are in the approach country to the Blue Mountains wilderness. Hurricane Melissa (October 2025) brought serious rain impacts to this part of Portland.
+
+## References
+- National Library of Jamaica — The History of Portland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of Portland: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

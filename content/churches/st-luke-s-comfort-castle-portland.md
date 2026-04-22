@@ -14,3 +14,8 @@ Comfort Castle has been served within the Portland deanery. The remote valley lo
 
 ## Notable Facts
 The Rio Grande Valley is one of Jamaica's premier nature tourism destinations, with bamboo rafting on the Rio Grande offered as a visitor experience from Port Antonio since the 1940s — a tradition associated with Errol Flynn, who popularised the river rafting trip. Comfort Castle and the valley communities live alongside this tourism economy while maintaining their own deep-rooted agricultural and community traditions. Hurricane Melissa (October 2025) brought extraordinary rainfall to the Rio Grande Valley; Comfort Castle was in the severely affected zone, with flooding and landslide risk across the valley.
+
+## References
+- National Library of Jamaica — The History of Portland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of Portland: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

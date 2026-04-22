@@ -14,3 +14,8 @@ St. George's serves as the principal Anglican church of Buff Bay and has been th
 
 ## Notable Facts
 Buff Bay's position at the mouth of the Buff Bay River makes it one of the more flood-prone communities on Portland's north coast. The river can overflow during the extraordinary rainfall events that Portland experiences during hurricane passages. St. George's stone construction has given it durability across multiple hurricane impacts — Hurricane Gilbert (1988) struck Buff Bay severely, and the town has been repeatedly affected by storm surge and flooding. Hurricane Melissa (October 2025) tracked along the north coast; Buff Bay was in the storm's path and the congregation experienced direct impact.
+
+## References
+- National Library of Jamaica — The History of Portland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of Portland: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

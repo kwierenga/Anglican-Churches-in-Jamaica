@@ -14,3 +14,8 @@ Birnamwood has been served within the Portland deanery under shared clergy arran
 
 ## Notable Facts
 St. James' Birnamwood gained specific mention in Hurricane Melissa (October 2025) coverage when a landslide was reported in the immediate vicinity of the church during the storm. This direct documentation makes it one of the better-evidenced storm-impact records for a Portland Anglican church in the 2025 season. The incident also illustrates the particular landslide risk for hill-country churches in western Portland during major hurricane passages.
+
+## References
+- National Library of Jamaica — The History of Portland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of Portland: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

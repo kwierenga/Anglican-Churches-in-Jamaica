@@ -14,3 +14,8 @@ Woburn Lawn has been served within the St. Thomas deanery under shared clergy ar
 
 ## Notable Facts
 St. Thomas parish stretches from the south coast north to the Blue Mountains, creating a diverse landscape from coastal sugar estates to mountain farming communities. Woburn Lawn represents the interior agricultural landscape of the parish. Hurricane Ivan (2004) caused widespread damage across St. Thomas, affecting both coastal and interior communities.
+
+## References
+- National Library of Jamaica — The History of St. Thomas: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.Thomas%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Thomas: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

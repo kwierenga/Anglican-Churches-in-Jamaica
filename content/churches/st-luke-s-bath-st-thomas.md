@@ -14,3 +14,8 @@ The Bath area's Anglican worship points have been served within the St. Thomas d
 
 ## Notable Facts
 The proximity of St. Luke's and St. Thomas' in Bath reflects the town's historical importance as one of the more substantial interior communities of St. Thomas. Bath's healing waters attracted visitors across the colonial period, and the town's genteel character supported a more complex social and religious life than typical agricultural communities. Hurricane Ivan (2004) brought severe flooding to the Rio Grande Valley around Bath.
+
+## References
+- National Library of Jamaica — The History of St. Thomas: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.Thomas%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Thomas: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

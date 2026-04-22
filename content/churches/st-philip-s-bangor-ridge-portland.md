@@ -14,3 +14,8 @@ Bangor Ridge has been served within the Portland deanery under shared clergy arr
 
 ## Notable Facts
 The name Bangor Ridge is one of several Welsh-associated place names in Jamaica, alongside many Irish and Scottish names, reflecting the diverse origins of the colonial settlers who named estates across the island. Portland's interior hill communities like Bangor Ridge are in some of the highest-rainfall terrain in the Caribbean. Hurricane Melissa (October 2025) brought serious rain and wind impacts to Portland's interior; the Bangor Ridge community was in the affected zone.
+
+## References
+- National Library of Jamaica — The History of Portland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of Portland: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

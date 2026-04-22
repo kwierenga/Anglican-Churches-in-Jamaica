@@ -14,3 +14,8 @@ The Abbey has been served within the St. Thomas deanery under shared clergy arra
 
 ## Notable Facts
 The All Saints' dedication, observed on 1 November, is one of the most universal feast days in the Anglican calendar, commemorating the full company of known and unknown saints. Churches with this dedication were often founded at or near this feast day, or chosen for its all-encompassing character. Hurricane Ivan (2004) caused widespread damage across St. Thomas's interior communities. Hurricane Melissa (October 2025) brought wind and rain impacts to the interior of St. Thomas.
+
+## References
+- National Library of Jamaica — The History of St. Thomas: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.Thomas%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Thomas: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

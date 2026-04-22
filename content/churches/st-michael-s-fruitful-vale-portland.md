@@ -14,3 +14,8 @@ Fruitful Vale has been served within the Portland deanery under shared clergy ar
 
 ## Notable Facts
 Portland's interior valleys are among the most fertile and rain-rich environments in Jamaica, with annual rainfall totals that can exceed 5,000mm in parts of the Blue Mountain and John Crow Mountain catchments. Fruitful Vale's name reflects the genuine agricultural richness of such valleys. Hurricane Melissa (October 2025) brought extraordinary rainfall to Portland's interior; valley communities like Fruitful Vale were particularly vulnerable to flooding.
+
+## References
+- National Library of Jamaica — The History of Portland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of Portland: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

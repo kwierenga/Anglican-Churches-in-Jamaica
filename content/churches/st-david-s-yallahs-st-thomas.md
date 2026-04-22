@@ -14,3 +14,8 @@ Yallahs has been served within the St. Thomas deanery under shared clergy arrang
 
 ## Notable Facts
 The Yallahs Ponds are a distinctive natural feature of the Yallahs area — salt ponds separated from the sea by a narrow coastal spit that has been used for salt production historically. The Yallahs River catchment drains a significant portion of the eastern Blue Mountains, making it subject to periodic catastrophic flooding when heavy rain falls on the upper catchment. Hurricane Ivan (2004) caused severe flooding across the Yallahs area. Hurricane Melissa (October 2025) brought heavy rain to the south coast of St. Thomas; the Yallahs community and congregation were in the affected zone.
+
+## References
+- National Library of Jamaica — The History of St. Thomas: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.Thomas%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Thomas: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

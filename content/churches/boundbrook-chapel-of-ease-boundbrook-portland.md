@@ -14,3 +14,8 @@ As a Chapel-of-Ease, Boundbrook has been served by the clergy of Christ Church p
 
 ## Notable Facts
 The Chapel-of-Ease designation reflects a medieval English ecclesiastical tradition that was transplanted throughout the British colonial church system. In Jamaica, many communities that lacked full parish status were served by Chapels-of-Ease that provided regular worship within a larger parish structure. Boundbrook's chapel is one of several such chapels in the Portland deanery. Hurricane Melissa (October 2025) struck Port Antonio and its immediate surroundings directly; Boundbrook's coastal position made it particularly vulnerable to surge and flooding.
+
+## References
+- National Library of Jamaica — The History of Portland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of Portland: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

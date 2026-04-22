@@ -14,3 +14,8 @@ Bourbon has been served within the Portland deanery under shared clergy arrangem
 
 ## Notable Facts
 St. Jude is invoked in Catholic and Anglican tradition as the patron of difficult and desperate causes, a dimension of the saint's intercessory role that resonates across Jamaica's rural communities who have faced repeated hurricane devastation across the centuries. Hurricane Melissa (October 2025) brought heavy rain and wind to Portland's interior; the Bourbon community and congregation were in the affected zone.
+
+## References
+- National Library of Jamaica — The History of Portland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of Portland: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

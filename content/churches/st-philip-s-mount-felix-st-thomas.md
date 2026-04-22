@@ -14,3 +14,8 @@ Mount Felix has been served within the St. Thomas deanery under shared clergy ar
 
 ## Notable Facts
 The two Anglican churches recorded at Mount Felix reflect the Diocese's thorough coverage of St. Thomas's interior communities, even where community names are duplicated or community boundaries are unclear. Hurricane Ivan (2004) caused widespread damage across the interior of St. Thomas. Hurricane Melissa (October 2025) brought wind and rain impacts to this part of the parish.
+
+## References
+- National Library of Jamaica — The History of St. Thomas: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.Thomas%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Thomas: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

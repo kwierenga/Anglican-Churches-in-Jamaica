@@ -14,3 +14,8 @@ Orange Bay has been served within the western Portland deanery circuit. The coas
 
 ## Notable Facts
 St. Dunstan's unusual dedication — commemorating a medieval Archbishop of Canterbury revered for his craftsmanship (he was a smith) as well as his ecclesiastical reforms — makes it one of the most distinctive church names in Jamaica's Anglican network. St. Dunstan is the patron saint of goldsmiths, locksmiths, and armourers. Hurricane Melissa (October 2025) brought serious coastal impacts to Portland's north coast; Orange Bay was in the storm's direct path.
+
+## References
+- National Library of Jamaica — The History of Portland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of Portland: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

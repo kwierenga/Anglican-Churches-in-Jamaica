@@ -14,3 +14,8 @@ Boston has been served within the Portland deanery circuit. The coastal communit
 
 ## Notable Facts
 Boston Bay's claim to be the home of Jamaican jerk cooking gives this small community an outsized international reputation. The Boston Bay jerk pits are a major attraction for visitors driving the coastal road through Portland. Hurricane Ivan (2004) struck the Portland coast severely. Hurricane Melissa (October 2025) tracked along the north coast; Boston Bay was in the storm's direct path and St. Mark's coastal position made it vulnerable to surge damage.
+
+## References
+- National Library of Jamaica — The History of Portland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of Portland: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

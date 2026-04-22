@@ -14,3 +14,8 @@ Claverty Cottage has been served within the Portland deanery under shared clergy
 
 ## Notable Facts
 The name Claverty Cottage is among the more distinctive community names in Portland, one of many unusual estate-derived names preserved in the parish's human geography. Portland's interior communities south-east of Port Antonio are among the more remote in the parish, with limited road access that becomes challenging during major storm events. Hurricane Melissa (October 2025) brought serious rain and wind impacts to this part of Portland.
+
+## References
+- National Library of Jamaica — The History of Portland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of Portland: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

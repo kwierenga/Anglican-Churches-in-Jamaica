@@ -14,3 +14,8 @@ Manchioneal has been served within the Portland deanery, connected to the Port A
 
 ## Notable Facts
 Manchioneal sits at the point where Portland's accessible north coast effectively ends, with the John Crow Mountains creating a barrier to further coastal development to the east. The John Crow Mountains are one of Jamaica's most pristine and inaccessible wilderness areas, and Manchioneal is the gateway community to this landscape. Hurricane Ivan (2004) struck this part of the Portland coast with severe force. Hurricane Melissa (October 2025) tracked along the north coast; Manchioneal was in the storm's direct path.
+
+## References
+- National Library of Jamaica — The History of Portland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of Portland: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

@@ -14,3 +14,8 @@ Port Morant has been served within the St. Thomas deanery. As a coastal port com
 
 ## Notable Facts
 Port Morant is notable in Jamaican history as the location where Captain Bligh landed with breadfruit plants brought from Tahiti in 1793, following his second voyage after the famous Mutiny on the Bounty. The breadfruit was introduced to Jamaica as a food source for the enslaved population. Port Morant's natural harbour and its position at the eastern extremity of St. Thomas made it a significant port for the sugar economy. Hurricane Ivan (2004) made landfall near Port Morant and caused extraordinary destruction across eastern St. Thomas.
+
+## References
+- National Library of Jamaica — The History of St. Thomas: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.Thomas%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Thomas: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

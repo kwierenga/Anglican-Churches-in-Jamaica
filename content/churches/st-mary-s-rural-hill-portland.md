@@ -14,3 +14,8 @@ Rural Hill has been served within the Portland deanery under shared clergy arran
 
 ## Notable Facts
 Portland is consistently recorded as one of the wettest parishes in Jamaica, with the Blue Mountains and John Crow Mountains generating extraordinary annual rainfall totals in the interior. Rural Hill sits in this high-rainfall landscape. Hurricane Gilbert (1988) caused serious landslide damage across Portland's interior. Hurricane Melissa (October 2025) brought heavy rain and wind to Portland; the Rural Hill community and congregation were in the affected zone.
+
+## References
+- National Library of Jamaica — The History of Portland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of Portland: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

@@ -14,3 +14,8 @@ Hope Bay has been served within the Portland deanery coast circuit. The communit
 
 ## Notable Facts
 The dedication to St. Peter is particularly fitting for a fishing community — Peter was a fisherman on the Sea of Galilee before being called by Christ, and has been invoked as patron by fishing communities across the Christian world. Hope Bay's coastal position makes it one of the more surge-exposed communities on Portland's north coast. Hurricane Melissa (October 2025) tracked along this coast; Hope Bay was in the storm's direct path.
+
+## References
+- National Library of Jamaica — The History of Portland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of Portland: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

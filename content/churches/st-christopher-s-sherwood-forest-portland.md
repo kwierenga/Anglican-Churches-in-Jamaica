@@ -14,3 +14,8 @@ Sherwood Forest has been served within the Portland deanery under shared clergy 
 
 ## Notable Facts
 Sherwood Forest's English name — echoing the legendary home of Robin Hood — is one of many Jamaican place names that transplant English landscape names into the tropical interior. The Portland interior is dense with such names, reflecting the estate-naming conventions of the plantation era. Hurricane Melissa (October 2025) brought heavy rain and wind to the interior hills of Portland; the Sherwood Forest community and congregation were in the affected zone.
+
+## References
+- National Library of Jamaica — The History of Portland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of Portland: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

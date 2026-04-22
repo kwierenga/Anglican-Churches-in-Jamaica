@@ -14,3 +14,8 @@ St. John's operates within the Eastern Jamaica Region's Portland deanery, where 
 
 ## Notable Facts
 The church serves a community often confused with its St. Andrew namesake, though gazetteers precisely locate Cooper's Hill, Portland near Unity Valley and Berridale in the upper Rio Grande corridor. For mapping purposes, the hamlet centers inland from Berridale. The entire Rio Grande valley, including the Comfort Castle and Mill Bank areas, experienced some disruption during Hurricane Melissa (October 2025), though Portland was well east of the storm's western landfall point and no specific damage to this chapel has been reported.
+
+## References
+- National Library of Jamaica — The History of Portland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of Portland: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

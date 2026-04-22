@@ -14,3 +14,8 @@ Golden Grove's Anglican worship points have been served within the St. Thomas de
 
 ## Notable Facts
 The Plantain Garden River valley of eastern St. Thomas was among the most productive sugar districts in 18th-century Jamaica. Golden Grove estate was one of the significant properties in this valley. The area was devastated by Hurricane Ivan (2004), which made landfall near this part of the coast. Hurricane Melissa (October 2025) brought further impacts to eastern St. Thomas.
+
+## References
+- National Library of Jamaica — The History of St. Thomas: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.Thomas%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Thomas: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

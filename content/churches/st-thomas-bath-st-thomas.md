@@ -14,3 +14,8 @@ Bath has been served within the St. Thomas deanery. The church's long history in
 
 ## Notable Facts
 Bath's mineral hot springs are fed by geothermal activity associated with the Blue Mountains, and the waters were historically attributed with healing properties for skin conditions, gout, and rheumatism. Bath Botanical Garden, established in 1779, received plants from across the Caribbean and tropical world, including the breadfruit trees brought from Tahiti by Captain Bligh in 1793 — one of the most famous episodes in Jamaican botanical history. The rector killed in 1865 and the buried parish documents form one of the most vivid specific details in any St. Thomas Anglican church's history. Hurricane Ivan (2004) caused severe flooding in the Rio Grande Valley area.
+
+## References
+- National Library of Jamaica — The History of St. Thomas: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.Thomas%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Thomas: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

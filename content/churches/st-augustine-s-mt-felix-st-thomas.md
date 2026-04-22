@@ -14,3 +14,8 @@ Mount Felix has been served within the St. Thomas deanery under shared clergy ar
 
 ## Notable Facts
 Augustine of Hippo is one of the most influential theologians in the history of Christianity, author of the Confessions and the City of God, and a Doctor of the Church. His dedication to a small Jamaican rural chapel connects this modest community to one of the most celebrated intellectual traditions in Western Christianity. Hurricane Ivan (2004) caused widespread damage across St. Thomas. Hurricane Melissa (October 2025) brought wind and rain impacts to the interior of the parish.
+
+## References
+- National Library of Jamaica — The History of St. Thomas: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.Thomas%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Thomas: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

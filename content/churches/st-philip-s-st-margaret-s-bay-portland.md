@@ -14,3 +14,8 @@ St. Philip's has been served within the Portland deanery coast circuit, likely s
 
 ## Notable Facts
 The two Anglican churches recorded at St. Margaret's Bay reflect the Diocese's historically dense network of worship points along Portland's north coast. Hurricane Melissa (October 2025) struck this part of the Portland coast directly; both St. Philip's and St. Stephen's congregations experienced direct storm impact.
+
+## References
+- National Library of Jamaica — The History of Portland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of Portland: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

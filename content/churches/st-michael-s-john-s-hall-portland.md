@@ -14,3 +14,8 @@ St. Michael's operates under the administrative oversight of the Eastern Jamaica
 
 ## Notable Facts
 The church's location requires careful geographical distinction, as several Jamaican settlements share the name John's Hall, though map sources precisely place this community in Portland near Fellowship and Bellevue. This distinction is particularly important for accurate mapping and visitor orientation. The chapel, like others in Portland's interior, faced operational challenges during Hurricane Melissa (October 2025), when the parish's eastern regions experienced significant landslides, road closures, and utility disruptions.
+
+## References
+- National Library of Jamaica — The History of Portland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of Portland: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

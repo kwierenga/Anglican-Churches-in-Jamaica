@@ -14,3 +14,8 @@ Thornton has been served within the St. Thomas deanery under shared clergy arran
 
 ## Notable Facts
 The northern interior of St. Thomas, on the Blue Mountain flanks, is one of the less-visited parts of the parish but has a distinct character shaped by coffee cultivation and the cooler highland climate. The Blue Mountains of St. Thomas form part of the same massif that produces Jamaica's famous Blue Mountain coffee. Hurricane Ivan (2004) caused landslide damage across the Blue Mountain foothills. Hurricane Melissa (October 2025) brought heavy rain and wind to the interior of St. Thomas; the Thornton community was in the affected zone.
+
+## References
+- National Library of Jamaica — The History of St. Thomas: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.Thomas%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Thomas: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

@@ -14,3 +14,8 @@ Belvedere has been served within the Port Antonio circuit of the Portland deaner
 
 ## Notable Facts
 The dedication to St. Joseph, while common in Roman Catholic churches worldwide, is unusual among Anglican foundations in Jamaica. The Belvedere community's proximity to Port Antonio has connected it to the wider fortunes of the parish capital, including the banana trade prosperity of the early 20th century. Hurricane Melissa (October 2025) struck Port Antonio and its surrounding communities directly; Belvedere and St. Joseph's congregation were in the heart of the impact zone.
+
+## References
+- National Library of Jamaica — The History of Portland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of Portland: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

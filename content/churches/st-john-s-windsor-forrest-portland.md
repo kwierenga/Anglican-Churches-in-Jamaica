@@ -14,3 +14,8 @@ Windsor Forest has been served within the Portland deanery under shared clergy a
 
 ## Notable Facts
 The name Windsor Forest links this community to one of England's most famous royal landscapes, though the Portland interior's dense tropical vegetation and steep topography could hardly be more different from the Windsor Great Park. This transplanting of English landscape names is a common feature of Jamaica's human geography. Hurricane Melissa (October 2025) brought heavy rain and wind impacts to interior Portland; Windsor Forest was in the affected zone.
+
+## References
+- National Library of Jamaica — The History of Portland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of Portland: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)

@@ -14,3 +14,8 @@ As an old or ruined building, St. John's Leith Hall is no longer served by activ
 
 ## Notable Facts
 The Leith Hall and Port Morant area of eastern St. Thomas was historically one of the most productive sugar districts in Jamaica. The Plantain Garden River valley behind Port Morant supported extensive sugar cultivation, and the Anglican church here served the planter class and their estates. The area was devastated by Hurricane Ivan (2004), which struck the south-east coast of Jamaica with catastrophic force, causing severe damage across the coastal communities of St. Thomas.
+
+## References
+- National Library of Jamaica — The History of St. Thomas: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.Thomas%20Final.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Thomas: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
