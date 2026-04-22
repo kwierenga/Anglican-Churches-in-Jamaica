@@ -14,3 +14,5 @@ Guanaboa Vale has been served within the St. Catherine deanery under shared cler
 
 ## Notable Facts
 The Guanaboa Vale district of St. Catherine is part of the historic interior farming landscape of the parish. The valley communities between Spanish Town and Linstead developed their own agricultural economies after Emancipation, and the Anglican church network in this area reflects the Diocese's comprehensive coverage of the post-Emancipation countryside. A second St. John's is also recorded at Guanoboa Vale (alternate spelling) in the dataset, suggesting multiple Anglican worship points in this district.
+- National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

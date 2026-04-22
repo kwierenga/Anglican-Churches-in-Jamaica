@@ -14,3 +14,5 @@ Linstead has been served within the St. Catherine deanery. As the principal town
 
 ## Notable Facts
 The song 'Linstead Market' — 'Carry me ackee go a Linstead Market, not a quattie worth sell' — is one of the most widely recognised Jamaican folk songs, celebrating the ackee trade at the town's weekly market. Ackee, introduced to Jamaica from West Africa, is Jamaica's national fruit and the centrepiece of the national dish. The song preserves a vivid picture of the colonial-era market economy of the interior parishes.
+- National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

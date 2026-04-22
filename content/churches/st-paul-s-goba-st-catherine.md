@@ -14,3 +14,5 @@ Goba has been served within the St. Catherine deanery under shared clergy arrang
 
 ## Notable Facts
 The Goba/Goffe name dual designation in the dataset reflects the common Jamaican phenomenon of communities known by slightly different names — sometimes reflecting a local pronunciation versus an official recorded form. The interior farming communities of St. Catherine were settled in the post-Emancipation period and their naming conventions reflect both colonial estate names and local vernacular usage.
+- National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

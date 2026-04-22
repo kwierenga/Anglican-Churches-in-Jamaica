@@ -14,3 +14,5 @@ Ham Walk has been served within the St. Catherine deanery under shared clergy ar
 
 ## Notable Facts
 The name Ham Walk is one of many unusual community names in Jamaica's interior that preserve memories of the colonial estate system. The name may derive from a 'walk' — the Jamaican term for a cultivation area on an estate, particularly a banana or coffee walk — combined with a proprietor's name. St. Catherine's interior is rich with such evocative community names reflecting the landscape of the plantation era.
+- National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

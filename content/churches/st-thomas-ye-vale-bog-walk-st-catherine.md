@@ -14,3 +14,5 @@ Bog Walk has been served within the St. Catherine deanery. The church's 'great f
 
 ## Notable Facts
 The Rio Cobre gorge at Bog Walk is one of Jamaica's most dramatic inland landscapes, where the river has cut through the limestone hills to create a narrow gorge that the main road follows closely. Flooding in the gorge during hurricanes regularly closes the main road, isolating north St. Catherine and St. Ann from Spanish Town and Kingston. The church at Bog Walk has witnessed many such flood events across its history. The unusual 'Ye Vale' in the church's name preserves an archaic English form that gives St. Thomas-ye-Vale a distinctively antique identity among Jamaican Anglican church names.
+- National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

@@ -14,3 +14,5 @@ Holy Trinity has been served within the St. Catherine deanery under shared clerg
 
 ## Notable Facts
 Spanish Town was Jamaica's capital for over 300 years, from the Spanish period through British colonial rule until 1872. The city retains a historic core including the Georgian Square, which is one of the finest examples of 18th-century colonial architecture in the Caribbean. The Cathedral dominates the ecclesiastical landscape of Spanish Town, but Holy Trinity reflects the city's continued population and the Diocese's commitment to multiple worship points in larger communities.
+- National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

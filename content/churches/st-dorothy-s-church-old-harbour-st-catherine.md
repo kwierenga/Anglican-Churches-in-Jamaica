@@ -1,16 +1,25 @@
 # St. Dorothy's Church, Old Harbour
 **St. Catherine** · Church · active
 
-St. Dorothy's Anglican Church is the historic Anglican church of Old Harbour, a coastal community on the south coast of St. Catherine parish. Confirmed at its Old Harbour location, the church is described by reviewers as having architecture from the late 1800s in the 'old English' tradition, a historical monument still standing after 356 years, with original brick construction and ample parking. St. Dorothy's serves both as a functioning parish church and as one of the oldest surviving religious buildings on Jamaica's south coast.
+St. Dorothy's Anglican Church stands about two miles from Old Harbour on Jamaica's south coast. It was built on land donated in **1681** by Colonel Thomas Fuller and his wife Catherine Fuller — making it one of the oldest Anglican foundations in Jamaica, predating most of the island's surviving church structures. The church takes its name from the old parish of St. Dorothy, which existed as a separate Anglican parish until Law 20 of 1867 absorbed it (along with St. John and St. Thomas in the Vale) into the expanded St. Catherine.
 
 ## History
-St. Dorothy's takes its name from the historic sub-parish of St. Dorothy, one of the original Anglican parishes created in Jamaica under British rule in the 17th century. Old Harbour was a significant coastal community in the sugar-producing district of southern St. Catherine, and the church here has served the community since the colonial period. A reviewer records that the church is 356 years old, placing its establishment in the 1660s–1670s — shortly after the British conquest of Jamaica in 1655. The church has survived hurricanes, earthquakes, and the full transformation of Jamaican society from slave plantation to independent nation.
+St. Dorothy was one of the original Anglican parishes of colonial Jamaica — a small south-coast parish whose capital was once at Old Harbour. Colonel Thomas Fuller and his wife Catherine donated the land for the parish church in 1681, a generation after the English conquest of 1655 and before the 1692 Port Royal earthquake. The church has survived successive hurricanes, earthquakes, and the full transformation of Jamaican society from plantation colony to independent nation.
+
+Until 1870 the Church of England in Jamaica was the established state church, supported by colonial government funds. The 1867 parish reorganisation under Law 20 reduced Jamaica's parishes from 22 to 14; St. Catherine was expanded to incorporate the old parishes of St. Dorothy, St. John, and St. Thomas in the Vale. St. Dorothy's remained as a church within the new, larger St. Catherine parish, retaining its name and early foundation.
+
+After Emancipation in 1834 and full freedom on 1 August 1838, the congregation transformed from a planter-class vestry church into one serving the freed population of the Old Harbour area. Jamaica's independence on 6 August 1962 found St. Dorothy's at the centre of a growing commuter-belt community within an hour of Kingston.
 
 ## Architecture
-St. Dorothy's is an original brick church building on the south coast of St. Catherine, Reviewers describe it as one of those 'old English buildings whose architecture is from the late 1800s and is still standing' — though the establishment date of 356 years pushes the origin to the 17th century. The original brick construction has been maintained to remain a 'historic church' that is 'easily accessible' with 'ample parking' and a church hall. The south-coast position on the Caribbean Sea creates storm surge vulnerability during hurricane passages.
+St. Dorothy's is a brick church of the colonial period, much extended and modified since its 1681 foundation. Reviewers describe it as retaining an "old English" Georgian character, with brick fabric, a churchyard with historic tombstones, and a bell tower. The south-coast Caribbean-facing position exposes it to storm surge during major hurricanes.
 
 ## Clergy
-Old Harbour has been served within the St. Catherine deanery. St. Dorothy's serves as the principal Anglican church of Old Harbour, with its long history making it a landmark institution in the community.
+Old Harbour has been served within the St. Catherine Deanery of the Diocese of Jamaica and the Cayman Islands. St. Dorothy's is one of three Anglican churches in the Old Harbour area (with Holy Trinity Old Harbour and St. Philip's Old Harbour Bay).
 
 ## Notable Facts
-The sub-parish of St. Dorothy is one of the historic Anglican ecclesiastical divisions of Jamaica, predating the reorganisation of the Diocese in the 19th century. The church's 356-year history — as recorded by a reviewer — makes it one of the oldest continuously operating Anglican churches in Jamaica. Old Harbour Bay, the separate fishing community, has its own Anglican entry in this dataset. The south-coast position and the proximity to the extensive wetlands and sugar estates of the Old Harbour area have shaped the community's character for centuries.
+The 1681 land donation by Colonel Thomas and Catherine Fuller makes St. Dorothy's one of the earliest documented Anglican foundations in Jamaica. Its dedication — to St. Dorothy of Caesarea, a fourth-century virgin martyr whose feast day is 6 February — is relatively uncommon in English Anglican practice and reflects the parish's name rather than a dedication-led foundation. The old parish of St. Dorothy was absorbed into St. Catherine in 1867 under Law 20, a reorganisation which reduced Jamaica's parishes from 22 to 14.
+
+## References
+- National Library of Jamaica — The History of St. Catherine (Fuller land donation 1681; 1867 Law 20 reorganisation): [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica and the Cayman Islands — St. Catherine Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=2731)

@@ -14,3 +14,5 @@ Mount Moorland has been served within the St. Catherine deanery under shared cle
 
 ## Notable Facts
 Mount Moorland's name combines the highland character of its position with a landscape description — a 'moorland' on a Jamaican hill is evocative rather than geographically precise, since Jamaica has no true moorland in the British sense. Such transplanted English landscape names are common across Jamaica's interior communities.
+- National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

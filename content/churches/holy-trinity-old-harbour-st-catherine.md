@@ -14,3 +14,5 @@ Holy Trinity Old Harbour has been served within the St. Catherine deanery, shari
 
 ## Notable Facts
 Old Harbour's dual Anglican churches — the historic St. Dorothy's and the more recently established Holy Trinity — reflect the town's growth and the Diocese's layered approach to urban ministry. The two churches serve different parts of the Old Harbour community and together provide comprehensive Anglican coverage of one of the south coast's larger towns.
+- National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
+- JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
