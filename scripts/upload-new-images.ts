@@ -15,18 +15,16 @@ cloudinary.config({
 const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
-  // St. Helena's Sheffield — image filed as NewHope/St_Paul_s_1.jpg.
-  // Per the Diocese's Westmoreland Deanery directory there is no
-  // Anglican church at New Hope; Sheffield (St. Helena's) is a mission
-  // of the Little London cure, whose principal church is St. Paul's —
-  // so an image of this mission might naturally be saved under the
-  // cure's main dedication.
-  {
-    file: "data/new-images/NewHope/St_Paul_s_1.jpg",
-    church_id: "st-helena-s-sheffield-westmoreland",
-    caption: "St. Helena's, Sheffield",
-    order: "1",
-  },
+  // St. Peter's Church, Alley (Clarendon) — 1671 parish church of the
+  // old parish of Vere, third-oldest Anglican church in Jamaica.
+  { file: "data/new-images/Alley Clarendon/St_Peter_s_1.jpg", church_id: "st-peter-s-church-alley-clarendon", caption: "St. Peter's Church, Alley", order: "1" },
+  { file: "data/new-images/Alley Clarendon/St_Peter_s_2.jpg", church_id: "st-peter-s-church-alley-clarendon", caption: "St. Peter's Church, Alley", order: "2" },
+  { file: "data/new-images/Alley Clarendon/St_Peter_s_3.jpg", church_id: "st-peter-s-church-alley-clarendon", caption: "St. Peter's Church, Alley", order: "3" },
+
+  // St. George's, Buff Bay (Portland).
+  { file: "data/new-images/Buff Bay/St_George_s_1.jpg", church_id: "st-george-s-buff-bay-portland", caption: "St. George's, Buff Bay", order: "1" },
+  { file: "data/new-images/Buff Bay/St_George_s_2.jpg", church_id: "st-george-s-buff-bay-portland", caption: "St. George's, Buff Bay", order: "2" },
+  { file: "data/new-images/Buff Bay/St_George_s_3.jpg", church_id: "st-george-s-buff-bay-portland", caption: "St. George's, Buff Bay", order: "3" },
 ];
 
 async function main() {
