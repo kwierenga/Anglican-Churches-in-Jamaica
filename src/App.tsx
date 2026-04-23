@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import HomePage from './pages/HomePage'
 import DirectoryPage from './pages/DirectoryPage'
 import ChurchDetailPage from './pages/ChurchDetailPage'
+import ParishPage from './pages/ParishPage'
 import About from './pages/About'
 import News from './pages/News'
 import Sources from './pages/Sources'
@@ -39,6 +40,8 @@ export default function App() {
     page = <DirectoryPage />
   } else if (route.startsWith('#/church/')) {
     page = <ChurchDetailPage />
+  } else if (route.startsWith('#/parish/')) {
+    page = <ParishPage />
   } else if (route === '#/history') {
     page = <History />
   } else if (route === '#/about') {

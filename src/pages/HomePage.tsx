@@ -1,15 +1,9 @@
 import { useEffect, useState } from 'react'
-import { navigate } from '../lib/router'
 import { buildSrcSet, responsiveSrc } from '../lib/cloudinary'
+import { PARISHES } from '../lib/parishes'
 import type { FeedItem } from '../lib/schemas'
 
 const CLOUDINARY_BASE = 'https://res.cloudinary.com/kwierenga/image/upload'
-
-const parishes = [
-  'Kingston', 'St. Andrew', 'St. Thomas', 'Portland', 'St. Mary', 'St. Ann',
-  'Trelawny', 'St. James', 'Hanover', 'Westmoreland', 'St. Elizabeth',
-  'Manchester', 'Clarendon', 'St. Catherine',
-]
 
 const stats = [
   { num: '350+', label: 'Churches' },
@@ -115,15 +109,15 @@ export default function HomePage() {
             Click a parish to browse its churches, or explore the full directory.
           </p>
           <div className="flex flex-wrap justify-center gap-2 mb-8">
-            {parishes.map(p => (
-              <button
-                key={p}
-                onClick={() => navigate(`#/churches?parish=${encodeURIComponent(p)}`)}
+            {PARISHES.map(p => (
+              <a
+                key={p.slug}
+                href={`#/parish/${p.slug}`}
                 className="px-4 py-2 rounded-full border border-crimson/30 text-crimson font-body text-sm
                            hover:bg-crimson hover:text-white transition-colors"
               >
-                {p}
-              </button>
+                {p.name}
+              </a>
             ))}
           </div>
           <a href="#/churches"
