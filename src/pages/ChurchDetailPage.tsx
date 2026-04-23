@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import { marked } from 'marked'
 import L from 'leaflet'
 import { useRoute } from '../lib/router'
+import { setSeo, resetSeo } from '../lib/seo'
 import type { MediaRow } from '../lib/schemas'
 
 type MediaIndex = Record<string, MediaRow[]>
@@ -97,13 +98,32 @@ export default function ChurchDetailPage() {
       getChurchGeo(slug),
     ]).then(([md, idx, churchGeo]) => {
       setHtml(md ? (marked.parse(md) as string) : '<p>Church not found.</p>')
-      setMedia(idx[slug]?.filter(m => m.type === 'image') ?? [])
+      const images = idx[slug]?.filter(m => m.type === 'image') ?? []
+      setMedia(images)
       setGeo(churchGeo)
+
+      if (md && churchGeo) {
+        const firstPara = md.split(/\n{2,}/).find(p => !p.startsWith('#') && !p.startsWith('**') && p.trim().length > 40)
+        const description = firstPara
+          ? firstPara.replace(/[*_`[\]]/g, '').replace(/\s+/g, ' ').trim().slice(0, 200)
+          : `${churchGeo.name} — Anglican church in ${churchGeo.parish}, Jamaica.`
+        const heroImage = images[0]
+          ? images[0].url.replace('/upload/', '/upload/w_1200,h_630,c_fill,f_auto,q_auto/')
+          : undefined
+        setSeo({
+          title: churchGeo.name,
+          description,
+          image: heroImage,
+          type: 'article',
+        })
+      }
     }).catch(() => {
       setHtml('<p>Failed to load church details.</p>')
     }).finally(() => {
       setLoading(false)
     })
+
+    return () => { resetSeo() }
   }, [slug])
 
   return (

@@ -1,5 +1,6 @@
-import type { ReactElement } from 'react'
+import { useEffect, type ReactElement } from 'react'
 import { useRoute } from './lib/router'
+import { setSeo } from './lib/seo'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import HomePage from './pages/HomePage'
@@ -11,8 +12,25 @@ import Sources from './pages/Sources'
 import Glossary from './pages/Glossary'
 import History from './pages/History'
 
+const STATIC_META: Record<string, { title?: string; description?: string }> = {
+  '#/': { },
+  '#/churches': { title: 'Church Directory', description: 'Browse, search and filter all Anglican churches in Jamaica on an interactive map.' },
+  '#/map': { title: 'Church Directory', description: 'Browse, search and filter all Anglican churches in Jamaica on an interactive map.' },
+  '#/history': { title: 'History', description: 'The history of the Anglican Church in Jamaica from 1655 to the present.' },
+  '#/about': { title: 'About & Sources', description: 'About this project, and the full list of UK and Jamaican sources cited in the church narratives.' },
+  '#/news': { title: 'News & Events', description: 'Recent news and upcoming events from the Anglican Diocese of Jamaica and the Cayman Islands.' },
+  '#/sources': { title: 'Sources', description: 'Primary and secondary sources used across the site.' },
+  '#/glossary': { title: 'Glossary', description: 'Terms and vocabulary used across the site.' },
+}
+
 export default function App() {
   const route = useRoute()
+
+  useEffect(() => {
+    if (route.startsWith('#/church/') || route.startsWith('#/parish/')) return
+    const meta = STATIC_META[route] ?? {}
+    setSeo(meta)
+  }, [route])
 
   let page: ReactElement
   if (route === '#/' || route === '') {
