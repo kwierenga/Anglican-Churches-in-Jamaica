@@ -91,6 +91,14 @@ const IMAGE_MAP = [
   { file: "data/new-images/StMargaret/St_Margaret_1.jpg", church_id: "st-margaret-s-liguanea-st-andrew", caption: "St. Margaret's, Liguanea", order: "4" },
   { file: "data/new-images/StMargaret/St_Margaret_2.jpg", church_id: "st-margaret-s-liguanea-st-andrew", caption: "St. Margaret's, Liguanea", order: "5" },
   { file: "data/new-images/StMargaret/St_Margaret_3.jpg", church_id: "st-margaret-s-liguanea-st-andrew", caption: "St. Margaret's, Liguanea", order: "6" },
+
+  // SS Simon and Jude, Ewarton (St. Catherine) — order 1 is the
+  // diocesan Hurricane Melissa damage photo; adding a fresh image as order 2.
+  { file: "data/new-images/Ewarton/St_Simon_and_St_Jude_1.jpg", church_id: "ss-simon-and-jude-ewarton-st-catherine", caption: "SS Simon and Jude, Ewarton", order: "2" },
+
+  // St. Peter's, Lluidas Vale (St. Catherine).
+  { file: "data/new-images/LLuidas Vale/St_Peter_s_1.jpg", church_id: "st-peter-s-lluidas-vale-st-catherine", caption: "St. Peter's, Lluidas Vale", order: "1" },
+  { file: "data/new-images/LLuidas Vale/St_Peter_s_2.jpg", church_id: "st-peter-s-lluidas-vale-st-catherine", caption: "St. Peter's, Lluidas Vale", order: "2" },
 ];
 
 async function main() {
