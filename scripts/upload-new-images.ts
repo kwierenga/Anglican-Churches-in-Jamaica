@@ -15,16 +15,38 @@ cloudinary.config({
 const MEDIA_CSV = path.resolve("data/media.csv");
 
 const IMAGE_MAP = [
-  // St. Peter's Church, Alley (Clarendon) — 1671 parish church of the
-  // old parish of Vere, third-oldest Anglican church in Jamaica.
-  { file: "data/new-images/Alley Clarendon/St_Peter_s_1.jpg", church_id: "st-peter-s-church-alley-clarendon", caption: "St. Peter's Church, Alley", order: "1" },
-  { file: "data/new-images/Alley Clarendon/St_Peter_s_2.jpg", church_id: "st-peter-s-church-alley-clarendon", caption: "St. Peter's Church, Alley", order: "2" },
-  { file: "data/new-images/Alley Clarendon/St_Peter_s_3.jpg", church_id: "st-peter-s-church-alley-clarendon", caption: "St. Peter's Church, Alley", order: "3" },
+  // --- St. Catherine parish ---------------------------------------------
 
-  // St. George's, Buff Bay (Portland).
-  { file: "data/new-images/Buff Bay/St_George_s_1.jpg", church_id: "st-george-s-buff-bay-portland", caption: "St. George's, Buff Bay", order: "1" },
-  { file: "data/new-images/Buff Bay/St_George_s_2.jpg", church_id: "st-george-s-buff-bay-portland", caption: "St. George's, Buff Bay", order: "2" },
-  { file: "data/new-images/Buff Bay/St_George_s_3.jpg", church_id: "st-george-s-buff-bay-portland", caption: "St. George's, Buff Bay", order: "3" },
+  // St. Thomas-ye-Vale, Bog Walk (St. Catherine).
+  { file: "data/new-images/Bog Walk/St_Thomas_Ye_Vale_1.jpg", church_id: "st-thomas-ye-vale-bog-walk-st-catherine", caption: "St. Thomas-ye-Vale, Bog Walk", order: "1" },
+  { file: "data/new-images/Bog Walk/St_Thomas_Ye_Vale_2.jpg", church_id: "st-thomas-ye-vale-bog-walk-st-catherine", caption: "St. Thomas-ye-Vale, Bog Walk", order: "2" },
+  { file: "data/new-images/Bog Walk/St_Thomas_Ye_Vale_3.jpg", church_id: "st-thomas-ye-vale-bog-walk-st-catherine", caption: "St. Thomas-ye-Vale, Bog Walk", order: "3" },
+  { file: "data/new-images/Bog Walk/St_Thomas_Ye_Vale_4.jpg", church_id: "st-thomas-ye-vale-bog-walk-st-catherine", caption: "St. Thomas-ye-Vale, Bog Walk", order: "4" },
+
+  // St. Dorothy's Church, Old Harbour (St. Catherine) — 1681 land donation
+  // from Colonel Thomas Fuller and Catherine Fuller.
+  { file: "data/new-images/Old Harbour/St_Dorothy_s_1.jpg", church_id: "st-dorothy-s-church-old-harbour-st-catherine", caption: "St. Dorothy's Church, Old Harbour", order: "1" },
+  { file: "data/new-images/Old Harbour/St_Dorothy_s_2.jpg", church_id: "st-dorothy-s-church-old-harbour-st-catherine", caption: "St. Dorothy's Church, Old Harbour", order: "2" },
+  { file: "data/new-images/Old Harbour/St_Dorothy_s_3.jpg", church_id: "st-dorothy-s-church-old-harbour-st-catherine", caption: "St. Dorothy's Church, Old Harbour", order: "3" },
+  { file: "data/new-images/Old Harbour/St_Dorothy_s_4.jpg", church_id: "st-dorothy-s-church-old-harbour-st-catherine", caption: "St. Dorothy's Church, Old Harbour", order: "4" },
+
+  // St. Philip's, Old Harbour Bay (St. Catherine).
+  { file: "data/new-images/Old Harbour Bay/Old_Harbour_Bay_1.jpg", church_id: "st-philip-s-old-harbour-bay-st-catherine", caption: "St. Philip's, Old Harbour Bay", order: "1" },
+
+  // --- St. Elizabeth parish ---------------------------------------------
+
+  // St. Aidan's, Bull Savannah (St. Elizabeth).
+  { file: "data/new-images/BullSavannah/St_Aidan_1.jpg", church_id: "st-aidan-s-bull-savannah-st-elizabeth", caption: "St. Aidan's, Bull Savannah", order: "1" },
+
+  // St. Peter's, Pedro Plains (St. Elizabeth).
+  { file: "data/new-images/PedroPlains/Pedro_plains_1.jpg", church_id: "st-peter-s-pedro-plains-st-elizabeth", caption: "St. Peter's, Pedro Plains", order: "1" },
+  { file: "data/new-images/PedroPlains/Pedro_plains_2.jpg", church_id: "st-peter-s-pedro-plains-st-elizabeth", caption: "St. Peter's, Pedro Plains", order: "2" },
+  { file: "data/new-images/PedroPlains/Pedro_plains_3.jpg", church_id: "st-peter-s-pedro-plains-st-elizabeth", caption: "St. Peter's, Pedro Plains", order: "3" },
+  { file: "data/new-images/PedroPlains/Pedro_plains_4.jpg", church_id: "st-peter-s-pedro-plains-st-elizabeth", caption: "St. Peter's, Pedro Plains", order: "4" },
+
+  // St. Boniface, Pondside (St. Elizabeth).
+  { file: "data/new-images/Pondside/Pondside_1.jpg", church_id: "st-boniface-pondside-st-elizabeth", caption: "St. Boniface, Pondside", order: "1" },
+  { file: "data/new-images/Pondside/Pondside_2.jpg", church_id: "st-boniface-pondside-st-elizabeth", caption: "St. Boniface, Pondside", order: "2" },
 ];
 
 async function main() {
