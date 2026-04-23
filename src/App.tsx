@@ -8,6 +8,7 @@ import DirectoryPage from './pages/DirectoryPage'
 import ChurchDetailPage from './pages/ChurchDetailPage'
 import ParishPage from './pages/ParishPage'
 import ArchitecturePage from './pages/ArchitecturePage'
+import ClergyPage from './pages/ClergyPage'
 import About from './pages/About'
 import News from './pages/News'
 import Sources from './pages/Sources'
@@ -24,6 +25,7 @@ const STATIC_META: Record<string, { title?: string; description?: string }> = {
   '#/sources': { title: 'Sources', description: 'Primary and secondary sources used across the site.' },
   '#/glossary': { title: 'Glossary', description: 'Terms and vocabulary used across the site.' },
   '#/architecture': { title: 'Architecture', description: 'Browse Jamaican Anglican churches by architectural style — Georgian, Gothic Revival, vernacular Caribbean, estate chapels, and post-war modernist.' },
+  '#/clergy': { title: 'Clergy Index', description: 'Index of clergy — bishops, archbishops, rectors, and priests — named in the church narratives.' },
 }
 
 export default function App() {
@@ -46,6 +48,8 @@ export default function App() {
     page = <ParishPage />
   } else if (route === '#/architecture') {
     page = <ArchitecturePage />
+  } else if (route === '#/clergy') {
+    page = <ClergyPage />
   } else if (route === '#/history') {
     page = <History />
   } else if (route === '#/about') {

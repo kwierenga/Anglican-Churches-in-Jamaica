@@ -139,6 +139,27 @@ function extractStyles(text: string): ArchStyle[] {
   return out
 }
 
+const NAME_STOP_WORDS = new Set([
+  'Kingston', 'Jamaica', 'London', 'England', 'Diocese', 'Parish', 'Church',
+  'Cathedral', 'Chapel', 'Hall', 'School', 'College', 'Palace', 'Park',
+  'Road', 'Street', 'Avenue', 'Bay', 'Town', 'Square', 'River', 'Hill',
+  'Mountain', 'Valley', 'Rebellion', 'War', 'Emancipation', 'Abolition',
+  'Christmas', 'Easter', 'Anglican', 'Baptist', 'Presbyterian', 'Catholic',
+  'Wesleyan', 'Methodist', 'Council', 'Society', 'Brotherhood', 'Mission',
+  'Native', 'House', 'Foundation',
+])
+
+function trimToName(name: string): string {
+  const parts = name.split(/\s+/)
+  const kept: string[] = []
+  for (const p of parts) {
+    if (NAME_STOP_WORDS.has(p.replace(/['\u2019]s$/, ''))) break
+    if (!/^[A-Z]/.test(p)) break
+    kept.push(p)
+  }
+  return kept.join(' ').trim().replace(/['\u2019]s$/, '')
+}
+
 function extractClergy(text: string): string[] {
   const seen = new Set<string>()
   // Only scan the narrative body, skipping the References section (which lists authors)
@@ -147,12 +168,12 @@ function extractClergy(text: string): string[] {
   let m: RegExpExecArray | null
   while ((m = CLERGY_RE.exec(body)) !== null) {
     const title = m[1].replace(/\.$/, '')
-    const name = m[2].trim()
-    // Trim trailing period that regex sometimes captures via apostrophe
-    if (CLERGY_BLOCKLIST.has(name)) continue
-    // Require at least one last-name word that starts with an uppercase letter
-    // and is not a month or common capitalised adjective
-    if (/^(?:January|February|March|April|May|June|July|August|September|October|November|December|Easter|Christmas|National)\b/.test(name)) continue
+    const rawName = m[2].trim()
+    if (CLERGY_BLOCKLIST.has(rawName)) continue
+    if (/^(?:January|February|March|April|May|June|July|August|September|October|November|December|Easter|Christmas|National)\b/.test(rawName)) continue
+    const name = trimToName(rawName)
+    // Must have at least a first+last name
+    if (name.split(/\s+/).length < 2) continue
     const key = `${title} ${name}`
     seen.add(key)
   }
