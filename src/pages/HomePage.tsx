@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react'
 import { navigate } from '../lib/router'
+import { buildSrcSet, responsiveSrc } from '../lib/cloudinary'
 import type { FeedItem } from '../lib/schemas'
+
+const CLOUDINARY_BASE = 'https://res.cloudinary.com/kwierenga/image/upload'
 
 const parishes = [
   'Kingston', 'St. Andrew', 'St. Thomas', 'Portland', 'St. Mary', 'St. Ann',
@@ -151,8 +154,14 @@ export default function HomePage() {
               <a key={c.id} href={`#/church/${c.id}`}
                  className="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all hover:-translate-y-1">
                 <img
-                  src={`https://res.cloudinary.com/kwierenga/image/upload/w_500,h_360,c_fill,q_80/${c.img}.jpg`}
+                  src={responsiveSrc(`${CLOUDINARY_BASE}/${c.img}.jpg`, 500, { height: 360, crop: 'fill' })}
+                  srcSet={buildSrcSet(`${CLOUDINARY_BASE}/${c.img}.jpg`, { widths: [400, 600, 800, 1000], height: 360, crop: 'fill' })}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 280px"
                   alt={c.name}
+                  loading="lazy"
+                  decoding="async"
+                  width={500}
+                  height={360}
                   className="w-full h-[180px] object-cover"
                 />
                 <div className="p-3">
@@ -318,8 +327,14 @@ export default function HomePage() {
           ].map(img => (
             <img
               key={img}
-              src={`https://res.cloudinary.com/kwierenga/image/upload/w_400,h_400,c_fill,q_80/${img}.jpg`}
+              src={responsiveSrc(`${CLOUDINARY_BASE}/${img}.jpg`, 400, { height: 400, crop: 'fill' })}
+              srcSet={buildSrcSet(`${CLOUDINARY_BASE}/${img}.jpg`, { widths: [300, 500, 700], height: 400, crop: 'fill' })}
+              sizes="200px"
               alt=""
+              loading="lazy"
+              decoding="async"
+              width={400}
+              height={400}
               className="h-[200px] w-auto rounded-md object-cover shrink-0 snap-start"
             />
           ))}

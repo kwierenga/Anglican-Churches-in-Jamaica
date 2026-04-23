@@ -3,6 +3,7 @@ import { marked } from 'marked'
 import L from 'leaflet'
 import { useRoute } from '../lib/router'
 import { setSeo, resetSeo } from '../lib/seo'
+import { buildSrcSet, responsiveSrc } from '../lib/cloudinary'
 import type { MediaRow } from '../lib/schemas'
 
 type MediaIndex = Record<string, MediaRow[]>
@@ -38,10 +39,6 @@ async function getChurchGeo(id: string): Promise<ChurchGeo | null> {
     }
   }
   return _geoCache[id] ?? null
-}
-
-function cloudinaryOptimized(url: string, transform = 'q_auto,f_auto,w_1200'): string {
-  return url.replace('/upload/', `/upload/${transform}/`)
 }
 
 export default function ChurchDetailPage() {
@@ -108,7 +105,7 @@ export default function ChurchDetailPage() {
           ? firstPara.replace(/[*_`[\]]/g, '').replace(/\s+/g, ' ').trim().slice(0, 200)
           : `${churchGeo.name} — Anglican church in ${churchGeo.parish}, Jamaica.`
         const heroImage = images[0]
-          ? images[0].url.replace('/upload/', '/upload/w_1200,h_630,c_fill,f_auto,q_auto/')
+          ? responsiveSrc(images[0].url, 1200, { height: 630, crop: 'fill' })
           : undefined
         setSeo({
           title: churchGeo.name,
@@ -141,8 +138,14 @@ export default function ChurchDetailPage() {
               {media.map((m, i) => (
                 <figure key={i} className="shrink-0 m-0">
                   <img
-                    src={cloudinaryOptimized(m.url)}
+                    src={responsiveSrc(m.url, 400, { height: 300, crop: 'fill' })}
+                    srcSet={buildSrcSet(m.url, { widths: [400, 600, 800, 1200], height: 300, crop: 'fill' })}
+                    sizes="(max-width: 640px) 50vw, 400px"
                     alt={m.caption}
+                    loading={i === 0 ? 'eager' : 'lazy'}
+                    decoding="async"
+                    width={400}
+                    height={300}
                     className="h-48 w-auto rounded-lg object-cover cursor-zoom-in"
                     onClick={() => setLightbox(m)}
                   />
@@ -187,8 +190,11 @@ export default function ChurchDetailPage() {
         >
           <figure className="max-w-full max-h-full flex flex-col items-center">
             <img
-              src={cloudinaryOptimized(lightbox.url, 'q_auto,f_auto,w_2000')}
+              src={responsiveSrc(lightbox.url, 2000)}
+              srcSet={buildSrcSet(lightbox.url, { widths: [1200, 1600, 2000, 2600] })}
+              sizes="100vw"
               alt={lightbox.caption}
+              decoding="async"
               className="max-w-full max-h-[90vh] object-contain rounded"
             />
             {lightbox.caption && (

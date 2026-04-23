@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { marked } from 'marked'
 import { useQueryState } from '../lib/state'
+import { buildSrcSet, responsiveSrc } from '../lib/cloudinary'
 import type { MediaRow } from '../lib/schemas'
 
 type MediaIndex = Record<string, MediaRow[]>
@@ -46,8 +47,14 @@ export default function ChurchCard(){
           {images.map((m, i) => (
             <figure key={i} className="shrink-0 m-0">
               <img
-                src={m.url}
+                src={responsiveSrc(m.url, 320, { height: 240, crop: 'fill' })}
+                srcSet={buildSrcSet(m.url, { widths: [320, 480, 640, 800], height: 240, crop: 'fill' })}
+                sizes="(max-width: 640px) 50vw, 320px"
                 alt={m.caption}
+                loading={i === 0 ? 'eager' : 'lazy'}
+                decoding="async"
+                width={320}
+                height={240}
                 className="h-40 w-auto rounded object-cover cursor-zoom-in"
                 onClick={() => setLightbox(m)}
               />
@@ -66,8 +73,11 @@ export default function ChurchCard(){
         >
           <figure className="max-w-full max-h-full flex flex-col items-center">
             <img
-              src={lightbox.url}
+              src={responsiveSrc(lightbox.url, 2000)}
+              srcSet={buildSrcSet(lightbox.url, { widths: [1200, 1600, 2000, 2600] })}
+              sizes="100vw"
               alt={lightbox.caption}
+              decoding="async"
               className="max-w-full max-h-[90vh] object-contain rounded"
             />
             {lightbox.caption && (
