@@ -86,6 +86,11 @@ const IMAGE_MAP = [
   { file: "data/new-images/Southfield/southfield-4.jpg", church_id: "st-mark-s-southfield-st-elizabeth", caption: "St. Mark's, Southfield", order: "6" },
   { file: "data/new-images/Southfield/Southfield-5.jpg", church_id: "st-mark-s-southfield-st-elizabeth", caption: "St. Mark's, Southfield", order: "7" },
   { file: "data/new-images/Southfield/st-mark-southfield.png", church_id: "st-mark-s-southfield-st-elizabeth", caption: "St. Mark's, Southfield", order: "8" },
+
+  // St. Margaret's, Liguanea (St. Andrew) — 3 uploaded; adding the StMargaret folder as orders 4-6.
+  { file: "data/new-images/StMargaret/St_Margaret_1.jpg", church_id: "st-margaret-s-liguanea-st-andrew", caption: "St. Margaret's, Liguanea", order: "4" },
+  { file: "data/new-images/StMargaret/St_Margaret_2.jpg", church_id: "st-margaret-s-liguanea-st-andrew", caption: "St. Margaret's, Liguanea", order: "5" },
+  { file: "data/new-images/StMargaret/St_Margaret_3.jpg", church_id: "st-margaret-s-liguanea-st-andrew", caption: "St. Margaret's, Liguanea", order: "6" },
 ];
 
 async function main() {
