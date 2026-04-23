@@ -1,6 +1,7 @@
 // src/adapters/LeafletAdapter.ts
 import L from 'leaflet'
-// leaflet.css is imported in main.tsx AFTER tailwind.css to ensure correct cascade
+import 'leaflet.markercluster'
+// leaflet.css and markercluster CSS are imported in main.tsx AFTER tailwind.css to ensure correct cascade
 import { MapAdapter, ChurchFeature } from './MapAdapter'
 import type { FeatureCollection, Point } from 'geojson'
 
@@ -88,9 +89,29 @@ function markerStyle(props: ChurchFeature['properties']): L.CircleMarkerOptions 
   }
 }
 
+const CLUSTER_DISABLE_AT_ZOOM = 13
+
+function buildClusterLayer(): L.MarkerClusterGroup {
+  return L.markerClusterGroup({
+    showCoverageOnHover: false,
+    spiderfyOnMaxZoom: true,
+    disableClusteringAtZoom: CLUSTER_DISABLE_AT_ZOOM,
+    maxClusterRadius: 55,
+    iconCreateFunction: (cluster) => {
+      const n = cluster.getChildCount()
+      const sizeClass = n < 10 ? 'sm' : n < 30 ? 'md' : 'lg'
+      return L.divIcon({
+        html: `<div class="acj-cluster acj-cluster-${sizeClass}"><span>${n}</span></div>`,
+        className: 'acj-cluster-wrap',
+        iconSize: [0, 0],
+      })
+    },
+  })
+}
+
 export default class LeafletAdapter implements MapAdapter {
   private map!: L.Map
-  private layer!: L.GeoJSON
+  private cluster!: L.MarkerClusterGroup
   private fullData!: FeatureCollection<Point, ChurchFeature['properties']>
   private data!: FeatureCollection<Point, ChurchFeature['properties']>
   private highlight?: L.CircleMarker
@@ -132,19 +153,30 @@ export default class LeafletAdapter implements MapAdapter {
     ).addTo(this.map)
   }
 
+  private buildMarkers(fc: FeatureCollection<Point, ChurchFeature['properties']>) {
+    const markers: L.CircleMarker[] = []
+    for (const f of fc.features) {
+      const [lng, lat] = f.geometry.coordinates
+      const p = f.properties!
+      const marker = L.circleMarker([lat, lng], markerStyle(p))
+      const label = p.name + (p.classification === 'ruin' ? ' (ruin)' : '')
+      marker.on('click', () => this.onSelect?.(p.id))
+      marker.bindTooltip(label)
+      markers.push(marker)
+    }
+    return markers
+  }
+
   plot(fc: FeatureCollection<Point, ChurchFeature['properties']>) {
     if (!this.fullData) this.fullData = fc
     this.data = fc
-    if(this.layer) this.layer.remove()
-    this.layer = L.geoJSON(fc, {
-      pointToLayer: (f, latlng) => L.circleMarker(latlng, markerStyle(f.properties!)),
-      onEachFeature: (f, layer) => {
-        const p = f.properties!
-        const label = p.name + (p.classification === 'ruin' ? ' (ruin)' : '')
-        layer.on('click', () => this.onSelect?.(p.id))
-        layer.bindTooltip(label)
-      }
-    }).addTo(this.map)
+    if (this.cluster) {
+      this.cluster.clearLayers()
+    } else {
+      this.cluster = buildClusterLayer()
+      this.cluster.addTo(this.map)
+    }
+    this.cluster.addLayers(this.buildMarkers(fc))
     this.fitToAll()
   }
 
@@ -159,10 +191,17 @@ export default class LeafletAdapter implements MapAdapter {
     }
   }
 
+  private clusterBounds(): L.LatLngBounds | null {
+    if (!this.data?.features.length) return null
+    const pts: L.LatLngExpression[] = this.data.features.map(f => [f.geometry.coordinates[1], f.geometry.coordinates[0]])
+    return L.latLngBounds(pts)
+  }
+
   fitToAll(){
     this.clearHighlight()
     this.switchToTerrain()
-    if(!this.layer) return; this.map.fitBounds(this.layer.getBounds(), { padding:[20,20] })
+    const b = this.clusterBounds()
+    if (b) this.map.fitBounds(b, { padding:[20,20] })
   }
 
   fitToParish(parish: string){
@@ -212,18 +251,15 @@ export default class LeafletAdapter implements MapAdapter {
     // Don't clear highlight — filter changes shouldn't deselect a church
     const filtered = { ...this.fullData, features: this.fullData.features.filter(f=>fn(f.properties!)) }
     this.data = filtered
-    if(this.layer) this.layer.remove()
-    this.layer = L.geoJSON(filtered, {
-      pointToLayer: (f, latlng) => L.circleMarker(latlng, markerStyle(f.properties!)),
-      onEachFeature: (f, layer) => {
-        const p = f.properties!
-        const label = p.name + (p.classification === 'ruin' ? ' (ruin)' : '')
-        layer.on('click', () => this.onSelect?.(p.id))
-        layer.bindTooltip(label)
-      }
-    }).addTo(this.map)
-    // Fit bounds without clearing highlight
-    if(this.layer) this.map.fitBounds(this.layer.getBounds(), { padding:[20,20] })
+    if (this.cluster) {
+      this.cluster.clearLayers()
+    } else {
+      this.cluster = buildClusterLayer()
+      this.cluster.addTo(this.map)
+    }
+    this.cluster.addLayers(this.buildMarkers(filtered))
+    const b = this.clusterBounds()
+    if (b) this.map.fitBounds(b, { padding:[20,20] })
   }
 
   setEditMode(enabled: boolean, onMove?: (lat: number, lng: number) => void) {
