@@ -3,6 +3,7 @@ import { useRoute } from '../lib/router'
 const links = [
   { href: '#/', label: 'Home' },
   { href: '#/churches', label: 'Churches' },
+  { href: '#/architecture', label: 'Architecture' },
   { href: '#/history', label: 'History' },
   { href: '#/about', label: 'About' },
   { href: '#/news', label: 'News' },

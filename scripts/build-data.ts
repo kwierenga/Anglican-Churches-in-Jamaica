@@ -5,6 +5,7 @@ import { ChurchRow, ChurchRowSchema, MediaRow, MediaRowSchema, validParishes } f
 
 const SRC = path.resolve('data/churches.csv')
 const OUT = path.resolve('data/build')
+const CONTENT_DIR = path.resolve('content/churches')
 fs.mkdirSync(OUT, { recursive: true })
 
 function warn(msg: string){ console.warn(`⚠️  ${msg}`) }
@@ -92,4 +93,118 @@ if(fs.existsSync(MEDIA_SRC)){
 
 fs.writeFileSync(path.join(OUT,'media-index.json'), JSON.stringify(mediaIndex, null, 2))
 
-console.log(`✅ Wrote ${valid.length} features → data/build/churches.geo.json & search-index.json & media-index.json`)
+// --- Derived indices from narrative markdown ---------------------------------
+
+type ArchStyle = 'georgian' | 'gothic_revival' | 'vernacular' | 'estate_chapel' | 'modernist'
+type StyleIndex = Record<ArchStyle, string[]>
+const styleIndex: StyleIndex = { georgian: [], gothic_revival: [], vernacular: [], estate_chapel: [], modernist: [] }
+
+interface NarrativeChurch {
+  id: string
+  name: string
+  parish: string
+  classification: ChurchRow['classification']
+  status: ChurchRow['status']
+  town: string
+  styles: ArchStyle[]
+  clergy: string[]
+}
+const narrativeIndex: NarrativeChurch[] = []
+
+// Clergy-mention regex: capture "Rev. X", "Bishop X", "Archbishop X", "Archdeacon X",
+// "Canon X", "Rt. Rev. X", "Very Revd. X" — two or three capitalised words after the title.
+// Deliberately permissive; we post-filter against a common-word blocklist.
+const CLERGY_RE = /\b((?:Rt\.?\s+Revd?|Very\s+Revd?|Revd?\.?|Rev\.?|Canon|Dean|Bishop|Archbishop|Archdeacon|Father|Mother|Sister)\.?)\s+([A-Z][A-Za-z'’-]+(?:\s+[A-Z][A-Za-z'’-]+){1,3})/g
+
+const CLERGY_BLOCKLIST = new Set([
+  'Jamaica', 'London', 'Kingston', 'The', 'Our', 'His', 'Her', 'Of', 'In', 'At',
+  'Act', 'Emancipation', 'Baptist', 'War', 'Church', 'God', 'Lord', 'Christ',
+  'Holy Orders', 'Candidates', 'Canterbury', 'West Indies', 'Diocese', 'Native',
+  'Anglican', 'Baptist Missionary', 'Archbishop of',
+])
+
+const STYLE_PATTERNS: Record<ArchStyle, RegExp> = {
+  georgian: /\bgeorgian\b/i,
+  gothic_revival: /\bgothic(?:\s+revival)?\b|\b(?:lancet|pointed\s+arch|buttress|flying\s+buttress)\b/i,
+  vernacular: /\bvernacular\b|\blouvred\b|\bverandah\b|\btimber[-\s]?frame\b|\bshingle[d]?\s+roof\b/i,
+  estate_chapel: /\b(?:sugar|coffee)\s+estate\s+chapel\b|\bestate\s+chapel\b|\bplantation\s+chapel\b/i,
+  modernist: /\bmodernist\b|\bconcrete\b.{0,30}\b(?:post[-\s]?war|mid[-\s]?century|1950s|1960s|1970s|modern)\b|\bpost[-\s]?independence\s+concrete\b/i,
+}
+
+function extractStyles(text: string): ArchStyle[] {
+  const out: ArchStyle[] = []
+  for (const s of Object.keys(STYLE_PATTERNS) as ArchStyle[]) {
+    if (STYLE_PATTERNS[s].test(text)) out.push(s)
+  }
+  return out
+}
+
+function extractClergy(text: string): string[] {
+  const seen = new Set<string>()
+  // Only scan the narrative body, skipping the References section (which lists authors)
+  const body = text.split(/^##\s+References\b/mi)[0]
+  CLERGY_RE.lastIndex = 0
+  let m: RegExpExecArray | null
+  while ((m = CLERGY_RE.exec(body)) !== null) {
+    const title = m[1].replace(/\.$/, '')
+    const name = m[2].trim()
+    // Trim trailing period that regex sometimes captures via apostrophe
+    if (CLERGY_BLOCKLIST.has(name)) continue
+    // Require at least one last-name word that starts with an uppercase letter
+    // and is not a month or common capitalised adjective
+    if (/^(?:January|February|March|April|May|June|July|August|September|October|November|December|Easter|Christmas|National)\b/.test(name)) continue
+    const key = `${title} ${name}`
+    seen.add(key)
+  }
+  return Array.from(seen).sort()
+}
+
+if (fs.existsSync(CONTENT_DIR)) {
+  for (const v of valid) {
+    const mdPath = path.join(CONTENT_DIR, `${v.id}.md`)
+    if (!fs.existsSync(mdPath)) {
+      narrativeIndex.push({
+        id: v.id, name: v.name, parish: v.parish, classification: v.classification,
+        status: v.status, town: v.town, styles: [], clergy: [],
+      })
+      continue
+    }
+    const text = fs.readFileSync(mdPath, 'utf8')
+    const styles = extractStyles(text)
+    const isRuin = v.classification === 'ruin' || v.status === 'ruin'
+    // Estate chapel as standalone category only for classification=chapel
+    const filteredStyles = styles.filter(s => s !== 'estate_chapel' || v.classification === 'chapel' || v.classification === 'church')
+    if (!isRuin) {
+      for (const s of filteredStyles) styleIndex[s].push(v.id)
+    }
+    narrativeIndex.push({
+      id: v.id, name: v.name, parish: v.parish, classification: v.classification,
+      status: v.status, town: v.town, styles: filteredStyles, clergy: extractClergy(text),
+    })
+  }
+  fs.writeFileSync(path.join(OUT, 'architecture-index.json'), JSON.stringify(styleIndex, null, 2))
+
+  // Clergy index: clergy-name -> [{ church-id, church-name, parish }]
+  const clergyIndex: Record<string, Array<{ id: string; name: string; parish: string }>> = {}
+  for (const c of narrativeIndex) {
+    for (const name of c.clergy) {
+      if (!clergyIndex[name]) clergyIndex[name] = []
+      clergyIndex[name].push({ id: c.id, name: c.name, parish: c.parish })
+    }
+  }
+  // Keep only clergy named in 1+ narrative (all of them) but sort and drop single-mention
+  // spurious captures by requiring mention in at least one place; we already dedupe per-file.
+  const clergyIndexSorted = Object.fromEntries(
+    Object.entries(clergyIndex).sort(([a], [b]) => {
+      // Sort by last token (surname)
+      const la = a.split(/\s+/).pop()!
+      const lb = b.split(/\s+/).pop()!
+      return la.localeCompare(lb)
+    })
+  )
+  fs.writeFileSync(path.join(OUT, 'clergy-index.json'), JSON.stringify(clergyIndexSorted, null, 2))
+
+  console.log(`✅ Wrote ${valid.length} features → churches.geo.json, search-index.json, media-index.json, architecture-index.json, clergy-index.json`)
+} else {
+  console.log(`✅ Wrote ${valid.length} features → data/build/churches.geo.json & search-index.json & media-index.json`)
+}
