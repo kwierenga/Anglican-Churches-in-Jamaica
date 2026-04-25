@@ -1,7 +1,6 @@
 // src/adapters/LeafletAdapter.ts
 import L from 'leaflet'
-import 'leaflet.markercluster'
-// leaflet.css and markercluster CSS are imported in main.tsx AFTER tailwind.css to ensure correct cascade
+// leaflet.css is imported in main.tsx AFTER tailwind.css to ensure correct cascade
 import { MapAdapter, ChurchFeature } from './MapAdapter'
 import type { FeatureCollection, Point } from 'geojson'
 
@@ -89,29 +88,9 @@ function markerStyle(props: ChurchFeature['properties']): L.CircleMarkerOptions 
   }
 }
 
-const CLUSTER_DISABLE_AT_ZOOM = 13
-
-function buildClusterLayer(): L.MarkerClusterGroup {
-  return L.markerClusterGroup({
-    showCoverageOnHover: false,
-    spiderfyOnMaxZoom: true,
-    disableClusteringAtZoom: CLUSTER_DISABLE_AT_ZOOM,
-    maxClusterRadius: 55,
-    iconCreateFunction: (cluster) => {
-      const n = cluster.getChildCount()
-      const sizeClass = n < 10 ? 'sm' : n < 30 ? 'md' : 'lg'
-      return L.divIcon({
-        html: `<div class="acj-cluster acj-cluster-${sizeClass}"><span>${n}</span></div>`,
-        className: 'acj-cluster-wrap',
-        iconSize: [0, 0],
-      })
-    },
-  })
-}
-
 export default class LeafletAdapter implements MapAdapter {
   private map!: L.Map
-  private cluster!: L.MarkerClusterGroup
+  private markerLayer!: L.LayerGroup
   private fullData!: FeatureCollection<Point, ChurchFeature['properties']>
   private data!: FeatureCollection<Point, ChurchFeature['properties']>
   private highlight?: L.CircleMarker
@@ -170,13 +149,12 @@ export default class LeafletAdapter implements MapAdapter {
   plot(fc: FeatureCollection<Point, ChurchFeature['properties']>) {
     if (!this.fullData) this.fullData = fc
     this.data = fc
-    if (this.cluster) {
-      this.cluster.clearLayers()
+    if (this.markerLayer) {
+      this.markerLayer.clearLayers()
     } else {
-      this.cluster = buildClusterLayer()
-      this.cluster.addTo(this.map)
+      this.markerLayer = L.layerGroup().addTo(this.map)
     }
-    this.cluster.addLayers(this.buildMarkers(fc))
+    for (const m of this.buildMarkers(fc)) m.addTo(this.markerLayer)
     this.fitToAll()
   }
 
@@ -191,7 +169,7 @@ export default class LeafletAdapter implements MapAdapter {
     }
   }
 
-  private clusterBounds(): L.LatLngBounds | null {
+  private dataBounds(): L.LatLngBounds | null {
     if (!this.data?.features.length) return null
     const pts: L.LatLngExpression[] = this.data.features.map(f => [f.geometry.coordinates[1], f.geometry.coordinates[0]])
     return L.latLngBounds(pts)
@@ -200,7 +178,7 @@ export default class LeafletAdapter implements MapAdapter {
   fitToAll(){
     this.clearHighlight()
     this.switchToTerrain()
-    const b = this.clusterBounds()
+    const b = this.dataBounds()
     if (b) this.map.fitBounds(b, { padding:[20,20] })
   }
 
@@ -251,14 +229,13 @@ export default class LeafletAdapter implements MapAdapter {
     // Don't clear highlight — filter changes shouldn't deselect a church
     const filtered = { ...this.fullData, features: this.fullData.features.filter(f=>fn(f.properties!)) }
     this.data = filtered
-    if (this.cluster) {
-      this.cluster.clearLayers()
+    if (this.markerLayer) {
+      this.markerLayer.clearLayers()
     } else {
-      this.cluster = buildClusterLayer()
-      this.cluster.addTo(this.map)
+      this.markerLayer = L.layerGroup().addTo(this.map)
     }
-    this.cluster.addLayers(this.buildMarkers(filtered))
-    const b = this.clusterBounds()
+    for (const m of this.buildMarkers(filtered)) m.addTo(this.markerLayer)
+    const b = this.dataBounds()
     if (b) this.map.fitBounds(b, { padding:[20,20] })
   }
 
