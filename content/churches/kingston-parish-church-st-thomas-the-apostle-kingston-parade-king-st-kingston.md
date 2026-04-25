@@ -45,3 +45,7 @@ The church maintains a Facebook presence and a YouTube channel ("Faith Talks") w
 - Wolmer's Schools — Trust history and Founder's Day (wolmers.com)
 - BraveBenbow.com — Admiral Benbow biography and monument inscriptions
 - UNESCO World Heritage Centre — Port Royal inscription (2025)
+
+## Recent coverage
+
+On 16 February 2025 the Kingston Parish Church (St Thomas the Apostle) hosted the Closing Eucharist of the Diocese of Jamaica and the Cayman Islands' 200th-anniversary year, with the celebrated Bishop Michael Curry — the first black Presiding Bishop of the US Episcopal Church — as preacher ([Jamaica Gleaner, 2 Mar 2025](https://jamaica-gleaner.com/article/lead-stories/20250302/bishop-michael-currys-civil-rights-ministry)). The church's struggles to keep its King Street precinct free of street-vendor encroachment were earlier reported in the [Gleaner of 27 Aug 2019](https://jamaica-gleaner.com/article/lead-stories/20190827/holy-crap-kingston-parish-church-battles-rogue-street-vendors-who-also).

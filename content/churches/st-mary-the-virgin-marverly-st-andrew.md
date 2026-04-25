@@ -19,3 +19,7 @@ The dedication 'St. Mary the Virgin' — as distinct from simply 'St. Mary's' �
 - National Library of Jamaica — The History of Kingston and St. Andrew (Liguanea origin, 1664 parish founding, 1923 KSA amalgamation, Half Way Tree Parish Church): [nlj.gov.jm](https://nlj.gov.jm/)
 - Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Andrew Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
 - Jamaica National Heritage Trust — St. Andrew heritage sites: [jnht.com/st_andrew.php](http://www.jnht.com/st_andrew.php)
+
+## Recent coverage
+
+Located on Molynes Road, St Mary the Virgin has long served as the funeral church for prominent west-Kingston families and community figures, as recorded in Gleaner reports of services for "Ma Fergs" (March 2015) and sports administrator Forbes (November 2019).

@@ -23,3 +23,7 @@ The dedication to the Archangel Michael and All Angels is celebrated on 29 Septe
 - Jamaican Ancestral Records — St Michael's and All Angels, Kew Park: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/westmoreland/st-michaels-all-angels/)
 - Diocese of Jamaica and the Cayman Islands — Montego Bay Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)
 - National Library of Jamaica — The History of Westmoreland (Rat Trap naming tradition): [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Westmoreland.pdf)
+
+## Recent coverage
+
+St Michael's was built in 1865 on the 939-acre Kew Park Estate at Bethel Town and remains one of the heritage structures associated with the Williams family's continuous tenure of the property since 1850 ([Jamaica Gleaner, 24 Jul 2022](http://past.jamaica-gleaner.com/article/lifestyle/20220724/dream-house-peek-kew-park)).

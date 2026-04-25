@@ -32,3 +32,7 @@ The Good Shepherd dedication — from John 10:11, "I am the good shepherd; the g
 - Anglican News — "Fire-Ravaged Home for Girls in Jamaica Re-Opens" (March 2018)
 - UCL Legacies of British Slavery — Constant Spring Estate, 312 enslaved (ucl.ac.uk/lbs)
 - Jamaica Homes — Church of the Good Shepherd history (jamaica-homes.com)
+
+## Recent coverage
+
+In November 2025 the Church of the Good Shepherd was designated the principal Kingston drop-off site for the diocesan RG CARES Hurricane Melissa relief campaign, channelling supplies from the capital to devastated parishes in the west ([Jamaica Gleaner, 18 Nov 2025](https://jamaica-gleaner.com/article/news/20251118/devastation-meets-care-st-elizabeth-victims-benefit-rg-cares)).

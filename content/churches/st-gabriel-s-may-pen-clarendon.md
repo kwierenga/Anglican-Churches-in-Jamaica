@@ -32,3 +32,7 @@ The Archangel Gabriel's dedication is relatively uncommon in Jamaica's Anglican 
 - Diocese of Jamaica and the Cayman Islands — St. Gabriel's Church, 10 Church Street, May Pen: [anglicandioceseja.org](https://www.anglicandioceseja.org/?attachment_id=893)
 - Jamalco — History (bauxite and alumina in Clarendon): [jamalco.com/history](https://www.jamalco.com/history/)
 - National Library of Jamaica — The History of Clarendon (May Pen named after Rev. William May; 1887 Law 20 Clarendon/Vere merger; 1962 mayoral status): [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)
+
+## Recent coverage
+
+St Gabriel's regularly anchors civic life in May Pen — hosting Citizens In Action Now (CIAN) anti-crime meetings (2017) and high-profile family services such as that of the late Amy "Mymie" Davis, mother of Dr Omar Davies, in July 2013 ([Jamaica Gleaner, 28 Jul 2013](http://jamaica-gleaner.com/gleaner/20130728/news/news6.html); [15 Feb 2017](https://jamaica-gleaner.com/article/news/20170215/cian-looking-solution-crime-parish)).

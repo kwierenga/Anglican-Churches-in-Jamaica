@@ -23,3 +23,7 @@ The 1681 land donation by Colonel Thomas and Catherine Fuller makes St. Dorothy'
 - National Library of Jamaica — The History of St. Catherine (Fuller land donation 1681; 1867 Law 20 reorganisation): [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
 - Diocese of Jamaica and the Cayman Islands — St. Catherine Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=2731)
+
+## Recent coverage
+
+St Dorothy's — known locally as "the Tamarind Tree Church" — was the principal church of the now-defunct parish of St Dorothy until its 1867 merger into St Catherine, and is protected by a Jamaica National Heritage Trust Preservation Order, as detailed in Neil Richards' Gleaner essay of [20 Apr 2025](http://past.jamaica-gleaner.com/article/art-leisure/20250420/neil-richards-grandeur-principal-church-buildings-former-southern).

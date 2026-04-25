@@ -18,3 +18,7 @@ Holy Trinity is celebrated as "St. Mary's first Anglican Church" and as mother c
 ## References
 - JN Foundation / Veront M. Satchell — *Parish History of St. Mary* (covers Port Maria, Annotto Bay, Metcalfe parish 1841–1867, Scott's Hall Maroons, Rio Nuevo battle, and the four principal Anglican churches of the parish): [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
 - Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Mary Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+
+## Recent coverage
+
+Holy Trinity, Retreat is the oldest Anglican church in St Mary, built between 1828 and 1835 on land donated by plantation owner Henry Rigg. The [Jamaica Gleaner (14 Nov 2015)](http://past.jamaica-gleaner.com/article/news/20151114/st-marys-first-anglican-church-celebrates-180-years) marked its 180th anniversary, noting it serves as "mother church" to four other St Mary congregations and that its Georgian exterior remains essentially unchanged despite an early-2000s interior fire.

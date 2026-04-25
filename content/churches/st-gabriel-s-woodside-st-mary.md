@@ -18,3 +18,7 @@ Woodside’s south-eastern position in St. Mary places it in one of the more rem
 ## References
 - JN Foundation / Veront M. Satchell — *Parish History of St. Mary* (covers Port Maria, Annotto Bay, Metcalfe parish 1841–1867, Scott's Hall Maroons, Rio Nuevo battle, and the four principal Anglican churches of the parish): [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
 - Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Mary Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+
+## Recent coverage
+
+St Gabriel's — referred to locally simply as "the Old Anglican Church" — is recommended in the [Jamaica Gleaner's St Mary visitor feature (5 Feb 2018)](http://past.jamaica-gleaner.com/article/flair/20180205/places-you-should-visit-st-mary) as a stop on the Woodside heritage trail, alongside Daddy Rock and the Arawak Steps.

@@ -18,3 +18,7 @@ Westgate’s position on the western approach to Montego Bay places it at the in
 ## References
 - National Library of Jamaica — The History of St. James: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20James.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. James: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+
+## Recent coverage
+
+Holy Trinity, Westgate has been a launching pad for diocesan leaders: the Rt Rev'd Canon Garth Minott served at Holy Trinity from 1992–94 before going on to be elected Suffragan Bishop of Kingston in April 2022 ([Jamaica Gleaner, 20 Apr 2022](http://past.jamaica-gleaner.com/article/news/20220420/garth-minott-elected-anglican-bishop-kingston)).

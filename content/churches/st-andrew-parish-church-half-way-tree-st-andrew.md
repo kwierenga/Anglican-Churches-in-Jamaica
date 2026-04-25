@@ -41,3 +41,7 @@ The cemetery is an open-air museum of Jamaican history, containing the graves of
 - Samuel Felsted — first oratorio in the Americas (Wikipedia; American Philosophical Society records)
 - National Library of Jamaica Digital Collection — St. Andrew Parish Church photographs (nljdigital.nlj.gov.jm)
 - *Jamaica Gleaner* — St. Andrew Settlement "Man of the Year" Award (2005)
+
+## Recent coverage
+
+In June 2015 St Andrew Parish Church marked its 350th anniversary at a Pegasus banquet addressed by Sir Hilary Beckles ([Jamaica Gleaner, 14 Jun 2015](https://jamaica-gleaner.com/article/outlook/20150614/st-andrew-parish-church-turns-350)). The parish's musical life is led by organist-choirmaster Audley Davidson — also Director of the Kingston College Chapel Choir and the Diocesan Festival Choir — whose 25 years at the church's 1977 J.W. Walker & Sons organ were celebrated in the [Gleaner of 14 Sep 2025](https://jamaica-gleaner.com/article/entertainment/20250914/audley-davidson-25-years-organ-st-andrew-parish-church).

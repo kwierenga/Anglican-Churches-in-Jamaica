@@ -37,3 +37,7 @@ All Saints' was consecrated on the same day as Kingston Parish Church — 17 Jan
 - *Jamaica Gleaner* — "Fr Abner the Faithful Priest" (17 December 2023); "Church Mourns Passing of Canon Abner Powell" (24 November 2023)
 - St. Alban's Mission Denham Town — restoration press release (go-jamaica.com)
 - Enos Nuttall Centenary Sermon — Diocese of Jamaica (anglicandioceseja.org)
+
+## Recent coverage
+
+In November 2023 the All Saints' Cure mourned the death of its long-serving rector, the Rev'd Canon Abner Powell — also Chaplain of Kingston College — whom Archbishop Howard Gregory described as a priest whose loss would leave "a void hard to fill" ([Jamaica Gleaner, 24 Nov 2023](https://jamaica-gleaner.com/article/news/20231124/church-mourns-passing-canon-abner-powell); see also tribute ["Fr Abner the faithful priest"](https://jamaica-gleaner.com/article/news/20231217/fr-abner-faithful-priest), 17 Dec 2023).

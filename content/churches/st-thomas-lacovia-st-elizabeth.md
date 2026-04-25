@@ -42,3 +42,7 @@ The Lacovia Tombstones, a short distance from the church, are a designated Natio
 - Jamaica Gleaner — Bishop Christopher Lipscomb's enduring legacy (1835 schools data): [jamaica-gleaner.com](https://jamaica-gleaner.com/article/art-leisure/20240721/christopher-lipscombs-enduring-legacy)
 - The Living Church — Hurricane Melissa Flattens Jamaican Churches: [livingchurch.org](https://livingchurch.org/news/news-anglican-communion/hurricane-melissa-flattens-jamaican-churches/)
 - National Library of Jamaica — The History of St. Elizabeth: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Elizabeth.pdf)
+
+## Recent coverage
+
+The Lacovia parish church was among the most catastrophically affected Anglican buildings in Hurricane Melissa, "left with none of its roof and less than 10 per cent of its walls" ([Jamaica Gleaner, 18 Nov 2025](https://jamaica-gleaner.com/article/news/20251118/devastation-meets-care-st-elizabeth-victims-benefit-rg-cares)).

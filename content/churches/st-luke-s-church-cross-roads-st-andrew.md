@@ -19,3 +19,7 @@ A key part of St. Luke's identity is its history of overcoming disaster, notably
 - National Library of Jamaica — The History of Kingston and St. Andrew (Liguanea origin, 1664 parish founding, 1923 KSA amalgamation, Half Way Tree Parish Church): [nlj.gov.jm](https://nlj.gov.jm/)
 - Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Andrew Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
 - Jamaica National Heritage Trust — St. Andrew heritage sites: [jnht.com/st_andrew.php](http://www.jnht.com/st_andrew.php)
+
+## Recent coverage
+
+St Luke's Hall, Cross Roads, is the customary venue for special synods of the Diocese — including the 28 March 2012 election of the 14th Diocesan Bishop, the Rt Rev'd Dr Howard K.A. Gregory ([Jamaica Gleaner, 28 Mar 2012](https://web5.jamaica-gleaner.com/gleaner/20120328/lead/lead2.html)). After Hurricane Melissa it served as a designated Kingston drop-off site for the diocesan RG CARES relief drive ([Gleaner, 18 Nov 2025](https://jamaica-gleaner.com/article/news/20251118/devastation-meets-care-st-elizabeth-victims-benefit-rg-cares)).

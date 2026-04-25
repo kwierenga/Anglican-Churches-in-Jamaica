@@ -43,3 +43,7 @@ A separate brick-walled naval cemetery on Port Royal's eastern end contains the 
 - UNESCO World Heritage Centre — Port Royal inscription (2025)
 - Matthew Mulcahy, *Hurricanes and Society in the British Greater Caribbean, 1624–1783* — 1722 and 1744 hurricanes
 - *The Appendix* — "Earthquake Bonds: Lewis Galdy and the Port Royal Earthquake of 1692"
+
+## Recent coverage
+
+Rebuilt in 1726 after the great 1692 earthquake destroyed its predecessor, St Peter's, Port Royal preserves remarkable seventeenth-century relics — including a silver communion set associated with the privateer Sir Henry Morgan ([Jamaica Gleaner, 29 Jun 2025](http://past.jamaica-gleaner.com/article/art-leisure/20250629/cathedrals-jamaica-pillars-hope)).

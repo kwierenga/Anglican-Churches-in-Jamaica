@@ -18,3 +18,7 @@ Annotto Bay’s position at the mouth of the Pencar River makes it one of the mo
 ## References
 - JN Foundation / Veront M. Satchell — *Parish History of St. Mary* (covers Port Maria, Annotto Bay, Metcalfe parish 1841–1867, Scott's Hall Maroons, Rio Nuevo battle, and the four principal Anglican churches of the parish): [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
 - Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Mary Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+
+## Recent coverage
+
+For more than a decade St James, Annotto Bay has been served alongside Enfield, Devon Pen, Long Road and Grandy Hole by a single Anglican priest, the Rev'd Veronica Thomas, whose ministry across the five-cure circuit was profiled by the [Jamaica Gleaner on 4 Jul 2015](https://jamaica-gleaner.com/article/news/20150704/without-vision-people-perish-reverend-concerned-about-annotto-bay-youth).

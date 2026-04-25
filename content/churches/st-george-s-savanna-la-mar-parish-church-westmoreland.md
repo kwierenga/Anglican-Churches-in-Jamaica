@@ -32,3 +32,7 @@ The 8 October 1780 hurricane and tidal wave remains among the deadliest natural 
 - Caribbean National Weekly — Custos Rev. Hartley Perrin on post-Melissa Westmoreland: [caribbeannationalweekly.com](https://www.caribbeannationalweekly.com/news/westmoreland-in-ruins-custos-rev-hartley-perrin-shares-harrowing-scenes-after-hurricane-melissa/)
 - Jamaica Gleaner — The disaster that erased Savanna-la-Mar (5 Feb 2026): [jamaica-gleaner.com](https://jamaica-gleaner.com/article/news/20260205/disaster-erased-savanna-la-mar)
 - National Library of Jamaica — The History of Westmoreland (parish formation, capital history, 1748/1780/1912 hurricanes): [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Westmoreland.pdf)
+
+## Recent coverage
+
+Established in 1739 and rebuilt in 1903 (consecrated 1904), St George's anchors the southern end of Great George Street ([Jamaica Gleaner, 27 Mar 2014](https://jamaica-gleaner.com/gleaner/20140327/news/news91.html)). Its 1915 pipe organ is one of three on the island under restoration by German specialist Friedemann Buschbeck ([Gleaner, 21 Nov 2022](http://past.jamaica-gleaner.com/article/lead-stories/20221121/century-old-pipe-organ-getting-new-lease-life)).

@@ -33,3 +33,7 @@ The church is widely known for its steel orchestra, which accompanies services w
 - UWI Museum — churches at UWI Mona (uwimuseum.wordpress.com)
 - *Jamaica Gleaner* — Classics in June 20th anniversary (June 2025)
 - Kingston College Times — Canon John McNab (kctimes.org)
+
+## Recent coverage
+
+The Church of the Ascension was shaped by an extraordinarily long incumbency: the Rev'd Canon Peter Mullings served as rector for 38 years, from 1973 to his retirement in 2011. His death in January 2022 was reported in the [Jamaica Gleaner](https://jamaica-gleaner.com/article/news/20220113/update-veteran-anglican-priest-peter-mullings-dead).

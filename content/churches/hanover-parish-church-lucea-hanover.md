@@ -29,3 +29,7 @@ The John Flaxman memorial to Sir Simon Clarke (1798) is believed to be the only 
 - Jamaican Heritage Renewal — Hanover Parish Church, Lucea: [jamaicanheritagerenewal.org](https://jamaicanheritagerenewal.org/the-parish-church-of-st-peter-lucea/)
 - Jamaica Gleaner — Historic landmarks out west among Melissa's many victims (7 Nov 2025): [jamaica-gleaner.com](https://jamaica-gleaner.com/article/lead-stories/20251107/historic-landmarks-out-west-among-melissas-many-victims)
 - National Library of Jamaica — The History of Hanover: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Hanover.pdf)
+
+## Recent coverage
+
+Built on the ruins of an earlier Spanish chapel, the Hanover Parish Church recorded its first baptism in 1725, first burial in 1727 and first marriage in 1749 — making it the oldest building in the parish ([Jamaica Gleaner, 28 Sep 2013](https://jamaica-gleaner.com/gleaner/20130928/lead/lead7.html)). After Hurricane Melissa the Parish Church Hall served as the venue for Government's "ROOFS" recovery cheque hand-over to Hanover households ([Gleaner, 27 Feb 2026](https://jamaica-gleaner.com/article/news/20260227/334m-being-disbursed-hanover-households-under-roofs-hurricane-recovery)).

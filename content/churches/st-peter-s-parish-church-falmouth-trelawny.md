@@ -34,3 +34,7 @@ St. Peter's is the oldest public building in Falmouth, which was designated a Na
 - Wikipedia — Barrett family of Jamaica: [en.wikipedia.org/wiki/Barrett_family_of_Jamaica](https://en.wikipedia.org/wiki/Barrett_family_of_Jamaica)
 - National Library of Jamaica — History of Trelawny (St Peter's 1794-96, £10,000 cost, 1796 belfry, three bells, three-dial clock, Duke Street): [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Trelawny%20Final.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of Trelawny (Falmouth founding, Barrett/Tharp land, 1985 Heritage Site, 1996 Monument): [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+
+## Recent coverage
+
+Falmouth Parish Church (1796) is the oldest public building in the Trelawny capital. Its 2018 multi-million-dollar restoration — funded by the JNHT, the Tourist Enhancement Fund and the EU Sugar Transformation Unit — replaced the destroyed original "Madonna and Child" stained-glass window, treated acid-rain-eroded limestone walls with lime-water paste and remediated termite and Hurricane-Gilbert damage ([Jamaica Gleaner, 24 Sep 2018](http://past.jamaica-gleaner.com/article/news/20180924/st-peters-anglican-church-gets-much-needed-facelift)). Damage from Hurricane Melissa in 2025 has now fed fears that Falmouth could lose its 1996 National Monument status ([Gleaner, 20 Nov 2025](https://jamaica-gleaner.com/article/news/20251120/hurricane-melissa-damage-sparks-fears-falmouth-could-lose-national-monument)).

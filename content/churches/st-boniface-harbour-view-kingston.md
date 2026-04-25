@@ -39,3 +39,7 @@ St. Boniface of Crediton (c. 675–754), the church's patron saint, was an Anglo
 - *Jamaica Gleaner* — Enid Bernard at 100 (27 October 2024)
 - *Jamaica Gleaner* — Shipping Association / Rotary health fair at Harbour View (30 August 2016)
 - History of Kingston, Jamaica — government housing schemes 1950–1960 (jamaicanfamilysearch.com)
+
+## Recent coverage
+
+St Boniface marked its 140th anniversary in December 2010 ([Jamaica Gleaner, 24 Dec 2010](https://jamaica-gleaner.com/gleaner/20101224/news/news91.html)), placing its founding in 1870. The parish has a notably long-serving lay membership: in October 2024 the church publicly celebrated the 100th birthday of Sunday-school teacher Enid Bernard ([Gleaner, 27 Oct 2024](https://jamaica-gleaner.com/article/lifestyle/20241027/enid-bernard-100)).

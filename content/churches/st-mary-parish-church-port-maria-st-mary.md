@@ -30,3 +30,7 @@ St. Mary is the site of Tacky's Revolt (7 April 1760), the most significant slav
 - JN Foundation / Veront M. Satchell — *Parish History of St. Mary* (Rev. Colin Donaldson rector of St. Mary 1801–1821, earlier rectors from 1715): [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
 - Lambeth Palace Library — **Fulham Papers, Volume 18 (Jamaica, 1740–1752, 1762, 1769, 1787–1809, 1819, 1821)** — correspondence to the Bishop of London from Jamaican clergy including **Colin Donaldson** (rector of St. Mary 1801–1821), William May, John Barton, and James White. Calendar via UNB Loyalist Collection: [loyalist.lib.unb.ca](https://loyalist.lib.unb.ca/record/fulham-papers-lambeth-palace-library-1626-1822)
 - Wikipedia — Tacky's Revolt: [en.wikipedia.org/wiki/Tacky's_Revolt](https://en.wikipedia.org/wiki/Tacky's_Revolt)
+
+## Recent coverage
+
+The present stone-walled St Mary Parish Church was erected in 1861 facing Claude Stuart Park and the Caribbean ([Jamaica Gleaner, 30 Jul 2009](http://old.jamaica-gleaner.com/gleaner/20090730/news/news1.html)). Today's Diocesan Bishop, the Rt Rev'd Leon Golding, served here as Rector from 1988 to 1990 ([Gleaner, 24 Mar 2025](https://jamaica-gleaner.com/article/news/20250324/leon-golding-set-head-anglican-church-jamaica-and-cayman-islands)), and the church hall remains a community anchor — hosting flood-relief distributions in 2013 and 2022 and the annual St Mary Literary Festival.

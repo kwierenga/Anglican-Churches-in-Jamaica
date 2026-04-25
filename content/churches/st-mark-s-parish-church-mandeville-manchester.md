@@ -28,3 +28,7 @@ During the Christmas Rebellion of 1831–32, the organ loft of St. Mark's was pr
 - National Library of Jamaica — The History of Manchester (parish formation 1814; Mandeville named for Viscount Mandeville; 1831–32 organ-loft jail; garrison burial in churchyard): [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)
 - Diocese of Jamaica and the Cayman Islands — Manchester Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=2731)
 - Jamaica National Heritage Trust — Mandeville heritage: [jnht.com/manchester.php](http://www.jnht.com/manchester.php)
+
+## Recent coverage
+
+Construction of St Mark's was decided on 27 August 1816 and completed in 1820, with the first baptism conducted by the Rev'd John Trew in September 1816. His controversial successor, George Wilson Bridges (1817–1823), completed the clerestory and tower while baptising 9,547 enslaved people and conducting 2,187 marriages, even as he rented the rectory out as a tavern and defended slavery; in the 1832 slave rebellion the organ loft was used as a jail ([Jamaica Gleaner, 7 May 2016](http://past.jamaica-gleaner.com/article/news/20160507/history-st-marks-anglican-church)). The first Suffragan Bishop of Mandeville, Benjamin Vaughan, was consecrated from this rectory in 1961.

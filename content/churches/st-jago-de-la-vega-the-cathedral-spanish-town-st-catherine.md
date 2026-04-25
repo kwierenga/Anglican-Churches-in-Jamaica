@@ -36,3 +36,7 @@ St. Jago de la Vega is generally regarded as the oldest Anglican cathedral site 
 - Jamaica Gleaner — Christopher Lipscomb's enduring legacy: [jamaica-gleaner.com](https://jamaica-gleaner.com/article/art-leisure/20240721/christopher-lipscombs-enduring-legacy)
 - National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+
+## Recent coverage
+
+The Cathedral of St Jago de la Vega holds — as the [Jamaica Gleaner of 29 June 2025](http://past.jamaica-gleaner.com/article/art-leisure/20250629/cathedrals-jamaica-pillars-hope) puts it — "the honour of being the oldest site of continuous worship in the Western Hemisphere," with foundations from 1525 and the present brick building completed in 1714 after the great hurricane of 1712, becoming a cathedral by Letters Patent on 28 November 1843. On Sunday 28 September 2025 the Cathedral hosted the Investiture and Enthronement of the Rt Rev'd Leon Golding as the 15th Diocesan Bishop of Jamaica and the Cayman Islands ([Gleaner, 21 Sep 2025](https://jamaica-gleaner.com/article/news/20250921/sean-major-campbell-enthronement-new-diocesan-bishop)).

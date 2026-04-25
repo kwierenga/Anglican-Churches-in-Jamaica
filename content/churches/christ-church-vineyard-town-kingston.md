@@ -19,3 +19,7 @@ Vineyard Town is one of several inner-city Kingston communities with a strong An
 - National Library of Jamaica — The History of Kingston and St. Andrew (Port Royal 1692 earthquake, Kingston founded from Colonel Barry's Hog Crawle, John Goffe's 1692 town plan, 1872 capital, 1907 earthquake, 1923 KSA amalgamation): [nlj.gov.jm](https://nlj.gov.jm/)
 - Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
 - Jamaica National Heritage Trust — Kingston heritage sites: [jnht.com](http://www.jnht.com/)
+
+## Recent coverage
+
+Although the building is currently listed inactive, Christ Church Vineyard Town remains nationally identified with Fr Sean Major-Campbell's annual Human Rights Service, held on the Sunday nearest 10 December each year since 2014 when his foot-washing of two lesbian congregants made front-page news ([Jamaica Gleaner, 15 Dec 2014](https://jamaica-gleaner.com/article/lead-stories/20141215/major-campbell-flock-clear-air-gays-church-0)). Bishop Leon Golding preached at the 2025 service ([Gleaner, 14 Dec 2025](https://jamaica-gleaner.com/article/news/20251214/sean-major-campbell-blessing-gay-unions)).

@@ -31,3 +31,7 @@ St. James Parish Church is one of the finest Georgian churches in the Caribbean 
 - Executed Today — 1832: Samuel Sharpe (Bleby quote source): [executedtoday.com](https://www.executedtoday.com/2009/05/23/1832-samuel-sharpe-i-would-rather-die-upon-yonder-gallows-than-live-in-slavery/)
 - JN Foundation / Jenny Jemmott — Parish History of St. James (1775-1782 construction dates; 1878 clergy): [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
 - National Library of Jamaica — The History of St. James: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20James.pdf)
+
+## Recent coverage
+
+St James Parish Church — sometimes nicknamed "the Cathedral of St James" — is a Georgian masterpiece consecrated in 1782 whose 1957-earthquake-damaged clock tower remains a Mo'Bay landmark ([Jamaica Gleaner, 24 Jan 2017](https://jamaica-gleaner.com/article/western-focus/20170124/historical-sites-montego-bay)). In 2022 its 1890 silver-piped 18-foot mechanical organ — valued at US$500,000 — entered a US$200,000 restoration by German organ-builder Friedemann Buschbeck under Archdeacon Justin Nembhard ([Gleaner, 21 Nov 2022](http://past.jamaica-gleaner.com/article/lead-stories/20221121/century-old-pipe-organ-getting-new-lease-life)). The church was the consecration venue for Bishop Leon Golding (2012) and the seat to which Canon Collin Reid was elected in April 2026 ([Gleaner, 11 Apr 2026](https://jamaica-gleaner.com/article/news/20260411/canon-collin-reid-anglican-bishop-elect-montego-bay)).

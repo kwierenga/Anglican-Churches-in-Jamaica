@@ -19,3 +19,7 @@ Hurricane Melissa made landfall near New Hope in Westmoreland on 28 October 2025
 - 1891 Handbook of Jamaica — Anglican clergy (no record of Ramble, dating its foundation post-1891): [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/hclergy1.htm)
 - Mapcarta — Ramble, Hanover Parish, Jamaica: [mapcarta.com](https://mapcarta.com/19323498)
 - National Library of Jamaica — The History of Hanover: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Hanover.pdf)
+
+## Recent coverage
+
+A century after its construction, Ramble Anglican Church — already a popular roadside photo-stop for visitors to west Hanover — was reduced to ruin by Hurricane Melissa in October 2025, and is listed among the heritage landmarks "all-but-completely damaged" by the storm ([Jamaica Gleaner, 7 Nov 2025](https://jamaica-gleaner.com/article/lead-stories/20251107/historic-landmarks-out-west-among-melissas-many-victims)).

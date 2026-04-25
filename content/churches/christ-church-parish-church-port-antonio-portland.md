@@ -32,3 +32,7 @@ Christ Church is one of the few Jamaican Anglican churches whose architect is do
 - Wikipedia — Lorenzo Dow Baker: [en.wikipedia.org/wiki/Lorenzo_Dow_Baker](https://en.wikipedia.org/wiki/Lorenzo_Dow_Baker)
 - Wikipedia — Nanny of the Maroons: [en.wikipedia.org/wiki/Nanny_of_the_Maroons](https://en.wikipedia.org/wiki/Nanny_of_the_Maroons)
 - Wikipedia — Moore Town, Jamaica: [en.wikipedia.org/wiki/Moore_Town,_Jamaica](https://en.wikipedia.org/wiki/Moore_Town,_Jamaica)
+
+## Recent coverage
+
+In April 2015 Christ Church marked its 175th anniversary; the [Jamaica Gleaner](http://past.jamaica-gleaner.com/article/news/20150704/christ-church-celebrates-175-years) reported that the 1840 hand-made-brick building, with its chiming clock and bell still ringing across Port Antonio, retained about 120 active members and remained "arguably the oldest place of worship and one of the most significant buildings in the parish."

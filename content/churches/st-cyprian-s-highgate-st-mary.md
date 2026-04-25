@@ -18,3 +18,7 @@ St. Cyprian's is identified in Satchell's *Parish History of St. Mary* as one of
 ## References
 - JN Foundation / Veront M. Satchell — *Parish History of St. Mary* (covers Port Maria, Annotto Bay, Metcalfe parish 1841–1867, Scott's Hall Maroons, Rio Nuevo battle, and the four principal Anglican churches of the parish): [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
 - Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Mary Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+
+## Recent coverage
+
+St Cyprian's has long been at the centre of civic life in Highgate; the [Jamaica Gleaner's 2 Feb 2016 obituary](https://jamaica-gleaner.com/article/news/20160202/footprints-selvin-graham-philanthropist-gone-serve-elsewhere) of parishioner Selvin Graham records the entrepreneur and philanthropist's lifelong involvement in the church and the youth and school programmes it sponsored.

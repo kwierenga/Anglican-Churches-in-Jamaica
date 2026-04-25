@@ -36,3 +36,7 @@ The parish was originally "St. Thomas in the East" (to distinguish it from St. T
 - UK National Archives, Kew — Colonial Office correspondence for Jamaica (CO 137), including **CO 137/395, Governor Edward John Eyre to Edward Cardwell (Secretary of State for the Colonies), 20 November 1865**, the official despatch reporting the suppression of the Morant Bay Rebellion: [discovery.nationalarchives.gov.uk — CO 137](https://discovery.nationalarchives.gov.uk/details/r/C4328)
 - National Library of Jamaica — The History of St. Thomas (Stokes settlers, Krus lighthouse, 1965 National Hero ceremony): [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.Thomas%20Final.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. Thomas: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+
+## Recent coverage
+
+Christ Church's Mothers' Union, founded in 1955, runs a thrift shop, hospital visiting team and a third-Friday hot-meal programme that serves about 25 street people each month from the church hall — a sustained outreach that was profiled in the [Jamaica Gleaner, 3 Oct 2015](https://jamaica-gleaner.com/article/news/20151003/no-idlers-mothers-union-making-strides-st-thomas).

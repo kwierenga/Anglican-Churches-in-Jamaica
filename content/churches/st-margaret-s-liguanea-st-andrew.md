@@ -31,3 +31,7 @@ The dedication to St. Margaret of Antioch — a young Christian virgin martyred 
 - Jamaica National Heritage Trust — Cherry Garden Great House (jnht.com)
 - Philip Allsworth-Jones — Taino sites on the Liguanea Plain (archaeological surveys)
 - Jamaica Information Service — Parish Profile: St. Andrew (jis.gov.jm)
+
+## Recent coverage
+
+St Margaret's Hall hosts the STEP (School of Therapy Education and Parenting) Centre, a special-needs school of around 22 pupils that is partner-funded by the Digicel Foundation ([Jamaica Gleaner, 22 Dec 2011](https://jamaica-gleaner.com/gleaner/20111222/news/news93.html)).

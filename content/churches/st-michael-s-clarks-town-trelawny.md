@@ -27,3 +27,7 @@ The stone church of 1838 and the free village of 1843 together form an unusually
 - 1891 Handbook of Jamaica — Anglican clergy (Rev. C. Melville, Swanswick, 210 members): [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/hclergy1.htm)
 - Diocese of Jamaica and the Cayman Islands — St. Michael's Church, Swanswick, Clarks Town: [anglicandioceseja.org](https://www.anglicandioceseja.org/?attachment_id=870)
 - National Library of Jamaica — The History of Trelawny: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Trelawny%20Final.pdf)
+
+## Recent coverage
+
+St Michael's was built about 1843 on land formerly part of G.M. Clarke's Swanswick Estate as a post-Emancipation parish church for the new town ([Jamaica Gleaner, 18 Aug 2012](https://jamaica-gleaner.com/gleaner/20120818/western/western2.html)). After Hurricane Melissa it was identified by the Jamaica National Heritage Trust as one of the most severely-damaged heritage sites, with large sections of the roof torn away and severe structural damage ([Gleaner, 16 Nov 2025](https://jamaica-gleaner.com/article/news/20251116/past-ruins)).

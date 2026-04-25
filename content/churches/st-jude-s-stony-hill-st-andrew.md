@@ -19,3 +19,7 @@ St. Jude is the patron saint of lost causes and desperate situations, and church
 - National Library of Jamaica — The History of Kingston and St. Andrew (Liguanea origin, 1664 parish founding, 1923 KSA amalgamation, Half Way Tree Parish Church): [nlj.gov.jm](https://nlj.gov.jm/)
 - Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Andrew Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
 - Jamaica National Heritage Trust — St. Andrew heritage sites: [jnht.com/st_andrew.php](http://www.jnht.com/st_andrew.php)
+
+## Recent coverage
+
+St Jude's musical life was shaped for more than three decades by organist Lloyd Stephenson Hall, who began his service in 1978 and was given a remarkable musical send-off when he died at 87 in December 2010 ([Jamaica Gleaner, 1 Dec 2010](https://jamaica-gleaner.com/gleaner/20101201/ent/ent1.html)). The parish was earlier traumatised by the November 2006 fatal stabbing of its priest, Fr Richard Johnson, at the rectory ([Gleaner, 27 Sep 2009](https://old.jamaica-gleaner.com/gleaner/20090927/news/news1.html)).

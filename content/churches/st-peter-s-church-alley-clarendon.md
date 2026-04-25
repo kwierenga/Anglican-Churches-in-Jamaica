@@ -28,3 +28,7 @@ St. Peter's Alley is the third-oldest Anglican church in Jamaica, founded in 167
 - Diocese of Jamaica and the Cayman Islands — Clarendon deanery (anglicandioceseja.org)
 - Jamaica National Heritage Trust — St. Peter's Alley (jnht.com)
 - National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)
+
+## Recent coverage
+
+Originally built in 1671 as the parish church of the now-defunct parish of Vere, St Peter's "Alley" is the third-oldest Anglican church in Jamaica; the present red-brick and stone-quoin building was completed in 1735 after the 1722 hurricane partly destroyed its predecessor ([Jamaica Gleaner, 12 Oct 2013](https://jamaica-gleaner.com/gleaner/20131012/lead/lead5.html)). Its three-quarter-ton London-cast bell was installed in 1875 and its pipe organ — restored in 1910 — is described as one of the oldest in the Caribbean.

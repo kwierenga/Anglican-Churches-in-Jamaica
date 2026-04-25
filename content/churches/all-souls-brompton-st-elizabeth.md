@@ -35,3 +35,7 @@ The dedication to All Souls — the Commemoration of All the Faithful Departed o
 - IFRC — Hurricane Melissa damage reports, Brompton survivor account (2025)
 - National Library of Jamaica — The History of St. Elizabeth: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Elizabeth.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. Elizabeth: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+
+## Recent coverage
+
+During the COVID-19 emergency in May 2020 All Souls' served as a distribution hub for relief packages and PPE for residents of Brompton, with Director's Warden Nicola Morris co-ordinating the parish's outreach ([Jamaica Gleaner, 21 May 2020](https://jamaica-gleaner.com/article/news/20200521/m-m-jamaica-aids-covid-19-relief-efforts)).

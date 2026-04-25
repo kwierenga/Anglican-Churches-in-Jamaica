@@ -31,3 +31,7 @@ St. Ann is the birthplace of Marcus Garvey — the only Jamaican parish capital 
 - Wikipedia — Sevilla la Nueva (Jamaica): [en.wikipedia.org/wiki/Sevilla_la_Nueva_(Jamaica)](https://en.wikipedia.org/wiki/Sevilla_la_Nueva_(Jamaica))
 - Jamaica Information Service — Marcus Mosiah Garvey: [jis.gov.jm/information/heroes/marcus-mosiah-garvey](https://jis.gov.jm/information/heroes/marcus-mosiah-garvey/)
 - Jamaica National Heritage Trust — 32 Market Street (Marcus Garvey birthplace): [jnht.com/site_32_market_street.php](http://www.jnht.com/site_32_market_street.php)
+
+## Recent coverage
+
+St Ann Parish Church features prominently in the [Jamaica Gleaner's heritage survey of St Ann's Bay (1 May 2014)](https://jamaica-gleaner.com/gleaner/20140501/news/news51.html), where its graveyard is highlighted as one of the most important early-plantation memorial sites in the parish.

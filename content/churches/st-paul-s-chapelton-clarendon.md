@@ -62,3 +62,7 @@ The dedication to St. Paul -- the Apostle to the Gentiles, who carried the Gospe
 - Diocese of Jamaica and the Cayman Islands -- Clarendon deanery, Synod Journal 2015 (anglicandioceseja.org)
 - Cundall, Frank -- *Historic Jamaica* (1915) -- Chapelton as chapel of ease
 - National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)
+
+## Recent coverage
+
+Built in 1666 as a Chapel of Ease to the long-vanished Cross Parish Church, St Paul's, Chapelton, was for many years the largest place of worship in upper Clarendon and is described in the [Jamaica Gleaner of 26 Jul 2014](https://jamaica-gleaner.com/gleaner/20140726/news/news3.html) as "the second oldest Anglican church in Jamaica" after the Spanish Town cathedral. The parish marked its 350th anniversary in January 2016 ([Gleaner, 30 Jan 2016](https://jamaica-gleaner.com/article/news/20160130/st-pauls-anglican-church-celebrates-350-years)).
