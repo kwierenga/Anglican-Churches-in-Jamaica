@@ -335,6 +335,10 @@ const IMAGE_MAP = [
 
   // === auto-appended batch (2026-04 #3) ===
   { file: "data/new-images/St. Elizabeth parish/Southfield/St_Mary_1.jpg", church_id: "st-mary-s-southfield-st-elizabeth", caption: "St. Mary's, Southfield", order: "1" },
+
+  // === auto-appended batch (2026-04 #4 hopewell) ===
+  { file: "data/new-images/Westmoreland parish/Hopewell/St_Mark_s_1.jpg", church_id: "st-mark-s-hopewell-westmoreland", caption: "St. Mark's, Hopewell", order: "1" },
+  { file: "data/new-images/Westmoreland parish/Hopewell/St_Mark_s_2.jpg", church_id: "st-mark-s-hopewell-westmoreland", caption: "St. Mark's, Hopewell", order: "2" },
 ];
 
 async function main() {
