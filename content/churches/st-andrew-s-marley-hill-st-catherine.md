@@ -16,5 +16,7 @@ Marley Hill has been served within the St. Catherine deanery under shared clergy
 Marley Hill's name, like many Jamaican estate-derived community names, preserves a connection to the English county of Somerset. The transplanting of English county and landscape names to Jamaican estates was a common practice among colonial proprietors who named their properties after their home regions.
 
 ## References
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
+- Jamaican Ancestral Records — St. Catherine parish index: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/st-catherine-2/)
+- 1891 Handbook of Jamaica — Anglican clergy listing: [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/hclergy1.htm)
 - National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
-- JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

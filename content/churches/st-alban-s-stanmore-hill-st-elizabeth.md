@@ -6,8 +6,11 @@ St. Alban's Anglican Church is located at Stanmore Hill in St. Elizabeth parish.
 No verified historical information is currently available for this church.
 
 ## References
+- Diocese of Jamaica — St. Alban's Church Stanmore Hill (image): [anglicandioceseja.org](https://www.anglicandioceseja.org/?attachment_id=875)
+- Diocese of Jamaica & The Cayman Islands — Montego Bay Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)
+- Jamaican Ancestral Records — St. Elizabeth churches index: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/st-elizabeth-2/)
+- Jamaica Gleaner — "Malvern churches get $26m donation" (19 Feb 2026): [jamaica-gleaner.com](https://jamaica-gleaner.com/article/news/20260219/malvern-churches-get-26m-donation-late-educators-trust)
 - National Library of Jamaica — The History of St. Elizabeth: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Elizabeth.pdf)
-- JN Foundation / Jenny Jemmott — Parish History of St. Elizabeth: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
 
 ## Recent coverage
 

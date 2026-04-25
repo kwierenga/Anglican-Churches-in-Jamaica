@@ -16,8 +16,12 @@ Holy Trinity Westgate has been served within the Montego Bay Region clergy clust
 Westgate’s position on the western approach to Montego Bay places it at the interface between the city’s urban core and the communities stretching westward toward Hanover. The north-west coast of Jamaica, of which Montego Bay is the focal point, has experienced multiple major hurricane impacts. Hurricane Gilbert (1988) struck the north-west coast with extreme severity, causing extensive damage across Montego Bay and the surrounding area. Hurricane Ivan (2004) again affected the region. Hurricane Melissa (October 2025) made direct landfall in western Jamaica; the western corridor of Montego Bay, including Westgate, experienced damaging winds and coastal conditions, and Holy Trinity’s congregation was in the storm’s impact zone.
 
 ## References
+- Diocese of Jamaica & The Cayman Islands — Holy Trinity, Westgate (event-venue page): [anglicandioceseja.org](https://www.anglicandioceseja.org/?event-venue=holy-trinity-church-westgate)
+- Diocese of Jamaica & The Cayman Islands — Montego Bay Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)
+- Holy Trinity Anglican Church Westgate — Facebook page: [facebook.com](https://www.facebook.com/pages/Holy%20Trinity%20Anglican%20Church%20Westgate,%20Montego%20Bay%20Jamaica/241605239377123/)
+- National Library of Jamaica Digital Collection — "The Church, Montego Bay": [nljdigital.nlj.gov.jm](https://nljdigital.nlj.gov.jm/items/show/8345)
+- Jamaica Gleaner — "Garth Minott elected Anglican Bishop of Kingston" (20 Apr 2022): [jamaica-gleaner.com](http://past.jamaica-gleaner.com/article/news/20220420/garth-minott-elected-anglican-bishop-kingston)
 - National Library of Jamaica — The History of St. James: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20James.pdf)
-- JN Foundation / Jenny Jemmott — Parish History of St. James: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
 
 ## Recent coverage
 

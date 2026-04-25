@@ -16,4 +16,8 @@ Porus has been served within the Manchester deanery under shared clergy arrangem
 Porus is one of the commercial crossroads of central Jamaica, where the road from Kingston and the coast meets the road up to Mandeville and the highlands. The market at Porus serves both Manchester and Clarendon communities, giving the town a mixed parish identity. The two St. Augustine's entries — one in Clarendon, one in Manchester — reflect the same border community's presence in both administrative parishes.
 
 ## References
+- Jamaican Ancestral Records — St. Augustine's Anglican, Porus, Manchester: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/manchester-2/st-augustines-anglican/)
+- Jamaica Observer — "The story of Manchester part III: Porus" (13 Jul 2014): [jamaicaobserver.com](https://www.jamaicaobserver.com/2014/07/13/the-story-of-manchester-part-iii-porus/)
+- Jamaica Gleaner — "Porus High celebrates 50 years" (23 Mar 2013): [jamaica-gleaner.com](https://jamaica-gleaner.com/gleaner/20130323/news/news9.html)
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
 - National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

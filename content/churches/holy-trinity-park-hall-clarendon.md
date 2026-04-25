@@ -16,4 +16,7 @@ Park Hall has been served within the Clarendon deanery under shared clergy arran
 Park Hall's name preserves the memory of a colonial estate, the 'hall' designation being common in Jamaican estate naming (e.g. Harewood Hall, Somerset Hall). The estate would have had its 'park' — an enclosed area for cattle or horses — giving the community a name that combines two common colonial estate landscape features.
 
 ## References
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory (Clarendon Deanery): [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
+- Jamaican Ancestral Records — Clarendon parish index: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/clarendon-2/)
+- 1891 Handbook of Jamaica — Anglican clergy listing: [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/hclergy1.htm)
 - National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

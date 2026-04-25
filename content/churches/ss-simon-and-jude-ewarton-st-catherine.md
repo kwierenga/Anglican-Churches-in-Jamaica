@@ -16,5 +16,6 @@ Ewarton has been served within the St. Catherine deanery. The church's small mem
 The joint dedication to Simon and Jude is one of the more unusual apostolic pairings in Jamaica's Anglican network. Both apostles are relatively obscure in the New Testament — Simon the Zealot is distinguished from Simon Peter only by his political designation, and Jude Thaddaeus is the subject of very few Biblical references. Their joint feast day (28 October) is one of the lesser-observed apostolic commemorations. The reviewer's personal testimony about the church's formative role in his moral development — 'I owe my grandaunt, Mrs Hopian Cato who is resting peacefully behind the church for all these values' — is a vivid human document of the church's community impact.
 
 ## References
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
+- Jamaican Ancestral Records — SS Simon & Jude's, Ewarton: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/st-catherine-2/st-simon-st-judes-ewarton-st-catherine/)
 - National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
-- JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

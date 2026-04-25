@@ -16,4 +16,8 @@ Porous has been served within the Clarendon deanery under shared clergy arrangem
 Porus is one of the larger interior market towns of central Jamaica, serving as a hub for the hill farming communities of northern Clarendon and southern Manchester. The town sits near the boundary of the two parishes and has connections to both.
 
 ## References
+- Jamaican Ancestral Records — St. Augustine's Anglican, Porus, Manchester: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/manchester-2/st-augustines-anglican/) — note: Porus/Porous straddles the Manchester-Clarendon boundary; the diocese lists St. Augustine's under the Manchester deanery and the data integrity of two separate Clarendon and Manchester rows is under review.
+- Jamaica Observer — "The story of Manchester part III: Porus" (13 Jul 2014): [jamaicaobserver.com](https://www.jamaicaobserver.com/2014/07/13/the-story-of-manchester-part-iii-porus/)
+- Jamaica Gleaner — "Porus High celebrates 50 years" (23 Mar 2013): [jamaica-gleaner.com](https://jamaica-gleaner.com/gleaner/20130323/news/news9.html)
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
 - National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)
