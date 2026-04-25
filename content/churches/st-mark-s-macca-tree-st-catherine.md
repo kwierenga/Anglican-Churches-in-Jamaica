@@ -10,11 +10,13 @@ Macca Tree sits in the interior of St. Catherine, in the hill country of the nor
 St. Mark's is a modest masonry chapel of the kind erected by the Anglican Diocese across rural St. Catherine in the late 19th and early 20th centuries. The structure is functional rather than ornate — a simple rectangular nave, a modest entrance, and a small churchyard — suited to a rural congregation of modest means. Set in the rural interior of St. Catherine. The interior position offers some shelter from coastal surge while remaining exposed to wind and heavy rainfall during major storm events.
 
 ## Clergy
-Macca Tree has been served within the St. Catherine deanery under shared clergy arrangements.
+St. Mark's Macca Tree is administered as a mission of the St. George's Bartons cure in St. Catherine. The cure rectory is at Bartons P.O., St. Catherine (telephone 602-1136).
 
 ## Notable Facts
 The name Macca Tree is one of many Jamaican community names that describe the local natural environment — 'macca' refers to thorny plants including the prickly pear cactus and various native shrubs with spines. Such botanical community names are found across Jamaica's interior parishes, preserving a vernacular naming tradition rooted in the direct observation of the landscape.
 
 ## References
+- Diocese of Jamaica & The Cayman Islands — Kingston Region directory (mission of St. George's Bartons cure): [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=633)
+- InJamaica — Macca Tree village profile: [injamaica.com](https://www.injamaica.com/blogs/view/925)
+- Jamaican Ancestral Records — St. Catherine parish index: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/st-catherine-2/)
 - National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
-- JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

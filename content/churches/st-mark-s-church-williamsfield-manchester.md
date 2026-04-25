@@ -16,4 +16,7 @@ Williamsfield has been served within the Manchester deanery under shared clergy 
 The Manchester landscape has been significantly shaped by bauxite mining, the red-soil ore that Jamaica exports for alumina and aluminium production. Manchester is one of the key bauxite parishes, and the industry's presence in the landscape around Williamsfield has defined the economic character of this part of the parish for several decades.
 
 ## References
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
+- Jamaica National Heritage Trust — St. Mark's Anglican Church, Mandeville (parish-wide context): [jnht.com](http://www.jnht.com/site_st_marks_anglican_church.php)
+- Jamaican Ancestral Records — Manchester parish index: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/manchester-2/)
 - National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

@@ -10,10 +10,12 @@ Sanguinetti sits in the north-western interior of Clarendon, in the upland farmi
 St. Luke's is a modest masonry chapel of the kind erected by the Anglican Diocese across the upland interior of Clarendon in the late 19th and early 20th centuries. The building is functional in character, suited to a small rural congregation in a remote hill community. The steep terrain of the Sanguinetti area and its elevation create wind exposure during storm passages and can make road access difficult in heavy rain.
 
 ## Clergy
-Sanguinetti has been served within the Clarendon deanery under shared clergy arrangements. The remote location means the church depends substantially on lay leaders.
+St. Luke's Sanguinetti is administered as a mission of the St. Bartholomew's Frankfield cure (currently vacant), with the cure rectory at Frankfield P.O., Clarendon (telephone 904-4565). The remote location means the church depends substantially on lay leaders.
 
 ## Notable Facts
 Sanguinetti's Italian-origin name is one of the more unusual community names in Jamaica. Jamaica has several communities with Italian or Sephardic Jewish names reflecting the diverse origins of colonial-era proprietors — communities like Enfield, Friendship, and others named after their owners' homelands or surnames. Sanguinetti stands out as one of the most distinctively non-English names in the interior parish landscape.
 
 ## References
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory (mission of Frankfield cure): [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
+- Jamaican Ancestral Records — St. Luke's Anglican, Sanguinetti: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/clarendon-2/st-lukes-anglican-sanguinetti-clarendon/)
 - National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)
