@@ -93,7 +93,7 @@ st-thomas-manchioneal-portland,St. Thomas',Portland,church,active,18.03624,-76.2
 st-paul-s-moore-town-portland,St. Paul's,Portland,church,active,18.07781,-76.42801,Moore Town
 st-peter-s-chapel-ruin-nonsuch-portland,St. Peter's Chapel (Ruin),Portland,chapel,ruin,18.14692,-76.37788,Nonsuch
 st-paul-s-nonsuch-portland,St. Paul's,Portland,church,active,18.15336,-76.41910,Nonsuch
-st-dunstan-s-orange-bay-portland,St. Dunstan's,Portland,church,active,18.22670,-76.61114,Orange Bay
+st-dunstan-s-orange-bay-portland,St. Dunstan's,Portland,church,active,18.227028,-76.612250,Orange Bay
 christ-church-parish-church-port-antonio-portland,Christ Church (Parish Church),Portland,parish_church,active,18.17700,-76.44979,Port Antonio
 st-mary-s-rural-hill-portland,St. Mary's,Portland,church,active,18.06340,-76.32340,Rural Hill
 st-christopher-s-sherwood-forest-portland,St. Christopher's,Portland,church,active,18.14542,-76.37665,Sherwood Forest
@@ -215,7 +215,8 @@ st-jude-s-slipe-st-elizabeth,St. Jude's,St. Elizabeth,mission,active,18.055170,-
 st-stephen-s-nain-st-elizabeth,St. Stephen's,St. Elizabeth,church,active,17.968767,-77.600695,Nain
 st-boniface-pondside-st-elizabeth,St. Boniface,St. Elizabeth,church,active,17.978154,-77.804034,Pondside
 st-james-mount-hermon-st-elizabeth,St. James',St. Elizabeth,church,ruin,18.000428,-77.645434,Mount Hermon
-st-mark-s-southfield-st-elizabeth,St. Mark's,St. Elizabeth,church,active,17.881703,-77.666302,Southfield
+st-mark-s-mayfield-st-elizabeth,St. Mark's,St. Elizabeth,church,active,17.881703,-77.666302,Mayfield
+st-mary-s-southfield-st-elizabeth,St. Mary's,St. Elizabeth,church,active,17.887778,-77.666944,Southfield
 st-alban-s-stanmore-hill-st-elizabeth,St Alban's,St. Elizabeth,church,active,18.000694,-77.722518,Stanmore Hill
 st-paul-s-tryall-st-elizabeth,St. Paul's,St. Elizabeth,church,active,17.887298,-77.630392,Tryall
 holy-trinity-whitehall-st-elizabeth,Holy Trinity,St. Elizabeth,church,active,18.118408,-77.854383,Whitehall
@@ -235,6 +236,7 @@ holy-cross-mount-salem-st-james,Holy Cross,St. James,church,active,18.4412,-77.9
 st-james-parish-church-sam-sharpe-square-st-james,St. James Parish Church,St. James,parish_church,active,18.471942,-77.921647,Sam Sharpe Square
 st-luke-s-vaughnsfield-st-james,St. Luke's,St. James,church,active,18.3527,-77.82523,Vaughnsfield
 holy-trinity-westgate-st-james,Holy Trinity,St. James,church,active,18.462905,-77.913117,Westgate
+christ-church-adelphi-st-james,Christ Church,St. James,church,active,18.447645,-77.789607,Adelphi
 st-alban-s-albion-mountain-st-mary,St. Alban's,St. Mary,church,active,18.37188,-76.91507,Albion Mountain
 st-james-annotto-bay-st-mary,St. James',St. Mary,church,active,18.27338,-76.76337,Annotto Bay
 st-michael-s-belfield-st-mary,St. Michael's,St. Mary,church,active,18.26338,-76.83681,Belfield
