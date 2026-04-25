@@ -4,6 +4,7 @@ upload-proposal.md showing resolved and unresolved files."""
 import os
 import re
 import csv
+import hashlib
 from collections import defaultdict
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

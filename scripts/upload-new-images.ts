@@ -352,6 +352,14 @@ const IMAGE_MAP = [
 
   // === auto-appended batch (2026-04 #7 grange-hill) ===
   { file: "data/new-images/Westmoreland parish/GrangeHill/Holy_Trinity_2.jpg", church_id: "holy-trinity-grange-hill-westmoreland", caption: "Holy Trinity, Grange Hill", order: "5" },
+
+  // === auto-appended batch (2026-04 #8 melissa-articles) ===
+  { file: "data/new-images/St Elizabeth parish/Lacovia/St_Thomas_Gleaner_1.jpg", church_id: "st-thomas-lacovia-st-elizabeth", caption: "St. Thomas', Lacovia", order: "8" },
+  { file: "data/new-images/Trelawny parish/Clark_s_Town/Clark_s_Town_2.jpg", church_id: "st-michael-s-clarks-town-trelawny", caption: "St. Michael's, Clarks Town", order: "3" },
+  { file: "data/new-images/Trelawny parish/Clarks Town/St_Michael_s_Gleaner_1.jpg", church_id: "st-michael-s-clarks-town-trelawny", caption: "St. Michael's, Clarks Town", order: "4" },
+  { file: "data/new-images/Westmoreland parish/Petersfield/St_Peter_s_Anglican_2_post_Melissa.jpg", church_id: "st-peter-s-petersfield-westmoreland", caption: "St. Peter's, Petersfield", order: "4" },
+  { file: "data/new-images/Westmoreland parish/Petersfield/St_Peter_s_CNW_1.jpg", church_id: "st-peter-s-petersfield-westmoreland", caption: "St. Peter's, Petersfield", order: "5" },
+  { file: "data/new-images/Westmoreland parish/Petersfield/St_Peter_s_Gleaner_1.jpg", church_id: "st-peter-s-petersfield-westmoreland", caption: "St. Peter's, Petersfield", order: "6" },
 ];
 
 async function main() {
