@@ -16,5 +16,7 @@ Within the diocesan structure, St. Leonard’s is part of the Montego Bay Region
 The Blue Hole Estate is well-documented in historical records as a classic St. James sugar plantation, firmly placing the district within Jamaica's slavery-era economy. Its historical significance is heightened by its involvement in the Sam Sharpe Rebellion of 1831-32, directly linking the church's location to a pivotal event in the struggle for emancipation. Today, the area functions as a cluster of small farming and residential communities, with St. Leonard's serving as one of its key institutions alongside local schools.
 
 ## References
+- Diocese of Jamaica & The Cayman Islands — Montego Bay Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)
+- UCL Legacies of British Slavery — Blue Hole Estate, St. James (Rains B. Waite proprietor): [ucl.ac.uk/lbs](https://www.ucl.ac.uk/lbs/)
+- Jamaican Ancestral Records — St. James parish index: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/st-james-2/)
 - National Library of Jamaica — The History of St. James: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20James.pdf)
-- JN Foundation / Jenny Jemmott — Parish History of St. James: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

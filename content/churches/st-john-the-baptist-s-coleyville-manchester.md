@@ -16,4 +16,7 @@ Coleyville has been served within the Manchester deanery under shared clergy arr
 The feast of the Nativity of St. John the Baptist (24 June) is one of the oldest feasts in the Christian calendar, predating many apostolic feast days. It falls at the summer solstice — the longest day — which in the northern hemisphere has been a day of particular religious and cultural significance since ancient times. In Jamaica, 24 June falls in the early part of hurricane season. The dedication specifically to 'John the Baptist' rather than simply 'St. John' gives this church a more precise theological identity.
 
 ## References
+- Diocese of Jamaica & The Cayman Islands — "Synod Honours Retirees and Outstanding Church Organizations" (Coleyville Mothers' Union recognition): [anglicandioceseja.org](https://www.anglicandioceseja.org/?p=4207)
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
+- Jamaican Ancestral Records — Manchester parish index: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/manchester-2/)
 - National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

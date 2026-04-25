@@ -16,5 +16,9 @@ Sligoville has been served within the St. Catherine deanery. The church's connec
 Sligoville's status as Jamaica's first free village is one of the most significant facts in the social history of the post-Emancipation Caribbean. The Marquess of Sligo was an unusually progressive colonial governor who used his personal resources and position to facilitate the creation of the village. Sligoville became a model for subsequent free village development across Jamaica and is commemorated as a site of national heritage significance. The church here has served the descendants of Jamaica's first free community for nearly two centuries.
 
 ## References
+- Jamaica National Heritage Trust — Sligoville (national heritage site): [jnht.com](http://www.jnht.com/site_sligoville.php)
+- Jamaica Gleaner — "Sligoville: Jamaica's first free village" (16 Aug 2014): [jamaica-gleaner.com](https://jamaica-gleaner.com/article/lead-stories/20140816/sligoville-jamaicas-first-free-village-established-prepare)
+- Jamaica Information Service — Sligoville: Jamaica's First Free Village: [jis.gov.jm](https://jis.gov.jm/sligoville-jamaicas-first-free-village/)
+- Wikipedia — Sligoville: [en.wikipedia.org](https://en.wikipedia.org/wiki/Sligoville)
+- Diocese of Jamaica & The Cayman Islands — Kingston Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=633)
 - National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
-- JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

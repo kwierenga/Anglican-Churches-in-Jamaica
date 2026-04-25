@@ -16,5 +16,7 @@ Innswood/McCook's Pen has been served within the St. Catherine deanery under sha
 The combined place name Innswood/McCook's Pen reflects the proximity of two communities whose individual histories have become intertwined. McCook's Pen preserves a pen-farming designation that was common across Jamaica's agricultural landscape in the colonial era. The area is now also associated with industrial and residential development on the outskirts of the Greater Spanish Town area.
 
 ## References
+- Diocese of Jamaica & The Cayman Islands — Kingston Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=633)
+- 1845 Jamaica Almanac — St. Catherine proprietors (McCook's Pen entries): [jamaicanfamilysearch.com](http://www.jamaicanfamilysearch.com/Members/Al45cath.htm)
+- Jamaican Ancestral Records — St. Catherine parish index: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/st-catherine-2/)
 - National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
-- JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
