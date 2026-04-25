@@ -1,19 +1,20 @@
 # All Saints', Richmond Park
 **Clarendon** · Church · active
 
-All Saints' Anglican Church serves Richmond Park, a community in Clarendon parish. Richmond Park is a district in the interior of Clarendon, and the church has provided Anglican ministry here for several generations.
+All Saints' Anglican Church at Richmond Park is a mission station of the St. Gabriel's cure in May Pen, serving a residential district on the western fringe of the parish capital. The church is administered from the cure rectory at 10 Church Street, May Pen P.O.
 
 ## History
-Richmond Park sits in the interior of Clarendon. The Anglican Diocese established All Saints' to serve this community as part of its mission network. The church has served the local community through the post-Emancipation period.
+Richmond Park lies in the May Pen vicinity in the centre of Clarendon parish, with a name that — like many Jamaican communities — preserves the memory of a colonial estate with an English place-name. The Anglican Diocese established All Saints' as a mission station of St. Gabriel's, May Pen, to serve the residential growth of the area around the parish capital. The All Saints' dedication — commemorating the full company of saints on 1 November — is consistent with the late-nineteenth-century pattern of dedicating new mission churches to general categories of holiness rather than to single named patrons.
+
+The Jamaican Ancestral Records project has indexed inscribed memorials in the All Saints' Richmond Park churchyard.
 
 ## Architecture
-All Saints' is a modest masonry chapel of the kind erected by the Anglican Diocese across rural Clarendon in the late 19th and early 20th centuries. The structure is functional rather than ornate — a simple rectangular nave, a modest entrance, and a small churchyard — suited to a rural congregation of modest means. Set in the rural interior of Clarendon. The interior position offers some shelter from coastal surge while remaining exposed to wind and heavy rainfall during major storm events.
+All Saints' is a modest masonry chapel of the kind erected by the Anglican Diocese across rural Clarendon in the late nineteenth and early twentieth centuries: a simple rectangular nave, a modest entrance, and a small churchyard. The interior position offers some shelter from coastal storm surge while remaining exposed to wind and heavy rainfall during major storm events.
 
 ## Clergy
-Richmond Park has been served within the Clarendon deanery under shared clergy arrangements.
-
-## Notable Facts
-The All Saints' dedication — commemorating the full company of saints on 1 November — gives this community church a universal spiritual character. Richmond Park's name preserves the memory of a colonial estate with an English place-name, following the common pattern of Jamaican communities named after their originating estates.
+All Saints' Richmond Park has been served as a mission of the St. Gabriel's cure (May Pen). The cure rectory at 10 Church Street, May Pen P.O., is the contact address for both the cure church and its missions.
 
 ## References
-- National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
+- Jamaican Ancestral Records — All Saints' Anglican, Richmond Park: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/clarendon-2/all-saints-anglican-richmond-park-clarendon/)
+- Jamaican Ancestral Records — Clarendon parish index: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/clarendon-2/)

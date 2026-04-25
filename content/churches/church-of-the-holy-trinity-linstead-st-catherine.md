@@ -1,20 +1,21 @@
 # Church of the Holy Trinity, Linstead
 **St. Catherine** · Church · active
 
-The Church of the Holy Trinity provides a second Anglican worship point in Linstead, St. Catherine's interior market town, alongside St. John's also recorded here. Linstead is substantial enough to support two Anglican churches, and Holy Trinity serves its particular congregation within the town community. The Trinity dedication — Father, Son, and Holy Spirit — is one of the most traditional Anglican church names.
+The Church of the Holy Trinity provides one of the two Anglican worship points in Linstead — alongside St. John's — in St. Catherine's main interior market town, located on the road north from Spanish Town towards Ewarton. The Trinity dedication, naming Father, Son, and Holy Spirit, is one of the most traditional Anglican dedications and is shared with the diocese's cathedral on North Street, Kingston.
 
 ## History
-Linstead's size as the main interior town of St. Catherine created sufficient Anglican community to sustain two churches. Holy Trinity was established to supplement St. John's ministry, providing additional worship points for different parts of the town and its immediately surrounding communities.
+Linstead developed as the principal interior town of St. Catherine, anchored by its weekly market — celebrated in the Jamaican folk song "Linstead Market" — and by its position on the road from Spanish Town to the interior. The Anglican community in the town grew large enough to sustain a second worship point alongside St. John's, and the Diocese established Holy Trinity to serve that need. The Diocese of Jamaica's online directory image collection includes a photograph of the building (attachment_id 863).
+
+The 1891 Handbook of Jamaica clergy listing does not record a separate Holy Trinity Linstead, which is consistent with a foundation date in the later nineteenth or early twentieth century — the period in which Bishop Enos Nuttall pushed extensive rural and small-town church-planting across the island.
 
 ## Architecture
-Church of the Holy Trinity is a modest masonry chapel of the kind erected by the Anglican Diocese across rural St. Catherine in the late 19th and early 20th centuries. The structure is functional rather than ornate — a simple rectangular nave, a modest entrance, and a small churchyard — suited to a rural congregation of modest means. Set in the rural interior of St. Catherine. The interior position offers some shelter from coastal surge while remaining exposed to wind and heavy rainfall during major storm events.
+Holy Trinity is a modest masonry chapel of the kind erected by the Diocese for small-town Anglican congregations in late-nineteenth- and early-twentieth-century St. Catherine: a simple nave with a modest entrance and a small churchyard. Linstead's interior position offers some shelter from coastal storm surge while remaining exposed to wind and heavy rainfall during major storm events.
 
 ## Clergy
-Linstead's two Anglican churches have been served within the St. Catherine deanery, sharing circuit clergy between them.
-
-## Notable Facts
-The existence of two Anglican churches in Linstead reflects the town's importance as the commercial and administrative hub of interior St. Catherine. The interior market towns of Jamaica typically supported denser church networks than their population alone would suggest, reflecting the role of churches as community institutions in the weekly market-day gatherings of surrounding communities.
+Linstead's two Anglican churches share clergy and lay leadership within the St. Catherine portion of the Mandeville Region.
 
 ## References
-- National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
-- JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
+- Diocese of Jamaica — Holy Trinity Church, Linstead (image): [anglicandioceseja.org](https://www.anglicandioceseja.org/?attachment_id=863)
+- Linstead United Church — local town history: [linsteadunited.weebly.com](https://linsteadunited.weebly.com/history.html)
+- 1891 Handbook of Jamaica — Anglican clergy listing: [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Members/hclergy1.htm)

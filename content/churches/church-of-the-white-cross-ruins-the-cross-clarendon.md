@@ -16,4 +16,9 @@ The Cross served as the seat of the Clarendon parish rectorship from 1664 until 
 The name 'The Cross' — now applied to a small Clarendon community — derives directly from this church and from the Earl of Clarendon's family motto. The first Jamaica House of Assembly convened in this building in 1664, making it one of the oldest sites of representative government in the Americas. Edward Long's 1774 description is one of the most detailed contemporary accounts of any Jamaican Anglican interior: he praised its cedar woodwork but also noted that nearby 'stands the skeleton of the parsonage house, which at present is converted into a cooper's shop.' The Jamaica 55 Clarendon history notes it is 'now covered with dense undergrowth' approximately four miles from May Pen. The site has not been declared a national monument despite its unique constitutional significance as the venue for Jamaica's first House of Assembly elections.
 
 ## References
+- Celebrating Jamaica 55 — Clarendon parish history (Cross / Church of the White Cross): [jamaica55.gov.jm](https://jamaica55.gov.jm/clarendon/clarendon-history/)
+- Jamaica Information Service — Clarendon Heritage Sites: [jis.gov.jm](https://jis.gov.jm/information/jamaica-heritage-sites/clarendon-heritage-sites/)
+- Jamaica Gleaner letter — "Chapelton actually not Clarendon's first capital" (9 Jan 2012): [jamaica-gleaner.com](https://jamaica-gleaner.com/gleaner/20120109/letters/letters7.html)
+- Jamaica Global Online — Clarendon parish history: [jamaicaglobalonline.com](https://www.jamaicaglobalonline.com/clarendon-jamaica-parish-history/)
+- Edward Long, *The History of Jamaica* (London, 1774), book II, chapter on Clarendon parish — describes the cruciform brick church and its cedar interior.
 - National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)
