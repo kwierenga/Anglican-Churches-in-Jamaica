@@ -16,4 +16,8 @@ Mile Gully has been served within the Manchester deanery. St. Barnabas' provides
 St. Barnabas' feast day (11 June) is associated with long days — Barnabas Day was the longest day in the Julian calendar before the Gregorian reform. An old English proverb ran 'Barnaby bright, Barnaby bright, the longest day and the shortest night.' The lively worship described by reviewers at St. Barnabas' Mile Gully contrasts sharply with the eerie silence of the nearby Duppy Church ruins, giving Mile Gully a vivid dual character.
 
 ## References
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory (St. Barnabas' Mile Gully cure, currently vacant; rectory at Mile Gully P.O., tel 965-4527): [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
+- Jamaica Observer — "The story of Manchester Part 4: Mile Gully" (27 Jul 2014): [jamaicaobserver.com](https://www.jamaicaobserver.com/2014/07/27/the-story-of-manchester-part-4-mile-gully/)
+- Find a Grave — St. Barnabas Anglican Church cemetery, Mile Gully: [findagrave.com](https://www.findagrave.com/cemetery/2549206/saint-barnabas-anglican-church)
+- Jamaican Ancestral Records — Manchester parish index: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/manchester-2/)
 - National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

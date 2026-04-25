@@ -16,5 +16,7 @@ Mount Industry has been served within the St. Catherine deanery under shared cle
 St. Boniface's feast day (5 June) commemorates the English missionary who reorganised the Frankish church and extended Christianity into Germany and Frisia, eventually being martyred in 754. His dedication in a Jamaican interior farming community is one of the more historically evocative naming choices in the island's Anglican network — connecting Mount Industry to the 8th-century missionary tradition of the English church.
 
 ## References
+- Diocese of Jamaica & The Cayman Islands — "Who was St. Boniface" diocese article: [anglicandioceseja.org](https://www.anglicandioceseja.org/copy/who-was-st-boniface/)
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
+- Jamaican Ancestral Records — St. Catherine parish index: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/st-catherine-2/)
 - National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
-- JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

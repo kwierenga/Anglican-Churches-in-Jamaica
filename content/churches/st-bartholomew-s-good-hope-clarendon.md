@@ -16,4 +16,6 @@ The cure has been listed as Vacant in recent diocesan records. William Willis (S
 St. Bartholomew the Apostle is said to have been martyred by being flayed alive — making him the patron of tanners, leatherworkers, and butchers. Two churches bearing his name in the same Jamaican parish (Good Hope and Frankfield) are an unusual distinction. The feast of St. Bartholomew (24 August) falls during the heart of the Atlantic hurricane season.
 
 ## References
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory (mission of All Saints' Crofts Hill cure; rectory at Croft's Hill P.O., tel 966-7609): [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
+- Jamaican Ancestral Records — Clarendon parish index: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/clarendon-2/)
 - National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)
