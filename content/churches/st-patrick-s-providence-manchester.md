@@ -10,10 +10,12 @@ Providence sits in the interior of Manchester, in the farming landscape of the p
 St. Patrick's is a modest masonry chapel of the kind erected by the Anglican Diocese across rural Manchester in the late 19th and early 20th centuries. The structure is functional rather than ornate — a simple rectangular nave, a modest entrance, and a small churchyard — suited to a rural congregation of modest means. Set in the rural interior of Manchester. The interior position offers some shelter from coastal surge while remaining exposed to wind and heavy rainfall during major storm events.
 
 ## Clergy
-Providence has been served within the Manchester deanery under shared clergy arrangements.
+St. Patrick's Providence is administered as a mission of the St. David's Snowdon cure (Newport P.O., Manchester), which has recently been listed as **VACANT**.
 
 ## Notable Facts
 St. Patrick (17 March) is the patron saint of Ireland, though he was actually born in Roman Britain and taken to Ireland as a slave before escaping, returning as a bishop, and converting the Irish to Christianity in the 5th century. His dedication in a Jamaican interior community named Providence creates a resonance — both Patrick's life and the community name speak of survival, escape, and divine care. Irish involvement in the Jamaican colonial enterprise, though less prominent than Scottish or English, is reflected in several Jamaican church and place names.
 
 ## References
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory (mission of St. David's Snowdon cure): [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
+- Jamaican Ancestral Records — Manchester parish index: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/manchester-2/)
 - National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

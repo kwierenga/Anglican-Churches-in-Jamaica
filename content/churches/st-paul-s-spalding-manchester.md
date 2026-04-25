@@ -16,4 +16,6 @@ Spalding has been served within the Manchester deanery under shared clergy arran
 Spalding is one of the higher-elevation communities in Manchester's northern interior, in a landscape of cool-climate farming. The area around Spalding and Christiana is known for producing vegetables including Irish potatoes that thrive in the cooler highland temperatures. The apostle Paul's missionary journeys across the Mediterranean world have made his dedication a popular choice for churches in communities that see themselves as outposts of the faith in the wider landscape.
 
 ## References
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
+- Jamaican Ancestral Records — Manchester parish index: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/manchester-2/)
 - National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

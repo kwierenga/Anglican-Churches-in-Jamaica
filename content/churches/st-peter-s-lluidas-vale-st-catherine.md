@@ -16,5 +16,7 @@ Lluidas Vale has been served within the St. Catherine deanery under shared clerg
 Worthy Park Estate in Lluidas Vale is one of the oldest continuously operating sugar estates in the Caribbean, with a documented history stretching back to the 17th century. The estate has survived changes of ownership, the abolition of slavery, the decline of the sugar industry, and the modernisation of Caribbean agriculture to remain a producing sugar and rum operation. The Anglican church at Lluidas Vale has served the estate community through this entire history.
 
 ## References
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
+- Jamaican Ancestral Records — St. Peter's Anglican, Lluidas Vale: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/st-catherine-2/st-peters-anglican-lluidas-vale-st-catherine/)
+- Wikipedia — Lluidas Vale (Worthy Park Estate context): [en.wikipedia.org](https://en.wikipedia.org/wiki/Lluidas_Vale,_Jamaica)
 - National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
-- JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
