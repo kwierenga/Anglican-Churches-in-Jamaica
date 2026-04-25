@@ -16,4 +16,8 @@ The Albert Town cure covering Craighead is served from the Albert Town rectory.
 The 'craig' prefix in Craighead connects it to the many Scottish-named communities in Jamaica's interior — reflecting the significant Scottish presence in colonial plantation ownership, particularly in Manchester and Trelawny. St. James is the patron saint of pilgrims and is associated with the great pilgrimage route to Santiago de Compostela, a connection that has unexpected resonance in the remote hill communities of northern Jamaica.
 
 ## References
+- Diocese of Jamaica — St. James Church Craighead, Manchester (image): [anglicandioceseja.org](https://www.anglicandioceseja.org/?attachment_id=900)
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory (Albert Town cure): [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
+- Craighead Community Association — Tributes to W.C.F. Brown & Lilla Advira Brown: [craigheadmanchesterjamaicaalumniteachers.wordpress.com](https://craigheadmanchesterjamaicaalumniteachers.wordpress.com/)
+- Jamaican Ancestral Records — Manchester parish index: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/manchester-2/)
 - National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

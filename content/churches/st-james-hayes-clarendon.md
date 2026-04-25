@@ -16,4 +16,8 @@ Hayes has been served within the Clarendon deanery under shared clergy arrangeme
 Hayes is one of the communities closest to the Jamalco alumina processing facility on the south coast of Clarendon. The bauxite and alumina industry has been a defining feature of the Clarendon south coast landscape for several decades, and the communities here reflect the mix of agricultural and industrial employment that characterises this part of Jamaica.
 
 ## References
+- Diocese of Jamaica — St. James Church Hayes (image): [anglicandioceseja.org](https://www.anglicandioceseja.org/?attachment_id=902)
+- National Library of Jamaica Digital Collection — "The Anglican Church, Hayes, Clarendon" (photo): [nljdigital.nlj.gov.jm](https://nljdigital.nlj.gov.jm/items/show/12256)
+- Jamaican Ancestral Records — St. James' Anglican, Hayes: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/clarendon-2/st-james-anglican-hayes-clarendon/)
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
 - National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

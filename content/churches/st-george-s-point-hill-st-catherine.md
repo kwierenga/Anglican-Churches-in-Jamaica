@@ -16,5 +16,7 @@ Point Hill has been served within the St. Catherine deanery under shared clergy 
 Point Hill's position in the interior hill country of St. Catherine reflects the pattern of Anglican mission churches established across the hill communities of the interior parishes in the post-Emancipation period. St. George's feast day (23 April) is one of the most celebrated in the Anglican calendar across the English-speaking world.
 
 ## References
+- Diocese of Jamaica — St. George's Church Point Hill: [anglicandioceseja.org](https://www.anglicandioceseja.org/st-georges-church-point-hill-st-catherine/)
+- Jamaican Ancestral Records — St. George's Anglican, Point Hill: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/st-catherine-2/st-georges-anglican-point-hill-st-catherine/)
+- Diocese of Jamaica & The Cayman Islands — Kingston Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=633)
 - National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
-- JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

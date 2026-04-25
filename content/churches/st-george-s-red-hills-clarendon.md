@@ -1,19 +1,21 @@
-# St. Gregory's, Red Hills (Clarendon)
+# St. George's, Red Hills (Clarendon)
 **Clarendon** · Church · active
 
-St. Gregory's Anglican Church serves Red Hills in Clarendon parish, a community in the interior of the parish in the hill country north of May Pen. This Red Hills should not be confused with the Red Hills community in St. Andrew. The dedication to St. Gregory — Pope Gregory I, who sent Augustine of Canterbury to evangelise England in 597 AD — is one of the rarer dedications in Jamaica's Anglican network.
+St. George's Anglican Church serves Red Hills in Clarendon parish, a community in the interior of the parish in the hill country north of May Pen. This Red Hills should not be confused with the Red Hills community in St. Andrew. The dedication is to St. George — patron saint of England, whose 23 April feast day was a marker of English Anglican settlement across the colonial Caribbean.
+
+The church is a mission of the St. Bartholomew's Frankfield cure, with the cure rectory at Frankfield P.O., Clarendon (telephone 904-4565); the Frankfield cure was recently listed as **VACANT**. (Note: this church appears in some local references as "St. Gregory's"; the diocesan directory consistently records it as **St. George's**, which we have adopted following the diocesan listing.)
 
 ## History
-Red Hills in Clarendon sits in the interior farming landscape north of May Pen. The Anglican Diocese established St. Gregory's to serve this community. The dedication to St. George carries particular significance for the Anglican tradition — it was Gregory who commissioned the mission to England that ultimately created the English church from which Anglican Christianity descends.
+Red Hills in Clarendon sits in the interior farming landscape north of May Pen. The Anglican Diocese established St. George's as a mission of the St. Bartholomew's Frankfield cure to serve this community, alongside the other missions of the cure (St. Luke's Sanguinetti, St. Matthew's Aenon Town, Holy Trinity Park Hall, and Peckham). The St. George dedication is shared with several other Jamaican Anglican churches — from larger town churches like St. George's Buff Bay (Portland) to mission stations across the rural deaneries.
 
 ## Architecture
-St. Gregory's is a modest masonry chapel of the kind erected by the Anglican Diocese across rural Clarendon in the late 19th and early 20th centuries. The structure is functional rather than ornate — a simple rectangular nave, a modest entrance, and a small churchyard — suited to a rural congregation of modest means. Set in the hilly interior of Clarendon. The elevated terrain channels wind during storm passages and makes good drainage essential to the building's longevity.
+St. George's is a modest masonry chapel of the kind erected by the Anglican Diocese across rural Clarendon in the late nineteenth and early twentieth centuries: a simple rectangular nave, a modest entrance, and a small churchyard. The hilly interior position channels wind during storm passages and makes good drainage essential to the building's longevity.
 
 ## Clergy
-Red Hills Clarendon has been served within the Clarendon deanery under shared clergy arrangements.
-
-## Notable Facts
-St. Gregory's significance to the Anglican church is foundational — it was his decision to send Augustine of Canterbury with 40 monks to evangelise the Anglo-Saxons in 597 AD that created the English church. Gregory famously punned on the English people's name upon seeing Anglo-Saxon slaves in Rome: 'Non Angli, sed Angeli' ('Not Angles, but Angels'). A dedication to Gregory in a Jamaican Anglican church thus connects to the very origins of the English Christian tradition.
+St. George's Red Hills is served as a mission of the St. Bartholomew's Frankfield cure. The cure rectory in Frankfield (currently vacant) is the contact point for this church and the other missions of the cure.
 
 ## References
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
+- Jamaican Ancestral Records — Clarendon parish index: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/clarendon-2/)
+- 1900 Handbook of Jamaica — Clergy and Church listings (mention of A. P. Kennedy at Gilnock and St. Alban's): [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Samples/handbk9.htm)
 - National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

@@ -16,4 +16,7 @@ Kendal has been served within the Manchester deanery under shared clergy arrange
 The Kendal in England — now in Cumbria — was a significant wool-trading town in the Lake District, known for 'Kendal Green' cloth. The Jamaican Kendal's name preserves this connection across three centuries. Jamaica has multiple Kendals — there is also a Kendal in St. Ann and the Kendal train crash of 1957, which occurred in St. Ann and remains the deadliest rail accident in Jamaican history.
 
 ## References
+- Diocese of Jamaica — St. James Church Kendal Mandeville, Manchester (image): [anglicandioceseja.org](https://www.anglicandioceseja.org/?attachment_id=903)
+- Jamaican Ancestral Records — St. James' Anglican, Manchester: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/manchester-2/st-james-anglican-manchester/)
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
 - National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

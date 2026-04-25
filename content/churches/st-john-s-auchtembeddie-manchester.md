@@ -16,4 +16,7 @@ Auchtembeddie has been served within the Manchester deanery under shared clergy 
 Auchtembeddie is one of the most distinctively Scottish place names in Jamaica. Scotland was disproportionately represented among Jamaica's colonial proprietors, overseers, and professional class relative to its population — a fact that has left a permanent mark on Jamaican place names, surnames, and cultural practices. The name Auchtembeddie in the remote hills of Manchester connects this small community to the Highlands and Lowlands of Scotland across three centuries of history.
 
 ## References
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
+- Jamaican Ancestral Records — Manchester parish index: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/manchester-2/)
+- 1900 Handbook of Jamaica — Clergy and Church listings: [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Samples/handbk9.htm)
 - National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)
