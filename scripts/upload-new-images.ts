@@ -339,6 +339,19 @@ const IMAGE_MAP = [
   // === auto-appended batch (2026-04 #4 hopewell) ===
   { file: "data/new-images/Westmoreland parish/Hopewell/St_Mark_s_1.jpg", church_id: "st-mark-s-hopewell-westmoreland", caption: "St. Mark's, Hopewell", order: "1" },
   { file: "data/new-images/Westmoreland parish/Hopewell/St_Mark_s_2.jpg", church_id: "st-mark-s-hopewell-westmoreland", caption: "St. Mark's, Hopewell", order: "2" },
+
+  // === auto-appended batch (2026-04 #5 kew-georges) ===
+  { file: "data/new-images/Westmoreland parish/George’s Plain/St_Barnabas_1.jpg", church_id: "st-barnabas-george-s-plain-westmoreland", caption: "St. Barnabas', George's Plain", order: "2" },
+  { file: "data/new-images/Westmoreland parish/Kew Park/St_Michael_s_and_All_Angels_1.jpg", church_id: "st-michael-s-kew-park-westmoreland", caption: "St. Michael's, Kew Park", order: "1" },
+  { file: "data/new-images/Westmoreland parish/Kew Park/St_Michael_s_and_All_Angels_2.jpg", church_id: "st-michael-s-kew-park-westmoreland", caption: "St. Michael's, Kew Park", order: "2" },
+  { file: "data/new-images/Westmoreland parish/Kew Park/St_Michael_s_and_All_Angels_3.jpg", church_id: "st-michael-s-kew-park-westmoreland", caption: "St. Michael's, Kew Park", order: "3" },
+  { file: "data/new-images/Westmoreland parish/Kew Park/St_Michael_s_and_All_Angels_4.jpg", church_id: "st-michael-s-kew-park-westmoreland", caption: "St. Michael's, Kew Park", order: "4" },
+
+  // === auto-appended batch (2026-04 #6 petersfield) ===
+  { file: "data/new-images/Westmoreland parish/Petersfield/St_Peter_s_Anglican_1.jpg", church_id: "st-peter-s-petersfield-westmoreland", caption: "St. Peter's, Petersfield", order: "3" },
+
+  // === auto-appended batch (2026-04 #7 grange-hill) ===
+  { file: "data/new-images/Westmoreland parish/GrangeHill/Holy_Trinity_2.jpg", church_id: "holy-trinity-grange-hill-westmoreland", caption: "Holy Trinity, Grange Hill", order: "5" },
 ];
 
 async function main() {
