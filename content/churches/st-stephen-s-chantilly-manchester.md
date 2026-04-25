@@ -16,4 +16,6 @@ The Porus cure covering Chantilly, St. Augustine's Porus, and St. James' Toll Ga
 Chantilly is a French place name — one of the more unusual community names in Manchester. It most likely commemorates the French town of Chantilly, famous for its château and horse racing, possibly named by a French Huguenot landowner. French Huguenot refugees settled in Jamaica from the late 17th century after the revocation of the Edict of Nantes (1685) and their surnames and occasionally place names survive in the Jamaican landscape.
 
 ## References
+- Jamaican Ancestral Records — St. Stephen's Anglican, Chantilly, Manchester: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/manchester-2/st-stephens-anglican-chantilly-manchester/)
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory (Porus cure circuit): [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
 - National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

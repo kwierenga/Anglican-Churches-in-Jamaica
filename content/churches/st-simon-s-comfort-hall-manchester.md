@@ -16,4 +16,7 @@ Comfort Hall has been served within the Manchester deanery under shared clergy a
 Comfort Hall's name is one of the more aspirationally named communities in Jamaica — expressing the hope of ease and peace after the hardships of plantation life or post-Emancipation settlement. The cool, quiet character of the community described by reviewers suggests the name has been borne out in the community's character. Simon the Zealot, to whom the church is dedicated, is one of the most obscure apostles — distinguished from Simon Peter only by his political designation.
 
 ## References
+- Lonely Planet — St. Simon's Anglican Church, Comfort Hall (6 km NW of Mile Gully): [lonelyplanet.com](https://www.lonelyplanet.com/jamaica/southern-jamaica/mile-gully-and-around/attractions/st-simon-s-anglican-church/a/poi-sig/1562255/358103)
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory (mission of St. Barnabas' Mile Gully cure): [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
+- Jamaican Ancestral Records — Manchester parish index: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/manchester-2/)
 - National Library of Jamaica — The History of Manchester: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Manchester.pdf)

@@ -16,5 +16,7 @@ Old Harbour Bay has been served within the St. Catherine deanery under shared cl
 Old Harbour Bay is the fishing village at the actual harbour that gave Old Harbour town its name. The separation of the town (further inland) from its associated bay community is a common pattern on Jamaica's south coast, where settlements developed both at the waterfront and slightly inland. St. Philip the Apostle, who brought Nathanael to Christ, is commemorated on 1 May in the Anglican calendar.
 
 ## References
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
+- Jamaican Ancestral Records — St. Phillips Anglican, Old Harbour: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/st-catherine-2/st-phillips-anglican-old-harbour-st-catherine/)
+- Jamaica Travel and Culture — Old Harbour, St. Catherine: [jamaicatravelandculture.com](https://jamaicatravelandculture.com/destinations/st_catherine/old-harbour.htm)
 - National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
-- JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)

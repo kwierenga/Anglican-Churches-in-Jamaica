@@ -16,4 +16,6 @@ Milk River has been served within the Clarendon deanery. St. Saviour's and St. B
 The 'Saviour' dedication is a directly Christological name, unique in its explicit reference to the redemptive role of Jesus rather than invoking a saint. St. Saviour's at Milk River thus carries a spiritually charged name in a community already defined by unusual natural powers — the mineral waters said to cure ailments of the body, and the church offering salvation for the soul.
 
 ## References
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory (St. Peter's Alley/Lionel Town cure): [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
+- Jamaican Ancestral Records — St. Saviour's Anglican, Milk River: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/clarendon-2/st-saviours-anglican-milk-river-clarendon/)
 - National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

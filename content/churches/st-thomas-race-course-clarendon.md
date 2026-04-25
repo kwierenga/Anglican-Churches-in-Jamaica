@@ -10,10 +10,13 @@ Race Course sits in the southern coastal plain of Clarendon, in the flat agricul
 St. Thomas' is a modest masonry chapel of the kind erected by the Anglican Diocese across rural Clarendon in the late 19th and early 20th centuries. The structure is functional rather than ornate — a simple rectangular nave, a modest entrance, and a small churchyard — suited to a rural congregation of modest means. Set in the rural interior of Clarendon. The interior position offers some shelter from coastal surge while remaining exposed to wind and heavy rainfall during major storm events.
 
 ## Clergy
-Race Course has been served within the Clarendon deanery under shared clergy arrangements.
+St. Thomas' Race Course is served as a mission of the St. Peter's Alley/Lionel Town cure, alongside St. John's Portland Cottage and St. Saviour's Milk River. The cure rectory is at Lionel Town, Clarendon.
 
 ## Notable Facts
 Horse racing was one of the most popular leisure activities in colonial Jamaica, and several communities across the island bear 'Race Course' names — reminders of the turf culture that was central to the social life of the planter class. St. Thomas' feast day (21 December) falls at the winter solstice, the shortest day of the year in the northern hemisphere — an ancient astronomical significance that gives Thomas churches a particular character in the liturgical calendar.
 
 ## References
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
+- Find a Grave — Saint Thomas' Anglican, Race Course (61 memorials): [findagrave.com](https://www.findagrave.com/cemetery/2538557/saint-thomas'-anglican-church,-race-course)
+- Jamaican Ancestral Records — Clarendon parish index: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/clarendon-2/)
 - National Library of Jamaica — The History of Clarendon: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Clarendon.pdf)

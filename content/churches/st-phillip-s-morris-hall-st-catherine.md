@@ -16,5 +16,6 @@ Morris Hall has been served within the St. Catherine deanery under shared clergy
 Morris Hall's name preserves the memory of a colonial estate proprietor — a common naming convention in Jamaica's interior communities where plantation estates became the nucleus of post-Emancipation settlements. St. Philip's feast day (1 May, shared with James the Less) is one of the Apostles' days in the Anglican calendar.
 
 ## References
+- Diocese of Jamaica & The Cayman Islands — Mandeville Region directory: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=634)
+- Jamaican Ancestral Records — St. Catherine parish index (St. Phillip's Morris Hall): [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/st-catherine-2/)
 - National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
-- JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
