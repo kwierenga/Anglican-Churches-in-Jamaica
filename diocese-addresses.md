@@ -209,7 +209,7 @@ Source page: https://www.anglicandioceseja.org/?page_id=634
 - address: c/o The Rectory, Mile Gully P.O., Manchester (mission of St. Barnabas' Mile Gully — physical site Whitby)
 
 ### St. Augustine's — Porus (CURE)
-- our church_id: st-augustine-s-church-porous-clarendon (NOTE: diocese assigns Porus to Manchester Deanery, not Clarendon — verify our parish field)
+- our church_id: st-augustine-s-porus-manchester (Resolved: the previous duplicate `st-augustine-s-church-porous-clarendon` row was a phantom — Porus and Porous are the same town, preferred spelling **Porus**, parish **Manchester** per diocese.)
 - diocese page: https://www.anglicandioceseja.org/?page_id=634
 - address: The Rectory, Porus P.O., Manchester
 - phone: 349-2271 (cell)

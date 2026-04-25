@@ -17,7 +17,6 @@ longville-park-mission-clarendon  |  Longville Park Mission
 st-paul-s-mocho-clarendon  |  St. Paul's
 st-john-s-palmers-cross-clarendon  |  St. John's
 holy-trinity-park-hall-clarendon  |  Holy Trinity
-st-augustine-s-church-porous-clarendon  |  St. Augustine's Church
 st-john-s-portland-cottage-clarendon  |  St. John's
 st-thomas-race-course-clarendon  |  St. Thomas'
 st-george-s-red-hills-clarendon  |  St. George's

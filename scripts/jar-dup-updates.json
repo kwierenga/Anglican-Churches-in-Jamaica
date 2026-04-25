@@ -1,0 +1,14 @@
+[
+  {
+    "church_id": "st-ann-parish-church-st-ann-s-bay-st-ann",
+    "existing_local": "data/new-images/St Ann parish/St Ann's Bay/st-anns-bay-3.png",
+    "ref_url": "https://jamaicanancestralrecords.com/parishes-2/st-ann-2/st-ann-parish-church-st-anns-bay-st-ann/",
+    "src_url": "https://jamaicanancestralrecords.com/wp-content/uploads/2014/03/st-ann-parish-church.png"
+  },
+  {
+    "church_id": "st-luke-s-balaclava-st-elizabeth",
+    "existing_local": "data/new-images/St Elizabeth parish/Balaclava/St_Luke_s_1.png",
+    "ref_url": "https://jamaicanancestralrecords.com/parishes-2/st-elizabeth-2/st-lukes-anglican/",
+    "src_url": "https://jamaicanancestralrecords.com/wp-content/uploads/2014/03/st-lukes-anglican-balaclava.png"
+  }
+]
