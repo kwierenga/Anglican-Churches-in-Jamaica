@@ -4,6 +4,8 @@
 St. Alban's Anglican Mission stands at 26 Albert Street in Denham Town, Kingston 14, near the Denham Town Police Station and May Pen Cemetery. Founded in 1888 as a mission station of Kingston Parish Church to serve the post-Emancipation settlement of Smith's Village, it is one of the oldest Anglican foundations in western Kingston. St. Alban's Primary School, established on the same premises in 1890, is among the longest-running educational institutions in the area. The mission falls under the cure of All Saints', West Street, currently vacant following the death of Canon Abner Powell in November 2023.
 
 ## History
+**Parish-historical context.** Penn and Venables's English expedition captured Jamaica from Spain in May **1655**. **St. Andrew parish was established in 1664**. The **Great Earthquake of 7 June 1692** destroyed two-thirds of Port Royal; the new city of **Kingston** was formally established on **22 July 1692**, with the Assembly constituting Kingston as a parish in **1693**. Until **1870**, the Church of England in Jamaica was the established state church. The **Diocese of Jamaica** was established by Letters Patent on **24 July 1824**; **Christopher Lipscomb** was consecrated first Bishop in 1824. During the **1831 Sam Sharpe (Christmas) Rebellion**, planters and Anglican clergy formed the **Colonial Church Union**; **Sam Sharpe** was hanged on **23 May 1832** and is today a National Hero. The capital moved from Spanish Town to **Kingston in 1872**. The **14 January 1907 earthquake** destroyed much of Kingston; under Archbishop **Enos Nuttall's** £50,000 reconstruction programme, ten churches were consecrated within a single month in **January 1911**. The **Kingston and St. Andrew Corporation (KSAC)** unified the two parishes for civic administration in **1923**.
+
 St. Alban's owes its founding to a crisis of pastoral reach. In 1888, the Rector of Kingston Parish Church, the Venerable G. W. Downer — who would later rise to the rank of Archdeacon — reported to the diocesan authorities that residents of Smith's Village, a "remote suburb" west of Kingston's colonial grid, were attending revival meetings rather than Anglican services. The Diocese responded by establishing St. Alban's as a mission station, and two years later the Smith Village Elementary School was founded on the same premises.
 
 Smith's Village was one of the post-Emancipation settlements that reshaped Kingston after full freedom came on 1 August 1838. Formerly enslaved people, seeking work and independence, settled west of the original grid laid out by Surveyor John Goffe after the 1692 earthquake. By 1920, the settlement had become heavily populated with tenements, and by the 1930s overcrowding was severe — a 1943 census recorded approximately nine individuals per single-room dwelling in western Kingston.
@@ -28,6 +30,8 @@ St. Alban — the first recorded Christian martyr of Britain — was a Romano-Br
 
 ## References
 - Diocese of Jamaica and the Cayman Islands — Kingston Region directory (anglicandioceseja.org)
+- Jamaica Information Service — Samuel Sharpe (National Hero): [jis.gov.jm](https://jis.gov.jm/information/heroes/samuel-sharpe/)
+- J. B. Ellis, *The Diocese of Jamaica* (London: SPCK, 1913).
 - *Handbook of Jamaica* (1891, 1900) — clergy listings for Kingston Parish Church and St. Alban's mission (jamaicanfamilysearch.com)
 - St. Alban's Mission restoration programme — press release (go-jamaica.com)
 - *Jamaica Gleaner* — "St Albans Primary Barely Surviving in the Zone" (28 October 2017)

@@ -4,6 +4,8 @@
 St. Boniface Anglican Church stands on St. Thomas Main Road in Harbour View, Kingston 17, serving one of Jamaica's most distinctive post-independence communities at the eastern gateway to Kingston Harbour. The church is the main cure of a circuit that includes St. Peter's, Port Royal and the mission of St. Martin's, Bull Bay — a geographically remarkable grouping that spans modern suburbia, a historic fishing village with over three centuries of history, and a rural coastal settlement.
 
 ## History
+**Parish-historical context.** Penn and Venables's English expedition captured Jamaica from Spain in May **1655**. **St. Andrew parish was established in 1664** and **Kingston** was founded after the **Great Earthquake of 7 June 1692** destroyed two-thirds of Port Royal — Kingston Parish constituted **1693**. Until **1870**, the Church of England in Jamaica was the established state church. The **Diocese of Jamaica** was established by Letters Patent on **24 July 1824**; **Christopher Lipscomb** was consecrated first Bishop in 1824. During the **1831 Sam Sharpe (Christmas) Rebellion**, planters and Anglican clergy formed the **Colonial Church Union**; **Sam Sharpe** was hanged on **23 May 1832** and is today a National Hero. Emancipation came in 1834, with full freedom on **1 August 1838**. The capital moved from Spanish Town to **Kingston in 1872**. The **14 January 1907 earthquake** destroyed much of Kingston; under Archbishop **Enos Nuttall's** £50,000 reconstruction programme, ten churches were consecrated within a single month in **January 1911**. The **Kingston and St. Andrew Corporation (KSAC)** unified the two parishes for civic administration in **1923**.
+
 Harbour View was developed in 1960 as the largest single housing scheme ever undertaken by an organisation in the West Indies at that time. Built by West Indies Home Contractors (WIHCON), the company created in 1956 by the Matalon family under managing director Owen Matalon — known as Jamaica's "housing man" — the scheme comprised approximately 1,800 dwelling units using Matalon's proprietary mass construction system. The development came just two years before Jamaica's independence in 1962, and the new community quickly attracted young families seeking affordable homes on Kingston's eastern edge.
 
 The land on which Harbour View was built has a much older military history. Fort Nugent, originally constructed by Spanish slave agent James Castillo to defend his residence, was later strengthened by Governor George Nugent around 1806 to guard the eastern approach to Kingston Harbour. A Martello tower from this period — probably built between 1806 and 1811 at a cost of £12,000 — survives as a protected heritage site within the community.
@@ -32,6 +34,7 @@ St. Boniface of Crediton (c. 675–754), the church's patron saint, was an Anglo
 
 ## References
 - Diocese of Jamaica and the Cayman Islands — Kingston Region directory and history (anglicandioceseja.org)
+- Jamaica Information Service — Samuel Sharpe (National Hero): [jis.gov.jm](https://jis.gov.jm/information/heroes/samuel-sharpe/)
 - West Indies Home Contractors — company history, 1959–1969 (wihcon.com)
 - Jamaica National Heritage Trust — Fort Nugent (jnht.com)
 - National Library of Jamaica Digital Collection — Harbour View construction photograph (nljdigital.nlj.gov.jm)
