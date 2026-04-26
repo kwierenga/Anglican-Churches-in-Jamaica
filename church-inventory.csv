@@ -32,7 +32,7 @@ Hanover,Dalmally,St. Bartholomew’s,church,active,0,YES,st-bartholomew-s-dalmal
 Hanover,Eaton,St. Philip’s,church,active,0,YES,st-philip-s-eaton-hanover,18.38532,-78.14625
 Hanover,Grange,St. Agnes’,church,active,0,YES,st-agnes-grange-hanover,18.36315,-78.23617
 Hanover,Green Island,Church-of-the-Holy-Trinity,church,active,1,,church-of-the-holy-trinity-green-island-hanover,18.38903,-78.27311
-Hanover,Lucea,Hanover Parish Church,parish_church,active,11,,hanover-parish-church-lucea-hanover,18.450899450707208,-78.16853112266195
+Hanover,Lucea,Hanover Parish Church,parish_church,active,10,,hanover-parish-church-lucea-hanover,18.450899450707208,-78.16853112266195
 Hanover,Ramble,Ramble Anglican Church,church,ruin,0,YES,ramble-anglican-church-hanover,18.3510,-77.9774
 Kingston,83 East Street,St. George's Church,church,active,5,,st-george-s-church-83-east-street-kingston,17.973,-76.7897
 Kingston,Allman Town,St. Matthew's,church,active,1,,st-matthew-s-allman-town-kingston,17.98301,-76.78585
@@ -167,7 +167,7 @@ St. Catherine,Juan-de-Bolas,St. Luke's,church,active,0,YES,st-luke-s-juan-de-bol
 St. Catherine,Kentish,St. Paul's,church,active,0,YES,st-paul-s-kentish-st-catherine,18.09127,-77.16023
 St. Catherine,Linstead,Church of the Holy Trinity,church,active,1,,church-of-the-holy-trinity-linstead-st-catherine,18.1234,-77.0212
 St. Catherine,Linstead,St. John's Church,church,active,0,YES,st-john-s-church-linstead-st-catherine,18.13456,-77.03264
-St. Catherine,Lluidas Vale,St. Peter's,church,inactive,6,,st-peter-s-lluidas-vale-st-catherine,18.2212,-77.1823
+St. Catherine,Lluidas Vale,St. Peter's,church,inactive,4,,st-peter-s-lluidas-vale-st-catherine,18.2212,-77.1823
 St. Catherine,Macca Tree,St. Mark's,church,active,0,YES,st-mark-s-macca-tree-st-catherine,18.1512,-77.0512
 St. Catherine,Marley Hill,St. Andrew's,church,active,1,,st-andrew-s-marley-hill-st-catherine,18.1212,-76.9512
 St. Catherine,Morris Hall,St. Phillip's,church,active,1,,st-phillip-s-morris-hall-st-catherine,18.0823,-77.0512
@@ -276,7 +276,7 @@ St. Thomas,Wilmington,St. Matthew's,church,active,0,YES,st-matthew-s-wilmington-
 St. Thomas,Woburn Lawn,St. John's,church,active,0,YES,st-john-s-woburn-lawn-st-thomas,17.93120,-76.47120
 St. Thomas,Yallahs,St. David's,church,inactive,4,,st-david-s-yallahs-st-thomas,17.87727,-76.56833
 Trelawny,Albert Town,St. Andrew's,church,active,1,,st-andrew-s-albert-town-trelawny,18.292851,-77.541777
-Trelawny,Clarks Town,St. Michael's,church,active,6,,st-michael-s-clarks-town-trelawny,18.419192,-77.543437
+Trelawny,Clarks Town,St. Michael's,church,active,5,,st-michael-s-clarks-town-trelawny,18.419192,-77.543437
 Trelawny,Duncan,St. Barnabas',church,active,0,YES,st-barnabas-duncan-trelawny,18.4623,-77.5312
 Trelawny,Falmouth,St. Peter's (Parish Church),parish_church,active,3,,st-peter-s-parish-church-falmouth-trelawny,18.492957,-77.657058
 Trelawny,Jackson Town,St. Matthew's,church,active,2,,st-matthew-s-jackson-town-trelawny,18.414887,-77.487780
@@ -294,7 +294,7 @@ Westmoreland,Cornwall Mountain,St. Stephen's,church,active,0,YES,st-stephen-s-co
 Westmoreland,Darliston,St. John's,church,active,1,,st-john-s-darliston-westmoreland,18.24144,-77.97985
 Westmoreland,George's Plain,St. Barnabas',church,active,2,,st-barnabas-george-s-plain-westmoreland,18.278611,-78.142500
 Westmoreland,Grange,St. James',church,active,1,,st-james-grange-westmoreland,18.335185,-78.072445
-Westmoreland,Grange Hill,Holy Trinity,church,active,5,,holy-trinity-grange-hill-westmoreland,18.310722,-78.180285
+Westmoreland,Grange Hill,Holy Trinity,church,active,4,,holy-trinity-grange-hill-westmoreland,18.310722,-78.180285
 Westmoreland,Hopewell,St. Mark's,church,active,2,,st-mark-s-hopewell-westmoreland,18.254849,-78.292442
 Westmoreland,Kentucky,St. Matthias,church,active,0,YES,st-matthias-kentucky-westmoreland,18.1993,-78.0177
 Westmoreland,Kew Park,St. Michael's,church,active,4,,st-michael-s-kew-park-westmoreland,18.2833,-77.9333
