@@ -4,7 +4,9 @@
 St. Joseph's Anglican Church serves The Grove, a hillside community on Gordon Town Road in eastern St. Andrew where the Hope River meets the Mammee River. Originally constructed in 1827 — just two years after the first Bishop of Jamaica arrived — the church is one of the earliest Anglican foundations in St. Andrew outside Half-Way-Tree. Rebuilt after the 1907 earthquake and consecrated on 22 January 1911, it is part of a grouped parish with St. Margaret's, Liguanea and St. Cyprian's, August Town, under the current rector the Rev. Franklyn Jackson.
 
 ## History
-St. Joseph's was built in 1827 during the episcopate of Bishop Christopher Lipscomb, Jamaica's first Anglican bishop, who arrived in February 1825 and consecrated 31 churches during his nineteen-year tenure. Before Lipscomb, St. Andrew Parish Church at Half-Way-Tree (established 1664) was the sole Anglican church in the entire parish. St. Joseph's was among the earliest chapels established to serve communities too distant from Half-Way-Tree for regular attendance — in this case, the settlements along Gordon Town Road in the Hope River valley.
+**Parish-historical context.** Penn and Venables's English expedition captured Jamaica from Spain in May **1655**. **St. Andrew parish was established in 1664** with a 600-acre glebe granted in 1667 by Charles II. The **Great Earthquake of 7 June 1692** destroyed two-thirds of Port Royal; **Kingston** was constituted a parish in **1693**. Until **1870**, the Church of England in Jamaica was the established state church. The **Diocese of Jamaica** was established by Letters Patent on **24 July 1824**. The capital moved from Spanish Town to **Kingston in 1872**. The **Kingston and St. Andrew Corporation (KSAC)** unified the two parishes for civic administration in **1923**. **Hurricane Melissa** made Category 5 landfall near New Hope in Westmoreland on **28 October 2025**.
+
+St. Joseph's was built in **1827** during the episcopate of Bishop **Christopher Lipscomb**, Jamaica's first Anglican bishop, who arrived in February 1825 and consecrated 31 churches during his nineteen-year tenure. During the **1831 Sam Sharpe (Christmas) Rebellion**, planters and Anglican clergy formed the **Colonial Church Union**; **Sam Sharpe** was hanged on **23 May 1832** and is today a National Hero of Jamaica. Before Lipscomb, St. Andrew Parish Church at Half-Way-Tree (established 1664) was the sole Anglican church in the entire parish. St. Joseph's was among the earliest chapels established to serve communities too distant from Half-Way-Tree for regular attendance — in this case, the settlements along Gordon Town Road in the Hope River valley.
 
 The original building was constructed using white lime, sand, and molasses — the same Georgian-era mortar technique used for the nearby Alberga Bridge, built around 1789. The church and the bridge are described as the only structures remaining in Jamaica of this type of construction, making the church fabric itself a piece of Georgian architectural heritage.
 
@@ -30,6 +32,7 @@ The dedication to St. Joseph — the foster father of Jesus and patron saint of 
 
 ## References
 - J. B. Ellis, *The Diocese of Jamaica* (1913), Chapter 17 — earthquake reconstruction and ten-church consecration (anglicanhistory.org)
+- Jamaica Information Service — Samuel Sharpe (National Hero): [jis.gov.jm](https://jis.gov.jm/information/heroes/samuel-sharpe/)
 - *Handbook of Jamaica* (1891, 1900) — clergy listings for The Grove (jamaicanfamilysearch.com)
 - Diocese of Jamaica and the Cayman Islands — Kingston Region directory and Schools Directory (anglicandioceseja.org)
 - *Jamaica Gleaner* — "Old Alberga Bridge, Gordon Town Road" (23 February 2020) — 1827 construction, lime/sand/molasses materials
