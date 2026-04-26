@@ -1,20 +1,39 @@
 # St. Margaret's, Long Road
 **St. Mary** · Church · active
 
-St. Margaret’s Anglican Church serves the community of Long Road in St. Mary parish, a small agricultural district in the interior of the parish. Long Road is a community whose name describes its character — a settlement strung along a road through the hills — and St. Margaret’s has provided Anglican ministry to the local farming families for several generations. This is one of two St. Margaret’s churches in St. Mary, the other being at Clifton Lodge.
+St. Margaret's Anglican Church serves the community of **Long Road** in St. Mary parish, a small agricultural district in the interior of the parish. Long Road is a community whose name describes its character — a settlement strung along a road through the hills. This is one of two St. Margaret's churches in St. Mary, the other being at Clifton Lodge.
 
 ## History
-The Long Road community developed in the interior hill country of St. Mary, and the Anglican Diocese established St. Margaret’s as part of its mission network across the post-Emancipation interior communities of the parish. The church has served successive generations of the Long Road farming community through the transformations of the 19th and 20th centuries.
+**Pre-English era and the Battle of Rio Nuevo (1658).** **Christopher Columbus** sighted Jamaica in 1494 on his second voyage. The **Battle of Rio Nuevo (June 1658)** saw British forces under **Sir Edward D'Oyley** decisively defeat a Spanish expedition attempting to recapture Jamaica — effectively ending Spanish resistance to British rule.
+
+**English rule (1655) and the planter church.** Under English rule from **1655**, St. Mary became a major sugar-producing parish. Until **1870**, the Church of England in Jamaica was the established state church, supported by colonial government funds.
+
+**Tacky's Revolt (1760).** On Easter Monday, **7 April 1760**, **Tacky's Revolt** broke out on **Frontier and Trinity estates** near Port Maria. Tacky — a **Fante royal** from the Gold Coast of West Africa — led a rising of self-emancipated **Coromantee** people intended to overthrow British colonial rule. Over **500 Black men and women** were killed in battle, executed, or took their own lives — the most significant slave rebellion in the British West Indies between the 1733 St. John insurrection and the 1791 Haitian Revolution.
+
+**Sam Sharpe (1831), Emancipation (1838).** During the **1831 Sam Sharpe (Christmas) Rebellion**, planters and Anglican clergy formed the **Colonial Church Union** to "wipe non-conformist preachers off the face of the earth"; **Sam Sharpe** was hanged in Montego Bay on **23 May 1832** and is today a National Hero of Jamaica. Emancipation came in 1834, with full freedom on **1 August 1838**. Bishop **Christopher Lipscomb** (1824–1843) extended Anglican schools — 142 schools with 8,500 scholars by 1835.
+
+**Metcalfe parish (1841–1867) and disestablishment (1870).** A separate parish of **Metcalfe** was created in **1841**, named for **Sir Charles Metcalfe**, then Governor of Jamaica; **Annotto Bay** was its capital. **Law 20 of 1867** reduced parishes from 22 to 14, reuniting Metcalfe with St. Mary. After the Morant Bay Rebellion of 1865 and Crown Colony rule (1866), the Anglican Church was disestablished in **1870**. Bishop **Enos Nuttall** (1880–1916) extended the rural mission network from 26 stations in 1880 to **122 by 1911**.
+
+**Foundation of St. Margaret's Long Road.** The Long Road community developed in the interior hill country of St. Mary, and the Anglican Diocese established St. Margaret's as part of its mission network across the post-Emancipation interior communities of the parish. In recent years, St. Margaret's Long Road has been part of the five-cure circuit served by the **Rev. Veronica Thomas** alongside St. James Annotto Bay, St. Barnabas Enfield, Devon Pen, and Grandy Hole (Jamaica Gleaner, 4 July 2015).
+
+**Twentieth century and Independence.** The **banana trade** transformed the St. Mary economy in the late 19th and 20th centuries. Jamaica's independence on **6 August 1962** found St. Margaret's a settled rural mission.
+
+**Hurricane Melissa (October 2025).** Hurricane Melissa made Category 5 landfall near New Hope in Westmoreland on **28 October 2025** — the strongest hurricane to strike Jamaica in recorded meteorological history. Hurricane Melissa brought heavy rain and wind to interior St. Mary; the Long Road community was in the affected zone.
 
 ## Architecture
-St. Margaret’s Long Road is a small masonry chapel in the hilly interior of St. Mary. The building sits in a dispersed community along a hill road, subject to the heavy rainfall of interior St. Mary and the landslide and access risks that accompany major storm events.
+St. Margaret's Long Road is a small masonry chapel in the hilly interior of St. Mary. The building sits in a dispersed community along a hill road, subject to the heavy rainfall of interior St. Mary and the landslide and access risks that accompany major storm events.
 
 ## Clergy
-Long Road has been served within the St. Mary deanery under shared clergy arrangements. The church’s small size means it depends heavily on lay leaders for its regular pastoral life.
+Long Road has been served within the **St. Mary deanery** under shared clergy arrangements; in recent years it has been part of the five-cure circuit served by the **Rev. Veronica Thomas**. The church's small size means it depends heavily on lay leaders for its regular pastoral life.
 
 ## Notable Facts
-The presence of two St. Margaret’s churches in St. Mary — at Long Road and at Clifton Lodge — reflects the Diocese’s pattern of reusing common dedications across the parish network. Both are small interior mission chapels serving different hill communities. Hurricane Melissa (October 2025) brought heavy rain and wind to interior St. Mary; the Long Road community was in the affected zone.
+The presence of two **St. Margaret's** churches in St. Mary — at Long Road and at Clifton Lodge — reflects the Diocese's pattern of reusing common dedications across the parish network. The dedication is most commonly to **St. Margaret of Antioch** (feast day **20 July**), one of the most popular medieval saints.
 
 ## References
-- JN Foundation / Veront M. Satchell — *Parish History of St. Mary* (covers Port Maria, Annotto Bay, Metcalfe parish 1841–1867, Scott's Hall Maroons, Rio Nuevo battle, and the four principal Anglican churches of the parish): [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- JN Foundation / Veront M. Satchell — *Parish History of St. Mary*: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
 - Diocese of Jamaica and the Cayman Islands — Kingston Region, St. Mary Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+- Jamaica Gleaner — Rev. Veronica Thomas profile (4 Jul 2015): [jamaica-gleaner.com](https://jamaica-gleaner.com/article/news/20150704/without-vision-people-perish-reverend-concerned-about-annotto-bay-youth)
+- Wikipedia — Tacky's Revolt: [en.wikipedia.org/wiki/Tacky's_Revolt](https://en.wikipedia.org/wiki/Tacky's_Revolt)
+- 1900 Handbook of Jamaica — Clergy and Church listings: [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Samples/handbk9.htm)
+- Jamaica Information Service — Samuel Sharpe (National Hero): [jis.gov.jm](https://jis.gov.jm/information/heroes/samuel-sharpe/)
+- J. B. Ellis, *The Diocese of Jamaica* (London: SPCK, 1913).
