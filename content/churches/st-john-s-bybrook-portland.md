@@ -1,21 +1,40 @@
 # St. John's, Bybrook
 **Portland** · Church · active
 
-St. John's Anglican Church serves Bybrook, a community in the interior of Portland parish. Bybrook is a small farming district in the hill country of Portland, and St. John's has provided Anglican ministry to the local community for several generations. The dedication to St. John is among the most widespread in the Anglican tradition, carried across the diocese wherever rural congregations were established.
+St. John's Anglican Church serves **Bybrook**, a small farming district in the hill country of Portland parish.
 
 ## History
-Bybrook sits in the interior hills of Portland, part of the agricultural landscape of the parish. The Anglican Diocese established St. John's as a mission station for this community, and it has grown into a regular congregation listed on the diocesan deanery roll. The church has served Bybrook through the transformations of Portland's interior economy.
+**English rule (1655) and the founding of Portland (1723).** Under English rule from **1655**, the future Portland coast remained largely Maroon territory. **Portland parish was created in 1723** by order of the then Governor, **Henry Bentinck, 1st Duke of Portland** (Governor 1722–1726), and named in his honour. The British built **Fort George** at Port Antonio in 1729.
+
+**The First Maroon War (1728–1739) and Nanny.** The **Windward Maroons** under **Quao** and **Nanny** controlled the Blue Mountains and John Crow Mountains. The **1740 treaty** granted **Nanny a 500-acre land grant** that forms the present site of **Moore Town**. **Nanny of the Maroons** became Jamaica's only female National Hero in October 1975.
+
+**Slavery and the planter church.** Sugar estates dominated the fertile coastal lowlands and river valleys; coffee thrived in the hills. Until **1870**, the Church of England in Jamaica was the established state church, supported by colonial government funds.
+
+**Sam Sharpe (1831), Emancipation (1838).** During the **1831 Sam Sharpe (Christmas) Rebellion**, planters and Anglican clergy formed the **Colonial Church Union** to "wipe non-conformist preachers off the face of the earth"; **Sam Sharpe** was hanged in Montego Bay on **23 May 1832** and is today a National Hero of Jamaica. Emancipation came in 1834, with full freedom on **1 August 1838**. **Christ Church Port Antonio** was completed around **1840** under Bishop **Christopher Lipscomb**.
+
+**Disestablishment (1870), Nuttall, and the banana revolution.** After the Morant Bay Rebellion of 1865 and Crown Colony rule (1866), the Anglican Church was disestablished in **1870**. Bishop **Enos Nuttall** (1880–1916) extended the rural mission network from 26 stations in 1880 to **122 by 1911**. In **1870**, **Captain Lorenzo Dow Baker** purchased bananas in Port Antonio market; the first shipment of **1,450 stems** reached Jersey City in **1871**, launching the international banana trade. Baker's Boston Fruit Company became **United Fruit Company in 1899**.
+
+**Foundation of St. John's.** Bybrook sits in the interior hills of Portland, part of the agricultural landscape of the parish. The Anglican Diocese established St. John's as a mission station for this community, and it has grown into a regular congregation listed on the diocesan deanery roll.
+
+**Twentieth century and Independence.** The **1903 hurricane** damaged Christ Church Port Antonio and devastated the banana industry. Tourism grew at Port Antonio from the late 19th century, with **Errol Flynn** owning Navy Island from the 1940s. Jamaica's independence on **6 August 1962** found St. John's a settled rural mission.
+
+**Hurricane Melissa (October 2025).** Hurricane Melissa made Category 5 landfall near New Hope in Westmoreland on **28 October 2025** — the strongest hurricane to strike Jamaica in recorded meteorological history. Hurricane Melissa brought serious rain impacts to Portland's interior; Bybrook was in the affected zone.
 
 ## Architecture
 St. John's is a masonry church of modest proportions, representative of Anglican rural church building in Portland. The structure balances practicality with the dignity appropriate to a place of worship, featuring a straightforward nave with local stone or concrete block construction typical of Jamaica's interior church-building tradition. Set in the rural interior of Portland, the location offers some shelter from coastal surge while remaining exposed to wind and heavy rainfall during major storm events.
 
 ## Clergy
-Bybrook has been served within the Portland deanery under shared clergy arrangements. Lay leaders sustain the church's pastoral life between clerical visits.
+Bybrook has been served within the **Portland deanery** under shared clergy arrangements. Lay leaders sustain the church's pastoral life between clerical visits.
 
 ## Notable Facts
-Portland's interior communities like Bybrook maintain a consistent Anglican presence through their lay leadership even when clerical visits are infrequent. Hurricane Melissa (October 2025) brought serious rain impacts to Portland's interior.
+The dedication to **St. John** — most commonly the Evangelist (feast 27 December), occasionally the Baptist (24 June) — is among the most widespread in the Anglican tradition, carried across the diocese wherever rural congregations were established.
 
 ## References
-- National Library of Jamaica — The History of Portland: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
-- JN Foundation / Jenny Jemmott — Parish History of Portland: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- National Library of Jamaica — *The History of Portland*: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Portland%20Final.pdf)
+- JN Foundation / Jenny Jemmott — *Parish History of Portland*: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
 - Diocese of Jamaica and the Cayman Islands — Kingston Region: [anglicandioceseja.org](https://www.anglicandioceseja.org/)
+- Wikipedia — Lorenzo Dow Baker: [en.wikipedia.org/wiki/Lorenzo_Dow_Baker](https://en.wikipedia.org/wiki/Lorenzo_Dow_Baker)
+- Wikipedia — Nanny of the Maroons: [en.wikipedia.org/wiki/Nanny_of_the_Maroons](https://en.wikipedia.org/wiki/Nanny_of_the_Maroons)
+- 1900 Handbook of Jamaica — Clergy and Church listings: [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Samples/handbk9.htm)
+- Jamaica Information Service — Samuel Sharpe (National Hero): [jis.gov.jm](https://jis.gov.jm/information/heroes/samuel-sharpe/)
+- J. B. Ellis, *The Diocese of Jamaica* (London: SPCK, 1913).
