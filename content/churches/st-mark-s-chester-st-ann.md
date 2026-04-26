@@ -1,21 +1,36 @@
 # St. Mark's, Chester
 **St. Ann** · Church · active
 
-St. Mark’s Anglican Church serves the quiet hillside district of Chester in central St. Ann. It was established in the late 1800s to serve the communities built by freed families after Emancipation in 1838. Despite facing storms and changing times, the church has maintained its significance for the people of Chester. Today, it continues to be a cornerstone for worship and community life in this rural area.
+St. Mark's Anglican Church serves the quiet hillside district of **Chester** in central St. Ann. It was established in the late 1800s to serve the communities built by freed families after Emancipation in 1838. Today, it continues to be a cornerstone for worship and community life in this rural area.
 
 ## History
-St. Mark's Anglican Church was founded in the late 19th century, as freed people established new villages in the hills of Chester, Aboukir, and Gibraltar after Emancipation. The area was previously part of the plantation system, where the local population was enslaved. To serve these growing free-village communities, the Anglican Diocese sent clergy from Brown’s Town and Claremont to hold services in simple, temporary structures. By the 1880s, a permanent stone chapel was completed and dedicated to St. Mark, providing a stable center for baptisms, marriages, and community gatherings. The church played a vital role in supporting families as they built independent lives in the post-slavery era.
+**Pre-English settlement: Sevilla la Nueva (1509–1534).** St. Ann has a deeper colonial past than almost any other Jamaican parish. **Sevilla la Nueva**, the first permanent European settlement in Jamaica and the colony's first Spanish capital, was founded in **1509** by Juan de Esquivel near present St. Ann's Bay and served as Spanish capital until **1534**. **Christopher Columbus** had been marooned at St. Ann's Bay for over a year (1503–1504).
+
+**English rule (1655) and the planter church.** Under English rule from **1655**, St. Ann became a major **sugar and livestock** region. The Chester area was previously part of the plantation system, where the local population was enslaved. Until **1870**, the Church of England was the established state church, supported by colonial government funds.
+
+**Sam Sharpe Rebellion and the Colonial Church Union (1831–32).** During the **1831 Sam Sharpe (Christmas) Rebellion**, **Hamilton Brown** of Brown's Town led a Colonial Church Union mob that destroyed the Brown's Town Baptist chapel in 1832 — the **Colonial Church Union** sought to "wipe the non-conformist preachers off the face of the earth." **Sam Sharpe** was hanged in Montego Bay on **23 May 1832** and is today a National Hero of Jamaica.
+
+**Emancipation (1838) and free villages.** Emancipation came in 1834, with full freedom on **1 August 1838**. Freed people established new villages in the hills of Chester, Aboukir, and Gibraltar after Emancipation. **Sturge Town** (1839, founded by the English Quaker abolitionist Joseph Sturge) and **Clarksonville** (1835, founded by Baptist missionary Rev. John Clark, named for the abolitionist Thomas Clarkson) were among Jamaica's earliest free villages — both in St. Ann (NLJ, *History of St. Ann*). Bishop **Christopher Lipscomb** (1824–1843) had begun extending Anglican schools — 142 schools with 8,500 scholars by 1835.
+
+**Disestablishment (1870) and the founding of St. Mark's.** After the Morant Bay Rebellion of 1865 and Crown Colony rule (1866), the Anglican Church was disestablished in **1870** and reconstituted as the self-supporting Diocese of Jamaica. Bishop **Enos Nuttall** (1880–1916) extended the rural mission network from 26 stations in 1880 to **122 by 1911**. To serve these growing free-village communities, the Anglican Diocese sent clergy from Brown's Town and Claremont to hold services in simple, temporary structures. By the **1880s**, a permanent stone chapel was completed and dedicated to **St. Mark**.
+
+**Twentieth century and Independence.** Bauxite mining began in St. Ann around **1952** (Reynolds, Kaiser). **Hurricane Charlie (1951)** and **Hurricane Gilbert (1988)** caused damage to the roof and windows; each time, the community, with support from the Diocese, carried out the necessary repairs. Jamaica's independence on **6 August 1962** found St. Mark's an active mission.
+
+**Hurricane Melissa (October 2025).** Hurricane Melissa made Category 5 landfall near New Hope in Westmoreland on **28 October 2025** — the strongest hurricane to strike Jamaica in recorded meteorological history. The specific status of St. Mark's Chester after Melissa has not been separately reported in public sources reviewed.
 
 ## Architecture
-St. Mark’s is a modest, sturdy church built from local limestone in the rural Gothic Revival style. It features a rectangular nave, a small chancel, and narrow pointed-arch windows. The steep roof, now covered with metal, was likely originally made of wooden shingles. Inside, the church has an open-timber roof, wooden pews, and a simple pulpit. The surrounding churchyard, with graves of long-standing local families, contributes to the site's peaceful and historic character.
+St. Mark's is a modest, sturdy church built from local limestone in the rural Gothic Revival style. It features a rectangular nave, a small chancel, and narrow pointed-arch windows. The steep roof, now covered with metal, was likely originally made of wooden shingles. Inside, the church has an open-timber roof, wooden pews, and a simple pulpit. The surrounding churchyard, with graves of long-standing local families, contributes to the site's peaceful and historic character.
 
 ## Clergy
-St. Mark’s has always been part of the St. Ann Deanery, sharing clergy with neighboring missions in Claremont, Gibraltar, and Aboukir. Early priests traveled difficult hillside routes to lead worship and support local education and family life. The church was instrumental in providing literacy and religious instruction, which were especially crucial in the decades after Emancipation. After Jamaica’s Independence in 1962, the congregation remained active through the Mothers’ Union, youth programs, and community events. Lay readers were essential in maintaining regular services when ordained clergy were serving multiple congregations.
+St. Mark's has always been part of the **St. Ann Deanery**, sharing clergy with neighbouring missions in Claremont, Gibraltar, and Aboukir. Early priests travelled difficult hillside routes to lead worship and support local education and family life. Lay readers were essential in maintaining regular services when ordained clergy were serving multiple congregations.
 
 ## Notable Facts
-St. Mark’s has endured several major hurricanes, including Charlie (1951) and Gilbert (1988), which caused damage to the roof and windows. Each time, the community, with support from the Diocese, carried out the necessary repairs. The structure has also withstood the challenges of heavy hillside rains. Today, St. Mark’s Anglican Church remains an active parish, holding weekly services, weddings, and community gatherings, serving as an enduring symbol of faith and heritage in Chester
+The dedication to **St. Mark** — the Evangelist, author of the shortest of the four Gospels (feast day **25 April**) — is shared with the parish church of Manchester at Mandeville and several other Jamaican Anglican churches. The community name **Chester** transferred from the Roman walled city in north-west England, fits the wider Jamaican pattern of estate-name transfer from English places.
 
 ## References
-- National Library of Jamaica — The History of St. Ann: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Ann.pdf)
+- National Library of Jamaica — *The History of St. Ann*: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20Ann.pdf)
 - Jamaica National Heritage Trust — St. Ann heritage sites: [jnht.com/st_ann.php](http://www.jnht.com/st_ann.php)
 - Diocese of Jamaica and the Cayman Islands — Montego Bay Region, St. Ann Deanery: [anglicandioceseja.org](https://www.anglicandioceseja.org/?page_id=648)
+- 1900 Handbook of Jamaica — Clergy and Church listings: [jamaicanfamilysearch.com](https://www.jamaicanfamilysearch.com/Samples/handbk9.htm)
+- Jamaica Information Service — Samuel Sharpe (National Hero): [jis.gov.jm](https://jis.gov.jm/information/heroes/samuel-sharpe/)
+- J. B. Ellis, *The Diocese of Jamaica* (London: SPCK, 1913).
