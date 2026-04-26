@@ -139,6 +139,31 @@ function extractStyles(text: string): ArchStyle[] {
   return out
 }
 
+// JNHT-confirmed designations (Jamaica National Heritage Trust, jnht.com).
+// These override the regex pass for the listed slugs — JNHT is authoritative
+// on heritage-listed buildings and resolves cases where regex misclassifies
+// (battlemented Georgian towers triggering Gothic Revival), misses entirely
+// (untagged 18th/19th-c parish churches), or where the building is a hybrid
+// across periods.
+const MANUAL_STYLE_OVERRIDES: Record<string, ArchStyle[]> = {
+  // Hybrid: round-headed AND pointed arches, classical quoins, medieval buttresses
+  'st-jago-de-la-vega-the-cathedral-spanish-town-st-catherine': ['georgian', 'gothic_revival'],
+  // Hybrid: yellow brick + battlements + pinnacles + classical elements
+  'st-john-s-parish-church-black-river-st-elizabeth': ['georgian', 'gothic_revival'],
+  // Hybrid: 1836 mid-19th c, brick + stone, four-storey tower
+  'christ-church-parish-church-port-antonio-portland': ['georgian', 'gothic_revival'],
+  // Correct from gothic_revival — 1725 T-shaped, square battlemented tower (Georgian)
+  'hanover-parish-church-lucea-hanover': ['georgian'],
+  // Add — was untagged: ~1715, "Georgian influences, quoins, castellations"
+  'st-peter-s-church-alley-clarendon': ['georgian'],
+  // Add — was untagged: 1865 Nuttall-era brick parish church
+  'christ-church-morant-bay-st-thomas': ['gothic_revival'],
+  // Add — was untagged: 1814 cut stone, castellated tower
+  'st-george-s-buff-bay-portland': ['georgian'],
+  // Correct vernacular tag — 1795 colonial parish church, not a rural chapel
+  'st-peter-s-parish-church-falmouth-trelawny': ['georgian'],
+}
+
 const NAME_STOP_WORDS = new Set([
   'Kingston', 'Jamaica', 'London', 'England', 'Diocese', 'Parish', 'Church',
   'Cathedral', 'Chapel', 'Hall', 'School', 'College', 'Palace', 'Park',
@@ -191,7 +216,7 @@ if (fs.existsSync(CONTENT_DIR)) {
       continue
     }
     const text = fs.readFileSync(mdPath, 'utf8')
-    const styles = extractStyles(text)
+    const styles = MANUAL_STYLE_OVERRIDES[v.id] ?? extractStyles(text)
     const isRuin = v.classification === 'ruin' || v.status === 'ruin'
     // Estate chapel as standalone category only for classification=chapel
     const filteredStyles = styles.filter(s => s !== 'estate_chapel' || v.classification === 'chapel' || v.classification === 'church')
