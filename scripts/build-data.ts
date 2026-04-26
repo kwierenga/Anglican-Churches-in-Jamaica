@@ -125,10 +125,10 @@ const CLERGY_BLOCKLIST = new Set([
 
 const STYLE_PATTERNS: Record<ArchStyle, RegExp> = {
   georgian: /\bgeorgian\b/i,
-  gothic_revival: /\bgothic(?:\s+revival)?\b|\b(?:lancet|pointed\s+arch|buttress|flying\s+buttress)\b/i,
-  vernacular: /\bvernacular\b|\blouvred\b|\bverandah\b|\btimber[-\s]?frame\b|\bshingle[d]?\s+roof\b/i,
-  estate_chapel: /\b(?:sugar|coffee)\s+estate\s+chapel\b|\bestate\s+chapel\b|\bplantation\s+chapel\b/i,
-  modernist: /\bmodernist\b|\bconcrete\b.{0,30}\b(?:post[-\s]?war|mid[-\s]?century|1950s|1960s|1970s|modern)\b|\bpost[-\s]?independence\s+concrete\b/i,
+  gothic_revival: /\bgothic(?:\s+revival)?\b|\b(?:lancet|pointed\s+arch|buttress|flying\s+buttress|trefoil|quatrefoil|tracery|battlemented|crenellated)\b/i,
+  vernacular: /\bvernacular\b|\blouvred\b|\bverandah\b|\btimber[-\s]?frame\b|\bshingle[d]?\s+roof\b|\bmasonry\s+(?:chapel|mission|church)\s+of\s+the\s+kind\b|\bmodest\s+masonry\s+(?:church|chapel|building)\b|\bmodest\s+(?:church|chapel)\s+of\s+the\s+kind\b|\bbuilt\s+by\s+the\s+anglican\s+diocese\s+(?:across|in)\s+rural\b|\bzinc\s+roof\b|\bgalvani[sz]ed\s+(?:roof|sheet)/i,
+  estate_chapel: /\b(?:sugar|coffee)\s+estate\s+chapel\b|\bestate\s+chapel\b|\bplantation\s+chapel\b|\bbuilt\s+(?:by|on)\s+the\s+(?:[A-Z][a-z]+\s+)?estate\b/i,
+  modernist: /\bmodernist\b|\bconcrete\b.{0,30}\b(?:post[-\s]?war|mid[-\s]?century|1950s|1960s|1970s|modern)\b|\bpost[-\s]?independence\s+concrete\b|\b(?:reinforced\s+concrete|concrete\s+block|breeze\s+block|a[-\s]?frame)\b.{0,80}\b(?:church|chapel)|\b(?:1960s|1970s|1980s)\b.{0,40}\bchurch\b/i,
 }
 
 function extractStyles(text: string): ArchStyle[] {
