@@ -8,3 +8,5 @@ data/build/
 data/hurricane-melissa-2025/
 data/new-images/
 .claude/settings.local.json
+tmp/
+scripts/diocese-batch*.json
