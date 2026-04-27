@@ -88,6 +88,7 @@ export default function ChurchDetailPage() {
 
   useEffect(() => {
     if (!slug) return
+    window.scrollTo(0, 0)
     setLoading(true)
     Promise.all([
       fetch(`${import.meta.env.BASE_URL}content/churches/${slug}.md`).then(r => r.ok ? r.text() : ''),
