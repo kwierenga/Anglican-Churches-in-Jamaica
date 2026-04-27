@@ -86,9 +86,21 @@ export default function ChurchDetailPage() {
     return () => window.removeEventListener('keydown', onKey)
   }, [lightbox])
 
+  // Force scroll to top whenever the slug changes (covers async content arrival).
+  useEffect(() => {
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual'
+    window.scrollTo(0, 0)
+  }, [slug])
+
+  // After loading flips to false (content has rendered), pin scroll to top a
+  // second time to defeat browser scroll-restoration that fires after layout
+  // settles.
+  useEffect(() => {
+    if (!loading) window.scrollTo(0, 0)
+  }, [slug, loading])
+
   useEffect(() => {
     if (!slug) return
-    window.scrollTo(0, 0)
     setLoading(true)
     Promise.all([
       fetch(`${import.meta.env.BASE_URL}content/churches/${slug}.md`).then(r => r.ok ? r.text() : ''),
