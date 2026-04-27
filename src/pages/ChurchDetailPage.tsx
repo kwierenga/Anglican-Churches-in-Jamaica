@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { marked } from 'marked'
 import L from 'leaflet'
 import { useRoute } from '../lib/router'
@@ -87,19 +87,12 @@ export default function ChurchDetailPage() {
     return () => window.removeEventListener('keydown', onKey)
   }, [lightbox])
 
-  // Force scroll to top whenever the slug changes (covers async content arrival).
-  useEffect(() => {
+  // Synchronously reset scroll BEFORE the browser paints the new church.
+  // Using useLayoutEffect (not useEffect) so the user never sees the old
+  // scroll position with the new content. Disable browser scroll-restoration
+  // once at app level so back/forward navigation also lands at top.
+  useLayoutEffect(() => {
     if ('scrollRestoration' in history) history.scrollRestoration = 'manual'
-    window.scrollTo(0, 0)
-  }, [slug])
-
-  // After loading flips to false (content has rendered), pin scroll to top.
-  // Window scroll on mobile / GH-Pages CDN can be reset by late layout passes
-  // (image load, font load, prose reflow). Reset across three frames + a
-  // 200ms fallback, hitting both window and documentElement to handle
-  // platforms where one or the other owns the scroll.
-  useEffect(() => {
-    if (loading) return
     const resetScroll = () => {
       window.scrollTo(0, 0)
       document.documentElement.scrollTop = 0
@@ -107,9 +100,11 @@ export default function ChurchDetailPage() {
       if (mediaStripRef.current) mediaStripRef.current.scrollLeft = 0
     }
     resetScroll()
+    // Also re-pin after the next frame and after async content load, in case
+    // late image-load reflow or markdown rendering pushes scroll back.
     const r1 = requestAnimationFrame(resetScroll)
     const r2 = requestAnimationFrame(() => requestAnimationFrame(resetScroll))
-    const t = setTimeout(resetScroll, 200)
+    const t = setTimeout(resetScroll, 300)
     return () => {
       cancelAnimationFrame(r1)
       cancelAnimationFrame(r2)
