@@ -93,14 +93,27 @@ export default function ChurchDetailPage() {
     window.scrollTo(0, 0)
   }, [slug])
 
-  // After loading flips to false (content has rendered), pin scroll to top a
-  // second time to defeat browser scroll-restoration that fires after layout
-  // settles. Also reset the horizontal scroll of the media strip — that
-  // div is re-used across slug changes, so its scrollLeft persists otherwise.
+  // After loading flips to false (content has rendered), pin scroll to top.
+  // Window scroll on mobile / GH-Pages CDN can be reset by late layout passes
+  // (image load, font load, prose reflow). Reset across three frames + a
+  // 200ms fallback, hitting both window and documentElement to handle
+  // platforms where one or the other owns the scroll.
   useEffect(() => {
-    if (!loading) {
+    if (loading) return
+    const resetScroll = () => {
       window.scrollTo(0, 0)
+      document.documentElement.scrollTop = 0
+      document.body.scrollTop = 0
       if (mediaStripRef.current) mediaStripRef.current.scrollLeft = 0
+    }
+    resetScroll()
+    const r1 = requestAnimationFrame(resetScroll)
+    const r2 = requestAnimationFrame(() => requestAnimationFrame(resetScroll))
+    const t = setTimeout(resetScroll, 200)
+    return () => {
+      cancelAnimationFrame(r1)
+      cancelAnimationFrame(r2)
+      clearTimeout(t)
     }
   }, [slug, loading])
 
