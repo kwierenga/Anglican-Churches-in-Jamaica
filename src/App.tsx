@@ -1,5 +1,11 @@
 import { useEffect, type ReactElement } from 'react'
 import { useRoute } from './lib/router'
+
+// Disable browser scroll-restoration globally so route changes always start
+// at top, regardless of how navigation happens (link click, back/forward).
+if (typeof history !== 'undefined' && 'scrollRestoration' in history) {
+  history.scrollRestoration = 'manual'
+}
 import { setSeo } from './lib/seo'
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -43,7 +49,9 @@ export default function App() {
   } else if (route === '#/churches' || route === '#/map') {
     page = <DirectoryPage />
   } else if (route.startsWith('#/church/')) {
-    page = <ChurchDetailPage />
+    // key={route} forces a fresh mount on every church change -- guarantees
+    // a new component instance, fresh state and refs, and scroll at top.
+    page = <ChurchDetailPage key={route} />
   } else if (route.startsWith('#/parish/')) {
     page = <ParishPage />
   } else if (route === '#/architecture') {
