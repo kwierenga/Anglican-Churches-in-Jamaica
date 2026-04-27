@@ -1,6 +1,6 @@
 # Changelog
 
-## [3.0.0] — 2026-04-27
+## [2.0.0] — 2026-04-27
 
 Major content + UX release. The site now indexes 309 churches with comprehensive
 photo coverage, authoritative architectural classification, and improved
