@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import Sidebar from '../components/Sidebar'
 import MapPanel from '../components/MapPanel'
 import ChurchCard from '../components/ChurchCard'
@@ -31,6 +31,26 @@ export default function DirectoryPage() {
     setNewCoords(null)
   }, [id])
 
+  // Reset main-area scroll when the selected church changes. The main column
+  // is its own overflow-auto container (not the window), so window.scrollTo
+  // doesn't help here.
+  const mainRef = useRef<HTMLElement | null>(null)
+  useLayoutEffect(() => {
+    if (!id) return
+    const el = mainRef.current
+    if (!el) return
+    const reset = () => { el.scrollTop = 0 }
+    reset()
+    const r1 = requestAnimationFrame(reset)
+    const r2 = requestAnimationFrame(() => requestAnimationFrame(reset))
+    const t = setTimeout(reset, 300)
+    return () => {
+      cancelAnimationFrame(r1)
+      cancelAnimationFrame(r2)
+      clearTimeout(t)
+    }
+  }, [id])
+
   const csvLine = selected && newCoords
     ? `${id},${newCoords.lat.toFixed(5)},${newCoords.lng.toFixed(5)}`
     : null
@@ -51,7 +71,7 @@ export default function DirectoryPage() {
       </aside>
 
       {/* Main content */}
-      <main className="overflow-auto">
+      <main ref={mainRef} className="overflow-auto">
         {/* Map — fixed height */}
         <div className="relative" style={{ height: '55vh' }}>
           <MapPanel editing={editing} onEditMove={(lat, lng) => { setNewCoords({ lat, lng }); setCopied(false) }} />
@@ -97,10 +117,11 @@ export default function DirectoryPage() {
           </div>
         )}
 
-        {/* Church detail card */}
+        {/* Church detail card -- key={id} forces a fresh mount on each church
+            so the image strip's scrollLeft doesn't carry over. */}
         {id && (
           <div className="border-t p-5">
-            <ChurchCard />
+            <ChurchCard key={id} />
           </div>
         )}
       </main>
