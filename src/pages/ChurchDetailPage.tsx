@@ -50,6 +50,7 @@ export default function ChurchDetailPage() {
   const [geo, setGeo] = useState<ChurchGeo | null>(null)
   const [lightbox, setLightbox] = useState<MediaRow | null>(null)
   const mapInstanceRef = useRef<L.Map | null>(null)
+  const mediaStripRef = useRef<HTMLDivElement | null>(null)
 
   const satelliteMapRef = useCallback((el: HTMLDivElement | null) => {
     if (mapInstanceRef.current) {
@@ -94,9 +95,13 @@ export default function ChurchDetailPage() {
 
   // After loading flips to false (content has rendered), pin scroll to top a
   // second time to defeat browser scroll-restoration that fires after layout
-  // settles.
+  // settles. Also reset the horizontal scroll of the media strip — that
+  // div is re-used across slug changes, so its scrollLeft persists otherwise.
   useEffect(() => {
-    if (!loading) window.scrollTo(0, 0)
+    if (!loading) {
+      window.scrollTo(0, 0)
+      if (mediaStripRef.current) mediaStripRef.current.scrollLeft = 0
+    }
   }, [slug, loading])
 
   useEffect(() => {
@@ -147,7 +152,7 @@ export default function ChurchDetailPage() {
       ) : (
         <>
           {media.length > 0 && (
-            <div className="flex gap-3 overflow-x-auto pb-3 mb-6">
+            <div ref={mediaStripRef} className="flex gap-3 overflow-x-auto pb-3 mb-6">
               {media.map((m, i) => (
                 <figure key={i} className="shrink-0 m-0">
                   <img
