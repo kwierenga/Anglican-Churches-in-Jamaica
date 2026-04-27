@@ -218,7 +218,7 @@ export default class LeafletAdapter implements MapAdapter {
     }).addTo(this.map)
     this.highlight.bindTooltip(f.properties!.name, { permanent: true, direction: 'top', offset: [0, -16] })
 
-    this.map.flyTo(latlng, 18)
+    this.map.flyTo(latlng, 18, { duration: 3 })
     if (this.topo && this.satellite) {
       this.map.removeLayer(this.topo)
       this.satellite.addTo(this.map)
