@@ -141,27 +141,55 @@ function extractStyles(text: string): ArchStyle[] {
 
 // JNHT-confirmed designations (Jamaica National Heritage Trust, jnht.com).
 // These override the regex pass for the listed slugs — JNHT is authoritative
-// on heritage-listed buildings and resolves cases where regex misclassifies
-// (battlemented Georgian towers triggering Gothic Revival), misses entirely
-// (untagged 18th/19th-c parish churches), or where the building is a hybrid
-// across periods.
+// on heritage-listed buildings and resolves cases where regex misclassifies,
+// misses entirely, or where the building is a hybrid across periods.
+//
+// Plus date-inferred designations (era rules: <1830 Georgian; 1830–1880
+// Gothic Revival; 1880–1920 Vernacular for missions/Gothic Revival for
+// parish churches; 1920–1950 Vernacular; 1950+ Modernist) for churches
+// where regex didn't catch a style but the narrative gives a build year.
 const MANUAL_STYLE_OVERRIDES: Record<string, ArchStyle[]> = {
+  // === JNHT-confirmed (authoritative) ===
   // Hybrid: round-headed AND pointed arches, classical quoins, medieval buttresses
   'st-jago-de-la-vega-the-cathedral-spanish-town-st-catherine': ['georgian', 'gothic_revival'],
   // Hybrid: yellow brick + battlements + pinnacles + classical elements
   'st-john-s-parish-church-black-river-st-elizabeth': ['georgian', 'gothic_revival'],
   // Hybrid: 1836 mid-19th c, brick + stone, four-storey tower
   'christ-church-parish-church-port-antonio-portland': ['georgian', 'gothic_revival'],
-  // Correct from gothic_revival — 1725 T-shaped, square battlemented tower (Georgian)
+  // 1725 T-shaped, square battlemented tower (Georgian, not Gothic Revival)
   'hanover-parish-church-lucea-hanover': ['georgian'],
-  // Add — was untagged: ~1715, "Georgian influences, quoins, castellations"
+  // ~1715, "Georgian influences, quoins, castellations"
   'st-peter-s-church-alley-clarendon': ['georgian'],
-  // Add — was untagged: 1865 Nuttall-era brick parish church
+  // 1865 Nuttall-era brick parish church
   'christ-church-morant-bay-st-thomas': ['gothic_revival'],
-  // Add — was untagged: 1814 cut stone, castellated tower
+  // 1814 cut stone (English ballast), castellated clock tower
   'st-george-s-buff-bay-portland': ['georgian'],
-  // Correct vernacular tag — 1795 colonial parish church, not a rural chapel
+  // 1795 colonial parish church
   'st-peter-s-parish-church-falmouth-trelawny': ['georgian'],
+
+  // === Date-inferred ===
+  // Pre-1830 -> Georgian Colonial
+  'st-paul-s-chapelton-clarendon': ['georgian'],                          // 1664
+  'st-cyprians-august-town-st-andrew': ['georgian'],                      // 1821
+  'st-andrew-parish-church-half-way-tree-st-andrew': ['georgian'],        // 1664
+  'st-james-parish-church-sam-sharpe-square-st-james': ['georgian'],      // 1774
+  // 1830–1880 -> Gothic Revival
+  'st-john-s-sligoville-st-catherine': ['gothic_revival'],                // 1838
+  'st-augustine-s-mountainside-st-elizabeth': ['gothic_revival'],         // 1838
+  'st-mary-parish-church-port-maria-st-mary': ['gothic_revival'],         // 1861
+  'st-peter-s-petersfield-westmoreland': ['gothic_revival'],              // 1843
+  // 1880–1920 -> Vernacular for small/mission, Gothic Revival for parish churches
+  'st-michael-s-church-hannah-town-kingston': ['vernacular'],             // 1907
+  'st-alban-s-kingston-kingston': ['vernacular'],                         // 1888
+  'all-saints-west-branch-kingston': ['vernacular'],                      // 1907
+  'church-of-the-good-shepherd-constant-spring-st-andrew': ['vernacular'],// 1918
+  'st-philip-s-whitfield-town-st-andrew': ['vernacular'],                 // 1917
+  'st-mary-s-malvern-st-elizabeth': ['vernacular'],                       // 1914
+  'st-george-s-savanna-la-mar-parish-church-westmoreland': ['gothic_revival'], // 1903 (parish church)
+  // 1920–1950 -> Vernacular
+  'st-peter-s-pedro-plains-st-elizabeth': ['vernacular'],                 // 1941
+  // 1950+ -> Modernist
+  'st-luke-s-church-cross-roads-st-andrew': ['modernist'],                // 1980
 }
 
 const NAME_STOP_WORDS = new Set([
