@@ -94,7 +94,7 @@ folder_hints = {
     "Catadupa": "st-matthew-s-catadupa-st-james",
     "Cavaliers": "st-christopher-s-cavaliers-st-andrew",
     "Chapelton": "st-paul-s-chapelton-clarendon",
-    "ChesterCastle": "all-saints-chester-castle-st-james",
+    "ChesterCastle": "all-saints-chester-castle-hanover",
     "Chichester": "st-saviour-s-chichester-st-james",
     "Clark_s_Town": "st-michael-s-clarks-town-trelawny",
     "Darliston": "st-john-s-darliston-westmoreland",

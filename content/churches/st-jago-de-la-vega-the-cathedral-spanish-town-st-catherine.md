@@ -36,6 +36,7 @@ St. Jago de la Vega is generally regarded as the oldest Anglican cathedral site 
 - Jamaica Gleaner — Christopher Lipscomb's enduring legacy: [jamaica-gleaner.com](https://jamaica-gleaner.com/article/art-leisure/20240721/christopher-lipscombs-enduring-legacy)
 - National Library of Jamaica — The History of St. Catherine: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St%20%20Catherine%20.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. Catherine: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- Hazel Bennett, "Anglican Churches of Eighteenth-Century Jamaica" — Victorian Web: [victorianweb.org](https://victorianweb.org/history/empire/westindies/churches.html)
 
 ## Recent coverage
 

@@ -1,5 +1,18 @@
 # Changelog
 
+## [Unreleased] — 2026-04-27
+
+### Content
+
+- **+17 new photographs** from Hazel Bennett's *Anglican Churches of Eighteenth-Century Jamaica* on the Victorian Web (photographer Tim Willasey-Wilsey, fair-use credit). Distributed across the 8 churches Bennett surveys: St. Peter's Port Royal (4 — exterior, interior, organ loft, churchyard grave), St. Jago de la Vega Cathedral (3 — exterior, Modyford gravestone, interior), Kingston Parish Church (4 — modern view, pre-1907 view, pineapple-motif pew, Benbow gravestone), St. Andrew Half-Way-Tree (2), St. James Montego Bay (1), St. Peter's Falmouth (1), Hanover Parish Church Lucea (1), St. Mark's Rio Bueno (1).
+- **Architecture-section enrichment** for Port Royal (Bennett's cruciform-as-earthquake-resistance thesis + Col. Christian Lilly attribution) and Falmouth (William Danny as 1791 contractor at £9,000). Bennett's article added to the References section of all 8 covered churches.
+- **Parish correction**: All Saints', Chester Castle reassigned from St. James to **Hanover** (with id renamed `all-saints-chester-castle-st-james` → `all-saints-chester-castle-hanover`). JAR confirms Hanover; near-identical coords retained. 2 existing photos preserved under the new id.
+
+### Tooling
+
+- New one-shot importer `scripts/upload-victorian-web.ts` (downloads, dedup-by-key, Cloudinary-uploads, appends to media.csv).
+- `data/media.csv` line endings normalized from mixed CRLF/LF to consistent LF (was breaking csv-parse on appends).
+
 ## [2.0.0] — 2026-04-27
 
 Major content + UX release. The site now indexes 309 churches with comprehensive

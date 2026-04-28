@@ -17,7 +17,7 @@ type Entry = {
 // filename -> CSV slug; null = skip (no row in churches.csv or non-portrait)
 const slugMap: Record<string, string | null> = {
   // 2014/03 — main diocesan-churches dump
-  "All-Saints-Belvedere-Chester-Castle-Hanover.jpg": "all-saints-chester-castle-st-james",
+  "All-Saints-Belvedere-Chester-Castle-Hanover.jpg": "all-saints-chester-castle-hanover",
   "All-Saints-Church-1181-2-West-Street-Kingston.jpg": "all-saints-west-branch-kingston",
   "All-Saints-Church-Crofts-Hill-Kingston.jpg": "all-saints-crofts-hill-clarendon",
   "All-Saints-Church-Water-Level-Guys-Hill-St-Catherine.jpg": "all-saints-guys-hill-st-catherine",

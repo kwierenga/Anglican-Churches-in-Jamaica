@@ -32,3 +32,4 @@ Rio Bueno Harbour is the deepest natural harbour in Jamaica. The town is one of 
 - Jamaican Ancestral Records — St Mark's Anglican, Rio Bueno: [jamaicanancestralrecords.com](https://jamaicanancestralrecords.com/parishes-2/trelawny-2/st-marks-anglican-rio-bueno-trelawny/)
 - JN Foundation / Jenny Jemmott — Parish History of Trelawny (Puerto Bueno, 1833 Assembly petition, 2005 fire to shingle roof): [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
 - National Library of Jamaica — History of Trelawny: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Trelawny%20Final.pdf)
+- Hazel Bennett, "Anglican Churches of Eighteenth-Century Jamaica" — Victorian Web (refers to the Rio Bueno church as "St Mary's"): [victorianweb.org](https://victorianweb.org/history/empire/westindies/churches.html)

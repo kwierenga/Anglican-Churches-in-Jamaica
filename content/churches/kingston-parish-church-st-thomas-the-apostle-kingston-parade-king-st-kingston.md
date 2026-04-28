@@ -45,6 +45,7 @@ The church maintains a Facebook presence and a YouTube channel ("Faith Talks") w
 - Wolmer's Schools — Trust history and Founder's Day (wolmers.com)
 - BraveBenbow.com — Admiral Benbow biography and monument inscriptions
 - UNESCO World Heritage Centre — Port Royal inscription (2025)
+- Hazel Bennett, "Anglican Churches of Eighteenth-Century Jamaica" — Victorian Web: [victorianweb.org](https://victorianweb.org/history/empire/westindies/churches.html)
 
 ## Recent coverage
 

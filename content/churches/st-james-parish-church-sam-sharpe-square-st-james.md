@@ -31,6 +31,7 @@ St. James Parish Church is one of the finest Georgian churches in the Caribbean 
 - Executed Today — 1832: Samuel Sharpe (Bleby quote source): [executedtoday.com](https://www.executedtoday.com/2009/05/23/1832-samuel-sharpe-i-would-rather-die-upon-yonder-gallows-than-live-in-slavery/)
 - JN Foundation / Jenny Jemmott — Parish History of St. James (1775-1782 construction dates; 1878 clergy): [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
 - National Library of Jamaica — The History of St. James: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20James.pdf)
+- Hazel Bennett, "Anglican Churches of Eighteenth-Century Jamaica" — Victorian Web: [victorianweb.org](https://victorianweb.org/history/empire/westindies/churches.html)
 
 ## Recent coverage
 

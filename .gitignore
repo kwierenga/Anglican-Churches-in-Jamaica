@@ -10,3 +10,8 @@ data/new-images/
 .claude/settings.local.json
 tmp/
 scripts/diocese-batch*.json
+data/jar-photos/
+data/victorian-web/
+*.xlsx
+~$*.xlsx
+data/jar_findings*.md

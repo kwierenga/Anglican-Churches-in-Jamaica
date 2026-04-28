@@ -36,7 +36,7 @@ The cemetery is an open-air museum of Jamaican history, containing the graves of
 - St. Andrew Parish Church — official website and history (standrewparishchurch.com)
 - J. B. Ellis, *The Diocese of Jamaica* (1913), Chapter 17 — ten churches consecrated January 1911 (anglicanhistory.org)
 - Jamaica National Heritage Trust — St. Andrew Parish Church and Half Way Tree Courthouse (jnht.com)
-- VictorianWeb — Anglican churches of eighteenth-century Jamaica (victorianweb.org)
+- Hazel Bennett, "Anglican Churches of Eighteenth-Century Jamaica" — Victorian Web: [victorianweb.org](https://victorianweb.org/history/empire/westindies/churches.html)
 - *Jamaica Observer* — "Half-Way-Tree — Jamaica's Crossroads" (2016)
 - Samuel Felsted — first oratorio in the Americas (Wikipedia; American Philosophical Society records)
 - National Library of Jamaica Digital Collection — St. Andrew Parish Church photographs (nljdigital.nlj.gov.jm)

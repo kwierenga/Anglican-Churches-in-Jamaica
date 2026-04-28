@@ -29,6 +29,7 @@ The John Flaxman memorial to Sir Simon Clarke (1798) is believed to be the only 
 - Jamaican Heritage Renewal — Hanover Parish Church, Lucea: [jamaicanheritagerenewal.org](https://jamaicanheritagerenewal.org/the-parish-church-of-st-peter-lucea/)
 - Jamaica Gleaner — Historic landmarks out west among Melissa's many victims (7 Nov 2025): [jamaica-gleaner.com](https://jamaica-gleaner.com/article/lead-stories/20251107/historic-landmarks-out-west-among-melissas-many-victims)
 - National Library of Jamaica — The History of Hanover: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20Hanover.pdf)
+- Hazel Bennett, "Anglican Churches of Eighteenth-Century Jamaica" — Victorian Web: [victorianweb.org](https://victorianweb.org/history/empire/westindies/churches.html)
 
 ## Recent coverage
 
