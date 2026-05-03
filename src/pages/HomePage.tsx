@@ -366,12 +366,14 @@ export default function HomePage() {
             </h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {events.map(item => {
+                const Card = item.url ? 'a' : 'div'
                 const cardProps = item.url
                   ? { href: item.url, target: '_blank' as const, rel: 'noopener noreferrer' }
-                  : { href: 'https://www.anglicandioceseja.org/news', target: '_blank' as const, rel: 'noopener noreferrer' }
+                  : {}
                 return (
-                  <a key={item.id} {...cardProps}
-                     className="block bg-white border-l-4 border-gold rounded-lg p-5 shadow-sm transition-shadow hover:shadow-md cursor-pointer">
+                  <Card key={item.id} {...cardProps}
+                        className={`block bg-white border-l-4 border-gold rounded-lg p-5 shadow-sm transition-shadow hover:shadow-md
+                          ${item.url ? 'cursor-pointer' : ''}`}>
                     <div className="flex items-center gap-2 mb-2">
                       <span className="text-xs font-semibold px-2 py-0.5 rounded bg-gold text-white">
                         {item.category}
@@ -386,7 +388,7 @@ export default function HomePage() {
                     {item.source && (
                       <p className="text-xs text-gray-400 mt-3">{item.source}</p>
                     )}
-                  </a>
+                  </Card>
                 )
               })}
             </div>
@@ -423,12 +425,14 @@ export default function HomePage() {
           {/* News grid */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredNews.map(item => {
+              const Card = item.url ? 'a' : 'div'
               const cardProps = item.url
                 ? { href: item.url, target: '_blank' as const, rel: 'noopener noreferrer' }
-                : { href: 'https://www.anglicandioceseja.org/news', target: '_blank' as const, rel: 'noopener noreferrer' }
+                : {}
               return (
-                <a key={item.id} {...cardProps}
-                   className="block bg-white border border-gray-200 rounded-lg p-5 transition-shadow hover:shadow-md hover:border-crimson/40 cursor-pointer">
+                <Card key={item.id} {...cardProps}
+                      className={`block bg-white border border-gray-200 rounded-lg p-5 transition-shadow hover:shadow-md
+                        ${item.url ? 'hover:border-crimson/40 cursor-pointer' : ''}`}>
                   <div className="flex items-center gap-2 mb-2">
                     <span className={`text-xs font-semibold px-2 py-0.5 rounded
                       ${item.category === 'diocese' ? 'bg-navy text-white'
@@ -452,7 +456,7 @@ export default function HomePage() {
                   {item.source && (
                     <p className="text-xs text-gray-400 mt-2">{item.source}</p>
                   )}
-                </a>
+                </Card>
               )
             })}
           </div>
