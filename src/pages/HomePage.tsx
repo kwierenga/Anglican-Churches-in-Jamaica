@@ -365,24 +365,32 @@ export default function HomePage() {
               <span className="block w-16 h-[3px] bg-gold mt-3" />
             </h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {events.map(item => (
-                <div key={item.id} className="bg-white border-l-4 border-gold rounded-lg p-5 shadow-sm hover:shadow-md transition-shadow">
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="text-xs font-semibold px-2 py-0.5 rounded bg-gold text-white">
-                      {item.category}
-                    </span>
-                    {item.parish && <span className="text-xs text-gray-500 italic">{item.parish}</span>}
-                  </div>
-                  <p className="text-xs font-semibold text-gold mb-1">
-                    {new Date(item.date + 'T00:00:00').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
-                  </p>
-                  <h3 className="font-heading text-lg font-semibold text-gray-900 mb-2">{item.title}</h3>
-                  <p className="font-body text-sm text-gray-600 line-clamp-3">{item.summary}</p>
-                  {item.source && (
-                    <p className="text-xs text-gray-400 mt-3">{item.source}</p>
-                  )}
-                </div>
-              ))}
+              {events.map(item => {
+                const Card = item.url ? 'a' : 'div'
+                const cardProps = item.url
+                  ? { href: item.url, target: '_blank' as const, rel: 'noopener noreferrer' }
+                  : {}
+                return (
+                  <Card key={item.id} {...cardProps}
+                        className={`block bg-white border-l-4 border-gold rounded-lg p-5 shadow-sm transition-shadow
+                          ${item.url ? 'hover:shadow-md cursor-pointer' : 'hover:shadow-md'}`}>
+                    <div className="flex items-center gap-2 mb-2">
+                      <span className="text-xs font-semibold px-2 py-0.5 rounded bg-gold text-white">
+                        {item.category}
+                      </span>
+                      {item.parish && <span className="text-xs text-gray-500 italic">{item.parish}</span>}
+                    </div>
+                    <p className="text-xs font-semibold text-gold mb-1">
+                      {new Date(item.date + 'T00:00:00').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
+                    </p>
+                    <h3 className="font-heading text-lg font-semibold text-gray-900 mb-2">{item.title}</h3>
+                    <p className="font-body text-sm text-gray-600 line-clamp-3">{item.summary}</p>
+                    {item.source && (
+                      <p className="text-xs text-gray-400 mt-3">{item.source}</p>
+                    )}
+                  </Card>
+                )
+              })}
             </div>
           </div>
         </section>
@@ -416,33 +424,41 @@ export default function HomePage() {
 
           {/* News grid */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredNews.map(item => (
-              <div key={item.id} className="bg-white border border-gray-200 rounded-lg p-5 hover:shadow-md transition-shadow">
-                <div className="flex items-center gap-2 mb-2">
-                  <span className={`text-xs font-semibold px-2 py-0.5 rounded
-                    ${item.category === 'diocese' ? 'bg-navy text-white'
-                    : item.category === 'parish' ? 'bg-crimson text-white'
-                    : item.category === 'clergy' ? 'bg-green-800 text-white'
-                    : 'bg-gray-500 text-white'}`}>
-                    {item.category}
-                  </span>
-                  {item.parish && <span className="text-xs text-gray-500 italic">{item.parish}</span>}
-                </div>
-                <p className="text-xs text-gray-400 mb-1">
-                  {new Date(item.date + 'T00:00:00').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
-                </p>
-                <h3 className="font-heading text-lg font-semibold text-gray-900 mb-2">{item.title}</h3>
-                <p className="font-body text-sm text-gray-600 line-clamp-3">
-                  {item.report || item.summary}
-                </p>
-                {item.report && (
-                  <p className="text-xs text-crimson-mid mt-2 font-semibold">Post-event report</p>
-                )}
-                {item.source && (
-                  <p className="text-xs text-gray-400 mt-2">{item.source}</p>
-                )}
-              </div>
-            ))}
+            {filteredNews.map(item => {
+              const Card = item.url ? 'a' : 'div'
+              const cardProps = item.url
+                ? { href: item.url, target: '_blank' as const, rel: 'noopener noreferrer' }
+                : {}
+              return (
+                <Card key={item.id} {...cardProps}
+                      className={`block bg-white border border-gray-200 rounded-lg p-5 transition-shadow
+                        ${item.url ? 'hover:shadow-md hover:border-crimson/40 cursor-pointer' : 'hover:shadow-md'}`}>
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className={`text-xs font-semibold px-2 py-0.5 rounded
+                      ${item.category === 'diocese' ? 'bg-navy text-white'
+                      : item.category === 'parish' ? 'bg-crimson text-white'
+                      : item.category === 'clergy' ? 'bg-green-800 text-white'
+                      : 'bg-gray-500 text-white'}`}>
+                      {item.category}
+                    </span>
+                    {item.parish && <span className="text-xs text-gray-500 italic">{item.parish}</span>}
+                  </div>
+                  <p className="text-xs text-gray-400 mb-1">
+                    {new Date(item.date + 'T00:00:00').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
+                  </p>
+                  <h3 className="font-heading text-lg font-semibold text-gray-900 mb-2">{item.title}</h3>
+                  <p className="font-body text-sm text-gray-600 line-clamp-3">
+                    {item.report || item.summary}
+                  </p>
+                  {item.report && (
+                    <p className="text-xs text-crimson-mid mt-2 font-semibold">Post-event report</p>
+                  )}
+                  {item.source && (
+                    <p className="text-xs text-gray-400 mt-2">{item.source}</p>
+                  )}
+                </Card>
+              )
+            })}
           </div>
 
           {filteredNews.length === 0 && (

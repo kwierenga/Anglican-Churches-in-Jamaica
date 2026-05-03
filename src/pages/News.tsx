@@ -56,39 +56,50 @@ export default function News() {
       )}
 
       <div className="space-y-4">
-        {items.map(item => (
-          <div key={item.id}
-               className={`border rounded-lg p-5 transition-shadow hover:shadow-sm
-                 ${tab === 'events' ? 'border-l-4 border-l-gold' : ''}`}>
-            <div className="flex items-center gap-2 mb-1">
-              <span className={`text-xs font-semibold px-2 py-0.5 rounded
-                ${tab === 'events' ? 'bg-gold text-white'
-                : item.category === 'diocese' ? 'bg-navy text-white'
-                : item.category === 'parish' ? 'bg-crimson text-white'
-                : item.category === 'clergy' ? 'bg-green-800 text-white'
-                : 'bg-gray-500 text-white'}`}>
-                {item.category}
-              </span>
-              {item.parish && <span className="text-xs text-gray-500 italic">{item.parish}</span>}
-              <span className="text-xs text-gray-400 ml-auto">
-                {new Date(item.date + 'T00:00:00').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
-              </span>
-            </div>
-            <h2 className="font-heading text-lg font-semibold text-gray-900 mt-2 mb-1">{item.title}</h2>
-            <p className="font-body text-sm text-gray-600">{item.report || item.summary}</p>
-            {item.report && (
-              <p className="text-xs text-crimson-mid mt-2 font-semibold">Post-event report</p>
-            )}
-            <div className="flex items-center gap-3 mt-3 text-xs text-gray-400">
-              <span>{item.source}</span>
-              {item.url && (
-                <a href={item.url} target="_blank" rel="noopener noreferrer" className="text-crimson hover:underline">
-                  Read more &rarr;
-                </a>
+        {items.map(item => {
+          const Card = item.url ? 'a' : 'div'
+          const cardProps = item.url
+            ? { href: item.url, target: '_blank' as const, rel: 'noopener noreferrer' }
+            : {}
+          return (
+            <Card key={item.id} {...cardProps}
+                  className={`block border rounded-lg p-5 transition-shadow
+                    ${item.url ? 'hover:shadow-md hover:border-crimson/40 cursor-pointer' : ''}
+                    ${tab === 'events' ? 'border-l-4 border-l-gold' : ''}`}>
+              <div className="flex items-center gap-2 mb-1">
+                <span className={`text-xs font-semibold px-2 py-0.5 rounded
+                  ${tab === 'events' ? 'bg-gold text-white'
+                  : item.category === 'diocese' ? 'bg-navy text-white'
+                  : item.category === 'parish' ? 'bg-crimson text-white'
+                  : item.category === 'clergy' ? 'bg-green-800 text-white'
+                  : 'bg-gray-500 text-white'}`}>
+                  {item.category}
+                </span>
+                {item.parish && <span className="text-xs text-gray-500 italic">{item.parish}</span>}
+                <span className="text-xs text-gray-400 ml-auto">
+                  {new Date(item.date + 'T00:00:00').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
+                </span>
+              </div>
+              <h2 className="font-heading text-lg font-semibold text-gray-900 mt-2 mb-1">{item.title}</h2>
+              {item.report ? (
+                <>
+                  <p className="font-body text-sm text-gray-600 whitespace-pre-line">{item.report}</p>
+                  <p className="text-xs text-crimson-mid mt-2 font-semibold">Post-event report</p>
+                </>
+              ) : (
+                <p className="font-body text-sm text-gray-600">{item.summary}</p>
               )}
-            </div>
-          </div>
-        ))}
+              <div className="flex items-center gap-3 mt-3 text-xs text-gray-400">
+                <span>{item.source}</span>
+                {item.url && (
+                  <span className="text-crimson ml-auto">
+                    Read full article &rarr;
+                  </span>
+                )}
+              </div>
+            </Card>
+          )
+        })}
       </div>
     </main>
   )
