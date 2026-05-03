@@ -57,15 +57,11 @@ export default function News() {
 
       <div className="space-y-4">
         {items.map(item => {
-          const Card = item.url ? 'a' : 'div'
-          const cardProps = item.url
-            ? { href: item.url, target: '_blank' as const, rel: 'noopener noreferrer' }
-            : {}
+          const href = item.url || 'https://www.anglicandioceseja.org/news'
           return (
-            <Card key={item.id} {...cardProps}
-                  className={`block border rounded-lg p-5 transition-shadow
-                    ${item.url ? 'hover:shadow-md hover:border-crimson/40 cursor-pointer' : ''}
-                    ${tab === 'events' ? 'border-l-4 border-l-gold' : ''}`}>
+            <a key={item.id} href={href} target="_blank" rel="noopener noreferrer"
+               className={`block border rounded-lg p-5 transition-shadow hover:shadow-md hover:border-crimson/40 cursor-pointer
+                 ${tab === 'events' ? 'border-l-4 border-l-gold' : ''}`}>
               <div className="flex items-center gap-2 mb-1">
                 <span className={`text-xs font-semibold px-2 py-0.5 rounded
                   ${tab === 'events' ? 'bg-gold text-white'
@@ -91,13 +87,11 @@ export default function News() {
               )}
               <div className="flex items-center gap-3 mt-3 text-xs text-gray-400">
                 <span>{item.source}</span>
-                {item.url && (
-                  <span className="text-crimson ml-auto">
-                    Read full article &rarr;
-                  </span>
-                )}
+                <span className="text-crimson ml-auto">
+                  {item.url ? 'Read full article' : 'See Diocese news site'} &rarr;
+                </span>
               </div>
-            </Card>
+            </a>
           )
         })}
       </div>
