@@ -451,6 +451,39 @@ const IMAGE_MAP = [
   { file: "data/new-images/_jar_inbox/st-paul-s-little-london-westmoreland/jar-2.png", church_id: "st-paul-s-little-london-westmoreland", caption: "St. Paul's, Little London", order: "2" },
   { file: "data/new-images/_jar_inbox/st-paul-s-little-london-westmoreland/jar-3.png", church_id: "st-paul-s-little-london-westmoreland", caption: "St. Paul's, Little London", order: "3" },
   { file: "data/new-images/_jar_inbox/st-peter-s-petersfield-westmoreland/jar-7.png", church_id: "st-peter-s-petersfield-westmoreland", caption: "St. Peter's, Petersfield", order: "7" },
+
+  // St. Paul's, Moore Town (Portland).
+  { file: "data/new-images/Portland parish/Moore Town/St_Paul_s_1.jpg", church_id: "st-paul-s-moore-town-portland", caption: "St. Paul's, Moore Town", order: "1" },
+
+  // === auto-appended batch (2026-05 enfield/port-maria/guanaboa-vale/mile-gully) ===
+  // St. Barnabas', Enfield (St. Mary) — order 1 already on diocesan photo.
+  { file: "data/new-images/St Mary parish/Enfield/St_Barnabas_1.png", church_id: "st-barnabas-enfield-st-mary", caption: "St. Barnabas', Enfield", order: "2" },
+  { file: "data/new-images/St Mary parish/Enfield/St_Barnabas_2.png.jpg", church_id: "st-barnabas-enfield-st-mary", caption: "St. Barnabas', Enfield", order: "3" },
+  { file: "data/new-images/St Mary parish/Enfield/St_Barnabas_3.jpg", church_id: "st-barnabas-enfield-st-mary", caption: "St. Barnabas', Enfield", order: "4" },
+
+  // St. Mary (Parish Church), Port Maria — orders 1-7 taken; adding drone shots.
+  { file: "data/new-images/St Mary parish/Port Maria/St_Mary_1.png", church_id: "st-mary-parish-church-port-maria-st-mary", caption: "St. Mary (Parish Church), Port Maria", order: "8" },
+  { file: "data/new-images/St Mary parish/Port Maria/St_Mary_2.png", church_id: "st-mary-parish-church-port-maria-st-mary", caption: "St. Mary (Parish Church), Port Maria", order: "9" },
+  { file: "data/new-images/St Mary parish/Port Maria/St_Mary_3.png", church_id: "st-mary-parish-church-port-maria-st-mary", caption: "St. Mary (Parish Church), Port Maria", order: "10" },
+  { file: "data/new-images/St Mary parish/Port Maria/St_Mary_4.png", church_id: "st-mary-parish-church-port-maria-st-mary", caption: "St. Mary (Parish Church), Port Maria", order: "11" },
+  { file: "data/new-images/St Mary parish/Port Maria/St_Mary_5.png", church_id: "st-mary-parish-church-port-maria-st-mary", caption: "St. Mary (Parish Church), Port Maria", order: "12" },
+
+  // St. John's OPC, Guanaboa Vale (St. Catherine) — order 1 taken (jar-1.png).
+  { file: "data/new-images/St Catherine parish/Guanaboa Vale/St_John_s_1.png", church_id: "st-john-s-opc-guanaboa-vale-st-catherine", caption: "St. John's OPC, Guanaboa Vale", order: "2" },
+  { file: "data/new-images/St Catherine parish/Guanaboa Vale/St_John_s_2.png", church_id: "st-john-s-opc-guanaboa-vale-st-catherine", caption: "St. John's OPC, Guanaboa Vale", order: "3" },
+  { file: "data/new-images/St Catherine parish/Guanaboa Vale/St_John_s_3.png", church_id: "st-john-s-opc-guanaboa-vale-st-catherine", caption: "St. John's OPC, Guanaboa Vale", order: "4" },
+  { file: "data/new-images/St Catherine parish/Guanaboa Vale/St_John_s_4.png", church_id: "st-john-s-opc-guanaboa-vale-st-catherine", caption: "St. John's OPC, Guanaboa Vale", order: "5" },
+  { file: "data/new-images/St Catherine parish/Guanaboa Vale/St_John_s_5.png", church_id: "st-john-s-opc-guanaboa-vale-st-catherine", caption: "St. John's OPC, Guanaboa Vale", order: "6" },
+  { file: "data/new-images/St Catherine parish/Guanaboa Vale/St_John_s_6.png", church_id: "st-john-s-opc-guanaboa-vale-st-catherine", caption: "St. John's OPC, Guanaboa Vale", order: "7" },
+
+  // St. George's Church Ruins ("Duppy Church"), Auchtembeddie / Mile Gully (Manchester) — order 1 taken.
+  { file: "data/new-images/Manchester parish/Mile Gully/Duppy_1.png", church_id: "st-george-s-church-ruins-auchtembeddie-manchester", caption: "Ruins of St. George's Anglican Church (Duppy Church), Mile Gully", order: "2" },
+  { file: "data/new-images/Manchester parish/Mile Gully/Duppy_2.png", church_id: "st-george-s-church-ruins-auchtembeddie-manchester", caption: "Ruins of St. George's Anglican Church (Duppy Church), Mile Gully", order: "3" },
+  { file: "data/new-images/Manchester parish/Mile Gully/Duppy_3.png", church_id: "st-george-s-church-ruins-auchtembeddie-manchester", caption: "Ruins of St. George's Anglican Church (Duppy Church), Mile Gully", order: "4" },
+  { file: "data/new-images/Manchester parish/Mile Gully/Duppy_4.png", church_id: "st-george-s-church-ruins-auchtembeddie-manchester", caption: "Ruins of St. George's Anglican Church (Duppy Church), Mile Gully", order: "5" },
+
+  // St. Mary's, Negril (Westmoreland) — orders 1-6 taken; adding negril-4.
+  { file: "data/new-images/Westmoreland parish/Negril/negril-4.jpg", church_id: "st-mary-s-negril-westmoreland", caption: "St. Mary's, Negril", order: "7" },
 ];
 
 async function main() {
