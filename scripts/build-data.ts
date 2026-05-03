@@ -216,7 +216,14 @@ function trimToName(name: string): string {
 function extractClergy(text: string): string[] {
   const seen = new Set<string>()
   // Only scan the narrative body, skipping the References section (which lists authors)
-  const body = text.split(/^##\s+References\b/mi)[0]
+  let body = text.split(/^##\s+References\b/mi)[0]
+  // Strip single-letter middle initials (e.g., 'David A.' -> 'David') so names
+  // like 'Rev. David A. Reid' aren't truncated mid-pattern.
+  body = body.replace(/(\s)[A-Z]\.(?=\s)/g, '$1')
+  // Strip quoted or parenthesized nicknames (e.g., '"Tony"', '(Tony)') that
+  // would otherwise interrupt the capitalised-name run.
+  body = body.replace(/\s+["“][A-Z][A-Za-z'’-]*["”]/g, '')
+  body = body.replace(/\s+\([A-Z][A-Za-z'’-]*\)/g, '')
   CLERGY_RE.lastIndex = 0
   let m: RegExpExecArray | null
   while ((m = CLERGY_RE.exec(body)) !== null) {
