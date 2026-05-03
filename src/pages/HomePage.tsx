@@ -23,7 +23,7 @@ const architectureCards = [
 
 const timelineEvents = [
   { year: '1655', title: 'English Capture', body: 'England seizes Jamaica from Spain. The Church of England becomes the established church of the colony, with its clergy, vestries, and parish boundaries woven into colonial government.' },
-  { year: '1664', title: 'First Parish Churches', body: 'The island is divided into parishes — St. Catherine, St. Andrew, Clarendon, Vere, St. John, St. David, St. Thomas in the East and St. Thomas in the Vale — each with an Anglican parish church as its civic and spiritual centre.' },
+  { year: '1664', title: 'First Parish Churches', body: 'The island is divided into seven parishes — St. Catherine, St. John, St. Andrew, St. David, St. Thomas, Clarendon, and Port Royal — each with an Anglican parish church as its centre of worship and vestry government. A second wave (St. Elizabeth, St. James, St. Mary, St. George) follows by 1671.' },
   { year: '1692', title: 'Port Royal Earthquake', body: 'The 7 June earthquake destroys Port Royal and the Parish Churches of St. Paul and Christ Church; the refounding of Kingston on Colonel Barry\u2019s Hog Crawle reshapes the ecclesiastical map of the south-east.' },
   { year: '1739', title: 'Maroon Treaties', body: 'The Leeward (March) and Windward (June) treaties recognise free Maroon territories; a later 1740 supplement and a 1746 grant to Nanny at New Nanny Town (Moore Town) establish a parallel society alongside the Anglican parish structure.' },
   { year: '1824', title: 'Diocese of Jamaica', body: 'Jamaica is made a see of its own under Bishop Christopher Lipscomb, first Bishop of Jamaica, who launches an extensive school-building programme \u2014 142 schools and 8,500 scholars reported by 1835.' },
@@ -179,43 +179,62 @@ export default function HomePage() {
           <div className="grid md:grid-cols-[1fr_340px] gap-10">
             <div className="font-body text-lg leading-relaxed text-gray-700 space-y-4">
               <p>
-                The Anglican Church has been present in Jamaica since the English captured the island from
-                Spain in 1655. Under the English civil administration, the island was divided into parishes
-                and a Church of England parish church was established in each as centre of worship, vestry
-                government, poor relief, and colonial record-keeping. The oldest surviving congregations
-                &mdash; the Cathedral of St. Jago de la Vega (Spanish Town, 1666), St. Andrew Parish Church
-                (Half-Way-Tree, 1664), and St. Peter&rsquo;s at Alley in Vere (1671) &mdash; date from this
-                first generation.
+                The Anglican Church arrived with the English fleet that took Jamaica from Spain in May 1655.
+                Charles II&rsquo;s 1661 commission to Governor Edward D&rsquo;Oyley charged the colony &ldquo;to
+                encourage ministers, that Christianity and the Protestant religion, according to the Church of
+                England, might have due reverence and exercise&rdquo;; Spain formally ceded the island under the
+                Treaty of Madrid in 1670. By 1664 seven parishes had been laid out &mdash; <strong>St. Catherine,
+                St. John, St. Andrew, St. David, St. Thomas, Clarendon</strong> and <strong>Port Royal</strong>
+                &mdash; each with an Anglican parish church serving as the centre of worship, vestry government,
+                poor relief, and colonial record-keeping.
               </p>
               <p>
-                For its first two centuries the established church was deeply entangled with the slave
-                economy. Vestries were composed of the planter class, clergy were paid by the colonial
-                government, and churchyards across the island still contain the graves of major
-                slave-owning families. The 1831&ndash;32 <strong>Baptist War</strong> and the reprisals of
-                the planter-aligned Colonial Church Union, and the 1865 <strong>Morant Bay Rebellion</strong>
-                led by National Hero Paul Bogle, exposed this entanglement and reshaped Jamaica&rsquo;s
-                political future.
+                Until the Diocese of Jamaica was created in 1824, the island lay under the distant episcopal
+                jurisdiction of the <strong>Bishop of London</strong>, a fiction inherited from a 1634 Order
+                obtained by Archbishop Laud. The clergy were licensed in London but appointed and largely
+                controlled by parish vestries dominated by the planter class. For its first century and a half
+                the established church scarcely ministered to the enslaved African majority &mdash; a 1683 Act
+                fixed the baptismal fee for a slave at &pound;1 3s 9d, &ldquo;a sum large enough to be
+                prohibitory.&rdquo; The 1797 Act first required clergy to &ldquo;appropriate a certain portion
+                of every Sunday to the instruction of slaves&rdquo;; the <strong>1816 Curates of the Slaves
+                Act</strong> funded twelve special curates &mdash; partly, the Assembly admitted, in order to
+                diffuse &ldquo;the light of genuine Christianity, divested of the dark and dangerous fanaticism
+                of the Methodists.&rdquo;
               </p>
               <p>
-                <strong>Emancipation (1834&ndash;1838)</strong> transformed the church&rsquo;s role. Bishop
-                Christopher Lipscomb, first Bishop of Jamaica (1824), had begun an ambitious school-building
-                programme that by 1835 counted 142 schools with 8,500 scholars; by 1900 the Diocese operated
-                263 elementary schools. Chapels of ease multiplied across the interior as freed families
-                established free villages, smallholdings, and provision grounds.
+                The <strong>Diocese of Jamaica</strong> was erected by Letters Patent in 1824, the see also
+                taking in the Bahamas and the Bay of Honduras. <strong>Christopher Lipscomb</strong>, formerly
+                Vicar of Sutton Benger, was consecrated at Lambeth Palace and arrived on 11 February 1825 to a
+                slave population of 317,338 served by forty clergy. By 1835 his school programme reported 142
+                schools and 8,500 scholars; he consecrated 38 churches and licensed 41 other buildings &mdash;
+                &ldquo;some of which were school-rooms, some disused boiling-houses, others coffee stores&rdquo;
+                &mdash; before dying at his post in 1843, buried in the churchyard at Half-Way-Tree.
+                <strong> Emancipation</strong> took effect on 1 August 1834; full freedom followed in 1838.
               </p>
               <p>
-                <strong>Disestablishment in 1870</strong> ended state funding, and the Anglican Church began
-                its long transition from planter-class institution to a self-supporting church of the Black
-                majority. The <strong>1907 Kingston earthquake</strong> destroyed the great churches of the
-                capital; Archbishop Enos Nuttall led the rebuilding, consecrating ten churches in a single
-                month in January 1911.
+                Sam Sharpe&rsquo;s 1831&ndash;32 <strong>Baptist War</strong> and the planter-aligned Colonial
+                Church Union&rsquo;s reprisals against Nonconformist chapels, and the <strong>1865 Morant Bay
+                Rebellion</strong> led by National Hero Paul Bogle, exposed the established church&rsquo;s
+                entanglement with vestry and magistracy. The Crown Colony government that followed brought
+                <strong> Disestablishment</strong>: Sir John Peter Grant simply did not renew the Clergy Act,
+                and Law 30 of 1870 phased out state stipends. The <strong>Church in the Province of the West
+                Indies</strong> was constituted in Kingston in October 1883, eight decades before Jamaican
+                independence; <strong>Enos Nuttall</strong>, consecrated bishop in 1880 at thirty-eight, became
+                its first Archbishop in 1897. By the 1911 Census 266,478 Jamaicans &mdash; almost one in three
+                &mdash; identified as Anglican.
               </p>
               <p>
-                Following <strong>Independence in 1962</strong>, the Anglican Church in Jamaica became part
-                of the self-governing Church in the Province of the West Indies, within the worldwide
-                Anglican Communion. In October 2025 Hurricane Melissa damaged historic church fabric across
-                south-western and interior parishes, and the Diocese coordinated recovery across Jamaica
-                and the Cayman Islands.
+                On 14 January 1907 the <strong>Kingston earthquake</strong> levelled the capital: about a
+                thousand dead, thirty Anglican churches &ldquo;entirely or almost entirely wrecked,&rdquo; and
+                the theological college and bishop&rsquo;s lodge in ruins. Nuttall, made chairman of the General
+                Relief Committee, sailed to London to negotiate Imperial loans; the diocese spent &pound;50,000
+                on restoration. On the fourth anniversary, between 10 and 27 January 1911, ten rebuilt churches
+                were consecrated in eighteen days &mdash; J.B. Ellis doubting &ldquo;whether in the history of
+                the Anglican Church there is an instance of so many churches being consecrated within such a
+                limited time.&rdquo; After <strong>Independence in 1962</strong> the Diocese of Jamaica and the
+                Cayman Islands continued as a province of the worldwide Anglican Communion. In October 2025
+                Hurricane Melissa damaged historic church fabric across the south-west and interior, and
+                recovery continues across the parishes.
               </p>
             </div>
             <aside>
@@ -224,8 +243,9 @@ export default function HomePage() {
                 {[
                   ['Bishop', 'The Rt. Rev. Leon Golding'],
                   ['Cathedral', 'St. Jago de la Vega, Spanish Town'],
-                  ['Founded', '1655 (Church of England in Jamaica)'],
-                  ['Province', 'Church in the Province of the West Indies'],
+                  ['Anglican presence', '1655 (with English conquest)'],
+                  ['Diocese erected', '1824 (Letters Patent)'],
+                  ['Province', 'West Indies (founded 1883)'],
                   ['Parishes', '14 civil parishes'],
                   ['Churches', '350+ across the island'],
                 ].map(([k, v]) => (
