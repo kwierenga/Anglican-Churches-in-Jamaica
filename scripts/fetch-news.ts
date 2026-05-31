@@ -179,33 +179,54 @@ async function scrapeDiocese(): Promise<FeedItem[]> {
 
 // ── Source 2: Jamaica Gleaner — Anglican/church news ─────────────────────────
 
+// The Gleaner's on-site search (?s=) is no longer scrapeable: the server ignores the
+// query and serves the homepage, and the real search is a client-side Google Custom
+// Search widget that a plain fetch can't execute — which is why the old selectors
+// always returned 0. Instead we discover Gleaner coverage through Google News RSS
+// (which indexes the Gleaner) and keep only Gleaner-published items. The RSS link is
+// a Google redirect, but it resolves to the article and is clickable, satisfying the
+// feed's "every item must be reachable" rule.
+const BROWSER_UA =
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36'
+
 async function scrapeGleaner(): Promise<FeedItem[]> {
-  const SEARCH_URL = 'https://jamaica-gleaner.com/?s=anglican+church+jamaica'
-  console.log(`📡 Fetching Gleaner: ${SEARCH_URL} ...`)
+  const RSS_URL =
+    'https://news.google.com/rss/search?q=' +
+    encodeURIComponent('anglican jamaica') +
+    '&hl=en-JM&gl=JM&ceid=JM:en'
+  console.log(`📡 Fetching Gleaner (via Google News): ${RSS_URL} ...`)
   try {
-    const res = await fetch(SEARCH_URL, { signal: AbortSignal.timeout(15000) })
+    const res = await fetch(RSS_URL, {
+      headers: { 'User-Agent': BROWSER_UA },
+      signal: AbortSignal.timeout(15000),
+    })
     if (!res.ok) { console.warn(`  ⚠️ HTTP ${res.status}`); return [] }
-    const html = await res.text()
-    const $ = cheerio.load(html)
+    const xml = await res.text()
+    const $ = cheerio.load(xml, { xmlMode: true })
 
     const results: FeedItem[] = []
+    const seen = new Set<string>()
 
-    $('article, .post, .search-result, .entry').each((_, el) => {
+    $('item').each((_, el) => {
       const $el = $(el)
-      const titleEl = $el.find('h2 a, h3 a, .entry-title a').first()
-      const title = titleEl.text().trim()
-      const url = titleEl.attr('href') || ''
-      if (!title || !url) return
+      const source = $el.find('source').text().trim()
+      // Keep only Gleaner-published items so the feed's source label stays honest.
+      if (!/gleaner/i.test(source)) return
 
-      const dateRaw = $el.find('time').attr('datetime') || $el.find('.date, .entry-date').text() || ''
-      const date = parseDate(dateRaw)
-      const summary = $el.find('.excerpt, .entry-summary, p').first().text().trim().slice(0, 300)
+      // Google News titles are "Headline - Source"; strip the trailing source.
+      const rawTitle = $el.find('title').text().trim()
+      const title = rawTitle.replace(/\s+-\s+[^-]+$/, '').trim()
+      const url = $el.find('link').text().trim()
+      if (!title || title.length < 12 || !url || seen.has(url)) return
+      seen.add(url)
+
+      const date = parseDate($el.find('pubDate').text())
 
       results.push({
         id: slugify(title),
         date,
         title,
-        summary,
+        summary: '',
         report: '',
         category: 'parish',
         parish: null,

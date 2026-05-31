@@ -1,27 +1,5 @@
 [
   {
-    "id": "synod-2026-delegates",
-    "date": "2026-05-20",
-    "title": "Diocesan Synod 2026",
-    "summary": "The annual Diocesan Synod will be held in Spanish Town in May 2026. Parish vestries are invited to nominate lay delegates no later than 15 April.",
-    "report": "",
-    "category": "diocese",
-    "parish": null,
-    "source": "Anglican Diocese of Jamaica",
-    "url": ""
-  },
-  {
-    "id": "holy-week-2026",
-    "date": "2026-04-13",
-    "title": "Holy Week & Easter Services Across the Diocese",
-    "summary": "Palm Sunday through Easter Day services will be held at parishes across the island. The Bishop will preside at the Cathedral of St. Jago de la Vega for the Chrism Mass on Maundy Thursday and the Easter Vigil.",
-    "report": "",
-    "category": "diocese",
-    "parish": null,
-    "source": "Anglican Diocese of Jamaica",
-    "url": ""
-  },
-  {
     "id": "lambeth-followup-2026",
     "date": "2026-06-10",
     "title": "Provincial Follow-Up to Lambeth Conference Resolutions",
@@ -44,9 +22,75 @@
     "url": ""
   },
   {
+    "id": "synod-2026-delegates",
+    "date": "2026-05-20",
+    "title": "Diocesan Synod 2026",
+    "summary": "The annual Diocesan Synod will be held in Spanish Town in May 2026. Parish vestries are invited to nominate lay delegates no later than 15 April.",
+    "report": "",
+    "category": "diocese",
+    "parish": null,
+    "source": "Anglican Diocese of Jamaica",
+    "url": ""
+  },
+  {
+    "id": "the-sacrament-of-confirmation",
+    "date": "2026-05-19",
+    "title": "THE SACRAMENT OF CONFIRMATION",
+    "summary": "Dear Sisters and Brothers in Christ, There is some misunderstanding concerning the Sacrament of Confirmation in our Diocese. Confirmation is still a sacrament practiced by the Province and the Diocese. On Advent Sunday, 2024, the Province returned to the ancient practice of only requiring that a per",
+    "report": "",
+    "category": "diocese",
+    "parish": null,
+    "source": "Anglican Diocese of Jamaica",
+    "url": "https://www.anglicandioceseja.org/the-sacrament-of-confirmation/"
+  },
+  {
+    "id": "easter-message-from-the-bishop",
+    "date": "2026-05-01",
+    "title": "EASTER MESSAGE FROM THE BISHOP",
+    "summary": "We arrive again at that point in the church’s liturgical year, Easter Sunday, when we heighten our celebration of the resurrection of our Lord Jesus Christ. It is a time of alleluias, bright colours, joyful music, and gorgeous flowers. However, our celebrations should not stop with our decorations a",
+    "report": "",
+    "category": "diocese",
+    "parish": null,
+    "source": "Anglican Diocese of Jamaica",
+    "url": "https://www.anglicandioceseja.org/easter-message-from-the-bishop/"
+  },
+  {
+    "id": "letter-to-the-church-after-hurricane-melissa",
+    "date": "2026-05-01",
+    "title": "Letter to the Church- After Hurricane Melissa",
+    "summary": "Our nation and the Diocese continue to come to grips with the magnitude of the destruction wrought by Hurricane Melissa, especially in central and western Jamaica. We offer our prayers and full support to the thousands of people affected by this disaster.",
+    "report": "",
+    "category": "diocese",
+    "parish": null,
+    "source": "Anglican Diocese of Jamaica",
+    "url": "https://www.anglicandioceseja.org/letter-to-the-church-after-hurricane-melissa/"
+  },
+  {
+    "id": "holy-week-2026",
+    "date": "2026-04-13",
+    "title": "Holy Week & Easter Services Across the Diocese",
+    "summary": "Palm Sunday through Easter Day services will be held at parishes across the island. The Bishop will preside at the Cathedral of St. Jago de la Vega for the Chrism Mass on Maundy Thursday and the Easter Vigil.",
+    "report": "",
+    "category": "diocese",
+    "parish": null,
+    "source": "Anglican Diocese of Jamaica",
+    "url": ""
+  },
+  {
+    "id": "ungodly-cruel",
+    "date": "2026-04-09",
+    "title": "‘Ungodly, cruel’",
+    "summary": "",
+    "report": "",
+    "category": "parish",
+    "parish": null,
+    "source": "Jamaica Gleaner",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mbTBDMmRKWWxQbDJjQjJBQ05VLVhGbkVrUTFQRnYxMTRFeGFwWUpvM2FWbVlWWnVFbXdpOGpuUnBiZF9ua2IxTzgzSHplRldqWHd3UUd5MzNMOXR2RkxfeXZvQmo4UWVEZWs1a3UzNA?oc=5"
+  },
+  {
     "id": "melissa-recovery-update",
     "date": "2026-02-20",
-    "title": "Hurricane Melissa Recovery �� St. John's Parish Church, Black River",
+    "title": "Hurricane Melissa Recovery — St. John's Parish Church, Black River",
     "summary": "Restoration work on St. John's Parish Church continues following the devastation caused by Hurricane Melissa in October 2025. An emergency appeal has raised $4.2 million JMD toward the rebuilding fund.",
     "report": "Temporary Sunday services continue at the Black River Community Centre. The rebuilding committee reports that structural assessment is complete and contractors have been engaged for phase one restoration of the roof and nave.",
     "category": "parish",
@@ -66,6 +110,28 @@
     "url": ""
   },
   {
+    "id": "provincial-sunday",
+    "date": "2026-02-08",
+    "title": "PROVINCIAL SUNDAY",
+    "summary": "PROVINCIAL SUNDAY February 8th, 2026 My sisters and brothers in Christ, Grace, peace, and blessings to all from God our Father and the Lord Jesus Christ. On this Provincial Sunday, we gather in unity across our Province and give thanks for the wonderful gifts of fellowship, shared mission, and a ric",
+    "report": "",
+    "category": "diocese",
+    "parish": null,
+    "source": "Anglican Diocese of Jamaica",
+    "url": "https://www.anglicandioceseja.org/provincial-sunday/"
+  },
+  {
+    "id": "many-dioceses-one-body",
+    "date": "2026-02-08",
+    "title": "Many dioceses, one body",
+    "summary": "",
+    "report": "",
+    "category": "parish",
+    "parish": null,
+    "source": "Jamaica Gleaner",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FWUt4REI3eXltVU52M3VVZ3lCNmFsMzJSSkFieE5YRFE2b1J3SWNkelZhUFdWbzFZMVRWTENobkZFYkdENmdMbm5ENk9SN3NtNTBXQ19wV2hLcm5udWFYNE5RTFQyMTJIdm5vNGR3NUNiMzJaY21RRk5EMA?oc=5"
+  },
+  {
     "id": "canon-williams-memoriam",
     "date": "2026-01-28",
     "title": "In Memoriam: Canon Hyacinth Williams",
@@ -75,6 +141,17 @@
     "parish": "Kingston",
     "source": "Anglican Diocese of Jamaica",
     "url": ""
+  },
+  {
+    "id": "more-than-170-applications-received-for-75m-church-clean-up-",
+    "date": "2026-01-19",
+    "title": "More than 170 applications received for $75m church clean-up programme, says SDC",
+    "summary": "",
+    "report": "",
+    "category": "parish",
+    "parish": null,
+    "source": "Jamaica Gleaner",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcm82REh0X0dDeXFXNy1MN2FONDJIb2llX29OaWdyQklUSjFSZmlqd1k0OGowQkpoZ3hkbU93QWNKcXpkZWswZzJ2Wk1seHVNRU9lcVQtZnZNR1ZubE1nVWVVbFRDSThROC02dXdES2ZfaWNVS0pZZ0ljQ2ZPY0FaWG9ZaUdZNzRJLTRidy03SXhqMkdwTHdkZmJHZS1wdWthTEVsbTZWc0c4OTRHdmJ0SGhRYm40Zw?oc=5"
   },
   {
     "id": "bell-tower-st-anns-bay",
@@ -88,25 +165,47 @@
     "url": ""
   },
   {
-    "id": "ordinations-advent-2025",
-    "date": "2025-12-01",
-    "title": "Ordinations to the Priesthood — Advent 2025",
-    "summary": "The Bishop ordained three new priests at the Cathedral Church of St. Jago de la Vega on the First Sunday of Advent 2025. The new priests will serve congregations in the parishes of Kingston, St. James, and Portland.",
+    "id": "christopher-bovell-has-died",
+    "date": "2026-01-14",
+    "title": "Christopher Bovell has died",
+    "summary": "",
     "report": "",
-    "category": "clergy",
+    "category": "parish",
     "parish": null,
-    "source": "Anglican Diocese of Jamaica",
-    "url": ""
+    "source": "Jamaica Gleaner",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPc096cjlNekczUU43LUxzdDExSnhielctUUR0WDh2WW9wbHozdkZRYmlyTWY5bnFUZjI4dUktc2N2U1gtR2NYbV91ZHIxb1E3MW9aa01tTFdoNjBOeW9TOTBrekVpd3EwQnE5Qkl4T2RIcVJUVHg1bzhiVE1BbGRETEhB?oc=5"
   },
   {
-    "id": "hurricane-melissa-damage",
-    "date": "2025-10-18",
-    "title": "Hurricane Melissa — Damage Assessment Across the Diocese",
-    "summary": "Category 5 Hurricane Melissa made direct landfall near Black River on 18 October 2025, causing widespread destruction across St. Elizabeth and significant damage in St. Mary. Several churches sustained severe structural damage.",
-    "report": "The Diocese coordinated relief efforts with parish vestries. Emergency funding was secured from the Anglican Alliance and Church of England. Full damage assessment identified 23 churches requiring major repair.",
+    "id": "of-st-john-s-anglican-church-and-allison-morris-part-iv-pick",
+    "date": "2025-12-28",
+    "title": "Of St John’s Anglican Church and Allison Morris Part IV – Picking up the pieces",
+    "summary": "",
+    "report": "",
     "category": "parish",
-    "parish": "St. Elizabeth",
-    "source": "Anglican Diocese of Jamaica",
-    "url": ""
+    "parish": null,
+    "source": "Jamaica Gleaner",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY2lSSkwwTjVmcGt4QWdLUy1oOWhPazlMbkVURDdrcTZHdUZlQzdRbjB4bmM1Q3o4VVV3Y29OYXVjWGZOeVVVZTFuRjZXVXdDSFF3Ylg5V3phLWFPbVdyZm5HRmV3eXRhUHRFcmk1Wi1uNXZnaXB5TndyZXZYdFBINVlVMTFNMG5Bb0FSUFdpdE9zbmw5cmVjQnJnbDRlb0J5ZGZwLU5oam1BLWZ2WHFrT05XRXVTdw?oc=5"
+  },
+  {
+    "id": "of-st-john-s-anglican-church-and-allison-morris-part-iii-urg",
+    "date": "2025-12-21",
+    "title": "Of St John’s Anglican Church and Allison Morris – Part III Urges, hope, and anguish",
+    "summary": "",
+    "report": "",
+    "category": "parish",
+    "parish": null,
+    "source": "Jamaica Gleaner",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSjVIaGFIRXNQTVUxa3o4UkJNN1RMSTNKTTlDS3dLeGVJWXQyQm9oQWJvQzJNMDFjUmNDZTBiWXI1TXo0ekx6NUp5N24zaUNZd1BILUlBd1dsOXJ2SENSUDVlYzVkeGx2TFUwS3EzcU9NVTQ3dmdUS3lTMU5fUzdHR19HWFNZalpXZEhaOFdVeV9MSFJ2Wi11dnBzWFo5Y2d4SVNIVmR1WmN2cEFsOF9tSldWTDZLRUpZR2RzenF5aUNXZw?oc=5"
+  },
+  {
+    "id": "of-st-john-s-anglican-church-and-allison-morris-part-ii-way-",
+    "date": "2025-12-14",
+    "title": "Of St John’s Anglican Church and Allison Morris – Part II Way back when",
+    "summary": "",
+    "report": "",
+    "category": "parish",
+    "parish": null,
+    "source": "Jamaica Gleaner",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMnhYWnRVSUxHUUk4MlUwSHZsYXpVUmRMVFAxLUhna2k4YjkxVzJQQVNIT1BKVFIzQjdCVDdnTTRocTZYOGRVQ1hlTTdQMGNYbGdnaGRnRVJ5Mk5kNG83S29qMkFISkwtalRMc2FtZjBQbVJpRGxjVHAwdE5QT0lpSHpZQ1Z4clFqWjd1eG5XM2gwcmtta0FhenVQU0IzZU5kY2RpSzNubTVpeTVUU1ctWkN2TEE?oc=5"
   }
 ]
