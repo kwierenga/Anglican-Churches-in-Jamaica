@@ -1,7 +1,7 @@
 # St. Saviour's, Chichester
 **St. James** · Church · active
 
-St. Saviour's Anglican Church serves Chichester, a community in the Ramble district on the border of St. James and Hanover, south of Montego Bay in Jamaica's interior hill country. The church dates to at least 1847, when Rev. W. H. Stewart was ordained for "Chichester, diocese Jamaica," making it one of the earliest post-Emancipation Anglican foundations in the area. By 1878, both the church and an associated school — with teacher N. Campbell — were operational. St. Saviour's is part of the St. Mary's Montpelier Cure under Rev. Don T. Lewis.
+St. Saviour's Anglican Church serves Chichester, a community in the Ramble district on the border of St. James and Hanover, south of Montego Bay in Jamaica's interior hill country. The church dates to at least 1847, when Rev. W. H. Stewart was ordained for "Chichester, diocese Jamaica," making it one of the earliest post-Emancipation Anglican foundations in the area. By 1878, both the church and an associated school — with teacher N. Campbell — were operational. St. Saviour's is part of the St. Mary's Montpelier Cure under Rev. Don T. Lewis. Known locally and in press coverage simply as the **"Ramble Anglican Church,"** the building was a well-loved roadside landmark before being badly damaged by Hurricane Melissa in October 2025.
 
 ## History
 St. James was one of Jamaica's premier sugar parishes, and the estates surrounding Chichester were among the largest slaveholdings on the island. The Montpelier Estate — Old and New Montpelier — was owned by Lord Seaford (Charles Rose Ellis, 1st Baron Seaford) and held over 640 enslaved people at emancipation; with Shettlewood Pen across the Great River in Hanover, the total exceeded 1,000. Lord Seaford received over £18,000 in government compensation. The nearby Ramble Estate was owned by William Hudson Heaven, whose godson later used Jamaica wealth to purchase Lundy Island in the Bristol Channel.
@@ -24,6 +24,9 @@ St. Saviour's is part of the St. Mary's Montpelier Cure, which also includes St.
 ## Notable Facts
 "St. Saviour" is a directly Christological dedication — referring to Jesus Christ as Saviour — rather than invoking a patron saint. It is one of the dedications classified as being to "one of the persons of God," alongside Holy Trinity, Christ Church, and Good Shepherd. The Montpelier Cure in which St. Saviour's sits encompasses the very estates where the Christmas Rebellion was fought — the rebellion that ended slavery in the British Empire.
 
+## Hurricane Melissa (October 2025)
+**Hurricane Melissa** made landfall near New Hope in Westmoreland on **28 October 2025** as a Category 5 storm — the strongest hurricane to strike Jamaica in recorded meteorological history. The *Jamaica Gleaner* reported that the church — which it called the **"100-year-old Ramble Anglican Church,"** a description that likely dates the present building rather than the 1840s foundation — was **"all-but-completely damaged"** by the hurricane's winds. A motorist quoted in the article said: *"It is going to be hard to rebuild, but we would love to have back our church."* Long a roadside landmark that visitors used as a backdrop for keepsake photographs, it was the most prominent Anglican loss reported in the Ramble area, among **some 50 church buildings destroyed or significantly damaged** across the Diocese of Jamaica and the Cayman Islands. The Hanover Parish Church Hall in Lucea later served as the venue for the Government's **"ROOFS"** recovery cheque hand-over (Gleaner, 27 February 2026), through which **J$334 million** was disbursed across Hanover.
+
 ## References
 - Church of England Clergy in Jamaica — Rev. W. H. Stewart, ordained 1847–1848 for Chichester (jamaicanfamilysearch.com)
 - *Jamaica Directory* (1878) — Rev. E. Stewart, curate; N. Campbell, teacher (jamaicanfamilysearch.com)
@@ -33,3 +36,9 @@ St. Saviour's is part of the St. Mary's Montpelier Cure, which also includes St.
 - Diocese of Jamaica and the Cayman Islands — Montego Bay Region (anglicandioceseja.org)
 - National Library of Jamaica — The History of St. James: [nlj.gov.jm](https://nlj.gov.jm/history-notes/History%20of%20St.%20James.pdf)
 - JN Foundation / Jenny Jemmott — Parish History of St. James: [parishhistoriesofjamaica.org](https://www.parishhistoriesofjamaica.org/)
+- *Jamaica Gleaner* — "Historic landmarks out west among Melissa's many victims" (7 Nov 2025): [jamaica-gleaner.com](https://jamaica-gleaner.com/article/lead-stories/20251107/historic-landmarks-out-west-among-melissas-many-victims)
+- *Jamaica Gleaner* — "$334m being disbursed to Hanover households under ROOFS hurricane recovery" (27 Feb 2026): [jamaica-gleaner.com](https://jamaica-gleaner.com/article/news/20260227/334m-being-disbursed-hanover-households-under-roofs-hurricane-recovery)
+
+## Recent coverage
+
+A century-old landmark of the Ramble district — long a popular roadside photo-stop on the road through eastern Hanover and St. James — the church was reduced to ruin by Hurricane Melissa in October 2025, and is listed among the heritage landmarks "all-but-completely damaged" by the storm ([Jamaica Gleaner, 7 Nov 2025](https://jamaica-gleaner.com/article/lead-stories/20251107/historic-landmarks-out-west-among-melissas-many-victims)).
