@@ -9,7 +9,7 @@ st-bartholomew-s-good-hope-clarendon,St. Bartholomew's,Clarendon,church,inactive
 st-james-hayes-clarendon,St. James',Clarendon,church,active,17.877141,-77.241238,Hayes
 st-gabriel-s-may-pen-clarendon,St. Gabriel's,Clarendon,church,active,17.96873,-77.24717,May Pen
 st-saviour-s-milk-river-clarendon,St. Saviour's,Clarendon,church,inactive,17.87793,-77.33448,Milk River
-church-of-the-white-cross-ruins-the-cross-clarendon,Church of the White Cross (Ruins),Clarendon,ruin,ruin,17.95,-77.217,The Cross
+church-of-the-white-cross-ruins-the-cross-clarendon,Church of the White Cross (Ruins),Clarendon,ruin,ruin,17.951,-77.2091,The Cross
 st-paul-s-mocho-clarendon,St. Paul's,Clarendon,church,active,18.041565,-77.336729,Mocho
 st-john-s-palmers-cross-clarendon,St. John's,Clarendon,church,active,17.9312,-77.2023,Palmers Cross
 holy-trinity-park-hall-clarendon,Holy Trinity,Clarendon,church,active,18.1512,-77.2412,Park Hall
@@ -19,11 +19,11 @@ st-george-s-red-hills-clarendon,St. George's,Clarendon,church,active,18.0412,-77
 all-saints-richmond-park-clarendon,All Saints',Clarendon,church,active,17.9712,-77.2923,Richmond Park
 st-james-rock-river-clarendon,St. James',Clarendon,church,active,18.06843,-77.21578,Rock River
 st-luke-s-sanguinetti-clarendon,St. Luke's,Clarendon,church,active,18.15614,-77.43211,Sanguinetti
-all-saints-mt-providence-clarendon,All Saints',Clarendon,church,active,18.10,-77.30,Mt. Providence
+all-saints-mt-providence-clarendon,All Saints',Clarendon,church,active,18.0604,-77.2883,Mt. Providence
 st-luke-s-wood-hall-clarendon,St. Luke's,Clarendon,chapel,active,18.046365520055513,-77.26480141746839,Wood Hall
-st-michael-s-arthurs-seat-clarendon,St. Michael's,Clarendon,church,active,18.15,-77.40,Arthur's Seat
+st-michael-s-arthurs-seat-clarendon,St. Michael's,Clarendon,church,active,18.1371,-77.2277,Arthur's Seat
 st-peter-s-rhoden-hall-clarendon,St. Peter's,Clarendon,church,active,18.174168,-77.256244,Rhoden Hall
-peckham-clarendon,Peckham,Clarendon,church,active,17.90,-77.20,Peckham
+peckham-clarendon,Peckham,Clarendon,church,active,18.1654,-77.3878,Peckham
 st-luke-s-mitchell-town-clarendon,St. Luke's,Clarendon,church,active,17.802079,-77.206356,Mitchell Town
 st-andrew-s-rocky-point-clarendon,St. Andrew's,Clarendon,church,active,17.772477,-77.259905,Rocky Point
 st-bartholomew-s-dalmally-hanover,St. Bartholomew’s,Hanover,church,active,18.3975,-78.1931,Dalmally
@@ -42,7 +42,7 @@ all-saints-west-branch-kingston,All Saints',Kingston,church,active,17.975139,-76
 st-peter-s-port-royal-kingston,St. Peter's,Kingston,church,active,17.93710,-76.84132,Port Royal
 christ-church-vineyard-town-kingston,Christ Church,Kingston,church,inactive,17.989505,-76.771522,Vineyard Town
 st-patrick-s-windward-road-kingston,St. Patrick's,Kingston,church,active,17.97438,-76.75621,Windward Road
-st-john-the-divine-alston-manchester,St. John the Divine,Manchester,church,active,18.1830,-77.4360,Alston
+st-john-the-divine-alston-manchester,St. John the Divine,Manchester,church,active,18.1796,-77.4362,Alston
 st-john-s-auchtembeddie-manchester,St. John's,Manchester,church,active,18.21323,-77.62421,Auchtembeddie
 st-stephen-s-chantilly-manchester,St. Stephen's,Manchester,church,inactive,18.10578,-77.46774,Chantilly
 christ-church-christiana-manchester,Christ Church,Manchester,church,active,18.1619,-77.4923,Christiana
@@ -51,10 +51,10 @@ st-simon-s-comfort-hall-manchester,St. Simon's,Manchester,church,active,18.1798,
 st-james-s-craighead-manchester,St. James',Manchester,church,inactive,18.2612,-77.5112,Craighead
 st-lawrence-s-devon-manchester,St. Lawrence's,Manchester,church,active,18.1312,-77.5923,Devon
 st-james-kendal-manchester,St. James',Manchester,church,active,18.0737,-77.4937,Kendal
-st-mark-s-parish-church-mandeville-manchester,St. Mark's (Parish Church),Manchester,parish_church,active,18.0375,-77.508,Mandeville
+st-mark-s-parish-church-mandeville-manchester,St. Mark's (Parish Church),Manchester,parish_church,active,18.03763,-77.50797,Mandeville
 st-paul-s-church-mile-gully-manchester,St. Paul's Church,Manchester,church,active,18.1693,-77.5721,Mile Gully
 st-george-s-church-ruins-auchtembeddie-manchester,St. George's Church Ruins,Manchester,church,ruin,18.15237,-77.56365,Mile Gully
-st-barnabas-mile-gully-manchester,St. Barnabas',Manchester,church,active,18.1355,-77.543,Mile Gully
+st-barnabas-mile-gully-manchester,St. Barnabas',Manchester,church,active,18.1381,-77.5482,Mile Gully
 st-philip-s-old-england-manchester,St. Philip's,Manchester,church,active,17.9978,-77.467,Old England
 st-augustine-s-porus-manchester,St. Augustine's,Manchester,church,active,18.035043,-77.405175,Porus
 st-george-s-georges-valley-manchester,St. George's,Manchester,church,active,18.0317,-77.4808,Georges Valley
@@ -70,9 +70,9 @@ st-silas-s-troy-trelawny,St. Silas',Trelawny,church,active,18.247895,-77.611061,
 st-peter-s-wait-a-bit-trelawny,St. Peter's,Trelawny,church,active,18.247764,-77.521485,Wait-a-Bit
 st-mark-s-church-williamsfield-manchester,St. Mark's Church,Manchester,church,active,18.0752,-77.4682,Williamsfield
 st-michael-and-all-angels-manchester,St. Michael and All Angels,Manchester,church,active,18.068677,-77.457497,New Forest
-harry-watch-manchester,Harry Watch,Manchester,church,active,18.15,-77.55,Harry Watch
-whitby-manchester,St. Peter's,Manchester,church,active,18.20,-77.60,Whitby
-holy-trinity-st-toolies-manchester,Holy Trinity,Manchester,church,active,18.05,-77.45,St. Toolies
+harry-watch-manchester,Harry Watch,Manchester,church,active,18.1786,-77.5597,Harry Watch
+whitby-manchester,St. Peter's,Manchester,church,active,18.20155,-77.56979,Whitby
+holy-trinity-st-toolies-manchester,Holy Trinity,Manchester,church,active,17.9839,-77.405,St. Toolies
 st-philip-s-bangor-ridge-portland,St. Philip's,Portland,church,active,18.16649,-76.68414,Bangor Ridge
 st-joseph-s-belvedere-portland,St. Joseph's,Portland,church,active,18.21384,-76.70737,Belvedere
 st-james-birnamwood-portland,St. James',Portland,church,active,18.13288,-76.71685,Birnamwood
@@ -87,13 +87,13 @@ st-john-s-cooper-s-hill-portland,St. John's,Portland,church,active,18.13755,-76.
 all-saints-fellowship-portland,All Saints',Portland,church,active,18.12783,-76.47202,Fellowship
 st-michael-s-fruitful-vale-portland,St. Michael's,Portland,church,active,18.14195,-76.54997,Fruitful Vale
 st-peter-s-hope-bay-portland,St. Peter's,Portland,church,active,18.20064,-76.56736,Hope Bay
-st-michael-s-john-s-hall-portland,St. Michael's,Portland,church,active,18.09200,-76.46300,John's Hall
+st-michael-s-john-s-hall-portland,St. Michael's,Portland,church,active,18.10239,-76.46914,John's Hall
 st-thomas-manchioneal-portland,St. Thomas',Portland,church,active,18.03624,-76.27999,Manchioneal
 st-paul-s-moore-town-portland,St. Paul's,Portland,church,active,18.07781,-76.42801,Moore Town
 st-peter-s-chapel-ruin-nonsuch-portland,St. Peter's Chapel (Ruin),Portland,chapel,ruin,18.14692,-76.37788,Nonsuch
 st-paul-s-nonsuch-portland,St. Paul's,Portland,church,active,18.15336,-76.41910,Nonsuch
 st-dunstan-s-orange-bay-portland,St. Dunstan's,Portland,church,active,18.227028,-76.612250,Orange Bay
-christ-church-parish-church-port-antonio-portland,Christ Church (Parish Church),Portland,parish_church,active,18.17700,-76.44979,Port Antonio
+christ-church-parish-church-port-antonio-portland,Christ Church (Parish Church),Portland,parish_church,active,18.17711,-76.44986,Port Antonio
 st-mary-s-rural-hill-portland,St. Mary's,Portland,church,active,18.06340,-76.32340,Rural Hill
 st-christopher-s-sherwood-forest-portland,St. Christopher's,Portland,church,active,18.14542,-76.37665,Sherwood Forest
 st-stephen-s-church-st-margaret-s-bay-portland,St. Stephen's Church,Portland,church,active,18.19542,-76.51917,St. Margaret's Bay
@@ -108,7 +108,7 @@ st-peter-s-clifton-st-andrew,St. Peter's,St. Andrew,church,active,18.0823,-76.79
 church-of-the-good-shepherd-constant-spring-st-andrew,Church of the Good Shepherd,St. Andrew,church,active,18.047616,-76.794563,Constant Spring
 st-mark-s-craighton-st-andrew,St. Mark’s,St. Andrew,chapel,active,18.055780,-76.723051,Craighton
 st-luke-s-church-cross-roads-st-andrew,St. Luke's Church,St. Andrew,church,active,17.992140266192607,-76.78907724681167,Cross Roads
-church-of-the-resurrection-duhaney-park-st-andrew,Church of the Resurrection,St. Andrew,church,active,17.9923,-76.8412,Duhaney Park
+church-of-the-resurrection-duhaney-park-st-andrew,Church of the Resurrection,St. Andrew,church,active,18.030327,-76.843059,Duhaney Park
 st-andrew-parish-church-half-way-tree-st-andrew,St. Andrew Parish Church,St. Andrew,parish_church,active,18.010387,-76.799624,Half-Way-Tree
 church-of-the-transfiguration-havendale-st-andrew,Church of the Transfiguration,St. Andrew,church,active,18.04287,-76.81476,Havendale
 st-cuthbert-s-hunt-s-bay-st-andrew,St. Cuthbert's,St. Andrew,mission,inactive,17.9923,-76.8512,Hunt's Bay
@@ -132,7 +132,7 @@ st-philip-s-whitfield-town-st-andrew,St. Philip's,St. Andrew,church,active,17.99
 st-mary-s-church-woodford-st-andrew,St. Mary's Church,St. Andrew,church,active,18.067360,-76.742414,Woodford
 st-luke-s-aboukir-st-ann,St. Luke's,St. Ann,church,active,18.3412,-77.3623,Aboukir
 st-andrew-s-bamboo-st-ann,St. Andrew's,St. Ann,church,active,18.3623,-77.3023,Bamboo
-st-david-s-brittonville-st-ann,St. David's,St. Ann,church,active,18.1923,-77.2823,Brittonville
+st-david-s-brittonville-st-ann,St. David's,St. Ann,church,active,18.36293,-77.209,Brittonville
 st-mark-s-church-brown-s-town-st-ann,St. Mark's Church,St. Ann,church,active,18.393015,-77.367893,Brown's Town
 st-john-s-mission-chalky-hill-st-ann,St. John's Mission,St. Ann,mission,active,18.3897,-77.1412,Chalky Hill
 st-mark-s-chester-st-ann,St. Mark's,St. Ann,church,active,18.4023,-77.1512,Chester
@@ -155,12 +155,12 @@ st-barnabas-crescent-st-catherine,St. Barnabas',St. Catherine,church,active,18.0
 ss-simon-and-jude-ewarton-st-catherine,SS Simon and Jude,St. Catherine,church,active,18.1806,-77.0861,Ewarton
 st-faith-s-faith-s-st-catherine,St. Faith's,St. Catherine,church,active,18.1312,-77.0823,Faith's
 st-paul-s-goba-st-catherine,St. Paul's,St. Catherine,mission,inactive,18.1023,-77.0212,Goffe / Goba (district)
-st-john-s-opc-guanaboa-vale-st-catherine,St. John's OPC,St. Catherine,church,active,18.0423,-77.0312,Guanaboa Vale
+st-john-s-opc-guanaboa-vale-st-catherine,St. John's OPC,St. Catherine,church,active,18.037168,-77.067998,Guanaboa Vale
 st-mark-s-ham-walk-st-catherine,St. Mark's,St. Catherine,church,active,18.0512,-77.0512,Ham Walk
 st-saviour-s-harewood-st-catherine,St. Saviour's,St. Catherine,church,active,18.0923,-77.0512,Harewood
 st-joseph-s-innswood-mccook-s-pen-st-catherine,St. Joseph's,St. Catherine,church,active,17.9766,-77.0101,Innswood/McCook's Pen
 st-john-s-church-linstead-st-catherine,St. John's Church,St. Catherine,church,active,18.13456,-77.03264,Linstead
-church-of-the-holy-trinity-linstead-st-catherine,Church of the Holy Trinity,St. Catherine,church,active,18.1234,-77.0212,Linstead
+church-of-the-holy-trinity-linstead-st-catherine,Church of the Holy Trinity,St. Catherine,church,active,18.134581,-77.03261,Linstead
 st-peter-s-lluidas-vale-st-catherine,St. Peter's,St. Catherine,church,inactive,18.2212,-77.1823,Lluidas Vale
 st-mark-s-macca-tree-st-catherine,St. Mark's,St. Catherine,church,active,18.1512,-77.0512,Macca Tree
 st-phillip-s-morris-hall-st-catherine,St. Phillip's,St. Catherine,church,active,18.0823,-77.0512,Morris Hall
@@ -177,12 +177,12 @@ st-andrew-s-marley-hill-st-catherine,St. Andrew's,St. Catherine,church,active,18
 st-jago-de-la-vega-the-cathedral-spanish-town-st-catherine,St. Jago de la Vega (The Cathedral),St. Catherine,cathedral,active,17.9944,-76.9521,Spanish Town
 holy-trinity-spanish-town-st-catherine,Holy Trinity,St. Catherine,church,inactive,17.9923,-76.9623,Spanish Town
 st-augustine-s-watermount-st-catherine,St. Augustine's,St. Catherine,church,active,18.0823,-77.0023,Watermount
-st-lawrence-s-camperdown-st-catherine,St. Lawrence's,St. Catherine,church,active,18.16710,-77.53320,Camperdown
-st-luke-s-juan-de-bolas-st-catherine,St. Luke's,St. Catherine,church,active,18.09,-76.95,Juan-de-Bolas
+st-lawrence-s-camperdown-st-catherine,St. Lawrence's,St. Catherine,church,active,18.22276,-77.1584,Camperdown
+st-luke-s-juan-de-bolas-st-catherine,St. Luke's,St. Catherine,church,active,18.10227,-77.14877,Juan-de-Bolas
 st-paul-s-kentish-st-catherine,St. Paul's,St. Catherine,church,active,18.09127,-77.16023,Kentish
 st-simon-s-top-hill-st-catherine,St. Simon's,St. Catherine,church,active,18.248243,-76.963434,Top Hill
 ss-michael-and-george-s-freetown-st-catherine,SS Michael and George's,St. Catherine,church,active,17.917912,-77.145950,Freetown
-st-paul-s-clapham-st-catherine,St. Paul's,St. Catherine,church,active,18.15,-77.05,Clapham
+st-paul-s-clapham-st-catherine,St. Paul's,St. Catherine,church,active,18.29395,-77.07673,Clapham
 all-saints-guys-hill-st-catherine,All Saints',St. Catherine,church,active,18.255059,-76.933850,Guy's Hill
 st-martin-s-accompong-st-elizabeth,St. Martin's,St. Elizabeth,mission,active,18.197176,-77.777086,Accompong
 st-stephen-s-arlington-st-elizabeth,St. Stephen's,St. Elizabeth,church,active,18.0038,-77.7788,Arlington
@@ -193,7 +193,7 @@ epiphany-bigwoods-district-st-elizabeth,Epiphany,St. Elizabeth,church,active,17.
 st-john-s-parish-church-black-river-st-elizabeth,St. John's (Parish Church),St. Elizabeth,parish_church,active,18.02395,-77.84934,Black River
 all-souls-brompton-st-elizabeth,All Souls',St. Elizabeth,church,active,18.066262,-77.877521,Brompton
 st-matthew-s-burnt-savanna-st-elizabeth,St. Matthew's,St. Elizabeth,church,active,18.014899,-77.755279,Burnt Savanna
-st-barnabas-s-crawford-st-elizabeth,St. Barnabas',St. Elizabeth,church,active,18.04411,-77.91383,Crawford
+st-barnabas-s-crawford-st-elizabeth,St. Barnabas',St. Elizabeth,church,active,18.044753,-77.910477,Crawford
 st-andrew-s-gilnock-st-elizabeth,St. Andrew's,St. Elizabeth,church,active,18.050418,-77.664382,Gilnock
 st-paul-s-keynsham-st-elizabeth,St. Paul's,St. Elizabeth,church,inactive,18.1423,-77.6523,Keynsham
 st-thomas-kings-westmoreland,St. Thomas',Westmoreland,church,active,18.08371,-77.95403,Kings (Whitehouse)
@@ -285,7 +285,7 @@ st-barnabas-warsop-trelawny,St. Barnabas',Trelawny,church,active,18.264458,-77.5
 st-alban-s-ashton-westmoreland,St. Alban's,Westmoreland,church,active,18.22483179191853,-77.938897710337,Ashton
 st-barnabas-beeston-spring-westmoreland,St. Barnabas',Westmoreland,church,active,18.2023,-78.0412,Beeston Spring
 st-bartholomew-s-berkshire-westmoreland,St. Bartholomew's,Westmoreland,church,active,18.20285,-77.90101,Berkshire
-st-thomas-bluefields-westmoreland,St. Thomas',Westmoreland,church,active,18.17200,-78.02500,Bluefields
+st-thomas-bluefields-westmoreland,St. Thomas',Westmoreland,church,active,18.16438,-78.02285,Bluefields
 st-luke-s-cessnock-westmoreland,St. Luke's,Westmoreland,church,active,18.3333,-78.2167,Cessnock
 st-john-s-darliston-westmoreland,St. John's,Westmoreland,church,active,18.24144,-77.97985,Darliston
 st-barnabas-george-s-plain-westmoreland,St. Barnabas',Westmoreland,church,active,18.278611,-78.142500,George's Plain
@@ -299,12 +299,12 @@ st-mary-s-negril-westmoreland,St. Mary's,Westmoreland,church,active,18.27898,-78
 st-james-new-roads-westmoreland-westmoreland,St. James',Westmoreland,church,active,18.1923,-77.9623,New Roads (Westmoreland)
 st-peter-s-petersfield-westmoreland,St. Peter's,Westmoreland,church,active,18.261828,-78.071568,Petersfield
 st-george-s-savanna-la-mar-parish-church-westmoreland,St. George's,Westmoreland,parish_church,active,18.2212,-78.1412,Savanna-la-Mar (Parish Church)
-all-saints-meylersfield-westmoreland,All Saints',Westmoreland,church,active,18.21,-78.07,Meylersfield
+all-saints-meylersfield-westmoreland,All Saints',Westmoreland,church,active,18.255,-78.187,Meylersfield
 st-stephen-s-cornwall-mountain-westmoreland,St. Stephen's,Westmoreland,church,active,18.31,-78.10,Cornwall Mountain
 st-helena-s-sheffield-westmoreland,St. Helena's,Westmoreland,church,active,18.275868,-78.303710,Sheffield
 st-silas-mt-airy-westmoreland,St. Silas',Westmoreland,church,active,18.252178741088485,-78.33396472730736,Mt. Airy
 ramble-anglican-church-hanover,Ramble Anglican Church,Hanover,church,ruin,18.3510,-77.9774,Ramble
-holy-spirit-hermons-pepper-run-st-elizabeth,Holy Spirit,St. Elizabeth,church,active,18.05,-77.77,Pepper / Hermons
+holy-spirit-hermons-pepper-run-st-elizabeth,Holy Spirit,St. Elizabeth,church,active,18.02545,-77.59857,Pepper / Hermons
 st-andrew-s-glebe-st-elizabeth,St. Andrew's,St. Elizabeth,church,active,18.02,-77.85,Glebe
-st-bartholomew-s-kellitts-clarendon,St. Bartholomew's,Clarendon,mission,active,18.18,-77.31,Kellitts
-st-anne-s-chapel-hillcrest-retreat-st-ann,St. Anne's Chapel,St. Ann,chapel,active,18.38500,-77.36000,Brown's Town (Hillcrest Retreat)
+st-bartholomew-s-kellitts-clarendon,St. Bartholomew's,Clarendon,mission,active,18.1804,-77.2324,Kellitts
+st-anne-s-chapel-hillcrest-retreat-st-ann,St. Anne's Chapel,St. Ann,chapel,active,18.39288,-77.36606,Brown's Town (Hillcrest Retreat)

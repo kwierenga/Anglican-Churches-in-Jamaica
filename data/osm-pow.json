@@ -1,0 +1,6058 @@
+[
+ {
+  "osm": "node/304292551",
+  "name": "",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 18.2779997,
+  "lng": -78.345178
+ },
+ {
+  "osm": "node/307991773",
+  "name": "",
+  "religion": "christian",
+  "denomination": "catholic",
+  "lat": 17.9726646,
+  "lng": -76.7828723
+ },
+ {
+  "osm": "node/442000554",
+  "name": "Maverley Gospel Hall",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.0277008,
+  "lng": -76.8226272
+ },
+ {
+  "osm": "node/1116388646",
+  "name": "Kingdom Hall",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.0024024,
+  "lng": -76.963006
+ },
+ {
+  "osm": "node/1117205039",
+  "name": "Universal Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.000432,
+  "lng": -76.9602024
+ },
+ {
+  "osm": "node/1120877292",
+  "name": "",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.0059118,
+  "lng": -77.0212133
+ },
+ {
+  "osm": "node/1137667273",
+  "name": "Utech Chapel",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.0191864,
+  "lng": -76.7434791
+ },
+ {
+  "osm": "node/1674040823",
+  "name": "Triumphant Apostolic Worship Center",
+  "religion": "",
+  "denomination": "",
+  "lat": 17.951957,
+  "lng": -76.906838
+ },
+ {
+  "osm": "node/1931547816",
+  "name": "",
+  "religion": "",
+  "denomination": "",
+  "lat": 17.9839513,
+  "lng": -76.7865673
+ },
+ {
+  "osm": "node/2504451469",
+  "name": "St. Mary's Catholic Church",
+  "religion": "christian",
+  "denomination": "catholic",
+  "lat": 18.1067417,
+  "lng": -76.8752393
+ },
+ {
+  "osm": "node/2550831811",
+  "name": "Newport SDA",
+  "religion": "",
+  "denomination": "",
+  "lat": 17.9604903,
+  "lng": -77.5043417
+ },
+ {
+  "osm": "node/2574885248",
+  "name": "Victory Open Bible Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.983666,
+  "lng": -76.9358162
+ },
+ {
+  "osm": "node/2641490231",
+  "name": "Berry Hill Seventh-day Adventist Church",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 17.97957,
+  "lng": -77.5249802
+ },
+ {
+  "osm": "node/2649212859",
+  "name": "Comfort Hall Seventh-day Adventist Church",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 18.1810583,
+  "lng": -77.6019622
+ },
+ {
+  "osm": "node/2661106872",
+  "name": "Bethphage Moravian Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.121351,
+  "lng": -77.5566919
+ },
+ {
+  "osm": "node/2661284482",
+  "name": "Inglewood Shiloh Apostolic Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1294922,
+  "lng": -77.555191
+ },
+ {
+  "osm": "node/2837158321",
+  "name": "Barrett Town Seventh Day Baptist",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 18.5104498,
+  "lng": -77.7954354
+ },
+ {
+  "osm": "node/2844585907",
+  "name": "Kingdom Hall of Jehovah's Witnesses",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.0279844,
+  "lng": -76.8219531
+ },
+ {
+  "osm": "node/2962150538",
+  "name": "St. Marin de Porres Catholic Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0354148,
+  "lng": -76.7206133
+ },
+ {
+  "osm": "node/2962576734",
+  "name": "Church of God of Prophecy Dublin Castle",
+  "religion": "christian",
+  "denomination": "pentecostal",
+  "lat": 18.0285348,
+  "lng": -76.6992612
+ },
+ {
+  "osm": "node/3111793352",
+  "name": "Sacred Heart",
+  "religion": "christian",
+  "denomination": "catholic",
+  "lat": 17.9402556,
+  "lng": -77.1176324
+ },
+ {
+  "osm": "node/3400968093",
+  "name": "Emmanuel Baptist Church",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.0454135,
+  "lng": -76.7878989
+ },
+ {
+  "osm": "node/3485091898",
+  "name": "Holy Trinity",
+  "religion": "christian",
+  "denomination": "anglican",
+  "lat": 18.1345806,
+  "lng": -77.0326098
+ },
+ {
+  "osm": "node/3596822913",
+  "name": "Hope SDA Church",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 18.0145823,
+  "lng": -76.7407081
+ },
+ {
+  "osm": "node/3596831545",
+  "name": "Braeton Seventh Day Adventist Church",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 17.9517745,
+  "lng": -76.8971781
+ },
+ {
+  "osm": "node/3596831548",
+  "name": "Tent City Seventh Day Adventist Church",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 17.9856004,
+  "lng": -76.8871129
+ },
+ {
+  "osm": "node/3596831644",
+  "name": "Truth Tabernacle United Pentecostal Church",
+  "religion": "christian",
+  "denomination": "pentecostal",
+  "lat": 17.9763919,
+  "lng": -76.8846276
+ },
+ {
+  "osm": "node/3596840146",
+  "name": "Patrick Gardens Church of Christ",
+  "religion": "christian",
+  "denomination": "church_of_christ",
+  "lat": 18.0276882,
+  "lng": -76.8441054
+ },
+ {
+  "osm": "node/3596849162",
+  "name": "Old Harbour Bay Baptist Church",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 17.9110082,
+  "lng": -77.0983197
+ },
+ {
+  "osm": "node/3596859137",
+  "name": "Holy Trinity Anglican Church",
+  "religion": "christian",
+  "denomination": "anglican",
+  "lat": 17.93939,
+  "lng": -77.1136505
+ },
+ {
+  "osm": "node/3596929076",
+  "name": "All Jesus Apostolic Nations Fellowship",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9978182,
+  "lng": -76.8001716
+ },
+ {
+  "osm": "node/3596940715",
+  "name": "Saxthorpe Methodist Church",
+  "religion": "christian",
+  "denomination": "methodist",
+  "lat": 18.0381472,
+  "lng": -76.7970051
+ },
+ {
+  "osm": "node/3596971568",
+  "name": "Andrews SDA",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 18.0150354,
+  "lng": -76.7877859
+ },
+ {
+  "osm": "node/3664754474",
+  "name": "Bethel Baptist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0114191,
+  "lng": -76.7959919
+ },
+ {
+  "osm": "node/3681370625",
+  "name": "Fairfield Moravian Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0188667,
+  "lng": -77.572024
+ },
+ {
+  "osm": "node/3700482046",
+  "name": "Portmore United",
+  "religion": "christian",
+  "denomination": "United",
+  "lat": 17.9622892,
+  "lng": -76.8782602
+ },
+ {
+  "osm": "node/3740823324",
+  "name": "Mona Heights Chapel",
+  "religion": "christian",
+  "denomination": "brethren",
+  "lat": 18.0166354,
+  "lng": -76.7556933
+ },
+ {
+  "osm": "node/3768196609",
+  "name": "Barbican Baptist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0317735,
+  "lng": -76.7778893
+ },
+ {
+  "osm": "node/3768202665",
+  "name": "Shortwood United",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0347218,
+  "lng": -76.7889292
+ },
+ {
+  "osm": "node/3768230148",
+  "name": "Clifton Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0455761,
+  "lng": -76.801262
+ },
+ {
+  "osm": "node/3768978632",
+  "name": "Jamaica Penecostal Union",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0156541,
+  "lng": -76.7391899
+ },
+ {
+  "osm": "node/3769063462",
+  "name": "Christian Fellowship Worship",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0194316,
+  "lng": -76.7416388
+ },
+ {
+  "osm": "node/3769063467",
+  "name": "Wesleyan Holiness",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0209416,
+  "lng": -76.7411721
+ },
+ {
+  "osm": "node/3769200415",
+  "name": "Church of God Prophecy",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9749769,
+  "lng": -76.7523387
+ },
+ {
+  "osm": "node/3769231525",
+  "name": "Holy Ghost Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9781277,
+  "lng": -76.7626223
+ },
+ {
+  "osm": "node/3769231528",
+  "name": "Rollington Town SDA",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9821535,
+  "lng": -76.7678687
+ },
+ {
+  "osm": "node/3769271688",
+  "name": "New Creation Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9777093,
+  "lng": -76.7687163
+ },
+ {
+  "osm": "node/3769271698",
+  "name": "Galillee Gospel Hall",
+  "religion": "christian",
+  "denomination": "brethren assembly",
+  "lat": 17.9736017,
+  "lng": -76.7655459
+ },
+ {
+  "osm": "node/3769271705",
+  "name": "Calvary Evangelist",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9724944,
+  "lng": -76.7704919
+ },
+ {
+  "osm": "node/3775459273",
+  "name": "March Town",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 18.3615617,
+  "lng": -78.283414
+ },
+ {
+  "osm": "node/3785259904",
+  "name": "Goodness Outreach Ministry",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9877375,
+  "lng": -76.8132343
+ },
+ {
+  "osm": "node/3786265156",
+  "name": "Apostolic Church",
+  "religion": "christian",
+  "denomination": "apostolic",
+  "lat": 18.0094077,
+  "lng": -76.7998818
+ },
+ {
+  "osm": "node/3789410719",
+  "name": "Universal Church of the Kingdom of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.8804883,
+  "lng": -76.4119832
+ },
+ {
+  "osm": "node/3906895149",
+  "name": "Seventh-day Adventist Church in Guy's Hill",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.2469378,
+  "lng": -77.0013387
+ },
+ {
+  "osm": "node/4122432004",
+  "name": "Salvation Army Trinityville Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9682295,
+  "lng": -76.5325387
+ },
+ {
+  "osm": "node/4123174953",
+  "name": "Somerset Jamaica Bible Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9802375,
+  "lng": -76.5341161
+ },
+ {
+  "osm": "node/4123217061",
+  "name": "Faith New Testament Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.970763,
+  "lng": -76.544147
+ },
+ {
+  "osm": "node/4127325687",
+  "name": "Church of God of Prophesy",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9788062,
+  "lng": -76.5290547
+ },
+ {
+  "osm": "node/4129641172",
+  "name": "Trinityville Baptist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9640641,
+  "lng": -76.517188
+ },
+ {
+  "osm": "node/4129642491",
+  "name": "Jamaica Bible Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9617834,
+  "lng": -76.5190649
+ },
+ {
+  "osm": "node/4129642492",
+  "name": "The Holy Trinity Resource Dept",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9610142,
+  "lng": -76.5197233
+ },
+ {
+  "osm": "node/4129642493",
+  "name": "Army of Christ Fire & Deliverance Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9602097,
+  "lng": -76.5237097
+ },
+ {
+  "osm": "node/4134634264",
+  "name": "New Temple Church of God",
+  "religion": "christian",
+  "denomination": "church of god",
+  "lat": 17.9515061,
+  "lng": -76.5209098
+ },
+ {
+  "osm": "node/4135625859",
+  "name": "Macedonia Gospel Hall",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 17.9543378,
+  "lng": -76.5175139
+ },
+ {
+  "osm": "node/4135628521",
+  "name": "Bible Apostolic Church",
+  "religion": "christian",
+  "denomination": "church of god",
+  "lat": 17.9562892,
+  "lng": -76.5118736
+ },
+ {
+  "osm": "node/4135632150",
+  "name": "Church of God Seven Day",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 17.9529787,
+  "lng": -76.5209102
+ },
+ {
+  "osm": "node/4142137676",
+  "name": "Mt Bethel church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9410774,
+  "lng": -76.5092456
+ },
+ {
+  "osm": "node/4142157035",
+  "name": "Trinityville Seventh Day Adventist",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 17.9645549,
+  "lng": -76.5263758
+ },
+ {
+  "osm": "node/4142255996",
+  "name": "Mount Vernon Missionary Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9608049,
+  "lng": -76.5602562
+ },
+ {
+  "osm": "node/4155478194",
+  "name": "Pentecostal City Mission Church",
+  "religion": "christian",
+  "denomination": "pentecostal",
+  "lat": 17.9337811,
+  "lng": -76.4781468
+ },
+ {
+  "osm": "node/4155478689",
+  "name": "Seventh day adventist",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 17.9355423,
+  "lng": -76.4787515
+ },
+ {
+  "osm": "node/4155480809",
+  "name": "New Testament Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9287607,
+  "lng": -76.4756618
+ },
+ {
+  "osm": "node/4155488341",
+  "name": "Sanctify Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9413309,
+  "lng": -76.4929927
+ },
+ {
+  "osm": "node/4156709589",
+  "name": "Port Maria Seventh-day Adventist Church",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.3637105,
+  "lng": -76.8942083
+ },
+ {
+  "osm": "node/4202056953",
+  "name": "Hillside Church of God of Prophecy",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9685718,
+  "lng": -76.4786843
+ },
+ {
+  "osm": "node/4202059480",
+  "name": "Hillside Methodist Church",
+  "religion": "christian",
+  "denomination": "methodist",
+  "lat": 17.9677653,
+  "lng": -76.4786197
+ },
+ {
+  "osm": "node/4244696917",
+  "name": "August Town Cemetary",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.98648,
+  "lng": -76.7344863
+ },
+ {
+  "osm": "node/4318642395",
+  "name": "Warsop Pentecostal Church",
+  "religion": "christian",
+  "denomination": "protestant",
+  "lat": 18.2668797,
+  "lng": -77.5738508
+ },
+ {
+  "osm": "node/4341896978",
+  "name": "Waldensia Baptist Church",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 18.3903703,
+  "lng": -77.6281357
+ },
+ {
+  "osm": "node/4345743078",
+  "name": "Good News Mission",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9890738,
+  "lng": -76.7704606
+ },
+ {
+  "osm": "node/4388508136",
+  "name": "Tabernacle Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.3835589,
+  "lng": -77.4145592
+ },
+ {
+  "osm": "node/4395614491",
+  "name": "Universal Church",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.4745119,
+  "lng": -77.9220185
+ },
+ {
+  "osm": "node/4407624589",
+  "name": "Faith Christian Missionary Church of God",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.0240091,
+  "lng": -76.9589415
+ },
+ {
+  "osm": "node/4563700389",
+  "name": "Universal Church of the Kingdom of God",
+  "religion": "",
+  "denomination": "",
+  "lat": 17.9731039,
+  "lng": -76.766725
+ },
+ {
+  "osm": "node/4583363689",
+  "name": "Trespass",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.0023125,
+  "lng": -77.4960769
+ },
+ {
+  "osm": "node/4732579721",
+  "name": "Universal Church of the Kingdom of God",
+  "religion": "",
+  "denomination": "",
+  "lat": 17.9738016,
+  "lng": -76.7927289
+ },
+ {
+  "osm": "node/4740816575",
+  "name": "Sharon Baptist Church",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.0555724,
+  "lng": -77.7070099
+ },
+ {
+  "osm": "node/4743668470",
+  "name": "Greater Portmore Baptist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9472153,
+  "lng": -76.8962776
+ },
+ {
+  "osm": "node/4760449908",
+  "name": "Lititz Moravian Church",
+  "religion": "christian",
+  "denomination": "Moravian",
+  "lat": 17.9399084,
+  "lng": -77.5855654
+ },
+ {
+  "osm": "node/4762913186",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9259964,
+  "lng": -77.5884243
+ },
+ {
+  "osm": "node/4762914845",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9303944,
+  "lng": -77.5872576
+ },
+ {
+  "osm": "node/4773767748",
+  "name": "Greater Portmore Open Bible Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9396304,
+  "lng": -76.8959834
+ },
+ {
+  "osm": "node/4837332901",
+  "name": "Windsor Seventh-Day Adventist Church",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 18.1105359,
+  "lng": -76.4517515
+ },
+ {
+  "osm": "node/4865413978",
+  "name": "Pentecostal",
+  "religion": "christian",
+  "denomination": "pentecostal",
+  "lat": 18.3202622,
+  "lng": -77.4087804
+ },
+ {
+  "osm": "node/4913756065",
+  "name": "Trinity Moravian Church",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.0061358,
+  "lng": -76.8070074
+ },
+ {
+  "osm": "node/4923255879",
+  "name": "Portmore Holiness Christian Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9454711,
+  "lng": -76.8960126
+ },
+ {
+  "osm": "node/4943184189",
+  "name": "Portmore New Testament",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9513058,
+  "lng": -76.8783865
+ },
+ {
+  "osm": "node/4972546022",
+  "name": "Christ Cathedral Community Worship Centre",
+  "religion": "",
+  "denomination": "",
+  "lat": 17.9727727,
+  "lng": -77.5110375
+ },
+ {
+  "osm": "node/5110211921",
+  "name": "Askenish CFC",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.3918022,
+  "lng": -78.1508384
+ },
+ {
+  "osm": "node/5154125367",
+  "name": "North Jamaica Conference",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 18.4269015,
+  "lng": -77.1829565
+ },
+ {
+  "osm": "node/5158044170",
+  "name": "Mammee Bay Restoration",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4249277,
+  "lng": -77.1636428
+ },
+ {
+  "osm": "node/5158055321",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4250252,
+  "lng": -77.1647916
+ },
+ {
+  "osm": "node/5159860884",
+  "name": "Steer Town United Pentecostal Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4190221,
+  "lng": -77.161528
+ },
+ {
+  "osm": "node/5166597663",
+  "name": "New Testiment Church",
+  "religion": "christian",
+  "denomination": "methodist",
+  "lat": 18.4144571,
+  "lng": -77.1625156
+ },
+ {
+  "osm": "node/5166599569",
+  "name": "Mount Carmel Ebenezer",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4137649,
+  "lng": -77.161491
+ },
+ {
+  "osm": "node/5234204222",
+  "name": "Jehovah's Witnesses",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.048916,
+  "lng": -76.7266296
+ },
+ {
+  "osm": "node/5242159421",
+  "name": "Treasure Beach Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.8796028,
+  "lng": -77.7623955
+ },
+ {
+  "osm": "node/5302477224",
+  "name": "Church of Castel",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.130932,
+  "lng": -76.342213
+ },
+ {
+  "osm": "node/5316466414",
+  "name": "Woodbourne Seventh-Day Adventist Church",
+  "religion": "",
+  "denomination": "",
+  "lat": 17.9123392,
+  "lng": -76.588109
+ },
+ {
+  "osm": "node/5703579363",
+  "name": "Bethlehem Moravian Church",
+  "religion": "",
+  "denomination": "",
+  "lat": 17.9695626,
+  "lng": -77.6971156
+ },
+ {
+  "osm": "node/6213989885",
+  "name": "Prospect Apostolic Ark",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.1156875,
+  "lng": -77.8875345
+ },
+ {
+  "osm": "node/6282142488",
+  "name": "Bethesda Gospel Hall",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.0487302,
+  "lng": -77.4964593
+ },
+ {
+  "osm": "node/6466860407",
+  "name": "Billy's Bay Gospel Chapel",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.8929555,
+  "lng": -77.7810586
+ },
+ {
+  "osm": "node/6471359071",
+  "name": "Faith Tabernacle Deliverance Ministries",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.8755266,
+  "lng": -77.7432224
+ },
+ {
+  "osm": "node/6471359072",
+  "name": "seventh day adventist church pedro",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 17.8714013,
+  "lng": -77.7413073
+ },
+ {
+  "osm": "node/6481830985",
+  "name": "Salvation Army church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.8700938,
+  "lng": -77.7410803
+ },
+ {
+  "osm": "node/6481880484",
+  "name": "Great bay grace and truth assembly hall",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.8660833,
+  "lng": -77.7388689
+ },
+ {
+  "osm": "node/6551852231",
+  "name": "Saint Elizabeth Catholic Church",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 17.9969199,
+  "lng": -76.7999107
+ },
+ {
+  "osm": "node/6552022985",
+  "name": "New Jerusalem Bible",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 17.9964443,
+  "lng": -76.8132787
+ },
+ {
+  "osm": "node/6562084994",
+  "name": "Saint Thomas Aquinas Catholic Church",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 18.0070534,
+  "lng": -76.7399512
+ },
+ {
+  "osm": "node/6562132705",
+  "name": "Holy Name Catholic Church",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 17.9736127,
+  "lng": -76.7720774
+ },
+ {
+  "osm": "node/6564850256",
+  "name": "Holy Spirit Catholic Church",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 18.161878,
+  "lng": -77.7634138
+ },
+ {
+  "osm": "node/6571730171",
+  "name": "Saint Joseph Catholic Church",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 17.8983661,
+  "lng": -77.5023343
+ },
+ {
+  "osm": "node/6573733120",
+  "name": "Saint Gabriel Catholic Church",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 18.169284,
+  "lng": -77.6483015
+ },
+ {
+  "osm": "node/6573754643",
+  "name": "Saint Benedict Catholic Church",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 18.183639,
+  "lng": -77.3534435
+ },
+ {
+  "osm": "node/6573763519",
+  "name": "Saint Margaret Mary Catholic Church",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 17.8089203,
+  "lng": -77.2404179
+ },
+ {
+  "osm": "node/6575839700",
+  "name": "Saint Robert Bellarmine Catholic Church",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 18.0845892,
+  "lng": -77.2683222
+ },
+ {
+  "osm": "node/6659464031",
+  "name": "Treasure Beach pentecostal church of God (trinity)",
+  "religion": "christian",
+  "denomination": "pentecostal",
+  "lat": 17.8854876,
+  "lng": -77.7480893
+ },
+ {
+  "osm": "node/7295038860",
+  "name": "Waterford Seventh-Day Adventist Church",
+  "religion": "",
+  "denomination": "",
+  "lat": 17.9825271,
+  "lng": -76.8710493
+ },
+ {
+  "osm": "node/7549840889",
+  "name": "The Church of Jesus Christ of Latter-day Saints",
+  "religion": "christian",
+  "denomination": "mormon",
+  "lat": 18.4638294,
+  "lng": -77.9132682
+ },
+ {
+  "osm": "node/7549840890",
+  "name": "The Church of Jesus Christ of Latter-day Saints",
+  "religion": "christian",
+  "denomination": "mormon",
+  "lat": 17.9680244,
+  "lng": -77.2391499
+ },
+ {
+  "osm": "node/7563251238",
+  "name": "The Church of Jesus Christ of Latter-day Saints",
+  "religion": "christian",
+  "denomination": "mormon",
+  "lat": 17.9695863,
+  "lng": -76.8667667
+ },
+ {
+  "osm": "node/7563251239",
+  "name": "The Church of Jesus Christ of Latter-day Saints",
+  "religion": "christian",
+  "denomination": "mormon",
+  "lat": 17.9942031,
+  "lng": -76.7994205
+ },
+ {
+  "osm": "node/7563251240",
+  "name": "The Church of Jesus Christ of Latter-day Saints",
+  "religion": "christian",
+  "denomination": "mormon",
+  "lat": 18.0250047,
+  "lng": -76.7962965
+ },
+ {
+  "osm": "node/7659681885",
+  "name": "Saint James Parish Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4720222,
+  "lng": -77.9216569
+ },
+ {
+  "osm": "node/7759732410",
+  "name": "Palmer's Cross Seventh Day Adventist Church",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 17.9566201,
+  "lng": -77.2203657
+ },
+ {
+  "osm": "node/7774321708",
+  "name": "Lacovia New Testament Church of God",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.0865653,
+  "lng": -77.7621235
+ },
+ {
+  "osm": "node/7836264778",
+  "name": "Baillieston United Church",
+  "religion": "christian",
+  "denomination": "united_Church_of_Jamaica",
+  "lat": 18.1745533,
+  "lng": -77.4351017
+ },
+ {
+  "osm": "node/8079332234",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.013271,
+  "lng": -76.7417624
+ },
+ {
+  "osm": "node/8109246307",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0132954,
+  "lng": -76.7418021
+ },
+ {
+  "osm": "node/8109877894",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9872691,
+  "lng": -76.9934662
+ },
+ {
+  "osm": "node/8201179177",
+  "name": "Catholic Church",
+  "religion": "christian",
+  "denomination": "catholic",
+  "lat": 17.9541081,
+  "lng": -76.9020921
+ },
+ {
+  "osm": "node/8672046435",
+  "name": "Assemblies of God in Jamaica",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 18.4772551,
+  "lng": -77.8890184
+ },
+ {
+  "osm": "node/8720323175",
+  "name": "Wayside Church",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 18.4846567,
+  "lng": -77.913304
+ },
+ {
+  "osm": "node/9106256421",
+  "name": "Faith Walk Church of God of Prophecy",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9731309,
+  "lng": -76.87796
+ },
+ {
+  "osm": "node/9120300717",
+  "name": "Portmore Church Of Christ",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9827554,
+  "lng": -76.8802542
+ },
+ {
+  "osm": "node/9532706253",
+  "name": "Anglican Church",
+  "religion": "christian",
+  "denomination": "evangelical",
+  "lat": 18.3839493,
+  "lng": -77.162899
+ },
+ {
+  "osm": "node/9821319494",
+  "name": "Jeffrey Town New Testament Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2910769,
+  "lng": -77.0033477
+ },
+ {
+  "osm": "node/9821319503",
+  "name": "Jeffery Town Seventh Day Adventist Church",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 18.2864173,
+  "lng": -77.0069589
+ },
+ {
+  "osm": "node/9821319506",
+  "name": "Jeffrey Town New Apostolic Church",
+  "religion": "christian",
+  "denomination": "new_apostolic",
+  "lat": 18.2872736,
+  "lng": -77.0054537
+ },
+ {
+  "osm": "node/9821319507",
+  "name": "Jeffrey Town Full Truth Church of God Deliverance Center",
+  "religion": "christian",
+  "denomination": "full_truth_church_of_god",
+  "lat": 18.2873127,
+  "lng": -77.0058009
+ },
+ {
+  "osm": "node/10067182753",
+  "name": "Bath Methodist Church",
+  "religion": "",
+  "denomination": "",
+  "lat": 17.9481583,
+  "lng": -76.3486124
+ },
+ {
+  "osm": "node/10265135681",
+  "name": "City of Refuge Temple",
+  "religion": "",
+  "denomination": "",
+  "lat": 17.9947456,
+  "lng": -76.8050614
+ },
+ {
+  "osm": "node/11049750204",
+  "name": "The Apostolic Church of Jamaica",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.97701,
+  "lng": -76.7861
+ },
+ {
+  "osm": "node/11049752705",
+  "name": "Faith Temple New Testament Assembly in Christ",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.97762,
+  "lng": -76.7866
+ },
+ {
+  "osm": "node/11049752727",
+  "name": "St Mathews Allman Town",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.98276,
+  "lng": -76.7859
+ },
+ {
+  "osm": "node/11049752731",
+  "name": "New Testament Assembly In Christ",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9777,
+  "lng": -76.7867
+ },
+ {
+  "osm": "node/11049752732",
+  "name": "Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.97768,
+  "lng": -76.788
+ },
+ {
+  "osm": "node/11049752736",
+  "name": "Arnold Road Methodist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.98325,
+  "lng": -76.7835
+ },
+ {
+  "osm": "node/11049752771",
+  "name": "St. Paul's United Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9776214,
+  "lng": -76.7879013
+ },
+ {
+  "osm": "node/11049752780",
+  "name": "Gaines Memorial Chapel",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9833009,
+  "lng": -76.7836969
+ },
+ {
+  "osm": "node/11049752786",
+  "name": "New Life Assembly International",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9845543,
+  "lng": -76.786653
+ },
+ {
+  "osm": "node/12539865660",
+  "name": "Exchange Gospel Assembly",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4049898,
+  "lng": -77.0624966
+ },
+ {
+  "osm": "way/50284161",
+  "name": "Emmanuel Apostolic Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9640756,
+  "lng": -76.8902477
+ },
+ {
+  "osm": "way/132224622",
+  "name": "Wynter's Acres Seventh-day Adventist",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 18.0186479,
+  "lng": -76.98053
+ },
+ {
+  "osm": "way/132225295",
+  "name": "Seventh-day Adventist Villmore",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 18.0227482,
+  "lng": -76.9756275
+ },
+ {
+  "osm": "way/173106443",
+  "name": "Kencot Seventh-Day Adventist Church",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 18.002815,
+  "lng": -76.7948281
+ },
+ {
+  "osm": "way/205554568",
+  "name": "Bethlehem Gospel Assembly",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.023549,
+  "lng": -76.7968383
+ },
+ {
+  "osm": "way/220420785",
+  "name": "Beechamville Catholic Church",
+  "religion": "christian",
+  "denomination": "catholic",
+  "lat": 18.3264512,
+  "lng": -77.1678735
+ },
+ {
+  "osm": "way/220464538",
+  "name": "Steer Town Methodist Church",
+  "religion": "christian",
+  "denomination": "methodist",
+  "lat": 18.4152086,
+  "lng": -77.1630028
+ },
+ {
+  "osm": "way/220768764",
+  "name": "Word of Hope SDA",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4231042,
+  "lng": -77.1735874
+ },
+ {
+  "osm": "way/221700906",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9537952,
+  "lng": -76.7237868
+ },
+ {
+  "osm": "way/221714229",
+  "name": "St. Mark's Methodist Church",
+  "religion": "christian",
+  "denomination": "methodist",
+  "lat": 17.9570685,
+  "lng": -76.7227251
+ },
+ {
+  "osm": "way/223084364",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9425929,
+  "lng": -77.1092257
+ },
+ {
+  "osm": "way/223086907",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.938299,
+  "lng": -77.1097916
+ },
+ {
+  "osm": "way/223086980",
+  "name": "Church of Our Lord Jesus Christ",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9355059,
+  "lng": -77.1107535
+ },
+ {
+  "osm": "way/223088114",
+  "name": "The New Testament Church of God",
+  "religion": "christian",
+  "denomination": "church_of_god",
+  "lat": 17.9370005,
+  "lng": -77.1198232
+ },
+ {
+  "osm": "way/223144912",
+  "name": "Old Harbour Evangelistic Centre",
+  "religion": "christian",
+  "denomination": "evangelical",
+  "lat": 17.9320988,
+  "lng": -77.1061436
+ },
+ {
+  "osm": "way/223146146",
+  "name": "Old Harbour Baptist Church",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 17.9463134,
+  "lng": -77.1101695
+ },
+ {
+  "osm": "way/223208636",
+  "name": "Kingdom Hall",
+  "religion": "christian",
+  "denomination": "jehovahs_witness",
+  "lat": 17.949825,
+  "lng": -77.1038163
+ },
+ {
+  "osm": "way/223332906",
+  "name": "All Saints Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9747749,
+  "lng": -76.7954992
+ },
+ {
+  "osm": "way/225365007",
+  "name": "Seventh-day Adventist Church Ebenezer",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 17.9898695,
+  "lng": -76.9443515
+ },
+ {
+  "osm": "way/226140535",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9991423,
+  "lng": -76.9569804
+ },
+ {
+  "osm": "way/226140536",
+  "name": "Philippo Baptist Church",
+  "religion": "",
+  "denomination": "",
+  "lat": 17.9980412,
+  "lng": -76.9584316
+ },
+ {
+  "osm": "way/226445679",
+  "name": "Jamal Ahammad",
+  "religion": "christian",
+  "denomination": "evangelical",
+  "lat": 18.0019714,
+  "lng": -76.9633759
+ },
+ {
+  "osm": "way/226704811",
+  "name": "Duncans Methodist",
+  "religion": "christian",
+  "denomination": "methodist",
+  "lat": 18.461137,
+  "lng": -77.5378065
+ },
+ {
+  "osm": "way/230150139",
+  "name": "Rehoboth Apostolic",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9791425,
+  "lng": -76.8767964
+ },
+ {
+  "osm": "way/230901627",
+  "name": "RAC Williamsfield Branch",
+  "religion": "christian",
+  "denomination": "anglican",
+  "lat": 18.0716169,
+  "lng": -77.4665201
+ },
+ {
+  "osm": "way/246189266",
+  "name": "Victory Open Bible Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9835616,
+  "lng": -76.9359615
+ },
+ {
+  "osm": "way/246871111",
+  "name": "St Boniface Church",
+  "religion": "christian",
+  "denomination": "anglican",
+  "lat": 17.9473639,
+  "lng": -76.7170795
+ },
+ {
+  "osm": "way/247283122",
+  "name": "Mandeville Parish Church (1820)",
+  "religion": "christian",
+  "denomination": "anglican",
+  "lat": 18.037632,
+  "lng": -77.5079683
+ },
+ {
+  "osm": "way/247288750",
+  "name": "First Assembly of God",
+  "religion": "christian",
+  "denomination": "assemblies_of_god",
+  "lat": 18.0336181,
+  "lng": -77.5014331
+ },
+ {
+  "osm": "way/247288808",
+  "name": "Saint Paul of the Cross Cathedral",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 18.031069,
+  "lng": -77.5035315
+ },
+ {
+  "osm": "way/247475280",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4102006,
+  "lng": -77.1039256
+ },
+ {
+  "osm": "way/247475285",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4102451,
+  "lng": -77.1043667
+ },
+ {
+  "osm": "way/251832458",
+  "name": "Church of the Resurrection",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.030327,
+  "lng": -76.8430589
+ },
+ {
+  "osm": "way/269409948",
+  "name": "St. Gabriel's Anglican Church",
+  "religion": "christian",
+  "denomination": "anglican",
+  "lat": 17.9687511,
+  "lng": -77.247148
+ },
+ {
+  "osm": "way/287523506",
+  "name": "Branch Office of Jehovah's Witnesses",
+  "religion": "",
+  "denomination": "jehovahs_witness",
+  "lat": 17.9496627,
+  "lng": -77.0998097
+ },
+ {
+  "osm": "way/296160942",
+  "name": "Holy Trinity Cathedral",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 17.9753462,
+  "lng": -76.7841947
+ },
+ {
+  "osm": "way/307770451",
+  "name": "The Word of Faith Deliverance Center",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4622911,
+  "lng": -77.921692
+ },
+ {
+  "osm": "way/307773448",
+  "name": "Holiness Christian Church Catherine Hall",
+  "religion": "christian",
+  "denomination": "pentecostal",
+  "lat": 18.4623095,
+  "lng": -77.9198114
+ },
+ {
+  "osm": "way/309504131",
+  "name": "Immaculate Heart of Mary",
+  "religion": "christian",
+  "denomination": "catholic",
+  "lat": 18.463026,
+  "lng": -77.3921181
+ },
+ {
+  "osm": "way/330862784",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.3897807,
+  "lng": -78.2728474
+ },
+ {
+  "osm": "way/335369249",
+  "name": "Port Antonio Methodist Church",
+  "religion": "christian",
+  "denomination": "methodist",
+  "lat": 18.1779713,
+  "lng": -76.4510059
+ },
+ {
+  "osm": "way/335369251",
+  "name": "Christ Church (1840)",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1771215,
+  "lng": -76.4498685
+ },
+ {
+  "osm": "way/353892644",
+  "name": "Providence Methodist Church",
+  "religion": "christian",
+  "denomination": "methodist",
+  "lat": 18.0196641,
+  "lng": -76.7673812
+ },
+ {
+  "osm": "way/353893680",
+  "name": "Adventist Church",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 18.4503542,
+  "lng": -78.0777051
+ },
+ {
+  "osm": "way/353895534",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0280172,
+  "lng": -76.8434665
+ },
+ {
+  "osm": "way/353895816",
+  "name": "Providence Methodist Church",
+  "religion": "christian",
+  "denomination": "methodist",
+  "lat": 18.0191428,
+  "lng": -76.767637
+ },
+ {
+  "osm": "way/353898192",
+  "name": "Church Building",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 18.0083703,
+  "lng": -76.7973185
+ },
+ {
+  "osm": "way/353899901",
+  "name": "Church of God Rock of Holiness",
+  "religion": "christian",
+  "denomination": "orthodox",
+  "lat": 17.9902448,
+  "lng": -76.957595
+ },
+ {
+  "osm": "way/353902541",
+  "name": "First Baptist Church",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 18.016042,
+  "lng": -76.8014315
+ },
+ {
+  "osm": "way/353904110",
+  "name": "Norwood Apostolic Lighthouse",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.4955104,
+  "lng": -77.8993457
+ },
+ {
+  "osm": "way/356360302",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1736413,
+  "lng": -76.4456809
+ },
+ {
+  "osm": "way/356360305",
+  "name": "Kingdom Hall of Jehovah's Witnesses",
+  "religion": "christian",
+  "denomination": "jehovahs_witness",
+  "lat": 18.1771181,
+  "lng": -76.4577751
+ },
+ {
+  "osm": "way/364068219",
+  "name": "Bethany Gospel Hall",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0092978,
+  "lng": -76.8005223
+ },
+ {
+  "osm": "way/368293418",
+  "name": "Kettering Baptist",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 18.4683157,
+  "lng": -77.5352901
+ },
+ {
+  "osm": "way/369247490",
+  "name": "Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4083848,
+  "lng": -77.0784168
+ },
+ {
+  "osm": "way/369325537",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4059454,
+  "lng": -77.1009492
+ },
+ {
+  "osm": "way/369546445",
+  "name": "Our Lady of Fatima",
+  "religion": "christian",
+  "denomination": "catholic",
+  "lat": 18.4125382,
+  "lng": -77.0984622
+ },
+ {
+  "osm": "way/369565354",
+  "name": "Shiloh Apostolic Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1747885,
+  "lng": -76.4483491
+ },
+ {
+  "osm": "way/370041229",
+  "name": "Port Antonio Baptist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1766105,
+  "lng": -76.4542805
+ },
+ {
+  "osm": "way/370099373",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1679114,
+  "lng": -76.4467385
+ },
+ {
+  "osm": "way/370101858",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1743874,
+  "lng": -76.4472436
+ },
+ {
+  "osm": "way/370108097",
+  "name": "Salvation Army Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1773486,
+  "lng": -76.4549426
+ },
+ {
+  "osm": "way/370130270",
+  "name": "New Testament Church of God Port Antonio",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1780615,
+  "lng": -76.4559661
+ },
+ {
+  "osm": "way/370249344",
+  "name": "Port Antionio SDA",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1765029,
+  "lng": -76.450942
+ },
+ {
+  "osm": "way/370250844",
+  "name": "New Testament Assembly Church Of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.176665,
+  "lng": -76.4487933
+ },
+ {
+  "osm": "way/370257057",
+  "name": "United Pentecostal Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.174612,
+  "lng": -76.4507228
+ },
+ {
+  "osm": "way/370257060",
+  "name": "Assembly of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.174012,
+  "lng": -76.4491894
+ },
+ {
+  "osm": "way/370278639",
+  "name": "The Wesleyan Holiness Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.180764,
+  "lng": -76.4636134
+ },
+ {
+  "osm": "way/370376537",
+  "name": "Church of the Ascension",
+  "religion": "christian",
+  "denomination": "anglican",
+  "lat": 18.0150673,
+  "lng": -76.7471408
+ },
+ {
+  "osm": "way/370376538",
+  "name": "Hope United Church",
+  "religion": "christian",
+  "denomination": "united_reformed",
+  "lat": 18.0167512,
+  "lng": -76.7484218
+ },
+ {
+  "osm": "way/370377595",
+  "name": "Saint Margaret's",
+  "religion": "christian",
+  "denomination": "anglican",
+  "lat": 18.0192657,
+  "lng": -76.7616522
+ },
+ {
+  "osm": "way/370576009",
+  "name": "Beulah Temple Pentecostal Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2022432,
+  "lng": -76.5644996
+ },
+ {
+  "osm": "way/370587966",
+  "name": "Methodist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.233581,
+  "lng": -76.6601259
+ },
+ {
+  "osm": "way/370587970",
+  "name": "Emmanuel Gospel Hall",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2304107,
+  "lng": -76.662095
+ },
+ {
+  "osm": "way/370589057",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2283047,
+  "lng": -76.6636595
+ },
+ {
+  "osm": "way/370589671",
+  "name": "Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2328353,
+  "lng": -76.6614127
+ },
+ {
+  "osm": "way/370590154",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.226775,
+  "lng": -76.6622976
+ },
+ {
+  "osm": "way/370593037",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2343114,
+  "lng": -76.6580414
+ },
+ {
+  "osm": "way/370608940",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2030876,
+  "lng": -76.562624
+ },
+ {
+  "osm": "way/370612881",
+  "name": "Buff Bay United Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2329219,
+  "lng": -76.6567549
+ },
+ {
+  "osm": "way/370613584",
+  "name": "Church of Prophecy Buff Bay",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2320654,
+  "lng": -76.6619227
+ },
+ {
+  "osm": "way/370613868",
+  "name": "Seventh Day Adventist",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2326087,
+  "lng": -76.66035
+ },
+ {
+  "osm": "way/370628156",
+  "name": "Calvary Holiness Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.258492,
+  "lng": -76.6956266
+ },
+ {
+  "osm": "way/370652723",
+  "name": "St Theresa's",
+  "religion": "christian",
+  "denomination": "catholic",
+  "lat": 18.2736602,
+  "lng": -76.764252
+ },
+ {
+  "osm": "way/370653866",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2734026,
+  "lng": -76.7633569
+ },
+ {
+  "osm": "way/370654872",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2748609,
+  "lng": -76.7628309
+ },
+ {
+  "osm": "way/370654874",
+  "name": "Church of God of Prophey",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.271719,
+  "lng": -76.7662648
+ },
+ {
+  "osm": "way/370655368",
+  "name": "Universal Church of the Kingdom of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2706785,
+  "lng": -76.7706421
+ },
+ {
+  "osm": "way/370655687",
+  "name": "Annotto Bay Baptist Church (1823)",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2707176,
+  "lng": -76.7719053
+ },
+ {
+  "osm": "way/370656287",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2707456,
+  "lng": -76.7735253
+ },
+ {
+  "osm": "way/370669006",
+  "name": "Windsor Castle Baptist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.257899,
+  "lng": -76.69398
+ },
+ {
+  "osm": "way/370669480",
+  "name": "United Pentecostal Church of JA",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2707501,
+  "lng": -76.767954
+ },
+ {
+  "osm": "way/370669669",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2702761,
+  "lng": -76.7709909
+ },
+ {
+  "osm": "way/370669947",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2701624,
+  "lng": -76.7729978
+ },
+ {
+  "osm": "way/370753824",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.3687527,
+  "lng": -76.8929375
+ },
+ {
+  "osm": "way/370755543",
+  "name": "The Salvation Army",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.3720448,
+  "lng": -76.8915451
+ },
+ {
+  "osm": "way/370757386",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.3698892,
+  "lng": -76.8882477
+ },
+ {
+  "osm": "way/370758266",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.3737372,
+  "lng": -76.8933135
+ },
+ {
+  "osm": "way/370767104",
+  "name": "Assemblies of Holiness",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4116713,
+  "lng": -76.9376644
+ },
+ {
+  "osm": "way/370793664",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.291745,
+  "lng": -76.8675906
+ },
+ {
+  "osm": "way/370809870",
+  "name": "Emmanuel Apostolic Church Port Maria",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.366035,
+  "lng": -76.8940335
+ },
+ {
+  "osm": "way/370810575",
+  "name": "Emmanuel Baptist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.3719877,
+  "lng": -76.8937365
+ },
+ {
+  "osm": "way/370812796",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4072872,
+  "lng": -76.9448035
+ },
+ {
+  "osm": "way/370813693",
+  "name": "Boscobel United Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.3990307,
+  "lng": -76.9651595
+ },
+ {
+  "osm": "way/371063104",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.419524,
+  "lng": -77.0374674
+ },
+ {
+  "osm": "way/371063447",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4053976,
+  "lng": -76.9760854
+ },
+ {
+  "osm": "way/371236120",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4358381,
+  "lng": -77.2014717
+ },
+ {
+  "osm": "way/371284813",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4354917,
+  "lng": -77.2031798
+ },
+ {
+  "osm": "way/371284814",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4358183,
+  "lng": -77.2031166
+ },
+ {
+  "osm": "way/371294909",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4372637,
+  "lng": -77.2054933
+ },
+ {
+  "osm": "way/371372086",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0056858,
+  "lng": -76.8008248
+ },
+ {
+  "osm": "way/371373052",
+  "name": "St. Andrew Parish Church",
+  "religion": "christian",
+  "denomination": "anglican",
+  "lat": 18.0102851,
+  "lng": -76.7995693
+ },
+ {
+  "osm": "way/371375904",
+  "name": "Hope Fellowship Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0136326,
+  "lng": -76.8044125
+ },
+ {
+  "osm": "way/371377638",
+  "name": "Tarrant Baptist",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 18.0156607,
+  "lng": -76.8078695
+ },
+ {
+  "osm": "way/371391071",
+  "name": "Calvary Gospel Assembly",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0210908,
+  "lng": -76.8176201
+ },
+ {
+  "osm": "way/371395394",
+  "name": "Church of St. Mary the Virgin",
+  "religion": "christian",
+  "denomination": "anglican",
+  "lat": 18.0246948,
+  "lng": -76.8216445
+ },
+ {
+  "osm": "way/371397583",
+  "name": "Church of the Open Bible",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0261829,
+  "lng": -76.8350013
+ },
+ {
+  "osm": "way/371444667",
+  "name": "Kingdom Restoration",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4760898,
+  "lng": -77.9227045
+ },
+ {
+  "osm": "way/371513965",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.5026773,
+  "lng": -77.8986834
+ },
+ {
+  "osm": "way/371515448",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4870178,
+  "lng": -77.9047197
+ },
+ {
+  "osm": "way/371534132",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4730567,
+  "lng": -77.8904712
+ },
+ {
+  "osm": "way/371544322",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.474599,
+  "lng": -77.9220437
+ },
+ {
+  "osm": "way/371545632",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4594072,
+  "lng": -77.9185538
+ },
+ {
+  "osm": "way/371545633",
+  "name": "Westgreen Jamaica Bible Church",
+  "religion": "christian",
+  "denomination": "pentecostal",
+  "lat": 18.4621291,
+  "lng": -77.9184513
+ },
+ {
+  "osm": "way/371547446",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4626498,
+  "lng": -77.913045
+ },
+ {
+  "osm": "way/371749857",
+  "name": "Family Life Ministries",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.0090167,
+  "lng": -76.7937769
+ },
+ {
+  "osm": "way/371820280",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.026395,
+  "lng": -76.8452372
+ },
+ {
+  "osm": "way/371924348",
+  "name": "",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 17.9693278,
+  "lng": -77.3052546
+ },
+ {
+  "osm": "way/371926504",
+  "name": "Bethel Open Bible Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9668194,
+  "lng": -77.3259781
+ },
+ {
+  "osm": "way/371927849",
+  "name": "Church of God World Fellowship",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9652616,
+  "lng": -77.3319354
+ },
+ {
+  "osm": "way/371929260",
+  "name": "St. Jude Thaddeus Golden Faith",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9639265,
+  "lng": -77.3372911
+ },
+ {
+  "osm": "way/371934375",
+  "name": "Jubilee Baptist",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 17.9697777,
+  "lng": -77.3497335
+ },
+ {
+  "osm": "way/371936193",
+  "name": "Christ Temple Apostolic",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9707286,
+  "lng": -77.3564392
+ },
+ {
+  "osm": "way/371946749",
+  "name": "Diocese of Jamaica and the Cayman Islands",
+  "religion": "christian",
+  "denomination": "catholic",
+  "lat": 17.9728334,
+  "lng": -77.359903
+ },
+ {
+  "osm": "way/371948339",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9766736,
+  "lng": -77.3626706
+ },
+ {
+  "osm": "way/371958912",
+  "name": "Scotts Pass Church Of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0099132,
+  "lng": -77.3844897
+ },
+ {
+  "osm": "way/371961195",
+  "name": "Kingdom Hall of the Jehovah's Witnesses",
+  "religion": "christian",
+  "denomination": "jehovahs_witness",
+  "lat": 18.0283492,
+  "lng": -77.3920399
+ },
+ {
+  "osm": "way/371962544",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0322251,
+  "lng": -77.3942962
+ },
+ {
+  "osm": "way/371962987",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0348404,
+  "lng": -77.398315
+ },
+ {
+  "osm": "way/371962988",
+  "name": "Open Bible Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0343449,
+  "lng": -77.4002882
+ },
+ {
+  "osm": "way/371963915",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0350342,
+  "lng": -77.4051507
+ },
+ {
+  "osm": "way/371968516",
+  "name": "Trinity Baptist Church",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 18.034799,
+  "lng": -77.4106423
+ },
+ {
+  "osm": "way/372055511",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0359392,
+  "lng": -77.4160311
+ },
+ {
+  "osm": "way/372056071",
+  "name": "",
+  "religion": "christian",
+  "denomination": "methodist",
+  "lat": 18.036417,
+  "lng": -77.4195158
+ },
+ {
+  "osm": "way/372060160",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0674681,
+  "lng": -77.5063996
+ },
+ {
+  "osm": "way/372064516",
+  "name": "The Church of Jesus Christ of Latter-day Saints",
+  "religion": "christian",
+  "denomination": "mormon",
+  "lat": 18.0277284,
+  "lng": -77.5383859
+ },
+ {
+  "osm": "way/372064518",
+  "name": "Hatfield Assembly of God",
+  "religion": "christian",
+  "denomination": "assemblies_of_god",
+  "lat": 18.0274799,
+  "lng": -77.5377587
+ },
+ {
+  "osm": "way/372065613",
+  "name": "Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0126472,
+  "lng": -77.5429206
+ },
+ {
+  "osm": "way/372077635",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0373357,
+  "lng": -77.6262224
+ },
+ {
+  "osm": "way/372077636",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0416972,
+  "lng": -77.6294487
+ },
+ {
+  "osm": "way/372078881",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0514556,
+  "lng": -77.6393209
+ },
+ {
+  "osm": "way/372079908",
+  "name": "St. Andrews Anglican Church",
+  "religion": "christian",
+  "denomination": "anglican",
+  "lat": 18.0504147,
+  "lng": -77.6644541
+ },
+ {
+  "osm": "way/372096097",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0537016,
+  "lng": -77.6935407
+ },
+ {
+  "osm": "way/372102097",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0547803,
+  "lng": -77.6966379
+ },
+ {
+  "osm": "way/372112248",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0575547,
+  "lng": -77.6998847
+ },
+ {
+  "osm": "way/372221289",
+  "name": "First Triumphant Church of Jesus Christ Apostolic",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9941357,
+  "lng": -76.9837787
+ },
+ {
+  "osm": "way/372225041",
+  "name": "Holy Cross",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0425265,
+  "lng": -77.6956202
+ },
+ {
+  "osm": "way/372225224",
+  "name": "Grace Baptist Church",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 18.0412702,
+  "lng": -77.6955145
+ },
+ {
+  "osm": "way/372256191",
+  "name": "Seventh Day Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.004734,
+  "lng": -76.985017
+ },
+ {
+  "osm": "way/372287283",
+  "name": "Greendale United Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9966468,
+  "lng": -76.9462796
+ },
+ {
+  "osm": "way/372287284",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9957639,
+  "lng": -76.9460653
+ },
+ {
+  "osm": "way/372346076",
+  "name": "Praise Sanctuary",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9895753,
+  "lng": -76.9610076
+ },
+ {
+  "osm": "way/372350441",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.993559,
+  "lng": -76.9683288
+ },
+ {
+  "osm": "way/372350445",
+  "name": "Deeper Life Christian Church of Jamaica",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9946274,
+  "lng": -76.9710634
+ },
+ {
+  "osm": "way/372352563",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0231524,
+  "lng": -77.5595741
+ },
+ {
+  "osm": "way/372352564",
+  "name": "Fairfield Mountain Moravian Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.026044,
+  "lng": -77.5581203
+ },
+ {
+  "osm": "way/372353148",
+  "name": "Fairfield Mountain Apostolic Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0297465,
+  "lng": -77.5500932
+ },
+ {
+  "osm": "way/372355298",
+  "name": "Kingdom Hall of Jehovah's Witnesses",
+  "religion": "christian",
+  "denomination": "jehovahs_witness",
+  "lat": 18.0303076,
+  "lng": -77.5387504
+ },
+ {
+  "osm": "way/372368282",
+  "name": "Seventh Day Adventist Church St. Johns",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0035914,
+  "lng": -76.9864654
+ },
+ {
+  "osm": "way/372372326",
+  "name": "Mandeville Seventh-day Adventist Church",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 18.0441926,
+  "lng": -77.5100594
+ },
+ {
+  "osm": "way/372389680",
+  "name": "Church of God for Jamaica",
+  "religion": "christian",
+  "denomination": "church_of_god",
+  "lat": 18.0456315,
+  "lng": -77.5129017
+ },
+ {
+  "osm": "way/372389688",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.048404,
+  "lng": -77.5164077
+ },
+ {
+  "osm": "way/372389723",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0396539,
+  "lng": -77.5157971
+ },
+ {
+  "osm": "way/372389728",
+  "name": "The Church of Jesus Christ of Latter-day Saints",
+  "religion": "christian",
+  "denomination": "mormon",
+  "lat": 18.041409,
+  "lng": -77.5144821
+ },
+ {
+  "osm": "way/372399431",
+  "name": "PGMI (Power of God Ministries International)",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0385986,
+  "lng": -77.5124455
+ },
+ {
+  "osm": "way/372662228",
+  "name": "Faith Temple Assemblies of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.472878,
+  "lng": -77.9161792
+ },
+ {
+  "osm": "way/372760962",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1164409,
+  "lng": -77.0124814
+ },
+ {
+  "osm": "way/372766338",
+  "name": "Living Waters Christian Centre",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0256713,
+  "lng": -77.506327
+ },
+ {
+  "osm": "way/372766339",
+  "name": "Seventh Day Adventist Church Waltham",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 18.026284,
+  "lng": -77.5064484
+ },
+ {
+  "osm": "way/372774744",
+  "name": "Wesleyan Holiness Church Knockpatrick",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9979767,
+  "lng": -77.5017765
+ },
+ {
+  "osm": "way/372833725",
+  "name": "Cathedral of St. Jago de la Vega (1843)",
+  "religion": "christian",
+  "denomination": "anglican",
+  "lat": 17.9943867,
+  "lng": -76.952154
+ },
+ {
+  "osm": "way/372841533",
+  "name": "Grace Baptist Church",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 18.0408201,
+  "lng": -77.5033997
+ },
+ {
+  "osm": "way/372841534",
+  "name": "Grace Baptist Church",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 18.0408473,
+  "lng": -77.5032638
+ },
+ {
+  "osm": "way/372846626",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4694001,
+  "lng": -77.9206645
+ },
+ {
+  "osm": "way/372850568",
+  "name": "Saint James Parish Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.472049,
+  "lng": -77.9216356
+ },
+ {
+  "osm": "way/372851452",
+  "name": "First Churh Open Bible",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4719704,
+  "lng": -77.9190983
+ },
+ {
+  "osm": "way/372852650",
+  "name": "St John's Methodist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4713929,
+  "lng": -77.9167834
+ },
+ {
+  "osm": "way/372860561",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0331038,
+  "lng": -77.5043024
+ },
+ {
+  "osm": "way/372870130",
+  "name": "The Salvation Army",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9948821,
+  "lng": -76.9519329
+ },
+ {
+  "osm": "way/372873389",
+  "name": "Wesley Methodist Church",
+  "religion": "christian",
+  "denomination": "methodist",
+  "lat": 18.0360045,
+  "lng": -77.5060998
+ },
+ {
+  "osm": "way/372873628",
+  "name": "St Mary Magdalene",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4474737,
+  "lng": -77.9006629
+ },
+ {
+  "osm": "way/372882698",
+  "name": "Baptist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4464295,
+  "lng": -77.899364
+ },
+ {
+  "osm": "way/372883761",
+  "name": "The Apostolic and Pentecostal Church",
+  "religion": "christian",
+  "denomination": "pentecostal",
+  "lat": 18.0557832,
+  "lng": -77.5169261
+ },
+ {
+  "osm": "way/372884557",
+  "name": "New Testament Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0562837,
+  "lng": -77.5130089
+ },
+ {
+  "osm": "way/372884558",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0565039,
+  "lng": -77.5130116
+ },
+ {
+  "osm": "way/372884559",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0564071,
+  "lng": -77.5128131
+ },
+ {
+  "osm": "way/372885694",
+  "name": "Kingdom Hall of Jehovah's Witnesses",
+  "religion": "christian",
+  "denomination": "jehovahs_witness",
+  "lat": 18.055147,
+  "lng": -77.5107633
+ },
+ {
+  "osm": "way/372888121",
+  "name": "Jamaica Evangelistic Association",
+  "religion": "christian",
+  "denomination": "evangelical",
+  "lat": 18.0470651,
+  "lng": -77.5060242
+ },
+ {
+  "osm": "way/372888372",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4454111,
+  "lng": -77.9018649
+ },
+ {
+  "osm": "way/372888373",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4451391,
+  "lng": -77.9022107
+ },
+ {
+  "osm": "way/373029013",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0459863,
+  "lng": -77.4988556
+ },
+ {
+  "osm": "way/373034997",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0501224,
+  "lng": -77.4857659
+ },
+ {
+  "osm": "way/373041054",
+  "name": "Seventh Day Adventist Church",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 18.0561015,
+  "lng": -77.4764019
+ },
+ {
+  "osm": "way/373046427",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0597538,
+  "lng": -77.4698191
+ },
+ {
+  "osm": "way/373075060",
+  "name": "Praise Temple Evangelical Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0274905,
+  "lng": -76.9773177
+ },
+ {
+  "osm": "way/373078943",
+  "name": "Lighthouse Cornerstone Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0732843,
+  "lng": -77.4609224
+ },
+ {
+  "osm": "way/373094151",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4536469,
+  "lng": -78.0155456
+ },
+ {
+  "osm": "way/373113198",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0318071,
+  "lng": -77.4024804
+ },
+ {
+  "osm": "way/373229509",
+  "name": "Lucea Methodist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4465879,
+  "lng": -78.1725009
+ },
+ {
+  "osm": "way/373230784",
+  "name": "Hanover Parish Church (1725)",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4509332,
+  "lng": -78.1685447
+ },
+ {
+  "osm": "way/373230786",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4517431,
+  "lng": -78.1703853
+ },
+ {
+  "osm": "way/373251339",
+  "name": "Scott's Pass Church of Christ",
+  "religion": "christian",
+  "denomination": "church_of_christ",
+  "lat": 18.0076599,
+  "lng": -77.3836361
+ },
+ {
+  "osm": "way/373262274",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4496364,
+  "lng": -78.0779409
+ },
+ {
+  "osm": "way/373265335",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9710638,
+  "lng": -77.3593626
+ },
+ {
+  "osm": "way/373277162",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.441483,
+  "lng": -78.1703979
+ },
+ {
+  "osm": "way/373277164",
+  "name": "The Assemblies of Holiness Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4421446,
+  "lng": -78.1705916
+ },
+ {
+  "osm": "way/373283058",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4476775,
+  "lng": -78.1709148
+ },
+ {
+  "osm": "way/373283761",
+  "name": "Walton Hall",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.450738,
+  "lng": -78.1693738
+ },
+ {
+  "osm": "way/373287277",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4465905,
+  "lng": -78.1737298
+ },
+ {
+  "osm": "way/373321479",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9692435,
+  "lng": -77.2933317
+ },
+ {
+  "osm": "way/373327671",
+  "name": "Sunbeam School",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0440336,
+  "lng": -76.8171381
+ },
+ {
+  "osm": "way/373330208",
+  "name": "",
+  "religion": "christian",
+  "denomination": "church_of_god",
+  "lat": 17.9709925,
+  "lng": -77.2943163
+ },
+ {
+  "osm": "way/373336745",
+  "name": "Saint Johns the Evangelist",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0383421,
+  "lng": -76.7983391
+ },
+ {
+  "osm": "way/373339222",
+  "name": "The Church of Jesus Christ of Latter-day Saints",
+  "religion": "christian",
+  "denomination": "mormon",
+  "lat": 18.1766013,
+  "lng": -76.4484931
+ },
+ {
+  "osm": "way/373339431",
+  "name": "Blessed Sacrament Cathedral",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 18.4775306,
+  "lng": -77.923621
+ },
+ {
+  "osm": "way/373339644",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0250249,
+  "lng": -76.7962276
+ },
+ {
+  "osm": "way/373342766",
+  "name": "Church on the Rock",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0438343,
+  "lng": -76.7978207
+ },
+ {
+  "osm": "way/373344081",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9732496,
+  "lng": -77.272991
+ },
+ {
+  "osm": "way/373356082",
+  "name": "Paris Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4735725,
+  "lng": -77.9221661
+ },
+ {
+  "osm": "way/373356089",
+  "name": "Burchell Memorial Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4735321,
+  "lng": -77.9209021
+ },
+ {
+  "osm": "way/373427463",
+  "name": "Unity Faith Centre Church",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.4738331,
+  "lng": -77.9181331
+ },
+ {
+  "osm": "way/373431033",
+  "name": "United Church in Jamaica",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9737661,
+  "lng": -77.2671264
+ },
+ {
+  "osm": "way/373431034",
+  "name": "Kingdom Hall of Jehovahs Witness",
+  "religion": "christian",
+  "denomination": "jehovahs_witness",
+  "lat": 17.9741689,
+  "lng": -77.2668436
+ },
+ {
+  "osm": "way/373431043",
+  "name": "Deeper Life Bible Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9739313,
+  "lng": -77.2647525
+ },
+ {
+  "osm": "way/373432863",
+  "name": "Church of Christ",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9951481,
+  "lng": -76.7400396
+ },
+ {
+  "osm": "way/373432865",
+  "name": "New Testament Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9960362,
+  "lng": -76.7436311
+ },
+ {
+  "osm": "way/373432906",
+  "name": "New Testament Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9738457,
+  "lng": -77.2535359
+ },
+ {
+  "osm": "way/373436563",
+  "name": "Bethlehem Reform Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0184763,
+  "lng": -76.7407008
+ },
+ {
+  "osm": "way/373438551",
+  "name": "Harbour View Gospel Chapel",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9544759,
+  "lng": -76.7185121
+ },
+ {
+  "osm": "way/373438562",
+  "name": "Hill Hope",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9458453,
+  "lng": -76.6921413
+ },
+ {
+  "osm": "way/373446626",
+  "name": "Saint Patrick's Church",
+  "religion": "christian",
+  "denomination": "anglican",
+  "lat": 17.9744264,
+  "lng": -76.7562056
+ },
+ {
+  "osm": "way/373446629",
+  "name": "Holy Temple Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.973833,
+  "lng": -76.7571356
+ },
+ {
+  "osm": "way/373451922",
+  "name": "SDA Body of Christ",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9738203,
+  "lng": -76.7562849
+ },
+ {
+  "osm": "way/373468396",
+  "name": "Church of God",
+  "religion": "christian",
+  "denomination": "church_of_god",
+  "lat": 17.9742123,
+  "lng": -77.2459972
+ },
+ {
+  "osm": "way/373468397",
+  "name": "Church of God and Christ Jesus Apostolic",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9752776,
+  "lng": -77.2460548
+ },
+ {
+  "osm": "way/373470681",
+  "name": "The Jamaica Council Church of God",
+  "religion": "christian",
+  "denomination": "church_of_god",
+  "lat": 17.9791201,
+  "lng": -77.2467661
+ },
+ {
+  "osm": "way/373522777",
+  "name": "Church Building",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 17.9664164,
+  "lng": -77.2444632
+ },
+ {
+  "osm": "way/373522779",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9651177,
+  "lng": -77.2434784
+ },
+ {
+  "osm": "way/373522783",
+  "name": "Church of God Open Bible",
+  "religion": "christian",
+  "denomination": "church_of_god",
+  "lat": 17.9645235,
+  "lng": -77.2416773
+ },
+ {
+  "osm": "way/373539199",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9741467,
+  "lng": -77.2421311
+ },
+ {
+  "osm": "way/373543872",
+  "name": "Mount Faith Deliverance Tabernacle",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9658447,
+  "lng": -77.2390195
+ },
+ {
+  "osm": "way/373908297",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9493685,
+  "lng": -77.2042766
+ },
+ {
+  "osm": "way/373908557",
+  "name": "Church of the Open Bible",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9762465,
+  "lng": -76.8016936
+ },
+ {
+  "osm": "way/373911312",
+  "name": "Church of God of Prophecy",
+  "religion": "christian",
+  "denomination": "church_of_god",
+  "lat": 17.9890867,
+  "lng": -76.8082076
+ },
+ {
+  "osm": "way/373918741",
+  "name": "The Maxfield Chapel",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0008026,
+  "lng": -76.8037224
+ },
+ {
+  "osm": "way/373980926",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9394161,
+  "lng": -77.1856798
+ },
+ {
+  "osm": "way/373980927",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9384741,
+  "lng": -77.1844444
+ },
+ {
+  "osm": "way/373980931",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9384546,
+  "lng": -77.1839695
+ },
+ {
+  "osm": "way/373992782",
+  "name": "Mary Gate of Heaven",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.3006826,
+  "lng": -78.3366197
+ },
+ {
+  "osm": "way/373993751",
+  "name": "Kingdom Hall",
+  "religion": "christian",
+  "denomination": "jehovahs_witness",
+  "lat": 17.9264651,
+  "lng": -77.1568061
+ },
+ {
+  "osm": "way/374007620",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9193985,
+  "lng": -77.1497494
+ },
+ {
+  "osm": "way/374007621",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9178018,
+  "lng": -77.1480438
+ },
+ {
+  "osm": "way/374007627",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9179008,
+  "lng": -77.1459474
+ },
+ {
+  "osm": "way/374031411",
+  "name": "Spanish Town Tabernacle",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0120359,
+  "lng": -76.9721742
+ },
+ {
+  "osm": "way/374118675",
+  "name": "Clear Park Seventh Day Adventist",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0218949,
+  "lng": -76.9581612
+ },
+ {
+  "osm": "way/374138238",
+  "name": "New Life Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0065882,
+  "lng": -76.9489155
+ },
+ {
+  "osm": "way/374141828",
+  "name": "Church of St Mary The Virgin",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2789743,
+  "lng": -78.3519655
+ },
+ {
+  "osm": "way/374153109",
+  "name": "Seventh Day Adventist Temple",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0022082,
+  "lng": -76.9619577
+ },
+ {
+  "osm": "way/374153111",
+  "name": "The Church of Jesus Christ of Latter-day Saints",
+  "religion": "christian",
+  "denomination": "mormon",
+  "lat": 18.0023585,
+  "lng": -76.9607945
+ },
+ {
+  "osm": "way/374161159",
+  "name": "Palm Grove Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2716543,
+  "lng": -78.3672768
+ },
+ {
+  "osm": "way/374173548",
+  "name": "Assemblies of the First Born Old Harbour Glades",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9488005,
+  "lng": -77.1099012
+ },
+ {
+  "osm": "way/374174251",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9983393,
+  "lng": -76.948289
+ },
+ {
+  "osm": "way/374193055",
+  "name": "Church of God",
+  "religion": "christian",
+  "denomination": "church_of_god",
+  "lat": 17.9385207,
+  "lng": -77.1075846
+ },
+ {
+  "osm": "way/374223324",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2741098,
+  "lng": -78.3179908
+ },
+ {
+  "osm": "way/374315314",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2441672,
+  "lng": -78.216457
+ },
+ {
+  "osm": "way/374317108",
+  "name": "Old Harbour Assembly of God",
+  "religion": "christian",
+  "denomination": "assemblies_of_god",
+  "lat": 17.9385172,
+  "lng": -77.1071498
+ },
+ {
+  "osm": "way/374331468",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2330817,
+  "lng": -78.1911991
+ },
+ {
+  "osm": "way/374336852",
+  "name": "The Church of Jesus Christ of Latter-day Saints",
+  "religion": "christian",
+  "denomination": "mormon",
+  "lat": 18.1388521,
+  "lng": -77.0337272
+ },
+ {
+  "osm": "way/374337138",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2440947,
+  "lng": -78.2143111
+ },
+ {
+  "osm": "way/374339262",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2293593,
+  "lng": -78.1723751
+ },
+ {
+  "osm": "way/374339560",
+  "name": "Linstead Baptist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1411286,
+  "lng": -77.0327776
+ },
+ {
+  "osm": "way/374350871",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2285665,
+  "lng": -78.1503819
+ },
+ {
+  "osm": "way/374352765",
+  "name": "Church of God of Prophecy",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1409429,
+  "lng": -77.0277004
+ },
+ {
+  "osm": "way/374359004",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2190676,
+  "lng": -78.133688
+ },
+ {
+  "osm": "way/374359006",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2180959,
+  "lng": -78.1339272
+ },
+ {
+  "osm": "way/374359285",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2173954,
+  "lng": -78.1339457
+ },
+ {
+  "osm": "way/374359537",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2168037,
+  "lng": -78.1340638
+ },
+ {
+  "osm": "way/374359539",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2166012,
+  "lng": -78.1339915
+ },
+ {
+  "osm": "way/374438931",
+  "name": "The Church of Jesus Christ of Latter-day Saints",
+  "religion": "christian",
+  "denomination": "mormon",
+  "lat": 18.2358697,
+  "lng": -78.1348566
+ },
+ {
+  "osm": "way/374442593",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.963239,
+  "lng": -76.8888376
+ },
+ {
+  "osm": "way/374444458",
+  "name": "Church of the Open Bible",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2255921,
+  "lng": -78.1252552
+ },
+ {
+  "osm": "way/374447452",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.951133,
+  "lng": -76.9087099
+ },
+ {
+  "osm": "way/374447454",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9493809,
+  "lng": -76.9117194
+ },
+ {
+  "osm": "way/374448735",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2078469,
+  "lng": -78.0526976
+ },
+ {
+  "osm": "way/374466971",
+  "name": "Christian of the Fellowship",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9951473,
+  "lng": -76.8839887
+ },
+ {
+  "osm": "way/374467218",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2267588,
+  "lng": -78.1313144
+ },
+ {
+  "osm": "way/374468825",
+  "name": "Gregory Park Baptist Church",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 17.9969225,
+  "lng": -76.8881687
+ },
+ {
+  "osm": "way/374468827",
+  "name": "Seventh Day Adventist",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9980089,
+  "lng": -76.8889745
+ },
+ {
+  "osm": "way/374468830",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9997873,
+  "lng": -76.8902704
+ },
+ {
+  "osm": "way/374472100",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2196146,
+  "lng": -78.1295937
+ },
+ {
+  "osm": "way/374475000",
+  "name": "Cedar Grove Baptist",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 17.9898701,
+  "lng": -76.8879175
+ },
+ {
+  "osm": "way/374475004",
+  "name": "The Living Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9685993,
+  "lng": -76.8880644
+ },
+ {
+  "osm": "way/374475178",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2205664,
+  "lng": -78.1331337
+ },
+ {
+  "osm": "way/374481650",
+  "name": "The Church of God of Prophecy",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2110319,
+  "lng": -78.1350144
+ },
+ {
+  "osm": "way/374483480",
+  "name": "Assembly of God Sav-La-Mar",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2258129,
+  "lng": -78.1384901
+ },
+ {
+  "osm": "way/374490091",
+  "name": "Church of the Holy Spirit",
+  "religion": "christian",
+  "denomination": "anglican",
+  "lat": 17.9786318,
+  "lng": -76.8841508
+ },
+ {
+  "osm": "way/374492245",
+  "name": "Kingdom Hall",
+  "religion": "christian",
+  "denomination": "jehovahs_witness",
+  "lat": 17.9587164,
+  "lng": -76.8900473
+ },
+ {
+  "osm": "way/374494804",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1829187,
+  "lng": -78.036723
+ },
+ {
+  "osm": "way/374497071",
+  "name": "Power of Faith Ministries",
+  "religion": "christian",
+  "denomination": "evangelical",
+  "lat": 17.9687245,
+  "lng": -76.8678404
+ },
+ {
+  "osm": "way/374515246",
+  "name": "St John Parish Church (1770)",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0239965,
+  "lng": -77.8494309
+ },
+ {
+  "osm": "way/374517072",
+  "name": "Black River Methodist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0253271,
+  "lng": -77.8487669
+ },
+ {
+  "osm": "way/374519824",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0261523,
+  "lng": -77.8501576
+ },
+ {
+  "osm": "way/374568709",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9872606,
+  "lng": -76.9934788
+ },
+ {
+  "osm": "way/374568712",
+  "name": "The Worship Centre",
+  "religion": "christian",
+  "denomination": "united",
+  "lat": 17.9879277,
+  "lng": -76.989985
+ },
+ {
+  "osm": "way/374569790",
+  "name": "Kingdom Hall of Jehovah's Witnesses",
+  "religion": "christian",
+  "denomination": "jehovahs_witness",
+  "lat": 17.9886034,
+  "lng": -76.9863811
+ },
+ {
+  "osm": "way/374572050",
+  "name": "Sydenham Seventh Day Adventist",
+  "religion": "christian",
+  "denomination": "adventist",
+  "lat": 17.9907915,
+  "lng": -76.9750755
+ },
+ {
+  "osm": "way/374617516",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9881557,
+  "lng": -76.9855976
+ },
+ {
+  "osm": "way/374620865",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9919851,
+  "lng": -76.9721339
+ },
+ {
+  "osm": "way/374951978",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.01952,
+  "lng": -76.7663375
+ },
+ {
+  "osm": "way/374953147",
+  "name": "Mona Baptist Church",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 18.0150814,
+  "lng": -76.7436381
+ },
+ {
+  "osm": "way/374956200",
+  "name": "Heritage Independent Baptist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9889247,
+  "lng": -76.9834328
+ },
+ {
+  "osm": "way/374961809",
+  "name": "Saint Thomas Aquinas",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0132812,
+  "lng": -76.7417763
+ },
+ {
+  "osm": "way/374972960",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9908668,
+  "lng": -76.737903
+ },
+ {
+  "osm": "way/375002567",
+  "name": "The Door Christian Fellowship Church",
+  "religion": "christian",
+  "denomination": "Christian_fellowship",
+  "lat": 17.9875932,
+  "lng": -76.7900651
+ },
+ {
+  "osm": "way/375002850",
+  "name": "Emmanuel Apostolic",
+  "religion": "christian",
+  "denomination": "apostolic",
+  "lat": 17.9870584,
+  "lng": -76.7898591
+ },
+ {
+  "osm": "way/375002907",
+  "name": "Universal Church of the Kingdom of God",
+  "religion": "christian",
+  "denomination": "universal",
+  "lat": 17.9868914,
+  "lng": -76.7903218
+ },
+ {
+  "osm": "way/375003106",
+  "name": "Saint Lukes",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9921937,
+  "lng": -76.7890539
+ },
+ {
+  "osm": "way/375011110",
+  "name": "Holy Temple Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9808361,
+  "lng": -76.7632138
+ },
+ {
+  "osm": "way/375011697",
+  "name": "Harvest Army Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9808463,
+  "lng": -76.7634498
+ },
+ {
+  "osm": "way/375011698",
+  "name": "Emmanuel Worship Center",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9808979,
+  "lng": -76.7636582
+ },
+ {
+  "osm": "way/375012994",
+  "name": "Assembly Hall",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9831371,
+  "lng": -76.7915738
+ },
+ {
+  "osm": "way/375013238",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9840584,
+  "lng": -76.7919061
+ },
+ {
+  "osm": "way/375025839",
+  "name": "The Coke Memorial Methodist Church",
+  "religion": "christian",
+  "denomination": "methodist",
+  "lat": 17.9713698,
+  "lng": -76.7914227
+ },
+ {
+  "osm": "way/375025844",
+  "name": "Kingston Parish Church (1911)",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9700285,
+  "lng": -76.7925769
+ },
+ {
+  "osm": "way/375077219",
+  "name": "East Queen Street Baptist Church",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 17.9711905,
+  "lng": -76.7860274
+ },
+ {
+  "osm": "way/375093040",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9763001,
+  "lng": -76.7614431
+ },
+ {
+  "osm": "way/375094894",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9733999,
+  "lng": -76.7545136
+ },
+ {
+  "osm": "way/375096341",
+  "name": "Diamond acres seventh-day Adventist church",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 18.0017673,
+  "lng": -77.011004
+ },
+ {
+  "osm": "way/375097800",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9736288,
+  "lng": -76.7608293
+ },
+ {
+  "osm": "way/375097805",
+  "name": "Pentecostal Gospel Temple",
+  "religion": "christian",
+  "denomination": "pentecostal",
+  "lat": 17.9732761,
+  "lng": -76.7625241
+ },
+ {
+  "osm": "way/375097806",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9732931,
+  "lng": -76.7647094
+ },
+ {
+  "osm": "way/375098706",
+  "name": "Holy Rosary Catholic Church",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 17.9730683,
+  "lng": -76.7675206
+ },
+ {
+  "osm": "way/375098707",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9720806,
+  "lng": -76.7703172
+ },
+ {
+  "osm": "way/375098708",
+  "name": "King's Chapel",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9717428,
+  "lng": -76.7720078
+ },
+ {
+  "osm": "way/375100331",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9760543,
+  "lng": -76.7775075
+ },
+ {
+  "osm": "way/375101300",
+  "name": "Eastwood Park New Testament Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.019856,
+  "lng": -76.7973468
+ },
+ {
+  "osm": "way/375101510",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0074004,
+  "lng": -76.996483
+ },
+ {
+  "osm": "way/375104924",
+  "name": "North Street United Church",
+  "religion": "christian",
+  "denomination": "united",
+  "lat": 17.9762164,
+  "lng": -76.7943255
+ },
+ {
+  "osm": "way/375107172",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9703326,
+  "lng": -76.775689
+ },
+ {
+  "osm": "way/375108970",
+  "name": "Harvest Temple Apostolic Church of Jesus Christ",
+  "religion": "christian",
+  "denomination": "apostolic",
+  "lat": 17.9844438,
+  "lng": -76.792585
+ },
+ {
+  "osm": "way/375109401",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9709294,
+  "lng": -76.7802187
+ },
+ {
+  "osm": "way/375110007",
+  "name": "Bethel Apostolic Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9762198,
+  "lng": -76.7816597
+ },
+ {
+  "osm": "way/375111139",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.991106,
+  "lng": -76.7905727
+ },
+ {
+  "osm": "way/375117443",
+  "name": "Faith Tabernacle",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9842338,
+  "lng": -76.7819329
+ },
+ {
+  "osm": "way/375117447",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9833395,
+  "lng": -76.7832296
+ },
+ {
+  "osm": "way/375123488",
+  "name": "Lyndhurst Methodist Church",
+  "religion": "christian",
+  "denomination": "methodist",
+  "lat": 17.9947947,
+  "lng": -76.7950981
+ },
+ {
+  "osm": "way/375124054",
+  "name": "United Christian Centre",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9721477,
+  "lng": -76.7517185
+ },
+ {
+  "osm": "way/375124932",
+  "name": "East Kingston United",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9794393,
+  "lng": -76.7582402
+ },
+ {
+  "osm": "way/375125229",
+  "name": "The Church of God of Prophecy",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0095458,
+  "lng": -76.9967331
+ },
+ {
+  "osm": "way/375127540",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.971947,
+  "lng": -76.7776766
+ },
+ {
+  "osm": "way/375129955",
+  "name": "New Testament Church of God Bethel",
+  "religion": "christian",
+  "denomination": "church_of_god",
+  "lat": 17.994456,
+  "lng": -76.7978798
+ },
+ {
+  "osm": "way/375129957",
+  "name": "The Church of Jesus Christ of Latter-day Saints",
+  "religion": "christian",
+  "denomination": "mormon",
+  "lat": 17.9941602,
+  "lng": -76.7995514
+ },
+ {
+  "osm": "way/375132095",
+  "name": "Church Building",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 17.9875107,
+  "lng": -76.7717419
+ },
+ {
+  "osm": "way/375132326",
+  "name": "Church of God Seventh Day",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9914533,
+  "lng": -76.8061263
+ },
+ {
+  "osm": "way/375132734",
+  "name": "Kingdom Hall",
+  "religion": "christian",
+  "denomination": "jehovahs_witness",
+  "lat": 17.9920101,
+  "lng": -76.7686142
+ },
+ {
+  "osm": "way/375134232",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9833828,
+  "lng": -76.7836406
+ },
+ {
+  "osm": "way/375134766",
+  "name": "The Salvation Army",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9845923,
+  "lng": -76.7859121
+ },
+ {
+  "osm": "way/375134767",
+  "name": "Needham Memorial Citadel",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9845761,
+  "lng": -76.7857865
+ },
+ {
+  "osm": "way/375136475",
+  "name": "Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9785473,
+  "lng": -76.7892258
+ },
+ {
+  "osm": "way/375137760",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9750173,
+  "lng": -76.7894674
+ },
+ {
+  "osm": "way/375137764",
+  "name": "St Georges Anglican Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9730702,
+  "lng": -76.7897119
+ },
+ {
+  "osm": "way/375138476",
+  "name": "Delacree Park Baptist Church",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 17.9920754,
+  "lng": -76.81908
+ },
+ {
+  "osm": "way/375141823",
+  "name": "Duke Street United Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9716181,
+  "lng": -76.790446
+ },
+ {
+  "osm": "way/375141828",
+  "name": "Shaare Shalom Synagogue",
+  "religion": "jewish",
+  "denomination": "jewish",
+  "lat": 17.9751099,
+  "lng": -76.7901077
+ },
+ {
+  "osm": "way/375142150",
+  "name": "Seven Day Adventist Hagley Park",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0010851,
+  "lng": -76.8212639
+ },
+ {
+  "osm": "way/375143182",
+  "name": "Universal Church of the Kingdom of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0021807,
+  "lng": -76.8200233
+ },
+ {
+  "osm": "way/375143469",
+  "name": "King Solomons Temple",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9756658,
+  "lng": -76.7901411
+ },
+ {
+  "osm": "way/375143470",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9758682,
+  "lng": -76.7900518
+ },
+ {
+  "osm": "way/375148883",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9941091,
+  "lng": -76.9535889
+ },
+ {
+  "osm": "way/375150191",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.004229,
+  "lng": -76.8158701
+ },
+ {
+  "osm": "way/375236826",
+  "name": "",
+  "religion": "",
+  "denomination": "",
+  "lat": 17.9994161,
+  "lng": -76.9592929
+ },
+ {
+  "osm": "way/375250207",
+  "name": "The Assemble Holiness Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9919641,
+  "lng": -76.9544677
+ },
+ {
+  "osm": "way/375253106",
+  "name": "First Missionary Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9697513,
+  "lng": -76.789463
+ },
+ {
+  "osm": "way/375256348",
+  "name": "St Andrews Scot Kirk",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.969604,
+  "lng": -76.790996
+ },
+ {
+  "osm": "way/375260774",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9833199,
+  "lng": -76.7907193
+ },
+ {
+  "osm": "way/375269609",
+  "name": "Webster Memorial United Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0039191,
+  "lng": -76.793097
+ },
+ {
+  "osm": "way/375281370",
+  "name": "Church of the Foursquare Gospel",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0204071,
+  "lng": -76.8081883
+ },
+ {
+  "osm": "way/375283540",
+  "name": "United Pentecostal Church of Jamaica",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0191455,
+  "lng": -76.797313
+ },
+ {
+  "osm": "way/375287282",
+  "name": "Jamaica Baptist Union Centre",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0279656,
+  "lng": -76.8112833
+ },
+ {
+  "osm": "way/375288222",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0210657,
+  "lng": -76.822969
+ },
+ {
+  "osm": "way/375288744",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0200127,
+  "lng": -76.8263109
+ },
+ {
+  "osm": "way/375289337",
+  "name": "Grace Reformed Baptist",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 18.022629,
+  "lng": -76.8012564
+ },
+ {
+  "osm": "way/375291383",
+  "name": "Seventh-Day Adventist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0208291,
+  "lng": -76.8256451
+ },
+ {
+  "osm": "way/375292504",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0060256,
+  "lng": -76.8285531
+ },
+ {
+  "osm": "way/375292505",
+  "name": "Pentecostal Temple",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0037118,
+  "lng": -76.8276638
+ },
+ {
+  "osm": "way/375297778",
+  "name": "Bible Way Mission Baptist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0070778,
+  "lng": -76.8183627
+ },
+ {
+  "osm": "way/375298464",
+  "name": "Church of the United Missions",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0105634,
+  "lng": -76.8156319
+ },
+ {
+  "osm": "way/375298465",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0113149,
+  "lng": -76.814873
+ },
+ {
+  "osm": "way/375307708",
+  "name": "Spirit of Truth Ministries",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0198551,
+  "lng": -76.8213351
+ },
+ {
+  "osm": "way/375310918",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0256839,
+  "lng": -76.8047055
+ },
+ {
+  "osm": "way/375312866",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0070742,
+  "lng": -76.8191249
+ },
+ {
+  "osm": "way/375314253",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.012357,
+  "lng": -76.8148628
+ },
+ {
+  "osm": "way/375314254",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0133269,
+  "lng": -76.8141499
+ },
+ {
+  "osm": "way/375316060",
+  "name": "Seventh-Day Adventists",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0024735,
+  "lng": -76.8385005
+ },
+ {
+  "osm": "way/375316474",
+  "name": "Church Building",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 18.0038271,
+  "lng": -76.8431468
+ },
+ {
+  "osm": "way/375334250",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0342669,
+  "lng": -76.8281127
+ },
+ {
+  "osm": "way/375389503",
+  "name": "Covenant City Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0075951,
+  "lng": -76.7956645
+ },
+ {
+  "osm": "way/375397654",
+  "name": "Alpine Mennonite Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0601204,
+  "lng": -76.8299456
+ },
+ {
+  "osm": "way/375398975",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0370564,
+  "lng": -76.824573
+ },
+ {
+  "osm": "way/375400886",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0445876,
+  "lng": -76.8174783
+ },
+ {
+  "osm": "way/375402078",
+  "name": "St. Richard's",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 18.0395382,
+  "lng": -76.8121527
+ },
+ {
+  "osm": "way/375403969",
+  "name": "Havenhill Baptist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0412806,
+  "lng": -76.7991514
+ },
+ {
+  "osm": "way/375404714",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0400918,
+  "lng": -76.7984656
+ },
+ {
+  "osm": "way/375406068",
+  "name": "Seventh-Day Adventist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0268995,
+  "lng": -76.7958172
+ },
+ {
+  "osm": "way/375408932",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0308399,
+  "lng": -76.7947798
+ },
+ {
+  "osm": "way/375417088",
+  "name": "Church of the Good Shepherd",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0476441,
+  "lng": -76.7945563
+ },
+ {
+  "osm": "way/375434819",
+  "name": "",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 17.9887298,
+  "lng": -76.7817255
+ },
+ {
+  "osm": "way/375453939",
+  "name": "Worthington Friends Meeting",
+  "religion": "christian",
+  "denomination": "quaker",
+  "lat": 18.005128,
+  "lng": -76.7830442
+ },
+ {
+  "osm": "way/375461177",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9380142,
+  "lng": -76.8412485
+ },
+ {
+  "osm": "way/375462460",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0303592,
+  "lng": -76.7856187
+ },
+ {
+  "osm": "way/375468215",
+  "name": "St Peters Church",
+  "religion": "christian",
+  "denomination": "anglican",
+  "lat": 17.9371506,
+  "lng": -76.8413268
+ },
+ {
+  "osm": "way/375562642",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.8787575,
+  "lng": -76.5731182
+ },
+ {
+  "osm": "way/375562644",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.8760965,
+  "lng": -76.5686714
+ },
+ {
+  "osm": "way/375562939",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.873854,
+  "lng": -76.5632641
+ },
+ {
+  "osm": "way/375566123",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.8765439,
+  "lng": -76.4317454
+ },
+ {
+  "osm": "way/375584222",
+  "name": "Morant Bay Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.884135,
+  "lng": -76.4177887
+ },
+ {
+  "osm": "way/375591523",
+  "name": "Christ Chapel United Pentecostal Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.8807193,
+  "lng": -76.4105353
+ },
+ {
+  "osm": "way/375592056",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.8811504,
+  "lng": -76.4087511
+ },
+ {
+  "osm": "way/375601434",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.8823757,
+  "lng": -76.4163807
+ },
+ {
+  "osm": "way/375601446",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.8827149,
+  "lng": -76.408809
+ },
+ {
+  "osm": "way/375603809",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.8774915,
+  "lng": -76.376637
+ },
+ {
+  "osm": "way/375608096",
+  "name": "Leigh Hall Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.8755079,
+  "lng": -76.3401148
+ },
+ {
+  "osm": "way/375614410",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9554162,
+  "lng": -76.2533548
+ },
+ {
+  "osm": "way/375614414",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0085596,
+  "lng": -76.2674265
+ },
+ {
+  "osm": "way/375952404",
+  "name": "",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 18.1755829,
+  "lng": -76.4121932
+ },
+ {
+  "osm": "way/375991593",
+  "name": "Bretheren Assembly",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0000649,
+  "lng": -76.7940035
+ },
+ {
+  "osm": "way/375993123",
+  "name": "Universal Church of the Kingdom of God",
+  "religion": "christian",
+  "denomination": "universal",
+  "lat": 18.1765602,
+  "lng": -76.4449359
+ },
+ {
+  "osm": "way/375993983",
+  "name": "Universal Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1076335,
+  "lng": -76.318356
+ },
+ {
+  "osm": "way/375994607",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1141917,
+  "lng": -76.3191895
+ },
+ {
+  "osm": "way/375995513",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1316853,
+  "lng": -76.3371647
+ },
+ {
+  "osm": "way/375995882",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1554062,
+  "lng": -76.3558197
+ },
+ {
+  "osm": "way/376010500",
+  "name": "The Church of God",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 18.0097864,
+  "lng": -76.2676631
+ },
+ {
+  "osm": "way/376010502",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0198406,
+  "lng": -76.2739117
+ },
+ {
+  "osm": "way/376010961",
+  "name": "Kingdom Hall",
+  "religion": "christian",
+  "denomination": "jehovahs_witness",
+  "lat": 18.0238113,
+  "lng": -76.2742095
+ },
+ {
+  "osm": "way/376164551",
+  "name": "",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.5104263,
+  "lng": -77.8000354
+ },
+ {
+  "osm": "way/382510132",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4662205,
+  "lng": -77.9248381
+ },
+ {
+  "osm": "way/395321130",
+  "name": "Portmore SDA",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9557582,
+  "lng": -76.886128
+ },
+ {
+  "osm": "way/404400306",
+  "name": "Bethel Baptist Church",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 18.1173941,
+  "lng": -77.0071811
+ },
+ {
+  "osm": "way/423507068",
+  "name": "Portmore Missionary Church",
+  "religion": "christian",
+  "denomination": "protestant",
+  "lat": 17.9570259,
+  "lng": -76.8768765
+ },
+ {
+  "osm": "way/424005883",
+  "name": "Kendal Shiloh Apostolic Church",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.0757211,
+  "lng": -77.4896342
+ },
+ {
+  "osm": "way/425134167",
+  "name": "Bedward Gardens Seventh Day Adventist",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9972146,
+  "lng": -76.7352403
+ },
+ {
+  "osm": "way/425154326",
+  "name": "Bible Way",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9871184,
+  "lng": -76.7357091
+ },
+ {
+  "osm": "way/425159057",
+  "name": "Gold Smith Villa Seventh Day Adventist Church",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 17.9943421,
+  "lng": -76.7462329
+ },
+ {
+  "osm": "way/425160258",
+  "name": "Saint Michael All Angels Apostolic Spiritual Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9944062,
+  "lng": -76.7445183
+ },
+ {
+  "osm": "way/425563124",
+  "name": "August Town Seventh Day Adventist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9899991,
+  "lng": -76.7379828
+ },
+ {
+  "osm": "way/429388680",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9927788,
+  "lng": -76.7404687
+ },
+ {
+  "osm": "way/432158590",
+  "name": "Rev. Smith.",
+  "religion": "christian",
+  "denomination": "Revival",
+  "lat": 17.9933563,
+  "lng": -76.734595
+ },
+ {
+  "osm": "way/432202998",
+  "name": "Kairos Bedward Gardens",
+  "religion": "christian",
+  "denomination": "pentecostal/non_denominational",
+  "lat": 17.9938511,
+  "lng": -76.7351493
+ },
+ {
+  "osm": "way/432203115",
+  "name": "",
+  "religion": "christian",
+  "denomination": "Revival",
+  "lat": 17.9918553,
+  "lng": -76.735176
+ },
+ {
+  "osm": "way/437234304",
+  "name": "Greater Apostolic Christ Temple Ministries",
+  "religion": "christian",
+  "denomination": "pentecostal",
+  "lat": 17.9964588,
+  "lng": -76.9187848
+ },
+ {
+  "osm": "way/439058844",
+  "name": "",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.0093289,
+  "lng": -76.797698
+ },
+ {
+  "osm": "way/439125125",
+  "name": "Gods Missionary",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9998754,
+  "lng": -76.8088211
+ },
+ {
+  "osm": "way/449009399",
+  "name": "Miracle Open Bible Church",
+  "religion": "christian",
+  "denomination": "evangelical",
+  "lat": 17.9781752,
+  "lng": -76.8736787
+ },
+ {
+  "osm": "way/449273872",
+  "name": "Duppy Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1524212,
+  "lng": -77.5635879
+ },
+ {
+  "osm": "way/458129703",
+  "name": "Gordon Pen Apostolic Church",
+  "religion": "christian",
+  "denomination": "protestant",
+  "lat": 18.0252749,
+  "lng": -76.9611863
+ },
+ {
+  "osm": "way/474714637",
+  "name": "Green Heights Assembly of God",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 18.4772697,
+  "lng": -77.8889981
+ },
+ {
+  "osm": "way/478096834",
+  "name": "Hillview Baptist Church",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 18.4814989,
+  "lng": -77.9165777
+ },
+ {
+  "osm": "way/478181737",
+  "name": "The Church of God (Seventh Day) Paradise",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 18.4865187,
+  "lng": -77.9160358
+ },
+ {
+  "osm": "way/478318097",
+  "name": "Mt. Sign Revival Mission Church",
+  "religion": "christian",
+  "denomination": "sunni",
+  "lat": 18.486339,
+  "lng": -77.9151433
+ },
+ {
+  "osm": "way/492645925",
+  "name": "Church Building",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 18.0014116,
+  "lng": -76.8243328
+ },
+ {
+  "osm": "way/492651664",
+  "name": "",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 18.0020953,
+  "lng": -76.8225013
+ },
+ {
+  "osm": "way/492688366",
+  "name": "West Indian Temple",
+  "religion": "hindu",
+  "denomination": "",
+  "lat": 18.0009706,
+  "lng": -76.8215254
+ },
+ {
+  "osm": "way/493726171",
+  "name": "",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.0641436,
+  "lng": -76.6786715
+ },
+ {
+  "osm": "way/495064294",
+  "name": "Hellshire United Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9046329,
+  "lng": -76.9028857
+ },
+ {
+  "osm": "way/499868637",
+  "name": "",
+  "religion": "christian",
+  "denomination": "protestant",
+  "lat": 17.9414151,
+  "lng": -76.9086336
+ },
+ {
+  "osm": "way/500295197",
+  "name": "Heaven's Way Tabernacle",
+  "religion": "christian",
+  "denomination": "pentecostal",
+  "lat": 18.0394598,
+  "lng": -77.8554865
+ },
+ {
+  "osm": "way/504445814",
+  "name": "New Haven Seventh Day Adventist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0263652,
+  "lng": -76.8509942
+ },
+ {
+  "osm": "way/509316562",
+  "name": "Ethipian Orthodox Church",
+  "religion": "christian",
+  "denomination": "orthodox",
+  "lat": 17.9985,
+  "lng": -76.8063926
+ },
+ {
+  "osm": "way/509316579",
+  "name": "Anglican Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9998594,
+  "lng": -76.8070144
+ },
+ {
+  "osm": "way/543524071",
+  "name": "St. Peters Anglican Church (1796)",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4929232,
+  "lng": -77.6570443
+ },
+ {
+  "osm": "way/545395195",
+  "name": "Whitehall Seventh Day Adventist",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 18.0385517,
+  "lng": -76.8050699
+ },
+ {
+  "osm": "way/550321653",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4742029,
+  "lng": -77.45859
+ },
+ {
+  "osm": "way/551349906",
+  "name": "assemblies of the born",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.999701,
+  "lng": -76.812551
+ },
+ {
+  "osm": "way/551349911",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0007175,
+  "lng": -76.8121784
+ },
+ {
+  "osm": "way/551349923",
+  "name": "church of god",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0032271,
+  "lng": -76.8064286
+ },
+ {
+  "osm": "way/552630290",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9861564,
+  "lng": -76.8104632
+ },
+ {
+  "osm": "way/558664178",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0047805,
+  "lng": -77.0114349
+ },
+ {
+  "osm": "way/574577694",
+  "name": "Majestic Garden",
+  "religion": "",
+  "denomination": "",
+  "lat": 17.9988423,
+  "lng": -76.828454
+ },
+ {
+  "osm": "way/574612688",
+  "name": "Olivette Zoin Gosple Assemble",
+  "religion": "",
+  "denomination": "",
+  "lat": 17.9963387,
+  "lng": -76.8286624
+ },
+ {
+  "osm": "way/574619416",
+  "name": "Majestic Transformation Fellowship",
+  "religion": "",
+  "denomination": "",
+  "lat": 17.997044,
+  "lng": -76.8291506
+ },
+ {
+  "osm": "way/604371477",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0475384,
+  "lng": -76.7951673
+ },
+ {
+  "osm": "way/665561492",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.247892,
+  "lng": -77.611009
+ },
+ {
+  "osm": "way/689231257",
+  "name": "St. Matthew's Anglican Church",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.4148689,
+  "lng": -77.487762
+ },
+ {
+  "osm": "way/689231259",
+  "name": "",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.4392407,
+  "lng": -77.4793692
+ },
+ {
+  "osm": "way/696551645",
+  "name": "Holy Cross Catholic Church",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 18.0085748,
+  "lng": -76.7972271
+ },
+ {
+  "osm": "way/697652138",
+  "name": "Our Lady of the Angels Catholic Church",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 18.0199595,
+  "lng": -76.8137656
+ },
+ {
+  "osm": "way/697667882",
+  "name": "Church Building",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 18.0165002,
+  "lng": -76.8322675
+ },
+ {
+  "osm": "way/697902774",
+  "name": "Christ the Redeemer Catholic Church",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 18.003775,
+  "lng": -76.843109
+ },
+ {
+  "osm": "way/697908356",
+  "name": "Church Building",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 18.0418486,
+  "lng": -76.7847067
+ },
+ {
+  "osm": "way/699018746",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1339636,
+  "lng": -77.0312191
+ },
+ {
+  "osm": "way/699019280",
+  "name": "Saint Helen Catholic Church",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 18.1342503,
+  "lng": -77.0313547
+ },
+ {
+  "osm": "way/699236887",
+  "name": "Great bay grace and truth assembly hall",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.8661083,
+  "lng": -77.7388317
+ },
+ {
+  "osm": "way/699806156",
+  "name": "Holy Cross Catholic Church",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 17.9154608,
+  "lng": -77.4140939
+ },
+ {
+  "osm": "way/699815098",
+  "name": "Our Lady of Hope Catholic Church",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 18.0717408,
+  "lng": -77.4582636
+ },
+ {
+  "osm": "way/700022087",
+  "name": "Saint Croix Catholic Church",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 18.0561179,
+  "lng": -77.6996525
+ },
+ {
+  "osm": "way/705777665",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9379932,
+  "lng": -76.8422214
+ },
+ {
+  "osm": "way/743132405",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1586065,
+  "lng": -76.6150748
+ },
+ {
+  "osm": "way/743659133",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.3025609,
+  "lng": -76.8458563
+ },
+ {
+  "osm": "way/744654322",
+  "name": "Jarreton Baptist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.3100244,
+  "lng": -77.4124589
+ },
+ {
+  "osm": "way/744662436",
+  "name": "Baptist Church (1897)",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.3104101,
+  "lng": -77.5206501
+ },
+ {
+  "osm": "way/745416976",
+  "name": "St. Paul Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2151571,
+  "lng": -76.7662701
+ },
+ {
+  "osm": "way/747085348",
+  "name": "St Peter's Anglican Church (1715)",
+  "religion": "christian",
+  "denomination": "anglican",
+  "lat": 17.8071239,
+  "lng": -77.2663897
+ },
+ {
+  "osm": "way/747168527",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2423124,
+  "lng": -76.8500492
+ },
+ {
+  "osm": "way/749224017",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.088111,
+  "lng": -76.7767736
+ },
+ {
+  "osm": "way/749260293",
+  "name": "St. John's Parish Church (1699)",
+  "religion": "christian",
+  "denomination": "anglican",
+  "lat": 18.0371678,
+  "lng": -77.0679977
+ },
+ {
+  "osm": "way/749314074",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0464869,
+  "lng": -76.7125412
+ },
+ {
+  "osm": "way/749890803",
+  "name": "1st Baptist Chruch",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 18.3869904,
+  "lng": -77.3962911
+ },
+ {
+  "osm": "way/749892928",
+  "name": "Bethel United Church of Jesus Christ",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.3903883,
+  "lng": -77.3618971
+ },
+ {
+  "osm": "way/749893227",
+  "name": "Wesley Methodist Church",
+  "religion": "christian",
+  "denomination": "methodist",
+  "lat": 18.3919434,
+  "lng": -77.3699429
+ },
+ {
+  "osm": "way/749904370",
+  "name": "Grace Salvation and Deliverance Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.3858638,
+  "lng": -77.3692396
+ },
+ {
+  "osm": "way/749906462",
+  "name": "St. Mark's Anglican Church",
+  "religion": "christian",
+  "denomination": "anglican",
+  "lat": 18.0558121,
+  "lng": -76.7231083
+ },
+ {
+  "osm": "way/750297608",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0959539,
+  "lng": -76.7109093
+ },
+ {
+  "osm": "way/750912673",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2585336,
+  "lng": -78.2557045
+ },
+ {
+  "osm": "way/751365369",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1827489,
+  "lng": -77.6022301
+ },
+ {
+  "osm": "way/753782443",
+  "name": "William Knibb Memorial Baptist Church (1944)",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4919023,
+  "lng": -77.6545037
+ },
+ {
+  "osm": "way/755012695",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.227055,
+  "lng": -76.6121945
+ },
+ {
+  "osm": "way/755310637",
+  "name": "Saint Anne Catholic Church",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 17.9777776,
+  "lng": -76.7968097
+ },
+ {
+  "osm": "way/755543677",
+  "name": "Sacred Heart Catholic Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2527032,
+  "lng": -77.9086215
+ },
+ {
+  "osm": "way/757042778",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.3107387,
+  "lng": -78.1802487
+ },
+ {
+  "osm": "way/757868069",
+  "name": "Kitson Town Baptist Church",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 18.0169606,
+  "lng": -77.0527713
+ },
+ {
+  "osm": "way/757868074",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0064079,
+  "lng": -77.0434535
+ },
+ {
+  "osm": "way/757879662",
+  "name": "St. Pauls Anglican Church (1666)",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0837185,
+  "lng": -77.26668
+ },
+ {
+  "osm": "way/758151353",
+  "name": "St. Mary Anglican Church (1847)",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.3761836,
+  "lng": -77.9302936
+ },
+ {
+  "osm": "way/758186663",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2939492,
+  "lng": -77.0767287
+ },
+ {
+  "osm": "way/759028315",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1164171,
+  "lng": -76.7874202
+ },
+ {
+  "osm": "way/780555814",
+  "name": "Stony Hill Seventh Day Adventist",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 18.0827745,
+  "lng": -76.7960327
+ },
+ {
+  "osm": "way/808828611",
+  "name": "The Church of Jesus Christ of Latter-day Saints",
+  "religion": "christian",
+  "denomination": "mormon",
+  "lat": 17.9694649,
+  "lng": -76.866708
+ },
+ {
+  "osm": "way/809313865",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0294649,
+  "lng": -76.6471251
+ },
+ {
+  "osm": "way/825923607",
+  "name": "Woodland Seventh Day Adventist Church",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.4390423,
+  "lng": -77.9941616
+ },
+ {
+  "osm": "way/825925445",
+  "name": "Woodland Open Bible Church",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.4381924,
+  "lng": -77.9938107
+ },
+ {
+  "osm": "way/826902721",
+  "name": "Darliston Baptist Church",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 18.2408913,
+  "lng": -77.9770568
+ },
+ {
+  "osm": "way/828595217",
+  "name": "Bethabara Moravian Church",
+  "religion": "christian",
+  "denomination": "moravian",
+  "lat": 17.9638919,
+  "lng": -77.5066023
+ },
+ {
+  "osm": "way/829326559",
+  "name": "Norwich Baptist Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1928314,
+  "lng": -76.4722625
+ },
+ {
+  "osm": "way/829878124",
+  "name": "Church of God of Prophecy Port Antonio",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1838886,
+  "lng": -76.4664126
+ },
+ {
+  "osm": "way/830409094",
+  "name": "Maranatha SDA",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 18.0171456,
+  "lng": -77.4922358
+ },
+ {
+  "osm": "way/831925251",
+  "name": "Moses Baker",
+  "religion": "christian",
+  "denomination": "baptist",
+  "lat": 17.9198119,
+  "lng": -76.2651595
+ },
+ {
+  "osm": "way/831942381",
+  "name": "Hampton Court SDA Church",
+  "religion": "christian",
+  "denomination": "adventist",
+  "lat": 17.9191766,
+  "lng": -76.2649225
+ },
+ {
+  "osm": "way/831946098",
+  "name": "Anglican Church",
+  "religion": "christian",
+  "denomination": "anglican",
+  "lat": 17.9238251,
+  "lng": -76.2688366
+ },
+ {
+  "osm": "way/832425124",
+  "name": "Barnabas Anglican Church",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.0447527,
+  "lng": -77.910477
+ },
+ {
+  "osm": "way/832486092",
+  "name": "Moffat Santified Church",
+  "religion": "christian",
+  "denomination": "evangelical",
+  "lat": 17.9607794,
+  "lng": -76.5380332
+ },
+ {
+  "osm": "way/832649820",
+  "name": "Black River Independent Baptist church",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.0359208,
+  "lng": -77.8550424
+ },
+ {
+  "osm": "way/836621650",
+  "name": "Hellshire SDA Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.8944525,
+  "lng": -76.9020335
+ },
+ {
+  "osm": "way/837207950",
+  "name": "Wesley Methodist Church",
+  "religion": "christian",
+  "denomination": "methodist",
+  "lat": 17.9673594,
+  "lng": -76.7874365
+ },
+ {
+  "osm": "way/837231288",
+  "name": "",
+  "religion": "",
+  "denomination": "",
+  "lat": 17.955487,
+  "lng": -76.8856579
+ },
+ {
+  "osm": "way/837834886",
+  "name": "Calvary Assembly Of God",
+  "religion": "christian",
+  "denomination": "assemblies_of_god",
+  "lat": 17.8870742,
+  "lng": -77.7641346
+ },
+ {
+  "osm": "way/838529511",
+  "name": "St. John's Anglican Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0876335,
+  "lng": -76.9418787
+ },
+ {
+  "osm": "way/838646100",
+  "name": "Harbour View Gospel Chapel",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9550907,
+  "lng": -76.7193027
+ },
+ {
+  "osm": "way/838855366",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0196029,
+  "lng": -76.7416268
+ },
+ {
+  "osm": "way/838977048",
+  "name": "United Pentecostal Church of Jamaica Grange Pen",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.5126049,
+  "lng": -77.7669803
+ },
+ {
+  "osm": "way/841503788",
+  "name": "True Vine True Holiness Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.3867934,
+  "lng": -77.3689778
+ },
+ {
+  "osm": "way/841988687",
+  "name": "Rosetta New Testament Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.3235925,
+  "lng": -77.3585226
+ },
+ {
+  "osm": "way/843236269",
+  "name": "New Testament Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.4192949,
+  "lng": -77.3167716
+ },
+ {
+  "osm": "way/843240405",
+  "name": "Lower Buxton New Testament Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.3757301,
+  "lng": -77.332448
+ },
+ {
+  "osm": "way/843322262",
+  "name": "Brown's Town Seventh Day Adventist Church",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 18.3868136,
+  "lng": -77.3669029
+ },
+ {
+  "osm": "way/843322263",
+  "name": "St. Ignatius Catholic Church",
+  "religion": "christian",
+  "denomination": "catholic",
+  "lat": 18.3872565,
+  "lng": -77.367193
+ },
+ {
+  "osm": "way/843377322",
+  "name": "Mahdi Mosque",
+  "religion": "muslim",
+  "denomination": "ahmadiyya",
+  "lat": 17.9459611,
+  "lng": -77.0766822
+ },
+ {
+  "osm": "way/849963366",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.2228844,
+  "lng": -78.1333717
+ },
+ {
+  "osm": "way/856327362",
+  "name": "Palm SDA",
+  "religion": "christian",
+  "denomination": "seventh_day_adventist",
+  "lat": 18.1872961,
+  "lng": -77.0366865
+ },
+ {
+  "osm": "way/860501413",
+  "name": "",
+  "religion": "christian",
+  "denomination": "shia",
+  "lat": 18.4824206,
+  "lng": -77.9135819
+ },
+ {
+  "osm": "way/860504006",
+  "name": "Kingdom Restoration Ministries of Montego Bay",
+  "religion": "christian",
+  "denomination": "reformed",
+  "lat": 18.4824612,
+  "lng": -77.9143232
+ },
+ {
+  "osm": "way/867810076",
+  "name": "Apostle Church of God",
+  "religion": "",
+  "denomination": "",
+  "lat": 17.9829606,
+  "lng": -76.9565129
+ },
+ {
+  "osm": "way/870740322",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0164375,
+  "lng": -76.7425039
+ },
+ {
+  "osm": "way/875183818",
+  "name": "Carmel Gaspel Hall",
+  "religion": "christian",
+  "denomination": "brethren",
+  "lat": 17.9744218,
+  "lng": -76.751852
+ },
+ {
+  "osm": "way/876184526",
+  "name": "The Church of Jesus Christ of Latter-day Saints",
+  "religion": "christian",
+  "denomination": "mormon",
+  "lat": 18.0013618,
+  "lng": -76.9605754
+ },
+ {
+  "osm": "way/876184617",
+  "name": "Bethlehem Temple Evangelical Church of Christ",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0032255,
+  "lng": -76.9632115
+ },
+ {
+  "osm": "way/876283342",
+  "name": "The Assemble Holiness Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9918098,
+  "lng": -76.9539429
+ },
+ {
+  "osm": "way/877785996",
+  "name": "",
+  "religion": "christian",
+  "denomination": "anglican",
+  "lat": 18.1345614,
+  "lng": -77.0326161
+ },
+ {
+  "osm": "way/878499490",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1461362,
+  "lng": -77.0337569
+ },
+ {
+  "osm": "way/880878596",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9529922,
+  "lng": -76.9045622
+ },
+ {
+  "osm": "way/880878597",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9530923,
+  "lng": -76.9046115
+ },
+ {
+  "osm": "way/881928744",
+  "name": "Elim Open Bible Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9604587,
+  "lng": -76.8891718
+ },
+ {
+  "osm": "way/881969495",
+  "name": "Emmanuel Apostolic Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9634795,
+  "lng": -76.891706
+ },
+ {
+  "osm": "way/881969506",
+  "name": "Emmanuel Apostolic Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.96421,
+  "lng": -76.892853
+ },
+ {
+  "osm": "way/906572478",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 17.9780933,
+  "lng": -76.7576431
+ },
+ {
+  "osm": "way/946467612",
+  "name": "Bayith Yahweh",
+  "religion": "spiritualist",
+  "denomination": "evangelical",
+  "lat": 18.4822176,
+  "lng": -77.9135587
+ },
+ {
+  "osm": "way/1072783422",
+  "name": "",
+  "religion": "",
+  "denomination": "",
+  "lat": 18.486422,
+  "lng": -77.9159922
+ },
+ {
+  "osm": "way/1285188713",
+  "name": "Kingdom Hall of Jehovah's Witnesses",
+  "religion": "christian",
+  "denomination": "jehovahs_witness",
+  "lat": 18.1788981,
+  "lng": -76.4632611
+ },
+ {
+  "osm": "way/1285819203",
+  "name": "Trinity Holiness Church of God",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1845073,
+  "lng": -76.466967
+ },
+ {
+  "osm": "way/1286469581",
+  "name": "St. Anthony's Catholic Church",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1812491,
+  "lng": -76.4513585
+ },
+ {
+  "osm": "way/1286469582",
+  "name": "Anglican Church Hall",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.1813894,
+  "lng": -76.4512328
+ },
+ {
+  "osm": "way/1425740455",
+  "name": "",
+  "religion": "christian",
+  "denomination": "jehovahs_witness",
+  "lat": 18.0720564,
+  "lng": -77.4643275
+ },
+ {
+  "osm": "way/1455602553",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.18193,
+  "lng": -78.0360789
+ },
+ {
+  "osm": "relation/9696307",
+  "name": "Saint John The Baptist Catholic Church",
+  "religion": "christian",
+  "denomination": "roman_catholic",
+  "lat": 18.0279879,
+  "lng": -76.8376254
+ },
+ {
+  "osm": "relation/11546849",
+  "name": "",
+  "religion": "christian",
+  "denomination": "",
+  "lat": 18.0563224,
+  "lng": -77.6969914
+ }
+]
