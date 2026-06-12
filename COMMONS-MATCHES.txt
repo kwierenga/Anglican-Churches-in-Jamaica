@@ -1,0 +1,75 @@
+Commons files with imageinfo: 564
+
+===== churches Commons can identify (place + name token match) =====
+
+  [has photo] Kingston Parish Church (St. Thomas the Apostle) — Kingston (Parade/King St) (Kingston)
+     "Parish Church Kingston, Jamaica, ca.1875-ca.1940 (imp-cswc-GB-237-CSWC47-LS11-013).jpg"  [Public domain]  by Unknown authorUnknown author
+        https://upload.wikimedia.org/wikipedia/commons/d/d8/Parish_Church_Kingston%2C_Jamaica%2C_ca.1875-ca.1940_%28imp-cswc-GB-237-CSWC47-LS11-013%29.jpg
+     "J.W. Cleary - Parish Church Clock Tower, Kingston, Jamaica 1907 3188837949.jpg"  [Public domain]  by John Cleary
+        https://upload.wikimedia.org/wikipedia/commons/2/20/J.W._Cleary_-_Parish_Church_Clock_Tower%2C_Kingston%2C_Jamaica_1907_3188837949.jpg
+     "Kingston - Parish Chruch, ruined by earthquake 01.jpg"  [Public domain]  by H. S. Duperly
+        https://upload.wikimedia.org/wikipedia/commons/c/cd/Kingston_-_Parish_Chruch%2C_ruined_by_earthquake_01.jpg
+     "Harbour View Moravian Church, Kingston, Jamaica, 1967.png"  [CC BY-SA 2.0 uk]  by Arbus Driver
+        https://upload.wikimedia.org/wikipedia/commons/d/de/Harbour_View_Moravian_Church%2C_Kingston%2C_Jamaica%2C_1967.png
+
+  [has photo] St. Peter's — Wait-a-Bit (Trelawny)
+     "The life and curious adventures of Peter Williamson, who was carried off from Aberdeen, and sold for a slave (IA lifecuriousadven00will).pdf"  [Public domain]  by Williamson, Peter, 1730-1799. [from old catalog]
+        https://upload.wikimedia.org/wikipedia/commons/3/3e/The_life_and_curious_adventures_of_Peter_Williamson%2C_who_was_carried_off_from_Aberdeen%2C_and_sold_for_a_slave_%28IA_lifecuriousadven00will%29.pdf
+     "The poetical works of Peter Pindar, Esq. a distant relation to the poet of Thebes - To which are prefixed, memoirs and anecdotes of the author (IA peterpindaresq00pindrich).pdf"  [Public domain]  by Pindar, Peter, 1738-1819
+        https://upload.wikimedia.org/wikipedia/commons/8/82/The_poetical_works_of_Peter_Pindar%2C_Esq._a_distant_relation_to_the_poet_of_Thebes_-_To_which_are_prefixed%2C_memoirs_and_anecdotes_of_the_author_%28IA_peterpindaresq00pindrich%29.pdf
+     "The poetical works of Peter Pindar, Esq. - a distant relation to the poet of Thebes - to which are prefixed, memoirs and anecdotes of the author (IA poeticalworksofp00pindiala).pdf"  [Public domain]  by Pindar, Peter, 1738-1819
+        https://upload.wikimedia.org/wikipedia/commons/5/57/The_poetical_works_of_Peter_Pindar%2C_Esq._-_a_distant_relation_to_the_poet_of_Thebes_-_to_which_are_prefixed%2C_memoirs_and_anecdotes_of_the_author_%28IA_poeticalworksofp00pindiala%29.pdf
+     "John Peter Zenger, his press, his trial and a bibliography of Zenger imprints (IA cu31924029492026).pdf"  [Public domain]  by Rutherfurd, Livingston
+        https://upload.wikimedia.org/wikipedia/commons/4/44/John_Peter_Zenger%2C_his_press%2C_his_trial_and_a_bibliography_of_Zenger_imprints_%28IA_cu31924029492026%29.pdf
+
+  [NO PHOTO] Maidstone Chapel — Maidstone (Portland)
+     "Burial Ground, Nazareth Moravian Church, Maidstone, Jamaica, 1968.png"  [CC BY-SA 2.0 uk]  by Jack Eden
+        https://upload.wikimedia.org/wikipedia/commons/1/16/Burial_Ground%2C_Nazareth_Moravian_Church%2C_Maidstone%2C_Jamaica%2C_1968.png
+
+  [has photo] St. Andrew Parish Church — Half-Way-Tree (St. Andrew)
+     "A. Duperly & Sons - Half Way Tree Church, St Andrew's Parish, Jamaica 8323737590.jpg"  [Public domain]  by Adolphe Duperly &amp; Sons
+        https://upload.wikimedia.org/wikipedia/commons/4/41/A._Duperly_%26_Sons_-_Half_Way_Tree_Church%2C_St_Andrew%27s_Parish%2C_Jamaica_8323737590.jpg
+
+  [has photo] St. James' — Mount James (St. Andrew)
+     "Life of James Mursell Phillippo, missionary in Jamaica (IA cu31924020400317).pdf"  [Public domain]  by Underhill, Edward Bean, 1813-1901
+        https://upload.wikimedia.org/wikipedia/commons/d/d7/Life_of_James_Mursell_Phillippo%2C_missionary_in_Jamaica_%28IA_cu31924020400317%29.pdf
+
+  [has photo] St. Ann Parish Church — St. Ann's Bay (St. Ann)
+     "St. Ann's church, (Brooklyn, New York) from the year 1784 to the year 1845, with a memorial of the Sunday schools (IA stannschurchbroo00fish).pdf"  [Public domain]  by [Fish, Francis G.] [from old catalog]
+        https://upload.wikimedia.org/wikipedia/commons/f/fa/St._Ann%27s_church%2C_%28Brooklyn%2C_New_York%29_from_the_year_1784_to_the_year_1845%2C_with_a_memorial_of_the_Sunday_schools_%28IA_stannschurchbroo00fish%29.pdf
+
+  [NO PHOTO] Holy Trinity — Old Harbour (St. Catherine)
+     "Annals of an old parish; historical sketches of Trinity church, Southport, Connecticut, 1725 to 1898 (IA annalsofoldparis01guil).pdf"  [Public domain]  by Guilbert, Edmund. [from old catalog]
+        https://upload.wikimedia.org/wikipedia/commons/8/85/Annals_of_an_old_parish%3B_historical_sketches_of_Trinity_church%2C_Southport%2C_Connecticut%2C_1725_to_1898_%28IA_annalsofoldparis01guil%29.pdf
+
+  [NO PHOTO] St. Peter's — Old Works (St. Catherine)
+     "The works of Peter Pindar, esq. (pseud.) to which are prefixed memoirs of the author's life (IA worksofpeterpind01pindiala).pdf"  [Public domain]  by Pindar, Peter, 1738-1819
+        https://upload.wikimedia.org/wikipedia/commons/9/9a/The_works_of_Peter_Pindar%2C_esq._%28pseud.%29_to_which_are_prefixed_memoirs_of_the_author%27s_life_%28IA_worksofpeterpind01pindiala%29.pdf
+     "The works of Peter Pindar, esq (IA worksofpeterpind01pind).pdf"  [Public domain]  by Pindar, Peter, 1738-1819
+Pindar, Peter, 1738-1819. Works of Peter Pinder
+        https://upload.wikimedia.org/wikipedia/commons/9/98/The_works_of_Peter_Pindar%2C_esq_%28IA_worksofpeterpind01pind%29.pdf
+     "The Works of Peter Pindar, in Five Volumes, New ed., Vol. I (IA dli.granth.17953).pdf"  [Public domain]  by Pindar, Peter
+        https://upload.wikimedia.org/wikipedia/commons/e/e2/The_Works_of_Peter_Pindar%2C_in_Five_Volumes%2C_New_ed.%2C_Vol._I_%28IA_dli.granth.17953%29.pdf
+     "The works of Peter Pindar, Esq. - to which are prefixed memoirs of the author's life (IA worksofpeterpind01pind 0).pdf"  [Public domain]  by Pindar, Peter, 1738-1819
+        https://upload.wikimedia.org/wikipedia/commons/6/61/The_works_of_Peter_Pindar%2C_Esq._-_to_which_are_prefixed_memoirs_of_the_author%27s_life_%28IA_worksofpeterpind01pind_0%29.pdf
+
+  [has photo] St. Jago de la Vega (The Cathedral) — Spanish Town (St. Catherine)
+     "Dalton (1880) Anglican Cathedral, Spanish Town, Jamaica.png"  [CC BY-SA 4.0]  by John Neale Dalton
+        https://upload.wikimedia.org/wikipedia/commons/1/11/Dalton_%281880%29_Anglican_Cathedral%2C_Spanish_Town%2C_Jamaica.png
+     "The Old Spanish Cathedral at Spanish Town, Jamaica 3024477681.jpg"  [Public domain]  by Hawley C. White
+        https://upload.wikimedia.org/wikipedia/commons/4/45/The_Old_Spanish_Cathedral_at_Spanish_Town%2C_Jamaica_3024477681.jpg
+     "The geographical and historical dictionary of America and the West Indies (microform) - containing an entire translation of the Spanish work of Colonel Don Antonio de Alcedo (IA cihm 27909).pdf"  [Public domain]  by Alcedo, Antonio de, 1736-1812
+Thompson, G. A. (George Alexander)
+        https://upload.wikimedia.org/wikipedia/commons/0/0e/The_geographical_and_historical_dictionary_of_America_and_the_West_Indies_%28microform%29_-_containing_an_entire_translation_of_the_Spanish_work_of_Colonel_Don_Antonio_de_Alcedo_%28IA_cihm_27909%29.pdf
+
+  [has photo] St. Peter's (Parish Church) — Falmouth (Trelawny)
+     "St. Peter Church in Falmouth.jpg"  [CC BY-SA 4.0]  by Nev ena
+        https://upload.wikimedia.org/wikipedia/commons/8/88/St._Peter_Church_in_Falmouth.jpg
+     "St. Peter's Anglican Church Falmouth 01 2026 03.jpg"  [CC BY-SA 4.0]  by Concord
+        https://upload.wikimedia.org/wikipedia/commons/a/a5/St._Peter%27s_Anglican_Church_Falmouth_01_2026_03.jpg
+     "St. Peter's Anglican Church Falmouth 01 2026 01.jpg"  [CC BY-SA 4.0]  by Concord
+        https://upload.wikimedia.org/wikipedia/commons/b/b8/St._Peter%27s_Anglican_Church_Falmouth_01_2026_01.jpg
+     "St. Peter's Anglican Church Falmouth 01 2026 02.jpg"  [CC BY-SA 4.0]  by Concord
+        https://upload.wikimedia.org/wikipedia/commons/f/fc/St._Peter%27s_Anglican_Church_Falmouth_01_2026_02.jpg
+
+Identified churches: 10 | NO photo: 3
