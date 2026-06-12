@@ -23,6 +23,10 @@ RULES = [
      "carved out as a separate sugar-plain parish in **1673**"),
     ("ramble", re.compile(r"Ramble Anglican Church, reported by the Jamaica Gleaner as demolished"),
      "Ramble Anglican Church, reported by the Jamaica Gleaner as badly damaged"),
+    ("suttons-1690", re.compile(r"some 500 enslaved people escaped to form the Maroon communities"),
+     "some 500 enslaved people rose in revolt, and many of those who escaped joined the Maroon communities"),
+    ("alley-founding", re.compile(r"founded 1671 at Withywood, relocated to Alley after the 1692 earthquake, present building 1715/1735"),
+     "founded 1671, in the district then known as Withywood; the present building was erected around 1715 on the foundations of the original"),
 ]
 
 changed = 0
