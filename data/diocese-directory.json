@@ -1,0 +1,1765 @@
+[
+  {
+    "region": "KINGSTON",
+    "deanery": "Kingston",
+    "name": "St. Thomas the Apostle, Kingston Parish Church",
+    "match": "kingston-parish-church-st-thomas-the-apostle-kingston-parade-king-st-kingston"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Kingston",
+    "name": "St. George’s, East Street",
+    "match": "st-george-s-church-83-east-street-kingston"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Kingston",
+    "name": "St. Michael’s, Victoria Ave",
+    "match": "st-michael-s-church-hannah-town-kingston"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Kingston",
+    "name": "St. Patrick's, Windward Road",
+    "match": "st-patrick-s-windward-road-kingston"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Kingston",
+    "name": "Christ Church, Vineyard Town",
+    "match": "christ-church-vineyard-town-kingston"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Kingston",
+    "name": "All Saints’, West Street",
+    "match": "all-saints-west-branch-kingston"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Kingston",
+    "name": "St. Alban's, Denham Town",
+    "match": "st-alban-s-kingston-kingston"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Kingston",
+    "name": "St. Matthew’s, Allman Town",
+    "match": "st-matthew-s-allman-town-kingston"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Kingston",
+    "name": "St. George’s, Grand Cayman"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Kingston",
+    "name": "St. Boniface's, Harbour View",
+    "match": "st-boniface-harbour-view-kingston"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Kingston",
+    "name": "St. Peter's, Port Royal",
+    "match": "st-peter-s-port-royal-kingston"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Kingston",
+    "name": "St. Martin's, Bull Bay",
+    "match": "st-martin-s-mission-bull-bay-st-thomas"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portmore",
+    "name": "Church of Reconciliation, Portmore",
+    "match": "church-of-reconciliation-portmore-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portmore",
+    "name": "St. Paul’s Mission, Portmore"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portmore",
+    "name": "Church of the Holy Spirit, Cumberland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portmore",
+    "name": "St. Andrew's, Caymanas"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. Jago de la Vega, The Cathedral",
+    "match": "st-jago-de-la-vega-the-cathedral-spanish-town-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. Barnabas, Crescent",
+    "match": "st-barnabas-crescent-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. Joseph's, Innswood/McCook's Pen",
+    "match": "st-joseph-s-innswood-mccook-s-pen-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. Matthew's, Mt. Moorland",
+    "match": "st-matthew-s-mt-moorland-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. John's, Sligoville",
+    "match": "st-john-s-sligoville-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "Holy Trinity, Spanish Town",
+    "match": "holy-trinity-spanish-town-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "Church of the Holy Trinity, Linstead",
+    "match": "church-of-the-holy-trinity-linstead-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. Thomas-ye-Vale, Bog Walk",
+    "match": "st-thomas-ye-vale-bog-walk-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. John's OPC, Guanaboa Vale",
+    "match": "st-john-s-opc-guanaboa-vale-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "SS Simon and Jude, Ewarton",
+    "match": "ss-simon-and-jude-ewarton-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. Saviour’s, Harewood",
+    "match": "st-saviour-s-harewood-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. Faith's, Faith's",
+    "match": "st-faith-s-faith-s-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. Boniface, Mount Industry",
+    "match": "st-boniface-mount-industry-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. Mark's, Ham Walk",
+    "match": "st-mark-s-ham-walk-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. Phillip's, Morris Hall",
+    "match": "st-phillip-s-morris-hall-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. George’s. Bartons",
+    "match": "st-george-s-bartons-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "All Saints', Bellas Gate",
+    "match": "all-saints-bellas-gate-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. Mark's, Macca Tree",
+    "match": "st-mark-s-macca-tree-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. Andrew's, Marley Hill",
+    "match": "st-andrew-s-marley-hill-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. Peter's, Old Works",
+    "match": "st-peter-s-old-works-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. Augustine's Watermount",
+    "match": "st-augustine-s-watermount-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. Peter’s, Lluidas Vale",
+    "match": "st-peter-s-lluidas-vale-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. George's, Point Hill",
+    "match": "st-george-s-point-hill-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. Lawrence's, Camperdown",
+    "match": "st-lawrence-s-camperdown-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. Luke's, Juan-de-Bolas",
+    "match": "st-luke-s-juan-de-bolas-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. Paul's, Kentish",
+    "match": "st-paul-s-kentish-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. Simon's, Top Hill",
+    "match": "st-simon-s-top-hill-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. Dorothy’s, Old Harbour",
+    "match": "st-dorothy-s-church-old-harbour-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "Church of the Holy Trinity, Old Harbour",
+    "match": "holy-trinity-old-harbour-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. Philip's, Old Harbour Bay",
+    "match": "st-philip-s-old-harbour-bay-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "SS Michael and George's, Freetown",
+    "match": "ss-michael-and-george-s-freetown-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. George’s, Blackstonedge",
+    "match": "st-george-s-blackstonedge-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "St. Paul's, Clapham",
+    "match": "st-paul-s-clapham-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Catherine",
+    "name": "All Saints', Guy's Hill",
+    "match": "all-saints-guys-hill-st-catherine"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Thomas",
+    "name": "Christ Church, Morant Bay",
+    "match": "christ-church-morant-bay-st-thomas"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Thomas",
+    "name": "St. Boniface's, Whitehall",
+    "match": "st-boniface-whitehall-st-thomas"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Thomas",
+    "name": "St. Matthias',  Middleton",
+    "match": "st-matthias-middleton-st-thomas"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Thomas",
+    "name": "St. Matthew's, Wilmington",
+    "match": "st-matthew-s-wilmington-st-thomas"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Thomas",
+    "name": "Church of the Holy Trinity, Trinityville",
+    "match": "holy-trinity-trinityville-st-thomas"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Thomas",
+    "name": "St. John's, Woburn Lawn",
+    "match": "st-john-s-woburn-lawn-st-thomas"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Thomas",
+    "name": "St. David's, Yallahs",
+    "match": "st-david-s-yallahs-st-thomas"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Thomas",
+    "name": "All Saints', The Abbey",
+    "match": "all-saints-the-abbey-st-thomas"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Thomas",
+    "name": "St. Paul's, Danvers Pen",
+    "match": "st-paul-s-danvers-pen-st-thomas"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Thomas",
+    "name": "St. Andrew’s, Golden Grove",
+    "match": "st-andrew-s-golden-grove-st-thomas"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Thomas",
+    "name": "St. Thomas', Bath",
+    "match": "st-thomas-bath-st-thomas"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Thomas",
+    "name": "St. Barnabas', Port Morant",
+    "match": "st-barnabas-port-morant-st-thomas"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Thomas",
+    "name": "St. Augustine's, Mt. Felix",
+    "match": "st-augustine-s-mt-felix-st-thomas"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Thomas",
+    "name": "St. Stephen's, Thornton",
+    "match": "st-stephen-s-thornton-st-thomas"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. Andrew Parish Church, Half Way Tree",
+    "match": "st-andrew-parish-church-half-way-tree-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. Clement's, Kencot",
+    "match": "st-clement-s-kencot-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. Thomas Mission, Majesty Gardens",
+    "match": "st-thomas-mission-majesty-gardens-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "Church of the Transfiguration, Havendale",
+    "match": "church-of-the-transfiguration-havendale-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. John's, Merrivale",
+    "match": "st-john-s-merrivale-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. Martin's, Padmore",
+    "match": "st-martin-s-padmore-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. Mary the Virgin, Marverly",
+    "match": "st-mary-the-virgin-marverly-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "Church of the Resurrection, Duhaney Park",
+    "match": "church-of-the-resurrection-duhaney-park-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. Paul's, Tower Hill",
+    "match": "st-paul-s-tower-hill-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. Luke's, Cross Roads",
+    "match": "st-luke-s-church-cross-roads-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. Phillip's, Whitfield Town",
+    "match": "st-philip-s-whitfield-town-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. Margaret's, Liguanea",
+    "match": "st-margaret-s-liguanea-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. Joseph's the Grove",
+    "match": "st-joseph-s-the-grove-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. Cyprians, August Town",
+    "match": "st-cyprians-august-town-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "Church of Ascension, Mona",
+    "match": "church-of-ascension-mona-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. Matthew's, Jack's Hill",
+    "match": "st-matthew-s-jack-s-hill-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. Michael's, Mavis Bank",
+    "match": "st-michael-s-mavis-bank-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. Peter's, Clifton,",
+    "match": "st-peter-s-clifton-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. Marks, Craigton",
+    "match": "st-mark-s-craighton-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. Mary's Woodford",
+    "match": "st-mary-s-church-woodford-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. Stephen's, Maryland",
+    "match": "st-stephen-s-maryland-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. Jude's, Stony Hill",
+    "match": "st-jude-s-stony-hill-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. Phillip's, Brandon Hill",
+    "match": "st-philip-s-brandon-hill-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. Christopher's, Cavaliers",
+    "match": "st-christopher-s-cavaliers-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. James', Mt. James",
+    "match": "st-james-mount-james-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "St. Bartholomew's, Tom's River",
+    "match": "st-bartholomew-s-tom-s-river-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Andrew",
+    "name": "Church of the Good Shepherd, Constant Spring",
+    "match": "church-of-the-good-shepherd-constant-spring-st-andrew"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Mary",
+    "name": "St. Mary Parish Church",
+    "match": "st-mary-parish-church-port-maria-st-mary"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Mary",
+    "name": "St. Alban's, Albion Mountain.",
+    "match": "st-alban-s-albion-mountain-st-mary"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Mary",
+    "name": "St. Luke's, Bonny Gate",
+    "match": "st-luke-s-bonny-gate-st-mary"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Mary",
+    "name": "St. Peter's,  Galina",
+    "match": "st-peter-s-galina-st-mary"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Mary",
+    "name": "St. Elizabeth's, Mason Hall",
+    "match": "st-elizabeth-s-mason-hall-st-mary"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Mary",
+    "name": "St. Cyprian's, Highgate",
+    "match": "st-cyprian-s-highgate-st-mary"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Mary",
+    "name": "St. Michael's, Belfield",
+    "match": "st-michael-s-belfield-st-mary"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Mary",
+    "name": "St. Agathas's, Bromley",
+    "match": "st-agatha-s-bromley-st-mary"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Mary",
+    "name": "St. Gabriel's, Woodside",
+    "match": "st-gabriel-s-woodside-st-mary"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Mary",
+    "name": "Church of the Ephipany, Richmond",
+    "match": "church-of-the-epiphany-richmond-st-mary"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Mary",
+    "name": "St. Martin's, Martin",
+    "match": "st-martin-s-martin-st-mary"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Mary",
+    "name": "St. James', Annotto Bay",
+    "match": "st-james-annotto-bay-st-mary"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Mary",
+    "name": "St. Barnabas', Enfield",
+    "match": "st-barnabas-enfield-st-mary"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Mary",
+    "name": "St. Margaret's, Long Road",
+    "match": "st-margaret-s-long-road-st-mary"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Mary",
+    "name": "St. Mark's, Scott's Hall",
+    "match": "st-mark-s-scott-s-hall-st-mary"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Mary",
+    "name": "St. Patrick's, Devon Pen C/E",
+    "match": "st-patrick-s-devon-pen-st-mary"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Mary",
+    "name": "Church of the Holy Trinity, Retreat",
+    "match": "holy-trinity-retreat-st-mary"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Mary",
+    "name": "St. John's, Gayle",
+    "match": "st-john-s-gayle-st-mary"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Mary",
+    "name": "St. Andrew's, Labyrinth",
+    "match": "st-andrew-s-labyrinth-st-mary"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Mary",
+    "name": "St. Matthew's, Boscobel",
+    "match": "st-matthew-s-boscobel-st-mary"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "St. Mary",
+    "name": "St. Margaret's, Clifton Lodge",
+    "match": "st-margaret-s-clifton-lodge-st-mary"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "Christ Church, Port Antonio",
+    "match": "christ-church-parish-church-port-antonio-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. Paul's, Nonsuch",
+    "match": "st-paul-s-nonsuch-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "Boundbrook Chapel-of-Ease",
+    "match": "boundbrook-chapel-of-ease-boundbrook-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. Mary's, Rural Hill",
+    "match": "st-mary-s-rural-hill-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. Mark's, Boston",
+    "match": "st-mark-s-boston-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. Thomas, Manchioneal",
+    "match": "st-thomas-manchioneal-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. Christopher's, Sherwood Forest",
+    "match": "st-christopher-s-sherwood-forest-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. John's, Windsor Forrest",
+    "match": "st-john-s-windsor-forrest-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. George's, Buff Bay",
+    "match": "st-george-s-buff-bay-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. James', Birnamwood",
+    "match": "st-james-birnamwood-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. Joseph's, Belvedere",
+    "match": "st-joseph-s-belvedere-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. Philip's,Bangor Ridge",
+    "match": "st-philip-s-bangor-ridge-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. Mary's, Rose Hill",
+    "match": "st-mary-s-rose-hill-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. Stephen's, St. Margaret's Bay",
+    "match": "st-stephen-s-church-st-margaret-s-bay-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. Peter's, Hope Bay",
+    "match": "st-peter-s-hope-bay-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. John's, Bybrook",
+    "match": "st-john-s-bybrook-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. Paul's, Claverty Cottage C/E",
+    "match": "st-paul-s-claverty-cottage-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. Michael's, Fruitful Vale",
+    "match": "st-michael-s-fruitful-vale-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. Dunstan's, Orange Bay",
+    "match": "st-dunstan-s-orange-bay-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. Matthew's, Mount Herman"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "Maidstone C/E",
+    "match": "maidstone-chapel-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "All Saints', Fellowship",
+    "match": "all-saints-fellowship-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. Paul's, Moore Town",
+    "match": "st-paul-s-moore-town-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. Luke's, Comfort Castle",
+    "match": "st-luke-s-comfort-castle-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. John's, Cooper's Hill",
+    "match": "st-john-s-cooper-s-hill-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. Michael's, John's Hall",
+    "match": "st-michael-s-john-s-hall-portland"
+  },
+  {
+    "region": "KINGSTON",
+    "deanery": "Portland",
+    "name": "St. Jude's, Bourbon",
+    "match": "st-jude-s-bourbon-portland"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "St. Gabriel's, May Pen",
+    "match": "st-gabriel-s-may-pen-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "St. James', Hayes",
+    "match": "st-james-hayes-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "St. Paul's, Mocho",
+    "match": "st-paul-s-mocho-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "All Saints', Richmond Park",
+    "match": "all-saints-richmond-park-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "St. John's, Palmers Cross C/E",
+    "match": "st-john-s-palmers-cross-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "St. Paul's, Chapelton",
+    "match": "st-paul-s-chapelton-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "St. James', Rock River",
+    "match": "st-james-rock-river-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "St. Mark's, Beckford Kraal",
+    "match": "st-mark-s-beckford-kraal-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "All Saints', Mt. Providence C/E",
+    "match": "all-saints-mt-providence-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "Woodall, C/E",
+    "match": "st-luke-s-wood-hall-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "All Saints', Crofts Hill",
+    "match": "all-saints-crofts-hill-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "St. Bartholomew's, Good Hope, Kellitts",
+    "match": "st-bartholomew-s-good-hope-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "St. Michael's, Arthur's Seat",
+    "match": "st-michael-s-arthurs-seat-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "St. Peter's, Rhoden Hall C/E",
+    "match": "st-peter-s-rhoden-hall-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "St. Bartholomew's, Frankfield",
+    "match": "st-bartholomew-s-frankfield-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "St. Luke's, Sanguinetti",
+    "match": "st-luke-s-sanguinetti-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "St. Gregory's, Red Hills",
+    "match": "st-george-s-red-hills-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "Holy Trinity, Park Hall",
+    "match": "holy-trinity-park-hall-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "St. Matthew's, Aenon Town",
+    "match": "st-matthew-s-aenon-town-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "Peckham, C/E",
+    "match": "peckham-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "St. Peter's, Alley",
+    "match": "st-peter-s-church-alley-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "St. Thomas', Race Course",
+    "match": "st-thomas-race-course-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "St. John's, Portland Cottage",
+    "match": "st-john-s-portland-cottage-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "St. Saviour's, Milk River",
+    "match": "st-saviour-s-milk-river-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "St. Luke's, Mitchell Town",
+    "match": "st-luke-s-mitchell-town-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Clarendon",
+    "name": "St. Andrew's Rocky Point",
+    "match": "st-andrew-s-rocky-point-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. Mark's, Mandeville",
+    "match": "st-mark-s-parish-church-mandeville-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. Philip's, Old England",
+    "match": "st-philip-s-old-england-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. James', Kendal",
+    "match": "st-james-kendal-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. Michael and All Angels",
+    "match": "st-michael-and-all-angels-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. Barnabas, Mile Gully",
+    "match": "st-barnabas-mile-gully-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. Lawrence's, Devon",
+    "match": "st-lawrence-s-devon-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. Simon's, Comfort Hall",
+    "match": "st-simon-s-comfort-hall-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. George's, Mile Gully",
+    "match": "st-george-s-church-ruins-auchtembeddie-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "Harry Watch, C/E",
+    "match": "harry-watch-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "Whitby, C/E",
+    "match": "whitby-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "Christ Church, Christiana",
+    "match": "christ-church-christiana-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. John the Baptist, Coleyville",
+    "match": "st-john-the-baptist-s-coleyville-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. Jude's, Battersea",
+    "match": "st-jude-s-battersea-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. Paul's, Spaulding",
+    "match": "st-paul-s-spalding-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. John the Divine, Alston",
+    "match": "st-john-the-divine-alston-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. Augustine's, Porus",
+    "match": "st-augustine-s-porus-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. Jame's, Toll Gate",
+    "match": "st-james-s-toll-gate-clarendon"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. Stephen's, Chantilly",
+    "match": "st-stephen-s-chantilly-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. Andrew's, Harmons",
+    "match": "st-andrew-s-harmons-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "Holy Trinity, St. Toolies",
+    "match": "holy-trinity-st-toolies-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. David's, Snowdon",
+    "match": "st-david-s-snowdon-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. Patrick's, Providence",
+    "match": "st-patrick-s-providence-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. Jude's, Pratville",
+    "match": "st-jude-s-pratville-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. Luke's, Smithfield",
+    "match": "st-luke-s-smithfield-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. Andrew's, Albert Town",
+    "match": "st-andrew-s-albert-town-trelawny"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. James', Craighead",
+    "match": "st-james-s-craighead-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. Silas', Troy",
+    "match": "st-silas-s-troy-trelawny"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. Peter's, Wait-a-Bit",
+    "match": "st-peter-s-wait-a-bit-trelawny"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "Manchester",
+    "name": "St. Barnabas', Warsop",
+    "match": "st-barnabas-warsop-trelawny"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. John's, Black River",
+    "match": "st-john-s-parish-church-black-river-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "All Souls', Brompton",
+    "match": "all-souls-brompton-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Stephen's, Arlington",
+    "match": "st-stephen-s-arlington-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Boniface, Pondside",
+    "match": "st-boniface-pondside-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Luke's, Balaclava",
+    "match": "st-luke-s-balaclava-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Paul's, Kenysham",
+    "match": "st-paul-s-keynsham-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. John, Auchtembeddie",
+    "match": "st-john-s-auchtembeddie-manchester"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Barnabas', Siloah",
+    "match": "st-barnabas-siloah-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Aidan's, Belmore Castle"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Martins, Mt. Trinity"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Bartholomew's, Mulgrave"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Philip's, Niagara"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Thomas', Lacovia",
+    "match": "st-thomas-lacovia-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "Church of the Holy Trinity, Whitehall",
+    "match": "holy-trinity-whitehall-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Jude's, Slipe",
+    "match": "st-jude-s-slipe-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Margaret's. Middlesex",
+    "match": "st-margaret-s-middle-quarters-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Peter's, Pedro Plain",
+    "match": "st-peter-s-pedro-plains-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Augustine's, Mountainside",
+    "match": "st-augustine-s-mountainside-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Matthew's, Orange Grove",
+    "match": "st-matthew-s-orange-grove-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "All Saints', Newell",
+    "match": "all-saints-newell-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Paul's, Barbary Hall",
+    "match": "st-paul-s-barbary-hall-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "The Ephipany, Bigwoods",
+    "match": "epiphany-bigwoods-district-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Matthew's, Santa Cruz",
+    "match": "st-matthew-s-santa-cruz-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Andrew's, Gilnock",
+    "match": "st-andrew-s-gilnock-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. James', Mount Hermon",
+    "match": "st-james-mount-hermon-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Stephen's, Nain",
+    "match": "st-stephen-s-nain-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "Church of the Holy Spirit, Pepper",
+    "match": "holy-spirit-hermons-pepper-run-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "The Transfiguration, Leeds",
+    "match": "the-transfiguration-leeds-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Mary's, Southfield",
+    "match": "st-mary-s-southfield-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Mark's, Mayfield",
+    "match": "st-mark-s-mayfield-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. David's, Morningside",
+    "match": "st-david-s-morningside-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Alban's, Stanmore",
+    "match": "st-alban-s-stanmore-hill-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Aidan's, Bull Savannah",
+    "match": "st-aidan-s-bull-savannah-st-elizabeth"
+  },
+  {
+    "region": "MANDEVILLE",
+    "deanery": "St. Elizabeth",
+    "name": "St. Paul's, Tyrall",
+    "match": "st-paul-s-tryall-st-elizabeth"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. Ann",
+    "name": "St. Ann's Bay, Parish Church",
+    "match": "st-ann-parish-church-st-ann-s-bay-st-ann"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. Ann",
+    "name": "St. Saviour's, Lime Hall",
+    "match": "st-saviour-s-lime-hall-st-ann"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. Ann",
+    "name": "St. Mark's, Chester",
+    "match": "st-mark-s-chester-st-ann"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. Ann",
+    "name": "St. Agnes, Priory",
+    "match": "st-agnes-church-priory-st-ann"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. Ann",
+    "name": "St. John's, Ocho Rios",
+    "match": "st-john-s-ocho-rios-st-ann"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. Ann",
+    "name": "St. Francis, Hiattsfield",
+    "match": "st-francis-church-hiattsfield-st-ann"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. Ann",
+    "name": "St. Agnes', Salisbury",
+    "match": "st-agnes-salisbury-st-ann"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. Ann",
+    "name": "St. Matthew's, Claremont",
+    "match": "st-matthew-s-claremont-st-ann"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. Ann",
+    "name": "Christ Church, Moneague",
+    "match": "christ-church-moneague-st-ann"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. Ann",
+    "name": "St. David's, Brittonville",
+    "match": "st-david-s-brittonville-st-ann"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. Ann",
+    "name": "St. Andrew's, Prickley Pole",
+    "match": "st-andrew-s-prickly-pole-st-ann"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. Ann",
+    "name": "St. Mark's, Brown's Town",
+    "match": "st-mark-s-church-brown-s-town-st-ann"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. Ann",
+    "name": "St. Luke's, Aboukir",
+    "match": "st-luke-s-aboukir-st-ann"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. Ann",
+    "name": "St. James', Gibraltar",
+    "match": "st-james-gibraltar-st-ann"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. Ann",
+    "name": "St. Thomas', Stewart Town",
+    "match": "st-thomas-stewart-town-trelawny"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. Ann",
+    "name": "St. Andrew's, Bamboo",
+    "match": "st-andrew-s-bamboo-st-ann"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. Ann",
+    "name": "St. Barnabas', Madras",
+    "match": "st-barnabas-madras-st-ann"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. James",
+    "name": "St. Peter's, Falmouth -Parish Church",
+    "match": "st-peter-s-parish-church-falmouth-trelawny"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. James",
+    "name": "Christ Church, Marley"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. James",
+    "name": "St. Stephen's, Litchfield"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. James",
+    "name": "St. Michael's, Clark's Town",
+    "match": "st-michael-s-clarks-town-trelawny"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. James",
+    "name": "St. Mark's, Rio Bueno",
+    "match": "st-mark-s-rio-bueno-trelawny"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. James",
+    "name": "St. Matthew's, Jackson Town",
+    "match": "st-matthew-s-jackson-town-trelawny"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. James",
+    "name": "St. Barnabas, Duncans",
+    "match": "st-barnabas-duncan-trelawny"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. James",
+    "name": "St. James Parish Church, Montego Bay",
+    "match": "st-james-parish-church-sam-sharpe-square-st-james"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. James",
+    "name": "St. Francis, Glendevon",
+    "match": "st-francis-glendevon-st-james"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. James",
+    "name": "St. Augustine's, Coral Gardens",
+    "match": "st-augustine-s-coral-gardens-st-james"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. James",
+    "name": "St. Leonard's, Blue Hole",
+    "match": "st-leonard-s-blue-hole-st-james"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. James",
+    "name": "Church of the Holy Trinity, Westgate",
+    "match": "holy-trinity-westgate-st-james"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. James",
+    "name": "Holy Cross Mission, Mt. Salem",
+    "match": "holy-cross-mount-salem-st-james"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. James",
+    "name": "St. Luke's Vaughnsfield",
+    "match": "st-luke-s-vaughnsfield-st-james"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. James",
+    "name": "St. John's, Grace Hill",
+    "match": "st-john-s-grace-hill-st-james"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. James",
+    "name": "St. Mary Magdalene, Granville  C/E",
+    "match": "mary-magdalene-granville-st-james"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. James",
+    "name": "St. Mary's, Montpelier",
+    "match": "st-mary-s-montpelier-st-james"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. James",
+    "name": "St. Stephen's, Cambridge",
+    "match": "st-stephen-s-cambridge-st-james"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. James",
+    "name": "St. Matthew's, Catadupa",
+    "match": "st-matthew-s-catadupa-st-james"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. James",
+    "name": "St. Saviour's, Chichester",
+    "match": "st-saviour-s-chichester-st-james"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. James",
+    "name": "All Saints', Chester Castle",
+    "match": "all-saints-chester-castle-hanover"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "St. James",
+    "name": "St. Mark's, Chigwell"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Hanover",
+    "name": "St. Mary's, Lucea Parish Church",
+    "match": "hanover-parish-church-lucea-hanover"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Hanover",
+    "name": "Church of the Holy Trinity, Green Island",
+    "match": "church-of-the-holy-trinity-green-island-hanover"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Hanover",
+    "name": "St. Bartholomew's, Dalmally",
+    "match": "st-bartholomew-s-dalmally-hanover"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Hanover",
+    "name": "St. Philip's, Eaton",
+    "match": "st-philip-s-eaton-hanover"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Hanover",
+    "name": "St. Augustine's, Church Hill"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Hanover",
+    "name": "St. Agnes', Grange",
+    "match": "st-agnes-grange-hanover"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "St. George's, Savanna-la-Mar",
+    "match": "st-george-s-savanna-la-mar-parish-church-westmoreland"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "St. Barnabas', George's Plain",
+    "match": "st-barnabas-george-s-plain-westmoreland"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "All Saints', Meylersfield",
+    "match": "all-saints-meylersfield-westmoreland"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "Church of the Holy Trinity, Grange Hill",
+    "match": "holy-trinity-grange-hill-westmoreland"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "Church of the Transfiguration, Mt. Grace",
+    "match": "transfiguration-mount-grace-westmoreland"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "St. James', Grange",
+    "match": "st-james-grange-westmoreland"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "St. Luke's, Cessnock",
+    "match": "st-luke-s-cessnock-westmoreland"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "St. John's, Darliston",
+    "match": "st-john-s-darliston-westmoreland"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "St. Peter's, Petersfield",
+    "match": "st-peter-s-petersfield-westmoreland"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "St. James', New Roads",
+    "match": "st-james-new-roads-westmoreland-westmoreland"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "St. Matthias, Kentucky",
+    "match": "st-matthias-kentucky-westmoreland"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "St. Barnabas', Beeston Spring",
+    "match": "st-barnabas-beeston-spring-westmoreland"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "St. Michael's, Kew Park",
+    "match": "st-michael-s-kew-park-westmoreland"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "St. Stephen's, Cornwall Mountain",
+    "match": "st-stephen-s-cornwall-mountain-westmoreland"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "St. Mark's, Hopewell",
+    "match": "st-mark-s-hopewell-westmoreland"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "St. Bartholomew's, Berkshire",
+    "match": "st-bartholomew-s-berkshire-westmoreland"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "St. Alban's, Ashton",
+    "match": "st-alban-s-ashton-westmoreland"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "St. Thomas', Bluefields",
+    "match": "st-thomas-bluefields-westmoreland"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "St. Thomas', Kings",
+    "match": "st-thomas-kings-westmoreland"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "St. Paul's, Little London",
+    "match": "st-paul-s-little-london-westmoreland"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "St. Mary's, Negril",
+    "match": "st-mary-s-negril-westmoreland"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "St. Helena's, Sheffield",
+    "match": "st-helena-s-sheffield-westmoreland"
+  },
+  {
+    "region": "MONTEGO BAY",
+    "deanery": "Westmoreland",
+    "name": "St. Silas', Mt. Airy",
+    "match": "st-silas-mt-airy-westmoreland"
+  }
+]
