@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import { to } from '../lib/router'
 
 interface ClergyMention {
   id: string
@@ -134,7 +135,7 @@ export default function ClergyPage() {
                       <ul className="mt-1 ml-1 text-sm text-gray-600 flex flex-wrap gap-x-3 gap-y-1">
                         {mentions.map(m => (
                           <li key={m.id}>
-                            <a href={`#/church/${m.id}`} className="text-crimson hover:underline">
+                            <a href={to(`/church/${m.id}`)} className="text-crimson hover:underline">
                               {m.name}
                             </a>
                             <span className="text-gray-400"> &middot; {m.parish}</span>

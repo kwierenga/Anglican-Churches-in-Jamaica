@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { responsiveSrc } from '../lib/cloudinary'
 import { PARISHES } from '../lib/parishes'
 import { getCatalog, loadSearchIndex } from '../lib/search'
+import { to } from '../lib/router'
 import type { ChurchRow } from '../lib/schemas'
 
 const CLOUDINARY_BASE = 'https://res.cloudinary.com/kwierenga/image/upload'
@@ -38,7 +39,7 @@ export default function ParishesIndex() {
               return (
                 <a
                   key={p.slug}
-                  href={`#/parish/${p.slug}`}
+                  href={to(`/parish/${p.slug}`)}
                   className="group block bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all hover:-translate-y-1"
                 >
                   <div className="relative h-40">

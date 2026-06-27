@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { useRoute } from '../lib/router'
+import { useRoute, to } from '../lib/router'
 import { setSeo } from '../lib/seo'
 import { responsiveSrc } from '../lib/cloudinary'
 import { getCatalog, loadSearchIndex } from '../lib/search'
@@ -30,7 +30,7 @@ const CLASSIFICATION_ORDER: Record<ChurchRow['classification'], number> = {
 
 export default function ParishPage() {
   const route = useRoute()
-  const slug = route.replace('#/parish/', '').replace(/[?#].*$/, '')
+  const slug = route.replace('/parish/', '').replace(/[?#].*$/, '')
   const info: ParishInfo | undefined = PARISH_BY_SLUG.get(slug)
 
   const [catalog, setCatalog] = useState<ChurchRow[]>(getCatalog())
@@ -65,7 +65,7 @@ export default function ParishPage() {
       <main className="max-w-3xl mx-auto px-4 py-16">
         <h1 className="font-heading text-3xl font-bold text-crimson mb-4">Parish not found</h1>
         <p className="text-gray-600 font-body">
-          <a href="#/churches" className="text-crimson hover:underline">Browse the church directory &rarr;</a>
+          <a href={to('/churches')} className="text-crimson hover:underline">Browse the church directory &rarr;</a>
         </p>
       </main>
     )
@@ -96,7 +96,7 @@ export default function ParishPage() {
             {info.blurb}
           </p>
           <div className="mt-6 flex flex-wrap justify-center items-center gap-3 text-sm">
-            <Button href={`#/churches?parish=${encodeURIComponent(info.name)}`} variant="primary" size="sm">
+            <Button href={`${to('/churches')}?parish=${encodeURIComponent(info.name)}`} variant="primary" size="sm">
               View on map &rarr;
             </Button>
             <span className="inline-flex items-center text-white/80 font-body">
@@ -135,7 +135,7 @@ function ChurchGroup({ title, churches }: { title: string; churches: ChurchRow[]
         {churches.map(c => (
           <a
             key={c.id}
-            href={`#/church/${c.id}`}
+            href={to(`/church/${c.id}`)}
             className="group bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md hover:-translate-y-0.5 transition-all"
           >
             <div className="flex items-start justify-between gap-2">

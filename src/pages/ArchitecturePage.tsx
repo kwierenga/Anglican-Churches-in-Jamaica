@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { getCatalog, loadSearchIndex } from '../lib/search'
+import { to } from '../lib/router'
 import type { ChurchRow } from '../lib/schemas'
 
 type StyleKey = 'georgian' | 'gothic_revival' | 'vernacular' | 'estate_chapel' | 'modernist'
@@ -127,7 +128,7 @@ export default function ArchitecturePage() {
                       {matches.map(c => (
                         <a
                           key={c.id}
-                          href={`#/church/${c.id}`}
+                          href={to(`/church/${c.id}`)}
                           className="group bg-white border border-gray-200 rounded-lg px-4 py-3 hover:shadow-md hover:-translate-y-0.5 transition-all"
                         >
                           <h3 className="font-heading text-sm font-semibold text-gray-900 group-hover:text-crimson transition-colors leading-snug">

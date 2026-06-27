@@ -7,7 +7,7 @@
     "predev": "npm run build:data",
     "dev": "vite",
     "build": "npm run build:data && vite build",
-    "postbuild": "tsx scripts/copy-assets.ts",
+    "postbuild": "tsx scripts/copy-assets.ts && tsx scripts/prerender.ts",
     "preview": "vite preview",
     "build:data": "tsx scripts/build-data.ts",
     "add:media": "tsx scripts/add-media.ts",
