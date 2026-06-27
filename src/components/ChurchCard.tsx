@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { marked } from 'marked'
 import { useQueryState } from '../lib/state'
 import { buildSrcSet, responsiveSrc } from '../lib/cloudinary'
@@ -39,6 +39,7 @@ export default function ChurchCard(){
   const [media, setMedia] = useState<MediaRow[]>([])
   const [status, setStatus] = useState<'empty' | 'loading' | 'ready' | 'missing'>('empty')
   const [lightbox, setLightbox] = useState<MediaRow | null>(null)
+  const lightboxCloseRef = useRef<HTMLButtonElement | null>(null)
 
   useEffect(()=>{
     if(!id){ setPreview(null); setMedia([]); setStatus('empty'); return }
@@ -57,9 +58,11 @@ export default function ChurchCard(){
 
   useEffect(() => {
     if (!lightbox) return
+    const prev = document.activeElement as HTMLElement | null
+    lightboxCloseRef.current?.focus()
     const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setLightbox(null) }
     window.addEventListener('keydown', onKey)
-    return () => window.removeEventListener('keydown', onKey)
+    return () => { window.removeEventListener('keydown', onKey); prev?.focus?.() }
   }, [lightbox])
 
   if (status === 'empty') {
@@ -96,7 +99,7 @@ export default function ChurchCard(){
         </div>
       ) : (
         <div className="mb-4 rounded border border-dashed border-gold/50 bg-ivory px-4 py-5 text-center">
-          <div className="text-gold/70 text-2xl mb-1">&#10013;</div>
+          <div className="text-gold/70 text-2xl mb-1" aria-hidden="true">&#10013;</div>
           <p className="font-body text-xs text-gray-500">
             No photograph yet.{' '}
             <a href={contributeMailto(preview?.name || 'this church', 'photo')}
@@ -128,9 +131,20 @@ export default function ChurchCard(){
 
       {lightbox && (
         <div
+          role="dialog"
+          aria-modal="true"
+          aria-label={`Photograph — ${preview?.name || 'church'}`}
           className="fixed inset-0 z-[9999] bg-black/80 flex items-center justify-center p-4 cursor-zoom-out"
           onClick={() => setLightbox(null)}
         >
+          <button
+            ref={lightboxCloseRef}
+            onClick={() => setLightbox(null)}
+            aria-label="Close image"
+            className="absolute top-3 right-4 text-white/90 hover:text-white text-4xl leading-none"
+          >
+            &times;
+          </button>
           <figure className="max-w-full max-h-full flex flex-col items-center">
             <img
               src={responsiveSrc(lightbox.url, 2000)}

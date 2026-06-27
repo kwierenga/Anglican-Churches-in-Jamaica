@@ -77,7 +77,7 @@ export default function HomePage() {
         <div className="absolute inset-0"
              style={{ background: 'linear-gradient(140deg, rgba(107,0,0,0.85) 0%, rgba(58,26,46,0.8) 45%, rgba(30,45,78,0.85) 100%)' }} />
         <div className="relative z-10 px-4 max-w-3xl">
-          <div className="text-gold-bright text-5xl mb-4">&#10013;</div>
+          <div className="text-gold-bright text-5xl mb-4" aria-hidden="true">&#10013;</div>
           <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-4">
             Faith Rooted in Three Centuries of Island Life
           </h1>
