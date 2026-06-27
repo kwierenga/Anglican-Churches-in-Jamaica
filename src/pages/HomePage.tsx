@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { buildSrcSet, responsiveSrc } from '../lib/cloudinary'
 import { PARISHES } from '../lib/parishes'
 import { loadSearchIndex, getCatalog } from '../lib/search'
-import { navigate } from '../lib/router'
+import { navigate, to } from '../lib/router'
 import Button from '../components/Button'
 import type { FeedItem } from '../lib/schemas'
 
@@ -57,7 +57,7 @@ export default function HomePage() {
     const pool = getCatalog()
     if (pool.length === 0) return
     const pick = pool[Math.floor(Math.random() * pool.length)]
-    navigate(`#/church/${pick.id}`)
+    navigate(`/church/${pick.id}`)
   }
 
   const scrollToParishes = () => {
@@ -87,7 +87,7 @@ export default function HomePage() {
             Jamaica &mdash; their history, architecture, and the people who built them.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3">
-            <Button href="#/churches" variant="primary" size="lg">Browse the map &rarr;</Button>
+            <Button href={to('/churches')} variant="primary" size="lg">Browse the map &rarr;</Button>
             <Button onClick={scrollToParishes} variant="outlineLight" size="lg">Find by parish</Button>
             <Button onClick={surpriseMe} variant="linkLight" className="text-lg px-2">&#127922; Surprise me</Button>
           </div>
@@ -128,7 +128,7 @@ export default function HomePage() {
             {PARISHES.map(p => (
               <a
                 key={p.slug}
-                href={`#/parish/${p.slug}`}
+                href={to(`/parish/${p.slug}`)}
                 className="px-4 py-2 rounded-full border border-crimson/30 text-crimson font-body text-sm
                            hover:bg-crimson hover:text-white transition-colors"
               >
@@ -136,7 +136,7 @@ export default function HomePage() {
               </a>
             ))}
           </div>
-          <Button href="#/churches" variant="outline">View All Churches &rarr;</Button>
+          <Button href={to('/churches')} variant="outline">View All Churches &rarr;</Button>
         </div>
       </section>
 
@@ -157,7 +157,7 @@ export default function HomePage() {
               { img: 'lucea-1_ylkphu', name: 'Hanover Parish Church', loc: 'Lucea, Hanover', id: 'hanover-parish-church-lucea-hanover' },
               { img: 'montego-bay-1_j6tuwf', name: 'St. James Parish Church', loc: 'Montego Bay, St. James', id: 'st-james-parish-church-sam-sharpe-square-st-james' },
             ].map(c => (
-              <a key={c.id} href={`#/church/${c.id}`}
+              <a key={c.id} href={to(`/church/${c.id}`)}
                  className="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all hover:-translate-y-1">
                 <img
                   src={responsiveSrc(`${CLOUDINARY_BASE}/${c.img}.jpg`, 500, { height: 360, crop: 'fill' })}
@@ -204,7 +204,7 @@ export default function HomePage() {
                 Islands is part of the Church in the Province of the West Indies within the worldwide Anglican
                 Communion.
               </p>
-              <Button href="#/history" variant="outline">Explore three centuries of history &rarr;</Button>
+              <Button href={to('/history')} variant="outline">Explore three centuries of history &rarr;</Button>
             </div>
             <aside>
               <div className="bg-parchment border border-gold/30 rounded-lg p-6">
@@ -245,7 +245,7 @@ export default function HomePage() {
               </div>
             ))}
           </div>
-          <Button href="#/history" variant="crimson">Read the full history &rarr;</Button>
+          <Button href={to('/history')} variant="crimson">Read the full history &rarr;</Button>
         </div>
       </section>
 
@@ -267,7 +267,7 @@ export default function HomePage() {
               </div>
             ))}
           </div>
-          <Button href="#/architecture" variant="outline" className="mt-8">Browse churches by architectural style &rarr;</Button>
+          <Button href={to('/architecture')} variant="outline" className="mt-8">Browse churches by architectural style &rarr;</Button>
         </div>
       </section>
 
@@ -307,7 +307,7 @@ export default function HomePage() {
                 News &amp; Events
                 <span className="block w-16 h-[3px] bg-gold mt-3" />
               </h2>
-              <Button href="#/news" variant="link">All news &amp; events &rarr;</Button>
+              <Button href={to('/news')} variant="link">All news &amp; events &rarr;</Button>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {[...events, ...news].slice(0, 3).map(item => {
@@ -349,7 +349,7 @@ export default function HomePage() {
           <p className="text-white/80 font-body text-lg mb-6">
             Browse the map, search by parish, or discover a church at random.
           </p>
-          <Button href="#/churches" variant="primary" size="lg">Browse Map &rarr;</Button>
+          <Button href={to('/churches')} variant="primary" size="lg">Browse Map &rarr;</Button>
         </div>
       </section>
     </main>

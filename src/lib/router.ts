@@ -1,47 +1,84 @@
-import { useSyncExternalStore, useCallback } from 'react'
+import { useSyncExternalStore } from 'react'
 
-/** Simple hash-based router: #/ #/churches #/map #/church/slug #/about #/news etc. */
+/**
+ * History-based router (real URLs, crawlable + shareable).
+ *
+ * Routes are pathnames relative to the Vite base, normalised WITHOUT a
+ * trailing slash: '/', '/churches', '/church/:id', '/parish/:slug', etc.
+ * Links keep real <a href> values (via `to()`) so search engines and social
+ * scrapers see genuine URLs; a delegated click handler turns same-site clicks
+ * into pushState navigations instead of full page loads.
+ */
 
-let _hash = location.hash || '#/'
+export const BASE = import.meta.env.BASE_URL // e.g. '/Anglican-Churches-in-Jamaica/'
+const BASE_NOSLASH = BASE.replace(/\/$/, '')
 
+/** Build a real href from a logical path: to('/church/x') -> '<base>/church/x/'. */
+export function to(path: string): string {
+  const clean = path.replace(/^\/+/, '').replace(/\/+$/, '')
+  return clean ? `${BASE}${clean}/` : BASE
+}
+
+function currentRoute(): string {
+  let p = decodeURI(location.pathname)
+  if (p.startsWith(BASE)) p = '/' + p.slice(BASE.length)
+  else if (p === BASE_NOSLASH) p = '/'
+  if (!p.startsWith('/')) p = '/' + p
+  p = p.replace(/\/+$/, '')
+  return p || '/'
+}
+
+let _route = currentRoute()
 const listeners = new Set<() => void>()
 
 function notify() {
-  _hash = location.hash || '#/'
+  _route = currentRoute()
   listeners.forEach(cb => cb())
 }
 
-window.addEventListener('hashchange', notify)
 window.addEventListener('popstate', notify)
+
+// Delegated click handler: intercept same-site navigations so internal links
+// behave as SPA transitions while still rendering real, crawlable hrefs.
+if (typeof document !== 'undefined') {
+  document.addEventListener('click', (e) => {
+    if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return
+    const a = (e.target as HTMLElement | null)?.closest('a')
+    if (!a) return
+    const target = a.getAttribute('target')
+    if (target && target !== '_self') return
+    if (a.hasAttribute('download')) return
+    const raw = a.getAttribute('href')
+    if (!raw || raw.startsWith('#') || raw.startsWith('mailto:') || raw.startsWith('tel:')) return
+    let url: URL
+    try { url = new URL(a.href) } catch { return }
+    if (url.origin !== location.origin) return
+    if (!url.pathname.startsWith(BASE_NOSLASH)) return
+    e.preventDefault()
+    if (url.href !== location.href) {
+      history.pushState({}, '', url.href)
+      notify()
+    }
+  })
+}
 
 const store = {
   subscribe: (cb: () => void) => {
     listeners.add(cb)
     return () => listeners.delete(cb)
   },
-  getSnapshot: () => _hash,
+  getSnapshot: () => _route,
 }
 
 export function useRoute() {
   return useSyncExternalStore(store.subscribe, store.getSnapshot)
 }
 
+/** Programmatic navigation. Accepts a logical path ('/church/x') or full href. */
 export function navigate(path: string) {
-  // Support paths like '#/churches?parish=Kingston' by splitting hash and query
-  const qIdx = path.indexOf('?')
-  if (qIdx >= 0) {
-    const hash = path.slice(0, qIdx)
-    const query = path.slice(qIdx)
-    // Set query params in location.search, route in location.hash
-    history.pushState({}, '', query + hash)
-    // Manually fire events since pushState doesn't trigger hashchange/popstate
-    _hash = hash || '#/'
-    window.dispatchEvent(new PopStateEvent('popstate'))
-  } else {
-    location.hash = path
+  const href = path.startsWith(BASE) || /^https?:/.test(path) ? path : to(path)
+  if (href !== location.href) {
+    history.pushState({}, '', href)
+    notify()
   }
-}
-
-export function useNavigate() {
-  return useCallback((path: string) => navigate(path), [])
 }

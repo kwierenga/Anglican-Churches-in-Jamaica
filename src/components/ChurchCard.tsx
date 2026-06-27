@@ -3,6 +3,7 @@ import { marked } from 'marked'
 import { useQueryState } from '../lib/state'
 import { buildSrcSet, responsiveSrc } from '../lib/cloudinary'
 import { contributeMailto } from '../lib/site'
+import { to } from '../lib/router'
 import Button from './Button'
 import type { MediaRow } from '../lib/schemas'
 
@@ -25,7 +26,7 @@ interface Preview {
 // parish · classification · status line, and the first real paragraph.
 // The full narrative is rendered only on the canonical church page.
 function previewFromMarkdown(md: string): Preview {
-  const blocks = md.split(/\n{2,}/).map(b => b.trim()).filter(Boolean)
+  const blocks = md.split(/\n\s*\n/).map(b => b.trim()).filter(Boolean)
   const name = (blocks.find(b => b.startsWith('# ')) ?? '').replace(/^#\s+/, '')
   const meta = (blocks.find(b => b.startsWith('**')) ?? '').replace(/\*\*/g, '')
   const lead = blocks.find(b => !b.startsWith('#') && !b.startsWith('**') && b.length > 40) ?? ''
@@ -120,7 +121,7 @@ export default function ChurchCard(){
       )}
 
       {id && (
-        <Button href={`#/church/${id}`} variant="crimson" size="sm" className="mt-5">
+        <Button href={to(`/church/${id}`)} variant="crimson" size="sm" className="mt-5">
           Read the full history &amp; map &rarr;
         </Button>
       )}

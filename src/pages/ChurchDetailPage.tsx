@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { marked } from 'marked'
 import L from 'leaflet'
-import { useRoute } from '../lib/router'
+import { useRoute, to } from '../lib/router'
 import { setSeo, resetSeo } from '../lib/seo'
 import { buildSrcSet, responsiveSrc } from '../lib/cloudinary'
 import { slugifyParish } from '../lib/parishes'
@@ -97,7 +97,7 @@ async function getChurchGeo(id: string): Promise<ChurchGeo | null> {
 
 export default function ChurchDetailPage() {
   const route = useRoute()
-  const slug = route.replace('#/church/', '')
+  const slug = route.replace('/church/', '')
   const [html, setHtml] = useState('')
   const [media, setMedia] = useState<MediaRow[]>([])
   const [loading, setLoading] = useState(true)
@@ -178,7 +178,7 @@ export default function ChurchDetailPage() {
       setIsStub(md ? narrativeWordCount(md) < 120 : false)
 
       if (md && churchGeo) {
-        const firstPara = md.split(/\n{2,}/).find(p => !p.startsWith('#') && !p.startsWith('**') && p.trim().length > 40)
+        const firstPara = md.split(/\n\s*\n/).find(p => !p.startsWith('#') && !p.startsWith('**') && p.trim().length > 40)
         const description = firstPara
           ? firstPara.replace(/[*_`[\]]/g, '').replace(/\s+/g, ' ').trim().slice(0, 200)
           : `${churchGeo.name} — Anglican church in ${churchGeo.parish}, Jamaica.`
@@ -208,13 +208,13 @@ export default function ChurchDetailPage() {
   return (
     <main className="max-w-4xl mx-auto px-4 py-10">
       <nav aria-label="Breadcrumb" className="font-body text-sm text-gray-500 mb-6 flex flex-wrap items-center gap-1.5">
-        <a href="#/" className="text-crimson hover:text-crimson-dark">Home</a>
+        <a href={to('/')} className="text-crimson hover:text-crimson-dark">Home</a>
         <span className="text-gray-300">/</span>
-        <a href="#/churches" className="text-crimson hover:text-crimson-dark">Directory</a>
+        <a href={to('/churches')} className="text-crimson hover:text-crimson-dark">Directory</a>
         {geo && (
           <>
             <span className="text-gray-300">/</span>
-            <a href={`#/parish/${slugifyParish(geo.parish)}`} className="text-crimson hover:text-crimson-dark">
+            <a href={to(`/parish/${slugifyParish(geo.parish)}`)} className="text-crimson hover:text-crimson-dark">
               {geo.parish}
             </a>
             <span className="text-gray-300">/</span>
@@ -294,7 +294,7 @@ export default function ChurchDetailPage() {
                     <dd className="text-gray-900 font-medium flex flex-wrap gap-x-2">
                       {styles.map((key, i) => (
                         <span key={key}>
-                          <a href={`?style=${key}#/architecture`} className="text-crimson hover:text-crimson-dark underline underline-offset-2">
+                          <a href={`${to('/architecture')}?style=${key}`} className="text-crimson hover:text-crimson-dark underline underline-offset-2">
                             {STYLE_META[key]?.title ?? key}
                           </a>{i < styles.length - 1 ? ',' : ''}
                         </span>
@@ -337,7 +337,7 @@ export default function ChurchDetailPage() {
               <div className="space-y-4 font-body text-sm">
                 <div className="flex flex-wrap items-baseline gap-2">
                   <span className="text-xs font-semibold uppercase tracking-wider text-gray-500 w-24 shrink-0">Parish</span>
-                  <a href={`#/parish/${slugifyParish(geo.parish)}`}
+                  <a href={to(`/parish/${slugifyParish(geo.parish)}`)}
                      className="px-3 py-1 rounded-full bg-crimson/10 text-crimson hover:bg-crimson hover:text-white transition-colors">
                     {geo.parish} &rarr;
                   </a>
@@ -346,7 +346,7 @@ export default function ChurchDetailPage() {
                   <div className="flex flex-wrap items-baseline gap-2">
                     <span className="text-xs font-semibold uppercase tracking-wider text-gray-500 w-24 shrink-0">Clergy</span>
                     {clergy.map(name => (
-                      <a key={name} href={`?q=${encodeURIComponent(name)}#/clergy`}
+                      <a key={name} href={`${to('/clergy')}?q=${encodeURIComponent(name)}`}
                          className="px-3 py-1 rounded-full border border-gray-200 text-gray-700 hover:border-crimson hover:text-crimson transition-colors">
                         {name}
                       </a>

@@ -1,13 +1,15 @@
+import { to } from '../lib/router'
+
 const footerLinks = [
-  { href: '#/churches', label: 'Churches' },
-  { href: '#/parishes', label: 'Parishes' },
-  { href: '#/architecture', label: 'Architecture' },
-  { href: '#/clergy', label: 'Clergy' },
-  { href: '#/history', label: 'History' },
-  { href: '#/news', label: 'News & Events' },
-  { href: '#/about', label: 'About' },
-  { href: '#/sources', label: 'Sources' },
-  { href: '#/glossary', label: 'Glossary' },
+  { path: '/churches', label: 'Churches' },
+  { path: '/parishes', label: 'Parishes' },
+  { path: '/architecture', label: 'Architecture' },
+  { path: '/clergy', label: 'Clergy' },
+  { path: '/history', label: 'History' },
+  { path: '/news', label: 'News & Events' },
+  { path: '/about', label: 'About' },
+  { path: '/sources', label: 'Sources' },
+  { path: '/glossary', label: 'Glossary' },
 ]
 
 export default function Footer() {
@@ -16,7 +18,7 @@ export default function Footer() {
       <div className="max-w-site mx-auto px-4 text-center space-y-2">
         <nav aria-label="Footer navigation" className="flex flex-wrap justify-center gap-x-5 gap-y-2 pb-4 text-sm">
           {footerLinks.map(l => (
-            <a key={l.href} href={l.href} className="text-white/70 hover:text-gold-bright transition-colors">
+            <a key={l.path} href={to(l.path)} className="text-white/70 hover:text-gold-bright transition-colors">
               {l.label}
             </a>
           ))}

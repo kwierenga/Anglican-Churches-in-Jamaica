@@ -23,61 +23,61 @@ import Glossary from './pages/Glossary'
 import History from './pages/History'
 
 const STATIC_META: Record<string, { title?: string; description?: string }> = {
-  '#/': { },
-  '#/churches': { title: 'Church Directory', description: 'Browse, search and filter all Anglican churches in Jamaica on an interactive map.' },
-  '#/map': { title: 'Church Directory', description: 'Browse, search and filter all Anglican churches in Jamaica on an interactive map.' },
-  '#/parishes': { title: 'Parishes', description: 'The fourteen civil parishes of Jamaica and their Anglican churches.' },
-  '#/history': { title: 'History', description: 'The history of the Anglican Church in Jamaica from 1655 to the present.' },
-  '#/about': { title: 'About & Sources', description: 'About this project, and the full list of UK and Jamaican sources cited in the church narratives.' },
-  '#/news': { title: 'News & Events', description: 'Recent news and upcoming events from the Anglican Diocese of Jamaica and the Cayman Islands.' },
-  '#/sources': { title: 'Sources', description: 'Primary and secondary sources used across the site.' },
-  '#/glossary': { title: 'Glossary', description: 'Terms and vocabulary used across the site.' },
-  '#/architecture': { title: 'Architecture', description: 'Browse Jamaican Anglican churches by architectural style — Georgian, Gothic Revival, vernacular Caribbean, estate chapels, and post-war modernist.' },
-  '#/clergy': { title: 'Clergy Index', description: 'Index of clergy — bishops, archbishops, rectors, and priests — named in the church narratives.' },
+  '/': { },
+  '/churches': { title: 'Church Directory', description: 'Browse, search and filter all Anglican churches in Jamaica on an interactive map.' },
+  '/map': { title: 'Church Directory', description: 'Browse, search and filter all Anglican churches in Jamaica on an interactive map.' },
+  '/parishes': { title: 'Parishes', description: 'The fourteen civil parishes of Jamaica and their Anglican churches.' },
+  '/history': { title: 'History', description: 'The history of the Anglican Church in Jamaica from 1655 to the present.' },
+  '/about': { title: 'About & Sources', description: 'About this project, and the full list of UK and Jamaican sources cited in the church narratives.' },
+  '/news': { title: 'News & Events', description: 'Recent news and upcoming events from the Anglican Diocese of Jamaica and the Cayman Islands.' },
+  '/sources': { title: 'Sources', description: 'Primary and secondary sources used across the site.' },
+  '/glossary': { title: 'Glossary', description: 'Terms and vocabulary used across the site.' },
+  '/architecture': { title: 'Architecture', description: 'Browse Jamaican Anglican churches by architectural style — Georgian, Gothic Revival, vernacular Caribbean, estate chapels, and post-war modernist.' },
+  '/clergy': { title: 'Clergy Index', description: 'Index of clergy — bishops, archbishops, rectors, and priests — named in the church narratives.' },
 }
 
 export default function App() {
   const route = useRoute()
 
   useEffect(() => {
-    if (route.startsWith('#/church/') || route.startsWith('#/parish/')) return
+    if (route.startsWith('/church/') || route.startsWith('/parish/')) return
     const meta = STATIC_META[route] ?? {}
     setSeo(meta)
   }, [route])
 
   let page: ReactElement
-  if (route === '#/' || route === '') {
+  if (route === '/' || route === '') {
     page = <HomePage />
-  } else if (route === '#/churches' || route === '#/map') {
+  } else if (route === '/churches' || route === '/map') {
     page = <DirectoryPage />
-  } else if (route.startsWith('#/church/')) {
+  } else if (route.startsWith('/church/')) {
     // key={route} forces a fresh mount on every church change -- guarantees
     // a new component instance, fresh state and refs, and scroll at top.
     page = <ChurchDetailPage key={route} />
-  } else if (route === '#/parishes') {
+  } else if (route === '/parishes') {
     page = <ParishesIndex />
-  } else if (route.startsWith('#/parish/')) {
+  } else if (route.startsWith('/parish/')) {
     page = <ParishPage />
-  } else if (route === '#/architecture') {
+  } else if (route === '/architecture') {
     page = <ArchitecturePage />
-  } else if (route === '#/clergy') {
+  } else if (route === '/clergy') {
     page = <ClergyPage />
-  } else if (route === '#/history') {
+  } else if (route === '/history') {
     page = <History />
-  } else if (route === '#/about') {
+  } else if (route === '/about') {
     page = <About />
-  } else if (route === '#/news') {
+  } else if (route === '/news') {
     page = <News />
-  } else if (route === '#/sources') {
+  } else if (route === '/sources') {
     page = <Sources />
-  } else if (route === '#/glossary') {
+  } else if (route === '/glossary') {
     page = <Glossary />
   } else {
     page = <HomePage />
   }
 
   // Directory page has its own full-screen layout, no footer
-  const isDirectory = route === '#/churches' || route === '#/map'
+  const isDirectory = route === '/churches' || route === '/map'
 
   return (
     <div className="min-h-screen flex flex-col">
