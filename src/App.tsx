@@ -24,6 +24,7 @@ const News = lazy(() => import('./pages/News'))
 const Sources = lazy(() => import('./pages/Sources'))
 const Glossary = lazy(() => import('./pages/Glossary'))
 const History = lazy(() => import('./pages/History'))
+const DataPage = lazy(() => import('./pages/DataPage'))
 
 const STATIC_META: Record<string, { title?: string; description?: string }> = {
   '/': { },
@@ -35,6 +36,7 @@ const STATIC_META: Record<string, { title?: string; description?: string }> = {
   '/news': { title: 'News & Events', description: 'Recent news and upcoming events from the Anglican Diocese of Jamaica and the Cayman Islands.' },
   '/sources': { title: 'Sources', description: 'Primary and secondary sources used across the site.' },
   '/glossary': { title: 'Glossary', description: 'Terms and vocabulary used across the site.' },
+  '/data': { title: 'Data Coverage', description: 'Maintainer punch-list of what each church entry still needs — photos, fuller histories, structured facts.' },
   '/architecture': { title: 'Architecture', description: 'Browse Jamaican Anglican churches by architectural style — Georgian, Gothic Revival, vernacular Caribbean, estate chapels, and post-war modernist.' },
   '/clergy': { title: 'Clergy Index', description: 'Index of clergy — bishops, archbishops, rectors, and priests — named in the church narratives.' },
 }
@@ -75,6 +77,8 @@ export default function App() {
     page = <Sources />
   } else if (route === '/glossary') {
     page = <Glossary />
+  } else if (route === '/data') {
+    page = <DataPage />
   } else {
     page = <HomePage />
   }

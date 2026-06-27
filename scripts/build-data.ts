@@ -82,6 +82,12 @@ const styleIndex: StyleIndex = { georgian: [], gothic_revival: [], vernacular: [
 // Per-church architectural styles, injected into geo + search-index so the
 // church page Key Facts panel can show them without an extra fetch.
 const stylesById: Record<string, ArchStyle[]> = {}
+// Narrative metrics — power the data-completeness dashboard. References and
+// section counts are substance/sourcing signals (filler-resistant), unlike
+// raw word count which is kept only as supplementary info.
+const wordsById: Record<string, number> = {}
+const refsById: Record<string, number> = {}
+const sectionsById: Record<string, number> = {}
 
 interface NarrativeChurch {
   id: string
@@ -240,6 +246,14 @@ if (fs.existsSync(CONTENT_DIR)) {
     // Estate chapel as standalone category only for classification=chapel
     const filteredStyles = styles.filter(s => s !== 'estate_chapel' || v.classification === 'chapel' || v.classification === 'church')
     stylesById[v.id] = filteredStyles
+    const body = text.split(/^##\s+References\b/mi)[0]
+    wordsById[v.id] = body.replace(/\[([^\]]*)\]\([^)]*\)/g, '$1').replace(/[#*_`>[\]]/g, ' ').split(/\s+/).filter(Boolean).length
+    // References = list items in the References section; sections = content ## headings.
+    const refsBlock = (text.split(/^##\s+References\b/mi)[1] ?? '').split(/^##\s+/m)[0]
+    refsById[v.id] = (refsBlock.match(/^\s*[-*]\s+/gm) || []).length
+    sectionsById[v.id] = [...text.matchAll(/^##\s+(.+)$/gm)]
+      .map(m => m[1].trim())
+      .filter(t => !/^(references|recent coverage|sources)\b/i.test(t)).length
     if (!isRuin) {
       for (const s of filteredStyles) styleIndex[s].push(v.id)
     }
@@ -278,6 +292,9 @@ function meta(v: ChurchRow) {
   return {
     styles: stylesById[v.id] ?? [],
     photos: (mediaIndex[v.id]?.filter(m => m.type === 'image').length) ?? 0,
+    words: wordsById[v.id] ?? 0,
+    refs: refsById[v.id] ?? 0,
+    sections: sectionsById[v.id] ?? 0,
     ...(v.founding_year != null ? { founding_year: v.founding_year } : {}),
     ...(v.patron_saint ? { patron_saint: v.patron_saint } : {}),
     ...(v.heritage ? { heritage: v.heritage } : {}),

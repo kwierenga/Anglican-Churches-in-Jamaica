@@ -35,8 +35,12 @@ export const ChurchRowSchema = z.object({
   founding_year: z.preprocess(emptyToUndef, z.coerce.number().int().min(1500).max(2100).optional()),
   patron_saint: z.preprocess(emptyToUndef, z.string().optional()),
   heritage: z.preprocess(emptyToUndef, z.string().optional()),
-  // Derived in build-data (not a CSV column); present in search-index.json.
+  // Derived in build-data (not CSV columns); present in search-index.json.
   photos: z.coerce.number().int().nonnegative().optional(),
+  words: z.coerce.number().int().nonnegative().optional(),
+  refs: z.coerce.number().int().nonnegative().optional(),
+  sections: z.coerce.number().int().nonnegative().optional(),
+  styles: z.array(z.string()).optional(),
 })
 export type ChurchRow = z.infer<typeof ChurchRowSchema>
 

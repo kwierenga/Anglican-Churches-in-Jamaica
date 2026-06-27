@@ -4,8 +4,9 @@ import L from 'leaflet'
 import { useRoute, to } from '../lib/router'
 import { setSeo, resetSeo } from '../lib/seo'
 import { buildSrcSet, responsiveSrc } from '../lib/cloudinary'
-import { slugifyParish } from '../lib/parishes'
+import { slugifyParish, PARISHES } from '../lib/parishes'
 import { contributeMailto } from '../lib/site'
+import { linkifyArticle } from '../lib/linkify'
 import Button from '../components/Button'
 import type { MediaRow } from '../lib/schemas'
 
@@ -108,6 +109,7 @@ export default function ChurchDetailPage() {
   const mapInstanceRef = useRef<L.Map | null>(null)
   const mediaStripRef = useRef<HTMLDivElement | null>(null)
   const lightboxCloseRef = useRef<HTMLButtonElement | null>(null)
+  const articleRef = useRef<HTMLElement | null>(null)
 
   const satelliteMapRef = useCallback((el: HTMLDivElement | null) => {
     if (mapInstanceRef.current) {
@@ -178,7 +180,9 @@ export default function ChurchDetailPage() {
       const images = idx[slug]?.filter(m => m.type === 'image') ?? []
       setMedia(images)
       setGeo(churchGeo)
-      setIsStub(md ? narrativeWordCount(md) < 120 : false)
+      // Every narrative carries section scaffolding (floor ~477 words), so only
+      // a genuinely skeletal entry trips this; decent ~500-word pages don't.
+      setIsStub(md ? narrativeWordCount(md) < 350 : false)
 
       if (md && churchGeo) {
         const firstPara = md.split(/\n\s*\n/).find(p => !p.startsWith('#') && !p.startsWith('**') && p.trim().length > 40)
@@ -207,6 +211,17 @@ export default function ChurchDetailPage() {
   }, [slug])
 
   const styles = geo?.styles ?? []
+
+  // Auto-link parishes + this church's clergy mentioned in the narrative prose.
+  useEffect(() => {
+    const root = articleRef.current
+    if (!root || !html) return
+    const terms = [
+      ...PARISHES.map(p => ({ text: p.name, href: to(`/parish/${p.slug}`) })),
+      ...clergy.map(name => ({ text: name, href: `${to('/clergy')}?q=${encodeURIComponent(name)}` })),
+    ].sort((a, b) => b.text.length - a.text.length)
+    linkifyArticle(root, terms)
+  }, [html, clergy])
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-10">
@@ -312,6 +327,7 @@ export default function ChurchDetailPage() {
           )}
 
           <article
+            ref={articleRef}
             className="prose md:prose-lg max-w-none
                        prose-headings:font-heading prose-headings:text-crimson
                        prose-p:font-body prose-p:text-gray-700
