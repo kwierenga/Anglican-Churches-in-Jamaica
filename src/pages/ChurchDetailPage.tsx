@@ -5,6 +5,8 @@ import { useRoute } from '../lib/router'
 import { setSeo, resetSeo } from '../lib/seo'
 import { buildSrcSet, responsiveSrc } from '../lib/cloudinary'
 import { slugifyParish } from '../lib/parishes'
+import { contributeMailto } from '../lib/site'
+import Button from '../components/Button'
 import type { MediaRow } from '../lib/schemas'
 
 type MediaIndex = Record<string, MediaRow[]>
@@ -16,8 +18,6 @@ async function getMediaIndex(): Promise<MediaIndex> {
   return _mediaIndex!
 }
 
-// ── Cross-link indices ──────────────────────────────────────────────
-// Architecture styles a church appears under (reverse of architecture-index).
 const STYLE_META: Record<string, { title: string; icon: string }> = {
   georgian: { title: 'Georgian Colonial', icon: '\u{1F3DB}' },
   gothic_revival: { title: 'Gothic Revival', icon: '\u{26EA}' },
@@ -26,15 +26,14 @@ const STYLE_META: Record<string, { title: string; icon: string }> = {
   modernist: { title: 'Post-War Modernist', icon: '\u{1F3D7}' },
 }
 
-let _archIndex: Record<string, string[]> | null = null
-async function getStylesForChurch(id: string): Promise<string[]> {
-  if (!_archIndex) {
-    const res = await fetch(`${import.meta.env.BASE_URL}data/build/architecture-index.json`)
-    _archIndex = res.ok ? await res.json() : {}
-  }
-  return Object.keys(_archIndex!).filter(key => _archIndex![key].includes(id))
+const CLASS_LABEL: Record<string, string> = {
+  cathedral: 'Cathedral', parish_church: 'Parish Church', church: 'Church',
+  chapel: 'Chapel', mission: 'Mission', ruin: 'Ruin',
 }
 
+const cap = (s: string) => s ? s[0].toUpperCase() + s.slice(1) : s
+
+// Clergy named in this church's narrative (reverse of clergy-index).
 let _clergyIndex: Record<string, { id: string }[]> | null = null
 async function getClergyForChurch(id: string): Promise<string[]> {
   if (!_clergyIndex) {
@@ -46,11 +45,27 @@ async function getClergyForChurch(id: string): Promise<string[]> {
     .map(([name]) => name)
 }
 
+// Rough word count of the narrative body (excludes headings, the meta line,
+// References, and link URLs) — used to flag thin "stub" entries.
+function narrativeWordCount(md: string): number {
+  let body = md.split(/^##\s+References\b/mi)[0]
+  body = body.split('\n').filter(l => !l.startsWith('#') && !l.startsWith('**')).join(' ')
+  body = body.replace(/\[([^\]]*)\]\([^)]*\)/g, '$1').replace(/[#*_`>]/g, ' ')
+  return body.split(/\s+/).filter(Boolean).length
+}
+
 interface ChurchGeo {
   lat: number
   lng: number
   name: string
   parish: string
+  town?: string
+  classification?: string
+  status?: string
+  styles?: string[]
+  founding_year?: number
+  patron_saint?: string
+  heritage?: string
 }
 
 let _geoCache: Record<string, ChurchGeo> | null = null
@@ -61,11 +76,19 @@ async function getChurchGeo(id: string): Promise<ChurchGeo | null> {
     const fc = await res.json()
     _geoCache = {}
     for (const f of fc.features) {
-      _geoCache[f.properties.id] = {
+      const p = f.properties
+      _geoCache[p.id] = {
         lat: f.geometry.coordinates[1],
         lng: f.geometry.coordinates[0],
-        name: f.properties.name,
-        parish: f.properties.parish,
+        name: p.name,
+        parish: p.parish,
+        town: p.town,
+        classification: p.classification,
+        status: p.status,
+        styles: p.styles ?? [],
+        founding_year: p.founding_year,
+        patron_saint: p.patron_saint,
+        heritage: p.heritage,
       }
     }
   }
@@ -79,8 +102,8 @@ export default function ChurchDetailPage() {
   const [media, setMedia] = useState<MediaRow[]>([])
   const [loading, setLoading] = useState(true)
   const [geo, setGeo] = useState<ChurchGeo | null>(null)
-  const [styles, setStyles] = useState<string[]>([])
   const [clergy, setClergy] = useState<string[]>([])
+  const [isStub, setIsStub] = useState(false)
   const [lightbox, setLightbox] = useState<MediaRow | null>(null)
   const mapInstanceRef = useRef<L.Map | null>(null)
   const mediaStripRef = useRef<HTMLDivElement | null>(null)
@@ -121,9 +144,6 @@ export default function ChurchDetailPage() {
   }, [lightbox])
 
   // Synchronously reset scroll BEFORE the browser paints the new church.
-  // Using useLayoutEffect (not useEffect) so the user never sees the old
-  // scroll position with the new content. Disable browser scroll-restoration
-  // once at app level so back/forward navigation also lands at top.
   useLayoutEffect(() => {
     if ('scrollRestoration' in history) history.scrollRestoration = 'manual'
     const resetScroll = () => {
@@ -133,8 +153,6 @@ export default function ChurchDetailPage() {
       if (mediaStripRef.current) mediaStripRef.current.scrollLeft = 0
     }
     resetScroll()
-    // Also re-pin after the next frame and after async content load, in case
-    // late image-load reflow or markdown rendering pushes scroll back.
     const r1 = requestAnimationFrame(resetScroll)
     const r2 = requestAnimationFrame(() => requestAnimationFrame(resetScroll))
     const t = setTimeout(resetScroll, 300)
@@ -157,6 +175,7 @@ export default function ChurchDetailPage() {
       const images = idx[slug]?.filter(m => m.type === 'image') ?? []
       setMedia(images)
       setGeo(churchGeo)
+      setIsStub(md ? narrativeWordCount(md) < 120 : false)
 
       if (md && churchGeo) {
         const firstPara = md.split(/\n{2,}/).find(p => !p.startsWith('#') && !p.startsWith('**') && p.trim().length > 40)
@@ -179,12 +198,12 @@ export default function ChurchDetailPage() {
       setLoading(false)
     })
 
-    // Cross-link indices (architecture styles + clergy) — load independently.
-    getStylesForChurch(slug).then(setStyles).catch(() => setStyles([]))
     getClergyForChurch(slug).then(setClergy).catch(() => setClergy([]))
 
     return () => { resetSeo() }
   }, [slug])
+
+  const styles = geo?.styles ?? []
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-10">
@@ -208,7 +227,20 @@ export default function ChurchDetailPage() {
         <p className="text-gray-400 font-body">Loading...</p>
       ) : (
         <>
-          {media.length > 0 && (
+          {/* Thin-content notice (#2) */}
+          {isStub && geo && (
+            <div className="mb-6 rounded-lg border border-gold/40 bg-parchment px-4 py-3 text-sm font-body text-gray-700">
+              <span className="font-semibold text-crimson">This entry is a stub.</span>{' '}
+              We have only a brief note for {geo.name}.{' '}
+              <a href={contributeMailto(geo.name, 'history')}
+                 className="text-crimson underline underline-offset-2 hover:text-crimson-dark">
+                Help expand it &rarr;
+              </a>
+            </div>
+          )}
+
+          {/* Photos — strip, or placeholder + contribute prompt (#1) */}
+          {media.length > 0 ? (
             <div ref={mediaStripRef} className="flex gap-3 overflow-x-auto pb-3 mb-6">
               {media.map((m, i) => (
                 <figure key={i} className="shrink-0 m-0">
@@ -226,11 +258,53 @@ export default function ChurchDetailPage() {
                   />
                   {m.caption && (
                     <figcaption className="text-xs text-gray-500 mt-1 max-w-[14rem]">
-                      {m.caption}{m.credit ? ` \u2014 ${m.credit}` : ''}
+                      {m.caption}{m.credit ? ` — ${m.credit}` : ''}
                     </figcaption>
                   )}
                 </figure>
               ))}
+            </div>
+          ) : geo && (
+            <div className="mb-6 rounded-lg border border-dashed border-gold/50 bg-ivory px-6 py-8 text-center">
+              <div className="text-gold/70 text-4xl mb-2">&#10013;</div>
+              <p className="font-heading text-gray-700">No photograph yet</p>
+              <p className="font-body text-sm text-gray-500 mt-1 mb-4">
+                Have a photo of {geo.name}? Help complete this entry.
+              </p>
+              <Button href={contributeMailto(geo.name, 'photo')} variant="outlineGold" size="sm">
+                &#128247; Contribute a photo
+              </Button>
+            </div>
+          )}
+
+          {/* Key Facts (#3) */}
+          {geo && (
+            <div className="mb-8 rounded-lg border border-gold/30 bg-parchment p-5">
+              <h2 className="font-heading text-lg font-semibold text-crimson mb-3">Key Facts</h2>
+              <dl className="grid sm:grid-cols-2 gap-x-8 gap-y-2 text-sm font-body">
+                <Fact k="Classification" v={geo.classification ? CLASS_LABEL[geo.classification] : undefined} />
+                <Fact k="Status" v={geo.status ? cap(geo.status) : undefined} />
+                <Fact k="Parish" v={geo.parish} />
+                <Fact k="Town" v={geo.town} />
+                <Fact k="Founded" v={geo.founding_year ? String(geo.founding_year) : undefined} />
+                <Fact k="Patron saint" v={geo.patron_saint} />
+                {styles.length > 0 && (
+                  <div>
+                    <dt className="text-gray-500">Architecture</dt>
+                    <dd className="text-gray-900 font-medium flex flex-wrap gap-x-2">
+                      {styles.map((key, i) => (
+                        <span key={key}>
+                          <a href={`?style=${key}#/architecture`} className="text-crimson hover:text-crimson-dark underline underline-offset-2">
+                            {STYLE_META[key]?.title ?? key}
+                          </a>{i < styles.length - 1 ? ',' : ''}
+                        </span>
+                      ))}
+                    </dd>
+                  </div>
+                )}
+                <Fact k="Heritage" v={geo.heritage} />
+                <Fact k="Photographs" v={media.length ? String(media.length) : 'none yet'} />
+              </dl>
             </div>
           )}
 
@@ -256,7 +330,7 @@ export default function ChurchDetailPage() {
             </div>
           )}
 
-          {/* ── Connections ──────────────────────────────────────── */}
+          {/* Connections (#10) */}
           {geo && (
             <div className="mt-10 pt-6 border-t border-gray-200">
               <h3 className="font-heading text-xl font-semibold text-crimson mb-4">Connections</h3>
@@ -268,19 +342,6 @@ export default function ChurchDetailPage() {
                     {geo.parish} &rarr;
                   </a>
                 </div>
-
-                {styles.length > 0 && (
-                  <div className="flex flex-wrap items-baseline gap-2">
-                    <span className="text-xs font-semibold uppercase tracking-wider text-gray-500 w-24 shrink-0">Architecture</span>
-                    {styles.map(key => (
-                      <a key={key} href={`?style=${key}#/architecture`}
-                         className="px-3 py-1 rounded-full bg-gold/15 text-gray-800 hover:bg-gold hover:text-white transition-colors">
-                        {STYLE_META[key]?.icon} {STYLE_META[key]?.title ?? key}
-                      </a>
-                    ))}
-                  </div>
-                )}
-
                 {clergy.length > 0 && (
                   <div className="flex flex-wrap items-baseline gap-2">
                     <span className="text-xs font-semibold uppercase tracking-wider text-gray-500 w-24 shrink-0">Clergy</span>
@@ -293,6 +354,12 @@ export default function ChurchDetailPage() {
                   </div>
                 )}
               </div>
+              <p className="text-xs text-gray-500 font-body mt-5">
+                Spotted an error or have more to add?{' '}
+                <a href={contributeMailto(geo.name, 'history')} className="text-crimson underline underline-offset-2 hover:text-crimson-dark">
+                  Suggest an edit &rarr;
+                </a>
+              </p>
             </div>
           )}
         </>
@@ -314,12 +381,22 @@ export default function ChurchDetailPage() {
             />
             {lightbox.caption && (
               <figcaption className="text-sm text-gray-200 mt-3 text-center font-body">
-                {lightbox.caption}{lightbox.credit ? ` \u2014 ${lightbox.credit}` : ''}
+                {lightbox.caption}{lightbox.credit ? ` — ${lightbox.credit}` : ''}
               </figcaption>
             )}
           </figure>
         </div>
       )}
     </main>
+  )
+}
+
+function Fact({ k, v }: { k: string; v?: string }) {
+  if (!v) return null
+  return (
+    <div>
+      <dt className="text-gray-500">{k}</dt>
+      <dd className="text-gray-900 font-medium">{v}</dd>
+    </div>
   )
 }

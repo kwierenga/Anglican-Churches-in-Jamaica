@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { marked } from 'marked'
 import { useQueryState } from '../lib/state'
 import { buildSrcSet, responsiveSrc } from '../lib/cloudinary'
+import { contributeMailto } from '../lib/site'
 import Button from './Button'
 import type { MediaRow } from '../lib/schemas'
 
@@ -72,7 +73,7 @@ export default function ChurchCard(){
 
   return (
     <article>
-      {media.length > 0 && (
+      {media.length > 0 ? (
         <div className="flex gap-3 overflow-x-auto pb-2 mb-4">
           {media.map((m, i) => (
             <figure key={i} className="shrink-0 m-0">
@@ -91,6 +92,17 @@ export default function ChurchCard(){
               {m.caption && <figcaption className="text-xs text-gray-500 mt-1 max-w-[12rem]">{m.caption}{m.credit ? ` — ${m.credit}` : ''}</figcaption>}
             </figure>
           ))}
+        </div>
+      ) : (
+        <div className="mb-4 rounded border border-dashed border-gold/50 bg-ivory px-4 py-5 text-center">
+          <div className="text-gold/70 text-2xl mb-1">&#10013;</div>
+          <p className="font-body text-xs text-gray-500">
+            No photograph yet.{' '}
+            <a href={contributeMailto(preview?.name || 'this church', 'photo')}
+               className="text-crimson underline underline-offset-2 hover:text-crimson-dark">
+              Contribute one &rarr;
+            </a>
+          </p>
         </div>
       )}
 
