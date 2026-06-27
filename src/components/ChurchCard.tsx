@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { marked } from 'marked'
 import { useQueryState } from '../lib/state'
 import { buildSrcSet, responsiveSrc } from '../lib/cloudinary'
+import Button from './Button'
 import type { MediaRow } from '../lib/schemas'
 
 type MediaIndex = Record<string, MediaRow[]>
@@ -13,22 +14,42 @@ async function getMediaIndex(): Promise<MediaIndex> {
   return _mediaIndex!
 }
 
+interface Preview {
+  name: string
+  meta: string
+  lead: string
+}
+
+// Pull a lightweight preview out of the full markdown: the title, the
+// parish · classification · status line, and the first real paragraph.
+// The full narrative is rendered only on the canonical church page.
+function previewFromMarkdown(md: string): Preview {
+  const blocks = md.split(/\n{2,}/).map(b => b.trim()).filter(Boolean)
+  const name = (blocks.find(b => b.startsWith('# ')) ?? '').replace(/^#\s+/, '')
+  const meta = (blocks.find(b => b.startsWith('**')) ?? '').replace(/\*\*/g, '')
+  const lead = blocks.find(b => !b.startsWith('#') && !b.startsWith('**') && b.length > 40) ?? ''
+  return { name, meta, lead }
+}
+
 export default function ChurchCard(){
   const [id] = useQueryState('id','')
-  const [html, setHtml] = useState<string>('Select a church to see its details. Use the search box or click the map.')
+  const [preview, setPreview] = useState<Preview | null>(null)
   const [media, setMedia] = useState<MediaRow[]>([])
+  const [status, setStatus] = useState<'empty' | 'loading' | 'ready' | 'missing'>('empty')
   const [lightbox, setLightbox] = useState<MediaRow | null>(null)
 
   useEffect(()=>{
-    if(!id){ setHtml('Select a church to see its details.'); setMedia([]); return }
+    if(!id){ setPreview(null); setMedia([]); setStatus('empty'); return }
+    setStatus('loading')
     Promise.all([
       fetch(`${import.meta.env.BASE_URL}content/churches/${id}.md`).then(r=> r.ok ? r.text() : ''),
       getMediaIndex()
     ]).then(([md, idx])=>{
-      setHtml(md ? (marked.parse(md) as string) : 'No page yet.')
       setMedia(idx[id]?.filter(m=>m.type==='image') ?? [])
+      if (md) { setPreview(previewFromMarkdown(md)); setStatus('ready') }
+      else { setPreview(null); setStatus('missing') }
     }).catch(()=>{
-      setHtml('Failed to load church details.')
+      setPreview(null); setStatus('missing')
     })
   },[id])
 
@@ -39,12 +60,21 @@ export default function ChurchCard(){
     return () => window.removeEventListener('keydown', onKey)
   }, [lightbox])
 
-  const images = media
+  if (status === 'empty') {
+    return <p className="text-gray-500 font-body text-sm">Select a church to see its details. Use the search box or click the map.</p>
+  }
+  if (status === 'loading') {
+    return <p className="text-gray-400 font-body text-sm">Loading…</p>
+  }
+  if (status === 'missing') {
+    return <p className="text-gray-500 font-body text-sm">No page yet for this church.</p>
+  }
+
   return (
-    <article className="prose max-w-none">
-      {images.length > 0 && (
-        <div className="not-prose flex gap-3 overflow-x-auto pb-2 mb-4">
-          {images.map((m, i) => (
+    <article>
+      {media.length > 0 && (
+        <div className="flex gap-3 overflow-x-auto pb-2 mb-4">
+          {media.map((m, i) => (
             <figure key={i} className="shrink-0 m-0">
               <img
                 src={responsiveSrc(m.url, 320, { height: 240, crop: 'fill' })}
@@ -63,8 +93,25 @@ export default function ChurchCard(){
           ))}
         </div>
       )}
-      {/* eslint-disable-next-line react/no-danger */}
-      <div dangerouslySetInnerHTML={{__html: html}} />
+
+      {preview?.name && (
+        <h2 className="font-heading text-2xl font-bold text-crimson leading-tight">{preview.name}</h2>
+      )}
+      {preview?.meta && (
+        <p className="text-xs font-semibold tracking-wider text-crimson-mid uppercase mt-1 mb-3">{preview.meta}</p>
+      )}
+      {preview?.lead && (
+        <p
+          className="font-body text-gray-700 leading-relaxed"
+          dangerouslySetInnerHTML={{ __html: marked.parseInline(preview.lead) as string }}
+        />
+      )}
+
+      {id && (
+        <Button href={`#/church/${id}`} variant="crimson" size="sm" className="mt-5">
+          Read the full history &amp; map &rarr;
+        </Button>
+      )}
 
       {lightbox && (
         <div

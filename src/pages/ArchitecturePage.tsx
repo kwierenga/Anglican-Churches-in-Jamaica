@@ -59,6 +59,8 @@ const STYLES: StyleMeta[] = [
 export default function ArchitecturePage() {
   const [index, setIndex] = useState<StyleIndex | null>(null)
   const [catalog, setCatalog] = useState<ChurchRow[]>(getCatalog())
+  // Read once on mount — the page mounts fresh when reached via a ?style= cross-link.
+  const [focusStyle] = useState(() => new URLSearchParams(location.search).get('style') ?? '')
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/build/architecture-index.json`)
@@ -67,6 +69,13 @@ export default function ArchitecturePage() {
       .catch(() => setIndex(null))
     loadSearchIndex().then(() => setCatalog(getCatalog()))
   }, [])
+
+  // Scroll to a style section when arriving via a ?style= cross-link.
+  useEffect(() => {
+    if (!focusStyle || !index) return
+    const el = document.getElementById(focusStyle)
+    if (el) requestAnimationFrame(() => el.scrollIntoView({ behavior: 'smooth', block: 'start' }))
+  }, [focusStyle, index])
 
   const byId = new Map(catalog.map(c => [c.id, c]))
 
@@ -91,7 +100,11 @@ export default function ArchitecturePage() {
               .sort((a, b) => a.name.localeCompare(b.name))
 
             return (
-              <article key={style.key} id={style.key}>
+              <article
+                key={style.key}
+                id={style.key}
+                className={`scroll-mt-24 ${focusStyle === style.key ? 'rounded-lg ring-2 ring-gold/60 -m-4 p-4' : ''}`}
+              >
                 <header className="flex items-baseline gap-3 mb-4">
                   <div className="text-3xl">{style.icon}</div>
                   <div>

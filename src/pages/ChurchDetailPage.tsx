@@ -4,6 +4,7 @@ import L from 'leaflet'
 import { useRoute } from '../lib/router'
 import { setSeo, resetSeo } from '../lib/seo'
 import { buildSrcSet, responsiveSrc } from '../lib/cloudinary'
+import { slugifyParish } from '../lib/parishes'
 import type { MediaRow } from '../lib/schemas'
 
 type MediaIndex = Record<string, MediaRow[]>
@@ -13,6 +14,36 @@ async function getMediaIndex(): Promise<MediaIndex> {
   const res = await fetch(`${import.meta.env.BASE_URL}data/build/media-index.json`)
   _mediaIndex = res.ok ? await res.json() : {}
   return _mediaIndex!
+}
+
+// ── Cross-link indices ──────────────────────────────────────────────
+// Architecture styles a church appears under (reverse of architecture-index).
+const STYLE_META: Record<string, { title: string; icon: string }> = {
+  georgian: { title: 'Georgian Colonial', icon: '\u{1F3DB}' },
+  gothic_revival: { title: 'Gothic Revival', icon: '\u{26EA}' },
+  vernacular: { title: 'Vernacular Caribbean', icon: '\u{1F334}' },
+  estate_chapel: { title: 'Estate Chapel', icon: '\u{1F3E1}' },
+  modernist: { title: 'Post-War Modernist', icon: '\u{1F3D7}' },
+}
+
+let _archIndex: Record<string, string[]> | null = null
+async function getStylesForChurch(id: string): Promise<string[]> {
+  if (!_archIndex) {
+    const res = await fetch(`${import.meta.env.BASE_URL}data/build/architecture-index.json`)
+    _archIndex = res.ok ? await res.json() : {}
+  }
+  return Object.keys(_archIndex!).filter(key => _archIndex![key].includes(id))
+}
+
+let _clergyIndex: Record<string, { id: string }[]> | null = null
+async function getClergyForChurch(id: string): Promise<string[]> {
+  if (!_clergyIndex) {
+    const res = await fetch(`${import.meta.env.BASE_URL}data/build/clergy-index.json`)
+    _clergyIndex = res.ok ? await res.json() : {}
+  }
+  return Object.entries(_clergyIndex!)
+    .filter(([, mentions]) => mentions.some(m => m.id === id))
+    .map(([name]) => name)
 }
 
 interface ChurchGeo {
@@ -48,6 +79,8 @@ export default function ChurchDetailPage() {
   const [media, setMedia] = useState<MediaRow[]>([])
   const [loading, setLoading] = useState(true)
   const [geo, setGeo] = useState<ChurchGeo | null>(null)
+  const [styles, setStyles] = useState<string[]>([])
+  const [clergy, setClergy] = useState<string[]>([])
   const [lightbox, setLightbox] = useState<MediaRow | null>(null)
   const mapInstanceRef = useRef<L.Map | null>(null)
   const mediaStripRef = useRef<HTMLDivElement | null>(null)
@@ -146,14 +179,30 @@ export default function ChurchDetailPage() {
       setLoading(false)
     })
 
+    // Cross-link indices (architecture styles + clergy) — load independently.
+    getStylesForChurch(slug).then(setStyles).catch(() => setStyles([]))
+    getClergyForChurch(slug).then(setClergy).catch(() => setClergy([]))
+
     return () => { resetSeo() }
   }, [slug])
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-10">
-      <a href="#/churches" className="text-crimson hover:text-crimson-dark font-body text-sm mb-6 inline-block">
-        &larr; Back to Directory
-      </a>
+      <nav aria-label="Breadcrumb" className="font-body text-sm text-gray-500 mb-6 flex flex-wrap items-center gap-1.5">
+        <a href="#/" className="text-crimson hover:text-crimson-dark">Home</a>
+        <span className="text-gray-300">/</span>
+        <a href="#/churches" className="text-crimson hover:text-crimson-dark">Directory</a>
+        {geo && (
+          <>
+            <span className="text-gray-300">/</span>
+            <a href={`#/parish/${slugifyParish(geo.parish)}`} className="text-crimson hover:text-crimson-dark">
+              {geo.parish}
+            </a>
+            <span className="text-gray-300">/</span>
+            <span className="text-gray-700">{geo.name}</span>
+          </>
+        )}
+      </nav>
 
       {loading ? (
         <p className="text-gray-400 font-body">Loading...</p>
@@ -189,7 +238,7 @@ export default function ChurchDetailPage() {
             className="prose md:prose-lg max-w-none
                        prose-headings:font-heading prose-headings:text-crimson
                        prose-p:font-body prose-p:text-gray-700
-                       prose-a:text-crimson"
+                       prose-a:text-crimson prose-a:underline prose-a:underline-offset-2"
             dangerouslySetInnerHTML={{ __html: html }}
           />
 
@@ -204,6 +253,46 @@ export default function ChurchDetailPage() {
               <p className="text-xs text-gray-500 mt-2 font-body">
                 {geo.parish} &middot; {geo.lat.toFixed(4)}, {geo.lng.toFixed(4)}
               </p>
+            </div>
+          )}
+
+          {/* ── Connections ──────────────────────────────────────── */}
+          {geo && (
+            <div className="mt-10 pt-6 border-t border-gray-200">
+              <h3 className="font-heading text-xl font-semibold text-crimson mb-4">Connections</h3>
+              <div className="space-y-4 font-body text-sm">
+                <div className="flex flex-wrap items-baseline gap-2">
+                  <span className="text-xs font-semibold uppercase tracking-wider text-gray-500 w-24 shrink-0">Parish</span>
+                  <a href={`#/parish/${slugifyParish(geo.parish)}`}
+                     className="px-3 py-1 rounded-full bg-crimson/10 text-crimson hover:bg-crimson hover:text-white transition-colors">
+                    {geo.parish} &rarr;
+                  </a>
+                </div>
+
+                {styles.length > 0 && (
+                  <div className="flex flex-wrap items-baseline gap-2">
+                    <span className="text-xs font-semibold uppercase tracking-wider text-gray-500 w-24 shrink-0">Architecture</span>
+                    {styles.map(key => (
+                      <a key={key} href={`?style=${key}#/architecture`}
+                         className="px-3 py-1 rounded-full bg-gold/15 text-gray-800 hover:bg-gold hover:text-white transition-colors">
+                        {STYLE_META[key]?.icon} {STYLE_META[key]?.title ?? key}
+                      </a>
+                    ))}
+                  </div>
+                )}
+
+                {clergy.length > 0 && (
+                  <div className="flex flex-wrap items-baseline gap-2">
+                    <span className="text-xs font-semibold uppercase tracking-wider text-gray-500 w-24 shrink-0">Clergy</span>
+                    {clergy.map(name => (
+                      <a key={name} href={`?q=${encodeURIComponent(name)}#/clergy`}
+                         className="px-3 py-1 rounded-full border border-gray-200 text-gray-700 hover:border-crimson hover:text-crimson transition-colors">
+                        {name}
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
             </div>
           )}
         </>

@@ -1,13 +1,14 @@
 import { useRoute } from '../lib/router'
 
-const links = [
+const links: { href: string; label: string; match?: string }[] = [
   { href: '#/', label: 'Home' },
   { href: '#/churches', label: 'Churches' },
+  { href: '#/parishes', label: 'Parishes', match: '#/parish' },
   { href: '#/architecture', label: 'Architecture' },
   { href: '#/clergy', label: 'Clergy' },
   { href: '#/history', label: 'History' },
-  { href: '#/about', label: 'About' },
   { href: '#/news', label: 'News' },
+  { href: '#/about', label: 'About' },
 ]
 
 export default function Header() {
@@ -27,7 +28,9 @@ export default function Header() {
         {/* Nav links */}
         <nav aria-label="Main navigation" className="ml-auto flex items-center gap-1">
           {links.map(l => {
-            const active = route === l.href || (l.href !== '#/' && route.startsWith(l.href))
+            const active = route === l.href
+              || (l.href !== '#/' && route.startsWith(l.href))
+              || (l.match ? route.startsWith(l.match) : false)
             return (
               <a
                 key={l.href}

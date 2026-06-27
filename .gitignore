@@ -15,3 +15,6 @@ data/victorian-web/
 *.xlsx
 ~$*.xlsx
 data/jar_findings*.md
+
+# Personal trip-planning artifacts (drone photo maps)
+trip-planning/
