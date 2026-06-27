@@ -14,7 +14,10 @@ function err(msg: string){ console.error(`❌ ${msg}`) }
 if(!fs.existsSync(SRC)){ err(`Missing ${SRC}. Create data/churches.csv first.`); process.exit(1) }
 
 const csv = fs.readFileSync(SRC, 'utf8')
-const rows: any[] = parse(csv, { columns: true, skip_empty_lines: true })
+// relax_column_count so optional metadata columns (#3) can be added to the
+// header and filled in for only some rows without padding every row. Required
+// fields are still enforced by the Zod schema below.
+const rows: any[] = parse(csv, { columns: true, skip_empty_lines: true, relax_column_count: true })
 
 const seen = new Set<string>()
 const valid: ChurchRow[] = []
@@ -47,28 +50,6 @@ if(errors>0){
   process.exit(1)
 }
 
-// Emit GeoJSON
-const fc = {
-  type: 'FeatureCollection',
-  features: valid.map(v=>({
-    type: 'Feature',
-    geometry: { type: 'Point', coordinates: [v.lng, v.lat] },
-    properties: {
-      id: v.id, name: v.name, town: v.town,
-      parish: v.parish, classification: v.classification, status: v.status
-    }
-  }))
-}
-fs.writeFileSync(path.join(OUT,'churches.geo.json'), JSON.stringify(fc, null, 2))
-
-// Emit search index (compact)
-const searchIndex = valid.map(v=>({
-  id: v.id, name: v.name, town: v.town,
-  parish: v.parish, classification: v.classification, status: v.status,
-  lat: v.lat, lng: v.lng
-}))
-fs.writeFileSync(path.join(OUT,'search-index.json'), JSON.stringify(searchIndex, null, 2))
-
 // Emit media index
 const MEDIA_SRC = path.resolve('data/media.csv')
 type MediaByChurch = Record<string, MediaRow[]>
@@ -98,6 +79,9 @@ fs.writeFileSync(path.join(OUT,'media-index.json'), JSON.stringify(mediaIndex, n
 type ArchStyle = 'georgian' | 'gothic_revival' | 'vernacular' | 'estate_chapel' | 'modernist'
 type StyleIndex = Record<ArchStyle, string[]>
 const styleIndex: StyleIndex = { georgian: [], gothic_revival: [], vernacular: [], estate_chapel: [], modernist: [] }
+// Per-church architectural styles, injected into geo + search-index so the
+// church page Key Facts panel can show them without an extra fetch.
+const stylesById: Record<string, ArchStyle[]> = {}
 
 interface NarrativeChurch {
   id: string
@@ -255,6 +239,7 @@ if (fs.existsSync(CONTENT_DIR)) {
     const isRuin = v.classification === 'ruin' || v.status === 'ruin'
     // Estate chapel as standalone category only for classification=chapel
     const filteredStyles = styles.filter(s => s !== 'estate_chapel' || v.classification === 'chapel' || v.classification === 'church')
+    stylesById[v.id] = filteredStyles
     if (!isRuin) {
       for (const s of filteredStyles) styleIndex[s].push(v.id)
     }
@@ -285,7 +270,41 @@ if (fs.existsSync(CONTENT_DIR)) {
   )
   fs.writeFileSync(path.join(OUT, 'clergy-index.json'), JSON.stringify(clergyIndexSorted, null, 2))
 
-  console.log(`✅ Wrote ${valid.length} features → churches.geo.json, search-index.json, media-index.json, architecture-index.json, clergy-index.json`)
-} else {
-  console.log(`✅ Wrote ${valid.length} features → data/build/churches.geo.json & search-index.json & media-index.json`)
+  console.log(`✅ Wrote architecture-index.json, clergy-index.json`)
 }
+
+// Optional structured metadata (#3) — only emitted when present in the CSV.
+function meta(v: ChurchRow) {
+  return {
+    styles: stylesById[v.id] ?? [],
+    ...(v.founding_year != null ? { founding_year: v.founding_year } : {}),
+    ...(v.patron_saint ? { patron_saint: v.patron_saint } : {}),
+    ...(v.heritage ? { heritage: v.heritage } : {}),
+  }
+}
+
+// Emit GeoJSON (after narrative processing so per-church styles are available)
+const fc = {
+  type: 'FeatureCollection',
+  features: valid.map(v=>({
+    type: 'Feature',
+    geometry: { type: 'Point', coordinates: [v.lng, v.lat] },
+    properties: {
+      id: v.id, name: v.name, town: v.town,
+      parish: v.parish, classification: v.classification, status: v.status,
+      ...meta(v),
+    }
+  }))
+}
+fs.writeFileSync(path.join(OUT,'churches.geo.json'), JSON.stringify(fc, null, 2))
+
+// Emit search index (compact)
+const searchIndex = valid.map(v=>({
+  id: v.id, name: v.name, town: v.town,
+  parish: v.parish, classification: v.classification, status: v.status,
+  lat: v.lat, lng: v.lng,
+  ...meta(v),
+}))
+fs.writeFileSync(path.join(OUT,'search-index.json'), JSON.stringify(searchIndex, null, 2))
+
+console.log(`✅ Wrote ${valid.length} features → churches.geo.json, search-index.json, media-index.json`)
