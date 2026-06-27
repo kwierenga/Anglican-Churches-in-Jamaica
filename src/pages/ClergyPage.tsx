@@ -36,7 +36,8 @@ function groupByInitial(entries: [string, ClergyMention[]][]) {
 
 export default function ClergyPage() {
   const [index, setIndex] = useState<ClergyIndex>({})
-  const [query, setQuery] = useState('')
+  // Pre-fill the filter when arriving via a ?q= cross-link (e.g. from a church page).
+  const [query, setQuery] = useState(() => new URLSearchParams(location.search).get('q') ?? '')
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
@@ -98,13 +99,14 @@ export default function ClergyPage() {
                 <span className="text-xs font-semibold text-gray-500 mr-2 self-center uppercase tracking-wider">Jump to</span>
               )}
               {groups.map(([initial]) => (
-                <a
+                <button
                   key={initial}
-                  href={`#clergy-${initial}`}
+                  type="button"
+                  onClick={() => document.getElementById(`clergy-${initial}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
                   className="px-2.5 py-1 border border-gray-200 rounded text-crimson font-body hover:bg-crimson hover:text-white hover:border-crimson transition-colors"
                 >
                   {initial}
-                </a>
+                </button>
               ))}
             </nav>
           )}

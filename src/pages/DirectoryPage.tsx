@@ -2,18 +2,15 @@ import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import Sidebar from '../components/Sidebar'
 import MapPanel from '../components/MapPanel'
 import ChurchCard from '../components/ChurchCard'
+import Button from '../components/Button'
 import { useQueryState } from '../lib/state'
 import { getCatalog, loadSearchIndex } from '../lib/search'
 import type { ChurchRow } from '../lib/schemas'
 
 export default function DirectoryPage() {
-  const [id] = useQueryState('id', '')
+  const [id, setId] = useQueryState('id', '')
 
   // Track catalog in local state so the component re-renders when data loads.
-  // Without this, getCatalog() may return [] on the first render (before the
-  // async fetch completes), and nothing triggers a re-render when it finishes.
-  // This matters for deep-linked URLs and map clicks that arrive before the
-  // Sidebar's loadSearchIndex() call resolves.
   const [catalog, setCatalog] = useState<ChurchRow[]>(getCatalog())
   useEffect(() => {
     loadSearchIndex().then(() => setCatalog(getCatalog()))
@@ -31,25 +28,28 @@ export default function DirectoryPage() {
     setNewCoords(null)
   }, [id])
 
-  // Reset main-area scroll when the selected church changes. The main column
-  // is its own overflow-auto container (not the window), so window.scrollTo
-  // doesn't help here.
-  const mainRef = useRef<HTMLElement | null>(null)
+  // The detail panel is its own scroll container; reset it to top on church change.
+  const detailRef = useRef<HTMLElement | null>(null)
   useLayoutEffect(() => {
     if (!id) return
-    const el = mainRef.current
+    const el = detailRef.current
     if (!el) return
     const reset = () => { el.scrollTop = 0 }
     reset()
     const r1 = requestAnimationFrame(reset)
-    const r2 = requestAnimationFrame(() => requestAnimationFrame(reset))
     const t = setTimeout(reset, 300)
-    return () => {
-      cancelAnimationFrame(r1)
-      cancelAnimationFrame(r2)
-      clearTimeout(t)
-    }
+    return () => { cancelAnimationFrame(r1); clearTimeout(t) }
   }, [id])
+
+  // The map column resizes whenever the detail panel opens/closes. Leaflet
+  // (trackResize: true) re-measures on a window resize event, so nudge it
+  // after the layout settles to avoid stale/grey tiles.
+  useEffect(() => {
+    const fire = () => window.dispatchEvent(new Event('resize'))
+    const r1 = requestAnimationFrame(fire)
+    const t = setTimeout(fire, 260)
+    return () => { cancelAnimationFrame(r1); clearTimeout(t) }
+  }, [selected])
 
   const csvLine = selected && newCoords
     ? `${id},${newCoords.lat.toFixed(5)},${newCoords.lng.toFixed(5)}`
@@ -64,67 +64,73 @@ export default function DirectoryPage() {
   }
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-[320px_1fr] h-[calc(100vh-62px)]">
+    <div
+      className="flex flex-col md:grid md:h-[calc(100vh-62px)]"
+      style={{ gridTemplateColumns: selected ? '320px minmax(0, 400px) 1fr' : '320px 1fr' }}
+    >
       {/* Sidebar */}
-      <aside className="border-r border-gray-200 overflow-auto bg-white">
+      <aside className="order-2 md:order-none md:h-full md:overflow-auto border-r border-gray-200 bg-white">
         <Sidebar />
       </aside>
 
-      {/* Main content */}
-      <main ref={mainRef} className="overflow-auto">
-        {/* Map — fixed height */}
-        <div className="relative" style={{ height: '55vh' }}>
-          <MapPanel editing={editing} onEditMove={(lat, lng) => { setNewCoords({ lat, lng }); setCopied(false) }} />
-        </div>
-
-        {/* Fix Location bar — outside the map, always visible when a church is selected */}
-        {selected && (
-          <div className="bg-parchment border-y border-gold/30 px-4 py-2 flex items-center gap-4 flex-wrap text-sm font-body">
-            <span className="font-heading font-semibold text-gray-900">{selected.name}</span>
-            <span className="text-xs text-gray-500">
-              {selected.lat.toFixed(5)}, {selected.lng.toFixed(5)}
+      {/* Detail panel — slides in when a church is selected */}
+      {selected && (
+        <section ref={detailRef} className="order-3 md:order-none md:h-full md:overflow-auto border-r border-gray-200 bg-white">
+          {/* Header */}
+          <div className="sticky top-0 z-10 bg-gradient-to-r from-crimson to-crimson-mid text-white px-4 py-3 flex items-center gap-3 border-b-2 border-gold">
+            <div className="min-w-0">
+              <div className="font-heading font-semibold leading-tight truncate">{selected.name}</div>
+              <div className="text-xs text-white/80 truncate">{selected.town ? `${selected.town}, ` : ''}{selected.parish}</div>
+            </div>
+            <span className="ml-auto text-xs font-semibold px-2 py-0.5 rounded bg-white/15 text-white border border-white/30 whitespace-nowrap">
+              {selected.status}
             </span>
+            <button
+              onClick={() => setId('')}
+              aria-label="Close church details"
+              className="text-white/80 hover:text-white text-2xl leading-none -mr-1"
+            >
+              &times;
+            </button>
+          </div>
 
+          {/* Fix Location bar (editorial) */}
+          <div className="bg-parchment border-b border-gold/30 px-4 py-2 flex items-center gap-3 flex-wrap text-sm font-body">
+            <span className="text-xs text-gray-500">{selected.lat.toFixed(5)}, {selected.lng.toFixed(5)}</span>
             {!editing ? (
-              <button
-                onClick={() => setEditing(true)}
-                className="text-xs px-3 py-1 rounded border border-gold text-gold hover:bg-gold hover:text-white transition-colors ml-auto"
-              >
+              <Button variant="outlineGold" size="sm" onClick={() => setEditing(true)} className="ml-auto text-xs">
                 Fix Location
-              </button>
+              </Button>
             ) : (
-              <div className="flex items-center gap-3 ml-auto">
-                <span className="text-xs text-crimson font-semibold">Click map to set position</span>
+              <div className="flex items-center gap-2 ml-auto">
+                <span className="text-xs text-crimson font-semibold">Click map to set</span>
                 {newCoords && (
                   <>
                     <span className="text-xs font-mono">{newCoords.lat.toFixed(5)}, {newCoords.lng.toFixed(5)}</span>
-                    <button
-                      onClick={handleCopy}
-                      className="text-xs px-2 py-0.5 rounded bg-crimson text-white hover:bg-crimson-dark transition-colors"
-                    >
+                    <Button variant="crimson" size="sm" onClick={handleCopy} className="text-xs px-2 py-0.5">
                       {copied ? 'Copied!' : 'Copy'}
-                    </button>
+                    </Button>
                   </>
                 )}
-                <button
-                  onClick={() => setEditing(false)}
-                  className="text-xs px-2 py-0.5 rounded border border-gray-300 text-gray-500 hover:bg-gray-100 transition-colors"
-                >
+                <button onClick={() => setEditing(false)}
+                        className="text-xs px-2 py-0.5 rounded border border-gray-300 text-gray-500 hover:bg-gray-100 transition-colors">
                   Done
                 </button>
               </div>
             )}
           </div>
-        )}
 
-        {/* Church detail card -- key={id} forces a fresh mount on each church
-            so the image strip's scrollLeft doesn't carry over. */}
-        {id && (
-          <div className="border-t p-5">
+          {/* Church preview — key={id} forces fresh mount per church */}
+          <div className="p-5">
             <ChurchCard key={id} />
           </div>
-        )}
-      </main>
+        </section>
+      )}
+
+      {/* Map — always full height of the column */}
+      <div className="order-1 md:order-none relative h-[55vh] md:h-full border-b md:border-b-0 border-gray-200">
+        <MapPanel editing={editing} onEditMove={(lat, lng) => { setNewCoords({ lat, lng }); setCopied(false) }} />
+      </div>
     </div>
   )
 }

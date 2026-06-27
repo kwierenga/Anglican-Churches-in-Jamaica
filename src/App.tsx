@@ -13,6 +13,7 @@ import HomePage from './pages/HomePage'
 import DirectoryPage from './pages/DirectoryPage'
 import ChurchDetailPage from './pages/ChurchDetailPage'
 import ParishPage from './pages/ParishPage'
+import ParishesIndex from './pages/ParishesIndex'
 import ArchitecturePage from './pages/ArchitecturePage'
 import ClergyPage from './pages/ClergyPage'
 import About from './pages/About'
@@ -25,6 +26,7 @@ const STATIC_META: Record<string, { title?: string; description?: string }> = {
   '#/': { },
   '#/churches': { title: 'Church Directory', description: 'Browse, search and filter all Anglican churches in Jamaica on an interactive map.' },
   '#/map': { title: 'Church Directory', description: 'Browse, search and filter all Anglican churches in Jamaica on an interactive map.' },
+  '#/parishes': { title: 'Parishes', description: 'The fourteen civil parishes of Jamaica and their Anglican churches.' },
   '#/history': { title: 'History', description: 'The history of the Anglican Church in Jamaica from 1655 to the present.' },
   '#/about': { title: 'About & Sources', description: 'About this project, and the full list of UK and Jamaican sources cited in the church narratives.' },
   '#/news': { title: 'News & Events', description: 'Recent news and upcoming events from the Anglican Diocese of Jamaica and the Cayman Islands.' },
@@ -52,6 +54,8 @@ export default function App() {
     // key={route} forces a fresh mount on every church change -- guarantees
     // a new component instance, fresh state and refs, and scroll at top.
     page = <ChurchDetailPage key={route} />
+  } else if (route === '#/parishes') {
+    page = <ParishesIndex />
   } else if (route.startsWith('#/parish/')) {
     page = <ParishPage />
   } else if (route === '#/architecture') {

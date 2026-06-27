@@ -3,6 +3,8 @@ import type Fuse from 'fuse.js'
 import { useQueryState } from '../lib/state'
 import { uniqueValues } from '../lib/utils'
 import { loadSearchIndex, getCatalog } from '../lib/search'
+import Button from './Button'
+import Badge, { statusTone } from './Badge'
 import type { ChurchRow } from '../lib/schemas'
 
 export default function Sidebar() {
@@ -91,21 +93,17 @@ export default function Sidebar() {
         </select>
 
         <div className="flex gap-2">
-          <button onClick={() => { setQ(''); setParish(''); setKlass(''); setStatus(''); setId(''); }}
-                  className="border border-crimson/30 text-crimson px-3 py-1.5 rounded text-sm font-body
-                             hover:bg-crimson hover:text-white transition-colors">
+          <Button variant="outline" size="sm" onClick={() => { setQ(''); setParish(''); setKlass(''); setStatus(''); setId(''); }}>
             Reset
-          </button>
-          <button onClick={() => {
+          </Button>
+          <Button variant="outlineGold" size="sm" onClick={() => {
                     const pool = filtered.length > 0 ? filtered : catalog
                     if (pool.length === 0) return
                     const pick = pool[Math.floor(Math.random() * pool.length)]
                     setId(pick.id)
-                  }}
-                  className="border border-gold text-gold px-3 py-1.5 rounded text-sm font-body
-                             hover:bg-gold hover:text-white transition-colors">
+                  }}>
             Surprise Me
-          </button>
+          </Button>
         </div>
 
         {/* Church list */}
@@ -120,12 +118,7 @@ export default function Sidebar() {
               <span className="font-semibold text-gray-900">{c.name}</span>
               <div className="flex items-center gap-2 mt-0.5">
                 <span className="text-xs text-gray-500">{c.town ? `${c.town}, ` : ''}{c.parish}</span>
-                <span className={`text-[10px] px-1.5 py-0.5 rounded
-                  ${c.status === 'active' ? 'bg-green-100 text-green-700'
-                  : c.status === 'ruin' ? 'bg-red-100 text-red-700'
-                  : 'bg-gray-100 text-gray-500'}`}>
-                  {c.status}
-                </span>
+                <Badge tone={statusTone(c.status)} className="text-[10px] px-1.5">{c.status}</Badge>
               </div>
             </button>
           ))}

@@ -4,6 +4,8 @@ import { setSeo } from '../lib/seo'
 import { responsiveSrc } from '../lib/cloudinary'
 import { getCatalog, loadSearchIndex } from '../lib/search'
 import { PARISH_BY_SLUG, type ParishInfo } from '../lib/parishes'
+import Button from '../components/Button'
+import Badge from '../components/Badge'
 import type { ChurchRow } from '../lib/schemas'
 
 const CLOUDINARY_BASE = 'https://res.cloudinary.com/kwierenga/image/upload'
@@ -93,13 +95,10 @@ export default function ParishPage() {
           <p className="font-body text-lg text-white/90 leading-relaxed">
             {info.blurb}
           </p>
-          <div className="mt-6 flex flex-wrap justify-center gap-3 text-sm">
-            <a
-              href={`#/churches?parish=${encodeURIComponent(info.name)}`}
-              className="inline-block bg-gold-bright hover:bg-gold text-white font-heading font-semibold px-5 py-2 rounded transition-colors"
-            >
+          <div className="mt-6 flex flex-wrap justify-center items-center gap-3 text-sm">
+            <Button href={`#/churches?parish=${encodeURIComponent(info.name)}`} variant="primary" size="sm">
               View on map &rarr;
-            </a>
+            </Button>
             <span className="inline-flex items-center text-white/80 font-body">
               {churches.length} Anglican {churches.length === 1 ? 'church' : 'churches'}
             </span>
@@ -143,9 +142,7 @@ function ChurchGroup({ title, churches }: { title: string; churches: ChurchRow[]
               <h4 className="font-heading text-base font-semibold text-gray-900 group-hover:text-crimson transition-colors leading-tight">
                 {c.name}
               </h4>
-              <span className="text-xs font-semibold px-2 py-0.5 rounded bg-crimson/10 text-crimson whitespace-nowrap">
-                {CLASSIFICATION_LABEL[c.classification]}
-              </span>
+              <Badge>{CLASSIFICATION_LABEL[c.classification]}</Badge>
             </div>
             {c.town && <p className="text-sm text-gray-500 mt-1 font-body">{c.town}</p>}
           </a>
