@@ -90,6 +90,7 @@ const STATIC: Page[] = [
   { route: 'news/', title: 'News & Events', description: 'Recent news and upcoming events from the Anglican Diocese of Jamaica and the Cayman Islands.' },
   { route: 'sources/', title: 'Sources', description: 'Primary and secondary sources used across the site.' },
   { route: 'glossary/', title: 'Glossary', description: 'Terms and vocabulary used across the site.' },
+  { route: 'data/', title: 'Data Coverage', description: 'Maintainer punch-list of what each church entry still needs — photos, fuller histories, structured facts.' },
 ]
 
 const allUrls: string[] = []

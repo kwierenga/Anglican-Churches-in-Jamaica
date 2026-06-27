@@ -10,6 +10,7 @@ const footerLinks = [
   { path: '/about', label: 'About' },
   { path: '/sources', label: 'Sources' },
   { path: '/glossary', label: 'Glossary' },
+  { path: '/data', label: 'Data Coverage' },
 ]
 
 export default function Footer() {
