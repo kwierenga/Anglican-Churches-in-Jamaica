@@ -277,6 +277,7 @@ if (fs.existsSync(CONTENT_DIR)) {
 function meta(v: ChurchRow) {
   return {
     styles: stylesById[v.id] ?? [],
+    photos: (mediaIndex[v.id]?.filter(m => m.type === 'image').length) ?? 0,
     ...(v.founding_year != null ? { founding_year: v.founding_year } : {}),
     ...(v.patron_saint ? { patron_saint: v.patron_saint } : {}),
     ...(v.heritage ? { heritage: v.heritage } : {}),

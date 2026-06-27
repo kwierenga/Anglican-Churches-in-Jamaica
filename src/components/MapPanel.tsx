@@ -25,6 +25,7 @@ export default function MapPanel({ editing, onEditMove }: MapPanelProps){
   const [id] = useQueryState('id','')
   const [klass] = useQueryState('class','')
   const [status] = useQueryState('status','')
+  const [needsphoto] = useQueryState('needsphoto','')
 
   const parishes = useMemo(()=>{
     if(!data) return []
@@ -65,9 +66,10 @@ export default function MapPanel({ editing, onEditMove }: MapPanelProps){
       const okParish = parish ? p.parish===parish : true
       const okClass  = klass ? p.classification===klass : true
       const okStatus = status ? p.status===status : true
-      return okParish && okClass && okStatus
+      const okPhoto  = needsphoto ? !(p.photos && p.photos > 0) : true
+      return okParish && okClass && okStatus && okPhoto
     })
-  },[parish, klass, status, adapter, data])
+  },[parish, klass, status, needsphoto, adapter, data])
 
   // Edit mode: click map to reposition pin
   useEffect(() => {
