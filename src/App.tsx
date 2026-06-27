@@ -1,4 +1,4 @@
-import { useEffect, type ReactElement } from 'react'
+import { lazy, Suspense, useEffect, type ReactElement } from 'react'
 import { useRoute } from './lib/router'
 
 // Disable browser scroll-restoration globally so route changes always start
@@ -9,18 +9,21 @@ if (typeof history !== 'undefined' && 'scrollRestoration' in history) {
 import { setSeo } from './lib/seo'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import HomePage from './pages/HomePage'
-import DirectoryPage from './pages/DirectoryPage'
-import ChurchDetailPage from './pages/ChurchDetailPage'
-import ParishPage from './pages/ParishPage'
-import ParishesIndex from './pages/ParishesIndex'
-import ArchitecturePage from './pages/ArchitecturePage'
-import ClergyPage from './pages/ClergyPage'
-import About from './pages/About'
-import News from './pages/News'
-import Sources from './pages/Sources'
-import Glossary from './pages/Glossary'
-import History from './pages/History'
+
+// Lazy-loaded routes: each page is its own chunk, so heavy deps (Leaflet on the
+// map/detail pages, marked on church pages) stay out of the initial bundle.
+const HomePage = lazy(() => import('./pages/HomePage'))
+const DirectoryPage = lazy(() => import('./pages/DirectoryPage'))
+const ChurchDetailPage = lazy(() => import('./pages/ChurchDetailPage'))
+const ParishPage = lazy(() => import('./pages/ParishPage'))
+const ParishesIndex = lazy(() => import('./pages/ParishesIndex'))
+const ArchitecturePage = lazy(() => import('./pages/ArchitecturePage'))
+const ClergyPage = lazy(() => import('./pages/ClergyPage'))
+const About = lazy(() => import('./pages/About'))
+const News = lazy(() => import('./pages/News'))
+const Sources = lazy(() => import('./pages/Sources'))
+const Glossary = lazy(() => import('./pages/Glossary'))
+const History = lazy(() => import('./pages/History'))
 
 const STATIC_META: Record<string, { title?: string; description?: string }> = {
   '/': { },
@@ -81,8 +84,19 @@ export default function App() {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <a
+        href="#main"
+        className="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:z-[100]
+                   focus:bg-white focus:text-crimson focus:font-semibold focus:px-4 focus:py-2 focus:rounded focus:shadow"
+      >
+        Skip to content
+      </a>
       <Header />
-      <div className="flex-1">{page}</div>
+      <div id="main" tabIndex={-1} className="flex-1 outline-none">
+        <Suspense fallback={<div className="grid place-items-center py-24 text-gray-400 font-body">Loading…</div>}>
+          {page}
+        </Suspense>
+      </div>
       {!isDirectory && <Footer />}
     </div>
   )

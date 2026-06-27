@@ -107,6 +107,7 @@ export default function ChurchDetailPage() {
   const [lightbox, setLightbox] = useState<MediaRow | null>(null)
   const mapInstanceRef = useRef<L.Map | null>(null)
   const mediaStripRef = useRef<HTMLDivElement | null>(null)
+  const lightboxCloseRef = useRef<HTMLButtonElement | null>(null)
 
   const satelliteMapRef = useCallback((el: HTMLDivElement | null) => {
     if (mapInstanceRef.current) {
@@ -138,9 +139,11 @@ export default function ChurchDetailPage() {
 
   useEffect(() => {
     if (!lightbox) return
+    const prev = document.activeElement as HTMLElement | null
+    lightboxCloseRef.current?.focus()
     const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setLightbox(null) }
     window.addEventListener('keydown', onKey)
-    return () => window.removeEventListener('keydown', onKey)
+    return () => { window.removeEventListener('keydown', onKey); prev?.focus?.() }
   }, [lightbox])
 
   // Synchronously reset scroll BEFORE the browser paints the new church.
@@ -266,7 +269,7 @@ export default function ChurchDetailPage() {
             </div>
           ) : geo && (
             <div className="mb-6 rounded-lg border border-dashed border-gold/50 bg-ivory px-6 py-8 text-center">
-              <div className="text-gold/70 text-4xl mb-2">&#10013;</div>
+              <div className="text-gold/70 text-4xl mb-2" aria-hidden="true">&#10013;</div>
               <p className="font-heading text-gray-700">No photograph yet</p>
               <p className="font-body text-sm text-gray-500 mt-1 mb-4">
                 Have a photo of {geo.name}? Help complete this entry.
@@ -367,9 +370,20 @@ export default function ChurchDetailPage() {
 
       {lightbox && (
         <div
+          role="dialog"
+          aria-modal="true"
+          aria-label={`Photograph — ${geo?.name ?? 'church'}`}
           className="fixed inset-0 z-[9999] bg-black/80 flex items-center justify-center p-4 cursor-zoom-out"
           onClick={() => setLightbox(null)}
         >
+          <button
+            ref={lightboxCloseRef}
+            onClick={() => setLightbox(null)}
+            aria-label="Close image"
+            className="absolute top-3 right-4 text-white/90 hover:text-white text-4xl leading-none"
+          >
+            &times;
+          </button>
           <figure className="max-w-full max-h-full flex flex-col items-center">
             <img
               src={responsiveSrc(lightbox.url, 2000)}

@@ -20,7 +20,7 @@ export default function Header() {
       <div className="max-w-site mx-auto px-4 h-[62px] flex items-center">
         {/* Logo / brand */}
         <a href={to('/')} className="flex items-center gap-2 text-white no-underline shrink-0">
-          <span className="text-gold-bright text-xl">&#10013;</span>
+          <span className="text-gold-bright text-xl" aria-hidden="true">&#10013;</span>
           <span className="font-heading text-lg font-semibold text-white tracking-wide">
             Diocese of Jamaica
           </span>
@@ -41,6 +41,7 @@ export default function Header() {
               <a
                 key={l.path}
                 href={to(l.path)}
+                aria-current={active ? 'page' : undefined}
                 className={`px-3 py-1.5 rounded text-sm font-body no-underline transition-colors
                   ${active
                     ? 'bg-white/20 text-white font-semibold'
