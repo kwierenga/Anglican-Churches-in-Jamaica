@@ -3,6 +3,7 @@ import type { FeatureCollection, Feature, Point } from 'geojson'
 export type ChurchFeature = Feature<Point, {
   id: string; name: string; parish: string;
   classification: string; status: string;
+  photos?: number;
 }>
 
 export interface MapAdapter {

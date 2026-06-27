@@ -12,6 +12,7 @@ export default function Sidebar() {
   const [parish, setParish] = useQueryState('parish', '')
   const [klass, setKlass] = useQueryState('class', '')
   const [status, setStatus] = useQueryState('status', '')
+  const [needsphoto, setNeedsphoto] = useQueryState('needsphoto', '')
   const [, setId] = useQueryState('id', '')
 
   const [catalog, setCatalog] = useState<ChurchRow[]>([])
@@ -31,8 +32,9 @@ export default function Sidebar() {
     if (parish && c.parish !== parish) return false
     if (klass && c.classification !== klass) return false
     if (status && c.status !== status) return false
+    if (needsphoto && (c.photos ?? 0) > 0) return false
     return true
-  }), [catalog, parish, klass, status])
+  }), [catalog, parish, klass, status, needsphoto])
 
   return (
     <div className="flex flex-col h-full">
@@ -92,8 +94,18 @@ export default function Sidebar() {
           {statuses.map(s => <option key={s} value={s}>{s}</option>)}
         </select>
 
+        <label className="flex items-center gap-2 text-sm font-body text-gray-700 px-1 py-0.5 cursor-pointer select-none">
+          <input
+            type="checkbox"
+            checked={needsphoto === '1'}
+            onChange={e => setNeedsphoto(e.target.checked ? '1' : '')}
+            className="accent-crimson w-4 h-4"
+          />
+          <span>&#128247; Needs a photo</span>
+        </label>
+
         <div className="flex gap-2">
-          <Button variant="outline" size="sm" onClick={() => { setQ(''); setParish(''); setKlass(''); setStatus(''); setId(''); }}>
+          <Button variant="outline" size="sm" onClick={() => { setQ(''); setParish(''); setKlass(''); setStatus(''); setNeedsphoto(''); setId(''); }}>
             Reset
           </Button>
           <Button variant="outlineGold" size="sm" onClick={() => {

@@ -1,0 +1,13 @@
+{
+  "name": "Anglican Churches in Jamaica",
+  "short_name": "ACJ Churches",
+  "description": "Maps, histories, and photos of Anglican churches across Jamaica.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#F8F4E8",
+  "theme_color": "#8B0000",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
