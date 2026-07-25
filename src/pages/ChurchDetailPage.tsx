@@ -46,15 +46,6 @@ async function getClergyForChurch(id: string): Promise<string[]> {
     .map(([name]) => name)
 }
 
-// Rough word count of the narrative body (excludes headings, the meta line,
-// References, and link URLs) — used to flag thin "stub" entries.
-function narrativeWordCount(md: string): number {
-  let body = md.split(/^##\s+References\b/mi)[0]
-  body = body.split('\n').filter(l => !l.startsWith('#') && !l.startsWith('**')).join(' ')
-  body = body.replace(/\[([^\]]*)\]\([^)]*\)/g, '$1').replace(/[#*_`>]/g, ' ')
-  return body.split(/\s+/).filter(Boolean).length
-}
-
 interface ChurchGeo {
   lat: number
   lng: number
@@ -67,6 +58,7 @@ interface ChurchGeo {
   founding_year?: number
   patron_saint?: string
   heritage?: string
+  words?: number
 }
 
 let _geoCache: Record<string, ChurchGeo> | null = null
@@ -90,6 +82,7 @@ async function getChurchGeo(id: string): Promise<ChurchGeo | null> {
         founding_year: p.founding_year,
         patron_saint: p.patron_saint,
         heritage: p.heritage,
+        words: p.words,
       }
     }
   }
@@ -180,9 +173,11 @@ export default function ChurchDetailPage() {
       const images = idx[slug]?.filter(m => m.type === 'image') ?? []
       setMedia(images)
       setGeo(churchGeo)
-      // Every narrative carries section scaffolding (floor ~477 words), so only
-      // a genuinely skeletal entry trips this; decent ~500-word pages don't.
-      setIsStub(md ? narrativeWordCount(md) < 350 : false)
+      // Use the build-time count from churches.geo.json rather than recounting
+      // here: the local version dropped every line starting with "**" to skip
+      // the meta line, which also swallowed every bold-lead paragraph and so
+      // flagged 236 of 305 fully-written entries as stubs.
+      setIsStub(churchGeo?.words != null && churchGeo.words < 350)
 
       if (md && churchGeo) {
         const firstPara = md.split(/\n\s*\n/).find(p => !p.startsWith('#') && !p.startsWith('**') && p.trim().length > 40)
