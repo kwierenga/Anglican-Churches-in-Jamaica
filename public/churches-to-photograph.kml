@@ -56,8 +56,8 @@
         <Point><coordinates>-76.75621,17.97438,0</coordinates></Point>
       </Placemark>
       <Placemark>
-        <name>St Cyprian’s — August Town</name>
-        <description>St Cyprian’s, August Town (St. Andrew). 1 photo — needs more. Status: active.</description>
+        <name>St. Cyprian’s — August Town</name>
+        <description>St. Cyprian’s, August Town (St. Andrew). 1 photo — needs more. Status: active.</description>
         <styleUrl>#crimson</styleUrl>
         <Point><coordinates>-76.737715,17.990734,0</coordinates></Point>
       </Placemark>
@@ -260,7 +260,7 @@
         <name>All Saints' — Guy's Hill</name>
         <description>All Saints', Guy's Hill (St. Catherine). 1 photo — needs more. Status: active.</description>
         <styleUrl>#blue</styleUrl>
-        <Point><coordinates>-76.93385,18.255059,0</coordinates></Point>
+        <Point><coordinates>-76.99679,18.24716,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>St. Mark's — Ham Walk</name>
@@ -579,7 +579,7 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name>St. Elizabeth (15)</name>
+      <name>St. Elizabeth (14)</name>
       <Placemark>
         <name>St. Martin's — Accompong</name>
         <description>St. Martin's, Accompong (St. Elizabeth). 1 photo — needs more. Status: active.</description>
@@ -617,12 +617,6 @@
         <Point><coordinates>-77.755279,18.014899,0</coordinates></Point>
       </Placemark>
       <Placemark>
-        <name>St. Margaret's — Middle Quarters</name>
-        <description>St. Margaret's, Middle Quarters (St. Elizabeth). No photos yet. Status: active.</description>
-        <styleUrl>#purple</styleUrl>
-        <Point><coordinates>-77.833869,18.102018,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
         <name>All Saints' — Newell</name>
         <description>All Saints', Newell (St. Elizabeth). 1 photo — needs more. Status: inactive.</description>
         <styleUrl>#purple</styleUrl>
@@ -642,7 +636,7 @@
       </Placemark>
       <Placemark>
         <name>St. Paul's Church (Old) — Pimento Walk</name>
-        <description>St. Paul's Church (Old), Pimento Walk (St. Elizabeth). No photos yet. Status: ruin.</description>
+        <description>St. Paul's Church (Old), Pimento Walk (St. Elizabeth). No photos yet. Status: inactive.</description>
         <styleUrl>#purple</styleUrl>
         <Point><coordinates>-77.7823,18.0521,0</coordinates></Point>
       </Placemark>
@@ -659,8 +653,8 @@
         <Point><coordinates>-77.666944,17.887778,0</coordinates></Point>
       </Placemark>
       <Placemark>
-        <name>St Alban's — Stanmore Hill</name>
-        <description>St Alban's, Stanmore Hill (St. Elizabeth). 1 photo — needs more. Status: active.</description>
+        <name>St. Alban's — Stanmore Hill</name>
+        <description>St. Alban's, Stanmore Hill (St. Elizabeth). 1 photo — needs more. Status: active.</description>
         <styleUrl>#purple</styleUrl>
         <Point><coordinates>-77.722518,18.000694,0</coordinates></Point>
       </Placemark>
