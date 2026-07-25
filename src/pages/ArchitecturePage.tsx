@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
 import { getCatalog, loadSearchIndex } from '../lib/search'
 import { to } from '../lib/router'
-import type { ChurchRow } from '../lib/schemas'
+import { responsiveSrc, buildSrcSet } from '../lib/cloudinary'
+import type { ChurchRow, MediaRow } from '../lib/schemas'
 
 type StyleKey = 'georgian' | 'gothic_revival' | 'vernacular' | 'estate_chapel' | 'modernist'
 type StyleIndex = Record<StyleKey, string[]>
@@ -60,6 +61,7 @@ const STYLES: StyleMeta[] = [
 export default function ArchitecturePage() {
   const [index, setIndex] = useState<StyleIndex | null>(null)
   const [catalog, setCatalog] = useState<ChurchRow[]>(getCatalog())
+  const [media, setMedia] = useState<Record<string, MediaRow[]>>({})
   // Read once on mount — the page mounts fresh when reached via a ?style= cross-link.
   const [focusStyle] = useState(() => new URLSearchParams(location.search).get('style') ?? '')
 
@@ -68,6 +70,10 @@ export default function ArchitecturePage() {
       .then(r => r.ok ? r.json() : null)
       .then(setIndex)
       .catch(() => setIndex(null))
+    fetch(`${import.meta.env.BASE_URL}data/build/media-index.json`)
+      .then(r => r.ok ? r.json() : {})
+      .then(setMedia)
+      .catch(() => setMedia({}))
     loadSearchIndex().then(() => setCatalog(getCatalog()))
   }, [])
 
@@ -79,6 +85,25 @@ export default function ArchitecturePage() {
   }, [focusStyle, index])
 
   const byId = new Map(catalog.map(c => [c.id, c]))
+
+  // Pick one photographed exemplar per style — the most-photographed church that
+  // describes the style — preferring a distinct church for each so the page shows
+  // variety. Falls back to the top match if all its churches are already shown.
+  const usedExemplarIds = new Set<string>()
+  const exemplarByStyle: Partial<Record<StyleKey, { church: ChurchRow; image: MediaRow }>> = {}
+  for (const style of STYLES) {
+    const ranked = (index?.[style.key] ?? [])
+      .map(id => byId.get(id))
+      .filter((c): c is ChurchRow => Boolean(c))
+      .map(c => ({ church: c, images: (media[c.id] ?? []).filter(m => m.type === 'image') }))
+      .filter(x => x.images.length > 0)
+      .sort((a, b) => b.images.length - a.images.length || a.church.name.localeCompare(b.church.name))
+    const pick = ranked.find(x => !usedExemplarIds.has(x.church.id)) ?? ranked[0]
+    if (pick) {
+      exemplarByStyle[style.key] = { church: pick.church, image: pick.images[0] }
+      usedExemplarIds.add(pick.church.id)
+    }
+  }
 
   return (
     <main>
@@ -99,6 +124,7 @@ export default function ArchitecturePage() {
               .map(id => byId.get(id))
               .filter((c): c is ChurchRow => Boolean(c))
               .sort((a, b) => a.name.localeCompare(b.name))
+            const exemplar = exemplarByStyle[style.key]
 
             return (
               <article
@@ -116,6 +142,31 @@ export default function ArchitecturePage() {
                 <p className="font-body text-base text-gray-700 leading-relaxed mb-5 max-w-3xl">
                   {style.description}
                 </p>
+
+                {exemplar && (
+                  <a
+                    href={to(`/church/${exemplar.church.id}`)}
+                    className="group block mb-6 overflow-hidden rounded-lg border border-gray-200 relative max-w-3xl"
+                  >
+                    <img
+                      src={responsiveSrc(exemplar.image.url, 1000, { height: 380, crop: 'fill' })}
+                      srcSet={buildSrcSet(exemplar.image.url, { widths: [600, 800, 1000, 1200], height: 380, crop: 'fill' })}
+                      sizes="(max-width: 768px) 100vw, 768px"
+                      alt={`${exemplar.church.name} — a representative example of ${style.title} architecture`}
+                      loading="lazy"
+                      decoding="async"
+                      width={1000}
+                      height={380}
+                      className="w-full h-56 sm:h-64 object-cover group-hover:scale-[1.02] transition-transform duration-300"
+                    />
+                    <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 via-black/30 to-transparent px-4 py-3">
+                      <p className="text-white font-heading text-base font-semibold leading-tight">{exemplar.church.name}</p>
+                      <p className="text-white/85 text-xs font-body mt-0.5">
+                        {exemplar.church.parish}{exemplar.church.town ? ` · ${exemplar.church.town}` : ''} — a representative example
+                      </p>
+                    </div>
+                  </a>
+                )}
 
                 {matches.length === 0 ? (
                   <p className="text-sm text-gray-400 italic font-body">No churches currently indexed for this style.</p>

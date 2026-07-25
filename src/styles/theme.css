@@ -36,3 +36,10 @@ h1, h2, h3, h4, h5, h6 {
 .acj-cluster-md { width: 40px; height: 40px; font-size: 14px; background: var(--crimson); }
 .acj-cluster-lg { width: 50px; height: 50px; font-size: 16px; background: var(--gold); border-color: var(--crimson); }
 .acj-cluster:hover { transform: scale(1.08); transition: transform 120ms ease-out; }
+
+/* Church detail: the intro/lead paragraph rendered as a crimson lead.
+   Higher specificity than Tailwind Typography's prose-p rule so it wins. */
+.prose p.church-lead {
+  color: var(--crimson);
+  font-weight: 500;
+}

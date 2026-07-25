@@ -1,5 +1,5 @@
 # Kingston Parish Church (St. Thomas the Apostle), Kingston (Parade/King St)
-**Kingston** · Church · active
+**Kingston** · Parish Church · active
 
 Kingston Parish Church — formally dedicated to St. Thomas the Apostle — is the historic parish church of Kingston, standing at 70B King Street on the corner of South Parade in the heart of downtown Kingston. It is one of the most historically significant Anglican churches in Jamaica and the wider Caribbean, bearing witness to more than three centuries of Jamaican history since the city's founding after the destruction of Port Royal. The church contains the tomb of Admiral John Benbow, the celebrated British naval hero who died in Jamaica in 1702, and the memorial to John Wolmer, the goldsmith whose 1729 bequest founded the oldest school in the Caribbean. Declared a site of significant national importance by the Jamaica National Heritage Trust on 4 March 2003, the church has stood at the centre of Jamaican civic, spiritual, and cultural life since the late seventeenth century. The current rector is the Reverend Louis Hurst.
 

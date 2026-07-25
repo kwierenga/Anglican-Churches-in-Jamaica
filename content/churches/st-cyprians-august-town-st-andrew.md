@@ -1,4 +1,4 @@
-# St Cyprian's, August Town
+# St. Cyprian's, August Town
 **St. Andrew** · Church · active
 
 St Cyprian's Anglican Church stands at 79 August Town Road, Kingston 7, serving one of the most historically layered communities in Jamaica. Founded in 1821 — thirteen years before the Emancipation Act — the church was established during slavery to minister to the enslaved and free populations of the surrounding sugar estates. The community itself, originally known as African Hill, was renamed August Town on 1 August 1838 to mark the day of full freedom. Dedicated to St. Cyprian of Carthage — the first African bishop-martyr — the church connects its predominantly Black congregation to the deep roots of African Christianity. It is part of a grouped parish with St. Margaret's, Liguanea and St. Joseph's, The Grove, under the Rev. Franklyn Jackson.

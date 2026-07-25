@@ -1,5 +1,5 @@
 # St. Alban's, Stanmore Hill
-**St. Elizabeth** · Church · Active
+**St. Elizabeth** · Church · active
 
 St. Alban's Anglican Church at **Stanmore Hill** is one of the documented Anglican congregations of St. Elizabeth recorded in the 1891 *Handbook of Jamaica*, with **431 registered members** that year under the rectorship of Rev. **A. P. Kennedy** — who simultaneously served the larger Gilnock cure with 780 members. By 1900 Kennedy still served both Gilnock and St. Alban's as a single combined cure.
 

@@ -212,10 +212,20 @@ export default function ChurchDetailPage() {
 
   const styles = geo?.styles ?? []
 
-  // Auto-link parishes + this church's clergy mentioned in the narrative prose.
+  // Mark the intro/lead paragraph crimson, then auto-link parishes + clergy.
   useEffect(() => {
     const root = articleRef.current
     if (!root || !html) return
+
+    // The first top-level paragraph that isn't the bold "Parish · Class · status"
+    // meta line is the church's introduction — render it as a crimson lead.
+    const lead = Array.from(root.children).find(
+      (el): el is HTMLElement =>
+        el.tagName === 'P' &&
+        !(el.firstElementChild?.tagName === 'STRONG' && (el.textContent ?? '').includes('·'))
+    )
+    lead?.classList.add('church-lead')
+
     const terms = [
       ...PARISHES.map(p => ({ text: p.name, href: to(`/parish/${p.slug}`) })),
       ...clergy.map(name => ({ text: name, href: `${to('/clergy')}?q=${encodeURIComponent(name)}` })),

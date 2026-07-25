@@ -1,5 +1,5 @@
 # St. Martin's Mission, Bull Bay
-**St. Thomas** · Church · active
+**St. Thomas** · Mission · active
 
 St. Martin's Anglican Mission serves the **Bull Bay** community on the south coast of Jamaica, ten miles east of Kingston on the boundary between St. Andrew and St. Thomas. The mission has been ministering in the Bull Bay community since the **1800s**.
 

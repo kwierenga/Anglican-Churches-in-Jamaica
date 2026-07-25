@@ -1,5 +1,5 @@
 # St. Saviour's, Milk River
-**Clarendon** · Church · closed
+**Clarendon** · Church · inactive
 
 St. Saviour's Anglican Church serves the **Milk River** community of southern Clarendon alongside St. Benedict's Mission, also recorded here. The two Milk River entries are approximately 777 metres apart, suggesting they serve different ends of the Milk River community or represent two distinct but closely associated worship points. Milk River is famous for its **mineral spa**, and St. Saviour's serves the community around this unique natural feature. The church is administered within the **St. Peter's Alley / Lionel Town** cure.
 

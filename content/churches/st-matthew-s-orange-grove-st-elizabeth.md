@@ -1,5 +1,5 @@
 # St. Matthew's, Orange Grove
-**St. Elizabeth** · Church
+**St. Elizabeth** · Church · active
 
 St. Matthew's Anglican Church serves Orange Grove in St. Elizabeth, one of the network of small mission chapels grouped under the **St. Peter's, Pedro Plains cure** in southern St. Elizabeth, alongside All Saints' Newell, St. Augustine's Mountainside, the Epiphany at Bigwoods District, and St. Paul's Barbary Hall. As of recent diocesan listings the cure has been led by the Reverend **Marjorie Downer**.
 

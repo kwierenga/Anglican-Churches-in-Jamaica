@@ -1,5 +1,5 @@
 # St. Paul's Church (Old), Pimento Walk
-**St. Elizabeth** · Church · active
+**St. Elizabeth** · Church · inactive
 
 St. Paul's Anglican Church serves Pimento Walk in St. Elizabeth, a small farming community in the parish's interior. The community name preserves a botanical and economic memory: **Pimento** is *Pimenta dioica* — allspice, native to Jamaica and one of the country's signature spice crops — and a **"walk"** in Jamaican vernacular is a cultivated grove or planted area on an estate. "Pimento Walk" therefore identifies a settlement that grew up around an allspice plantation.
 

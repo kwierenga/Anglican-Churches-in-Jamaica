@@ -28,7 +28,24 @@ function loadExistingKeys(): Set<string> {
   return set;
 }
 
-const IMAGE_MAP = [
+type ImageEntry = {
+  file: string;
+  church_id: string;
+  caption: string;
+  order: string;
+  /** Defaults to "" / "Fair use"; set both for own photography. */
+  credit?: string;
+  license?: string;
+  /**
+   * Cloudinary public_id suffix; defaults to `order`. Uploads use
+   * overwrite:false, so an `order` that collides with an existing asset
+   * silently yields that OLD image instead of the new file. Set this to a free
+   * suffix when you want a display order that a previous batch already used.
+   */
+  idSuffix?: string;
+};
+
+const IMAGE_MAP: ImageEntry[] = [
   // --- St. Catherine parish ---------------------------------------------
 
   // St. Thomas-ye-Vale, Bog Walk (St. Catherine).
@@ -110,10 +127,7 @@ const IMAGE_MAP = [
   { file: "data/new-images/Anglican Churches/Balaclava/balaclava-1.png", church_id: "st-luke-s-balaclava-st-elizabeth", caption: "St. Luke's, Balaclava", order: "5" },
   { file: "data/new-images/Anglican Churches/Balaclava/balaclava-2.jpg", church_id: "st-luke-s-balaclava-st-elizabeth", caption: "St. Luke's, Balaclava", order: "6" },
   { file: "data/new-images/Anglican Churches/Balaclava/balaclava-3.jpg", church_id: "st-luke-s-balaclava-st-elizabeth", caption: "St. Luke's, Balaclava", order: "7" },
-  { file: "data/new-images/Anglican Churches/Gilnock/gilnock-1.jpg", church_id: "st-andrew-s-gilnock-st-elizabeth", caption: "St. Andrew's, Gilnock", order: "8" },
-  { file: "data/new-images/Anglican Churches/Gilnock/gilnock-2.jpg", church_id: "st-andrew-s-gilnock-st-elizabeth", caption: "St. Andrew's, Gilnock", order: "9" },
-  { file: "data/new-images/Anglican Churches/Gilnock/gilnock-3.webp", church_id: "st-andrew-s-gilnock-st-elizabeth", caption: "St. Andrew's, Gilnock", order: "10" },
-  { file: "data/new-images/Anglican Churches/Gilnock/gilnock-4.jpg", church_id: "st-andrew-s-gilnock-st-elizabeth", caption: "St. Andrew's, Gilnock", order: "11" },
+  // (old low-res Gilnock entries removed — superseded by the 2026 drone set below)
   { file: "data/new-images/Anglican Churches/Lucea/6432714495_5da8ce1155.jpg", church_id: "hanover-parish-church-lucea-hanover", caption: "Hanover Parish Church, Lucea", order: "9" },
   { file: "data/new-images/Anglican Churches/Lucea/HanoverParishCh.jpg", church_id: "hanover-parish-church-lucea-hanover", caption: "Hanover Parish Church, Lucea", order: "10" },
   { file: "data/new-images/Anglican Churches/Lucea/heritagec20121206mt.jpg", church_id: "hanover-parish-church-lucea-hanover", caption: "Hanover Parish Church, Lucea", order: "11" },
@@ -185,7 +199,6 @@ const IMAGE_MAP = [
   { file: "data/new-images/CroftsHill/All_Saints_3.jpg", church_id: "all-saints-crofts-hill-clarendon", caption: "All Saints, Crofts Hill", order: "6" },
   { file: "data/new-images/Falmouth/Falmouth_2.jpg", church_id: "st-peter-s-parish-church-falmouth-trelawny", caption: "St. Peter's (Parish Church), Falmouth", order: "2" },
   { file: "data/new-images/Falmouth/Falmouth_3.jpg", church_id: "st-peter-s-parish-church-falmouth-trelawny", caption: "St. Peter's (Parish Church), Falmouth", order: "3" },
-  { file: "data/new-images/Gilnock/gilnock-5.jpg", church_id: "st-andrew-s-gilnock-st-elizabeth", caption: "St. Andrew's, Gilnock", order: "12" },
   { file: "data/new-images/GrangeGlenislay/St_James_1.jpg", church_id: "st-james-grange-westmoreland", caption: "St. James', Grange", order: "2" },
   { file: "data/new-images/GrangeHill/Holy_Trinity_1.jpg", church_id: "holy-trinity-grange-hill-westmoreland", caption: "Holy Trinity, Grange Hill", order: "4" },
   { file: "data/new-images/HarbourView/Harbour-View_1.jpg", church_id: "st-boniface-harbour-view-kingston", caption: "St. Boniface, Harbour View", order: "2" },
@@ -409,7 +422,6 @@ const IMAGE_MAP = [
   { file: "data/new-images/_jar_inbox/st-thomas-ye-vale-bog-walk-st-catherine/jar-5.png", church_id: "st-thomas-ye-vale-bog-walk-st-catherine", caption: "St. Thomas-ye-Vale, Bog Walk", order: "5" },
   { file: "data/new-images/_jar_inbox/st-thomas-ye-vale-bog-walk-st-catherine/jar-6.png", church_id: "st-thomas-ye-vale-bog-walk-st-catherine", caption: "St. Thomas-ye-Vale, Bog Walk", order: "6" },
   { file: "data/new-images/_jar_inbox/all-souls-brompton-st-elizabeth/jar-2.png", church_id: "all-souls-brompton-st-elizabeth", caption: "All Souls', Brompton", order: "2" },
-  { file: "data/new-images/_jar_inbox/st-andrew-s-gilnock-st-elizabeth/jar-13.png", church_id: "st-andrew-s-gilnock-st-elizabeth", caption: "St. Andrew's, Gilnock", order: "13" },
   { file: "data/new-images/_jar_inbox/st-barnabas-s-crawford-st-elizabeth/jar-5.png", church_id: "st-barnabas-s-crawford-st-elizabeth", caption: "St. Barnabas', Crawford", order: "5" },
   { file: "data/new-images/_jar_inbox/st-barnabas-siloah-st-elizabeth/jar-7.png", church_id: "st-barnabas-siloah-st-elizabeth", caption: "St. Barnabas', Siloah", order: "7" },
   { file: "data/new-images/_jar_inbox/st-barnabas-siloah-st-elizabeth/jar-8.png", church_id: "st-barnabas-siloah-st-elizabeth", caption: "St. Barnabas', Siloah", order: "8" },
@@ -484,11 +496,46 @@ const IMAGE_MAP = [
 
   // St. Mary's, Negril (Westmoreland) — orders 1-6 taken; adding negril-4.
   { file: "data/new-images/Westmoreland parish/Negril/negril-4.jpg", church_id: "st-mary-s-negril-westmoreland", caption: "St. Mary's, Negril", order: "7" },
+
+  // === drone trip, July 2026 (own photography) ===
+
+  // St. Andrew's, Gilnock (St. Elizabeth) — the drone set replaces the earlier
+  // low-resolution photos, which were dropped from media.csv. Display order is
+  // 1-9; the Cloudinary suffixes skip ahead because -2..-13 still hold the old
+  // assets. gilnock-1 (the 1830 datestone) leads.
+  { file: "data/new-images/St Elizabeth parish/Gilnock/gilnock-1.jpeg", church_id: "st-andrew-s-gilnock-st-elizabeth", caption: "St. Andrew's, Gilnock — west tower and 1830 datestone", order: "1", idSuffix: "19", credit: "Klaas Wierenga", license: "CC BY-SA 4.0" },
+  { file: "data/new-images/St Elizabeth parish/Gilnock/gilnock-2.jpeg", church_id: "st-andrew-s-gilnock-st-elizabeth", caption: "St. Andrew's, Gilnock", order: "2", idSuffix: "20", credit: "Klaas Wierenga", license: "CC BY-SA 4.0" },
+  { file: "data/new-images/St Elizabeth parish/Gilnock/gilnock-3.jpeg", church_id: "st-andrew-s-gilnock-st-elizabeth", caption: "St. Andrew's, Gilnock", order: "3", idSuffix: "21", credit: "Klaas Wierenga", license: "CC BY-SA 4.0" },
+  { file: "data/new-images/St Elizabeth parish/Gilnock/gilnock-4.jpeg", church_id: "st-andrew-s-gilnock-st-elizabeth", caption: "St. Andrew's, Gilnock", order: "4", idSuffix: "22", credit: "Klaas Wierenga", license: "CC BY-SA 4.0" },
+  { file: "data/new-images/St Elizabeth parish/Gilnock/gilnock-5.jpeg", church_id: "st-andrew-s-gilnock-st-elizabeth", caption: "St. Andrew's, Gilnock", order: "5", idSuffix: "14", credit: "Klaas Wierenga", license: "CC BY-SA 4.0" },
+  { file: "data/new-images/St Elizabeth parish/Gilnock/gilnock-6.jpeg", church_id: "st-andrew-s-gilnock-st-elizabeth", caption: "St. Andrew's, Gilnock", order: "6", idSuffix: "15", credit: "Klaas Wierenga", license: "CC BY-SA 4.0" },
+  { file: "data/new-images/St Elizabeth parish/Gilnock/gilnock-7.jpeg", church_id: "st-andrew-s-gilnock-st-elizabeth", caption: "St. Andrew's, Gilnock", order: "7", idSuffix: "16", credit: "Klaas Wierenga", license: "CC BY-SA 4.0" },
+  { file: "data/new-images/St Elizabeth parish/Gilnock/gilnock-8.jpeg", church_id: "st-andrew-s-gilnock-st-elizabeth", caption: "St. Andrew's, Gilnock", order: "8", idSuffix: "17", credit: "Klaas Wierenga", license: "CC BY-SA 4.0" },
+  { file: "data/new-images/St Elizabeth parish/Gilnock/gilnock-9.jpeg", church_id: "st-andrew-s-gilnock-st-elizabeth", caption: "St. Andrew's, Gilnock", order: "9", idSuffix: "18", credit: "Klaas Wierenga", license: "CC BY-SA 4.0" },
+
+  // St. Margaret's, Middlesex (St. Elizabeth) — first photographs of this church.
+  // Shot at dusk and badly underexposed; brightened before upload (originals kept
+  // in the folder's _original/ subdirectory).
+  { file: "data/new-images/St Elizabeth parish/Middlesex/middlesex-1.jpeg", church_id: "st-margaret-s-middle-quarters-st-elizabeth", caption: "St. Margaret's, Middlesex", order: "1", credit: "Klaas Wierenga", license: "CC BY-SA 4.0" },
+  { file: "data/new-images/St Elizabeth parish/Middlesex/middlesex-2.jpeg", church_id: "st-margaret-s-middle-quarters-st-elizabeth", caption: "St. Margaret's, Middlesex", order: "2", credit: "Klaas Wierenga", license: "CC BY-SA 4.0" },
+  { file: "data/new-images/St Elizabeth parish/Middlesex/middlesex-3.jpeg", church_id: "st-margaret-s-middle-quarters-st-elizabeth", caption: "St. Margaret's, Middlesex, with the district road", order: "3", credit: "Klaas Wierenga", license: "CC BY-SA 4.0" },
+  { file: "data/new-images/St Elizabeth parish/Middlesex/middlesex-4.jpeg", church_id: "st-margaret-s-middle-quarters-st-elizabeth", caption: "St. Margaret's, Middlesex", order: "4", credit: "Klaas Wierenga", license: "CC BY-SA 4.0" },
+  { file: "data/new-images/St Elizabeth parish/Middlesex/middlesex-5.jpeg", church_id: "st-margaret-s-middle-quarters-st-elizabeth", caption: "St. Margaret's, Middlesex", order: "5", credit: "Klaas Wierenga", license: "CC BY-SA 4.0" },
+  { file: "data/new-images/St Elizabeth parish/Middlesex/middlesex-6.jpeg", church_id: "st-margaret-s-middle-quarters-st-elizabeth", caption: "St. Margaret's, Middlesex — nave and vestry annexe", order: "6", credit: "Klaas Wierenga", license: "CC BY-SA 4.0" },
+  { file: "data/new-images/St Elizabeth parish/Middlesex/middlesex-7.jpeg", church_id: "st-margaret-s-middle-quarters-st-elizabeth", caption: "St. Margaret's, Middlesex", order: "7", credit: "Klaas Wierenga", license: "CC BY-SA 4.0" },
 ];
 
 async function main() {
+  // IMAGE_MAP is cumulative, and any entry whose media.csv row is absent gets
+  // re-added on a full run — which silently resurrects rows a dedup pass
+  // removed. Pass --only <substring> to process just the batch you mean.
+  const onlyIdx = process.argv.indexOf("--only");
+  const only = onlyIdx !== -1 ? process.argv[onlyIdx + 1] : null;
+  const batch = only ? IMAGE_MAP.filter((e) => e.file.includes(only)) : IMAGE_MAP;
+  if (only) console.log(`--only "${only}" → ${batch.length} of ${IMAGE_MAP.length} entries\n`);
+
   const existing = loadExistingKeys();
-  for (const entry of IMAGE_MAP) {
+  for (const entry of batch) {
     const filePath = path.resolve(entry.file);
     if (!fs.existsSync(filePath)) {
       console.log(`SKIP (missing): ${entry.file}`);
@@ -499,7 +546,7 @@ async function main() {
       console.log(`SKIP (already uploaded): ${entry.church_id} order=${entry.order}`);
       continue;
     }
-    const publicId = `churches/${entry.church_id}-${entry.order}`;
+    const publicId = `churches/${entry.church_id}-${entry.idSuffix ?? entry.order}`;
     console.log(`Uploading ${entry.file}...`);
     const result = await cloudinary.uploader.upload(filePath, {
       public_id: publicId,
@@ -511,8 +558,8 @@ async function main() {
       type: "image",
       url: result.secure_url,
       caption: entry.caption,
-      credit: "",
-      license: "Fair use",
+      credit: entry.credit ?? "",
+      license: entry.license ?? "Fair use",
       order: entry.order,
     };
     fs.appendFileSync(MEDIA_CSV, stringify([row], { header: false }));

@@ -1,5 +1,5 @@
 # St. Paul's, Spalding
-**Manchester** · Church · active
+**Manchester** · Mission · active
 
 St. Paul's Anglican Church serves Spalding, a community in the northern interior of Manchester near the Christiana area. Spalding is a farming community in the highland hills of Manchester, and the church has served the local community for several generations. Manchester's northern interior — of which Spalding is part — is among the highest-elevation farming landscapes of central Jamaica, known for cool-climate crops including Irish potatoes.
 

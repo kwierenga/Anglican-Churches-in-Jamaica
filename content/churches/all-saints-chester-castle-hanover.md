@@ -1,7 +1,7 @@
 # All Saints', Chester Castle
-**St. James** · Church · active
+**Hanover** · Church · active
 
-All Saints' Anglican Church serves Chester Castle, a community in the interior of St. James parish south of Montego Bay. The church is part of the **St. Mary's Montpelier Cure** — alongside St. Saviour's Chichester, St. Stephen's Cambridge, and St. Matthew's Catadupa — and sits in a landscape shaped by some of the largest slaveholdings in Jamaica and by the Christmas Rebellion that helped end slavery in the British Empire.
+All Saints' Anglican Church serves Chester Castle, a community in the interior of Hanover parish, near the St. James border south of Montego Bay. The church is part of the **St. Mary's Montpelier Cure** — alongside St. Saviour's Chichester, St. Stephen's Cambridge, and St. Matthew's Catadupa — and sits in a landscape shaped by some of the largest slaveholdings in Jamaica and by the Christmas Rebellion that helped end slavery in the British Empire.
 
 ## History
 **Founding of the parish (1664).** St. James was one of the second batch of Jamaican parishes formed after the English conquest, established around **1664** by Sir Thomas Modyford and named after **James, Duke of York** (later King James II). At its formation it was much larger than today, including the territory of present-day Trelawny and Hanover. For many years the north side of the island was sparsely settled: in **1673** only **146 persons** resided in the entire parish.
