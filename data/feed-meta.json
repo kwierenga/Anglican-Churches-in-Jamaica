@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-08-11T22:40:55.407Z",
+  "latestItem": "2026-08-10",
+  "events": 0,
+  "news": 13,
+  "sources": [
+    {
+      "name": "Jamaica Gleaner",
+      "ok": true,
+      "items": 19
+    },
+    {
+      "name": "Anglican Diocese of Jamaica",
+      "ok": true,
+      "items": 15
+    }
+  ]
+}
