@@ -121,6 +121,35 @@ export const PARISHES: ParishInfo[] = [
   },
 ]
 
+/**
+ * Parish accent colours — the single source of truth, shared by the Leaflet map
+ * and the rest of the UI so a parish looks the same wherever you meet it.
+ *
+ * These are saturated map colours, not brand colours: use them for accent bars,
+ * dots, and rules. None of them is safe as text on a light background.
+ */
+export const PARISH_COLOR: Record<string, string> = {
+  'kingston':      '#C0392B',
+  'st. andrew':    '#2471A3',
+  'st. catherine': '#1E8449',
+  'clarendon':     '#7D3C98',
+  'manchester':    '#D35400',
+  'st. elizabeth': '#1ABC9C',
+  'westmoreland':  '#E74C3C',
+  'hanover':       '#3498DB',
+  'st. james':     '#27AE60',
+  'trelawny':      '#8E44AD',
+  'st. ann':       '#F39C12',
+  'st. mary':      '#16A085',
+  'portland':      '#2C3E50',
+  'st. thomas':    '#D4AC0D',
+}
+
+/** Accent colour for a parish by display name; grey when unrecognised. */
+export function parishColor(name: string | undefined): string {
+  return (name && PARISH_COLOR[name.toLowerCase()]) || '#888888'
+}
+
 export const PARISH_BY_NAME = new Map(PARISHES.map(p => [p.name.toLowerCase(), p]))
 export const PARISH_BY_SLUG = new Map(PARISHES.map(p => [p.slug, p]))
 

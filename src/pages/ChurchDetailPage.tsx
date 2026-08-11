@@ -27,13 +27,6 @@ const STYLE_META: Record<string, { title: string; icon: string }> = {
   modernist: { title: 'Post-War Modernist', icon: '\u{1F3D7}' },
 }
 
-const CLASS_LABEL: Record<string, string> = {
-  cathedral: 'Cathedral', parish_church: 'Parish Church', church: 'Church',
-  chapel: 'Chapel', mission: 'Mission', ruin: 'Ruin',
-}
-
-const cap = (s: string) => s ? s[0].toUpperCase() + s.slice(1) : s
-
 // Clergy named in this church's narrative (reverse of clergy-index).
 let _clergyIndex: Record<string, { id: string }[]> | null = null
 async function getClergyForChurch(id: string): Promise<string[]> {
@@ -50,6 +43,8 @@ interface ChurchGeo {
   lat: number
   lng: number
   name: string
+  /** `name` disambiguated by town where the dedication is shared (see build-data). */
+  displayName: string
   parish: string
   town?: string
   classification?: string
@@ -58,7 +53,6 @@ interface ChurchGeo {
   founding_year?: number
   patron_saint?: string
   heritage?: string
-  words?: number
 }
 
 let _geoCache: Record<string, ChurchGeo> | null = null
@@ -74,6 +68,7 @@ async function getChurchGeo(id: string): Promise<ChurchGeo | null> {
         lat: f.geometry.coordinates[1],
         lng: f.geometry.coordinates[0],
         name: p.name,
+        displayName: p.displayName ?? p.name,
         parish: p.parish,
         town: p.town,
         classification: p.classification,
@@ -82,7 +77,6 @@ async function getChurchGeo(id: string): Promise<ChurchGeo | null> {
         founding_year: p.founding_year,
         patron_saint: p.patron_saint,
         heritage: p.heritage,
-        words: p.words,
       }
     }
   }
@@ -97,7 +91,6 @@ export default function ChurchDetailPage() {
   const [loading, setLoading] = useState(true)
   const [geo, setGeo] = useState<ChurchGeo | null>(null)
   const [clergy, setClergy] = useState<string[]>([])
-  const [isStub, setIsStub] = useState(false)
   const [lightbox, setLightbox] = useState<MediaRow | null>(null)
   const mapInstanceRef = useRef<L.Map | null>(null)
   const mediaStripRef = useRef<HTMLDivElement | null>(null)
@@ -173,22 +166,17 @@ export default function ChurchDetailPage() {
       const images = idx[slug]?.filter(m => m.type === 'image') ?? []
       setMedia(images)
       setGeo(churchGeo)
-      // Use the build-time count from churches.geo.json rather than recounting
-      // here: the local version dropped every line starting with "**" to skip
-      // the meta line, which also swallowed every bold-lead paragraph and so
-      // flagged 236 of 305 fully-written entries as stubs.
-      setIsStub(churchGeo?.words != null && churchGeo.words < 350)
 
       if (md && churchGeo) {
         const firstPara = md.split(/\n\s*\n/).find(p => !p.startsWith('#') && !p.startsWith('**') && p.trim().length > 40)
         const description = firstPara
           ? firstPara.replace(/[*_`[\]]/g, '').replace(/\s+/g, ' ').trim().slice(0, 200)
-          : `${churchGeo.name} — Anglican church in ${churchGeo.parish}, Jamaica.`
+          : `${churchGeo.displayName} — Anglican church in ${churchGeo.parish}, Jamaica.`
         const heroImage = images[0]
           ? responsiveSrc(images[0].url, 1200, { height: 630, crop: 'fill' })
           : undefined
         setSeo({
-          title: churchGeo.name,
+          title: churchGeo.displayName,
           description,
           image: heroImage,
           type: 'article',
@@ -206,6 +194,12 @@ export default function ChurchDetailPage() {
   }, [slug])
 
   const styles = geo?.styles ?? []
+
+  // Show the panel only when it carries something the narrative doesn't already
+  // say. Photograph count alone isn't a reason to open a "Key Facts" box.
+  const hasKeyFacts = Boolean(
+    geo && (geo.founding_year || geo.patron_saint || geo.heritage || styles.length > 0)
+  )
 
   // Mark the intro/lead paragraph crimson, then auto-link parishes + clergy.
   useEffect(() => {
@@ -241,27 +235,15 @@ export default function ChurchDetailPage() {
               {geo.parish}
             </a>
             <span className="text-gray-300">/</span>
-            <span className="text-gray-700">{geo.name}</span>
+            <span className="text-gray-700">{geo.displayName}</span>
           </>
         )}
       </nav>
 
       {loading ? (
-        <p className="text-gray-400 font-body">Loading...</p>
+        <p className="text-gray-500 font-body">Loading...</p>
       ) : (
         <>
-          {/* Thin-content notice (#2) */}
-          {isStub && geo && (
-            <div className="mb-6 rounded-lg border border-gold/40 bg-parchment px-4 py-3 text-sm font-body text-gray-700">
-              <span className="font-semibold text-crimson">This entry is a stub.</span>{' '}
-              We have only a brief note for {geo.name}.{' '}
-              <a href={contributeMailto(geo.name, 'history')}
-                 className="text-crimson underline underline-offset-2 hover:text-crimson-dark">
-                Help expand it &rarr;
-              </a>
-            </div>
-          )}
-
           {/* Photos — strip, or placeholder + contribute prompt (#1) */}
           {media.length > 0 ? (
             <div ref={mediaStripRef} className="flex gap-3 overflow-x-auto pb-3 mb-6">
@@ -279,11 +261,23 @@ export default function ChurchDetailPage() {
                     className="h-48 w-auto rounded-lg object-cover cursor-zoom-in"
                     onClick={() => setLightbox(m)}
                   />
-                  {m.caption && (
-                    <figcaption className="text-xs text-gray-500 mt-1 max-w-[14rem]">
-                      {m.caption}{m.credit ? ` — ${m.credit}` : ''}
-                    </figcaption>
-                  )}
+                  <figcaption className="text-xs text-gray-500 mt-1 max-w-[14rem]">
+                    {m.caption}
+                    {/* Roughly half the collection has no recorded credit. Saying
+                        so — and asking — beats a caption that quietly implies we
+                        know the provenance. */}
+                    {m.credit
+                      ? ` — ${m.credit}`
+                      : (
+                        <>
+                          {m.caption ? ' — ' : ''}
+                          <a href={contributeMailto(geo?.displayName ?? 'this church', 'photo')}
+                             className="italic text-gray-500 underline underline-offset-2 decoration-dotted hover:text-crimson">
+                            credit not recorded
+                          </a>
+                        </>
+                      )}
+                  </figcaption>
                 </figure>
               ))}
             </div>
@@ -292,23 +286,24 @@ export default function ChurchDetailPage() {
               <div className="text-gold/70 text-4xl mb-2" aria-hidden="true">&#10013;</div>
               <p className="font-heading text-gray-700">No photograph yet</p>
               <p className="font-body text-sm text-gray-500 mt-1 mb-4">
-                Have a photo of {geo.name}? Help complete this entry.
+                Have a photo of {geo.displayName}? Help complete this entry.
               </p>
-              <Button href={contributeMailto(geo.name, 'photo')} variant="outlineGold" size="sm">
+              <Button href={contributeMailto(geo.displayName, 'photo')} variant="outlineGold" size="sm">
                 &#128247; Contribute a photo
               </Button>
             </div>
           )}
 
-          {/* Key Facts (#3) */}
-          {geo && (
+          {/* Key Facts — only what isn't already on the page.
+              Parish is in the breadcrumb, town is in the heading, and
+              classification + status are in the narrative's own meta line, so
+              printing all four here was the same four facts a third time. The
+              panel now carries only structured detail the prose doesn't state,
+              and disappears entirely when there is none to show. */}
+          {geo && hasKeyFacts && (
             <div className="mb-8 rounded-lg border border-gold/30 bg-parchment p-5">
               <h2 className="font-heading text-lg font-semibold text-crimson mb-3">Key Facts</h2>
               <dl className="grid sm:grid-cols-2 gap-x-8 gap-y-2 text-sm font-body">
-                <Fact k="Classification" v={geo.classification ? CLASS_LABEL[geo.classification] : undefined} />
-                <Fact k="Status" v={geo.status ? cap(geo.status) : undefined} />
-                <Fact k="Parish" v={geo.parish} />
-                <Fact k="Town" v={geo.town} />
                 <Fact k="Founded" v={geo.founding_year ? String(geo.founding_year) : undefined} />
                 <Fact k="Patron saint" v={geo.patron_saint} />
                 {styles.length > 0 && (
@@ -326,7 +321,7 @@ export default function ChurchDetailPage() {
                   </div>
                 )}
                 <Fact k="Heritage" v={geo.heritage} />
-                <Fact k="Photographs" v={media.length ? String(media.length) : 'none yet'} />
+                {media.length > 0 && <Fact k="Photographs" v={String(media.length)} />}
               </dl>
             </div>
           )}
@@ -380,7 +375,7 @@ export default function ChurchDetailPage() {
               </div>
               <p className="text-xs text-gray-500 font-body mt-5">
                 Spotted an error or have more to add?{' '}
-                <a href={contributeMailto(geo.name, 'history')} className="text-crimson underline underline-offset-2 hover:text-crimson-dark">
+                <a href={contributeMailto(geo.displayName, 'history')} className="text-crimson underline underline-offset-2 hover:text-crimson-dark">
                   Suggest an edit &rarr;
                 </a>
               </p>
@@ -393,7 +388,7 @@ export default function ChurchDetailPage() {
         <div
           role="dialog"
           aria-modal="true"
-          aria-label={`Photograph — ${geo?.name ?? 'church'}`}
+          aria-label={`Photograph — ${geo?.displayName ?? 'church'}`}
           className="fixed inset-0 z-[9999] bg-black/80 flex items-center justify-center p-4 cursor-zoom-out"
           onClick={() => setLightbox(null)}
         >
@@ -414,11 +409,12 @@ export default function ChurchDetailPage() {
               decoding="async"
               className="max-w-full max-h-[90vh] object-contain rounded"
             />
-            {lightbox.caption && (
-              <figcaption className="text-sm text-gray-200 mt-3 text-center font-body">
-                {lightbox.caption}{lightbox.credit ? ` — ${lightbox.credit}` : ''}
-              </figcaption>
-            )}
+            <figcaption className="text-sm text-gray-200 mt-3 text-center font-body">
+              {lightbox.caption}
+              {lightbox.credit
+                ? ` — ${lightbox.credit}`
+                : <span className="italic text-gray-300">{lightbox.caption ? ' — ' : ''}credit not recorded</span>}
+            </figcaption>
           </figure>
         </div>
       )}

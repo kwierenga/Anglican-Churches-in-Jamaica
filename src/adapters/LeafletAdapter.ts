@@ -3,24 +3,9 @@ import L from 'leaflet'
 // leaflet.css is imported in main.tsx AFTER tailwind.css to ensure correct cascade
 import { MapAdapter, ChurchFeature } from './MapAdapter'
 import type { FeatureCollection, Point } from 'geojson'
-
-/** Parish color palette from the original site's map.js */
-const PARISH_COLORS: Record<string, string> = {
-  'kingston':      '#C0392B',
-  'st. andrew':    '#2471A3',
-  'st. catherine': '#1E8449',
-  'clarendon':     '#7D3C98',
-  'manchester':    '#D35400',
-  'st. elizabeth': '#1ABC9C',
-  'westmoreland':  '#E74C3C',
-  'hanover':       '#3498DB',
-  'st. james':     '#27AE60',
-  'trelawny':      '#8E44AD',
-  'st. ann':       '#F39C12',
-  'st. mary':      '#16A085',
-  'portland':      '#2C3E50',
-  'st. thomas':    '#D4AC0D',
-}
+// Parish colours moved to src/lib/parishes.ts so the map and the rest of the UI
+// share one palette — parish pages and cards now use the same accents.
+import { parishColor } from '../lib/parishes'
 
 /** Predefined parish centers and zoom levels (tuned for Leaflet) */
 const PARISH_CENTERS: Record<string, { lat: number; lng: number; zoom: number }> = {
@@ -42,7 +27,7 @@ const PARISH_CENTERS: Record<string, { lat: number; lng: number; zoom: number }>
 
 /** Marker style based on classification */
 function markerStyle(props: ChurchFeature['properties']): L.CircleMarkerOptions {
-  const color = PARISH_COLORS[props.parish.toLowerCase()] ?? '#888'
+  const color = parishColor(props.parish)
   const isParishChurch = props.classification === 'parish_church'
   const isRuin = props.classification === 'ruin' || props.status === 'ruin'
   const isCathedral = props.classification === 'cathedral'

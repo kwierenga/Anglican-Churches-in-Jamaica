@@ -35,11 +35,22 @@ function setMeta(html: string, attr: 'name' | 'property', key: string, content: 
   return html.replace('</head>', `    <meta ${attr}="${key}" content="${esc(content)}" />\n  </head>`)
 }
 
-interface Page { route: string; title: string; description: string; image?: string; type?: string }
+interface Page {
+  route: string
+  title: string
+  description: string
+  image?: string
+  type?: string
+  /** Point the canonical elsewhere — used by the retired /sources -> /about redirect. */
+  canonical?: string
+  /** Keep out of the index and the sitemap (maintainer pages, redirect stubs). */
+  noindex?: boolean
+}
 
 function render(p: Page): string {
   const title = p.title ? p.title + SUFFIX : 'Anglican Churches in Jamaica'
   const url = SITE + p.route.replace(/^\//, '')
+  const canonical = p.canonical ?? url
   const image = p.image || DEFAULT_IMAGE
   let h = template
   h = h.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(title)}</title>`)
@@ -47,10 +58,11 @@ function render(p: Page): string {
   h = setMeta(h, 'property', 'og:title', title)
   h = setMeta(h, 'property', 'og:description', p.description)
   h = setMeta(h, 'property', 'og:type', p.type || 'website')
-  h = setMeta(h, 'property', 'og:url', url)
+  h = setMeta(h, 'property', 'og:url', canonical)
   h = setMeta(h, 'property', 'og:image', image)
   const inject =
-    `    <link rel="canonical" href="${esc(url)}" />\n` +
+    `    <link rel="canonical" href="${esc(canonical)}" />\n` +
+    (p.noindex ? `    <meta name="robots" content="noindex,follow" />\n` : '') +
     `    <meta name="twitter:title" content="${esc(title)}" />\n` +
     `    <meta name="twitter:description" content="${esc(p.description)}" />\n` +
     `    <meta name="twitter:image" content="${esc(image)}" />\n  </head>`
@@ -88,13 +100,26 @@ const STATIC: Page[] = [
   { route: 'history/', title: 'History', description: 'The history of the Anglican Church in Jamaica from 1655 to the present.' },
   { route: 'about/', title: 'About & Sources', description: 'About this project, and the full list of UK and Jamaican sources cited in the church narratives.' },
   { route: 'news/', title: 'News & Events', description: 'Recent news and upcoming events from the Anglican Diocese of Jamaica and the Cayman Islands.' },
-  { route: 'sources/', title: 'Sources', description: 'Primary and secondary sources used across the site.' },
   { route: 'glossary/', title: 'Glossary', description: 'Terms and vocabulary used across the site.' },
-  { route: 'data/', title: 'Data Coverage', description: 'Maintainer punch-list of what each church entry still needs — photos, fuller histories, structured facts.' },
+  // Retired: the bibliography lives on /about. The file stays so inbound links
+  // and the old sitemap entry resolve; the app redirects and the canonical points home.
+  {
+    route: 'sources/', title: 'About & Sources', noindex: true,
+    canonical: SITE + 'about/',
+    description: 'About this project, and the full list of UK and Jamaican sources cited in the church narratives.',
+  },
+  // Maintainer punch-list — reachable by URL, not linked and not indexed.
+  {
+    route: 'data/', title: 'Data Coverage', noindex: true,
+    description: 'Maintainer punch-list of what each church entry still needs — photos, fuller histories, structured facts.',
+  },
 ]
 
 const allUrls: string[] = []
-for (const p of STATIC) { write(p.route, render(p)); allUrls.push(SITE + p.route) }
+for (const p of STATIC) {
+  write(p.route, render(p))
+  if (!p.noindex) allUrls.push(SITE + p.route)
+}
 
 // ── Parish pages ────────────────────────────────────────────────────
 const CLOUD = 'https://res.cloudinary.com/kwierenga/image/upload'
@@ -117,10 +142,13 @@ for (const c of churches) {
   const route = `church/${c.id}/`
   const mdPath = path.join(CONTENT, `${c.id}.md`)
   const md = fs.existsSync(mdPath) ? fs.readFileSync(mdPath, 'utf8') : ''
-  const fallback = `${c.name} — Anglican ${c.classification.replace('_', ' ')} in ${c.parish}, Jamaica.`
+  // displayName, not name: a dozen churches are called "St. Matthew's", and
+  // duplicate <title>s are both useless to a reader and bad for search.
+  const label = c.displayName || c.name
+  const fallback = `${label} — Anglican ${c.classification.replace('_', ' ')} in ${c.parish}, Jamaica.`
   const firstImg = (media[c.id] || []).find(m => m.type === 'image')
   write(route, render({
-    route, title: c.name, description: descFromMd(md, fallback), type: 'article',
+    route, title: label, description: descFromMd(md, fallback), type: 'article',
     image: firstImg ? ogImage(firstImg.url) : undefined,
   }))
   allUrls.push(SITE + route)

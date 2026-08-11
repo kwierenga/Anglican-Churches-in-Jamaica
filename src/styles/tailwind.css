@@ -5,10 +5,14 @@
 @layer base {
   a { text-decoration: none; }
 
-  /* Visible keyboard focus everywhere (mouse clicks stay clean via :focus-visible). */
+  /* Visible keyboard focus everywhere (mouse clicks stay clean via :focus-visible).
+     Gold alone is only 2.3:1 on white, below the 3:1 WCAG 1.4.11 needs for a
+     focus indicator, so it's paired with a navy halo: the gold reads on dark
+     surfaces (the crimson header), the halo reads on light ones. */
   :focus-visible {
     outline: 2px solid #D4A017; /* gold-bright */
     outline-offset: 2px;
+    box-shadow: 0 0 0 4px rgba(30, 45, 78, 0.55); /* navy */
     border-radius: 2px;
   }
 }
@@ -30,6 +34,21 @@
   .animate-marquee {
     display: inline-block;
     animation: marquee 25s linear infinite;
+  }
+
+  /* WCAG 2.2.2: motion lasting more than five seconds needs a way to stop it.
+     The ticker ships a pause button; hover/focus pauses it too. */
+  .animate-marquee.is-paused,
+  .marquee-track:hover .animate-marquee,
+  .marquee-track:focus-within .animate-marquee {
+    animation-play-state: paused;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee {
+    animation: none;
+    transform: none;
   }
 }
 

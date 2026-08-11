@@ -1,3 +1,5 @@
+import { to } from '../lib/router'
+
 export default function About() {
   return (
     <main className="max-w-3xl mx-auto px-4 py-10">
@@ -20,6 +22,30 @@ export default function About() {
           <li><strong>Church pages</strong> &mdash; Each church has a summary, history, architecture notes, clergy information, and notable facts, each with its own <em>References</em> section so readers can check the sources.</li>
           <li><strong>Photographs</strong> &mdash; Images are sourced from field visits and archives, hosted on Cloudinary.</li>
         </ul>
+
+        <h2 className="font-heading text-2xl font-bold text-crimson pt-4">Photographs &amp; Credits</h2>
+        <p>
+          Photographs come from field visits, the Diocese and its parishes, and archive and heritage
+          collections. Where a photographer or rights-holder is on record, the credit is shown beneath the
+          image. A substantial number of the older images carry no recorded credit &mdash; roughly half the
+          collection &mdash; and we would rather say so than imply a provenance we cannot support. If you can
+          identify the source of an uncredited photograph, or hold rights to one, please get in touch and we
+          will credit it or remove it.
+        </p>
+        <p>
+          Around half the churches on the site have no photograph at all.{' '}
+          <a href={`${to('/churches')}?needsphoto=1`} className="text-crimson hover:underline">
+            The directory can list exactly which ones
+          </a>
+          , and every church page carries a link to contribute an image.
+        </p>
+
+        <h2 className="font-heading text-2xl font-bold text-crimson pt-4">Acknowledgments</h2>
+        <p>
+          This project is indebted to the Anglican Diocese of Jamaica and the Cayman Islands, the Jamaica
+          National Heritage Trust, the National Library of Jamaica, parish archives and local historians, and
+          the newspapers and journals whose reporting fills the gaps the archives leave.
+        </p>
 
         <h2 className="font-heading text-2xl font-bold text-crimson pt-4">Sources &amp; Accuracy</h2>
         <p>

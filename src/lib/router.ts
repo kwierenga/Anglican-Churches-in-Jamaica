@@ -74,11 +74,16 @@ export function useRoute() {
   return useSyncExternalStore(store.subscribe, store.getSnapshot)
 }
 
-/** Programmatic navigation. Accepts a logical path ('/church/x') or full href. */
-export function navigate(path: string) {
+/**
+ * Programmatic navigation. Accepts a logical path ('/church/x') or full href.
+ * `replace` swaps the current entry instead of pushing, so redirects (e.g.
+ * the retired /sources -> /about) don't trap the back button.
+ */
+export function navigate(path: string, opts?: { replace?: boolean }) {
   const href = path.startsWith(BASE) || /^https?:/.test(path) ? path : to(path)
   if (href !== location.href) {
-    history.pushState({}, '', href)
+    if (opts?.replace) history.replaceState({}, '', href)
+    else history.pushState({}, '', href)
     notify()
   }
 }

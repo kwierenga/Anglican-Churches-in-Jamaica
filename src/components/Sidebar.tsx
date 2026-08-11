@@ -3,9 +3,13 @@ import type Fuse from 'fuse.js'
 import { useQueryState } from '../lib/state'
 import { uniqueValues } from '../lib/utils'
 import { loadSearchIndex, getCatalog } from '../lib/search'
+import { parishColor } from '../lib/parishes'
 import Button from './Button'
 import Badge, { statusTone } from './Badge'
 import type { ChurchRow } from '../lib/schemas'
+
+/** Churches added to the list per "show more" click. */
+const PAGE = 50
 
 export default function Sidebar() {
   const [q, setQ] = useQueryState('q', '')
@@ -35,6 +39,13 @@ export default function Sidebar() {
     if (needsphoto && (c.photos ?? 0) > 0) return false
     return true
   }), [catalog, parish, klass, status, needsphoto])
+
+  // The list used to hard-stop at 50 and tell the reader to "narrow down" — but
+  // the default, unfiltered view is all 305 churches, so the cap bit hardest on
+  // the very first thing a visitor sees. Page through instead.
+  const [limit, setLimit] = useState(PAGE)
+  useEffect(() => { setLimit(PAGE) }, [parish, klass, status, needsphoto])
+  const visible = filtered.slice(0, limit)
 
   return (
     <div className="flex flex-col h-full">
@@ -66,7 +77,7 @@ export default function Sidebar() {
                   }}
                   className="block w-full text-left px-3 py-2 hover:bg-ivory text-sm font-body"
                 >
-                  <span className="font-semibold">{item.name}</span>
+                  <span className="font-semibold">{item.displayName ?? item.name}</span>
                   <span className="text-xs text-gray-500 ml-1">— {item.parish}</span>
                 </button>
               ))}
@@ -120,12 +131,13 @@ export default function Sidebar() {
 
         {/* Church list */}
         <div className="mt-2 space-y-1">
-          {filtered.slice(0, 50).map(c => (
+          {visible.map(c => (
             <button
               key={c.id}
               onClick={() => { setId(c.id) }}
+              style={{ borderLeftColor: parishColor(c.parish) }}
               className="block w-full text-left px-3 py-2 rounded text-sm font-body
-                         border-l-4 border-transparent hover:border-l-crimson hover:bg-ivory transition-colors"
+                         border-l-4 hover:bg-ivory transition-colors"
             >
               <span className="font-semibold text-gray-900">{c.name}</span>
               <div className="flex items-center gap-2 mt-0.5">
@@ -134,10 +146,27 @@ export default function Sidebar() {
               </div>
             </button>
           ))}
-          {filtered.length > 50 && (
-            <p className="text-xs text-gray-400 px-3 py-2">
-              Showing first 50 of {filtered.length}. Use filters to narrow down.
+
+          {filtered.length === 0 && (
+            <p className="text-sm text-gray-500 px-3 py-4 font-body">
+              No churches match these filters.
             </p>
+          )}
+
+          {limit < filtered.length && (
+            <div className="px-1 pt-2 pb-1 space-y-2">
+              <Button
+                variant="outline"
+                size="sm"
+                className="w-full"
+                onClick={() => setLimit(n => n + PAGE)}
+              >
+                Show {Math.min(PAGE, filtered.length - limit)} more
+              </Button>
+              <p className="text-xs text-gray-500 text-center">
+                Showing {visible.length} of {filtered.length}
+              </p>
+            </div>
           )}
         </div>
       </div>

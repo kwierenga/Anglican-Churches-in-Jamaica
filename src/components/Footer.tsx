@@ -7,10 +7,12 @@ const footerLinks = [
   { path: '/clergy', label: 'Clergy' },
   { path: '/history', label: 'History' },
   { path: '/news', label: 'News & Events' },
-  { path: '/about', label: 'About' },
-  { path: '/sources', label: 'Sources' },
+  // /about carries the full bibliography (the old /sources page was a thin,
+  // partly inaccurate duplicate and now redirects here).
+  { path: '/about', label: 'About & Sources' },
   { path: '/glossary', label: 'Glossary' },
-  { path: '/data', label: 'Data Coverage' },
+  // /data is a maintainer punch-list, not visitor-facing — reachable by URL,
+  // deliberately unlinked and noindexed.
 ]
 
 export default function Footer() {
@@ -30,11 +32,11 @@ export default function Footer() {
         <p className="text-sm text-white/60">
           Church House, 2 Caledonia Avenue, Kingston 5, Jamaica&ensp;|&ensp;
           <a href="https://www.anglicandioceseja.org" target="_blank" rel="noopener noreferrer"
-             className="text-gold-bright hover:text-gold underline">
+             className="text-gold-bright hover:text-white underline">
             anglicandioceseja.org
           </a>
         </p>
-        <p className="text-xs text-white/40 pt-2">
+        <p className="text-xs text-white/70 pt-2">
           This is an independent heritage project and is not an official publication of the Diocese.
         </p>
       </div>

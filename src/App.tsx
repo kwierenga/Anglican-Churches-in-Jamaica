@@ -1,5 +1,5 @@
 import { lazy, Suspense, useEffect, type ReactElement } from 'react'
-import { useRoute } from './lib/router'
+import { useRoute, navigate } from './lib/router'
 
 // Disable browser scroll-restoration globally so route changes always start
 // at top, regardless of how navigation happens (link click, back/forward).
@@ -21,7 +21,6 @@ const ArchitecturePage = lazy(() => import('./pages/ArchitecturePage'))
 const ClergyPage = lazy(() => import('./pages/ClergyPage'))
 const About = lazy(() => import('./pages/About'))
 const News = lazy(() => import('./pages/News'))
-const Sources = lazy(() => import('./pages/Sources'))
 const Glossary = lazy(() => import('./pages/Glossary'))
 const History = lazy(() => import('./pages/History'))
 const DataPage = lazy(() => import('./pages/DataPage'))
@@ -34,7 +33,6 @@ const STATIC_META: Record<string, { title?: string; description?: string }> = {
   '/history': { title: 'History', description: 'The history of the Anglican Church in Jamaica from 1655 to the present.' },
   '/about': { title: 'About & Sources', description: 'About this project, and the full list of UK and Jamaican sources cited in the church narratives.' },
   '/news': { title: 'News & Events', description: 'Recent news and upcoming events from the Anglican Diocese of Jamaica and the Cayman Islands.' },
-  '/sources': { title: 'Sources', description: 'Primary and secondary sources used across the site.' },
   '/glossary': { title: 'Glossary', description: 'Terms and vocabulary used across the site.' },
   '/data': { title: 'Data Coverage', description: 'Maintainer punch-list of what each church entry still needs — photos, fuller histories, structured facts.' },
   '/architecture': { title: 'Architecture', description: 'Browse Jamaican Anglican churches by architectural style — Georgian, Gothic Revival, vernacular Caribbean, estate chapels, and post-war modernist.' },
@@ -43,6 +41,12 @@ const STATIC_META: Record<string, { title?: string; description?: string }> = {
 
 export default function App() {
   const route = useRoute()
+
+  // /sources was a thin duplicate of the bibliography now on /about. The URL
+  // stays alive for old links and prerendered crawlers, but redirects.
+  useEffect(() => {
+    if (route === '/sources') navigate('/about', { replace: true })
+  }, [route])
 
   useEffect(() => {
     if (route.startsWith('/church/') || route.startsWith('/parish/')) return
@@ -74,7 +78,7 @@ export default function App() {
   } else if (route === '/news') {
     page = <News />
   } else if (route === '/sources') {
-    page = <Sources />
+    page = <About />
   } else if (route === '/glossary') {
     page = <Glossary />
   } else if (route === '/data') {
@@ -97,7 +101,7 @@ export default function App() {
       </a>
       <Header />
       <div id="main" tabIndex={-1} className="flex-1 outline-none">
-        <Suspense fallback={<div className="grid place-items-center py-24 text-gray-400 font-body">Loading…</div>}>
+        <Suspense fallback={<div className="grid place-items-center py-24 text-gray-500 font-body">Loading…</div>}>
           {page}
         </Suspense>
       </div>

@@ -1,9 +1,10 @@
 import { useEffect, useMemo, useState } from 'react'
 import { getCatalog, loadSearchIndex } from '../lib/search'
 import { to } from '../lib/router'
+import Badge from '../components/Badge'
 import type { ChurchRow } from '../lib/schemas'
 
-type Filter = 'all' | 'photo' | 'style' | 'metadata' | 'complete'
+type Filter = 'all' | 'photo' | 'credit' | 'style' | 'metadata' | 'complete'
 
 // Narratives are uniformly thorough (every entry has 4+ references and 477+
 // words), so the genuine gaps are photographs and optional structured facts —
@@ -15,6 +16,9 @@ function gaps(c: ChurchRow) {
     photo: (c.photos ?? 0) === 0,
     style: !isRuin && (c.styles?.length ?? 0) === 0,
     metadata: !c.founding_year || !c.patron_saint || !c.heritage,
+    // Provenance, tracked separately from coverage: an uncredited image is a
+    // licensing risk, not a missing photo.
+    credit: (c.uncredited ?? 0) > 0,
   }
 }
 
@@ -24,7 +28,11 @@ export default function DataPage() {
   useEffect(() => { loadSearchIndex().then(() => setCatalog(getCatalog())) }, [])
 
   const stats = useMemo(() => {
-    const s = { total: catalog.length, photo: 0, style: 0, founding: 0, patron: 0, heritage: 0, minRefs: Infinity, minWords: Infinity }
+    const s = {
+      total: catalog.length, photo: 0, style: 0, founding: 0, patron: 0, heritage: 0,
+      creditChurches: 0, uncreditedImages: 0, totalImages: 0,
+      minRefs: Infinity, minWords: Infinity,
+    }
     for (const c of catalog) {
       const g = gaps(c)
       if (g.photo) s.photo++
@@ -32,6 +40,9 @@ export default function DataPage() {
       if (c.founding_year) s.founding++
       if (c.patron_saint) s.patron++
       if (c.heritage) s.heritage++
+      if (g.credit) s.creditChurches++
+      s.uncreditedImages += c.uncredited ?? 0
+      s.totalImages += c.photos ?? 0
       s.minRefs = Math.min(s.minRefs, c.refs ?? 0)
       s.minWords = Math.min(s.minWords, c.words ?? 0)
     }
@@ -45,9 +56,14 @@ export default function DataPage() {
       if (filter === 'photo') return g.photo
       if (filter === 'style') return g.style
       if (filter === 'metadata') return g.metadata
-      if (filter === 'complete') return !g.photo && !g.style && !g.metadata
+      if (filter === 'credit') return g.credit
+      if (filter === 'complete') return !g.photo && !g.style && !g.metadata && !g.credit
       return true
     })
+    // The credit list is a provenance worklist — biggest offenders first.
+    if (filter === 'credit') {
+      return list.sort((a, b) => (b.uncredited ?? 0) - (a.uncredited ?? 0) || a.parish.localeCompare(b.parish))
+    }
     return list.sort((a, b) => (a.photos ?? 0) - (b.photos ?? 0) || a.parish.localeCompare(b.parish) || a.name.localeCompare(b.name))
   }, [catalog, filter])
 
@@ -55,6 +71,7 @@ export default function DataPage() {
 
   const FILTERS: { key: Filter; label: string }[] = [
     { key: 'photo', label: `Needs photo (${stats.photo})` },
+    { key: 'credit', label: `Uncredited images (${stats.uncreditedImages})` },
     { key: 'style', label: `No style (${stats.style})` },
     { key: 'metadata', label: 'Missing metadata' },
     { key: 'complete', label: 'Fully documented' },
@@ -75,9 +92,14 @@ export default function DataPage() {
       <section className="py-10">
         <div className="max-w-site mx-auto px-4">
           {/* Summary */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mb-4">
+          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-3 mb-4">
             <Stat label="Churches" value={stats.total} />
             <Stat label="Have a photo" value={`${pct(stats.total - stats.photo)}%`} sub={`${stats.photo} missing`} />
+            <Stat
+              label="Images credited"
+              value={stats.totalImages ? `${Math.round(((stats.totalImages - stats.uncreditedImages) / stats.totalImages) * 100)}%` : '—'}
+              sub={`${stats.uncreditedImages} of ${stats.totalImages} unknown`}
+            />
             <Stat label="Arch. style" value={`${pct(stats.total - stats.style)}%`} sub={`${stats.style} missing`} />
             <Stat label="Founding year" value={`${pct(stats.founding)}%`} sub={`${stats.founding} filled`} />
             <Stat label="Patron saint" value={`${pct(stats.patron)}%`} sub={`${stats.patron} filled`} />
@@ -87,7 +109,9 @@ export default function DataPage() {
           <p className="text-xs text-gray-500 font-body mb-8">
             Narrative health: every entry has at least <strong>{stats.minRefs}</strong> references and{' '}
             <strong>{stats.minWords}</strong> words — no stubs or under-sourced pages. Length is intentionally
-            <em> not</em> a tracked gap (it would only reward filler).
+            <em> not</em> a tracked gap (it would only reward filler). Uncredited images are a{' '}
+            <em>provenance</em> gap, not a coverage one: the photograph exists, but we cannot say who took it —
+            {' '}<strong>{stats.creditChurches}</strong> churches are affected.
           </p>
 
           {/* Filters */}
@@ -123,6 +147,7 @@ export default function DataPage() {
                   const g = gaps(c)
                   const labels = [
                     g.photo && 'photo',
+                    g.credit && `${c.uncredited} uncredited`,
                     g.style && 'style',
                     !c.founding_year && 'year',
                     !c.patron_saint && 'patron',
@@ -132,7 +157,7 @@ export default function DataPage() {
                     <tr key={c.id} className="border-t border-gray-100 hover:bg-ivory/60">
                       <td className="px-3 py-2">
                         <a href={to(`/church/${c.id}`)} className="text-crimson hover:underline font-semibold">{c.name}</a>
-                        {c.town && <span className="text-gray-400"> · {c.town}</span>}
+                        {c.town && <span className="text-gray-500"> · {c.town}</span>}
                       </td>
                       <td className="px-3 py-2 text-gray-600">{c.parish}</td>
                       <td className={`px-3 py-2 text-center ${g.photo ? 'text-crimson font-semibold' : 'text-gray-500'}`}>{c.photos ?? 0}</td>
@@ -140,9 +165,9 @@ export default function DataPage() {
                       <td className="px-3 py-2">
                         <div className="flex flex-wrap gap-1">
                           {labels.length === 0
-                            ? <span className="text-xs text-gold">complete</span>
+                            ? <Badge tone="complete" className="text-[10px] px-1.5">complete</Badge>
                             : labels.map(l => (
-                                <span key={l} className="text-[10px] px-1.5 py-0.5 rounded bg-crimson/10 text-crimson">{l}</span>
+                                <Badge key={l} tone="gap" className="text-[10px] px-1.5">{l}</Badge>
                               ))}
                         </div>
                       </td>
@@ -153,7 +178,7 @@ export default function DataPage() {
             </table>
           </div>
 
-          <p className="text-xs text-gray-400 italic font-body pt-4">
+          <p className="text-xs text-gray-500 italic font-body pt-4">
             Founding year / patron saint / heritage are optional columns in {`data/churches.csv`} — filling them
             populates the Key Facts panel on each church page. Architectural style is inferred from the narrative.
           </p>
@@ -168,7 +193,7 @@ function Stat({ label, value, sub }: { label: string; value: string | number; su
     <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
       <div className="font-heading text-2xl font-bold text-crimson">{value}</div>
       <div className="text-xs text-gray-600 mt-0.5">{label}</div>
-      {sub && <div className="text-[11px] text-gray-400 mt-0.5">{sub}</div>}
+      {sub && <div className="text-[11px] text-gray-500 mt-0.5">{sub}</div>}
     </div>
   )
 }

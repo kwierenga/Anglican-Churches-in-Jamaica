@@ -3,14 +3,21 @@
  *
  * Sources:
  *   1. Anglican Diocese of Jamaica (anglicandioceseja.org)
- *   2. Jamaica Gleaner — Anglican/church coverage
- *   3. Anglican Communion News Service (anglicannews.org)
+ *   2. Jamaica Gleaner — Anglican/church coverage, via Google News RSS
+ *
+ * Retired: Anglican Communion News Service (anglicannews.org). Its news index
+ * returns 403 to non-browser clients regardless of User-Agent, and it publishes
+ * no working RSS, so the scraper contributed nothing while the site still
+ * advertised it as a source. Removed rather than left failing silently.
  *
  * Lifecycle:
  *   - Items with date > today       → shown as Events (upcoming)
  *   - Items with date <= today       → shown as News  (past)
  *   - Items older than 6 months      → retired (removed)
  *   - Items more than 6 months ahead → excluded
+ *
+ * Also writes data/feed-meta.json — run timestamp and per-source health — so the
+ * News page can say when the feed was last checked instead of silently ageing.
  *
  * Usage: npx tsx scripts/fetch-news.ts
  */
@@ -21,7 +28,16 @@ import { fileURLToPath } from 'url'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const FEED_FILE = join(__dirname, '..', 'data', 'feed.json')
+const META_FILE = join(__dirname, '..', 'data', 'feed-meta.json')
 const SIX_MONTHS_MS = 6 * 30 * 24 * 60 * 60 * 1000
+
+interface SourceHealth {
+  name: string
+  ok: boolean
+  items: number
+  note?: string
+}
+const health: SourceHealth[] = []
 
 interface FeedItem {
   id: string
@@ -132,7 +148,11 @@ async function scrapeDiocese(): Promise<FeedItem[]> {
   console.log(`📡 Fetching Anglican Diocese: ${DIOCESE_URL}/news ...`)
   try {
     const res = await fetch(`${DIOCESE_URL}/news`, { signal: AbortSignal.timeout(15000) })
-    if (!res.ok) { console.warn(`  ⚠️ HTTP ${res.status}`); return [] }
+    if (!res.ok) {
+      console.warn(`  ⚠️ HTTP ${res.status}`)
+      health.push({ name: 'Anglican Diocese of Jamaica', ok: false, items: 0, note: `HTTP ${res.status}` })
+      return []
+    }
     const html = await res.text()
     const $ = cheerio.load(html)
 
@@ -170,9 +190,11 @@ async function scrapeDiocese(): Promise<FeedItem[]> {
     }
 
     console.log(`  ✅ ${results.length} items from Diocese`)
+    health.push({ name: 'Anglican Diocese of Jamaica', ok: true, items: results.length })
     return results
   } catch (err) {
     console.warn(`  ⚠️ Diocese scrape failed: ${err}`)
+    health.push({ name: 'Anglican Diocese of Jamaica', ok: false, items: 0, note: String(err).slice(0, 120) })
     return []
   }
 }
@@ -200,7 +222,11 @@ async function scrapeGleaner(): Promise<FeedItem[]> {
       headers: { 'User-Agent': BROWSER_UA },
       signal: AbortSignal.timeout(15000),
     })
-    if (!res.ok) { console.warn(`  ⚠️ HTTP ${res.status}`); return [] }
+    if (!res.ok) {
+      console.warn(`  ⚠️ HTTP ${res.status}`)
+      health.push({ name: 'Jamaica Gleaner', ok: false, items: 0, note: `HTTP ${res.status}` })
+      return []
+    }
     const xml = await res.text()
     const $ = cheerio.load(xml, { xmlMode: true })
 
@@ -236,69 +262,11 @@ async function scrapeGleaner(): Promise<FeedItem[]> {
     })
 
     console.log(`  ✅ ${results.length} items from Gleaner`)
+    health.push({ name: 'Jamaica Gleaner', ok: true, items: results.length })
     return results
   } catch (err) {
     console.warn(`  ⚠️ Gleaner scrape failed: ${err}`)
-    return []
-  }
-}
-
-// ── Source 3: Anglican Communion News Service ────────────────────────────────
-
-async function scrapeACNS(): Promise<FeedItem[]> {
-  const ACNS_URL = 'https://www.anglicannews.org/news.aspx'
-  console.log(`📡 Fetching ACNS: ${ACNS_URL} ...`)
-  try {
-    const res = await fetch(ACNS_URL, { signal: AbortSignal.timeout(15000) })
-    if (!res.ok) { console.warn(`  ⚠️ HTTP ${res.status}`); return [] }
-    const html = await res.text()
-    const $ = cheerio.load(html)
-
-    const results: FeedItem[] = []
-
-    // ACNS uses various layouts; look for article links
-    $('article, .news-item, .post-item, .item').each((_, el) => {
-      const $el = $(el)
-      const titleEl = $el.find('h2 a, h3 a, a.title, .headline a').first()
-      let title = titleEl.text().trim()
-      let url = titleEl.attr('href') || ''
-      if (!title || !url) {
-        // Fallback: direct link inside the item
-        const link = $el.find('a').first()
-        title = link.text().trim()
-        url = link.attr('href') || ''
-      }
-      if (!title || title.length < 10 || !url) return
-
-      // Make URL absolute
-      if (url.startsWith('/')) url = `https://www.anglicannews.org${url}`
-
-      const dateRaw = $el.find('time').attr('datetime') || $el.find('.date, .meta-date').text() || ''
-      const date = parseDate(dateRaw)
-      const summary = $el.find('p, .summary, .excerpt').first().text().trim().slice(0, 300)
-
-      // Only keep Caribbean/Jamaica-relevant items
-      const text = (title + ' ' + summary).toLowerCase()
-      const relevant = ['jamaica', 'caribbean', 'west indies', 'province of the west indies', 'cpwi'].some(k => text.includes(k))
-      if (!relevant) return
-
-      results.push({
-        id: slugify(title),
-        date,
-        title,
-        summary,
-        report: '',
-        category: 'diocese',
-        parish: null,
-        source: 'Anglican Communion News Service',
-        url,
-      })
-    })
-
-    console.log(`  ✅ ${results.length} items from ACNS`)
-    return results
-  } catch (err) {
-    console.warn(`  ⚠️ ACNS scrape failed: ${err}`)
+    health.push({ name: 'Jamaica Gleaner', ok: false, items: 0, note: String(err).slice(0, 120) })
     return []
   }
 }
@@ -313,13 +281,12 @@ async function main() {
   }
 
   // Scrape all sources in parallel
-  const [diocese, gleaner, acns] = await Promise.all([
+  const [diocese, gleaner] = await Promise.all([
     scrapeDiocese(),
     scrapeGleaner(),
-    scrapeACNS(),
   ])
 
-  const scraped = [...diocese, ...gleaner, ...acns]
+  const scraped = [...diocese, ...gleaner]
   console.log(`\n📊 Total scraped: ${scraped.length} items`)
 
   // Merge: existing items win (preserves manual edits, reports)
@@ -363,6 +330,23 @@ async function main() {
   const events = all.filter(i => i.date > now)
   const news = all.filter(i => i.date <= now)
   console.log(`   📅 ${events.length} upcoming events, 📰 ${news.length} recent news`)
+
+  // Freshness metadata. Without this the feed just ages silently: the page
+  // looked identical whether it had been refreshed today or three months ago.
+  const meta = {
+    checkedAt: new Date().toISOString(),
+    latestItem: all.map(i => i.date).filter(Boolean).sort().slice(-1)[0] ?? null,
+    events: events.length,
+    news: news.length,
+    sources: health,
+  }
+  writeFileSync(META_FILE, JSON.stringify(meta, null, 2))
+  console.log(`✅ Wrote feed metadata → ${META_FILE}`)
+
+  const broken = health.filter(h => !h.ok)
+  if (broken.length) {
+    console.warn(`⚠️  ${broken.length} source(s) failed: ${broken.map(b => `${b.name} (${b.note})`).join(', ')}`)
+  }
 }
 
 main().catch(err => { console.error(err); process.exit(1) })

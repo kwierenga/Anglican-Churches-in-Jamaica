@@ -169,7 +169,7 @@ export default function ArchitecturePage() {
                 )}
 
                 {matches.length === 0 ? (
-                  <p className="text-sm text-gray-400 italic font-body">No churches currently indexed for this style.</p>
+                  <p className="text-sm text-gray-500 italic font-body">No churches currently indexed for this style.</p>
                 ) : (
                   <>
                     <p className="text-xs text-gray-500 mb-3 font-body">
@@ -195,7 +195,7 @@ export default function ArchitecturePage() {
             )
           })}
 
-          <p className="text-xs text-gray-400 italic font-body pt-6 border-t border-gray-200">
+          <p className="text-xs text-gray-500 italic font-body pt-6 border-t border-gray-200">
             Styles are inferred at build time by keyword-matching each church's narrative. A church may appear under more than one style; ruins are excluded.
           </p>
         </div>

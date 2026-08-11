@@ -36,7 +36,12 @@ export const ChurchRowSchema = z.object({
   patron_saint: z.preprocess(emptyToUndef, z.string().optional()),
   heritage: z.preprocess(emptyToUndef, z.string().optional()),
   // Derived in build-data (not CSV columns); present in search-index.json.
+  // `displayName` is `name` disambiguated by town wherever a dedication is
+  // shared by more than one church — use it anywhere a name stands alone.
+  displayName: z.string().optional(),
   photos: z.coerce.number().int().nonnegative().optional(),
+  /** Images for this church with no recorded credit — a provenance gap, not a photo gap. */
+  uncredited: z.coerce.number().int().nonnegative().optional(),
   words: z.coerce.number().int().nonnegative().optional(),
   refs: z.coerce.number().int().nonnegative().optional(),
   sections: z.coerce.number().int().nonnegative().optional(),

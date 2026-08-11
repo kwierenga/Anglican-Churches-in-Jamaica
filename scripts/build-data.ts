@@ -50,6 +50,41 @@ if(errors>0){
   process.exit(1)
 }
 
+// --- Display names -----------------------------------------------------------
+// The 305 churches share only ~118 distinct dedications ("St. Paul's" x15,
+// "St. Matthew's" x12), so a bare `name` is ambiguous everywhere it stands on
+// its own — search results, <title>, share cards, the clergy index. Disambiguate
+// only where it's needed: unique dedications stay clean, shared ones take their
+// town, and if the town still doesn't separate them the parish is appended too.
+const nameCount = new Map<string, number>()
+for (const v of valid) nameCount.set(v.name, (nameCount.get(v.name) ?? 0) + 1)
+
+const isShared = (v: ChurchRow) => (nameCount.get(v.name) ?? 0) > 1
+const withTown = (v: ChurchRow) => (v.town ? `${v.name}, ${v.town}` : `${v.name} (${v.parish})`)
+
+const townCount = new Map<string, number>()
+for (const v of valid) {
+  if (!isShared(v)) continue
+  const k = withTown(v)
+  townCount.set(k, (townCount.get(k) ?? 0) + 1)
+}
+
+const displayNameById: Record<string, string> = {}
+for (const v of valid) {
+  if (!isShared(v)) { displayNameById[v.id] = v.name; continue }
+  const t = withTown(v)
+  displayNameById[v.id] = (townCount.get(t) ?? 0) > 1 ? `${t} (${v.parish})` : t
+}
+
+const disambiguated = valid.filter(v => displayNameById[v.id] !== v.name).length
+console.log(`ℹ️  ${disambiguated}/${valid.length} churches share a dedication — disambiguated by town`)
+
+// A display name that is still not unique means two churches are indistinguishable
+// to a reader; surface it rather than shipping a silent collision.
+const displayCount = new Map<string, number>()
+for (const v of valid) displayCount.set(displayNameById[v.id], (displayCount.get(displayNameById[v.id]) ?? 0) + 1)
+for (const [dn, n] of displayCount) if (n > 1) warn(`Display name "${dn}" is used by ${n} churches — add distinct towns in churches.csv`)
+
 // Emit media index
 const MEDIA_SRC = path.resolve('data/media.csv')
 type MediaByChurch = Record<string, MediaRow[]>
@@ -235,7 +270,7 @@ if (fs.existsSync(CONTENT_DIR)) {
     const mdPath = path.join(CONTENT_DIR, `${v.id}.md`)
     if (!fs.existsSync(mdPath)) {
       narrativeIndex.push({
-        id: v.id, name: v.name, parish: v.parish, classification: v.classification,
+        id: v.id, name: displayNameById[v.id] ?? v.name, parish: v.parish, classification: v.classification,
         status: v.status, town: v.town, styles: [], clergy: [],
       })
       continue
@@ -258,7 +293,7 @@ if (fs.existsSync(CONTENT_DIR)) {
       for (const s of filteredStyles) styleIndex[s].push(v.id)
     }
     narrativeIndex.push({
-      id: v.id, name: v.name, parish: v.parish, classification: v.classification,
+      id: v.id, name: displayNameById[v.id] ?? v.name, parish: v.parish, classification: v.classification,
       status: v.status, town: v.town, styles: filteredStyles, clergy: extractClergy(text),
     })
   }
@@ -289,9 +324,13 @@ if (fs.existsSync(CONTENT_DIR)) {
 
 // Optional structured metadata (#3) — only emitted when present in the CSV.
 function meta(v: ChurchRow) {
+  const images = mediaIndex[v.id]?.filter(m => m.type === 'image') ?? []
   return {
+    displayName: displayNameById[v.id] ?? v.name,
     styles: stylesById[v.id] ?? [],
-    photos: (mediaIndex[v.id]?.filter(m => m.type === 'image').length) ?? 0,
+    photos: images.length,
+    // Provenance gap, tracked so the maintainer punch-list can work it down.
+    uncredited: images.filter(m => !m.credit?.trim()).length,
     words: wordsById[v.id] ?? 0,
     refs: refsById[v.id] ?? 0,
     sections: sectionsById[v.id] ?? 0,

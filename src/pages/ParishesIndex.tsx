@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { responsiveSrc } from '../lib/cloudinary'
-import { PARISHES } from '../lib/parishes'
+import { PARISHES, parishColor } from '../lib/parishes'
 import { getCatalog, loadSearchIndex } from '../lib/search'
 import { to } from '../lib/router'
 import type { ChurchRow } from '../lib/schemas'
@@ -42,6 +42,9 @@ export default function ParishesIndex() {
                   href={to(`/parish/${p.slug}`)}
                   className="group block bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all hover:-translate-y-1"
                 >
+                  {/* The parish's map colour, carried off the map so a parish
+                      looks the same wherever you meet it. */}
+                  <div className="h-1.5" style={{ backgroundColor: parishColor(p.name) }} />
                   <div className="relative h-40">
                     <img
                       src={responsiveSrc(`${CLOUDINARY_BASE}/${p.heroImage}.jpg`, 600, { height: 320, crop: 'fill' })}

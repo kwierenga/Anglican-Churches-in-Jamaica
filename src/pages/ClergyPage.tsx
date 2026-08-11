@@ -112,7 +112,7 @@ export default function ClergyPage() {
             </nav>
           )}
 
-          {loading && <p className="text-gray-400 font-body">Loading clergy index…</p>}
+          {loading && <p className="text-gray-500 font-body">Loading clergy index…</p>}
 
           {!loading && entries.length === 0 && (
             <p className="text-gray-500 font-body italic">No clergy match that search.</p>
@@ -138,7 +138,7 @@ export default function ClergyPage() {
                             <a href={to(`/church/${m.id}`)} className="text-crimson hover:underline">
                               {m.name}
                             </a>
-                            <span className="text-gray-400"> &middot; {m.parish}</span>
+                            <span className="text-gray-500"> &middot; {m.parish}</span>
                           </li>
                         ))}
                       </ul>
@@ -149,7 +149,7 @@ export default function ClergyPage() {
             </section>
           ))}
 
-          <p className="text-xs text-gray-400 italic font-body pt-6 border-t border-gray-200">
+          <p className="text-xs text-gray-500 italic font-body pt-6 border-t border-gray-200">
             The clergy index is generated at build time by scanning each church's narrative for titled names (Rev., Canon, Archdeacon, Bishop, etc.). References sections are excluded. Spelling variants (e.g. Rev / Revd) appear as separate entries.
           </p>
         </div>

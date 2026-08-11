@@ -69,7 +69,7 @@ export default function ChurchCard(){
     return <p className="text-gray-500 font-body text-sm">Select a church to see its details. Use the search box or click the map.</p>
   }
   if (status === 'loading') {
-    return <p className="text-gray-400 font-body text-sm">Loading…</p>
+    return <p className="text-gray-500 font-body text-sm">Loading…</p>
   }
   if (status === 'missing') {
     return <p className="text-gray-500 font-body text-sm">No page yet for this church.</p>
