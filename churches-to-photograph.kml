@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Jamaica churches to photograph (&lt;2 photos)</name>
+    <description>Anglican churches with fewer than 2 photos in Kingston, the Kingston-Ocho Rios corridor, St. Ann, and St. Elizabeth. Crimson=Kingston metro, Blue=corridor, Green=St. Ann, Purple=St. Elizabeth.</description>
+  <Style id="crimson">
+    <IconStyle><color>ff0000c8</color><scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/blank-blank.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="blue">
+    <IconStyle><color>ffc87800</color><scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/blank-blank.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="green">
+    <IconStyle><color>ff14b814</color><scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/blank-blank.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="purple">
+    <IconStyle><color>ffc800c8</color><scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/blank-blank.png</href></Icon>
+    </IconStyle>
+  </Style>
+    <Folder>
+      <name>Kingston metro (29)</name>
+      <Placemark>
+        <name>St. Matthew's — Allman Town</name>
+        <description>St. Matthew's, Allman Town (Kingston). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.78585,17.98301,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Alban's — Denham Town</name>
+        <description>St. Alban's, Denham Town (Kingston). No photos yet. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.801979,17.978968,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Michael &amp; All Angels — Victoria Ave</name>
+        <description>St. Michael &amp; All Angels, Victoria Ave (Kingston). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.78032,17.9709,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Christ Church — Vineyard Town</name>
+        <description>Christ Church, Vineyard Town (Kingston). 1 photo — needs more. Status: inactive.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.771522,17.989505,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Patrick's — Windward Road</name>
+        <description>St. Patrick's, Windward Road (Kingston). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.75621,17.97438,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Cyprian’s — August Town</name>
+        <description>St. Cyprian’s, August Town (St. Andrew). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.737715,17.990734,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Gabriel's — Brandon Hill</name>
+        <description>St. Gabriel's, Brandon Hill (St. Andrew). No photos yet. Status: inactive.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.8212,18.0123,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Philip's — Brandon Hill</name>
+        <description>St. Philip's, Brandon Hill (St. Andrew). No photos yet. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.8051,18.1482,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Christopher's — Cavaliers</name>
+        <description>St. Christopher's, Cavaliers (St. Andrew). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.83539058378626,18.094818113862672,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Peter's — Clifton</name>
+        <description>St. Peter's, Clifton (St. Andrew). No photos yet. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.7923,18.0823,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Luke's Church — Cross Roads</name>
+        <description>St. Luke's Church, Cross Roads (St. Andrew). No photos yet. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.78907724681167,17.992140266192607,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Church of the Resurrection — Duhaney Park</name>
+        <description>Church of the Resurrection, Duhaney Park (St. Andrew). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.843059,18.030327,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Church of the Transfiguration — Havendale</name>
+        <description>Church of the Transfiguration, Havendale (St. Andrew). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.81476,18.04287,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Cuthbert's — Hunt's Bay</name>
+        <description>St. Cuthbert's, Hunt's Bay (St. Andrew). No photos yet. Status: inactive.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.8512,17.9923,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Matthew's — Jack's Hill</name>
+        <description>St. Matthew's, Jack's Hill (St. Andrew). No photos yet. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.7712,18.0512,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Clement's — Kencot</name>
+        <description>St. Clement's, Kencot (St. Andrew). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.8123,18.0023,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Mary's Chapel — Lawrencefield</name>
+        <description>St. Mary's Chapel, Lawrencefield (St. Andrew). No photos yet. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.7498,18.0521,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Thomas Mission — Majesty Gardens</name>
+        <description>St. Thomas Mission, Majesty Gardens (St. Andrew). No photos yet. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.8212,17.9923,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Mary the Virgin — Marverly</name>
+        <description>St. Mary the Virgin, Marverly (St. Andrew). No photos yet. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.82173523081416,18.024685494252143,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Stephen's — Maryland</name>
+        <description>St. Stephen's, Maryland (St. Andrew). No photos yet. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.7823,18.1212,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Michael's — Mavis Bank</name>
+        <description>St. Michael's, Mavis Bank (St. Andrew). No photos yet. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.65719,18.03102,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Church of Ascension — Mona</name>
+        <description>Church of Ascension, Mona (St. Andrew). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.747225,18.014983,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. James' — Mount James</name>
+        <description>St. James', Mount James (St. Andrew). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.8512,18.0823,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Martin's — Padmore</name>
+        <description>St. Martin's, Padmore (St. Andrew). No photos yet. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.8412,18.0912,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Jude's — Stony Hill</name>
+        <description>St. Jude's, Stony Hill (St. Andrew). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.79700526374288,18.08012625832133,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Joseph's — The Grove</name>
+        <description>St. Joseph's, The Grove (St. Andrew). No photos yet. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.732554,18.029165,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Bartholomew's — Tom's River</name>
+        <description>St. Bartholomew's, Tom's River (St. Andrew). No photos yet. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.7923,18.1112,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Paul's — Tower Hill</name>
+        <description>St. Paul's, Tower Hill (St. Andrew). No photos yet. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.83030757624007,18.00989409230041,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Philip's — Whitfield Town</name>
+        <description>St. Philip's, Whitfield Town (St. Andrew). No photos yet. Status: active.</description>
+        <styleUrl>#crimson</styleUrl>
+        <Point><coordinates>-76.807051,17.999877,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Kgn↔Ocho corridor (48)</name>
+      <Placemark>
+        <name>St. George's — Bartons</name>
+        <description>St. George's, Bartons (St. Catherine). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.0912,18.0623,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>All Saints' — Bellas Gate</name>
+        <description>All Saints', Bellas Gate (St. Catherine). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.0712,18.0823,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. George's — Blackstonedge</name>
+        <description>St. George's, Blackstonedge (St. Catherine). 1 photo — needs more. Status: inactive.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.0723,18.1212,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Lawrence's — Camperdown</name>
+        <description>St. Lawrence's, Camperdown (St. Catherine). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.1584,18.22276,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Paul's — Clapham</name>
+        <description>St. Paul's, Clapham (St. Catherine). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.07673,18.29395,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Barnabas' — Crescent</name>
+        <description>St. Barnabas', Crescent (St. Catherine). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.0412,18.0234,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Faith's — Faith's</name>
+        <description>St. Faith's, Faith's (St. Catherine). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.0823,18.1312,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>SS Michael and George's — Freetown</name>
+        <description>SS Michael and George's, Freetown (St. Catherine). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.14595,17.917912,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Paul's — Goffe / Goba (district)</name>
+        <description>St. Paul's, Goffe / Goba (district) (St. Catherine). No photos yet. Status: inactive.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.0212,18.1023,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>All Saints' — Guy's Hill</name>
+        <description>All Saints', Guy's Hill (St. Catherine). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.99679,18.24716,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Mark's — Ham Walk</name>
+        <description>St. Mark's, Ham Walk (St. Catherine). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.0512,18.0512,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Saviour's — Harewood</name>
+        <description>St. Saviour's, Harewood (St. Catherine). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.0512,18.0923,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Joseph's — Innswood/McCook's Pen</name>
+        <description>St. Joseph's, Innswood/McCook's Pen (St. Catherine). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.0101,17.9766,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Luke's — Juan-de-Bolas</name>
+        <description>St. Luke's, Juan-de-Bolas (St. Catherine). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.14877,18.10227,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Paul's — Kentish</name>
+        <description>St. Paul's, Kentish (St. Catherine). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.16023,18.09127,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. John's Church — Linstead</name>
+        <description>St. John's Church, Linstead (St. Catherine). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.03264,18.13456,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Church of the Holy Trinity — Linstead</name>
+        <description>Church of the Holy Trinity, Linstead (St. Catherine). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.03261,18.134581,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Mark's — Macca Tree</name>
+        <description>St. Mark's, Macca Tree (St. Catherine). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.0512,18.1512,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Andrew's — Marley Hill</name>
+        <description>St. Andrew's, Marley Hill (St. Catherine). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.9512,18.1212,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Phillip's — Morris Hall</name>
+        <description>St. Phillip's, Morris Hall (St. Catherine). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.0512,18.0823,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Boniface — Mount Industry</name>
+        <description>St. Boniface, Mount Industry (St. Catherine). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.9412,18.0923,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Matthew's — Mount Moreland</name>
+        <description>St. Matthew's, Mount Moreland (St. Catherine). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.9923,18.0312,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Holy Trinity — Old Harbour</name>
+        <description>Holy Trinity, Old Harbour (St. Catherine). No photos yet. Status: inactive.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.113108,17.939424,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Philip's — Old Harbour Bay</name>
+        <description>St. Philip's, Old Harbour Bay (St. Catherine). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.096637,17.907396,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Peter's — Old Works</name>
+        <description>St. Peter's, Old Works (St. Catherine). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.9712,18.0712,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. George's — Point Hill</name>
+        <description>St. George's, Point Hill (St. Catherine). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.0712,18.0712,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Church of Reconciliation — Portmore</name>
+        <description>Church of Reconciliation, Portmore (St. Catherine). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.88129636231977,17.95778652760367,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Holy Trinity — Spanish Town</name>
+        <description>Holy Trinity, Spanish Town (St. Catherine). No photos yet. Status: inactive.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.9623,17.9923,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Simon's — Top Hill</name>
+        <description>St. Simon's, Top Hill (St. Catherine). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.963434,18.248243,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Augustine's — Watermount</name>
+        <description>St. Augustine's, Watermount (St. Catherine). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.0023,18.0823,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Alban's — Albion Mountain</name>
+        <description>St. Alban's, Albion Mountain (St. Mary). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.91507,18.37188,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Luke's — Bonny Gate</name>
+        <description>St. Luke's, Bonny Gate (St. Mary). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.94916,18.32324,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Matthew's — Boscobel</name>
+        <description>St. Matthew's, Boscobel (St. Mary). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.97609,18.40537,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Agatha's — Bromley</name>
+        <description>St. Agatha's, Bromley (St. Mary). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.8823,18.2712,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Margaret's — Clifton Lodge</name>
+        <description>St. Margaret's, Clifton Lodge (St. Mary). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.9212,18.3823,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Patrick's — Devon Pen</name>
+        <description>St. Patrick's, Devon Pen (St. Mary). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.8244,18.21561,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Peter's — Galina</name>
+        <description>St. Peter's, Galina (St. Mary). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.90041,18.40265,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. John's — Gayle</name>
+        <description>St. John's, Gayle (St. Mary). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.007236,18.327987,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Cyprian's — Highgate</name>
+        <description>St. Cyprian's, Highgate (St. Mary). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.89556,18.27722,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Andrew's — Labyrinth</name>
+        <description>St. Andrew's, Labyrinth (St. Mary). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.02287,18.3369,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Margaret's — Long Road</name>
+        <description>St. Margaret's, Long Road (St. Mary). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.7712,18.2512,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Martin's — Martin</name>
+        <description>St. Martin's, Martin (St. Mary). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.9923,18.2623,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Elizabeth's — Mason Hall</name>
+        <description>St. Elizabeth's, Mason Hall (St. Mary). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.90906,18.3959,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Holy Trinity — Retreat</name>
+        <description>Holy Trinity, Retreat (St. Mary). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-77.02108,18.38846,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Church of the Epiphany — Richmond</name>
+        <description>Church of the Epiphany, Richmond (St. Mary). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.88799,18.25478,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Mary's Church (Old) — Rio Nuevo</name>
+        <description>St. Mary's Church (Old), Rio Nuevo (St. Mary). No photos yet. Status: ruin.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.8934,18.4098,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Mark's — Scott's Hall</name>
+        <description>St. Mark's, Scott's Hall (St. Mary). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.8394,18.1908,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Gabriel's — Woodside</name>
+        <description>St. Gabriel's, Woodside (St. Mary). No photos yet. Status: active.</description>
+        <styleUrl>#blue</styleUrl>
+        <Point><coordinates>-76.93391,18.25505,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>St. Ann / Ocho Rios (14)</name>
+      <Placemark>
+        <name>St. Luke's — Aboukir</name>
+        <description>St. Luke's, Aboukir (St. Ann). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#green</styleUrl>
+        <Point><coordinates>-77.3623,18.3412,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Andrew's — Bamboo</name>
+        <description>St. Andrew's, Bamboo (St. Ann). No photos yet. Status: active.</description>
+        <styleUrl>#green</styleUrl>
+        <Point><coordinates>-77.3023,18.3623,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. David's — Brittonville</name>
+        <description>St. David's, Brittonville (St. Ann). No photos yet. Status: active.</description>
+        <styleUrl>#green</styleUrl>
+        <Point><coordinates>-77.209,18.36293,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Mark's Church — Brown's Town</name>
+        <description>St. Mark's Church, Brown's Town (St. Ann). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#green</styleUrl>
+        <Point><coordinates>-77.367893,18.393015,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. John's Mission — Chalky Hill</name>
+        <description>St. John's Mission, Chalky Hill (St. Ann). No photos yet. Status: active.</description>
+        <styleUrl>#green</styleUrl>
+        <Point><coordinates>-77.1412,18.3897,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Mark's — Chester</name>
+        <description>St. Mark's, Chester (St. Ann). No photos yet. Status: active.</description>
+        <styleUrl>#green</styleUrl>
+        <Point><coordinates>-77.1512,18.4023,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Matthew's — Claremont</name>
+        <description>St. Matthew's, Claremont (St. Ann). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#green</styleUrl>
+        <Point><coordinates>-77.176691,18.32703,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. James' — Gibraltar</name>
+        <description>St. James', Gibraltar (St. Ann). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#green</styleUrl>
+        <Point><coordinates>-77.3412,18.3412,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Francis Church — Hiattsfield</name>
+        <description>St. Francis Church, Hiattsfield (St. Ann). No photos yet. Status: active.</description>
+        <styleUrl>#green</styleUrl>
+        <Point><coordinates>-77.078656,18.371088,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Saviour's — Lime Hall</name>
+        <description>St. Saviour's, Lime Hall (St. Ann). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#green</styleUrl>
+        <Point><coordinates>-77.213616,18.404765,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Barnabas' — Madras</name>
+        <description>St. Barnabas', Madras (St. Ann). No photos yet. Status: active.</description>
+        <styleUrl>#green</styleUrl>
+        <Point><coordinates>-77.44241,18.30139,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. John's — Ocho Rios</name>
+        <description>St. John's, Ocho Rios (St. Ann). No photos yet. Status: active.</description>
+        <styleUrl>#green</styleUrl>
+        <Point><coordinates>-77.101566,18.400392,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Andrew's — Prickly Pole</name>
+        <description>St. Andrew's, Prickly Pole (St. Ann). No photos yet. Status: active.</description>
+        <styleUrl>#green</styleUrl>
+        <Point><coordinates>-77.259082,18.285354,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Agnes — Salisbury</name>
+        <description>St. Agnes, Salisbury (St. Ann). No photos yet. Status: active.</description>
+        <styleUrl>#green</styleUrl>
+        <Point><coordinates>-77.10633,18.35902,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>St. Elizabeth (14)</name>
+      <Placemark>
+        <name>St. Martin's — Accompong</name>
+        <description>St. Martin's, Accompong (St. Elizabeth). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#purple</styleUrl>
+        <Point><coordinates>-77.777086,18.197176,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Stephen's — Arlington</name>
+        <description>St. Stephen's, Arlington (St. Elizabeth). No photos yet. Status: active.</description>
+        <styleUrl>#purple</styleUrl>
+        <Point><coordinates>-77.7788,18.0038,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Epiphany — Bigwoods District</name>
+        <description>Epiphany, Bigwoods District (St. Elizabeth). No photos yet. Status: active.</description>
+        <styleUrl>#purple</styleUrl>
+        <Point><coordinates>-77.713117,17.931401,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>All Souls' — Brompton</name>
+        <description>All Souls', Brompton (St. Elizabeth). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#purple</styleUrl>
+        <Point><coordinates>-77.877521,18.066262,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Aidan's — Bull Savannah</name>
+        <description>St. Aidan's, Bull Savannah (St. Elizabeth). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#purple</styleUrl>
+        <Point><coordinates>-77.5902,17.8868,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Matthew's — Burnt Savanna</name>
+        <description>St. Matthew's, Burnt Savanna (St. Elizabeth). No photos yet. Status: active.</description>
+        <styleUrl>#purple</styleUrl>
+        <Point><coordinates>-77.755279,18.014899,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>All Saints' — Newell</name>
+        <description>All Saints', Newell (St. Elizabeth). 1 photo — needs more. Status: inactive.</description>
+        <styleUrl>#purple</styleUrl>
+        <Point><coordinates>-77.747066,17.931478,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Matthew's — Orange Grove</name>
+        <description>St. Matthew's, Orange Grove (St. Elizabeth). No photos yet. Status: active.</description>
+        <styleUrl>#purple</styleUrl>
+        <Point><coordinates>-77.6312,17.9412,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Holy Spirit — Pepper / Hermons</name>
+        <description>Holy Spirit, Pepper / Hermons (St. Elizabeth). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#purple</styleUrl>
+        <Point><coordinates>-77.59857,18.02545,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Paul's Church (Old) — Pimento Walk</name>
+        <description>St. Paul's Church (Old), Pimento Walk (St. Elizabeth). No photos yet. Status: inactive.</description>
+        <styleUrl>#purple</styleUrl>
+        <Point><coordinates>-77.7823,18.0521,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Jude's — Slipe</name>
+        <description>St. Jude's, Slipe (St. Elizabeth). No photos yet. Status: active.</description>
+        <styleUrl>#purple</styleUrl>
+        <Point><coordinates>-77.796187,18.05517,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Mary's — Southfield</name>
+        <description>St. Mary's, Southfield (St. Elizabeth). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#purple</styleUrl>
+        <Point><coordinates>-77.666944,17.887778,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Alban's — Stanmore Hill</name>
+        <description>St. Alban's, Stanmore Hill (St. Elizabeth). 1 photo — needs more. Status: active.</description>
+        <styleUrl>#purple</styleUrl>
+        <Point><coordinates>-77.722518,18.000694,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Paul's — Tryall</name>
+        <description>St. Paul's, Tryall (St. Elizabeth). No photos yet. Status: active.</description>
+        <styleUrl>#purple</styleUrl>
+        <Point><coordinates>-77.630392,17.887298,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
